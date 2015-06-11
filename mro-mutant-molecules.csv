@@ -1,48 +1,48 @@
-ID,Label,Class Type,Parent,In Taxon,Mutant Of
-ID,A rdfs:label,CLASS_TYPE,C %,C 'in taxon' some %,C 'mutant of' some %
-MRO:h-2-db-h155a-mutant,H-2-Db H155A mutant,subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
-"MRO:h-2-db-l114q,-f116y,-e119d-mutant","H-2-Db L114Q, F116Y, E119D mutant",subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
-MRO:h-2-db-q70h-mutant,H-2-Db Q70H mutant,subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
-MRO:h-2-db-y159f-mutant,H-2-Db Y159F mutant,subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
-"MRO:h-2-dd-r155y,-d156y,-r169h-mutant","H-2-Dd R155Y, D156Y, R169H mutant",subclass,mutant mouse MHC class I molecule,,H-2-Dd molecule
-"MRO:h-2-iab-i67f,-r70q,-t71k-mutant","H-2-IAb I67F, R70Q, T71K mutant",subclass,mutant mouse MHC class II molecule,,H-2-IAb molecule
-"MRO:h-2-iag7-h56p,-s57d-mutant","H-2-IAg7 H56P, S57D mutant",subclass,mutant mouse MHC class II molecule,,H-2-IAg7 molecule
-MRO:h-2-iak-h9v-mutant,H-2-IAk H9V mutant,subclass,mutant mouse MHC class II molecule,,H-2-IAk molecule
-MRO:h-2-iau-v9h-mutant,H-2-IAu V9H mutant,subclass,mutant mouse MHC class II molecule,,H-2-IAu molecule
-"MRO:h-2-iek-alpha-e11q,-d66n-mutant","H-2-IEk alpha E11Q, D66N mutant",subclass,mutant mouse MHC class II molecule,,H-2-IEk molecule
-"MRO:h-2-kb-d77s,-k89a-mutant","H-2-Kb D77S, K89A mutant",subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
-"MRO:h-2-kb-e152a,-r155y,-l156y-mutant","H-2-Kb E152A, R155Y, L156Y mutant",subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
-MRO:h-2-kb-v9w-mutant,H-2-Kb V9W mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
-"MRO:h-2-kb-y22f,-m23i,-e24s,-d30n-mutant","H-2-Kb Y22F, M23I, E24S, D30N mutant",subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
-MRO:h-2-kb-y84a-mutant,H-2-Kb Y84A mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
-MRO:h-2-kb-y84c-mutant,H-2-Kb Y84C mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
-MRO:h-2-kk-d152a-mutant,H-2-Kk D152A mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kk molecule
-MRO:hla-a*02:01-a150p-mutant,HLA-A*02:01 A150P mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
-MRO:hla-a*02:01-k66a-mutant,HLA-A*02:01 K66A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
-"MRO:hla-a*02:01-k66a,-e63q-mutant","HLA-A*02:01 K66A, E63Q mutant",subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
-MRO:hla-a*02:01-q155a-mutant,HLA-A*02:01 Q155A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
-MRO:hla-a*02:01-t163a-mutant,HLA-A*02:01 T163A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
-MRO:hla-a*02:01-w167a-mutant,HLA-A*02:01 W167A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
-MRO:hla-b*08:01-b:i66a-mutant,HLA-B*08:01 B:I66A mutant,subclass,mutant human MHC class I molecule,,HLA-B*08:01 molecule
-MRO:hla-b*08:01-n80i-mutant,HLA-B*08:01 N80I mutant,subclass,mutant human MHC class I molecule,,HLA-B*08:01 molecule
-MRO:hla-b*27:05-d74y-d77n-mutant,HLA-B*27:05 D74Y D77N mutant,subclass,mutant human MHC class I molecule,,HLA-B*27:05 molecule
-MRO:hla-b*27:05-l81a-mutant,HLA-B*27:05 L81A mutant,subclass,mutant human MHC class I molecule,,HLA-B*27:05 molecule
-"MRO:hla-b*35:08-q65a,-t69a,-q155a-mutant","HLA-B*35:08 Q65A, T69A, Q155A mutant",subclass,mutant human MHC class I molecule,,HLA-B*35:08 molecule
-MRO:hla-b*57:01-i80n-mutant,HLA-B*57:01 I80N mutant,subclass,mutant human MHC class I molecule,,HLA-B*57:01 molecule
-MRO:hla-b*57:01-i80t-mutant,HLA-B*57:01 I80T mutant,subclass,mutant human MHC class I molecule,,HLA-B*57:01 molecule
-MRO:hla-dpa1*01:03-dpb1*02:12-e69k-mutant,HLA-DPA1*01:03/DPB1*02:12 E69K mutant,subclass,mutant human MHC class II molecule,,HLA-DPA1*01:03/DPB1*02:12 molecule
-MRO:hla-dpb1*02:01-e69k-mutant,HLA-DPB1*02:01 E69K mutant,subclass,mutant human MHC class II molecule,,HLA-DPB1*02:01 molecule
-MRO:hla-dra*01:01-f54c-mutant-drb1*01:01,HLA-DRA*01:01 F54C mutant/DRB1*01:01,subclass,mutant human MHC class II molecule,,HLA-DRA*01:01/DRB1*01:01 molecule
-MRO:hla-dra*01:01-drb1*01:01-c30s-mutant,HLA-DRA*01:01/DRB1*01:01 C30S mutant,subclass,mutant human MHC class II molecule,,HLA-DRA*01:01/DRB1*01:01 molecule
-MRO:hla-dra*01:01-drb1*01:01-g86y-mutant,HLA-DRA*01:01/DRB1*01:01 G86Y mutant,subclass,mutant human MHC class II molecule,,HLA-DRA*01:01/DRB1*01:01 molecule
-MRO:hla-drb1*01:01-d57a-mutant,HLA-DRB1*01:01 D57A mutant,subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
-"MRO:hla-drb1*01:01-d57a,-y60h-mutant","HLA-DRB1*01:01 D57A, Y60H mutant",subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
-MRO:hla-drb1*01:01-d57v-mutant,HLA-DRB1*01:01 D57V mutant,subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
-"MRO:hla-drb1*01:01-d57v,-y60s-mutant","HLA-DRB1*01:01 D57V, Y60S mutant",subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
-"MRO:hla-drb1*04:01-q110n,-k139t-mutant","HLA-DRB1*04:01 Q110N, K139T mutant",subclass,mutant human MHC class II molecule,,HLA-DRB1*04:01 molecule
-MRO:mutant-mhc-class-i-molecule,mutant MHC class I molecule,subclass,mutant MHC molecule,,
-MRO:mutant-mhc-class-ii-molecule,mutant MHC class II molecule,subclass,mutant MHC molecule,,
-MRO:mutant-human-mhc-class-i-molecule,mutant human MHC class I molecule,subclass,mutant MHC class I molecule,,
-MRO:mutant-human-mhc-class-ii-molecule,mutant human MHC class II molecule,subclass,mutant MHC class II molecule,,
-MRO:mutant-mouse-mhc-class-i-molecule,mutant mouse MHC class I molecule,subclass,mutant MHC class I molecule,,
-MRO:mutant-mouse-mhc-class-ii-molecule,mutant mouse MHC class II molecule,subclass,mutant MHC class II molecule,,
+ID,Label,IEDB Label,Class Type,Parent,In Taxon,Mutant Of
+ID,A rdfs:label,A OBI:9991118,CLASS_TYPE,C %,C 'in taxon' some %,C 'mutant of' some %
+MRO:h-2-db-h155a-mutant,H-2-Db H155A mutant,H-2-Db H155A mutant,subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
+"MRO:h-2-db-l114q,-f116y,-e119d-mutant","H-2-Db L114Q, F116Y, E119D mutant","H-2-Db L114Q, F116Y, E119D mutant",subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
+MRO:h-2-db-q70h-mutant,H-2-Db Q70H mutant,H-2-Db Q70H mutant,subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
+MRO:h-2-db-y159f-mutant,H-2-Db Y159F mutant,H-2-Db Y159F mutant,subclass,mutant mouse MHC class I molecule,,H-2-Db molecule
+"MRO:h-2-dd-r155y,-d156y,-r169h-mutant","H-2-Dd R155Y, D156Y, R169H mutant","H-2-Dd R155Y, D156Y, R169H mutant",subclass,mutant mouse MHC class I molecule,,H-2-Dd molecule
+"MRO:h-2-iab-i67f,-r70q,-t71k-mutant","H-2-IAb I67F, R70Q, T71K mutant","H-2-IAb I67F, R70Q, T71K mutant",subclass,mutant mouse MHC class II molecule,,H-2-IAb molecule
+"MRO:h-2-iag7-h56p,-s57d-mutant","H-2-IAg7 H56P, S57D mutant","H-2-IAg7 H56P, S57D mutant",subclass,mutant mouse MHC class II molecule,,H-2-IAg7 molecule
+MRO:h-2-iak-h9v-mutant,H-2-IAk H9V mutant,H-2-IAk H9V mutant,subclass,mutant mouse MHC class II molecule,,H-2-IAk molecule
+MRO:h-2-iau-v9h-mutant,H-2-IAu V9H mutant,H-2-IAu V9H mutant,subclass,mutant mouse MHC class II molecule,,H-2-IAu molecule
+"MRO:h-2-iek-alpha-e11q,-d66n-mutant","H-2-IEk alpha E11Q, D66N mutant","H-2-IEk alpha E11Q, D66N mutant",subclass,mutant mouse MHC class II molecule,,H-2-IEk molecule
+"MRO:h-2-kb-d77s,-k89a-mutant","H-2-Kb D77S, K89A mutant","H-2-Kb D77S, K89A mutant",subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
+"MRO:h-2-kb-e152a,-r155y,-l156y-mutant","H-2-Kb E152A, R155Y, L156Y mutant","H-2-Kb E152A, R155Y, L156Y mutant",subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
+MRO:h-2-kb-v9w-mutant,H-2-Kb V9W mutant,H-2-Kb V9W mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
+"MRO:h-2-kb-y22f,-m23i,-e24s,-d30n-mutant","H-2-Kb Y22F, M23I, E24S, D30N mutant","H-2-Kb Y22F, M23I, E24S, D30N mutant",subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
+MRO:h-2-kb-y84a-mutant,H-2-Kb Y84A mutant,H-2-Kb Y84A mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
+MRO:h-2-kb-y84c-mutant,H-2-Kb Y84C mutant,H-2-Kb Y84C mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kb molecule
+MRO:h-2-kk-d152a-mutant,H-2-Kk D152A mutant,H-2-Kk D152A mutant,subclass,mutant mouse MHC class I molecule,,H-2-Kk molecule
+MRO:hla-a*02:01-a150p-mutant,HLA-A*02:01 A150P mutant,HLA-A*02:01 A150P mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
+MRO:hla-a*02:01-k66a-mutant,HLA-A*02:01 K66A mutant,HLA-A*02:01 K66A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
+"MRO:hla-a*02:01-k66a,-e63q-mutant","HLA-A*02:01 K66A, E63Q mutant","HLA-A*02:01 K66A, E63Q mutant",subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
+MRO:hla-a*02:01-q155a-mutant,HLA-A*02:01 Q155A mutant,HLA-A*02:01 Q155A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
+MRO:hla-a*02:01-t163a-mutant,HLA-A*02:01 T163A mutant,HLA-A*02:01 T163A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
+MRO:hla-a*02:01-w167a-mutant,HLA-A*02:01 W167A mutant,HLA-A*02:01 W167A mutant,subclass,mutant human MHC class I molecule,,HLA-A*02:01 molecule
+MRO:hla-b*08:01-b:i66a-mutant,HLA-B*08:01 B:I66A mutant,HLA-B*08:01 B:I66A mutant,subclass,mutant human MHC class I molecule,,HLA-B*08:01 molecule
+MRO:hla-b*08:01-n80i-mutant,HLA-B*08:01 N80I mutant,HLA-B*08:01 N80I mutant,subclass,mutant human MHC class I molecule,,HLA-B*08:01 molecule
+MRO:hla-b*27:05-d74y-d77n-mutant,HLA-B*27:05 D74Y D77N mutant,HLA-B*27:05 D74Y D77N mutant,subclass,mutant human MHC class I molecule,,HLA-B*27:05 molecule
+MRO:hla-b*27:05-l81a-mutant,HLA-B*27:05 L81A mutant,HLA-B*27:05 L81A mutant,subclass,mutant human MHC class I molecule,,HLA-B*27:05 molecule
+"MRO:hla-b*35:08-q65a,-t69a,-q155a-mutant","HLA-B*35:08 Q65A, T69A, Q155A mutant","HLA-B*35:08 Q65A, T69A, Q155A mutant",subclass,mutant human MHC class I molecule,,HLA-B*35:08 molecule
+MRO:hla-b*57:01-i80n-mutant,HLA-B*57:01 I80N mutant,HLA-B*57:01 I80N mutant,subclass,mutant human MHC class I molecule,,HLA-B*57:01 molecule
+MRO:hla-b*57:01-i80t-mutant,HLA-B*57:01 I80T mutant,HLA-B*57:01 I80T mutant,subclass,mutant human MHC class I molecule,,HLA-B*57:01 molecule
+MRO:hla-dpa1*01:03-dpb1*02:12-e69k-mutant,HLA-DPA1*01:03/DPB1*02:12 E69K mutant,HLA-DPA1*01:03/DPB1*02:12 E69K mutant,subclass,mutant human MHC class II molecule,,HLA-DPA1*01:03/DPB1*02:12 molecule
+MRO:hla-dpb1*02:01-e69k-mutant,HLA-DPB1*02:01 E69K mutant,HLA-DPB1*02:01 E69K mutant,subclass,mutant human MHC class II molecule,,HLA-DPB1*02:01 molecule
+MRO:hla-dra*01:01-f54c-mutant-drb1*01:01,HLA-DRA*01:01 F54C mutant/DRB1*01:01,HLA-DRA*01:01 F54C mutant/DRB1*01:01,subclass,mutant human MHC class II molecule,,HLA-DRA*01:01/DRB1*01:01 molecule
+MRO:hla-dra*01:01-drb1*01:01-c30s-mutant,HLA-DRA*01:01/DRB1*01:01 C30S mutant,HLA-DRA*01:01/DRB1*01:01 C30S mutant,subclass,mutant human MHC class II molecule,,HLA-DRA*01:01/DRB1*01:01 molecule
+MRO:hla-dra*01:01-drb1*01:01-g86y-mutant,HLA-DRA*01:01/DRB1*01:01 G86Y mutant,HLA-DRA*01:01/DRB1*01:01 G86Y mutant,subclass,mutant human MHC class II molecule,,HLA-DRA*01:01/DRB1*01:01 molecule
+MRO:hla-drb1*01:01-d57a-mutant,HLA-DRB1*01:01 D57A mutant,HLA-DRB1*01:01 D57A mutant,subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
+"MRO:hla-drb1*01:01-d57a,-y60h-mutant","HLA-DRB1*01:01 D57A, Y60H mutant","HLA-DRB1*01:01 D57A, Y60H mutant",subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
+MRO:hla-drb1*01:01-d57v-mutant,HLA-DRB1*01:01 D57V mutant,HLA-DRB1*01:01 D57V mutant,subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
+"MRO:hla-drb1*01:01-d57v,-y60s-mutant","HLA-DRB1*01:01 D57V, Y60S mutant","HLA-DRB1*01:01 D57V, Y60S mutant",subclass,mutant human MHC class II molecule,,HLA-DRB1*01:01 molecule
+"MRO:hla-drb1*04:01-q110n,-k139t-mutant","HLA-DRB1*04:01 Q110N, K139T mutant","HLA-DRB1*04:01 Q110N, K139T mutant",subclass,mutant human MHC class II molecule,,HLA-DRB1*04:01 molecule
+MRO:mutant-mhc-class-i-molecule,mutant MHC class I molecule,class I,subclass,mutant MHC molecule,,
+MRO:mutant-mhc-class-ii-molecule,mutant MHC class II molecule,class II,subclass,mutant MHC molecule,,
+MRO:mutant-human-mhc-class-i-molecule,mutant human MHC class I molecule,human,subclass,mutant MHC class I molecule,,
+MRO:mutant-human-mhc-class-ii-molecule,mutant human MHC class II molecule,human,subclass,mutant MHC class II molecule,,
+MRO:mutant-mouse-mhc-class-i-molecule,mutant mouse MHC class I molecule,mouse,subclass,mutant MHC class I molecule,,
+MRO:mutant-mouse-mhc-class-ii-molecule,mutant mouse MHC class II molecule,mouse,subclass,mutant MHC class II molecule,,

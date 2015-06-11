@@ -42,14 +42,23 @@
        (map (juxt first #(nth % 2)))
        (into {})))
 
-(defn clean-class
-  "Given a class identifier string, return a nicer string for us in labels."
+(defn get-long-class
+  "Given a class identifier string, return a nicer string for use in labels."
   [class]
   (when class
     (get {"i"  "MHC class I"
           "ii" "MHC class II"}
          (string/lower-case (name class))
          "non-classical MHC")))
+
+(defn get-short-class
+  "Given a class identifier string, return a short string for use in labels."
+  [class]
+  (when class
+    (get {"i"  "class I"
+          "ii" "class II"}
+         (string/lower-case (name class))
+         "non-classical")))
 
 
 ;; We use these definitions to adjust rows of the alleles table.
@@ -59,7 +68,9 @@
   [{:keys [class taxon-id] :as row}]
   (assoc row
          :taxon-id    (to-int taxon-id)
-         :class       (clean-class class)
+         :class       (get-long-class class)
+         :micro-class class
+         :short-class (get-short-class class)
          :taxon-label (get taxon-mhc-names (to-int taxon-id))
          :prefix      (get taxon-mhc-prefixes (to-int taxon-id))))
 
@@ -159,7 +170,7 @@
        {:parent (fill-template parent row)})
      (when parent-fn
        {:parent (parent-fn row)})
-     (for [key [:in-taxon :gene :alpha-chain :beta-chain
+     (for [key [:iedb-label :in-taxon :gene :alpha-chain :beta-chain
                 :with-haplotype :with-serotype :mutant-of]]
        (when (find template key)
          {key (fill-template (get template key) row)})))))
@@ -194,6 +205,10 @@
    ["Parent"     "C %"]
    ["In Taxon"   "C 'in taxon' some %"]])
 
+(def default-iedb-cols
+  (let [[before after] (split-at 2 default-cols)]
+    (vec (concat before [["IEDB Label" "A OBI:9991118"]] after))))
+
 (defn process-table
   "Given a path to an "
   [path]
@@ -223,7 +238,7 @@
           (remove #(= 1 (:taxon-id %)))))
     (apply-templates
      "molecules"
-     (conj default-cols
+     (conj default-iedb-cols
            ["Alpha Chain" "C 'has part' some %"]
            ["Beta Chain"  "C 'has part' some %"]
            ["With Haplotype" "C 'haplotype member of' some %"]
@@ -236,21 +251,21 @@
           (remove #(= 10116 (:taxon-id %)))))
     (apply-templates
      "haplotype-molecules"
-     (conj default-cols
+     (conj default-iedb-cols
            ["With Haplotype" "C 'haplotype member of' some %"])
      (->> rows
           (filter :haplotype)
           (remove #(= 1 (:taxon-id %)))))
     (apply-templates
      "serotype-molecules"
-     (conj default-cols
+     (conj default-iedb-cols
            ["With Serotype" "C 'serotype member of' some %"])
      (->> rows
           (filter :serotype)
           (remove #(= 1 (:taxon-id %)))))
     (apply-templates
      "mutant-molecules"
-     (conj default-cols
+     (conj default-iedb-cols
            ["Mutant Of" "C 'mutant of' some %"])
      (->> rows
           (filter #(or (:chain-i-mutation %) (:chain-ii-mutation %)))))))
