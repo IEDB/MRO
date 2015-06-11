@@ -11,8 +11,39 @@ This is **work in progress**. Here are some remaining tasks:
 - model evidence codes
 - have an expert review rat terms
 - add sequences for the remaining chains, where possible
-- review modeling with others ontology developers and domain experts
-- add textual definitons and additional annotations
+- review modelling with others ontology developers and domain experts
+- add textual definitions and additional annotations
 
 When the ontology is ready for wider use, we will migrate to stable term identifiers. The current term identifiers are UNSTABLE!
+
+
+## Build Instructions
+
+We use [ROBOT](https://github.com/ontodev/robot) and [GNU Make](https://www.gnu.org/software/make/) to build MRO from template files, applying the Quick Term Template (QTT) approach (see [Overcoming the ontology enrichment bottleneck with Quick Term Templates](http://dx.doi.org/10.3233/AO-2011-0086)).
+
+We have one template file for the core (upper-level) terms:
+
+- [mro-core.csv](blob/master/mro-core.csv)
+
+and then one file per branch of the ontology:
+
+- [mro-loci.csv](blob/master/mro-loci.csv)
+- [mro-haplotypes.csv](blob/master/mro-haplotypes.csv)
+- [mro-serotypes.csv](blob/master/mro-serotypes.csv)
+- [mro-molecules.csv](blob/master/mro-molecules.csv)
+- [mro-chains.csv](blob/master/mro-chains.csv)
+- [mro-haplotype-molecules.csv](blob/master/mro-haplotype-molecules.csv)
+- [mro-serotype-molecules.csv](blob/master/mro-serotype-molecules.csv)
+- [mro-mutant-molecules.csv](blob/master/mro-mutant-molecules.csv)
+- [mro-sequences.csv](blob/master/mro-sequences.csv)
+- [mro-evidence-codes.csv](blob/master/mro-evidence-codes.csv)
+
+Two other files contain all remaining terms:
+
+- [mro-obo.txt](blob/master/mro-obo.txt) lists the external ontology terms that we import
+- [mro-manual.owl](blob/master/mro-manual.owl) contains object properties, annotation properties, and axioms that ROBOT cannot yet build from templates
+
+With GNU Make and ROBOT installed, building is as simple as running:
+
+	make
 
