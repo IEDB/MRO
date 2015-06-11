@@ -1,0 +1,2 @@
+ID,Label,Class Type,Parent,In Taxon,With Serotype
+ID,A rdfs:label,CLASS_TYPE,C %,C 'in taxon' some %,C 'serotype member of' some %
