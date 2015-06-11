@@ -6,7 +6,7 @@ catalog-v001.xml
 mro-obo.owl
 mro.owl
 alleles.csv
-~$mro-templates.xlsx
+src/mro/~$templates.xlsx
 lib
 target
 junk
