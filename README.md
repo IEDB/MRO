@@ -23,25 +23,25 @@ We use [ROBOT](https://github.com/ontodev/robot) and [GNU Make](https://www.gnu.
 
 We have one template file for the core (upper-level) terms:
 
-- [mro-core.csv](blob/master/mro-core.csv)
+- [mro-core.csv](mro-core.csv)
 
 and then one file per branch of the ontology:
 
-- [mro-loci.csv](blob/master/mro-loci.csv)
-- [mro-haplotypes.csv](blob/master/mro-haplotypes.csv)
-- [mro-serotypes.csv](blob/master/mro-serotypes.csv)
-- [mro-molecules.csv](blob/master/mro-molecules.csv)
-- [mro-chains.csv](blob/master/mro-chains.csv)
-- [mro-haplotype-molecules.csv](blob/master/mro-haplotype-molecules.csv)
-- [mro-serotype-molecules.csv](blob/master/mro-serotype-molecules.csv)
-- [mro-mutant-molecules.csv](blob/master/mro-mutant-molecules.csv)
-- [mro-sequences.csv](blob/master/mro-sequences.csv)
-- [mro-evidence-codes.csv](blob/master/mro-evidence-codes.csv)
+- [mro-loci.csv](mro-loci.csv)
+- [mro-haplotypes.csv](mro-haplotypes.csv)
+- [mro-serotypes.csv](mro-serotypes.csv)
+- [mro-molecules.csv](mro-molecules.csv)
+- [mro-chains.csv](mro-chains.csv)
+- [mro-haplotype-molecules.csv](mro-haplotype-molecules.csv)
+- [mro-serotype-molecules.csv](mro-serotype-molecules.csv)
+- [mro-mutant-molecules.csv](mro-mutant-molecules.csv)
+- [mro-sequences.csv](mro-sequences.csv)
+- [mro-evidence-codes.csv](mro-evidence-codes.csv)
 
 Two other files contain all remaining terms:
 
-- [mro-obo.txt](blob/master/mro-obo.txt) lists the external ontology terms that we import
-- [mro-manual.owl](blob/master/mro-manual.owl) contains object properties, annotation properties, and axioms that ROBOT cannot yet build from templates
+- [mro-obo.txt](mro-obo.txt) lists the external ontology terms that we import
+- [mro-manual.owl](mro-manual.owl) contains object properties, annotation properties, and axioms that ROBOT cannot yet build from templates
 
 With GNU Make and ROBOT installed, building is as simple as running:
 
