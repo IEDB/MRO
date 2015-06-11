@@ -111,7 +111,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000116 xml:lang="en">2012-04-05:
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
 
 The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
@@ -122,13 +122,13 @@ A statement of necessary and sufficient conditions explaining the meaning of an 
 
 Alan Ruttenberg
 
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria.
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
 
 On the specifics of the proposed definition:
 
-We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
 
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
@@ -532,7 +532,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
         <rdfs:label xml:lang="en">is about</rdfs:label>
-        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of &quot;mentions&quot; relation. Weaken the is_about relationship to be primitive.
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of &quot;mentions&quot; relation. Weaken the is_about relationship to be primitive. 
 
 We will try to build it back up by elaborating the various subproperties that are more precisely defined.
 
@@ -908,22 +908,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/019-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</owl:annotatedTarget>
@@ -932,9 +926,15 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/019-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </owl:annotatedTarget>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
     </owl:Axiom>
     
@@ -979,14 +979,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXP</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:EXP</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inferred from experiment</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ECO_0000006"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXP</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:EXP</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inferred from experiment</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ECO_0000006"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     </owl:Axiom>
@@ -3029,8 +3029,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-i-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 
@@ -3622,9 +3620,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-i-molecule-with-serotype"/>
         <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 
@@ -12833,8 +12829,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-i-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 
@@ -12933,9 +12927,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-i-molecule-with-serotype"/>
         <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 
@@ -13718,12 +13710,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043234"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#serotype-member-of"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-serotype"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-i-serotype"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 
@@ -13785,12 +13777,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043234"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#serotype-member-of"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-serotype"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-serotype"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 
@@ -15466,9 +15458,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-i-molecule-with-serotype"/>
         <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-molecule-with-serotype"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-molecule-with-serotype"/>
     </owl:Class>
     
 

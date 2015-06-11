@@ -132,8 +132,8 @@ MRO:hla-molecule-with-dr6-serotype,HLA molecule with DR6 serotype,equivalent,pro
 MRO:hla-molecule-with-dr7-serotype,HLA molecule with DR7 serotype,equivalent,protein complex,human,HLA-DR7 serotype
 MRO:hla-molecule-with-dr8-serotype,HLA molecule with DR8 serotype,equivalent,protein complex,human,HLA-DR8 serotype
 MRO:hla-molecule-with-dr9-serotype,HLA molecule with DR9 serotype,equivalent,protein complex,human,HLA-DR9 serotype
-MRO:mhc-class-i-molecule-with-serotype,MHC class I molecule with serotype,equivalent,protein complex,,MHC serotype
-MRO:mhc-class-ii-molecule-with-serotype,MHC class II molecule with serotype,equivalent,protein complex,,MHC serotype
+MRO:mhc-class-i-molecule-with-serotype,MHC class I molecule with serotype,equivalent,protein complex,,MHC class I serotype
+MRO:mhc-class-ii-molecule-with-serotype,MHC class II molecule with serotype,equivalent,protein complex,,MHC class II serotype
 MRO:mamu-molecule-with-dr1b-serotype,Mamu molecule with DR1B serotype,equivalent,protein complex,rhesus macaque,Mamu-DR1B serotype
 MRO:mamu-molecule-with-dr2-serotype,Mamu molecule with DR2 serotype,equivalent,protein complex,rhesus macaque,Mamu-DR2 serotype
 MRO:mamu-molecule-with-dr3a-serotype,Mamu molecule with DR3A serotype,equivalent,protein complex,rhesus macaque,Mamu-DR3A serotype
