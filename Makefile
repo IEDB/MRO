@@ -41,6 +41,7 @@ mro-obo.owl: mro-obo.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
 
 # fetch ontology dependencies
 $(LIB)/%:
+	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
 clean:
