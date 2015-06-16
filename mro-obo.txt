@@ -5,7 +5,6 @@ REO:0000079 # genetic locus
 
 # Information
 IAO:0000030 # information content entity
-OBI:0001909 # conclusion based on data
 ECO:0000000 # evidence
 ECO:0000033 # traceable author statement
 ECO:0000006 # experimental evidence
