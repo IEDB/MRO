@@ -188,6 +188,8 @@
            (apply-template template row)))
        (remove nil?)
        (map #(select-keys % (map (comp keyword to-identifier first) cols)))
+       ; filter our the B2M chain
+       (remove #(= (:id %) "MRO:beta-2-microglobulin"))
        set
        (sort-by :label)
        (concat [(->> cols
