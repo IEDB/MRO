@@ -1,7 +1,7 @@
 OBO = http://purl.obolibrary.org/obo
 MRO = https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl
 LIB = lib
-# evidence codes
+
 generatedTables = loci haplotypes serotypes chains molecules haplotype-molecules serotype-molecules mutant-molecules
 generatedCSVFiles = $(foreach o,$(generatedTables),mro-$(o).csv)
 generatedTemplates = $(foreach i,$(generatedCSVFiles),--template $(i))
