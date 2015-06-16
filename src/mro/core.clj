@@ -74,20 +74,29 @@
          :taxon-label (get taxon-mhc-names (to-int taxon-id))
          :prefix      (get taxon-mhc-prefixes (to-int taxon-id))))
 
-(defn special-locus?
-  "True only if the chain-ii locus is DRBn where n is a number"
-  [{:keys [class chain-ii-locus]}]
-  (and (= "MHC class II" class)
-       chain-ii-locus
-       (re-find #"DRB\d$" chain-ii-locus)))
+(defn sublocus?
+  "True only for cow or human DRBn and rat An loci, where n is a number."
+  [{:keys [taxon-id class chain-i-locus chain-ii-locus]}]
+  (or (and (= "MHC class I" class)
+           chain-i-locus
+           (= taxon-id 10116)
+           (re-find #"A\d$" chain-i-locus))
+      (and (= "MHC class II" class)
+           chain-ii-locus
+           (re-find #"DRB\d$" chain-ii-locus))))
 
 ; Define some fnctions to use in the template sheet
 (def special-functions
-  {"special locus?"
-   special-locus?
-   "not special locus?"
-   (comp not special-locus?)
-   "special locus parent"
+  {"sublocus?"
+   sublocus?
+   "not sublocus?"
+   (comp not sublocus?)
+   "special chain-i-locus parent"
+   (fn [{:keys [prefix chain-i-locus]}]
+     (format "%s-%s locus"
+             prefix
+             (string/replace chain-i-locus #"\d$" "")))
+   "special chain-ii-locus parent"
    (fn [{:keys [prefix chain-ii-locus]}]
      (format "%s-%s locus"
              prefix
@@ -104,7 +113,7 @@
    "class II not special?"
    (fn [{:keys [class] :as row}]
      (and (= "MHC class II" class)
-          (not (special-locus? row))))})
+          (not (sublocus? row))))})
 
 
 ;; The hard work is applying templates to rows from the alleles table.
@@ -188,7 +197,7 @@
            (apply-template template row)))
        (remove nil?)
        (map #(select-keys % (map (comp keyword to-identifier first) cols)))
-       ; filter our the B2M chain
+       ; filter out the B2M chain
        (remove #(= (:id %) "MRO:beta-2-microglobulin"))
        set
        (sort-by :label)
