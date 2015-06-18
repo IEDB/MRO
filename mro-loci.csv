@@ -1,114 +1,114 @@
-ID,Label,Class Type,Parent,In Taxon
-ID,A rdfs:label,CLASS_TYPE,C %,C 'in taxon' some %
-MRO:bf-b-locus,BF-B locus,subclass,chicken non-classical MHC locus,
-MRO:bf-bf1-locus,BF-BF1 locus,subclass,chicken MHC class I locus,
-MRO:bf-bf2-locus,BF-BF2 locus,subclass,chicken MHC class I locus,
-MRO:bf-yf-locus,BF-YF locus,subclass,chicken non-classical MHC locus,
-MRO:bola-1-locus,BoLA-1 locus,subclass,cattle MHC class I locus,
-MRO:bola-2-locus,BoLA-2 locus,subclass,cattle MHC class I locus,
-MRO:bola-3-locus,BoLA-3 locus,subclass,cattle MHC class I locus,
-MRO:bola-6-locus,BoLA-6 locus,subclass,cattle MHC class I locus,
-MRO:bola-cd1-locus,BoLA-CD1 locus,subclass,cattle non-classical MHC locus,
-MRO:bola-dqa-locus,BoLA-DQA locus,subclass,cattle MHC class II locus,
-MRO:bola-dqb-locus,BoLA-DQB locus,subclass,cattle MHC class II locus,
-MRO:bola-dra-locus,BoLA-DRA locus,subclass,cattle MHC class II locus,
-MRO:bola-drb-locus,BoLA-DRB locus,subclass,cattle MHC class II locus,
-MRO:bola-drb3-locus,BoLA-DRB3 locus,subclass,BoLA-DRB locus,
-MRO:bola-drb6-locus,BoLA-DRB6 locus,subclass,BoLA-DRB locus,
-MRO:bola-mr1-locus,BoLA-MR1 locus,subclass,cattle non-classical MHC locus,
-MRO:caja-e-locus,Caja-E locus,subclass,marmoset MHC class I locus,
-MRO:caja-g-locus,Caja-G locus,subclass,marmoset MHC class I locus,
-MRO:dla-88-locus,DLA-88 locus,subclass,dog MHC class I locus,
-MRO:ela-n-locus,ELA-N locus,subclass,horse MHC class I locus,
-MRO:gogo-b-locus,Gogo-B locus,subclass,gorilla MHC class I locus,
-MRO:h-2-cd1-locus,H-2-CD1 locus,subclass,mouse non-classical MHC locus,
-MRO:h-2-d-locus,H-2-D locus,subclass,mouse MHC class I locus,
-MRO:h-2-ia-alpha-locus,H-2-IA alpha locus,subclass,mouse MHC class II locus,
-MRO:h-2-ia-beta-locus,H-2-IA beta locus,subclass,mouse MHC class II locus,
-MRO:h-2-ie-alpha-locus,H-2-IE alpha locus,subclass,mouse MHC class II locus,
-MRO:h-2-ie-beta-locus,H-2-IE beta locus,subclass,mouse MHC class II locus,
-MRO:h-2-k-locus,H-2-K locus,subclass,mouse MHC class I locus,
-MRO:h-2-l-locus,H-2-L locus,subclass,mouse MHC class I locus,
-MRO:h-2-m-locus,H-2-M locus,subclass,mouse non-classical MHC locus,
-MRO:h-2-mr1-locus,H-2-MR1 locus,subclass,mouse non-classical MHC locus,
-MRO:h-2-q-locus,H-2-Q locus,subclass,mouse MHC class I locus,
-MRO:hla-a-locus,HLA-A locus,subclass,human MHC class I locus,
-MRO:hla-b-locus,HLA-B locus,subclass,human MHC class I locus,
-MRO:hla-btn3a-locus,HLA-BTN3A locus,subclass,human non-classical MHC locus,
-MRO:hla-c-locus,HLA-C locus,subclass,human MHC class I locus,
-MRO:hla-cd1-locus,HLA-CD1 locus,subclass,human non-classical MHC locus,
-MRO:hla-dpa-locus,HLA-DPA locus,subclass,human MHC class II locus,
-MRO:hla-dpb-locus,HLA-DPB locus,subclass,human MHC class II locus,
-MRO:hla-dqa-locus,HLA-DQA locus,subclass,human MHC class II locus,
-MRO:hla-dqb-locus,HLA-DQB locus,subclass,human MHC class II locus,
-MRO:hla-dra-locus,HLA-DRA locus,subclass,human MHC class II locus,
-MRO:hla-drb-locus,HLA-DRB locus,subclass,human MHC class II locus,
-MRO:hla-drb1-locus,HLA-DRB1 locus,subclass,HLA-DRB locus,
-MRO:hla-drb3-locus,HLA-DRB3 locus,subclass,HLA-DRB locus,
-MRO:hla-drb4-locus,HLA-DRB4 locus,subclass,HLA-DRB locus,
-MRO:hla-drb5-locus,HLA-DRB5 locus,subclass,HLA-DRB locus,
-MRO:hla-e-locus,HLA-E locus,subclass,human non-classical MHC locus,
-MRO:hla-g-locus,HLA-G locus,subclass,human non-classical MHC locus,
-MRO:hla-mr1-locus,HLA-MR1 locus,subclass,human non-classical MHC locus,
-MRO:mhc-class-i-locus,MHC class I locus,subclass,MHC locus,
-MRO:mhc-class-ii-locus,MHC class II locus,subclass,MHC locus,
-MRO:mamu-a-locus,Mamu-A locus,subclass,rhesus macaque MHC class I locus,
-MRO:mamu-b-locus,Mamu-B locus,subclass,rhesus macaque MHC class I locus,
-MRO:mamu-dpa-locus,Mamu-DPA locus,subclass,rhesus macaque MHC class II locus,
-MRO:mamu-dpb-locus,Mamu-DPB locus,subclass,rhesus macaque MHC class II locus,
-MRO:mamu-dra-locus,Mamu-DRA locus,subclass,rhesus macaque MHC class II locus,
-MRO:mamu-drb-locus,Mamu-DRB locus,subclass,rhesus macaque MHC class II locus,
-MRO:papa-a-locus,Papa-A locus,subclass,bonobo MHC class I locus,
-MRO:patr-a-locus,Patr-A locus,subclass,chimpanzee MHC class I locus,
-MRO:patr-al-locus,Patr-AL locus,subclass,chimpanzee non-classical MHC locus,
-MRO:patr-b-locus,Patr-B locus,subclass,chimpanzee MHC class I locus,
-MRO:patr-c-locus,Patr-C locus,subclass,chimpanzee MHC class I locus,
-MRO:patr-dpa-locus,Patr-DPA locus,subclass,chimpanzee MHC class II locus,
-MRO:patr-dpb-locus,Patr-DPB locus,subclass,chimpanzee MHC class II locus,
-MRO:patr-dqa-locus,Patr-DQA locus,subclass,chimpanzee MHC class II locus,
-MRO:patr-dqb-locus,Patr-DQB locus,subclass,chimpanzee MHC class II locus,
-MRO:patr-dra-locus,Patr-DRA locus,subclass,chimpanzee MHC class II locus,
-MRO:patr-drb-locus,Patr-DRB locus,subclass,chimpanzee MHC class II locus,
-MRO:rt1-a-locus,RT1-A locus,subclass,rat MHC class I locus,
-MRO:rt1-a1-locus,RT1-A1 locus,subclass,RT1-A locus,
-MRO:rt1-a2-locus,RT1-A2 locus,subclass,RT1-A locus,
-MRO:rt1-b-locus,RT1-B locus,subclass,rat MHC class II locus,
-MRO:rt1-d-locus,RT1-D locus,subclass,rat MHC class II locus,
-MRO:sla-1-locus,SLA-1 locus,subclass,pig MHC class I locus,
-MRO:sla-2-locus,SLA-2 locus,subclass,pig MHC class I locus,
-MRO:saoe-g-locus,Saoe-G locus,subclass,cotton-top tamarin MHC class I locus,
-MRO:bonobo-mhc-class-i-locus,bonobo MHC class I locus,subclass,MHC class I locus,bonobo
-MRO:bonobo-mhc-class-ii-locus,bonobo MHC class II locus,subclass,MHC class II locus,bonobo
-MRO:cattle-mhc-class-i-locus,cattle MHC class I locus,subclass,MHC class I locus,cattle
-MRO:cattle-mhc-class-ii-locus,cattle MHC class II locus,subclass,MHC class II locus,cattle
-MRO:cattle-non-classical-mhc-locus,cattle non-classical MHC locus,subclass,non-classical MHC locus,cattle
-MRO:chicken-mhc-class-i-locus,chicken MHC class I locus,subclass,MHC class I locus,chicken
-MRO:chicken-mhc-class-ii-locus,chicken MHC class II locus,subclass,MHC class II locus,chicken
-MRO:chicken-non-classical-mhc-locus,chicken non-classical MHC locus,subclass,non-classical MHC locus,chicken
-MRO:chimpanzee-mhc-class-i-locus,chimpanzee MHC class I locus,subclass,MHC class I locus,chimpanzee
-MRO:chimpanzee-mhc-class-ii-locus,chimpanzee MHC class II locus,subclass,MHC class II locus,chimpanzee
-MRO:chimpanzee-non-classical-mhc-locus,chimpanzee non-classical MHC locus,subclass,non-classical MHC locus,chimpanzee
-MRO:cotton-top-tamarin-mhc-class-i-locus,cotton-top tamarin MHC class I locus,subclass,MHC class I locus,cotton-top tamarin
-MRO:cotton-top-tamarin-mhc-class-ii-locus,cotton-top tamarin MHC class II locus,subclass,MHC class II locus,cotton-top tamarin
-MRO:dog-mhc-class-i-locus,dog MHC class I locus,subclass,MHC class I locus,dog
-MRO:dog-mhc-class-ii-locus,dog MHC class II locus,subclass,MHC class II locus,dog
-MRO:gorilla-mhc-class-i-locus,gorilla MHC class I locus,subclass,MHC class I locus,gorilla
-MRO:gorilla-mhc-class-ii-locus,gorilla MHC class II locus,subclass,MHC class II locus,gorilla
-MRO:horse-mhc-class-i-locus,horse MHC class I locus,subclass,MHC class I locus,horse
-MRO:horse-mhc-class-ii-locus,horse MHC class II locus,subclass,MHC class II locus,horse
-MRO:human-mhc-class-i-locus,human MHC class I locus,subclass,MHC class I locus,human
-MRO:human-mhc-class-ii-locus,human MHC class II locus,subclass,MHC class II locus,human
-MRO:human-non-classical-mhc-locus,human non-classical MHC locus,subclass,non-classical MHC locus,human
-MRO:marmoset-mhc-class-i-locus,marmoset MHC class I locus,subclass,MHC class I locus,marmoset
-MRO:mouse-mhc-class-i-locus,mouse MHC class I locus,subclass,MHC class I locus,mouse
-MRO:mouse-mhc-class-ii-locus,mouse MHC class II locus,subclass,MHC class II locus,mouse
-MRO:mouse-non-classical-mhc-locus,mouse non-classical MHC locus,subclass,non-classical MHC locus,mouse
-MRO:non-classical-mhc-locus,non-classical MHC locus,subclass,MHC locus,
-MRO:pig-mhc-class-i-locus,pig MHC class I locus,subclass,MHC class I locus,pig
-MRO:pig-mhc-class-ii-locus,pig MHC class II locus,subclass,MHC class II locus,pig
-MRO:rat-mhc-class-i-locus,rat MHC class I locus,subclass,MHC class I locus,rat
-MRO:rat-mhc-class-ii-locus,rat MHC class II locus,subclass,MHC class II locus,rat
-MRO:rhesus-macaque-mhc-class-i-locus,rhesus macaque MHC class I locus,subclass,MHC class I locus,rhesus macaque
-MRO:rhesus-macaque-mhc-class-ii-locus,rhesus macaque MHC class II locus,subclass,MHC class II locus,rhesus macaque
-MRO:sheep-mhc-class-i-locus,sheep MHC class I locus,subclass,MHC class I locus,sheep
-MRO:sheep-mhc-class-ii-locus,sheep MHC class II locus,subclass,MHC class II locus,sheep
+ID,Label,Synonyms,Class Type,Parent,In Taxon
+ID,A rdfs:label,A IAO:0000118 SPLIT=|,CLASS_TYPE,C %,C 'in taxon' some %
+MRO:bf-b-locus,BF-B locus,,subclass,chicken non-classical MHC locus,
+MRO:bf-bf1-locus,BF-BF1 locus,,subclass,chicken MHC class I locus,
+MRO:bf-bf2-locus,BF-BF2 locus,,subclass,chicken MHC class I locus,
+MRO:bf-yf-locus,BF-YF locus,,subclass,chicken non-classical MHC locus,
+MRO:bola-1-locus,BoLA-1 locus,,subclass,cattle MHC class I locus,
+MRO:bola-2-locus,BoLA-2 locus,,subclass,cattle MHC class I locus,
+MRO:bola-3-locus,BoLA-3 locus,,subclass,cattle MHC class I locus,
+MRO:bola-6-locus,BoLA-6 locus,,subclass,cattle MHC class I locus,
+MRO:bola-cd1-locus,BoLA-CD1 locus,,subclass,cattle non-classical MHC locus,
+MRO:bola-dqa-locus,BoLA-DQA locus,,subclass,cattle MHC class II locus,
+MRO:bola-dqb-locus,BoLA-DQB locus,,subclass,cattle MHC class II locus,
+MRO:bola-dra-locus,BoLA-DRA locus,,subclass,cattle MHC class II locus,
+MRO:bola-drb-locus,BoLA-DRB locus,,subclass,cattle MHC class II locus,
+MRO:bola-drb3-locus,BoLA-DRB3 locus,,subclass,BoLA-DRB locus,
+MRO:bola-drb6-locus,BoLA-DRB6 locus,,subclass,BoLA-DRB locus,
+MRO:bola-mr1-locus,BoLA-MR1 locus,,subclass,cattle non-classical MHC locus,
+MRO:caja-e-locus,Caja-E locus,,subclass,marmoset MHC class I locus,
+MRO:caja-g-locus,Caja-G locus,,subclass,marmoset MHC class I locus,
+MRO:dla-88-locus,DLA-88 locus,,subclass,dog MHC class I locus,
+MRO:ela-n-locus,ELA-N locus,,subclass,horse MHC class I locus,
+MRO:gogo-b-locus,Gogo-B locus,,subclass,gorilla MHC class I locus,
+MRO:h-2-cd1-locus,H-2-CD1 locus,,subclass,mouse non-classical MHC locus,
+MRO:h-2-d-locus,H-2-D locus,,subclass,mouse MHC class I locus,
+MRO:h-2-ia-alpha-locus,H-2-IA alpha locus,,subclass,mouse MHC class II locus,
+MRO:h-2-ia-beta-locus,H-2-IA beta locus,,subclass,mouse MHC class II locus,
+MRO:h-2-ie-alpha-locus,H-2-IE alpha locus,,subclass,mouse MHC class II locus,
+MRO:h-2-ie-beta-locus,H-2-IE beta locus,,subclass,mouse MHC class II locus,
+MRO:h-2-k-locus,H-2-K locus,,subclass,mouse MHC class I locus,
+MRO:h-2-l-locus,H-2-L locus,,subclass,mouse MHC class I locus,
+MRO:h-2-m-locus,H-2-M locus,,subclass,mouse non-classical MHC locus,
+MRO:h-2-mr1-locus,H-2-MR1 locus,,subclass,mouse non-classical MHC locus,
+MRO:h-2-q-locus,H-2-Q locus,,subclass,mouse MHC class I locus,
+MRO:hla-a-locus,HLA-A locus,,subclass,human MHC class I locus,
+MRO:hla-b-locus,HLA-B locus,,subclass,human MHC class I locus,
+MRO:hla-btn3a-locus,HLA-BTN3A locus,,subclass,human non-classical MHC locus,
+MRO:hla-c-locus,HLA-C locus,,subclass,human MHC class I locus,
+MRO:hla-cd1-locus,HLA-CD1 locus,,subclass,human non-classical MHC locus,
+MRO:hla-dpa-locus,HLA-DPA locus,,subclass,human MHC class II locus,
+MRO:hla-dpb-locus,HLA-DPB locus,,subclass,human MHC class II locus,
+MRO:hla-dqa-locus,HLA-DQA locus,,subclass,human MHC class II locus,
+MRO:hla-dqb-locus,HLA-DQB locus,,subclass,human MHC class II locus,
+MRO:hla-dra-locus,HLA-DRA locus,,subclass,human MHC class II locus,
+MRO:hla-drb-locus,HLA-DRB locus,,subclass,human MHC class II locus,
+MRO:hla-drb1-locus,HLA-DRB1 locus,,subclass,HLA-DRB locus,
+MRO:hla-drb3-locus,HLA-DRB3 locus,,subclass,HLA-DRB locus,
+MRO:hla-drb4-locus,HLA-DRB4 locus,,subclass,HLA-DRB locus,
+MRO:hla-drb5-locus,HLA-DRB5 locus,,subclass,HLA-DRB locus,
+MRO:hla-e-locus,HLA-E locus,,subclass,human non-classical MHC locus,
+MRO:hla-g-locus,HLA-G locus,,subclass,human non-classical MHC locus,
+MRO:hla-mr1-locus,HLA-MR1 locus,,subclass,human non-classical MHC locus,
+MRO:mhc-class-i-locus,MHC class I locus,,subclass,MHC locus,
+MRO:mhc-class-ii-locus,MHC class II locus,,subclass,MHC locus,
+MRO:mamu-a-locus,Mamu-A locus,,subclass,rhesus macaque MHC class I locus,
+MRO:mamu-b-locus,Mamu-B locus,,subclass,rhesus macaque MHC class I locus,
+MRO:mamu-dpa-locus,Mamu-DPA locus,,subclass,rhesus macaque MHC class II locus,
+MRO:mamu-dpb-locus,Mamu-DPB locus,,subclass,rhesus macaque MHC class II locus,
+MRO:mamu-dra-locus,Mamu-DRA locus,,subclass,rhesus macaque MHC class II locus,
+MRO:mamu-drb-locus,Mamu-DRB locus,,subclass,rhesus macaque MHC class II locus,
+MRO:papa-a-locus,Papa-A locus,,subclass,bonobo MHC class I locus,
+MRO:patr-a-locus,Patr-A locus,,subclass,chimpanzee MHC class I locus,
+MRO:patr-al-locus,Patr-AL locus,,subclass,chimpanzee non-classical MHC locus,
+MRO:patr-b-locus,Patr-B locus,,subclass,chimpanzee MHC class I locus,
+MRO:patr-c-locus,Patr-C locus,,subclass,chimpanzee MHC class I locus,
+MRO:patr-dpa-locus,Patr-DPA locus,,subclass,chimpanzee MHC class II locus,
+MRO:patr-dpb-locus,Patr-DPB locus,,subclass,chimpanzee MHC class II locus,
+MRO:patr-dqa-locus,Patr-DQA locus,,subclass,chimpanzee MHC class II locus,
+MRO:patr-dqb-locus,Patr-DQB locus,,subclass,chimpanzee MHC class II locus,
+MRO:patr-dra-locus,Patr-DRA locus,,subclass,chimpanzee MHC class II locus,
+MRO:patr-drb-locus,Patr-DRB locus,,subclass,chimpanzee MHC class II locus,
+MRO:rt1-a-locus,RT1-A locus,,subclass,rat MHC class I locus,
+MRO:rt1-a1-locus,RT1-A1 locus,,subclass,RT1-A locus,
+MRO:rt1-a2-locus,RT1-A2 locus,,subclass,RT1-A locus,
+MRO:rt1-b-locus,RT1-B locus,,subclass,rat MHC class II locus,
+MRO:rt1-d-locus,RT1-D locus,,subclass,rat MHC class II locus,
+MRO:sla-1-locus,SLA-1 locus,,subclass,pig MHC class I locus,
+MRO:sla-2-locus,SLA-2 locus,,subclass,pig MHC class I locus,
+MRO:saoe-g-locus,Saoe-G locus,,subclass,cotton-top tamarin MHC class I locus,
+MRO:bonobo-mhc-class-i-locus,bonobo MHC class I locus,,subclass,MHC class I locus,bonobo
+MRO:bonobo-mhc-class-ii-locus,bonobo MHC class II locus,,subclass,MHC class II locus,bonobo
+MRO:cattle-mhc-class-i-locus,cattle MHC class I locus,,subclass,MHC class I locus,cattle
+MRO:cattle-mhc-class-ii-locus,cattle MHC class II locus,,subclass,MHC class II locus,cattle
+MRO:cattle-non-classical-mhc-locus,cattle non-classical MHC locus,,subclass,non-classical MHC locus,cattle
+MRO:chicken-mhc-class-i-locus,chicken MHC class I locus,,subclass,MHC class I locus,chicken
+MRO:chicken-mhc-class-ii-locus,chicken MHC class II locus,,subclass,MHC class II locus,chicken
+MRO:chicken-non-classical-mhc-locus,chicken non-classical MHC locus,,subclass,non-classical MHC locus,chicken
+MRO:chimpanzee-mhc-class-i-locus,chimpanzee MHC class I locus,,subclass,MHC class I locus,chimpanzee
+MRO:chimpanzee-mhc-class-ii-locus,chimpanzee MHC class II locus,,subclass,MHC class II locus,chimpanzee
+MRO:chimpanzee-non-classical-mhc-locus,chimpanzee non-classical MHC locus,,subclass,non-classical MHC locus,chimpanzee
+MRO:cotton-top-tamarin-mhc-class-i-locus,cotton-top tamarin MHC class I locus,,subclass,MHC class I locus,cotton-top tamarin
+MRO:cotton-top-tamarin-mhc-class-ii-locus,cotton-top tamarin MHC class II locus,,subclass,MHC class II locus,cotton-top tamarin
+MRO:dog-mhc-class-i-locus,dog MHC class I locus,,subclass,MHC class I locus,dog
+MRO:dog-mhc-class-ii-locus,dog MHC class II locus,,subclass,MHC class II locus,dog
+MRO:gorilla-mhc-class-i-locus,gorilla MHC class I locus,,subclass,MHC class I locus,gorilla
+MRO:gorilla-mhc-class-ii-locus,gorilla MHC class II locus,,subclass,MHC class II locus,gorilla
+MRO:horse-mhc-class-i-locus,horse MHC class I locus,,subclass,MHC class I locus,horse
+MRO:horse-mhc-class-ii-locus,horse MHC class II locus,,subclass,MHC class II locus,horse
+MRO:human-mhc-class-i-locus,human MHC class I locus,,subclass,MHC class I locus,human
+MRO:human-mhc-class-ii-locus,human MHC class II locus,,subclass,MHC class II locus,human
+MRO:human-non-classical-mhc-locus,human non-classical MHC locus,,subclass,non-classical MHC locus,human
+MRO:marmoset-mhc-class-i-locus,marmoset MHC class I locus,,subclass,MHC class I locus,marmoset
+MRO:mouse-mhc-class-i-locus,mouse MHC class I locus,,subclass,MHC class I locus,mouse
+MRO:mouse-mhc-class-ii-locus,mouse MHC class II locus,,subclass,MHC class II locus,mouse
+MRO:mouse-non-classical-mhc-locus,mouse non-classical MHC locus,,subclass,non-classical MHC locus,mouse
+MRO:non-classical-mhc-locus,non-classical MHC locus,,subclass,MHC locus,
+MRO:pig-mhc-class-i-locus,pig MHC class I locus,,subclass,MHC class I locus,pig
+MRO:pig-mhc-class-ii-locus,pig MHC class II locus,,subclass,MHC class II locus,pig
+MRO:rat-mhc-class-i-locus,rat MHC class I locus,,subclass,MHC class I locus,rat
+MRO:rat-mhc-class-ii-locus,rat MHC class II locus,,subclass,MHC class II locus,rat
+MRO:rhesus-macaque-mhc-class-i-locus,rhesus macaque MHC class I locus,,subclass,MHC class I locus,rhesus macaque
+MRO:rhesus-macaque-mhc-class-ii-locus,rhesus macaque MHC class II locus,,subclass,MHC class II locus,rhesus macaque
+MRO:sheep-mhc-class-i-locus,sheep MHC class I locus,,subclass,MHC class I locus,sheep
+MRO:sheep-mhc-class-ii-locus,sheep MHC class II locus,,subclass,MHC class II locus,sheep

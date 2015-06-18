@@ -48,6 +48,14 @@
        (remove (comp string/blank? second))
        (into {})))
 
+(defn split-list
+  "Split a comma-separated list into a set of strings."
+  [input]
+  (->> (string/split (or input "") #",")
+       (map string/trim)
+       (remove string/blank?)
+       set))
+
 (defn read-csv
   "Load data from the comma-separated values file at the given path."
   [path]
