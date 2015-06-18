@@ -72,34 +72,30 @@
 
 	<!--  http://purl.obolibrary.org/obo/PR_000000001  -->
 
-	<owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
-		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
-		<obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-			An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.
-		</obo:IAO_0000115>
-		<oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000000001</oboInOwl:id>
-		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-			Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].
-		</rdfs:comment>
-		<oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
-		<obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
-	</owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.
+        </obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000000001</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
 
 
-	<!--  http://purl.obolibrary.org/obo/PR_000004580  -->
+    <!--  http://purl.obolibrary.org/obo/PR_000004580  -->
 
-	<owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004580">
-		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-2-microglobulin</rdfs:label>
-		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-		<obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-			A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.
-		</obo:IAO_0000115>
-		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2M</oboInOwl:hasExactSynonym>
-		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
-		<oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000004580</oboInOwl:id>
-		<oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
-		<obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
-	</owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004580">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-2-microglobulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2M</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000004580</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
 
 </rdf:RDF>
 
