@@ -74,33 +74,50 @@
          :taxon-label (get taxon-mhc-names (to-int taxon-id))
          :prefix      (get taxon-mhc-prefixes (to-int taxon-id))))
 
-(defn sublocus?
-  "True only for cow or human DRBn and rat An loci, where n is a number."
-  [{:keys [taxon-id class chain-i-locus chain-ii-locus]}]
-  (or (and (= "MHC class I" class)
-           chain-i-locus
-           (= taxon-id 10116)
-           (re-find #"A\d$" chain-i-locus))
-      (and (= "MHC class II" class)
-           chain-ii-locus
-           (re-find #"DRB\d$" chain-ii-locus))))
+(defn chain-i-sublocus?
+  "True only for rat An loci, where n is a number."
+  [{:keys [taxon-id class chain-i-locus]}]
+  (boolean
+   (and (= "MHC class I" class)
+        chain-i-locus
+        (= taxon-id 10116)
+        (re-find #"^A\d$" chain-i-locus))))
+
+(defn chain-ii-sublocus?
+  "True only for cow or human DRBn loci, where n is a number."
+  [{:keys [taxon-id class chain-ii-locus]}]
+  (boolean
+   (and (= "MHC class II" class)
+        chain-ii-locus
+        (or (= taxon-id 9606) (= taxon-id 9913))
+        (re-find #"^DRB\d$" chain-ii-locus))))
 
 ; Define some fnctions to use in the template sheet
 (def special-functions
-  {"sublocus?"
-   sublocus?
-   "not sublocus?"
-   (comp not sublocus?)
-   "special chain-i-locus parent"
+  {"chain-i sublocus?"
+   chain-i-sublocus?
+   "chain-ii sublocus?"
+   chain-ii-sublocus?
+   "not chain-i sublocus?"
+   (comp not chain-i-sublocus?)
+   "not chain-ii sublocus?"
+   (comp not chain-ii-sublocus?)
+   "chain-i sublocus parent"
    (fn [{:keys [prefix chain-i-locus]}]
      (format "%s-%s locus"
              prefix
              (string/replace chain-i-locus #"\d$" "")))
-   "special chain-ii-locus parent"
+   "chain-ii sublocus parent"
    (fn [{:keys [prefix chain-ii-locus]}]
      (format "%s-%s locus"
              prefix
              (string/replace chain-ii-locus #"\d$" "")))
+   "not prefix chain-i-locus?"
+   (fn [{:keys [prefix chain-i-locus chain-i]}]
+     (not (= (str prefix "-" chain-i-locus) chain-i)))
+   "not prefix chain-ii-locus?"
+   (fn [{:keys [prefix chain-ii-locus chain-ii]}]
+     (not (= (str prefix "-" chain-ii-locus) chain-ii)))
    "human?"
    (fn [{:keys [prefix]}] (= "HLA" prefix))
    "not human?"
@@ -110,10 +127,11 @@
      (or (= "MHC class I" class)
          (and (= "HLA" prefix) (= "E" chain-i-locus))
          (and (= "HLA" prefix) (= "G" chain-i-locus))))
-   "class II not special?"
+   "class II not sublocus?"
    (fn [{:keys [class] :as row}]
      (and (= "MHC class II" class)
-          (not (sublocus? row))))})
+          (not (chain-i-sublocus? row))
+          (not (chain-ii-sublocus? row))))})
 
 
 ;; The hard work is applying templates to rows from the alleles table.
@@ -128,7 +146,10 @@
        (map (fn [{:keys [test parent] :as row}]
               (merge
                row
-               (when test {:test (get special-functions test)})
+               (when test
+                 (if (find special-functions test)
+                   {:test (get special-functions test)}
+                   (throw (Exception. (str "Could not find special function " test)))))
                (when (find special-functions parent)
                  {:parent-fn (get special-functions parent)}))))))
 
@@ -184,6 +205,28 @@
        (when (find template key)
          {key (fill-template (get template key) row)})))))
 
+(defn select-cols
+  "Given a list of columns pairs and a row,
+   return the row with just those column keys selected."
+  [cols row]
+  (select-keys
+   row
+   (->> cols
+        (map (comp keyword to-identifier first))
+        (concat []))))
+
+(defn warn-on-duplicate-ids
+  [rows]
+  (let [ids (->> rows (map :id) set)]
+    (->> rows
+         (map :id)
+         frequencies
+         (filter #(> (second %) 1))
+         (map first)
+         (map (partial println "DUPLICATE ID:"))
+         doall))
+  rows)
+
 (defn apply-templates
   "Given a template group name, a vector of column-name/ROOBT-template pairs,
    and a sequence of rows,
@@ -196,11 +239,12 @@
          (when (template-applies? template row)
            (apply-template template row)))
        (remove nil?)
-       (map #(select-keys % (map (comp keyword to-identifier first) cols)))
+       (map (partial select-cols cols))
        ; filter out the B2M chain
        (remove #(= (:id %) "MRO:beta-2-microglobulin"))
        set
        (sort-by :label)
+       warn-on-duplicate-ids
        (concat [(->> cols
                      (map (juxt (comp keyword to-identifier first) second))
                      (into {}))])
@@ -257,7 +301,7 @@
      (->> rows
           (filter #(contains? #{"complete molecule" "partial molecule"}
                               (:level %)))
-          (remove #(= 1 (:taxon-id %))) 
+          (remove #(= 1 (:taxon-id %)))
           ; TODO: rat data is broken
           (remove #(= 10116 (:taxon-id %)))))
     (apply-templates

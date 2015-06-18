@@ -64,7 +64,6 @@ MRO:h-2-iab-molecule,H-2-IAb molecule,H-2-IAb,equivalent,MHC class II molecule,m
 MRO:h-2-iad-molecule,H-2-IAd molecule,H-2-IAd,equivalent,MHC class II molecule,mouse,H-2-IAd alpha chain,H-2-IAd beta chain,H-2-d haplotype,
 MRO:h-2-iaf-molecule,H-2-IAf molecule,H-2-IAf,equivalent,MHC class II molecule,mouse,H-2-IAf alpha chain,H-2-IAf beta chain,H-2-f haplotype,
 MRO:h-2-iag7-molecule,H-2-IAg7 molecule,H-2-IAg7,equivalent,MHC class II molecule,mouse,H-2-IAg7 alpha chain,H-2-IAg7 beta chain,,
-MRO:h-2-iag7-molecule,H-2-IAg7 molecule,H-2-IAg7,equivalent,MHC class II molecule,mouse,H-2-IAg7 alpha chain,H-2-IAg7 beta chain,H-2-g7 haplotype,
 MRO:h-2-iak-molecule,H-2-IAk molecule,H-2-IAk,equivalent,MHC class II molecule,mouse,H-2-IAk alpha chain,H-2-IAk beta chain,H-2-k haplotype,
 MRO:h-2-iap-molecule,H-2-IAp molecule,H-2-IAp,equivalent,MHC class II molecule,mouse,H-2-IAp alpha chain,H-2-IAp beta chain,H-2-p haplotype,
 MRO:h-2-iaq-molecule,H-2-IAq molecule,H-2-IAq,equivalent,MHC class II molecule,mouse,H-2-IAq alpha chain,H-2-IAq beta chain,H-2-q haplotype,
@@ -90,7 +89,7 @@ MRO:h-2-ld-molecule,H-2-Ld molecule,H-2-Ld,equivalent,MHC class I molecule,mouse
 MRO:h-2-lq-molecule,H-2-Lq molecule,H-2-Lq,equivalent,MHC class I molecule,mouse,H-2-Lq chain,Beta-2-microglobulin,H-2-q haplotype,
 MRO:h-2-m3-molecule,H-2-M3 molecule,H-2-M3,equivalent,non-classical MHC molecule,mouse,H-2-M3 chain,,,
 MRO:h-2-q-molecule,H-2-Q molecule,H-2-Q,equivalent,MHC class I molecule,mouse,H-2-Q chain,Beta-2-microglobulin,,
-MRO:h-2-q9-molecule,H-2-Q9 molecule,H-2-Q9,equivalent,non-classical MHC molecule,mouse,H-2-Q9 chain,,,
+MRO:h-2-q9-molecule,H-2-Q9 molecule,H-2-Q9,equivalent,MHC class I molecule,mouse,H-2-Q9 chain,,,
 MRO:h-2-qa1-molecule,H-2-Qa1 molecule,H-2-Qa1,equivalent,MHC class I molecule,mouse,H-2-Qa1 chain,Beta-2-microglobulin,H-2-a haplotype,
 MRO:h-2-qa2-molecule,H-2-Qa2 molecule,H-2-Qa2,equivalent,MHC class I molecule,mouse,H-2-Qa2 chain,Beta-2-microglobulin,H-2-a haplotype,
 MRO:h-2-qa9-molecule,H-2-Qa9 molecule,H-2-Qa9,equivalent,MHC class I molecule,mouse,H-2-Qa9 chain,Beta-2-microglobulin,H-2-a haplotype,
@@ -345,7 +344,6 @@ MRO:hla-dqb1*06:03-molecule,HLA-DQB1*06:03 molecule,HLA-DQB1*06:03,equivalent,MH
 MRO:hla-dqb1*06:04-molecule,HLA-DQB1*06:04 molecule,HLA-DQB1*06:04,equivalent,MHC class II molecule,human,HLA-DQA chain,HLA-DQB1*06:04 chain,,HLA-DQ6 serotype
 MRO:hla-dqb1*06:05-molecule,HLA-DQB1*06:05 molecule,HLA-DQB1*06:05,equivalent,MHC class II molecule,human,HLA-DQA chain,HLA-DQB1*06:05 chain,,HLA-DQ6 serotype
 MRO:hla-dqb1*06:09-molecule,HLA-DQB1*06:09 molecule,HLA-DQB1*06:09,equivalent,MHC class II molecule,human,HLA-DQA chain,HLA-DQB1*06:09 chain,,HLA-DQ6 serotype
-MRO:hla-dr-molecule,HLA-DR molecule,HLA-DR,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB chain,,
 MRO:hla-dra*01:01-drb1*01:01-molecule,HLA-DRA*01:01/DRB1*01:01 molecule,HLA-DRA*01:01/DRB1*01:01,equivalent,MHC class II molecule,human,HLA-DRA*01:01 chain,HLA-DRB1*01:01 chain,,HLA-DR1 serotype
 MRO:hla-dra*01:01-drb1*03:01-molecule,HLA-DRA*01:01/DRB1*03:01 molecule,HLA-DRA*01:01/DRB1*03:01,equivalent,MHC class II molecule,human,HLA-DRA*01:01 chain,HLA-DRB1*03:01 chain,,HLA-DR3 serotype
 MRO:hla-dra*01:01-drb1*04:01-molecule,HLA-DRA*01:01/DRB1*04:01 molecule,HLA-DRA*01:01/DRB1*04:01,equivalent,MHC class II molecule,human,HLA-DRA*01:01 chain,HLA-DRB1*04:01 chain,,HLA-DR4 serotype

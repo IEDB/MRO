@@ -33,7 +33,6 @@ MRO:bola-dqa*12011-chain,BoLA-DQA*12011 chain,subclass,BoLA-DQA chain,
 MRO:bola-dqa*2201-chain,BoLA-DQA*2201 chain,subclass,BoLA-DQA chain,
 MRO:bola-dqa*2202-chain,BoLA-DQA*2202 chain,subclass,BoLA-DQA chain,
 MRO:bola-dqa*2206-chain,BoLA-DQA*2206 chain,subclass,BoLA-DQA chain,
-MRO:bola-dqb-chain,BoLA-DQB chain,subclass,BoLA-DQB chain,
 MRO:bola-dqb-chain,BoLA-DQB chain,equivalent,protein,BoLA-DQB locus
 MRO:bola-dqb*0402-chain,BoLA-DQB*0402 chain,subclass,BoLA-DQB chain,
 MRO:bola-dqb*0901-chain,BoLA-DQB*0901 chain,subclass,BoLA-DQB chain,
@@ -42,7 +41,6 @@ MRO:bola-dqb*10051-chain,BoLA-DQB*10051 chain,subclass,BoLA-DQB chain,
 MRO:bola-dqb*1201-chain,BoLA-DQB*1201 chain,subclass,BoLA-DQB chain,
 MRO:bola-dqb*1301-chain,BoLA-DQB*1301 chain,subclass,BoLA-DQB chain,
 MRO:bola-dqb*1402-chain,BoLA-DQB*1402 chain,subclass,BoLA-DQB chain,
-MRO:bola-dra-chain,BoLA-DRA chain,subclass,BoLA-DRA chain,
 MRO:bola-dra-chain,BoLA-DRA chain,equivalent,protein,BoLA-DRA locus
 MRO:bola-drb-chain,BoLA-DRB chain,equivalent,protein,BoLA-DRB locus
 MRO:bola-drb3-chain,BoLA-DRB3 chain,equivalent,protein,BoLA-DRB3 locus
@@ -296,12 +294,10 @@ MRO:hla-c*15:02-chain,HLA-C*15:02 chain,subclass,HLA-C chain,
 MRO:hla-c*16:01-chain,HLA-C*16:01 chain,subclass,HLA-C chain,
 MRO:hla-cd1-chain,HLA-CD1 chain,equivalent,protein,HLA-CD1 locus
 MRO:hla-dpa-chain,HLA-DPA chain,equivalent,protein,HLA-DPA locus
-MRO:hla-dpa-chain,HLA-DPA chain,subclass,HLA-DPA chain,
 MRO:hla-dpa1*01:03-chain,HLA-DPA1*01:03 chain,subclass,HLA-DPA chain,
 MRO:hla-dpa1*02:01-chain,HLA-DPA1*02:01 chain,subclass,HLA-DPA chain,
 MRO:hla-dpa1*02:02-chain,HLA-DPA1*02:02 chain,subclass,HLA-DPA chain,
 MRO:hla-dpa1*03:01-chain,HLA-DPA1*03:01 chain,subclass,HLA-DPA chain,
-MRO:hla-dpb-chain,HLA-DPB chain,subclass,HLA-DPB chain,
 MRO:hla-dpb-chain,HLA-DPB chain,equivalent,protein,HLA-DPB locus
 MRO:hla-dpb1*01:01-chain,HLA-DPB1*01:01 chain,subclass,HLA-DPB chain,
 MRO:hla-dpb1*02:01-chain,HLA-DPB1*02:01 chain,subclass,HLA-DPB chain,
@@ -322,7 +318,6 @@ MRO:hla-dpb1*23:01-chain,HLA-DPB1*23:01 chain,subclass,HLA-DPB chain,
 MRO:hla-dpb1*31:01-chain,HLA-DPB1*31:01 chain,subclass,HLA-DPB chain,
 MRO:hla-dpb1*34:01-chain,HLA-DPB1*34:01 chain,subclass,HLA-DPB chain,
 MRO:hla-dqa-chain,HLA-DQA chain,equivalent,protein,HLA-DQA locus
-MRO:hla-dqa-chain,HLA-DQA chain,subclass,HLA-DQA chain,
 MRO:hla-dqa1*01:01-chain,HLA-DQA1*01:01 chain,subclass,HLA-DQA chain,
 MRO:hla-dqa1*01:02-chain,HLA-DQA1*01:02 chain,subclass,HLA-DQA chain,
 MRO:hla-dqa1*01:03-chain,HLA-DQA1*01:03 chain,subclass,HLA-DQA chain,
@@ -335,7 +330,6 @@ MRO:hla-dqa1*04:01-chain,HLA-DQA1*04:01 chain,subclass,HLA-DQA chain,
 MRO:hla-dqa1*05:01-chain,HLA-DQA1*05:01 chain,subclass,HLA-DQA chain,
 MRO:hla-dqa1*05:05-chain,HLA-DQA1*05:05 chain,subclass,HLA-DQA chain,
 MRO:hla-dqa1*06:01-chain,HLA-DQA1*06:01 chain,subclass,HLA-DQA chain,
-MRO:hla-dqb-chain,HLA-DQB chain,subclass,HLA-DQB chain,
 MRO:hla-dqb-chain,HLA-DQB chain,equivalent,protein,HLA-DQB locus
 MRO:hla-dqb*03:02-chain,HLA-DQB*03:02 chain,subclass,HLA-DQB chain,
 MRO:hla-dqb1*02:01-chain,HLA-DQB1*02:01 chain,subclass,HLA-DQB chain,
@@ -358,7 +352,6 @@ MRO:hla-dqb1*06:04-chain,HLA-DQB1*06:04 chain,subclass,HLA-DQB chain,
 MRO:hla-dqb1*06:05-chain,HLA-DQB1*06:05 chain,subclass,HLA-DQB chain,
 MRO:hla-dqb1*06:09-chain,HLA-DQB1*06:09 chain,subclass,HLA-DQB chain,
 MRO:hla-dra-chain,HLA-DRA chain,equivalent,protein,HLA-DRA locus
-MRO:hla-dra-chain,HLA-DRA chain,subclass,HLA-DRA chain,
 MRO:hla-dra*01:01-chain,HLA-DRA*01:01 chain,subclass,HLA-DRA chain,
 MRO:hla-dra*01:02-chain,HLA-DRA*01:02 chain,subclass,HLA-DRA chain,
 MRO:hla-drb-chain,HLA-DRB chain,equivalent,protein,HLA-DRB locus
@@ -431,7 +424,6 @@ MRO:hla-drb4*01:01-chain,HLA-DRB4*01:01 chain,subclass,HLA-DRB4 chain,
 MRO:hla-drb4*01:02-chain,HLA-DRB4*01:02 chain,subclass,HLA-DRB4 chain,
 MRO:hla-drb4*01:03-chain,HLA-DRB4*01:03 chain,subclass,HLA-DRB4 chain,
 MRO:hla-drb5-chain,HLA-DRB5 chain,equivalent,protein,HLA-DRB5 locus
-MRO:hla-drb5*01:01-chain,HLA-DRB5*01:01 chain,subclass,HLA-DRB chain,
 MRO:hla-drb5*01:01-chain,HLA-DRB5*01:01 chain,subclass,HLA-DRB5 chain,
 MRO:hla-drb5*01:02-chain,HLA-DRB5*01:02 chain,subclass,HLA-DRB5 chain,
 MRO:hla-drb5*02:02-chain,HLA-DRB5*02:02 chain,subclass,HLA-DRB5 chain,
@@ -457,11 +449,9 @@ MRO:mamu-b*08-chain,Mamu-B*08 chain,subclass,Mamu-B chain,
 MRO:mamu-b*12-chain,Mamu-B*12 chain,subclass,Mamu-B chain,
 MRO:mamu-b*17-chain,Mamu-B*17 chain,subclass,Mamu-B chain,
 MRO:mamu-dpa-chain,Mamu-DPA chain,equivalent,protein,Mamu-DPA locus
-MRO:mamu-dpa-chain,Mamu-DPA chain,subclass,Mamu-DPA chain,
 MRO:mamu-dpb-chain,Mamu-DPB chain,equivalent,protein,Mamu-DPB locus
 MRO:mamu-dpb1*01:01-chain,Mamu-DPB1*01:01 chain,subclass,Mamu-DPB chain,
 MRO:mamu-dra-chain,Mamu-DRA chain,equivalent,protein,Mamu-DRA locus
-MRO:mamu-dra-chain,Mamu-DRA chain,subclass,Mamu-DRA chain,
 MRO:mamu-drb-chain,Mamu-DRB chain,equivalent,protein,Mamu-DRB locus
 MRO:mamu-drb*w2:01-chain,Mamu-DRB*w2:01 chain,subclass,Mamu-DRB chain,
 MRO:mamu-drb1*03:03-chain,Mamu-DRB1*03:03 chain,subclass,Mamu-DRB chain,
@@ -483,7 +473,6 @@ MRO:patr-a*09:01-chain,Patr-A*09:01 chain,subclass,Patr-A chain,
 MRO:patr-a*11:01-chain,Patr-A*11:01 chain,subclass,Patr-A chain,
 MRO:patr-a*14:01-chain,Patr-A*14:01 chain,subclass,Patr-A chain,
 MRO:patr-al-chain,Patr-AL chain,equivalent,protein,Patr-AL locus
-MRO:patr-al-chain,Patr-AL chain,subclass,Patr-AL chain,
 MRO:patr-b-chain,Patr-B chain,equivalent,protein,Patr-B locus
 MRO:patr-b*01:01-chain,Patr-B*01:01 chain,subclass,Patr-B chain,
 MRO:patr-b*02:01-chain,Patr-B*02:01 chain,subclass,Patr-B chain,
@@ -510,7 +499,6 @@ MRO:patr-dpa-chain,Patr-DPA chain,equivalent,protein,Patr-DPA locus
 MRO:patr-dpb-chain,Patr-DPB chain,equivalent,protein,Patr-DPB locus
 MRO:patr-dqa-chain,Patr-DQA chain,equivalent,protein,Patr-DQA locus
 MRO:patr-dqb-chain,Patr-DQB chain,equivalent,protein,Patr-DQB locus
-MRO:patr-dra-chain,Patr-DRA chain,subclass,Patr-DRA chain,
 MRO:patr-dra-chain,Patr-DRA chain,equivalent,protein,Patr-DRA locus
 MRO:patr-drb-chain,Patr-DRB chain,equivalent,protein,Patr-DRB locus
 MRO:patr-drb1*03:08-chain,Patr-DRB1*03:08 chain,subclass,Patr-DRB chain,
