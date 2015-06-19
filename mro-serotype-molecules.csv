@@ -7,10 +7,10 @@ MRO:bola-molecule-with-a18-serotype,BoLA molecule with A18 serotype,BoLA-A18,,eq
 MRO:bola-molecule-with-a31-serotype,BoLA molecule with A31 serotype,BoLA-A31,,equivalent,protein complex,cattle,BoLA-A31 serotype
 MRO:hla-molecule-with-a1-serotype,HLA molecule with A1 serotype,HLA-A1,HLA-A*01,equivalent,protein complex,human,HLA-A1 serotype
 MRO:hla-molecule-with-a11-serotype,HLA molecule with A11 serotype,HLA-A11,HLA-A*11,equivalent,protein complex,human,HLA-A11 serotype
-MRO:hla-molecule-with-a2-serotype,HLA molecule with A2 serotype,HLA-A2,HLA-A2.2|HLA-A*02,equivalent,protein complex,human,HLA-A2 serotype
+MRO:hla-molecule-with-a2-serotype,HLA molecule with A2 serotype,HLA-A2,HLA-A*02,equivalent,protein complex,human,HLA-A2 serotype
 MRO:hla-molecule-with-a203-serotype,HLA molecule with A203 serotype,HLA-A203,,equivalent,protein complex,human,HLA-A203 serotype
 MRO:hla-molecule-with-a23-serotype,HLA molecule with A23 serotype,HLA-A23,HLA-A*23,equivalent,protein complex,human,HLA-A23 serotype
-MRO:hla-molecule-with-a24-serotype,HLA molecule with A24 serotype,HLA-A24,HLA-A24.1|HLA-A*24,equivalent,protein complex,human,HLA-A24 serotype
+MRO:hla-molecule-with-a24-serotype,HLA molecule with A24 serotype,HLA-A24,HLA-A*24,equivalent,protein complex,human,HLA-A24 serotype
 MRO:hla-molecule-with-a2403-serotype,HLA molecule with A2403 serotype,HLA-A2403,,equivalent,protein complex,human,HLA-A2403 serotype
 MRO:hla-molecule-with-a25-serotype,HLA molecule with A25 serotype,HLA-A25,HLA-A*25,equivalent,protein complex,human,HLA-A25 serotype
 MRO:hla-molecule-with-a26-serotype,HLA molecule with A26 serotype,HLA-A26,HLA-A*26,equivalent,protein complex,human,HLA-A26 serotype
@@ -35,7 +35,7 @@ MRO:hla-molecule-with-b16-serotype,HLA molecule with B16 serotype,HLA-B16,HLA-B*
 MRO:hla-molecule-with-b17-serotype,HLA molecule with B17 serotype,HLA-B17,HLA-B*17,equivalent,protein complex,human,HLA-B17 serotype
 MRO:hla-molecule-with-b18-serotype,HLA molecule with B18 serotype,HLA-B18,HLA-B*18,equivalent,protein complex,human,HLA-B18 serotype
 MRO:hla-molecule-with-b27-serotype,HLA molecule with B27 serotype,HLA-B27,HLA-B*27,equivalent,protein complex,human,HLA-B27 serotype
-MRO:hla-molecule-with-b35-serotype,HLA molecule with B35 serotype,HLA-B35,HLA-B*35|HLA-B35.3,equivalent,protein complex,human,HLA-B35 serotype
+MRO:hla-molecule-with-b35-serotype,HLA molecule with B35 serotype,HLA-B35,HLA-B*35,equivalent,protein complex,human,HLA-B35 serotype
 MRO:hla-molecule-with-b37-serotype,HLA molecule with B37 serotype,HLA-B37,HLA-B*37,equivalent,protein complex,human,HLA-B37 serotype
 MRO:hla-molecule-with-b38-serotype,HLA molecule with B38 serotype,HLA-B38,HLA-B*38,equivalent,protein complex,human,HLA-B38 serotype
 MRO:hla-molecule-with-b39-serotype,HLA molecule with B39 serotype,HLA-B39,HLA-B*39,equivalent,protein complex,human,HLA-B39 serotype
@@ -50,7 +50,7 @@ MRO:hla-molecule-with-b47-serotype,HLA molecule with B47 serotype,HLA-B47,HLA-B*
 MRO:hla-molecule-with-b48-serotype,HLA molecule with B48 serotype,HLA-B48,,equivalent,protein complex,human,HLA-B48 serotype
 MRO:hla-molecule-with-b49-serotype,HLA molecule with B49 serotype,HLA-B49,HLA-B*49,equivalent,protein complex,human,HLA-B49 serotype
 MRO:hla-molecule-with-b50-serotype,HLA molecule with B50 serotype,HLA-B50,HLA-B*50,equivalent,protein complex,human,HLA-B50 serotype
-MRO:hla-molecule-with-b51-serotype,HLA molecule with B51 serotype,HLA-B51,HLA-B51.1|HLA-B*51,equivalent,protein complex,human,HLA-B51 serotype
+MRO:hla-molecule-with-b51-serotype,HLA molecule with B51 serotype,HLA-B51,HLA-B*51,equivalent,protein complex,human,HLA-B51 serotype
 MRO:hla-molecule-with-b5102-serotype,HLA molecule with B5102 serotype,HLA-B5102,,equivalent,protein complex,human,HLA-B5102 serotype
 MRO:hla-molecule-with-b52-serotype,HLA molecule with B52 serotype,HLA-B52,HLA-B*52,equivalent,protein complex,human,HLA-B52 serotype
 MRO:hla-molecule-with-b53-serotype,HLA molecule with B53 serotype,HLA-B53,HLA-B*53,equivalent,protein complex,human,HLA-B53 serotype

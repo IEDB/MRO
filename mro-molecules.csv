@@ -63,7 +63,7 @@ MRO:h-2-ia-molecule,H-2-IA molecule,H-2-IA,,equivalent,MHC class II molecule,mou
 MRO:h-2-iab-molecule,H-2-IAb molecule,H-2-IAb,,equivalent,MHC class II molecule,mouse,H-2-IAb alpha chain,H-2-IAb beta chain,H-2-b haplotype,
 MRO:h-2-iad-molecule,H-2-IAd molecule,H-2-IAd,,equivalent,MHC class II molecule,mouse,H-2-IAd alpha chain,H-2-IAd beta chain,H-2-d haplotype,
 MRO:h-2-iaf-molecule,H-2-IAf molecule,H-2-IAf,,equivalent,MHC class II molecule,mouse,H-2-IAf alpha chain,H-2-IAf beta chain,H-2-f haplotype,
-MRO:h-2-iag7-molecule,H-2-IAg7 molecule,H-2-IAg7,,equivalent,MHC class II molecule,mouse,H-2-IAg7 alpha chain,H-2-IAg7 beta chain,,
+MRO:h-2-iag7-molecule,H-2-IAg7 molecule,H-2-IAg7,,equivalent,MHC class II molecule,mouse,H-2-IAg7 alpha chain,H-2-IAg7 beta chain,H-2-g7 haplotype,
 MRO:h-2-iak-molecule,H-2-IAk molecule,H-2-IAk,,equivalent,MHC class II molecule,mouse,H-2-IAk alpha chain,H-2-IAk beta chain,H-2-k haplotype,
 MRO:h-2-iap-molecule,H-2-IAp molecule,H-2-IAp,,equivalent,MHC class II molecule,mouse,H-2-IAp alpha chain,H-2-IAp beta chain,H-2-p haplotype,
 MRO:h-2-iaq-molecule,H-2-IAq molecule,H-2-IAq,,equivalent,MHC class II molecule,mouse,H-2-IAq alpha chain,H-2-IAq beta chain,H-2-q haplotype,
@@ -94,8 +94,8 @@ MRO:h-2-qa1-molecule,H-2-Qa1 molecule,H-2-Qa1,Qa-1b,equivalent,MHC class I molec
 MRO:h-2-qa2-molecule,H-2-Qa2 molecule,H-2-Qa2,,equivalent,MHC class I molecule,mouse,H-2-Qa2 chain,Beta-2-microglobulin,H-2-a haplotype,
 MRO:h-2-qa9-molecule,H-2-Qa9 molecule,H-2-Qa9,,equivalent,MHC class I molecule,mouse,H-2-Qa9 chain,Beta-2-microglobulin,H-2-a haplotype,
 MRO:hla-a-molecule,HLA-A molecule,HLA-A,,equivalent,MHC class I molecule,human,HLA-A chain,Beta-2-microglobulin,,
-MRO:hla-a*01:01-molecule,HLA-A*01:01 molecule,HLA-A*01:01,HLA-A*010101|HLA-A*0101,equivalent,MHC class I molecule,human,HLA-A*01:01 chain,Beta-2-microglobulin,,HLA-A1 serotype
-MRO:hla-a*02:01-molecule,HLA-A*02:01 molecule,HLA-A*02:01,HLA-A*0201|HLA-A2.1|HLA-A*020101,equivalent,MHC class I molecule,human,HLA-A*02:01 chain,Beta-2-microglobulin,,HLA-A2 serotype
+MRO:hla-a*01:01-molecule,HLA-A*01:01 molecule,HLA-A*01:01,HLA-A*0101,equivalent,MHC class I molecule,human,HLA-A*01:01 chain,Beta-2-microglobulin,,HLA-A1 serotype
+MRO:hla-a*02:01-molecule,HLA-A*02:01 molecule,HLA-A*02:01,HLA-A*0201|HLA-A2.1,equivalent,MHC class I molecule,human,HLA-A*02:01 chain,Beta-2-microglobulin,,HLA-A2 serotype
 MRO:hla-a*02:02-molecule,HLA-A*02:02 molecule,HLA-A*02:02,HLA-A*0202,equivalent,MHC class I molecule,human,HLA-A*02:02 chain,Beta-2-microglobulin,,HLA-A2 serotype
 MRO:hla-a*02:03-molecule,HLA-A*02:03 molecule,HLA-A*02:03,HLA-A*0203,equivalent,MHC class I molecule,human,HLA-A*02:03 chain,Beta-2-microglobulin,,HLA-A203 serotype
 MRO:hla-a*02:04-molecule,HLA-A*02:04 molecule,HLA-A*02:04,HLA-A*0204,equivalent,MHC class I molecule,human,HLA-A*02:04 chain,Beta-2-microglobulin,,HLA-A2 serotype
@@ -114,13 +114,13 @@ MRO:hla-a*02:17-molecule,HLA-A*02:17 molecule,HLA-A*02:17,HLA-A*0217,equivalent,
 MRO:hla-a*02:19-molecule,HLA-A*02:19 molecule,HLA-A*02:19,HLA-A*0219,equivalent,MHC class I molecule,human,HLA-A*02:19 chain,Beta-2-microglobulin,,HLA-A2 serotype
 MRO:hla-a*02:20-molecule,HLA-A*02:20 molecule,HLA-A*02:20,HLA-A*0220,equivalent,MHC class I molecule,human,HLA-A*02:20 chain,Beta-2-microglobulin,,HLA-A2 serotype
 MRO:hla-a*02:50-molecule,HLA-A*02:50 molecule,HLA-A*02:50,HLA-A*0250,equivalent,MHC class I molecule,human,HLA-A*02:50 chain,Beta-2-microglobulin,,HLA-A2 serotype
-MRO:hla-a*03:01-molecule,HLA-A*03:01 molecule,HLA-A*03:01,HLA-A*03010101|HLA-A3.1|HLA-A*0301,equivalent,MHC class I molecule,human,HLA-A*03:01 chain,Beta-2-microglobulin,,HLA-A3 serotype
+MRO:hla-a*03:01-molecule,HLA-A*03:01 molecule,HLA-A*03:01,HLA-A3.1|HLA-A*0301,equivalent,MHC class I molecule,human,HLA-A*03:01 chain,Beta-2-microglobulin,,HLA-A3 serotype
 MRO:hla-a*03:02-molecule,HLA-A*03:02 molecule,HLA-A*03:02,HLA-A*0302,equivalent,MHC class I molecule,human,HLA-A*03:02 chain,Beta-2-microglobulin,,HLA-A3 serotype
 MRO:hla-a*03:19-molecule,HLA-A*03:19 molecule,HLA-A*03:19,HLA-A*0319,equivalent,MHC class I molecule,human,HLA-A*03:19 chain,Beta-2-microglobulin,,HLA-A3 serotype
-MRO:hla-a*11:01-molecule,HLA-A*11:01 molecule,HLA-A*11:01,HLA-A*1101|HLA-A*110101,equivalent,MHC class I molecule,human,HLA-A*11:01 chain,Beta-2-microglobulin,,HLA-A11 serotype
+MRO:hla-a*11:01-molecule,HLA-A*11:01 molecule,HLA-A*11:01,HLA-A*1101,equivalent,MHC class I molecule,human,HLA-A*11:01 chain,Beta-2-microglobulin,,HLA-A11 serotype
 MRO:hla-a*11:02-molecule,HLA-A*11:02 molecule,HLA-A*11:02,HLA-A*1102,equivalent,MHC class I molecule,human,HLA-A*11:02 chain,Beta-2-microglobulin,,HLA-A11 serotype
 MRO:hla-a*23:01-molecule,HLA-A*23:01 molecule,HLA-A*23:01,HLA-A*2301,equivalent,MHC class I molecule,human,HLA-A*23:01 chain,Beta-2-microglobulin,,HLA-A23 serotype
-MRO:hla-a*24:02-molecule,HLA-A*24:02 molecule,HLA-A*24:02,HLA-A*2402|HLA-A*24020101,equivalent,MHC class I molecule,human,HLA-A*24:02 chain,Beta-2-microglobulin,,HLA-A24 serotype
+MRO:hla-a*24:02-molecule,HLA-A*24:02 molecule,HLA-A*24:02,HLA-A*2402,equivalent,MHC class I molecule,human,HLA-A*24:02 chain,Beta-2-microglobulin,,HLA-A24 serotype
 MRO:hla-a*24:03-molecule,HLA-A*24:03 molecule,HLA-A*24:03,HLA-A*2403,equivalent,MHC class I molecule,human,HLA-A*24:03 chain,Beta-2-microglobulin,,HLA-A2403 serotype
 MRO:hla-a*24:06-molecule,HLA-A*24:06 molecule,HLA-A*24:06,HLA-A*2406,equivalent,MHC class I molecule,human,HLA-A*24:06 chain,Beta-2-microglobulin,,HLA-A24 serotype
 MRO:hla-a*24:07-molecule,HLA-A*24:07 molecule,HLA-A*24:07,HLA-A*2407,equivalent,MHC class I molecule,human,HLA-A*24:07 chain,Beta-2-microglobulin,,HLA-A24 serotype
@@ -129,13 +129,13 @@ MRO:hla-a*25:01-molecule,HLA-A*25:01 molecule,HLA-A*25:01,HLA-A*2501,equivalent,
 MRO:hla-a*26:01-molecule,HLA-A*26:01 molecule,HLA-A*26:01,HLA-A*2601,equivalent,MHC class I molecule,human,HLA-A*26:01 chain,Beta-2-microglobulin,,HLA-A26 serotype
 MRO:hla-a*26:02-molecule,HLA-A*26:02 molecule,HLA-A*26:02,HLA-A*2602,equivalent,MHC class I molecule,human,HLA-A*26:02 chain,Beta-2-microglobulin,,HLA-A26 serotype
 MRO:hla-a*26:03-molecule,HLA-A*26:03 molecule,HLA-A*26:03,HLA-A*2603,equivalent,MHC class I molecule,human,HLA-A*26:03 chain,Beta-2-microglobulin,,HLA-A26 serotype
-MRO:hla-a*29:01-molecule,HLA-A*29:01 molecule,HLA-A*29:01,HLA-A*29010101|HLA-A*2901,equivalent,MHC class I molecule,human,HLA-A*29:01 chain,Beta-2-microglobulin,,HLA-A29 serotype
-MRO:hla-a*29:02-molecule,HLA-A*29:02 molecule,HLA-A*29:02,HLA-A*2902|HLA-A*290201,equivalent,MHC class I molecule,human,HLA-A*29:02 chain,Beta-2-microglobulin,,HLA-A29 serotype
+MRO:hla-a*29:01-molecule,HLA-A*29:01 molecule,HLA-A*29:01,HLA-A*2901,equivalent,MHC class I molecule,human,HLA-A*29:01 chain,Beta-2-microglobulin,,HLA-A29 serotype
+MRO:hla-a*29:02-molecule,HLA-A*29:02 molecule,HLA-A*29:02,HLA-A*2902,equivalent,MHC class I molecule,human,HLA-A*29:02 chain,Beta-2-microglobulin,,HLA-A29 serotype
 MRO:hla-a*30:01-molecule,HLA-A*30:01 molecule,HLA-A*30:01,HLA-A*3001,equivalent,MHC class I molecule,human,HLA-A*30:01 chain,Beta-2-microglobulin,,HLA-A30 serotype
 MRO:hla-a*30:02-molecule,HLA-A*30:02 molecule,HLA-A*30:02,HLA-A*3002,equivalent,MHC class I molecule,human,HLA-A*30:02 chain,Beta-2-microglobulin,,HLA-A30 serotype
 MRO:hla-a*30:03-molecule,HLA-A*30:03 molecule,HLA-A*30:03,HLA-A*3003,equivalent,MHC class I molecule,human,HLA-A*30:03 chain,Beta-2-microglobulin,,HLA-A30 serotype
 MRO:hla-a*30:04-molecule,HLA-A*30:04 molecule,HLA-A*30:04,HLA-A*30:04|HLA-A*3004,equivalent,MHC class I molecule,human,HLA-A*30:04 chain,Beta-2-microglobulin,,HLA-A30 serotype
-MRO:hla-a*31:01-molecule,HLA-A*31:01 molecule,HLA-A*31:01,HLA-A*3101|HLA-A*310102,equivalent,MHC class I molecule,human,HLA-A*31:01 chain,Beta-2-microglobulin,,HLA-A31 serotype
+MRO:hla-a*31:01-molecule,HLA-A*31:01 molecule,HLA-A*31:01,HLA-A*3101,equivalent,MHC class I molecule,human,HLA-A*31:01 chain,Beta-2-microglobulin,,HLA-A31 serotype
 MRO:hla-a*32:01-molecule,HLA-A*32:01 molecule,HLA-A*32:01,HLA-A*3201,equivalent,MHC class I molecule,human,HLA-A*32:01 chain,Beta-2-microglobulin,,HLA-A32 serotype
 MRO:hla-a*32:05-molecule,HLA-A*32:05 molecule,HLA-A*32:05,HLA-A*3205,equivalent,MHC class I molecule,human,HLA-A*32:05 chain,Beta-2-microglobulin,,HLA-A32 serotype
 MRO:hla-a*32:07-molecule,HLA-A*32:07 molecule,HLA-A*32:07,HLA-A*3207,equivalent,MHC class I molecule,human,HLA-A*32:07 chain,Beta-2-microglobulin,,HLA-A32 serotype
@@ -143,14 +143,14 @@ MRO:hla-a*32:15-molecule,HLA-A*32:15 molecule,HLA-A*32:15,HLA-A*3215,equivalent,
 MRO:hla-a*33:01-molecule,HLA-A*33:01 molecule,HLA-A*33:01,HLA-A*3301,equivalent,MHC class I molecule,human,HLA-A*33:01 chain,Beta-2-microglobulin,,HLA-A33 serotype
 MRO:hla-a*33:03-molecule,HLA-A*33:03 molecule,HLA-A*33:03,HLA-A*3303,equivalent,MHC class I molecule,human,HLA-A*33:03 chain,Beta-2-microglobulin,,HLA-A33 serotype
 MRO:hla-a*66:01-molecule,HLA-A*66:01 molecule,HLA-A*66:01,HLA-A*6601,equivalent,MHC class I molecule,human,HLA-A*66:01 chain,Beta-2-microglobulin,,HLA-A66 serotype
-MRO:hla-a*68:01-molecule,HLA-A*68:01 molecule,HLA-A*68:01,HLA-A*680101|HLA-A*680102|HLA-A*6801,equivalent,MHC class I molecule,human,HLA-A*68:01 chain,Beta-2-microglobulin,,HLA-A68 serotype
+MRO:hla-a*68:01-molecule,HLA-A*68:01 molecule,HLA-A*68:01,HLA-A*6801,equivalent,MHC class I molecule,human,HLA-A*68:01 chain,Beta-2-microglobulin,,HLA-A68 serotype
 MRO:hla-a*68:02-molecule,HLA-A*68:02 molecule,HLA-A*68:02,HLA-A*6802,equivalent,MHC class I molecule,human,HLA-A*68:02 chain,Beta-2-microglobulin,,HLA-A68 serotype
 MRO:hla-a*68:23-molecule,HLA-A*68:23 molecule,HLA-A*68:23,HLA-A*6823,equivalent,MHC class I molecule,human,HLA-A*68:23 chain,Beta-2-microglobulin,,HLA-A68 serotype
 MRO:hla-a*69:01-molecule,HLA-A*69:01 molecule,HLA-A*69:01,HLA-A*6901,equivalent,MHC class I molecule,human,HLA-A*69:01 chain,Beta-2-microglobulin,,HLA-A69 serotype
 MRO:hla-a*74:01-molecule,HLA-A*74:01 molecule,HLA-A*74:01,HLA-A*7401,equivalent,MHC class I molecule,human,HLA-A*74:01 chain,Beta-2-microglobulin,,HLA-A74 serotype
 MRO:hla-a*80:01-molecule,HLA-A*80:01 molecule,HLA-A*80:01,HLA-A*8001,equivalent,MHC class I molecule,human,HLA-A*80:01 chain,Beta-2-microglobulin,,HLA-A80 serotype
 MRO:hla-b-molecule,HLA-B molecule,HLA-B,,equivalent,MHC class I molecule,human,HLA-B chain,Beta-2-microglobulin,,
-MRO:hla-b*07:02-molecule,HLA-B*07:02 molecule,HLA-B*07:02,HLA-B*0701|HLA-B*07021|HLA-B*070201|HLA-B*0702,equivalent,MHC class I molecule,human,HLA-B*07:02 chain,Beta-2-microglobulin,,HLA-B7 serotype
+MRO:hla-b*07:02-molecule,HLA-B*07:02 molecule,HLA-B*07:02,HLA-B*0701|HLA-B*0702,equivalent,MHC class I molecule,human,HLA-B*07:02 chain,Beta-2-microglobulin,,HLA-B7 serotype
 MRO:hla-b*08:01-molecule,HLA-B*08:01 molecule,HLA-B*08:01,HLA-B*0801,equivalent,MHC class I molecule,human,HLA-B*08:01 chain,Beta-2-microglobulin,,HLA-B8 serotype
 MRO:hla-b*08:02-molecule,HLA-B*08:02 molecule,HLA-B*08:02,HLA-B*0802,equivalent,MHC class I molecule,human,HLA-B*08:02 chain,Beta-2-microglobulin,,HLA-B8 serotype
 MRO:hla-b*08:03-molecule,HLA-B*08:03 molecule,HLA-B*08:03,HLA-B*0803,equivalent,MHC class I molecule,human,HLA-B*08:03 chain,Beta-2-microglobulin,,HLA-B8 serotype
@@ -158,7 +158,7 @@ MRO:hla-b*13:01-molecule,HLA-B*13:01 molecule,HLA-B*13:01,HLA-B*1301,equivalent,
 MRO:hla-b*13:02-molecule,HLA-B*13:02 molecule,HLA-B*13:02,HLA-B*1302,equivalent,MHC class I molecule,human,HLA-B*13:02 chain,Beta-2-microglobulin,,HLA-B13 serotype
 MRO:hla-b*14:02-molecule,HLA-B*14:02 molecule,HLA-B*14:02,HLA-B*1402,equivalent,MHC class I molecule,human,HLA-B*14:02 chain,Beta-2-microglobulin,,HLA-B65 serotype
 MRO:hla-b*14:03-molecule,HLA-B*14:03 molecule,HLA-B*14:03,HLA-B*1403,equivalent,MHC class I molecule,human,HLA-B*14:03 chain,Beta-2-microglobulin,,HLA-B14 serotype
-MRO:hla-b*15:01-molecule,HLA-B*15:01 molecule,HLA-B*15:01,HLA-B*15010101|HLA-B*1501,equivalent,MHC class I molecule,human,HLA-B*15:01 chain,Beta-2-microglobulin,,HLA-B62 serotype
+MRO:hla-b*15:01-molecule,HLA-B*15:01 molecule,HLA-B*15:01,HLA-B*1501,equivalent,MHC class I molecule,human,HLA-B*15:01 chain,Beta-2-microglobulin,,HLA-B62 serotype
 MRO:hla-b*15:02-molecule,HLA-B*15:02 molecule,HLA-B*15:02,HLA-B*1502,equivalent,MHC class I molecule,human,HLA-B*15:02 chain,Beta-2-microglobulin,,HLA-B62 serotype
 MRO:hla-b*15:03-molecule,HLA-B*15:03 molecule,HLA-B*15:03,HLA-B*1503,equivalent,MHC class I molecule,human,HLA-B*15:03 chain,Beta-2-microglobulin,,HLA-B62 serotype
 MRO:hla-b*15:08-molecule,HLA-B*15:08 molecule,HLA-B*15:08,HLA-B*1508,equivalent,MHC class I molecule,human,HLA-B*15:08 chain,Beta-2-microglobulin,,HLA-B75 serotype
@@ -166,7 +166,7 @@ MRO:hla-b*15:09-molecule,HLA-B*15:09 molecule,HLA-B*15:09,HLA-B*1509,equivalent,
 MRO:hla-b*15:10-molecule,HLA-B*15:10 molecule,HLA-B*15:10,HLA-B*1510,equivalent,MHC class I molecule,human,HLA-B*15:10 chain,Beta-2-microglobulin,,HLA-B71 serotype
 MRO:hla-b*15:13-molecule,HLA-B*15:13 molecule,HLA-B*15:13,HLA-B*1513,equivalent,MHC class I molecule,human,HLA-B*15:13 chain,Beta-2-microglobulin,,HLA-B77 serotype
 MRO:hla-b*15:16-molecule,HLA-B*15:16 molecule,HLA-B*15:16,HLA-B*1516,equivalent,MHC class I molecule,human,HLA-B*15:16 chain,Beta-2-microglobulin,,HLA-B63 serotype
-MRO:hla-b*15:17-molecule,HLA-B*15:17 molecule,HLA-B*15:17,HLA-B*1517|HLA-B*15170101,equivalent,MHC class I molecule,human,HLA-B*15:17 chain,Beta-2-microglobulin,,HLA-B63 serotype
+MRO:hla-b*15:17-molecule,HLA-B*15:17 molecule,HLA-B*15:17,HLA-B*1517,equivalent,MHC class I molecule,human,HLA-B*15:17 chain,Beta-2-microglobulin,,HLA-B63 serotype
 MRO:hla-b*15:25-molecule,HLA-B*15:25 molecule,HLA-B*15:25,HLA-B*1525,equivalent,MHC class I molecule,human,HLA-B*15:25 chain,Beta-2-microglobulin,,HLA-B62 serotype
 MRO:hla-b*15:42-molecule,HLA-B*15:42 molecule,HLA-B*15:42,HLA-B*1542,equivalent,MHC class I molecule,human,HLA-B*15:42 chain,Beta-2-microglobulin,,HLA-B15 serotype
 MRO:hla-b*18:01-molecule,HLA-B*18:01 molecule,HLA-B*18:01,HLA-B*1801,equivalent,MHC class I molecule,human,HLA-B*18:01 chain,Beta-2-microglobulin,,HLA-B18 serotype
@@ -174,13 +174,13 @@ MRO:hla-b*27:01-molecule,HLA-B*27:01 molecule,HLA-B*27:01,HLA-B*2701,equivalent,
 MRO:hla-b*27:02-molecule,HLA-B*27:02 molecule,HLA-B*27:02,HLA-B27.2|HLA-B*2702,equivalent,MHC class I molecule,human,HLA-B*27:02 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:03-molecule,HLA-B*27:03 molecule,HLA-B*27:03,HLA-B*2703,equivalent,MHC class I molecule,human,HLA-B*27:03 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:04-molecule,HLA-B*27:04 molecule,HLA-B*27:04,HLA-B*2704,equivalent,MHC class I molecule,human,HLA-B*27:04 chain,Beta-2-microglobulin,,HLA-B27 serotype
-MRO:hla-b*27:05-molecule,HLA-B*27:05 molecule,HLA-B*27:05,HLA-B*270502|HLA-B*2705|HLA-B*27052,equivalent,MHC class I molecule,human,HLA-B*27:05 chain,Beta-2-microglobulin,,HLA-B27 serotype
+MRO:hla-b*27:05-molecule,HLA-B*27:05 molecule,HLA-B*27:05,HLA-B*2705,equivalent,MHC class I molecule,human,HLA-B*27:05 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:06-molecule,HLA-B*27:06 molecule,HLA-B*27:06,HLA-B*2706,equivalent,MHC class I molecule,human,HLA-B*27:06 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:07-molecule,HLA-B*27:07 molecule,HLA-B*27:07,HLA-B*2707,equivalent,MHC class I molecule,human,HLA-B*27:07 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:09-molecule,HLA-B*27:09 molecule,HLA-B*27:09,HLA-B*2709,equivalent,MHC class I molecule,human,HLA-B*27:09 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:10-molecule,HLA-B*27:10 molecule,HLA-B*27:10,HLA-B*2710,equivalent,MHC class I molecule,human,HLA-B*27:10 chain,Beta-2-microglobulin,,HLA-B27 serotype
 MRO:hla-b*27:20-molecule,HLA-B*27:20 molecule,HLA-B*27:20,HLA-B*2720,equivalent,MHC class I molecule,human,HLA-B*27:20 chain,Beta-2-microglobulin,,HLA-B27 serotype
-MRO:hla-b*35:01-molecule,HLA-B*35:01 molecule,HLA-B*35:01,HLA-B*3501|HLA-B*350101,equivalent,MHC class I molecule,human,HLA-B*35:01 chain,Beta-2-microglobulin,,HLA-B35 serotype
+MRO:hla-b*35:01-molecule,HLA-B*35:01 molecule,HLA-B*35:01,HLA-B*3501,equivalent,MHC class I molecule,human,HLA-B*35:01 chain,Beta-2-microglobulin,,HLA-B35 serotype
 MRO:hla-b*35:02-molecule,HLA-B*35:02 molecule,HLA-B*35:02,HLA-B*3502,equivalent,MHC class I molecule,human,HLA-B*35:02 chain,Beta-2-microglobulin,,HLA-B35 serotype
 MRO:hla-b*35:03-molecule,HLA-B*35:03 molecule,HLA-B*35:03,HLA-B*3503,equivalent,MHC class I molecule,human,HLA-B*35:03 chain,Beta-2-microglobulin,,HLA-B35 serotype
 MRO:hla-b*35:04-molecule,HLA-B*35:04 molecule,HLA-B*35:04,HLA-B*3504,equivalent,MHC class I molecule,human,HLA-B*35:04 chain,Beta-2-microglobulin,,HLA-B35 serotype
@@ -190,13 +190,13 @@ MRO:hla-b*35:14-molecule,HLA-B*35:14 molecule,HLA-B*35:14,HLA-B*3514,equivalent,
 MRO:hla-b*37:01-molecule,HLA-B*37:01 molecule,HLA-B*37:01,HLA-B*3701,equivalent,MHC class I molecule,human,HLA-B*37:01 chain,Beta-2-microglobulin,,HLA-B37 serotype
 MRO:hla-b*38:01-molecule,HLA-B*38:01 molecule,HLA-B*38:01,HLA-B*3801,equivalent,MHC class I molecule,human,HLA-B*38:01 chain,Beta-2-microglobulin,,HLA-B38 serotype
 MRO:hla-b*38:02-molecule,HLA-B*38:02 molecule,HLA-B*38:02,HLA-B*3802,equivalent,MHC class I molecule,human,HLA-B*38:02 chain,Beta-2-microglobulin,,HLA-B38 serotype
-MRO:hla-b*39:01-molecule,HLA-B*39:01 molecule,HLA-B*39:01,HLA-B*390101|HLA-B*3901,equivalent,MHC class I molecule,human,HLA-B*39:01 chain,Beta-2-microglobulin,,HLA-B3901 serotype
+MRO:hla-b*39:01-molecule,HLA-B*39:01 molecule,HLA-B*39:01,HLA-B*3901,equivalent,MHC class I molecule,human,HLA-B*39:01 chain,Beta-2-microglobulin,,HLA-B3901 serotype
 MRO:hla-b*39:05-molecule,HLA-B*39:05 molecule,HLA-B*39:05,HLA-B*3905,equivalent,MHC class I molecule,human,HLA-B*39:05 chain,Beta-2-microglobulin,,HLA-B39 serotype
 MRO:hla-b*39:06-molecule,HLA-B*39:06 molecule,HLA-B*39:06,HLA-B*3906,equivalent,MHC class I molecule,human,HLA-B*39:06 chain,Beta-2-microglobulin,,HLA-B39 serotype
 MRO:hla-b*39:10-molecule,HLA-B*39:10 molecule,HLA-B*39:10,HLA-B*3910,equivalent,MHC class I molecule,human,HLA-B*39:10 chain,Beta-2-microglobulin,,HLA-B39 serotype
-MRO:hla-b*40:01-molecule,HLA-B*40:01 molecule,HLA-B*40:01,HLA-B*400102|HLA-B*4001|HLA-B*40011|HLA-B*400101,equivalent,MHC class I molecule,human,HLA-B*40:01 chain,Beta-2-microglobulin,,HLA-B60 serotype
+MRO:hla-b*40:01-molecule,HLA-B*40:01 molecule,HLA-B*40:01,HLA-B*4001,equivalent,MHC class I molecule,human,HLA-B*40:01 chain,Beta-2-microglobulin,,HLA-B60 serotype
 MRO:hla-b*40:02-molecule,HLA-B*40:02 molecule,HLA-B*40:02,HLA-B*4002,equivalent,MHC class I molecule,human,HLA-B*40:02 chain,Beta-2-microglobulin,,HLA-B61 serotype
-MRO:hla-b*40:06-molecule,HLA-B*40:06 molecule,HLA-B*40:06,HLA-B*40060101|HLA-B*4006,equivalent,MHC class I molecule,human,HLA-B*40:06 chain,Beta-2-microglobulin,,HLA-B61 serotype
+MRO:hla-b*40:06-molecule,HLA-B*40:06 molecule,HLA-B*40:06,HLA-B*4006,equivalent,MHC class I molecule,human,HLA-B*40:06 chain,Beta-2-microglobulin,,HLA-B61 serotype
 MRO:hla-b*40:13-molecule,HLA-B*40:13 molecule,HLA-B*40:13,HLA-B*4013,equivalent,MHC class I molecule,human,HLA-B*40:13 chain,Beta-2-microglobulin,,HLA-B40 serotype
 MRO:hla-b*41:01-molecule,HLA-B*41:01 molecule,HLA-B*41:01,HLA-B*4101,equivalent,MHC class I molecule,human,HLA-B*41:01 chain,Beta-2-microglobulin,,HLA-B41 serotype
 MRO:hla-b*41:02-molecule,HLA-B*41:02 molecule,HLA-B*41:02,HLA-B*4102,equivalent,MHC class I molecule,human,HLA-B*41:02 chain,Beta-2-microglobulin,,HLA-B41 serotype
@@ -207,8 +207,8 @@ MRO:hla-b*41:06-molecule,HLA-B*41:06 molecule,HLA-B*41:06,HLA-B*4106,equivalent,
 MRO:hla-b*42:0-molecule,HLA-B*42:0 molecule,HLA-B*42:0,HLA-B*4202,equivalent,MHC class I molecule,human,HLA-B*42:0 chain,Beta-2-microglobulin,,HLA-B42 serotype
 MRO:hla-b*42:01-molecule,HLA-B*42:01 molecule,HLA-B*42:01,HLA-B*4201,equivalent,MHC class I molecule,human,HLA-B*42:01 chain,Beta-2-microglobulin,,HLA-B42 serotype
 MRO:hla-b*44:01-molecule,HLA-B*44:01 molecule,HLA-B*44:01,HLA-B*4401,equivalent,MHC class I molecule,human,HLA-B*44:01 chain,Beta-2-microglobulin,,HLA-B44 serotype
-MRO:hla-b*44:02-molecule,HLA-B*44:02 molecule,HLA-B*44:02,HLA-B*4402|HLA-B*44020101,equivalent,MHC class I molecule,human,HLA-B*44:02 chain,Beta-2-microglobulin,,HLA-B44 serotype
-MRO:hla-b*44:03-molecule,HLA-B*44:03 molecule,HLA-B*44:03,HLA-B*440301|HLA-B*4403,equivalent,MHC class I molecule,human,HLA-B*44:03 chain,Beta-2-microglobulin,,HLA-B44 serotype
+MRO:hla-b*44:02-molecule,HLA-B*44:02 molecule,HLA-B*44:02,HLA-B*4402,equivalent,MHC class I molecule,human,HLA-B*44:02 chain,Beta-2-microglobulin,,HLA-B44 serotype
+MRO:hla-b*44:03-molecule,HLA-B*44:03 molecule,HLA-B*44:03,HLA-B*4403,equivalent,MHC class I molecule,human,HLA-B*44:03 chain,Beta-2-microglobulin,,HLA-B44 serotype
 MRO:hla-b*44:05-molecule,HLA-B*44:05 molecule,HLA-B*44:05,HLA-B*4405,equivalent,MHC class I molecule,human,HLA-B*44:05 chain,Beta-2-microglobulin,,HLA-B44 serotype
 MRO:hla-b*44:08-molecule,HLA-B*44:08 molecule,HLA-B*44:08,HLA-B*4408,equivalent,MHC class I molecule,human,HLA-B*44:08 chain,Beta-2-microglobulin,,HLA-B44 serotype
 MRO:hla-b*44:27-molecule,HLA-B*44:27 molecule,HLA-B*44:27,HLA-B*4427,equivalent,MHC class I molecule,human,HLA-B*44:27 chain,Beta-2-microglobulin,,HLA-B44 serotype
@@ -219,16 +219,16 @@ MRO:hla-b*46:01-molecule,HLA-B*46:01 molecule,HLA-B*46:01,HLA-B*4601,equivalent,
 MRO:hla-b*48:01-molecule,HLA-B*48:01 molecule,HLA-B*48:01,HLA-B*4801,equivalent,MHC class I molecule,human,HLA-B*48:01 chain,Beta-2-microglobulin,,HLA-B48 serotype
 MRO:hla-b*49:01-molecule,HLA-B*49:01 molecule,HLA-B*49:01,HLA-B*4901,equivalent,MHC class I molecule,human,HLA-B*49:01 chain,Beta-2-microglobulin,,HLA-B49 serotype
 MRO:hla-b*50:01-molecule,HLA-B*50:01 molecule,HLA-B*50:01,HLA-B*5001,equivalent,MHC class I molecule,human,HLA-B*50:01 chain,Beta-2-microglobulin,,HLA-B50 serotype
-MRO:hla-b*51:01-molecule,HLA-B*51:01 molecule,HLA-B*51:01,HLA-B*510101|HLA-B*5101,equivalent,MHC class I molecule,human,HLA-B*51:01 chain,Beta-2-microglobulin,,HLA-B51 serotype
-MRO:hla-b*51:02-molecule,HLA-B*51:02 molecule,HLA-B*51:02,HLA-B*5102|HLA-B*510201,equivalent,MHC class I molecule,human,HLA-B*51:02 chain,Beta-2-microglobulin,,HLA-B5102 serotype
+MRO:hla-b*51:01-molecule,HLA-B*51:01 molecule,HLA-B*51:01,HLA-B*5101,equivalent,MHC class I molecule,human,HLA-B*51:01 chain,Beta-2-microglobulin,,HLA-B51 serotype
+MRO:hla-b*51:02-molecule,HLA-B*51:02 molecule,HLA-B*51:02,HLA-B*5102,equivalent,MHC class I molecule,human,HLA-B*51:02 chain,Beta-2-microglobulin,,HLA-B5102 serotype
 MRO:hla-b*51:03-molecule,HLA-B*51:03 molecule,HLA-B*51:03,HLA-B*5103,equivalent,MHC class I molecule,human,HLA-B*51:03 chain,Beta-2-microglobulin,,HLA-B51 serotype
-MRO:hla-b*52:01-molecule,HLA-B*52:01 molecule,HLA-B*52:01,HLA-B*520101|HLA-B*5201,equivalent,MHC class I molecule,human,HLA-B*52:01 chain,Beta-2-microglobulin,,HLA-B52 serotype
+MRO:hla-b*52:01-molecule,HLA-B*52:01 molecule,HLA-B*52:01,HLA-B*5201,equivalent,MHC class I molecule,human,HLA-B*52:01 chain,Beta-2-microglobulin,,HLA-B52 serotype
 MRO:hla-b*53:01-molecule,HLA-B*53:01 molecule,HLA-B*53:01,HLA-B*5301,equivalent,MHC class I molecule,human,HLA-B*53:01 chain,Beta-2-microglobulin,,HLA-B53 serotype
 MRO:hla-b*54:01-molecule,HLA-B*54:01 molecule,HLA-B*54:01,HLA-B*5401,equivalent,MHC class I molecule,human,HLA-B*54:01 chain,Beta-2-microglobulin,,HLA-B54 serotype
 MRO:hla-b*55:01-molecule,HLA-B*55:01 molecule,HLA-B*55:01,HLA-B*5501,equivalent,MHC class I molecule,human,HLA-B*55:01 chain,Beta-2-microglobulin,,HLA-B55 serotype
 MRO:hla-b*55:02-molecule,HLA-B*55:02 molecule,HLA-B*55:02,HLA-B*5502,equivalent,MHC class I molecule,human,HLA-B*55:02 chain,Beta-2-microglobulin,,HLA-B55 serotype
 MRO:hla-b*56:01-molecule,HLA-B*56:01 molecule,HLA-B*56:01,HLA-B*5601,equivalent,MHC class I molecule,human,HLA-B*56:01 chain,Beta-2-microglobulin,,HLA-B56 serotype
-MRO:hla-b*57:01-molecule,HLA-B*57:01 molecule,HLA-B*57:01,HLA-B*5701|HLA-B*570101,equivalent,MHC class I molecule,human,HLA-B*57:01 chain,Beta-2-microglobulin,,HLA-B55 serotype
+MRO:hla-b*57:01-molecule,HLA-B*57:01 molecule,HLA-B*57:01,HLA-B*5701,equivalent,MHC class I molecule,human,HLA-B*57:01 chain,Beta-2-microglobulin,,HLA-B55 serotype
 MRO:hla-b*57:02-molecule,HLA-B*57:02 molecule,HLA-B*57:02,HLA-B*5702,equivalent,MHC class I molecule,human,HLA-B*57:02 chain,Beta-2-microglobulin,,HLA-B57 serotype
 MRO:hla-b*57:03-molecule,HLA-B*57:03 molecule,HLA-B*57:03,HLA-B*5703,equivalent,MHC class I molecule,human,HLA-B*57:03 chain,Beta-2-microglobulin,,HLA-B57 serotype
 MRO:hla-b*58:01-molecule,HLA-B*58:01 molecule,HLA-B*58:01,HLA-B*5801,equivalent,MHC class I molecule,human,HLA-B*58:01 chain,Beta-2-microglobulin,,HLA-B58 serotype
@@ -239,13 +239,13 @@ MRO:hla-b*81:01-molecule,HLA-B*81:01 molecule,HLA-B*81:01,HLA-B*8101,equivalent,
 MRO:hla-b*83:01-molecule,HLA-B*83:01 molecule,HLA-B*83:01,HLA-B*8301,equivalent,MHC class I molecule,human,HLA-B*83:01 chain,Beta-2-microglobulin,,HLA-B8 serotype
 MRO:hla-c-molecule,HLA-C molecule,HLA-C,,equivalent,MHC class I molecule,human,HLA-C chain,Beta-2-microglobulin,,
 MRO:hla-c*01:02-molecule,HLA-C*01:02 molecule,HLA-C*01:02,HLA-Cw*0102|HLA-CW*0102,equivalent,MHC class I molecule,human,HLA-C*01:02 chain,Beta-2-microglobulin,,HLA-Cw1 serotype
-MRO:hla-c*02:02-molecule,HLA-C*02:02 molecule,HLA-C*02:02,HLA-Cw*0202|HLA-C*0202|HLA-Cw*020201,equivalent,MHC class I molecule,human,HLA-C*02:02 chain,Beta-2-microglobulin,,HLA-Cw2 serotype
+MRO:hla-c*02:02-molecule,HLA-C*02:02 molecule,HLA-C*02:02,HLA-Cw*0202|HLA-C*0202,equivalent,MHC class I molecule,human,HLA-C*02:02 chain,Beta-2-microglobulin,,HLA-Cw2 serotype
 MRO:hla-c*03:03-molecule,HLA-C*03:03 molecule,HLA-C*03:03,HLA-Cw*0303,equivalent,MHC class I molecule,human,HLA-C*03:03 chain,Beta-2-microglobulin,,HLA-Cw9 serotype
 MRO:hla-c*03:04-molecule,HLA-C*03:04 molecule,HLA-C*03:04,HLA-Cw*0304|HLA-Cw*0301,equivalent,MHC class I molecule,human,HLA-C*03:04 chain,Beta-2-microglobulin,,HLA-Cw10 serotype
 MRO:hla-c*04:01-molecule,HLA-C*04:01 molecule,HLA-C*04:01,HLA-Cw*0401|HLA-C*0401,equivalent,MHC class I molecule,human,HLA-C*04:01 chain,Beta-2-microglobulin,,
 MRO:hla-c*05:01-molecule,HLA-C*05:01 molecule,HLA-C*05:01,HLA-Cw*0501,equivalent,MHC class I molecule,human,HLA-C*05:01 chain,Beta-2-microglobulin,,HLA-Cw5 serotype
 MRO:hla-c*06:02-molecule,HLA-C*06:02 molecule,HLA-C*06:02,HLA-Cw*0602|HLA-Cw*0601,equivalent,MHC class I molecule,human,HLA-C*06:02 chain,Beta-2-microglobulin,,HLA-Cw6 serotype
-MRO:hla-c*07:01-molecule,HLA-C*07:01 molecule,HLA-C*07:01,HLA-Cw*07011|HLA-Cw*0701|HLA-C*0701,equivalent,MHC class I molecule,human,HLA-C*07:01 chain,Beta-2-microglobulin,,HLA-Cw7 serotype
+MRO:hla-c*07:01-molecule,HLA-C*07:01 molecule,HLA-C*07:01,HLA-Cw*0701|HLA-C*0701,equivalent,MHC class I molecule,human,HLA-C*07:01 chain,Beta-2-microglobulin,,HLA-Cw7 serotype
 MRO:hla-c*07:02-molecule,HLA-C*07:02 molecule,HLA-C*07:02,HLA-Cw*0702,equivalent,MHC class I molecule,human,HLA-C*07:02 chain,Beta-2-microglobulin,,HLA-Cw7 serotype
 MRO:hla-c*07:04-molecule,HLA-C*07:04 molecule,HLA-C*07:04,HLA-Cw*0704,equivalent,MHC class I molecule,human,HLA-C*07:04 chain,Beta-2-microglobulin,,HLA-Cw7 serotype
 MRO:hla-c*08:01-molecule,HLA-C*08:01 molecule,HLA-C*08:01,HLA-Cw*0801,equivalent,MHC class I molecule,human,HLA-C*08:01 chain,Beta-2-microglobulin,,HLA-Cw8 serotype
@@ -256,27 +256,27 @@ MRO:hla-c*14:02-molecule,HLA-C*14:02 molecule,HLA-C*14:02,HLA-C*1402|HLA-Cw*1402
 MRO:hla-c*15:02-molecule,HLA-C*15:02 molecule,HLA-C*15:02,HLA-Cw*1502,equivalent,MHC class I molecule,human,HLA-C*15:02 chain,Beta-2-microglobulin,,
 MRO:hla-c*16:01-molecule,HLA-C*16:01 molecule,HLA-C*16:01,HLA-Cw*1601,equivalent,MHC class I molecule,human,HLA-C*16:01 chain,Beta-2-microglobulin,,
 MRO:hla-dp-molecule,HLA-DP molecule,HLA-DP,,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB chain,,
-MRO:hla-dpa1*01:03-molecule,HLA-DPA1*01:03 molecule,HLA-DPA1*01:03,HLA-DPA1*010301|HLA-DPA1*0103,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB chain,,
+MRO:hla-dpa1*01:03-molecule,HLA-DPA1*01:03 molecule,HLA-DPA1*01:03,HLA-DPA1*0103,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB chain,,
 MRO:hla-dpa1*01:03-dpb1*02:01-molecule,HLA-DPA1*01:03/DPB1*02:01 molecule,HLA-DPA1*01:03/DPB1*02:01,HLA-DPA1*0103/DPB1*0201,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB1*02:01 chain,,
 MRO:hla-dpa1*01:03-dpb1*02:12-molecule,HLA-DPA1*01:03/DPB1*02:12 molecule,HLA-DPA1*01:03/DPB1*02:12,,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB1*02:12 chain,,
 MRO:hla-dpa1*01:03-dpb1*03:01-molecule,HLA-DPA1*01:03/DPB1*03:01 molecule,HLA-DPA1*01:03/DPB1*03:01,HLA-DPA1*0103/DPB1*0301|HLA-DPA1*01031/DPB1*0301,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB1*03:01 chain,,
 MRO:hla-dpa1*01:03-dpb1*04:01-molecule,HLA-DPA1*01:03/DPB1*04:01 molecule,HLA-DPA1*01:03/DPB1*04:01,HLA-DPA1*0103/DPB1*0401,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB1*04:01 chain,,HLA-DP4 serotype
 MRO:hla-dpa1*01:03-dpb1*04:02-molecule,HLA-DPA1*01:03/DPB1*04:02 molecule,HLA-DPA1*01:03/DPB1*04:02,HLA-DPA1*0103/DPB1*0402,equivalent,MHC class II molecule,human,HLA-DPA1*01:03 chain,HLA-DPB1*04:02 chain,,HLA-DP4 serotype
-MRO:hla-dpa1*02:01-molecule,HLA-DPA1*02:01 molecule,HLA-DPA1*02:01,HLA-DPA1*020101|HLA-DPA1*0201,equivalent,MHC class II molecule,human,HLA-DPA1*02:01 chain,HLA-DPB chain,,
+MRO:hla-dpa1*02:01-molecule,HLA-DPA1*02:01 molecule,HLA-DPA1*02:01,HLA-DPA1*0201,equivalent,MHC class II molecule,human,HLA-DPA1*02:01 chain,HLA-DPB chain,,
 MRO:hla-dpa1*02:01-dpb1*01:01-molecule,HLA-DPA1*02:01/DPB1*01:01 molecule,HLA-DPA1*02:01/DPB1*01:01,HLA-DPA1*0201/DPB1*0101,equivalent,MHC class II molecule,human,HLA-DPA1*02:01 chain,HLA-DPB1*01:01 chain,,HLA-DP1 serotype
 MRO:hla-dpa1*02:01-dpb1*05:01-molecule,HLA-DPA1*02:01/DPB1*05:01 molecule,HLA-DPA1*02:01/DPB1*05:01,HLA-DPA1*0201/DPB1*0501,equivalent,MHC class II molecule,human,HLA-DPA1*02:01 chain,HLA-DPB1*05:01 chain,,HLA-DP5 serotype
 MRO:hla-dpa1*02:01-dpb1*09:01-molecule,HLA-DPA1*02:01/DPB1*09:01 molecule,HLA-DPA1*02:01/DPB1*09:01,HLA-DPA1*0201/DPB1*0901|HLA-DPw9,equivalent,MHC class II molecule,human,HLA-DPA1*02:01 chain,HLA-DPB1*09:01 chain,,HLA-DP9 serotype
 MRO:hla-dpa1*02:02-dpb1*05:01-molecule,HLA-DPA1*02:02/DPB1*05:01 molecule,HLA-DPA1*02:02/DPB1*05:01,HLA-DPA1*0202/DPB1*0501,equivalent,MHC class II molecule,human,HLA-DPA1*02:02 chain,HLA-DPB1*05:01 chain,,HLA-DP5 serotype
 MRO:hla-dpa1*03:01-dpb1*04:02-molecule,HLA-DPA1*03:01/DPB1*04:02 molecule,HLA-DPA1*03:01/DPB1*04:02,HLA-DPA1*0301/DPB1*0402,equivalent,MHC class II molecule,human,HLA-DPA1*03:01 chain,HLA-DPB1*04:02 chain,,HLA-DP4 serotype
-MRO:hla-dpb1*01:01-molecule,HLA-DPB1*01:01 molecule,HLA-DPB1*01:01,HLA-DPB1*01011|HLA-DPB1*0101,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*01:01 chain,,HLA-DPw1 serotype
-MRO:hla-dpb1*02:01-molecule,HLA-DPB1*02:01 molecule,HLA-DPB1*02:01,HLA-DPB1*0201|HLA-DPB1*020102,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*02:01 chain,,HLA-DPw2 serotype
+MRO:hla-dpb1*01:01-molecule,HLA-DPB1*01:01 molecule,HLA-DPB1*01:01,HLA-DPB1*0101,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*01:01 chain,,HLA-DPw1 serotype
+MRO:hla-dpb1*02:01-molecule,HLA-DPB1*02:01 molecule,HLA-DPB1*02:01,HLA-DPB1*0201,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*02:01 chain,,HLA-DPw2 serotype
 MRO:hla-dpb1*03:01-molecule,HLA-DPB1*03:01 molecule,HLA-DPB1*03:01,HLA-DPB1*0301,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*03:01 chain,,HLA-DPw3 serotype
 MRO:hla-dpb1*04:01-molecule,HLA-DPB1*04:01 molecule,HLA-DPB1*04:01,HLA-DPB1*0401,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*04:01 chain,,HLA-DPw4 serotype
 MRO:hla-dpb1*04:02-molecule,HLA-DPB1*04:02 molecule,HLA-DPB1*04:02,HLA-DPB1*0402,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*04:02 chain,,HLA-DPw4 serotype
 MRO:hla-dpb1*05:01-molecule,HLA-DPB1*05:01 molecule,HLA-DPB1*05:01,HLA-DPB1*0501,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*05:01 chain,,HLA-DPw5 serotype
 MRO:hla-dpb1*06:01-molecule,HLA-DPB1*06:01 molecule,HLA-DPB1*06:01,HLA-DPB1*0601,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*06:01 chain,,HLA-DPw6 serotype
 MRO:hla-dpb1*09:01-molecule,HLA-DPB1*09:01 molecule,HLA-DPB1*09:01,HLA-DPB1*0901,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*09:01 chain,,
-MRO:hla-dpb1*11:01-molecule,HLA-DPB1*11:01 molecule,HLA-DPB1*11:01,HLA-DPB1*110101|HLA-DPB1*1101,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*11:01 chain,,
+MRO:hla-dpb1*11:01-molecule,HLA-DPB1*11:01 molecule,HLA-DPB1*11:01,HLA-DPB1*1101,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*11:01 chain,,
 MRO:hla-dpb1*13:01-molecule,HLA-DPB1*13:01 molecule,HLA-DPB1*13:01,HLA-DPB1*1301,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*13:01 chain,,
 MRO:hla-dpb1*14:01-molecule,HLA-DPB1*14:01 molecule,HLA-DPB1*14:01,HLA-DPB1*1401,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*14:01 chain,,
 MRO:hla-dpb1*16:01-molecule,HLA-DPB1*16:01 molecule,HLA-DPB1*16:01,HLA-DPB1*1601,equivalent,MHC class II molecule,human,HLA-DPA chain,HLA-DPB1*16:01 chain,,
@@ -367,73 +367,73 @@ MRO:hla-dra*01:02-drb1*13:01-molecule,HLA-DRA*01:02/DRB1*13:01 molecule,HLA-DRA*
 MRO:hla-dra*01:02-drb3*01:01-molecule,HLA-DRA*01:02/DRB3*01:01 molecule,HLA-DRA*01:02/DRB3*01:01,,equivalent,MHC class II molecule,human,HLA-DRA*01:02 chain,HLA-DRB3*01:01 chain,,HLA-DR52 serotype
 MRO:hla-dra*01:02-drb3*02:02-molecule,HLA-DRA*01:02/DRB3*02:02 molecule,HLA-DRA*01:02/DRB3*02:02,,equivalent,MHC class II molecule,human,HLA-DRA*01:02 chain,HLA-DRB3*02:02 chain,,HLA-DR52 serotype
 MRO:hla-drb1-molecule,HLA-DRB1 molecule,HLA-DRB1,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1 chain,,
-MRO:hla-drb1*01:01-molecule,HLA-DRB1*01:01 molecule,HLA-DRB1*01:01,HLA-DRB1*010101|HLA-DRB1*0101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:01 chain,,HLA-DR1 serotype
-MRO:hla-drb1*01:02-molecule,HLA-DRB1*01:02 molecule,HLA-DRB1*01:02,HLA-DRB1*010201|HLA-DRB1*0102,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:02 chain,,HLA-DR1 serotype
+MRO:hla-drb1*01:01-molecule,HLA-DRB1*01:01 molecule,HLA-DRB1*01:01,HLA-DRB1*0101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:01 chain,,HLA-DR1 serotype
+MRO:hla-drb1*01:02-molecule,HLA-DRB1*01:02 molecule,HLA-DRB1*01:02,HLA-DRB1*0102,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:02 chain,,HLA-DR1 serotype
 MRO:hla-drb1*01:03-molecule,HLA-DRB1*01:03 molecule,HLA-DRB1*01:03,HLA-DRB1*0103,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:03 chain,,HLA-DR103 serotype
 MRO:hla-drb1*01:04-molecule,HLA-DRB1*01:04 molecule,HLA-DRB1*01:04,HLA-DRB1*0104,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:04 chain,,HLA-DR1 serotype
 MRO:hla-drb1*01:07-molecule,HLA-DRB1*01:07 molecule,HLA-DRB1*01:07,HLA-DRB1*0107,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*01:07 chain,,HLA-DR1 serotype
-MRO:hla-drb1*03:01-molecule,HLA-DRB1*03:01 molecule,HLA-DRB1*03:01,HLA-DRB1*0301|HLA-DRB1*03011,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:01 chain,,HLA-DR17 serotype
+MRO:hla-drb1*03:01-molecule,HLA-DRB1*03:01 molecule,HLA-DRB1*03:01,HLA-DRB1*0301,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:01 chain,,HLA-DR17 serotype
 MRO:hla-drb1*03:02-molecule,HLA-DRB1*03:02 molecule,HLA-DRB1*03:02,HLA-DRB1*0302,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:02 chain,,HLA-DR18 serotype
 MRO:hla-drb1*03:03-molecule,HLA-DRB1*03:03 molecule,HLA-DRB1*03:03,HLA-DRB1*0303,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:03 chain,,HLA-DR18 serotype
 MRO:hla-drb1*03:04-molecule,HLA-DRB1*03:04 molecule,HLA-DRB1*03:04,HLA-DRB1*0304,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:04 chain,,HLA-DR17 serotype
 MRO:hla-drb1*03:05-molecule,HLA-DRB1*03:05 molecule,HLA-DRB1*03:05,HLA-DRB1*0305,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:05 chain,,HLA-DR3 serotype
 MRO:hla-drb1*03:11-molecule,HLA-DRB1*03:11 molecule,HLA-DRB1*03:11,HLA-DRB1*0311,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*03:11 chain,,HLA-DR17 serotype
-MRO:hla-drb1*04:01-molecule,HLA-DRB1*04:01 molecule,HLA-DRB1*04:01,HLA-DRB1*040101|HLA-DRB1*0401,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:01 chain,,HLA-DR4 serotype
+MRO:hla-drb1*04:01-molecule,HLA-DRB1*04:01 molecule,HLA-DRB1*04:01,HLA-DRB1*0401,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:01 chain,,HLA-DR4 serotype
 MRO:hla-drb1*04:02-molecule,HLA-DRB1*04:02 molecule,HLA-DRB1*04:02,HLA-DRB1*0402,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:02 chain,,HLA-DR4 serotype
-MRO:hla-drb1*04:03-molecule,HLA-DRB1*04:03 molecule,HLA-DRB1*04:03,HLA-DRB1*0403|HLA-DRB1*040301,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:03 chain,,HLA-DR4 serotype
+MRO:hla-drb1*04:03-molecule,HLA-DRB1*04:03 molecule,HLA-DRB1*04:03,HLA-DRB1*0403,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:03 chain,,HLA-DR4 serotype
 MRO:hla-drb1*04:04-molecule,HLA-DRB1*04:04 molecule,HLA-DRB1*04:04,HLA-DRB1*0404,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:04 chain,,HLA-DR4 serotype
-MRO:hla-drb1*04:05-molecule,HLA-DRB1*04:05 molecule,HLA-DRB1*04:05,HLA-DRB1*040501|HLA-DRB1*0405,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:05 chain,,HLA-DR4 serotype
+MRO:hla-drb1*04:05-molecule,HLA-DRB1*04:05 molecule,HLA-DRB1*04:05,HLA-DRB1*0405,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:05 chain,,HLA-DR4 serotype
 MRO:hla-drb1*04:06-molecule,HLA-DRB1*04:06 molecule,HLA-DRB1*04:06,HLA-DRB1*0406,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:06 chain,,HLA-DR4 serotype
-MRO:hla-drb1*04:07-molecule,HLA-DRB1*04:07 molecule,HLA-DRB1*04:07,HLA-DRB1*040701|HLA-DRB1*0407,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:07 chain,,HLA-DR4 serotype
+MRO:hla-drb1*04:07-molecule,HLA-DRB1*04:07 molecule,HLA-DRB1*04:07,HLA-DRB1*0407,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:07 chain,,HLA-DR4 serotype
 MRO:hla-drb1*04:08-molecule,HLA-DRB1*04:08 molecule,HLA-DRB1*04:08,HLA-DRB1*0408,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:08 chain,,HLA-DR4 serotype
 MRO:hla-drb1*04:10-molecule,HLA-DRB1*04:10 molecule,HLA-DRB1*04:10,HLA-DRB1*0410,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:10 chain,,HLA-DR4 serotype
 MRO:hla-drb1*04:11-molecule,HLA-DRB1*04:11 molecule,HLA-DRB1*04:11,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*04:11 chain,,HLA-DR4 serotype
-MRO:hla-drb1*07:01-molecule,HLA-DRB1*07:01 molecule,HLA-DRB1*07:01,HLA-DRB1*0701|HLA-DRB1*070101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*07:01 chain,,HLA-DR7 serotype
+MRO:hla-drb1*07:01-molecule,HLA-DRB1*07:01 molecule,HLA-DRB1*07:01,HLA-DRB1*0701,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*07:01 chain,,HLA-DR7 serotype
 MRO:hla-drb1*07:03-molecule,HLA-DRB1*07:03 molecule,HLA-DRB1*07:03,HLA-DRB1*0703,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*07:03 chain,,
-MRO:hla-drb1*08:01-molecule,HLA-DRB1*08:01 molecule,HLA-DRB1*08:01,HLA-DRB1*0801|HLA-DRB1*080101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:01 chain,,HLA-DR8 serotype
-MRO:hla-drb1*08:02-molecule,HLA-DRB1*08:02 molecule,HLA-DRB1*08:02,HLA-DRB1*0802|HLA-DRB1*080201,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:02 chain,,HLA-DR8 serotype
-MRO:hla-drb1*08:03-molecule,HLA-DRB1*08:03 molecule,HLA-DRB1*08:03,HLA-DRB1*0803|HLA-DRB1*080302,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:03 chain,,HLA-DR8 serotype
+MRO:hla-drb1*08:01-molecule,HLA-DRB1*08:01 molecule,HLA-DRB1*08:01,HLA-DRB1*0801,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:01 chain,,HLA-DR8 serotype
+MRO:hla-drb1*08:02-molecule,HLA-DRB1*08:02 molecule,HLA-DRB1*08:02,HLA-DRB1*0802,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:02 chain,,HLA-DR8 serotype
+MRO:hla-drb1*08:03-molecule,HLA-DRB1*08:03 molecule,HLA-DRB1*08:03,HLA-DRB1*0803,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:03 chain,,HLA-DR8 serotype
 MRO:hla-drb1*08:04-molecule,HLA-DRB1*08:04 molecule,HLA-DRB1*08:04,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:04 chain,,HLA-DR8 serotype
 MRO:hla-drb1*08:18-molecule,HLA-DRB1*08:18 molecule,HLA-DRB1*08:18,HLA-DRB1*0818,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:18 chain,,HLA-DR8 serotype
 MRO:hla-drb1*08:20-molecule,HLA-DRB1*08:20 molecule,HLA-DRB1*08:20,HLA-DRB1*0820,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*08:20 chain,,HLA-DR8 serotype
-MRO:hla-drb1*09:01-molecule,HLA-DRB1*09:01 molecule,HLA-DRB1*09:01,HLA-DRB1*090102|HLA-DRB1*0901,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*09:01 chain,,HLA-DR9 serotype
-MRO:hla-drb1*10:01-molecule,HLA-DRB1*10:01 molecule,HLA-DRB1*10:01,HLA-DRB1*100101|HLA-DRB1*1001,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*10:01 chain,,HLA-DR10 serotype
-MRO:hla-drb1*11:01-molecule,HLA-DRB1*11:01 molecule,HLA-DRB1*11:01,HLA-DRB1*110101|HLA-DRB1*11011|HLA-DRB1*1101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*11:01 chain,,HLA-DR11 serotype
+MRO:hla-drb1*09:01-molecule,HLA-DRB1*09:01 molecule,HLA-DRB1*09:01,HLA-DRB1*0901,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*09:01 chain,,HLA-DR9 serotype
+MRO:hla-drb1*10:01-molecule,HLA-DRB1*10:01 molecule,HLA-DRB1*10:01,HLA-DRB1*1001,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*10:01 chain,,HLA-DR10 serotype
+MRO:hla-drb1*11:01-molecule,HLA-DRB1*11:01 molecule,HLA-DRB1*11:01,HLA-DRB1*1101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*11:01 chain,,HLA-DR11 serotype
 MRO:hla-drb1*11:02-molecule,HLA-DRB1*11:02 molecule,HLA-DRB1*11:02,HLA-DRB1*1102,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*11:02 chain,,HLA-DR11 serotype
 MRO:hla-drb1*11:03-molecule,HLA-DRB1*11:03 molecule,HLA-DRB1*11:03,HLA-DRB1*1103,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*11:03 chain,,HLA-DR11 serotype
-MRO:hla-drb1*11:04-molecule,HLA-DRB1*11:04 molecule,HLA-DRB1*11:04,HLA-DRB1*1104|HLA-DRB1*110401,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*11:04 chain,,HLA-DR11 serotype
-MRO:hla-drb1*12:01-molecule,HLA-DRB1*12:01 molecule,HLA-DRB1*12:01,HLA-DRB1*120101|HLA-DRB1*1201,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*12:01 chain,,HLA-DR12 serotype
+MRO:hla-drb1*11:04-molecule,HLA-DRB1*11:04 molecule,HLA-DRB1*11:04,HLA-DRB1*1104,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*11:04 chain,,HLA-DR11 serotype
+MRO:hla-drb1*12:01-molecule,HLA-DRB1*12:01 molecule,HLA-DRB1*12:01,HLA-DRB1*1201,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*12:01 chain,,HLA-DR12 serotype
 MRO:hla-drb1*12:02-molecule,HLA-DRB1*12:02 molecule,HLA-DRB1*12:02,DRB1*1202,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*12:02 chain,,HLA-DR12 serotype
-MRO:hla-drb1*13:01-molecule,HLA-DRB1*13:01 molecule,HLA-DRB1*13:01,HLA-DRB1*1301|HLA-DRB1*130101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:01 chain,,HLA-DR13 serotype
-MRO:hla-drb1*13:02-molecule,HLA-DRB1*13:02 molecule,HLA-DRB1*13:02,HLA-DRB1*130201|HLA-DRB1*1302,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:02 chain,,HLA-DR13 serotype
-MRO:hla-drb1*13:03-molecule,HLA-DRB1*13:03 molecule,HLA-DRB1*13:03,HLA-DRB1*1303|HLA-DRB1*130301,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:03 chain,,HLA-DR13 serotype
+MRO:hla-drb1*13:01-molecule,HLA-DRB1*13:01 molecule,HLA-DRB1*13:01,HLA-DRB1*1301,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:01 chain,,HLA-DR13 serotype
+MRO:hla-drb1*13:02-molecule,HLA-DRB1*13:02 molecule,HLA-DRB1*13:02,HLA-DRB1*1302,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:02 chain,,HLA-DR13 serotype
+MRO:hla-drb1*13:03-molecule,HLA-DRB1*13:03 molecule,HLA-DRB1*13:03,HLA-DRB1*1303,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:03 chain,,HLA-DR13 serotype
 MRO:hla-drb1*13:04-molecule,HLA-DRB1*13:04 molecule,HLA-DRB1*13:04,HLA-DRB1*1304,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:04 chain,,HLA-DR13 serotype
 MRO:hla-drb1*13:05-molecule,HLA-DRB1*13:05 molecule,HLA-DRB1*13:05,HLA-DRB1*1305,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:05 chain,,HLA-DR13 serotype
 MRO:hla-drb1*13:07-molecule,HLA-DRB1*13:07 molecule,HLA-DRB1*13:07,HLA-DRB1*1307,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:07 chain,,HLA-DR6 serotype
 MRO:hla-drb1*13:15-molecule,HLA-DRB1*13:15 molecule,HLA-DRB1*13:15,HLA-DRB1*1315,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:15 chain,,HLA-DR13 serotype
 MRO:hla-drb1*13:68-molecule,HLA-DRB1*13:68 molecule,HLA-DRB1*13:68,HLA-DRB1*1368,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*13:68 chain,,HLA-DR13 serotype
-MRO:hla-drb1*14:01-molecule,HLA-DRB1*14:01 molecule,HLA-DRB1*14:01,HLA-DRB1*140101|HLA-DRB1*1401,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:01 chain,,HLA-DR14 serotype
+MRO:hla-drb1*14:01-molecule,HLA-DRB1*14:01 molecule,HLA-DRB1*14:01,HLA-DRB1*1401,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:01 chain,,HLA-DR14 serotype
 MRO:hla-drb1*14:02-molecule,HLA-DRB1*14:02 molecule,HLA-DRB1*14:02,HLA-DRB1*1402,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:02 chain,,HLA-DR14 serotype
 MRO:hla-drb1*14:04-molecule,HLA-DRB1*14:04 molecule,HLA-DRB1*14:04,HLA-DRB1*1404,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:04 chain,,HLA-DR1404 serotype
-MRO:hla-drb1*14:05-molecule,HLA-DRB1*14:05 molecule,HLA-DRB1*14:05,HLA-DRB1*140501|HLA-DRB1*1405,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:05 chain,,HLA-DR14 serotype
+MRO:hla-drb1*14:05-molecule,HLA-DRB1*14:05 molecule,HLA-DRB1*14:05,HLA-DRB1*1405,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:05 chain,,HLA-DR14 serotype
 MRO:hla-drb1*14:09-molecule,HLA-DRB1*14:09 molecule,HLA-DRB1*14:09,HLA-DRB1*1409,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:09 chain,,HLA-DR14 serotype
 MRO:hla-drb1*14:10-molecule,HLA-DRB1*14:10 molecule,HLA-DRB1*14:10,HLA-DRB1*1410,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:10 chain,,HLA-DR14 serotype
 MRO:hla-drb1*14:54-molecule,HLA-DRB1*14:54 molecule,HLA-DRB1*14:54,HLA-DRB1*1454,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*14:54 chain,,
-MRO:hla-drb1*15:01-molecule,HLA-DRB1*15:01 molecule,HLA-DRB1*15:01,HLA-DRB1*150101|HLA-DRB1*1501,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*15:01 chain,,HLA-DR15 serotype
-MRO:hla-drb1*15:02-molecule,HLA-DRB1*15:02 molecule,HLA-DRB1*15:02,HLA-DRB1*1502|HLA-DRB1*150201,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*15:02 chain,,HLA-DR15 serotype
+MRO:hla-drb1*15:01-molecule,HLA-DRB1*15:01 molecule,HLA-DRB1*15:01,HLA-DRB1*1501,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*15:01 chain,,HLA-DR15 serotype
+MRO:hla-drb1*15:02-molecule,HLA-DRB1*15:02 molecule,HLA-DRB1*15:02,HLA-DRB1*1502,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*15:02 chain,,HLA-DR15 serotype
 MRO:hla-drb1*15:03-molecule,HLA-DRB1*15:03 molecule,HLA-DRB1*15:03,HLA-DRB1*1503,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*15:03 chain,,HLA-DR15 serotype
 MRO:hla-drb1*15:04-molecule,HLA-DRB1*15:04 molecule,HLA-DRB1*15:04,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*15:04 chain,,HLA-DR15 serotype
 MRO:hla-drb1*16:01-molecule,HLA-DRB1*16:01 molecule,HLA-DRB1*16:01,HLA-DRB1*1601,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*16:01 chain,,HLA-DR16 serotype
 MRO:hla-drb1*16:02-molecule,HLA-DRB1*16:02 molecule,HLA-DRB1*16:02,HLA-DRB1*1602,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB1*16:02 chain,,HLA-DR16 serotype
 MRO:hla-drb3-molecule,HLA-DRB3 molecule,HLA-DRB3,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3 chain,,
-MRO:hla-drb3*01:01-molecule,HLA-DRB3*01:01 molecule,HLA-DRB3*01:01,HLA-DR52a|HLA-DRB3*010101|HLA-DRB3*0101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*01:01 chain,,HLA-DR52 serotype
+MRO:hla-drb3*01:01-molecule,HLA-DRB3*01:01 molecule,HLA-DRB3*01:01,HLA-DR52a|HLA-DRB3*0101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*01:01 chain,,HLA-DR52 serotype
 MRO:hla-drb3*02:01-molecule,HLA-DRB3*02:01 molecule,HLA-DRB3*02:01,HLA-DRB3*0201,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*02:01 chain,,HLA-DR52 serotype
-MRO:hla-drb3*02:02-molecule,HLA-DRB3*02:02 molecule,HLA-DRB3*02:02,HLA-DRB3*0202|HLA-DR52b|HLA-DRB3*020201,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*02:02 chain,,HLA-DR52 serotype
-MRO:hla-drb3*03:01-molecule,HLA-DRB3*03:01 molecule,HLA-DRB3*03:01,HLA-DRB3*0301|HLA-DR52c|HLA-DRB3*030101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*03:01 chain,,HLA-DR52 serotype
+MRO:hla-drb3*02:02-molecule,HLA-DRB3*02:02 molecule,HLA-DRB3*02:02,HLA-DRB3*0202|HLA-DR52b,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*02:02 chain,,HLA-DR52 serotype
+MRO:hla-drb3*03:01-molecule,HLA-DRB3*03:01 molecule,HLA-DRB3*03:01,HLA-DRB3*0301|HLA-DR52c,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB3*03:01 chain,,HLA-DR52 serotype
 MRO:hla-drb4-molecule,HLA-DRB4 molecule,HLA-DRB4,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB4 chain,,
 MRO:hla-drb4*01:01-molecule,HLA-DRB4*01:01 molecule,HLA-DRB4*01:01,HLA-DRB4*0101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB4*01:01 chain,,HLA-DR53 serotype
 MRO:hla-drb4*01:02-molecule,HLA-DRB4*01:02 molecule,HLA-DRB4*01:02,HLA-DRB4*0102,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB4*01:02 chain,,HLA-DR53 serotype
-MRO:hla-drb4*01:03-molecule,HLA-DRB4*01:03 molecule,HLA-DRB4*01:03,HLA-DRB4*01030101|HLA-DRB4*0103,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB4*01:03 chain,,HLA-DR53 serotype
+MRO:hla-drb4*01:03-molecule,HLA-DRB4*01:03 molecule,HLA-DRB4*01:03,HLA-DRB4*0103,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB4*01:03 chain,,HLA-DR53 serotype
 MRO:hla-drb5-molecule,HLA-DRB5 molecule,HLA-DRB5,,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB5 chain,,
 MRO:hla-drb5*01:01-molecule,HLA-DRB5*01:01 molecule,HLA-DRB5*01:01,HLA-DRB5*0101,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB5*01:01 chain,,HLA-DR51 serotype
 MRO:hla-drb5*01:02-molecule,HLA-DRB5*01:02 molecule,HLA-DRB5*01:02,HLA-DRB5*0102,equivalent,MHC class II molecule,human,HLA-DRA chain,HLA-DRB5*01:02 chain,,HLA-DR51 serotype

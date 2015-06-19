@@ -66,11 +66,9 @@
 
 (defn format-row
   "Make adjustments to a row map."
-  [{:keys [synonyms includes class taxon-id] :as row}]
+  [{:keys [synonyms class taxon-id] :as row}]
   (assoc row
-         :synonyms    (set/union
-                       (split-list synonyms)
-                       (split-list includes))
+         :synonyms    (split-list synonyms)
          :taxon-id    (to-int taxon-id)
          :class       (get-long-class class)
          :micro-class class
