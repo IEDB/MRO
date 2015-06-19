@@ -1,28 +1,39 @@
 <?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
 <rdf:RDF xmlns="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#"
      xml:base="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-
     <owl:Ontology rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WARNING: This is preliminary work in progress! Term identifiers are UNSTABLE, WILL NOT be maintained, and SHOULD NOT be used except for review!</rdfs:comment>
-        <dc:creator>Alessandro Sette</dc:creator>
-        <dc:creator>Bjoern Peters</dc:creator>
-        <dc:creator>Emily Seymour</dc:creator>
-        <dc:creator>James A. Overton</dc:creator>
-        <dc:creator>Jim Kaufman</dc:creator>
+        <rdfs:comment rdf:datatype="&xsd;string">WARNING: This is preliminary work in progress! Term identifiers are UNSTABLE, WILL NOT be maintained, and SHOULD NOT be used except for review!</rdfs:comment>
         <dc:creator>John Hammond</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
+        <dc:creator>Rebecca L. Tallmadge</dc:creator>
+        <dc:creator>Emily Seymour</dc:creator>
+        <dc:creator>Shirley Ellis</dc:creator>
         <dc:creator>John Sidney</dc:creator>
         <dc:creator>Randi Vita</dc:creator>
-        <dc:creator>Rebecca L. Tallmadge</dc:creator>
-        <dc:creator>Shirley Ellis</dc:creator>
+        <dc:creator>Alessandro Sette</dc:creator>
+        <dc:creator>James A. Overton</dc:creator>
+        <dc:creator>Jim Kaufman</dc:creator>
     </owl:Ontology>
-    
 
 
     <!-- 
@@ -33,14 +44,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
 
     <!-- https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#haplotype-member-of -->
 
     <owl:ObjectProperty rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#haplotype-member-of">
         <rdfs:label>haplotype member of</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115>A relation between a protein complex and a haplotype, in which some parts of the protein complex are encoded by genes in the haplotype.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -48,7 +58,8 @@
     <!-- https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mutant-of -->
 
     <owl:ObjectProperty rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mutant-of">
-        <rdfs:label>mutant of</rdfs:label>
+        <rdfs:label>is synthetic protein mutant of</rdfs:label>
+        <obo:IAO_0000115>A relationship between a protein that was designed as a variant and its naturally occurring template protein, where the synthesized variant has one or more defined differences - typically introduced to examine the impact of such variations on protein function.</obo:IAO_0000115>
     </owl:ObjectProperty>
     
 
@@ -57,6 +68,7 @@
 
     <owl:ObjectProperty rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#serotype-member-of">
         <rdfs:label>serotype member of</rdfs:label>
+        <obo:IAO_0000115>A relation between a protein complex and a serotype, in which the protein complex belongs to the serotype by virtue of its disposition to bind with certain antibodies.</obo:IAO_0000115>
     </owl:ObjectProperty>
     
 
@@ -68,60 +80,96 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    
-    <!-- https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#hla-dr-molecule -->
 
-    <owl:Class rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#hla-dr-molecule">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DR molecule</rdfs:label>
+
+    <!--  http://purl.obolibrary.org/obo/GO_0042611  -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042611">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC protein complex</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042611</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+    </owl:Class>
+
+
+    <!--  http://purl.obolibrary.org/obo/SO_0000355  -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000355">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype_block</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of the genome which is co-inherited as the result of the lack of historic recombination within it.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000355</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype block</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+
+
+    <!--  http://purl.obolibrary.org/obo/SO_0001024  -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A haplotype is one of a set of coexisting sequence variants of a haplotype block.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001024</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Haplotype</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="&obo;PR_000000001">
+        <rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000000001</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004580 -->
+
+    <owl:Class rdf:about="&obo;PR_000004580">
+        <rdfs:label rdf:datatype="&xsd;string">Beta-2-microglobulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">B2M</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000004580</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+
+
+    <!-- https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#hla-dr-protein-complex -->
+
+    <owl:Class rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#hla-dr-protein-complex">
+        <rdfs:label rdf:datatype="&xsd;string">HLA-DR protein complex</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-molecule"/>
+                    <rdf:Description rdf:about="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#mhc-class-ii-protein-complex"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#hla-dra-chain"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#hla-drb-chain"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#human-mhc-class-ii-molecule"/>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DR</obo:OBI_9991118>
+        <obo:OBI_9991118 rdf:datatype="&xsd;string">HLA-DR</obo:OBI_9991118>
     </owl:Class>
-
-
-    <!--  http://purl.obolibrary.org/obo/PR_000000001  -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000000001</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
-    </owl:Class>
-
-
-    <!--  http://purl.obolibrary.org/obo/PR_000004580  -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004580">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-2-microglobulin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2M</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000004580</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
-    </owl:Class>
-
 </rdf:RDF>
 
 

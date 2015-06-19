@@ -2,6 +2,8 @@
 GO:0008150  # biological process
 OBI:1110057 # MHC:epitope complex binding to TCR
 REO:0000079 # genetic locus
+SO:0001024  # haplotype
+SO:0000355  # haplotype_block
 
 # Information
 IAO:0000030 # information content entity

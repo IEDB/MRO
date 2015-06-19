@@ -378,7 +378,7 @@
   (apply-templates
    "mutant-molecules"
    (conj default-iedb-cols
-         ["Mutant Of" "C 'mutant of' some %"])
+         ["Mutant Of" "C 'is synthetic protein mutant of' some %"])
    (->> rows
         (filter mutant?))))
 
