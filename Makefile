@@ -24,11 +24,11 @@ MRO_UNSTABLE.owl: mro-manual.owl mro-obo.owl $(generatedCSVFiles) mro-sequences.
 	--output MRO_UNSTABLE.owl
 
 # extended version for IEDB use
-MRO_UNSTABLE_IEDB.owl: MRO_UNSTABLE.owl MRO_UNSTABLE_IEDB.csv
+MRO_UNSTABLE_IEDB.owl: MRO_UNSTABLE.owl mro-iedb.csv
 	robot template \
 	--prefix "MRO: $(MRO)#" \
 	--input MRO_UNSTABLE.owl \
-	--template MRO_UNSTABLE_IEDB.csv \
+	--template mro-iedb.csv \
 	--merge-before \
 	--output MRO_UNSTABLE_IEDB.owl
 
