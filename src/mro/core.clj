@@ -209,7 +209,8 @@
                 (.contains (:level row) level)
                 (if (mutant? row) (= branch "mutant-molecules") true)
                 (seq (:synonyms row)))
-       {:synonyms (string/join "|" (:synonyms row))})
+       {:synonyms (string/join "|" (:synonyms row))
+        :iedb-id  (:id row)})
      (when (and parent (not parent-fn))
        {:parent (fill-template parent row)})
      (when parent-fn
@@ -227,11 +228,11 @@
    row
    (->> cols
         (map (comp keyword to-identifier first))
-        (concat []))))
+        (concat [:iedb-id]))))
 
 (defn merge-synonyms
   "Given a sequence of rows,
-   if any two rows are identical except for their :synonyms,
+   if any two rows are identical except for their :synonyms and :iedb-id,
    merge them into one row."
   [rows]
   (->> rows
@@ -245,8 +246,8 @@
             (= 1 (count rows))
             (conj coll (first rows))
             (and (= 2 (count rows))
-                 (= (dissoc (first rows)  :synonyms)
-                    (dissoc (second rows) :synonyms)))
+                 (= (dissoc (first rows)  :synonyms :iedb-id)
+                    (dissoc (second rows) :synonyms :iedb-id)))
             (conj coll (apply merge rows))
             :else
             (println "BAD DUPLICATE FOR" id)))
@@ -388,15 +389,20 @@
    generate a bunch of CSV files for various branches."
   [path]
   (let [rows (map format-row (read-csv path))]
-    (concat
-     (process-loci rows)
-     (process-haplotypes rows)
-     (process-serotypes rows)
-     (process-chains rows)
-     (process-molecules rows)
-     (process-haplotype-molecules rows)
-     (process-serotype-molecules rows)
-     (process-mutant-molecules rows))))
+    (->> (concat
+          (process-loci rows)
+          (process-haplotypes rows)
+          (process-serotypes rows)
+          (process-chains rows)
+          (process-molecules rows)
+          (process-haplotype-molecules rows)
+          (process-serotype-molecules rows)
+          (process-mutant-molecules rows))
+         (remove (comp string/blank? :iedb-id))
+         (map #(select-keys % [:id :iedb-id]))
+         set
+         (concat [{:id "ID" :iedb-id "A MRO:iedb-mhc-id"}])
+         (write-csv "mro-iedb.csv" ["ID" "IEDB ID"]))))
 
 (defn -main
   "Run process-table on alleles.csv."

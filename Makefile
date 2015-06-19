@@ -23,6 +23,15 @@ MRO_UNSTABLE.owl: mro-manual.owl mro-obo.owl $(generatedCSVFiles) mro-sequences.
 	--version-iri "$(MRO)#$(shell date +%Y-%m-%d)" \
 	--output MRO_UNSTABLE.owl
 
+# extended version for IEDB use
+MRO_UNSTABLE_IEDB.owl: MRO_UNSTABLE.owl MRO_UNSTABLE_IEDB.csv
+	robot template \
+	--prefix "MRO: $(MRO)#" \
+	--input MRO_UNSTABLE.owl \
+	--template MRO_UNSTABLE_IEDB.csv \
+	--merge-before \
+	--output MRO_UNSTABLE_IEDB.owl
+
 # imports
 mro-obo.owl: mro-obo.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
 	robot merge \
@@ -45,4 +54,4 @@ $(LIB)/%:
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
 clean:
-	rm -f mro-obo.owl MRO_UNSTABLE.owl
+	rm -f mro-obo.owl MRO_UNSTABLE.owl MRO_UNSTABLE_IEDB.owl
