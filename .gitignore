@@ -1,0 +1,12 @@
+.DS_Store
+.lein-env
+.lein-repl-history
+.nrepl-port
+catalog-v001.xml
+mro-obo.owl
+mro.owl
+alleles.csv
+src/mro/~$templates.xlsx
+lib
+target
+junk

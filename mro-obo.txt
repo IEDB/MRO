@@ -1,0 +1,46 @@
+# Biology
+GO:0008150  # biological process
+OBI:1110057 # MHC:epitope complex binding to TCR
+REO:0000079 # genetic locus
+SO:0001024  # haplotype
+SO:0000355  # haplotype_block
+
+# Information
+IAO:0000030 # information content entity
+ECO:0000000 # evidence
+ECO:0000033 # traceable author statement
+ECO:0000006 # experimental evidence
+
+# Assays
+OBI:1110128 # immune epitope assay
+# MHC ligand assay
+OBI:1110037 # T cell epitope recognition assay
+# T cell epitope dependent biological activity assay
+
+# Material
+BFO:0000040 # material entity
+GO:0043234  # protein complex
+PR:000000001 # protein
+OBI:1110001 # epitope
+OBI:0100026 # organism
+
+# Object Properties
+BFO:0000051 # has part
+IAO:0000136 # is about
+OBI:0000124 # is supported by data
+OBI:1110060 # process is result of
+OBI:1110119 # bound to
+RO:0000056  # participates in
+OBI:0000295 # is specified input of
+OBI:0000312 # is specified output of
+RO:0000057  # has participant
+OBI:0000293 # has specified input
+OBI:0000299 # has specified output
+RO:0002162  # in taxon
+RO:0002204  # gene product of
+
+# Annotation Properties
+IAO:0000115 # definition
+IAO:0000119 # definition source
+IAO:0000112 # example of usage
+OBI:9991118 # IEDB alternative term

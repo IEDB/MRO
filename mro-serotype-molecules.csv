@@ -1,0 +1,157 @@
+ID,Label,IEDB Label,Synonyms,Class Type,Parent,In Taxon,With Serotype
+ID,A rdfs:label,A OBI:9991118,A IAO:0000118 SPLIT=|,CLASS_TYPE,C %,C 'in taxon' some %,C 'serotype member of' some %
+MRO:bola-protein-complex-with-a10-serotype,BoLA protein complex with A10 serotype,BoLA-A10,,equivalent,protein complex,cattle,BoLA-A10 serotype
+MRO:bola-protein-complex-with-a11-serotype,BoLA protein complex with A11 serotype,BoLA-A11,,equivalent,protein complex,cattle,BoLA-A11 serotype
+MRO:bola-protein-complex-with-a14-serotype,BoLA protein complex with A14 serotype,BoLA-A14,,equivalent,protein complex,cattle,BoLA-A14 serotype
+MRO:bola-protein-complex-with-a18-serotype,BoLA protein complex with A18 serotype,BoLA-A18,,equivalent,protein complex,cattle,BoLA-A18 serotype
+MRO:bola-protein-complex-with-a31-serotype,BoLA protein complex with A31 serotype,BoLA-A31,,equivalent,protein complex,cattle,BoLA-A31 serotype
+MRO:hla-protein-complex-with-a1-serotype,HLA protein complex with A1 serotype,HLA-A1,HLA-A*01,equivalent,protein complex,human,HLA-A1 serotype
+MRO:hla-protein-complex-with-a11-serotype,HLA protein complex with A11 serotype,HLA-A11,HLA-A*11,equivalent,protein complex,human,HLA-A11 serotype
+MRO:hla-protein-complex-with-a2-serotype,HLA protein complex with A2 serotype,HLA-A2,HLA-A*02,equivalent,protein complex,human,HLA-A2 serotype
+MRO:hla-protein-complex-with-a203-serotype,HLA protein complex with A203 serotype,HLA-A203,,equivalent,protein complex,human,HLA-A203 serotype
+MRO:hla-protein-complex-with-a23-serotype,HLA protein complex with A23 serotype,HLA-A23,HLA-A*23,equivalent,protein complex,human,HLA-A23 serotype
+MRO:hla-protein-complex-with-a24-serotype,HLA protein complex with A24 serotype,HLA-A24,HLA-A*24,equivalent,protein complex,human,HLA-A24 serotype
+MRO:hla-protein-complex-with-a2403-serotype,HLA protein complex with A2403 serotype,HLA-A2403,,equivalent,protein complex,human,HLA-A2403 serotype
+MRO:hla-protein-complex-with-a25-serotype,HLA protein complex with A25 serotype,HLA-A25,HLA-A*25,equivalent,protein complex,human,HLA-A25 serotype
+MRO:hla-protein-complex-with-a26-serotype,HLA protein complex with A26 serotype,HLA-A26,HLA-A*26,equivalent,protein complex,human,HLA-A26 serotype
+MRO:hla-protein-complex-with-a28-serotype,HLA protein complex with A28 serotype,HLA-A28,HLA-A*28,equivalent,protein complex,human,HLA-A28 serotype
+MRO:hla-protein-complex-with-a29-serotype,HLA protein complex with A29 serotype,HLA-A29,HLA-A*29,equivalent,protein complex,human,HLA-A29 serotype
+MRO:hla-protein-complex-with-a3-serotype,HLA protein complex with A3 serotype,HLA-A3,HLA-A*03,equivalent,protein complex,human,HLA-A3 serotype
+MRO:hla-protein-complex-with-a30-serotype,HLA protein complex with A30 serotype,HLA-A30,HLA-A*30,equivalent,protein complex,human,HLA-A30 serotype
+MRO:hla-protein-complex-with-a31-serotype,HLA protein complex with A31 serotype,HLA-A31,HLA-A*31,equivalent,protein complex,human,HLA-A31 serotype
+MRO:hla-protein-complex-with-a32-serotype,HLA protein complex with A32 serotype,HLA-A32,HLA-A*32,equivalent,protein complex,human,HLA-A32 serotype
+MRO:hla-protein-complex-with-a33-serotype,HLA protein complex with A33 serotype,HLA-A33,HLA-A*33,equivalent,protein complex,human,HLA-A33 serotype
+MRO:hla-protein-complex-with-a34-serotype,HLA protein complex with A34 serotype,HLA-A34,HLA-A*34,equivalent,protein complex,human,HLA-A34 serotype
+MRO:hla-protein-complex-with-a66-serotype,HLA protein complex with A66 serotype,HLA-A66,,equivalent,protein complex,human,HLA-A66 serotype
+MRO:hla-protein-complex-with-a68-serotype,HLA protein complex with A68 serotype,HLA-A68,HLA-A*68|HLA-Aw68,equivalent,protein complex,human,HLA-A68 serotype
+MRO:hla-protein-complex-with-a69-serotype,HLA protein complex with A69 serotype,HLA-A69,HLA-A*69|HLA-Aw69,equivalent,protein complex,human,HLA-A69 serotype
+MRO:hla-protein-complex-with-a74-serotype,HLA protein complex with A74 serotype,HLA-A74,HLA-A*74,equivalent,protein complex,human,HLA-A74 serotype
+MRO:hla-protein-complex-with-a80-serotype,HLA protein complex with A80 serotype,HLA-A80,HLA-A*80,equivalent,protein complex,human,HLA-A80 serotype
+MRO:hla-protein-complex-with-b12-serotype,HLA protein complex with B12 serotype,HLA-B12,HLA-B*12,equivalent,protein complex,human,HLA-B12 serotype
+MRO:hla-protein-complex-with-b13-serotype,HLA protein complex with B13 serotype,HLA-B13,HLA-B*13,equivalent,protein complex,human,HLA-B13 serotype
+MRO:hla-protein-complex-with-b14-serotype,HLA protein complex with B14 serotype,HLA-B14,HLA-B*14,equivalent,protein complex,human,HLA-B14 serotype
+MRO:hla-protein-complex-with-b15-serotype,HLA protein complex with B15 serotype,HLA-B15,HLA-B*15,equivalent,protein complex,human,HLA-B15 serotype
+MRO:hla-protein-complex-with-b16-serotype,HLA protein complex with B16 serotype,HLA-B16,HLA-B*16,equivalent,protein complex,human,HLA-B16 serotype
+MRO:hla-protein-complex-with-b17-serotype,HLA protein complex with B17 serotype,HLA-B17,HLA-B*17,equivalent,protein complex,human,HLA-B17 serotype
+MRO:hla-protein-complex-with-b18-serotype,HLA protein complex with B18 serotype,HLA-B18,HLA-B*18,equivalent,protein complex,human,HLA-B18 serotype
+MRO:hla-protein-complex-with-b27-serotype,HLA protein complex with B27 serotype,HLA-B27,HLA-B*27,equivalent,protein complex,human,HLA-B27 serotype
+MRO:hla-protein-complex-with-b35-serotype,HLA protein complex with B35 serotype,HLA-B35,HLA-B*35,equivalent,protein complex,human,HLA-B35 serotype
+MRO:hla-protein-complex-with-b37-serotype,HLA protein complex with B37 serotype,HLA-B37,HLA-B*37,equivalent,protein complex,human,HLA-B37 serotype
+MRO:hla-protein-complex-with-b38-serotype,HLA protein complex with B38 serotype,HLA-B38,HLA-B*38,equivalent,protein complex,human,HLA-B38 serotype
+MRO:hla-protein-complex-with-b39-serotype,HLA protein complex with B39 serotype,HLA-B39,HLA-B*39,equivalent,protein complex,human,HLA-B39 serotype
+MRO:hla-protein-complex-with-b3901-serotype,HLA protein complex with B3901 serotype,HLA-B3901,,equivalent,protein complex,human,HLA-B3901 serotype
+MRO:hla-protein-complex-with-b40-serotype,HLA protein complex with B40 serotype,HLA-B40,HLA-B*40,equivalent,protein complex,human,HLA-B40 serotype
+MRO:hla-protein-complex-with-b41-serotype,HLA protein complex with B41 serotype,HLA-B41,HLA-B*41,equivalent,protein complex,human,HLA-B41 serotype
+MRO:hla-protein-complex-with-b42-serotype,HLA protein complex with B42 serotype,HLA-B42,HLA-B*42,equivalent,protein complex,human,HLA-B42 serotype
+MRO:hla-protein-complex-with-b44-serotype,HLA protein complex with B44 serotype,HLA-B44,HLA-B*44,equivalent,protein complex,human,HLA-B44 serotype
+MRO:hla-protein-complex-with-b45-serotype,HLA protein complex with B45 serotype,HLA-B45,HLA-B*45,equivalent,protein complex,human,HLA-B45 serotype
+MRO:hla-protein-complex-with-b46-serotype,HLA protein complex with B46 serotype,HLA-B46,,equivalent,protein complex,human,HLA-B46 serotype
+MRO:hla-protein-complex-with-b47-serotype,HLA protein complex with B47 serotype,HLA-B47,HLA-B*47,equivalent,protein complex,human,HLA-B47 serotype
+MRO:hla-protein-complex-with-b48-serotype,HLA protein complex with B48 serotype,HLA-B48,,equivalent,protein complex,human,HLA-B48 serotype
+MRO:hla-protein-complex-with-b49-serotype,HLA protein complex with B49 serotype,HLA-B49,HLA-B*49,equivalent,protein complex,human,HLA-B49 serotype
+MRO:hla-protein-complex-with-b50-serotype,HLA protein complex with B50 serotype,HLA-B50,HLA-B*50,equivalent,protein complex,human,HLA-B50 serotype
+MRO:hla-protein-complex-with-b51-serotype,HLA protein complex with B51 serotype,HLA-B51,HLA-B*51,equivalent,protein complex,human,HLA-B51 serotype
+MRO:hla-protein-complex-with-b5102-serotype,HLA protein complex with B5102 serotype,HLA-B5102,,equivalent,protein complex,human,HLA-B5102 serotype
+MRO:hla-protein-complex-with-b52-serotype,HLA protein complex with B52 serotype,HLA-B52,HLA-B*52,equivalent,protein complex,human,HLA-B52 serotype
+MRO:hla-protein-complex-with-b53-serotype,HLA protein complex with B53 serotype,HLA-B53,HLA-B*53,equivalent,protein complex,human,HLA-B53 serotype
+MRO:hla-protein-complex-with-b54-serotype,HLA protein complex with B54 serotype,HLA-B54,HLA-B*54,equivalent,protein complex,human,HLA-B54 serotype
+MRO:hla-protein-complex-with-b55-serotype,HLA protein complex with B55 serotype,HLA-B55,HLA-B*55,equivalent,protein complex,human,HLA-B55 serotype
+MRO:hla-protein-complex-with-b56-serotype,HLA protein complex with B56 serotype,HLA-B56,,equivalent,protein complex,human,HLA-B56 serotype
+MRO:hla-protein-complex-with-b57-serotype,HLA protein complex with B57 serotype,HLA-B57,HLA-B*57,equivalent,protein complex,human,HLA-B57 serotype
+MRO:hla-protein-complex-with-b58-serotype,HLA protein complex with B58 serotype,HLA-B58,HLA-B*58,equivalent,protein complex,human,HLA-B58 serotype
+MRO:hla-protein-complex-with-b60-serotype,HLA protein complex with B60 serotype,HLA-B60,HLA-B*60,equivalent,protein complex,human,HLA-B60 serotype
+MRO:hla-protein-complex-with-b61-serotype,HLA protein complex with B61 serotype,HLA-B61,HLA-B*61,equivalent,protein complex,human,HLA-B61 serotype
+MRO:hla-protein-complex-with-b62-serotype,HLA protein complex with B62 serotype,HLA-B62,HLA-B*62,equivalent,protein complex,human,HLA-B62 serotype
+MRO:hla-protein-complex-with-b63-serotype,HLA protein complex with B63 serotype,HLA-B63,HLA-B*63,equivalent,protein complex,human,HLA-B63 serotype
+MRO:hla-protein-complex-with-b65-serotype,HLA protein complex with B65 serotype,HLA-B65,,equivalent,protein complex,human,HLA-B65 serotype
+MRO:hla-protein-complex-with-b7-serotype,HLA protein complex with B7 serotype,HLA-B7,HLA-B*07,equivalent,protein complex,human,HLA-B7 serotype
+MRO:hla-protein-complex-with-b70-serotype,HLA protein complex with B70 serotype,HLA-B70,,equivalent,protein complex,human,HLA-B70 serotype
+MRO:hla-protein-complex-with-b71-serotype,HLA protein complex with B71 serotype,HLA-B71,,equivalent,protein complex,human,HLA-B71 serotype
+MRO:hla-protein-complex-with-b73-serotype,HLA protein complex with B73 serotype,HLA-B73,,equivalent,protein complex,human,HLA-B73 serotype
+MRO:hla-protein-complex-with-b75-serotype,HLA protein complex with B75 serotype,HLA-B75,,equivalent,protein complex,human,HLA-B75 serotype
+MRO:hla-protein-complex-with-b77-serotype,HLA protein complex with B77 serotype,HLA-B77,,equivalent,protein complex,human,HLA-B77 serotype
+MRO:hla-protein-complex-with-b8-serotype,HLA protein complex with B8 serotype,HLA-B8,HLA-B*08,equivalent,protein complex,human,HLA-B8 serotype
+MRO:hla-protein-complex-with-b81-serotype,HLA protein complex with B81 serotype,HLA-B81,HLA-B*81,equivalent,protein complex,human,HLA-B81 serotype
+MRO:hla-protein-complex-with-bw4-serotype,HLA protein complex with Bw4 serotype,HLA-Bw4,HLA-B*w4,equivalent,protein complex,human,HLA-Bw4 serotype
+MRO:hla-protein-complex-with-cw1-serotype,HLA protein complex with Cw1 serotype,HLA-Cw1,HLA-Cw*01,equivalent,protein complex,human,HLA-Cw1 serotype
+MRO:hla-protein-complex-with-cw10-serotype,HLA protein complex with Cw10 serotype,HLA-Cw10,,equivalent,protein complex,human,HLA-Cw10 serotype
+MRO:hla-protein-complex-with-cw12-serotype,HLA protein complex with Cw12 serotype,HLA-Cw12,HLA-Cw*12,equivalent,protein complex,human,HLA-Cw12 serotype
+MRO:hla-protein-complex-with-cw15-serotype,HLA protein complex with Cw15 serotype,HLA-Cw15,HLA-Cw*15,equivalent,protein complex,human,HLA-Cw15 serotype
+MRO:hla-protein-complex-with-cw16-serotype,HLA protein complex with Cw16 serotype,HLA-Cw16,HLA-Cw*16,equivalent,protein complex,human,HLA-Cw16 serotype
+MRO:hla-protein-complex-with-cw2-serotype,HLA protein complex with Cw2 serotype,HLA-Cw2,HLA-Cw*02,equivalent,protein complex,human,HLA-Cw2 serotype
+MRO:hla-protein-complex-with-cw3-serotype,HLA protein complex with Cw3 serotype,HLA-Cw3,HLA-Cw*03,equivalent,protein complex,human,HLA-Cw3 serotype
+MRO:hla-protein-complex-with-cw4-serotype,HLA protein complex with Cw4 serotype,HLA-Cw4,HLA-Cw*04,equivalent,protein complex,human,HLA-Cw4 serotype
+MRO:hla-protein-complex-with-cw5-serotype,HLA protein complex with Cw5 serotype,HLA-Cw5,,equivalent,protein complex,human,HLA-Cw5 serotype
+MRO:hla-protein-complex-with-cw6-serotype,HLA protein complex with Cw6 serotype,HLA-Cw6,HLA-Cw*06,equivalent,protein complex,human,HLA-Cw6 serotype
+MRO:hla-protein-complex-with-cw7-serotype,HLA protein complex with Cw7 serotype,HLA-Cw7,HLA-Cw*07,equivalent,protein complex,human,HLA-Cw7 serotype
+MRO:hla-protein-complex-with-cw8-serotype,HLA protein complex with Cw8 serotype,HLA-Cw8,HLA-Cw*08,equivalent,protein complex,human,HLA-Cw8 serotype
+MRO:hla-protein-complex-with-cw9-serotype,HLA protein complex with Cw9 serotype,HLA-Cw9,,equivalent,protein complex,human,HLA-Cw9 serotype
+MRO:hla-protein-complex-with-dp1-serotype,HLA protein complex with DP1 serotype,HLA-DP1,,equivalent,protein complex,human,HLA-DP1 serotype
+MRO:hla-protein-complex-with-dp4-serotype,HLA protein complex with DP4 serotype,HLA-DP4,,equivalent,protein complex,human,HLA-DP4 serotype
+MRO:hla-protein-complex-with-dp5-serotype,HLA protein complex with DP5 serotype,HLA-DP5,,equivalent,protein complex,human,HLA-DP5 serotype
+MRO:hla-protein-complex-with-dp9-serotype,HLA protein complex with DP9 serotype,HLA-DP9,,equivalent,protein complex,human,HLA-DP9 serotype
+MRO:hla-protein-complex-with-dpw1-serotype,HLA protein complex with DPw1 serotype,HLA-DPw1,,equivalent,protein complex,human,HLA-DPw1 serotype
+MRO:hla-protein-complex-with-dpw2-serotype,HLA protein complex with DPw2 serotype,HLA-DPw2,HLA-DP2,equivalent,protein complex,human,HLA-DPw2 serotype
+MRO:hla-protein-complex-with-dpw3-serotype,HLA protein complex with DPw3 serotype,HLA-DPw3,HLA-DP3,equivalent,protein complex,human,HLA-DPw3 serotype
+MRO:hla-protein-complex-with-dpw4-serotype,HLA protein complex with DPw4 serotype,HLA-DPw4,HLA-DP4,equivalent,protein complex,human,HLA-DPw4 serotype
+MRO:hla-protein-complex-with-dpw5-serotype,HLA protein complex with DPw5 serotype,HLA-DPw5,HLA-DP5,equivalent,protein complex,human,HLA-DPw5 serotype
+MRO:hla-protein-complex-with-dpw6-serotype,HLA protein complex with DPw6 serotype,HLA-DPw6,,equivalent,protein complex,human,HLA-DPw6 serotype
+MRO:hla-protein-complex-with-dq1-serotype,HLA protein complex with DQ1 serotype,HLA-DQ1,HLA-DQw1,equivalent,protein complex,human,HLA-DQ1 serotype
+MRO:hla-protein-complex-with-dq2-serotype,HLA protein complex with DQ2 serotype,HLA-DQ2,HLA-DQw2,equivalent,protein complex,human,HLA-DQ2 serotype
+MRO:hla-protein-complex-with-dq2.3-serotype,HLA protein complex with DQ2.3 serotype,HLA-DQ2.3,,equivalent,protein complex,human,HLA-DQ2.3 serotype
+MRO:hla-protein-complex-with-dq3-serotype,HLA protein complex with DQ3 serotype,HLA-DQ3,HLA-DQw3,equivalent,protein complex,human,HLA-DQ3 serotype
+MRO:hla-protein-complex-with-dq3.33-serotype,HLA protein complex with DQ3.33 serotype,HLA-DQ3.33,,equivalent,protein complex,human,HLA-DQ3.33 serotype
+MRO:hla-protein-complex-with-dq3t12-serotype,HLA protein complex with DQ3t12 serotype,HLA-DQ3t12,,equivalent,protein complex,human,HLA-DQ3t12 serotype
+MRO:hla-protein-complex-with-dq4-serotype,HLA protein complex with DQ4 serotype,HLA-DQ4,,equivalent,protein complex,human,HLA-DQ4 serotype
+MRO:hla-protein-complex-with-dq5-serotype,HLA protein complex with DQ5 serotype,HLA-DQ5,HLA-DQw5,equivalent,protein complex,human,HLA-DQ5 serotype
+MRO:hla-protein-complex-with-dq6-serotype,HLA protein complex with DQ6 serotype,HLA-DQ6,HLA-DQw6,equivalent,protein complex,human,HLA-DQ6 serotype
+MRO:hla-protein-complex-with-dq7-serotype,HLA protein complex with DQ7 serotype,HLA-DQ7,HLA-DQw7,equivalent,protein complex,human,HLA-DQ7 serotype
+MRO:hla-protein-complex-with-dq8-serotype,HLA protein complex with DQ8 serotype,HLA-DQ8,HLA-DQw8,equivalent,protein complex,human,HLA-DQ8 serotype
+MRO:hla-protein-complex-with-dq9-serotype,HLA protein complex with DQ9 serotype,HLA-DQ9,,equivalent,protein complex,human,HLA-DQ9 serotype
+MRO:hla-protein-complex-with-dq9.2-serotype,HLA protein complex with DQ9.2 serotype,HLA-DQ9.2,,equivalent,protein complex,human,HLA-DQ9.2 serotype
+MRO:hla-protein-complex-with-dr1-serotype,HLA protein complex with DR1 serotype,HLA-DR1,HLA-DRB1*01|HLA-DRw1,equivalent,protein complex,human,HLA-DR1 serotype
+MRO:hla-protein-complex-with-dr10-serotype,HLA protein complex with DR10 serotype,HLA-DR10,HLA-DRw10,equivalent,protein complex,human,HLA-DR10 serotype
+MRO:hla-protein-complex-with-dr103-serotype,HLA protein complex with DR103 serotype,HLA-DR103,,equivalent,protein complex,human,HLA-DR103 serotype
+MRO:hla-protein-complex-with-dr11-serotype,HLA protein complex with DR11 serotype,HLA-DR11,HLA-DRw11|HLA-DRB1*11,equivalent,protein complex,human,HLA-DR11 serotype
+MRO:hla-protein-complex-with-dr12-serotype,HLA protein complex with DR12 serotype,HLA-DR12,HLA-DR12 DwH|HLA-DRw12,equivalent,protein complex,human,HLA-DR12 serotype
+MRO:hla-protein-complex-with-dr13-serotype,HLA protein complex with DR13 serotype,HLA-DR13,HLA-DRB1*13|HLA-DRw13,equivalent,protein complex,human,HLA-DR13 serotype
+MRO:hla-protein-complex-with-dr14-serotype,HLA protein complex with DR14 serotype,HLA-DR14,,equivalent,protein complex,human,HLA-DR14 serotype
+MRO:hla-protein-complex-with-dr1404-serotype,HLA protein complex with DR1404 serotype,HLA-DR1404,,equivalent,protein complex,human,HLA-DR1404 serotype
+MRO:hla-protein-complex-with-dr15-serotype,HLA protein complex with DR15 serotype,HLA-DR15,HLA-DRB1*15,equivalent,protein complex,human,HLA-DR15 serotype
+MRO:hla-protein-complex-with-dr16-serotype,HLA protein complex with DR16 serotype,HLA-DR16,,equivalent,protein complex,human,HLA-DR16 serotype
+MRO:hla-protein-complex-with-dr17-serotype,HLA protein complex with DR17 serotype,HLA-DR17,HLA-DRw17,equivalent,protein complex,human,HLA-DR17 serotype
+MRO:hla-protein-complex-with-dr18-serotype,HLA protein complex with DR18 serotype,HLA-DR18,,equivalent,protein complex,human,HLA-DR18 serotype
+MRO:hla-protein-complex-with-dr2-serotype,HLA protein complex with DR2 serotype,HLA-DR2,,equivalent,protein complex,human,HLA-DR2 serotype
+MRO:hla-protein-complex-with-dr3-serotype,HLA protein complex with DR3 serotype,HLA-DR3,HLA-DRB1*03,equivalent,protein complex,human,HLA-DR3 serotype
+MRO:hla-protein-complex-with-dr4-serotype,HLA protein complex with DR4 serotype,HLA-DR4,HLA-DRB1*04,equivalent,protein complex,human,HLA-DR4 serotype
+MRO:hla-protein-complex-with-dr5-serotype,HLA protein complex with DR5 serotype,HLA-DR5,,equivalent,protein complex,human,HLA-DR5 serotype
+MRO:hla-protein-complex-with-dr51-serotype,HLA protein complex with DR51 serotype,HLA-DR51,,equivalent,protein complex,human,HLA-DR51 serotype
+MRO:hla-protein-complex-with-dr52-serotype,HLA protein complex with DR52 serotype,HLA-DR52,HLA-DRw52|HLA-DRB3*52,equivalent,protein complex,human,HLA-DR52 serotype
+MRO:hla-protein-complex-with-dr53-serotype,HLA protein complex with DR53 serotype,HLA-DR53,HLA-DRB4*53|HLA-DRw53,equivalent,protein complex,human,HLA-DR53 serotype
+MRO:hla-protein-complex-with-dr6-serotype,HLA protein complex with DR6 serotype,HLA-DR6,HLA-DRw6,equivalent,protein complex,human,HLA-DR6 serotype
+MRO:hla-protein-complex-with-dr7-serotype,HLA protein complex with DR7 serotype,HLA-DR7,HLA-DR7 Dw11|HLA-DRB1*07,equivalent,protein complex,human,HLA-DR7 serotype
+MRO:hla-protein-complex-with-dr8-serotype,HLA protein complex with DR8 serotype,HLA-DR8,HLA-DRw8|HLA-DRB1*08,equivalent,protein complex,human,HLA-DR8 serotype
+MRO:hla-protein-complex-with-dr9-serotype,HLA protein complex with DR9 serotype,HLA-DR9,HLA-DRB1*09,equivalent,protein complex,human,HLA-DR9 serotype
+MRO:mhc-class-i-protein-complex-with-serotype,MHC class I protein complex with serotype,class I,,equivalent,protein complex,,MHC class I serotype
+MRO:mhc-class-ii-protein-complex-with-serotype,MHC class II protein complex with serotype,class II,,equivalent,protein complex,,MHC class II serotype
+MRO:mamu-protein-complex-with-dr1b-serotype,Mamu protein complex with DR1B serotype,Mamu-DR1B,,equivalent,protein complex,rhesus macaque,Mamu-DR1B serotype
+MRO:mamu-protein-complex-with-dr2-serotype,Mamu protein complex with DR2 serotype,Mamu-DR2,,equivalent,protein complex,rhesus macaque,Mamu-DR2 serotype
+MRO:mamu-protein-complex-with-dr3a-serotype,Mamu protein complex with DR3A serotype,Mamu-DR3A,,equivalent,protein complex,rhesus macaque,Mamu-DR3A serotype
+MRO:mamu-protein-complex-with-dr4-serotype,Mamu protein complex with DR4 serotype,Mamu-DR4,,equivalent,protein complex,rhesus macaque,Mamu-DR4 serotype
+MRO:mamu-protein-complex-with-dr6-serotype,Mamu protein complex with DR6 serotype,Mamu-DR6,,equivalent,protein complex,rhesus macaque,Mamu-DR6 serotype
+MRO:mamu-protein-complex-with-dr7a-serotype,Mamu protein complex with DR7A serotype,Mamu-DR7A,,equivalent,protein complex,rhesus macaque,Mamu-DR7A serotype
+MRO:mamu-protein-complex-with-dr8-serotype,Mamu protein complex with DR8 serotype,Mamu-DR8,,equivalent,protein complex,rhesus macaque,Mamu-DR8 serotype
+MRO:patr-protein-complex-with-dr1-serotype,Patr protein complex with DR1 serotype,Patr-DR1,,equivalent,protein complex,chimpanzee,Patr-DR1 serotype
+MRO:patr-protein-complex-with-dr10-serotype,Patr protein complex with DR10 serotype,Patr-DR10,,equivalent,protein complex,chimpanzee,Patr-DR10 serotype
+MRO:patr-protein-complex-with-dr2-serotype,Patr protein complex with DR2 serotype,Patr-DR2,,equivalent,protein complex,chimpanzee,Patr-DR2 serotype
+MRO:patr-protein-complex-with-dr3-serotype,Patr protein complex with DR3 serotype,Patr-DR3,,equivalent,protein complex,chimpanzee,Patr-DR3 serotype
+MRO:patr-protein-complex-with-dr4-serotype,Patr protein complex with DR4 serotype,Patr-DR4,,equivalent,protein complex,chimpanzee,Patr-DR4 serotype
+MRO:patr-protein-complex-with-dr5-serotype,Patr protein complex with DR5 serotype,Patr-DR5,,equivalent,protein complex,chimpanzee,Patr-DR5 serotype
+MRO:patr-protein-complex-with-dr7-serotype,Patr protein complex with DR7 serotype,Patr-DR7,,equivalent,protein complex,chimpanzee,Patr-DR7 serotype
+MRO:patr-protein-complex-with-dr8-serotype,Patr protein complex with DR8 serotype,Patr-DR8,,equivalent,protein complex,chimpanzee,Patr-DR8 serotype
+MRO:patr-protein-complex-with-dr9-serotype,Patr protein complex with DR9 serotype,Patr-DR9,,equivalent,protein complex,chimpanzee,Patr-DR9 serotype
+MRO:cattle-mhc-class-i-protein-complex-with-serotype,cattle MHC class I protein complex with serotype,cattle,,equivalent,protein complex,cattle,cattle MHC class I serotype
+MRO:chimpanzee-mhc-class-ii-protein-complex-with-serotype,chimpanzee MHC class II protein complex with serotype,chimpanzee,,equivalent,protein complex,chimpanzee,chimpanzee MHC class II serotype
+MRO:human-mhc-class-i-protein-complex-with-serotype,human MHC class I protein complex with serotype,human,,equivalent,protein complex,human,human MHC class I serotype
+MRO:human-mhc-class-ii-protein-complex-with-serotype,human MHC class II protein complex with serotype,human,,equivalent,protein complex,human,human MHC class II serotype
+MRO:rhesus-macaque-mhc-class-ii-protein-complex-with-serotype,rhesus macaque MHC class II protein complex with serotype,rhesus macaque,,equivalent,protein complex,rhesus macaque,rhesus macaque MHC class II serotype
