@@ -1,5 +1,5 @@
 ID,Sort Order
-ID,A MRO:iedb-sort-name
+ID,A http://iedb.org/has-sort-name
 GO:0042611,1
 MRO:mutant-mhc-protein-complex,2
 MRO:mhc-protein-complex-with-haplotype,3

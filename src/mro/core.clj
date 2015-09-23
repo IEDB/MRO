@@ -5,11 +5,11 @@
             [clojure.data.csv :as csv]
             [ontodev.excel :as xls]
             [mro.util :refer [read-csv write-csv to-identifier to-int
-                              clean-map split-list]]))
+                              to-keyword clean-map split-list]]))
 
 ;; IEDB stores MHC information in a very dense SQL table.
 ;; This code takes that table and creates several new tables
-;; that express the structure of MRO much more explicitly.)
+;; that express the structure of MRO much more explicitly.
 
 
 ;; First we need to define some names and prefixes for taxa.
@@ -43,6 +43,11 @@
        (map (juxt first #(nth % 2)))
        (into {})))
 
+(def taxon-mhc-ids
+  (->> mhc-taxon-table
+       (map (juxt #(nth % 2) first))
+       (into {})))
+
 (defn get-long-class
   "Given a class identifier string, return a nicer string for use in labels."
   [class]
@@ -61,20 +66,42 @@
          (string/lower-case (name class))
          "non-classical")))
 
+(defn generate-synonyms
+  "Given a label, return a set of variations on the label
+   that do not include the label itself."
+  [label]
+  (->> [(string/replace label "*" "")
+        (string/replace label ":" "")
+        (string/replace label #"\*|:" "")]
+       (remove #(= label %))
+       set))
 
-;; We use these definitions to adjust rows of the alleles table.
+;; We use these definitions to adjust rows of the alleles.csv table.
 
 (defn format-row
   "Make adjustments to a row map."
-  [{:keys [synonyms class taxon-id] :as row}]
-  (assoc row
-         :synonyms    (split-list synonyms)
-         :taxon-id    (to-int taxon-id)
-         :class       (get-long-class class)
-         :micro-class class
-         :short-class (get-short-class class)
-         :taxon-label (get taxon-mhc-names (to-int taxon-id))
-         :prefix      (get taxon-mhc-prefixes (to-int taxon-id))))
+  [{:keys [label synonyms includes level class taxon-id] :as row}]
+  (let [prefix (get taxon-mhc-prefixes (to-int taxon-id))]
+    (assoc row
+           :synonyms      (split-list synonyms)
+           :includes      (split-list includes)
+           :auto-synonyms
+           (when (contains? #{"complete molecule" "partial molecule"} level)
+             (generate-synonyms
+              (string/replace label (str prefix "-") "")))
+           :taxon-id      (to-int taxon-id)
+           :class         (get-long-class class)
+           :micro-class   class
+           :short-class   (get-short-class class)
+           :taxon-label   (get taxon-mhc-names (to-int taxon-id))
+           :prefix        prefix)))
+
+;; The core of the system is a set of templates
+;; for reformatting the data.
+;; Some of the templates require special test functions
+;; that we define here.
+;; Each test function takes a row and determines
+;; whether the template applies (a boolean test).
 
 (defn chain-i-sublocus?
   "True only for rat An loci, where n is a number."
@@ -98,7 +125,8 @@
   [row]
   (or (:chain-i-mutation row) (:chain-ii-mutation row)))
 
-; Define some fnctions to use in the template sheet
+;; This map holds all the special test functions.
+
 (def special-functions
   {"chain-i sublocus?"
    chain-i-sublocus?
@@ -139,7 +167,6 @@
           (not (chain-i-sublocus? row))
           (not (chain-ii-sublocus? row))))})
 
-
 ;; The hard work is applying templates to rows from the alleles table.
 ;; We define the templates in an Excel spreadsheet,
 ;; which lets us refer to other cells and keep our configuration DRY.
@@ -149,15 +176,34 @@
            xls/load-workbook
            (xls/read-sheet "Sheet1"))
        (map clean-map)
-       (map (fn [{:keys [test parent] :as row}]
+       (map (fn [{:keys [depth test parent] :as row}]
               (merge
                row
+               {:depth (to-int depth)}
                (when test
                  (if (find special-functions test)
-                   {:test (get special-functions test)}
+                   {:test-name test
+                    :test      (get special-functions test)}
                    (throw (Exception. (str "Could not find special function " test)))))
                (when (find special-functions parent)
                  {:parent-fn (get special-functions parent)}))))))
+
+;; To locate specific templates
+;; we use their branch, depth, and test-name (if given).
+;; We create a map from these indices to templates.
+
+(defn get-template-index
+  "Given a template, return its index vector."
+  [{:keys [branch depth test-name] :as template}]
+  (if test-name
+    [branch depth test-name]
+    [branch depth]))
+
+;; We use the index to create a map, e.g.
+;; {["molecules" 1] {:branch "molecules" :depth 1 ...}}
+
+(def template-map
+  (zipmap (map get-template-index templates) templates))
 
 (defn template-applies?
   "Given a template and a row,
@@ -185,6 +231,46 @@
         (string/replace "Beta-2-microglobulin chain" "Beta-2-microglobulin"))
     (catch Exception e nil)))
 
+;; We also need to be able to find the most-specific template
+;; for a given row of data.
+
+(defn assign-template
+  "Given a row from the alleles.csv table,
+   return an IRI for this node."
+  [{:keys [level taxon-name] :as row}]
+  (cond
+    (= taxon-name "organism (all species)")
+    (cond
+      (= level "class")     ["molecules" 1]
+      (= level "haplotype") ["haplotype-molecules" 1]
+      (= level "serotype")  ["serotype-molecules" 1])
+    (mutant? row)
+    (cond
+      (= level "partial molecule")  ["mutant-molecules" 3]
+      (= level "complete molecule") ["mutant-molecules" 3])
+    :else
+    (cond
+      (= level "class")             ["molecules" 2]
+      (= level "locus")             ["molecules" 3 "alpha chain?"]
+      (= level "haplotype")         ["haplotype-molecules" 2]
+      (= level "serotype")          ["serotype-molecules" 2]
+      (= level "partial molecule")  ["molecules" 4]
+      (= level "complete molecule") ["molecules" 4])))
+
+(defn assign-iri
+  "Given a row, rename :id to :iedb-id,
+   and use the most specific available template
+   to assign a new :id IRI."
+  [row]
+  (merge
+   (dissoc row :id)
+   {:iedb-id (:id row)}
+   (when-let [index (assign-template row)]
+     (when-let [value (fill-template
+                       (get-in template-map [index :label])
+                       row)]
+       {:id (str "MRO:" (to-identifier value))}))))
+
 ;; Now we define functions for applying a single template to a single row,
 ;; and for applying sets of templates to sequences of rows.
 
@@ -198,17 +284,21 @@
   (when-let [value (fill-template label row)]
     (apply
      merge
-     (dissoc row :synonyms)
+     (dissoc row :synonyms :includes :auto-synonyms)
+     (select-keys template [:branch :depth])
      {:label      value
       :id         (str "MRO:" (to-identifier value))
       :class-type (if class-type class-type "subclass")}
      (when (and level
                 (:level row)
                 (.contains (:level row) level)
-                (if (mutant? row) (= branch "mutant-molecules") true)
-                (seq (:synonyms row)))
-       {:synonyms (string/join "|" (:synonyms row))
-        :iedb-id  (:id row)})
+                (if (mutant? row) (= branch "mutant-molecules") true))
+       {:synonyms
+        (string/join
+         "|"
+         (concat (sort (:synonyms row))
+                 (sort (:includes row))
+                 (sort (:auto-synonyms row))))})
      (when (and parent (not parent-fn))
        {:parent (fill-template parent row)})
      (when parent-fn
@@ -226,7 +316,7 @@
    row
    (->> cols
         (map (comp keyword to-identifier first))
-        (concat [:iedb-id]))))
+        (concat [:branch :depth]))))
 
 (defn merge-synonyms
   "Given a sequence of rows,
@@ -244,8 +334,8 @@
             (= 1 (count rows))
             (conj coll (first rows))
             (and (= 2 (count rows))
-                 (= (dissoc (first rows)  :synonyms :iedb-id)
-                    (dissoc (second rows) :synonyms :iedb-id)))
+                 (= (dissoc (first rows)  :synonyms :includes :auto-synonyms)
+                    (dissoc (second rows) :synonyms :includes :auto-synonyms)))
             (conj coll (apply merge rows))
             :else
             (println "BAD DUPLICATE FOR" id)))
@@ -342,15 +432,15 @@
   (apply-templates
    "molecules"
    (conj default-iedb-cols
-         ["Alpha Chain" "C 'has part' some %"]
-         ["Beta Chain"  "C 'has part' some %"]
+         ["Alpha Chain"    "C 'has part' some %"]
+         ["Beta Chain"     "C 'has part' some %"]
          ["With Haplotype" "C 'haplotype member of' some %"]
-         ["With Serotype" "C 'serotype member of' some %"])
+         ["With Serotype"  "C 'serotype member of' some %"])
    (->> rows
         (filter #(contains? #{"complete molecule" "partial molecule"}
                             (:level %)))
         (remove #(= 1 (:taxon-id %)))
-            ; TODO: rat data is broken
+        ; TODO: rat data is broken
         (remove #(= 10116 (:taxon-id %))))))
 
 (defn process-haplotype-molecules
@@ -382,6 +472,89 @@
    (->> rows
         (filter mutant?))))
 
+;; We generate an mro-iedb.csv file that updates alleles.csv
+;; by assigning IRIs to rows,
+;; and removing any rows that have not been used.
+
+(def iedb-columns
+  [["ID"         "ID"]
+   ["IEDB ID"    "A MRO:has-iedb-mhc-id"]
+   ["Label"      "A MRO:has-mhc-full-label"]
+   ["Level"      "A MRO:has-mhc-restriction"]
+   ["Taxon ID"   "A MRO:has-taxon-id"]
+   ["Taxon Name" "A MRO:has-taxon-label"]
+   ["Class"      "A MRO:has-mhc-class"]
+   ["Locus"      "A MRO:has-mhc-locus"]
+   ["Haplotype"  "A MRO:has-mhc-haplotype"]
+   ["Serotype"   "A MRO:has-mhc-serotype"]])
+
+(def iedb-keys (->> iedb-columns (map first) (map to-keyword)))
+
+(def iedb-template (zipmap iedb-keys (map second iedb-columns)))
+
+;; The next part is not elegant.
+;; We use the information in the processed rows
+;; to generated a bunch of extra IEDB annotations.
+;; It would be cleaner if we were more consistent with naming.
+
+(defn process-iedb-row
+  "Given a map from IRIs to IEDB ID numbers and a row,
+   return an updated row with extra IEDB annotations."
+  [id-map
+   {:keys [id branch depth parent in-taxon with-haplotype with-serotype]
+    :as row}]
+  (merge
+   row
+   {:level
+    (condp = branch
+      "molecules" (condp = depth
+                    1 "class"
+                    2 "class"
+                    3 "locus"
+                    "complete molecule")
+      "haplotype-molecules" "haplotype"
+      "serotype-molecules" "serotype"
+      "mutant-molecules" (condp = depth
+                           1 "class"
+                           2 "class"
+                           "complete molecule")
+      nil)
+    :class
+    (condp = parent
+      "MHC class I protein complex"       "MHC class I"
+      "MHC class II protein complex"      "MHC class II"
+      "non-classical MHC protein complex" "non-classical MHC"
+      nil)}
+   (when (find id-map id)
+     (->> [:iedb-id :level :class :locus]
+          (map (juxt identity #(get-in id-map [id %])))
+          (into {})))
+   (when in-taxon
+     {:taxon-name in-taxon
+      :taxon-id   (get taxon-mhc-ids in-taxon)})
+   (when with-haplotype
+     {:haplotype with-haplotype})
+   (when with-serotype
+     {:serotype with-serotype})))
+
+(defn process-iedb
+  "Given the original alleles.csv rows,
+   and the newly generated rows,
+   write a table of extra IEDB annotations."
+  [old-rows new-rows]
+  (->> new-rows
+       (remove #(= "ID" (:id %)))
+       (map (partial process-iedb-row
+                     (->> old-rows
+                          (map assign-iri)
+                          (map (juxt :id identity))
+                          (into {}))))
+       (sort-by :label)
+       (concat [iedb-template])
+       (write-csv "mro-iedb.csv" (map first iedb-columns))))
+
+;; Now we run all of these specific processing functions.
+
 (defn process-table
   "Given a path to the alleles.csv file,
    generate a bunch of CSV files for various branches."
@@ -396,11 +569,7 @@
           (process-haplotype-molecules rows)
           (process-serotype-molecules rows)
           (process-mutant-molecules rows))
-         (remove (comp string/blank? :iedb-id))
-         (map #(select-keys % [:id :iedb-id]))
-         set
-         (concat [{:id "ID" :iedb-id "A MRO:iedb-mhc-id"}])
-         (write-csv "mro-iedb.csv" ["ID" "IEDB ID"]))))
+         (process-iedb rows))))
 
 (defn -main
   "Run process-table on alleles.csv."
