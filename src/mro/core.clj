@@ -66,19 +66,35 @@
          (string/lower-case (name class))
          "non-classical")))
 
+(defn generate-synonyms
+  "Given a label, return a set of variations on the label
+   that do not include the label itself."
+  [label]
+  (->> [(string/replace label "*" "")
+        (string/replace label ":" "")
+        (string/replace label #"\*|:" "")]
+       (remove #(= label %))
+       set))
+
 ;; We use these definitions to adjust rows of the alleles.csv table.
 
 (defn format-row
   "Make adjustments to a row map."
-  [{:keys [synonyms class taxon-id] :as row}]
-  (assoc row
-         :synonyms    (split-list synonyms)
-         :taxon-id    (to-int taxon-id)
-         :class       (get-long-class class)
-         :micro-class class
-         :short-class (get-short-class class)
-         :taxon-label (get taxon-mhc-names (to-int taxon-id))
-         :prefix      (get taxon-mhc-prefixes (to-int taxon-id))))
+  [{:keys [label synonyms includes level class taxon-id] :as row}]
+  (let [prefix (get taxon-mhc-prefixes (to-int taxon-id))]
+    (assoc row
+           :synonyms      (split-list synonyms)
+           :includes      (split-list includes)
+           :auto-synonyms
+           (when (contains? #{"complete molecule" "partial molecule"} level)
+             (generate-synonyms
+              (string/replace label (str prefix "-") "")))
+           :taxon-id      (to-int taxon-id)
+           :class         (get-long-class class)
+           :micro-class   class
+           :short-class   (get-short-class class)
+           :taxon-label   (get taxon-mhc-names (to-int taxon-id))
+           :prefix        prefix)))
 
 ;; The core of the system is a set of templates
 ;; for reformatting the data.
@@ -268,7 +284,7 @@
   (when-let [value (fill-template label row)]
     (apply
      merge
-     (dissoc row :synonyms)
+     (dissoc row :synonyms :includes :auto-synonyms)
      (select-keys template [:branch :depth])
      {:label      value
       :id         (str "MRO:" (to-identifier value))
@@ -276,9 +292,13 @@
      (when (and level
                 (:level row)
                 (.contains (:level row) level)
-                (if (mutant? row) (= branch "mutant-molecules") true)
-                (seq (:synonyms row)))
-       {:synonyms (string/join "|" (:synonyms row))})
+                (if (mutant? row) (= branch "mutant-molecules") true))
+       {:synonyms
+        (string/join
+         "|"
+         (concat (sort (:synonyms row))
+                 (sort (:includes row))
+                 (sort (:auto-synonyms row))))})
      (when (and parent (not parent-fn))
        {:parent (fill-template parent row)})
      (when parent-fn
@@ -314,8 +334,8 @@
             (= 1 (count rows))
             (conj coll (first rows))
             (and (= 2 (count rows))
-                 (= (dissoc (first rows)  :synonyms :iedb-id)
-                    (dissoc (second rows) :synonyms :iedb-id)))
+                 (= (dissoc (first rows)  :synonyms :includes :auto-synonyms)
+                    (dissoc (second rows) :synonyms :includes :auto-synonyms)))
             (conj coll (apply merge rows))
             :else
             (println "BAD DUPLICATE FOR" id)))
