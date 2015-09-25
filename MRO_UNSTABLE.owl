@@ -22,7 +22,7 @@
         <dc:creator>Randi Vita</dc:creator>
         <dc:creator>Alessandro Sette</dc:creator>
         <dc:creator>Jim Kaufman</dc:creator>
-        <owl:versionIRI rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#2015-09-23"/>
+        <owl:versionIRI rdf:resource="https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl#2015-09-25"/>
     </owl:Ontology>
     
 
@@ -1086,6 +1086,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribosome is a protein complex</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical.</obo:IAO_0000115>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC</obo:OBI_9991118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>

@@ -7,7 +7,7 @@ generatedCSVFiles = $(foreach o,$(generatedTables),mro-$(o).csv)
 generatedTemplates = $(foreach i,$(generatedCSVFiles),--template $(i))
 
 # core
-MRO_UNSTABLE.owl: mro-manual.owl mro-obo.owl $(generatedCSVFiles) mro-sequences.csv mro-evidence-codes.csv
+MRO_UNSTABLE.owl: mro-manual.owl mro-obo.owl mro-core.csv $(generatedCSVFiles) mro-sequences.csv mro-evidence-codes.csv
 	robot merge \
 	--input mro-manual.owl \
 	--input mro-obo.owl \
