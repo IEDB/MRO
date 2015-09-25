@@ -18,6 +18,7 @@ NCBITaxon:9940,sheep,,subclass,organism,,,,
 NCBITaxon:10090,mouse,,subclass,organism,,,,
 NCBITaxon:10116,rat,,subclass,organism,,,,
 PR:000000001,protein,,subclass,material entity,,,,
+GO:0043234,protein complex,MHC,subclass,material entity,,,,
 MRO:genetic-entity,genetic entity,,subclass,,,,,
 MRO:mhc-locus,MHC locus,,subclass,genetic locus,,The region of a chromosome that codes for MHC molecules.,IEDB,"The class II regions encoding for the DP, DQ, and DR molecules on human chromosome 6."
 SO:0001024,haplotype,,subclass,genetic entity,,,,
