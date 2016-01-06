@@ -2,11 +2,11 @@
 .lein-env
 .lein-repl-history
 .nrepl-port
-catalog-v001.xml
-mro-obo.owl
-mro.owl
 alleles.csv
+catalog-v001.xml
+junk/
+lib/
+mro-imports.owl
+mro.owl
 src/mro/~$templates.xlsx
-lib
-target
-junk
+target/

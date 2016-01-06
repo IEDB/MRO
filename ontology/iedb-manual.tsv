@@ -1,0 +1,6 @@
+Label	Sort Order
+LABEL	A http://iedb.org/has-sort-name
+MHC protein complex	1
+mutant MHC protein complex	2
+MHC protein complex with haplotype	3
+MHC protein complex with serotype	4
