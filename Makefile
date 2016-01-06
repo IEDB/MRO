@@ -7,7 +7,7 @@ generatedTSVFiles = $(foreach o,$(generatedTables),ontology/$(o).tsv)
 generatedTemplates = $(foreach i,$(generatedTSVFiles),--template $(i))
 
 # core
-MRO_UNSTABLE.owl: mro-manual.owl mro-imports.owl index.tsv ontology/core.tsv $(generatedTSVFiles) ontology/sequences.tsv ontology/evidence-codes.tsv
+MRO_UNSTABLE.owl: mro-manual.owl mro-imports.owl index.tsv ontology/external.tsv ontology/core.tsv $(generatedTSVFiles) ontology/sequences.tsv ontology/evidence-codes.tsv
 	robot merge \
 	--input mro-manual.owl \
 	--input mro-imports.owl \
@@ -15,6 +15,7 @@ MRO_UNSTABLE.owl: mro-manual.owl mro-imports.owl index.tsv ontology/core.tsv $(g
 	--prefix "MRO: $(MRO)#" \
 	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
+	--template ontology/external.tsv \
 	--template ontology/core.tsv \
 	$(generatedTemplates) \
 	--template ontology/sequences.tsv \
@@ -22,6 +23,7 @@ MRO_UNSTABLE.owl: mro-manual.owl mro-imports.owl index.tsv ontology/core.tsv $(g
 	--merge-before \
 	reason --reasoner HermiT \
 	annotate \
+	--ontology-iri "$(MRO)" \
 	--version-iri "$(MRO)#$(shell date +%Y-%m-%d)" \
 	--output $@
 
@@ -38,9 +40,9 @@ MRO_UNSTABLE_IEDB.owl: MRO_UNSTABLE.owl ontology/iedb.tsv ontology/iedb-manual.t
 # imports
 mro-imports.owl: ontology/imports.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
 	robot merge \
-	--input $(LIB)/ro.owl \
-	--input $(LIB)/obi.owl \
 	--input $(LIB)/eco.owl \
+	--input $(LIB)/obi.owl \
+	--input $(LIB)/ro.owl \
 	extract \
 	--prefix "REO: $(OBO)/REO_" \
 	--upper-term "GO:0008150" \

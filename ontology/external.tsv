@@ -1,0 +1,24 @@
+ID	Label	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of Usage
+ID	A rdfs:label	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112
+REO:0000079	genetic locus		subclass	genetic entity		a nucleic acid sequence region that is part of a genome and represents a specified location or region on a chromosome or other genomic element.		
+ECO:0000000	evidence		subclass	information content entity				
+NCBITaxon:9301	chicken		subclass	organism				
+NCBITaxon:9483	marmoset		subclass	organism				
+NCBITaxon:9490	cotton-top tamarin		subclass	organism				
+NCBITaxon:9544	rhesus macaque		subclass	organism				
+NCBITaxon:9593	gorilla		subclass	organism				
+NCBITaxon:9597	bonobo		subclass	organism				
+NCBITaxon:9598	chimpanzee		subclass	organism				
+NCBITaxon:9606	human		subclass	organism				
+NCBITaxon:9615	dog		subclass	organism				
+NCBITaxon:9796	horse		subclass	organism				
+NCBITaxon:9823	pig		subclass	organism				
+NCBITaxon:9913	cattle		subclass	organism				
+NCBITaxon:9940	sheep		subclass	organism				
+NCBITaxon:10090	mouse		subclass	organism				
+NCBITaxon:10116	rat		subclass	organism				
+PR:000000001	protein		subclass	material entity				
+GO:0043234	protein complex	MHC	subclass	material entity				
+SO:0001024	haplotype		subclass	genetic entity				
+SO:0000355	haplotype_block		subclass	genetic entity				
+GO:0042611	MHC protein complex	MHC molecule	equivalent	protein complex	('has part' some (protein and ('gene product of' some 'MHC locus')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO	

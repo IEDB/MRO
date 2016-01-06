@@ -1,32 +1,10 @@
 ID	Label
 ID	A rdfs:label
-REO:0000079	genetic locus
-ECO:0000000	evidence
-NCBITaxon:9301	chicken
-NCBITaxon:9483	marmoset
-NCBITaxon:9490	cotton-top tamarin
-NCBITaxon:9544	rhesus macaque
-NCBITaxon:9593	gorilla
-NCBITaxon:9597	bonobo
-NCBITaxon:9598	chimpanzee
-NCBITaxon:9606	human
-NCBITaxon:9615	dog
-NCBITaxon:9796	horse
-NCBITaxon:9823	pig
-NCBITaxon:9913	cattle
-NCBITaxon:9940	sheep
-NCBITaxon:10090	mouse
-NCBITaxon:10116	rat
-PR:000000001	protein
-GO:0043234	protein complex
 MRO:genetic-entity	genetic entity
 MRO:mhc-locus	MHC locus
-SO:0001024	haplotype
-SO:0000355	haplotype_block
 MRO:mhc-haplotype	MHC haplotype
 MRO:serotype	serotype
 MRO:mhc-serotype	MHC serotype
-GO:0042611	MHC protein complex
 MRO:t-cell-epitope-dependent-biological-activity-assay	T cell epitope dependent biological activity assay
 MRO:mhc-ligand-assay	MHC ligand assay
 MRO:mhc-protein-complex-with-haplotype	MHC protein complex with haplotype

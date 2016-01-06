@@ -1,32 +1,10 @@
 Label	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of Usage
 LABEL	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112
-genetic locus		subclass	genetic entity		a nucleic acid sequence region that is part of a genome and represents a specified location or region on a chromosome or other genomic element.		
-evidence		subclass	information content entity				
-chicken		subclass	organism				
-marmoset		subclass	organism				
-cotton-top tamarin		subclass	organism				
-rhesus macaque		subclass	organism				
-gorilla		subclass	organism				
-bonobo		subclass	organism				
-chimpanzee		subclass	organism				
-human		subclass	organism				
-dog		subclass	organism				
-horse		subclass	organism				
-pig		subclass	organism				
-cattle		subclass	organism				
-sheep		subclass	organism				
-mouse		subclass	organism				
-rat		subclass	organism				
-protein		subclass	material entity				
-protein complex	MHC	subclass	material entity				
 genetic entity		subclass					
 MHC locus		subclass	genetic locus		The region of a chromosome that codes for MHC molecules.	IEDB	The class II regions encoding for the DP, DQ, and DR molecules on human chromosome 6.
-haplotype		subclass	genetic entity				
-haplotype_block		subclass	genetic entity				
 MHC haplotype		subclass	SO:0001024		A set of MHC alleles that is frequently inherited together.	IEDB	The mouse H-2-k class II haplotype is expressed in C3H mice.
 serotype		subclass	information content entity		A pattern of antibody binding associated with certain material entities	IEDB	
 MHC serotype		subclass	serotype		A serotype identifying a specific group of MHC molecules.	IEDB	The human  HLA-A3 serotype includes HLA-A*03:01 and HLA-A*03:02.
-MHC protein complex	MHC molecule	equivalent	protein complex	('has part' some (protein and ('gene product of' some 'MHC locus')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO	
 T cell epitope dependent biological activity assay		subclass	T cell  epitope recognition assay				
 MHC ligand assay		subclass	immune epitope assay				
 MHC protein complex with haplotype	haplotype	equivalent	protein complex	('haplotype member of' some 'MHC haplotype')	A protein complex that is a member of an MHC haplotype.	IEDB	The mouse H-2-Kk molecule belongs to the H-2-k haplotype.
