@@ -1,6 +1,6 @@
-ID,Sort Order
-ID,A http://iedb.org/has-sort-name
-GO:0042611,1
-MRO:mutant-mhc-protein-complex,2
-MRO:mhc-protein-complex-with-haplotype,3
-MRO:mhc-protein-complex-with-serotype,4
+Label,Sort Order
+LABEL,A http://iedb.org/has-sort-name
+MHC protein complex,1
+mutant MHC protein complex,2
+MHC protein complex with haplotype,3
+MHC protein complex with serotype,4

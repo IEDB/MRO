@@ -1,34 +1,34 @@
-ID,Label,IEDB Label,Class Type,Parent,Logic,Definition,Definition Source,Example of Usage
-ID,A rdfs:label,A OBI:9991118,CLASS_TYPE,C %,C %,A IAO:0000115,A IAO:0000119,A IAO:0000112
-REO:0000079,genetic locus,,subclass,genetic entity,,a nucleic acid sequence region that is part of a genome and represents a specified location or region on a chromosome or other genomic element.,,
-ECO:0000000,evidence,,subclass,information content entity,,,,
-NCBITaxon:9301,chicken,,subclass,organism,,,,
-NCBITaxon:9483,marmoset,,subclass,organism,,,,
-NCBITaxon:9490,cotton-top tamarin,,subclass,organism,,,,
-NCBITaxon:9544,rhesus macaque,,subclass,organism,,,,
-NCBITaxon:9593,gorilla,,subclass,organism,,,,
-NCBITaxon:9597,bonobo,,subclass,organism,,,,
-NCBITaxon:9598,chimpanzee,,subclass,organism,,,,
-NCBITaxon:9606,human,,subclass,organism,,,,
-NCBITaxon:9615,dog,,subclass,organism,,,,
-NCBITaxon:9796,horse,,subclass,organism,,,,
-NCBITaxon:9823,pig,,subclass,organism,,,,
-NCBITaxon:9913,cattle,,subclass,organism,,,,
-NCBITaxon:9940,sheep,,subclass,organism,,,,
-NCBITaxon:10090,mouse,,subclass,organism,,,,
-NCBITaxon:10116,rat,,subclass,organism,,,,
-PR:000000001,protein,,subclass,material entity,,,,
-GO:0043234,protein complex,MHC,subclass,material entity,,,,
-MRO:genetic-entity,genetic entity,,subclass,,,,,
-MRO:mhc-locus,MHC locus,,subclass,genetic locus,,The region of a chromosome that codes for MHC molecules.,IEDB,"The class II regions encoding for the DP, DQ, and DR molecules on human chromosome 6."
-SO:0001024,haplotype,,subclass,genetic entity,,,,
-SO:0000355,haplotype_block,,subclass,genetic entity,,,,
-MRO:mhc-haplotype,MHC haplotype,,subclass,SO:0001024,,A set of MHC alleles that is frequently inherited together.,IEDB,The mouse H-2-k class II haplotype is expressed in C3H mice.
-MRO:serotype,serotype,,subclass,information content entity,,A pattern of antibody binding associated with certain material entities,IEDB,
-MRO:mhc-serotype,MHC serotype,,subclass,serotype,,A serotype identifying a specific group of MHC molecules.,IEDB,The human  HLA-A3 serotype includes HLA-A*03:01 and HLA-A*03:02.
-GO:0042611,MHC protein complex,MHC molecule,equivalent,protein complex,('has part' some (protein and ('gene product of' some 'MHC locus'))),"A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.",GO,
-MRO:t-cell-epitope-dependent-biological-activity-assay,T cell epitope dependent biological activity assay,,subclass,T cell  epitope recognition assay,,,,
-MRO:mhc-ligand-assay,MHC ligand assay,,subclass,immune epitope assay,,,,
-MRO:mhc-protein-complex-with-haplotype,MHC protein complex with haplotype,haplotype,equivalent,protein complex,('haplotype member of' some 'MHC haplotype'),A protein complex that is a member of an MHC haplotype.,IEDB,The mouse H-2-Kk molecule belongs to the H-2-k haplotype.
-MRO:mhc-protein-complex-with-serotype,MHC protein complex with serotype,serotype,equivalent,protein complex,('serotype member of' some 'MHC serotype'),A protein complex that is a member of an MHC serotype.,IEDB,The human HLA-A*03:01 molecule is part of the HLA-A3 serotype.
-MRO:mutant-mhc-protein-complex,mutant MHC protein complex,mutant MHC molecule,equivalent,protein complex,('is synthetic protein mutant of' some 'MHC protein complex'),A protein complex in which one or both chains has at least one amino acid residue altered from the wild type sequence.,IEDB,"The HLA-B*08:01 B:I66A mutant protein has a single amino acid mutation in the B*08:01 chain at residue 166, where the wild type isoleucine was replaced with an alanine."
+Label,IEDB Label,Class Type,Parent,Logic,Definition,Definition Source,Example of Usage
+LABEL,A OBI:9991118,CLASS_TYPE,C %,C %,A IAO:0000115,A IAO:0000119,A IAO:0000112
+genetic locus,,subclass,genetic entity,,a nucleic acid sequence region that is part of a genome and represents a specified location or region on a chromosome or other genomic element.,,
+evidence,,subclass,information content entity,,,,
+chicken,,subclass,organism,,,,
+marmoset,,subclass,organism,,,,
+cotton-top tamarin,,subclass,organism,,,,
+rhesus macaque,,subclass,organism,,,,
+gorilla,,subclass,organism,,,,
+bonobo,,subclass,organism,,,,
+chimpanzee,,subclass,organism,,,,
+human,,subclass,organism,,,,
+dog,,subclass,organism,,,,
+horse,,subclass,organism,,,,
+pig,,subclass,organism,,,,
+cattle,,subclass,organism,,,,
+sheep,,subclass,organism,,,,
+mouse,,subclass,organism,,,,
+rat,,subclass,organism,,,,
+protein,,subclass,material entity,,,,
+protein complex,MHC,subclass,material entity,,,,
+genetic entity,,subclass,,,,,
+MHC locus,,subclass,genetic locus,,The region of a chromosome that codes for MHC molecules.,IEDB,"The class II regions encoding for the DP, DQ, and DR molecules on human chromosome 6."
+haplotype,,subclass,genetic entity,,,,
+haplotype_block,,subclass,genetic entity,,,,
+MHC haplotype,,subclass,SO:0001024,,A set of MHC alleles that is frequently inherited together.,IEDB,The mouse H-2-k class II haplotype is expressed in C3H mice.
+serotype,,subclass,information content entity,,A pattern of antibody binding associated with certain material entities,IEDB,
+MHC serotype,,subclass,serotype,,A serotype identifying a specific group of MHC molecules.,IEDB,The human  HLA-A3 serotype includes HLA-A*03:01 and HLA-A*03:02.
+MHC protein complex,MHC molecule,equivalent,protein complex,('has part' some (protein and ('gene product of' some 'MHC locus'))),"A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.",GO,
+T cell epitope dependent biological activity assay,,subclass,T cell  epitope recognition assay,,,,
+MHC ligand assay,,subclass,immune epitope assay,,,,
+MHC protein complex with haplotype,haplotype,equivalent,protein complex,('haplotype member of' some 'MHC haplotype'),A protein complex that is a member of an MHC haplotype.,IEDB,The mouse H-2-Kk molecule belongs to the H-2-k haplotype.
+MHC protein complex with serotype,serotype,equivalent,protein complex,('serotype member of' some 'MHC serotype'),A protein complex that is a member of an MHC serotype.,IEDB,The human HLA-A*03:01 molecule is part of the HLA-A3 serotype.
+mutant MHC protein complex,mutant MHC molecule,equivalent,protein complex,('is synthetic protein mutant of' some 'MHC protein complex'),A protein complex in which one or both chains has at least one amino acid residue altered from the wild type sequence.,IEDB,"The HLA-B*08:01 B:I66A mutant protein has a single amino acid mutation in the B*08:01 chain at residue 166, where the wild type isoleucine was replaced with an alanine."

@@ -1,572 +1,572 @@
-ID,Label,Synonyms,Class Type,Parent,Gene
-ID,A rdfs:label,A IAO:0000118 SPLIT=|,CLASS_TYPE,C %,C 'gene product of' some %
-MRO:bf-b-chain,BF-B chain,,equivalent,protein,BF-B locus
-MRO:bf-bf1-chain,BF-BF1 chain,,equivalent,protein,BF-BF1 locus
-MRO:bf-bf2-chain,BF-BF2 chain,,equivalent,protein,BF-BF2 locus
-MRO:bf-yf-chain,BF-YF chain,,equivalent,protein,BF-YF locus
-MRO:bf1*0201-chain,BF1*0201 chain,,subclass,BF-BF1 chain,
-MRO:bf2*0201-chain,BF2*0201 chain,,subclass,BF-BF2 chain,
-MRO:bf2*0401-chain,BF2*0401 chain,,subclass,BF-BF2 chain,
-MRO:bf2*1201-chain,BF2*1201 chain,,subclass,BF-BF2 chain,
-MRO:bf2*1401-chain,BF2*1401 chain,,subclass,BF-BF2 chain,
-MRO:bf2*1501-chain,BF2*1501 chain,,subclass,BF-BF2 chain,
-MRO:bf2*2101-chain,BF2*2101 chain,,subclass,BF-BF2 chain,
-MRO:bola-1-chain,BoLA-1 chain,,equivalent,protein,BoLA-1 locus
-MRO:bola-1*02101-chain,BoLA-1*02101 chain,,subclass,BoLA-1 chain,
-MRO:bola-1*02301-chain,BoLA-1*02301 chain,,subclass,BoLA-1 chain,
-MRO:bola-2-chain,BoLA-2 chain,,equivalent,protein,BoLA-2 locus
-MRO:bola-2*01201-chain,BoLA-2*01201 chain,,subclass,BoLA-2 chain,
-MRO:bola-2*01801-chain,BoLA-2*01801 chain,,subclass,BoLA-2 chain,
-MRO:bola-2*02201-chain,BoLA-2*02201 chain,,subclass,BoLA-2 chain,
-MRO:bola-3-chain,BoLA-3 chain,,equivalent,protein,BoLA-3 locus
-MRO:bola-3*00101-chain,BoLA-3*00101 chain,,subclass,BoLA-3 chain,
-MRO:bola-3*00201-chain,BoLA-3*00201 chain,,subclass,BoLA-3 chain,
-MRO:bola-6-chain,BoLA-6 chain,,equivalent,protein,BoLA-6 locus
-MRO:bola-6*01301-chain,BoLA-6*01301 chain,,subclass,BoLA-6 chain,
-MRO:bola-6*04101-chain,BoLA-6*04101 chain,,subclass,BoLA-6 chain,
-MRO:bola-cd1-chain,BoLA-CD1 chain,,equivalent,protein,BoLA-CD1 locus
-MRO:bola-dqa-chain,BoLA-DQA chain,,equivalent,protein,BoLA-DQA locus
-MRO:bola-dqa*0202-chain,BoLA-DQA*0202 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqa*0301-chain,BoLA-DQA*0301 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqa*10011-chain,BoLA-DQA*10011 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqa*12011-chain,BoLA-DQA*12011 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqa*2201-chain,BoLA-DQA*2201 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqa*2202-chain,BoLA-DQA*2202 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqa*2206-chain,BoLA-DQA*2206 chain,,subclass,BoLA-DQA chain,
-MRO:bola-dqb-chain,BoLA-DQB chain,,equivalent,protein,BoLA-DQB locus
-MRO:bola-dqb*0402-chain,BoLA-DQB*0402 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dqb*0901-chain,BoLA-DQB*0901 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dqb*10021-chain,BoLA-DQB*10021 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dqb*10051-chain,BoLA-DQB*10051 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dqb*1201-chain,BoLA-DQB*1201 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dqb*1301-chain,BoLA-DQB*1301 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dqb*1402-chain,BoLA-DQB*1402 chain,,subclass,BoLA-DQB chain,
-MRO:bola-dra-chain,BoLA-DRA chain,,equivalent,protein,BoLA-DRA locus
-MRO:bola-drb-chain,BoLA-DRB chain,,equivalent,protein,BoLA-DRB locus
-MRO:bola-drb3-chain,BoLA-DRB3 chain,,equivalent,protein,BoLA-DRB3 locus
-MRO:bola-drb3*0101-chain,BoLA-DRB3*0101 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*0201-chain,BoLA-DRB3*0201 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*0701-chain,BoLA-DRB3*0701 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*1101-chain,BoLA-DRB3*1101 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*1201-chain,BoLA-DRB3*1201 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*1202-chain,BoLA-DRB3*1202 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*14011-chain,BoLA-DRB3*14011 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*1501-chain,BoLA-DRB3*1501 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*1502-chain,BoLA-DRB3*1502 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*2002-chain,BoLA-DRB3*2002 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*2703-chain,BoLA-DRB3*2703 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*3001-chain,BoLA-DRB3*3001 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb3*4501-chain,BoLA-DRB3*4501 chain,,subclass,BoLA-DRB3 chain,
-MRO:bola-drb6-chain,BoLA-DRB6 chain,,equivalent,protein,BoLA-DRB6 locus
-MRO:bola-mr1-chain,BoLA-MR1 chain,,equivalent,protein,BoLA-MR1 locus
-MRO:caja-e-chain,Caja-E chain,,equivalent,protein,Caja-E locus
-MRO:caja-g-chain,Caja-G chain,,equivalent,protein,Caja-G locus
-MRO:dla-88-chain,DLA-88 chain,,equivalent,protein,DLA-88 locus
-MRO:dla-88*50801-chain,DLA-88*50801 chain,,subclass,DLA-88 chain,
-MRO:ela-n-chain,ELA-N chain,,equivalent,protein,ELA-N locus
-MRO:eqca-n*00602-chain,Eqca-N*00602 chain,,subclass,ELA-N chain,
-MRO:gogo-b-chain,Gogo-B chain,,equivalent,protein,Gogo-B locus
-MRO:gogo-b*0101-chain,Gogo-B*0101 chain,,subclass,Gogo-B chain,
-MRO:h-2-cd1-chain,H-2-CD1 chain,,equivalent,protein,H-2-CD1 locus
-MRO:h-2-d-chain,H-2-D chain,,equivalent,protein,H-2-D locus
-MRO:h-2-db-chain,H-2-Db chain,,subclass,H-2-D chain,
-MRO:h-2-dd-chain,H-2-Dd chain,,subclass,H-2-D chain,
-MRO:h-2-dk-chain,H-2-Dk chain,,subclass,H-2-D chain,
-MRO:h-2-dr-chain,H-2-Dr chain,,subclass,H-2-D chain,
-MRO:h-2-ds-chain,H-2-Ds chain,,subclass,H-2-D chain,
-MRO:h-2-ia-alpha-chain,H-2-IA alpha chain,,equivalent,protein,H-2-IA alpha locus
-MRO:h-2-ia-beta-chain,H-2-IA beta chain,,equivalent,protein,H-2-IA beta locus
-MRO:h-2-iab-alpha-chain,H-2-IAb alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iab-beta-chain,H-2-IAb beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iad-alpha-chain,H-2-IAd alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iad-beta-chain,H-2-IAd beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iaf-alpha-chain,H-2-IAf alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iaf-beta-chain,H-2-IAf beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iag7-alpha-chain,H-2-IAg7 alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iag7-beta-chain,H-2-IAg7 beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iak-alpha-chain,H-2-IAk alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iak-beta-chain,H-2-IAk beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iap-alpha-chain,H-2-IAp alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iap-beta-chain,H-2-IAp beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iaq-alpha-chain,H-2-IAq alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iaq-beta-chain,H-2-IAq beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iar-alpha-chain,H-2-IAr alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iar-beta-chain,H-2-IAr beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-ias-alpha-chain,H-2-IAs alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-ias-beta-chain,H-2-IAs beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-iau-alpha-chain,H-2-IAu alpha chain,,subclass,H-2-IA alpha chain,
-MRO:h-2-iau-beta-chain,H-2-IAu beta chain,,subclass,H-2-IA beta chain,
-MRO:h-2-ie-alpha-chain,H-2-IE alpha chain,,equivalent,protein,H-2-IE alpha locus
-MRO:h-2-ie-beta-chain,H-2-IE beta chain,,equivalent,protein,H-2-IE beta locus
-MRO:h-2-ieb-alpha-chain,H-2-IEb alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-ieb-beta-chain,H-2-IEb beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-ied-alpha-chain,H-2-IEd alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-ied-beta-chain,H-2-IEd beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-ieg7-alpha-chain,H-2-IEg7 alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-ieg7-beta-chain,H-2-IEg7 beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-iek-alpha-chain,H-2-IEk alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-iek-beta-chain,H-2-IEk beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-iep-alpha-chain,H-2-IEp alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-iep-beta-chain,H-2-IEp beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-ier-alpha-chain,H-2-IEr alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-ier-beta-chain,H-2-IEr beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-ieu-alpha-chain,H-2-IEu alpha chain,,subclass,H-2-IE alpha chain,
-MRO:h-2-ieu-beta-chain,H-2-IEu beta chain,,subclass,H-2-IE beta chain,
-MRO:h-2-k-chain,H-2-K chain,,equivalent,protein,H-2-K locus
-MRO:h-2-kb-chain,H-2-Kb chain,,subclass,H-2-K chain,
-MRO:h-2-kd-chain,H-2-Kd chain,,subclass,H-2-K chain,
-MRO:h-2-kk-chain,H-2-Kk chain,,subclass,H-2-K chain,
-MRO:h-2-ks-chain,H-2-Ks chain,,subclass,H-2-K chain,
-MRO:h-2-kwm7-chain,H-2-Kwm7 chain,,subclass,H-2-K chain,
-MRO:h-2-l-chain,H-2-L chain,,equivalent,protein,H-2-L locus
-MRO:h-2-ld-chain,H-2-Ld chain,,subclass,H-2-L chain,
-MRO:h-2-lq-chain,H-2-Lq chain,,subclass,H-2-L chain,
-MRO:h-2-m-chain,H-2-M chain,,equivalent,protein,H-2-M locus
-MRO:h-2-m3-chain,H-2-M3 chain,,subclass,H-2-M chain,
-MRO:h-2-mr1-chain,H-2-MR1 chain,,equivalent,protein,H-2-MR1 locus
-MRO:h-2-q-chain,H-2-Q chain,,equivalent,protein,H-2-Q locus
-MRO:h-2-q9-chain,H-2-Q9 chain,,subclass,H-2-Q chain,
-MRO:h-2-qa1-chain,H-2-Qa1 chain,,subclass,H-2-Q chain,
-MRO:h-2-qa2-chain,H-2-Qa2 chain,,subclass,H-2-Q chain,
-MRO:h-2-qa9-chain,H-2-Qa9 chain,,subclass,H-2-Q chain,
-MRO:hla-a-chain,HLA-A chain,,equivalent,protein,HLA-A locus
-MRO:hla-a*01:01-chain,HLA-A*01:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:01-chain,HLA-A*02:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:02-chain,HLA-A*02:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:03-chain,HLA-A*02:03 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:04-chain,HLA-A*02:04 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:05-chain,HLA-A*02:05 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:06-chain,HLA-A*02:06 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:07-chain,HLA-A*02:07 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:08-chain,HLA-A*02:08 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:09-chain,HLA-A*02:09 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:10-chain,HLA-A*02:10 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:11-chain,HLA-A*02:11 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:12-chain,HLA-A*02:12 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:13-chain,HLA-A*02:13 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:14-chain,HLA-A*02:14 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:16-chain,HLA-A*02:16 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:17-chain,HLA-A*02:17 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:19-chain,HLA-A*02:19 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:20-chain,HLA-A*02:20 chain,,subclass,HLA-A chain,
-MRO:hla-a*02:50-chain,HLA-A*02:50 chain,,subclass,HLA-A chain,
-MRO:hla-a*03:01-chain,HLA-A*03:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*03:02-chain,HLA-A*03:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*03:19-chain,HLA-A*03:19 chain,,subclass,HLA-A chain,
-MRO:hla-a*11:01-chain,HLA-A*11:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*11:02-chain,HLA-A*11:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*23:01-chain,HLA-A*23:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*24:02-chain,HLA-A*24:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*24:03-chain,HLA-A*24:03 chain,,subclass,HLA-A chain,
-MRO:hla-a*24:06-chain,HLA-A*24:06 chain,,subclass,HLA-A chain,
-MRO:hla-a*24:07-chain,HLA-A*24:07 chain,,subclass,HLA-A chain,
-MRO:hla-a*24:13-chain,HLA-A*24:13 chain,,subclass,HLA-A chain,
-MRO:hla-a*25:01-chain,HLA-A*25:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*26:01-chain,HLA-A*26:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*26:02-chain,HLA-A*26:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*26:03-chain,HLA-A*26:03 chain,,subclass,HLA-A chain,
-MRO:hla-a*29:01-chain,HLA-A*29:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*29:02-chain,HLA-A*29:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*30:01-chain,HLA-A*30:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*30:02-chain,HLA-A*30:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*30:03-chain,HLA-A*30:03 chain,,subclass,HLA-A chain,
-MRO:hla-a*30:04-chain,HLA-A*30:04 chain,,subclass,HLA-A chain,
-MRO:hla-a*31:01-chain,HLA-A*31:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*32:01-chain,HLA-A*32:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*32:05-chain,HLA-A*32:05 chain,,subclass,HLA-A chain,
-MRO:hla-a*32:07-chain,HLA-A*32:07 chain,,subclass,HLA-A chain,
-MRO:hla-a*32:15-chain,HLA-A*32:15 chain,,subclass,HLA-A chain,
-MRO:hla-a*33:01-chain,HLA-A*33:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*33:03-chain,HLA-A*33:03 chain,,subclass,HLA-A chain,
-MRO:hla-a*66:01-chain,HLA-A*66:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*68:01-chain,HLA-A*68:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*68:02-chain,HLA-A*68:02 chain,,subclass,HLA-A chain,
-MRO:hla-a*68:23-chain,HLA-A*68:23 chain,,subclass,HLA-A chain,
-MRO:hla-a*69:01-chain,HLA-A*69:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*74:01-chain,HLA-A*74:01 chain,,subclass,HLA-A chain,
-MRO:hla-a*80:01-chain,HLA-A*80:01 chain,,subclass,HLA-A chain,
-MRO:hla-b-chain,HLA-B chain,,equivalent,protein,HLA-B locus
-MRO:hla-b*07:02-chain,HLA-B*07:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*08:01-chain,HLA-B*08:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*08:02-chain,HLA-B*08:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*08:03-chain,HLA-B*08:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*13:01-chain,HLA-B*13:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*13:02-chain,HLA-B*13:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*14:02-chain,HLA-B*14:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*14:03-chain,HLA-B*14:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:01-chain,HLA-B*15:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:02-chain,HLA-B*15:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:03-chain,HLA-B*15:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:08-chain,HLA-B*15:08 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:09-chain,HLA-B*15:09 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:10-chain,HLA-B*15:10 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:13-chain,HLA-B*15:13 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:16-chain,HLA-B*15:16 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:17-chain,HLA-B*15:17 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:25-chain,HLA-B*15:25 chain,,subclass,HLA-B chain,
-MRO:hla-b*15:42-chain,HLA-B*15:42 chain,,subclass,HLA-B chain,
-MRO:hla-b*18:01-chain,HLA-B*18:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:01-chain,HLA-B*27:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:02-chain,HLA-B*27:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:03-chain,HLA-B*27:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:04-chain,HLA-B*27:04 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:05-chain,HLA-B*27:05 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:06-chain,HLA-B*27:06 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:07-chain,HLA-B*27:07 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:09-chain,HLA-B*27:09 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:10-chain,HLA-B*27:10 chain,,subclass,HLA-B chain,
-MRO:hla-b*27:20-chain,HLA-B*27:20 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:01-chain,HLA-B*35:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:02-chain,HLA-B*35:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:03-chain,HLA-B*35:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:04-chain,HLA-B*35:04 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:06-chain,HLA-B*35:06 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:08-chain,HLA-B*35:08 chain,,subclass,HLA-B chain,
-MRO:hla-b*35:14-chain,HLA-B*35:14 chain,,subclass,HLA-B chain,
-MRO:hla-b*37:01-chain,HLA-B*37:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*38:01-chain,HLA-B*38:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*38:02-chain,HLA-B*38:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*39:01-chain,HLA-B*39:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*39:05-chain,HLA-B*39:05 chain,,subclass,HLA-B chain,
-MRO:hla-b*39:06-chain,HLA-B*39:06 chain,,subclass,HLA-B chain,
-MRO:hla-b*39:10-chain,HLA-B*39:10 chain,,subclass,HLA-B chain,
-MRO:hla-b*40:01-chain,HLA-B*40:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*40:02-chain,HLA-B*40:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*40:06-chain,HLA-B*40:06 chain,,subclass,HLA-B chain,
-MRO:hla-b*40:13-chain,HLA-B*40:13 chain,,subclass,HLA-B chain,
-MRO:hla-b*41:01-chain,HLA-B*41:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*41:02-chain,HLA-B*41:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*41:03-chain,HLA-B*41:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*41:04-chain,HLA-B*41:04 chain,,subclass,HLA-B chain,
-MRO:hla-b*41:05-chain,HLA-B*41:05 chain,,subclass,HLA-B chain,
-MRO:hla-b*41:06-chain,HLA-B*41:06 chain,,subclass,HLA-B chain,
-MRO:hla-b*42:0-chain,HLA-B*42:0 chain,,subclass,HLA-B chain,
-MRO:hla-b*42:01-chain,HLA-B*42:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:01-chain,HLA-B*44:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:02-chain,HLA-B*44:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:03-chain,HLA-B*44:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:05-chain,HLA-B*44:05 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:08-chain,HLA-B*44:08 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:27-chain,HLA-B*44:27 chain,,subclass,HLA-B chain,
-MRO:hla-b*44:28-chain,HLA-B*44:28 chain,,subclass,HLA-B chain,
-MRO:hla-b*45:01-chain,HLA-B*45:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*45:06-chain,HLA-B*45:06 chain,,subclass,HLA-B chain,
-MRO:hla-b*46:01-chain,HLA-B*46:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*48:01-chain,HLA-B*48:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*49:01-chain,HLA-B*49:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*50:01-chain,HLA-B*50:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*51:01-chain,HLA-B*51:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*51:02-chain,HLA-B*51:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*51:03-chain,HLA-B*51:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*52:01-chain,HLA-B*52:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*53:01-chain,HLA-B*53:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*54:01-chain,HLA-B*54:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*55:01-chain,HLA-B*55:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*55:02-chain,HLA-B*55:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*56:01-chain,HLA-B*56:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*57:01-chain,HLA-B*57:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*57:02-chain,HLA-B*57:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*57:03-chain,HLA-B*57:03 chain,,subclass,HLA-B chain,
-MRO:hla-b*58:01-chain,HLA-B*58:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*58:02-chain,HLA-B*58:02 chain,,subclass,HLA-B chain,
-MRO:hla-b*67:01-chain,HLA-B*67:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*73:01-chain,HLA-B*73:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*81:01-chain,HLA-B*81:01 chain,,subclass,HLA-B chain,
-MRO:hla-b*83:01-chain,HLA-B*83:01 chain,,subclass,HLA-B chain,
-MRO:hla-btn3a-chain,HLA-BTN3A chain,,equivalent,protein,HLA-BTN3A locus
-MRO:hla-c-chain,HLA-C chain,,equivalent,protein,HLA-C locus
-MRO:hla-c*01:02-chain,HLA-C*01:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*02:02-chain,HLA-C*02:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*03:03-chain,HLA-C*03:03 chain,,subclass,HLA-C chain,
-MRO:hla-c*03:04-chain,HLA-C*03:04 chain,,subclass,HLA-C chain,
-MRO:hla-c*04:01-chain,HLA-C*04:01 chain,,subclass,HLA-C chain,
-MRO:hla-c*05:01-chain,HLA-C*05:01 chain,,subclass,HLA-C chain,
-MRO:hla-c*06:02-chain,HLA-C*06:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*07:01-chain,HLA-C*07:01 chain,,subclass,HLA-C chain,
-MRO:hla-c*07:02-chain,HLA-C*07:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*07:04-chain,HLA-C*07:04 chain,,subclass,HLA-C chain,
-MRO:hla-c*08:01-chain,HLA-C*08:01 chain,,subclass,HLA-C chain,
-MRO:hla-c*08:02-chain,HLA-C*08:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*12:02-chain,HLA-C*12:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*12:03-chain,HLA-C*12:03 chain,,subclass,HLA-C chain,
-MRO:hla-c*14:02-chain,HLA-C*14:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*15:02-chain,HLA-C*15:02 chain,,subclass,HLA-C chain,
-MRO:hla-c*16:01-chain,HLA-C*16:01 chain,,subclass,HLA-C chain,
-MRO:hla-cd1-chain,HLA-CD1 chain,,equivalent,protein,HLA-CD1 locus
-MRO:hla-dpa-chain,HLA-DPA chain,,equivalent,protein,HLA-DPA locus
-MRO:hla-dpa1*01:03-chain,HLA-DPA1*01:03 chain,,subclass,HLA-DPA chain,
-MRO:hla-dpa1*02:01-chain,HLA-DPA1*02:01 chain,,subclass,HLA-DPA chain,
-MRO:hla-dpa1*02:02-chain,HLA-DPA1*02:02 chain,,subclass,HLA-DPA chain,
-MRO:hla-dpa1*03:01-chain,HLA-DPA1*03:01 chain,,subclass,HLA-DPA chain,
-MRO:hla-dpb-chain,HLA-DPB chain,,equivalent,protein,HLA-DPB locus
-MRO:hla-dpb1*01:01-chain,HLA-DPB1*01:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*02:01-chain,HLA-DPB1*02:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*02:12-chain,HLA-DPB1*02:12 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*03:01-chain,HLA-DPB1*03:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*04:01-chain,HLA-DPB1*04:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*04:02-chain,HLA-DPB1*04:02 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*05:01-chain,HLA-DPB1*05:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*06:01-chain,HLA-DPB1*06:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*09:01-chain,HLA-DPB1*09:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*11:01-chain,HLA-DPB1*11:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*13:01-chain,HLA-DPB1*13:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*14:01-chain,HLA-DPB1*14:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*16:01-chain,HLA-DPB1*16:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*17:01-chain,HLA-DPB1*17:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*20:01-chain,HLA-DPB1*20:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*23:01-chain,HLA-DPB1*23:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*31:01-chain,HLA-DPB1*31:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dpb1*34:01-chain,HLA-DPB1*34:01 chain,,subclass,HLA-DPB chain,
-MRO:hla-dqa-chain,HLA-DQA chain,,equivalent,protein,HLA-DQA locus
-MRO:hla-dqa1*01:01-chain,HLA-DQA1*01:01 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*01:02-chain,HLA-DQA1*01:02 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*01:03-chain,HLA-DQA1*01:03 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*01:04-chain,HLA-DQA1*01:04 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*02:01-chain,HLA-DQA1*02:01 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*03:01-chain,HLA-DQA1*03:01 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*03:02-chain,HLA-DQA1*03:02 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*03:03-chain,HLA-DQA1*03:03 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*04:01-chain,HLA-DQA1*04:01 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*05:01-chain,HLA-DQA1*05:01 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*05:05-chain,HLA-DQA1*05:05 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqa1*06:01-chain,HLA-DQA1*06:01 chain,,subclass,HLA-DQA chain,
-MRO:hla-dqb-chain,HLA-DQB chain,,equivalent,protein,HLA-DQB locus
-MRO:hla-dqb*03:02-chain,HLA-DQB*03:02 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*02:01-chain,HLA-DQB1*02:01 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*02:02-chain,HLA-DQB1*02:02 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*03:01-chain,HLA-DQB1*03:01 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*03:02-chain,HLA-DQB1*03:02 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*03:03-chain,HLA-DQB1*03:03 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*03:04-chain,HLA-DQB1*03:04 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*03:05-chain,HLA-DQB1*03:05 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*03:19-chain,HLA-DQB1*03:19 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*04:01-chain,HLA-DQB1*04:01 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*04:02-chain,HLA-DQB1*04:02 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*05:01-chain,HLA-DQB1*05:01 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*05:02-chain,HLA-DQB1*05:02 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*05:03-chain,HLA-DQB1*05:03 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*06:01-chain,HLA-DQB1*06:01 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*06:02-chain,HLA-DQB1*06:02 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*06:03-chain,HLA-DQB1*06:03 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*06:04-chain,HLA-DQB1*06:04 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*06:05-chain,HLA-DQB1*06:05 chain,,subclass,HLA-DQB chain,
-MRO:hla-dqb1*06:09-chain,HLA-DQB1*06:09 chain,,subclass,HLA-DQB chain,
-MRO:hla-dra-chain,HLA-DRA chain,,equivalent,protein,HLA-DRA locus
-MRO:hla-dra*01:01-chain,HLA-DRA*01:01 chain,,subclass,HLA-DRA chain,
-MRO:hla-dra*01:02-chain,HLA-DRA*01:02 chain,,subclass,HLA-DRA chain,
-MRO:hla-drb-chain,HLA-DRB chain,,equivalent,protein,HLA-DRB locus
-MRO:hla-drb1-chain,HLA-DRB1 chain,,equivalent,protein,HLA-DRB1 locus
-MRO:hla-drb1*01:01-chain,HLA-DRB1*01:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*01:02-chain,HLA-DRB1*01:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*01:03-chain,HLA-DRB1*01:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*01:04-chain,HLA-DRB1*01:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*01:07-chain,HLA-DRB1*01:07 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*03:01-chain,HLA-DRB1*03:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*03:02-chain,HLA-DRB1*03:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*03:03-chain,HLA-DRB1*03:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*03:04-chain,HLA-DRB1*03:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*03:05-chain,HLA-DRB1*03:05 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*03:11-chain,HLA-DRB1*03:11 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:01-chain,HLA-DRB1*04:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:02-chain,HLA-DRB1*04:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:03-chain,HLA-DRB1*04:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:04-chain,HLA-DRB1*04:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:05-chain,HLA-DRB1*04:05 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:06-chain,HLA-DRB1*04:06 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:07-chain,HLA-DRB1*04:07 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:08-chain,HLA-DRB1*04:08 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:10-chain,HLA-DRB1*04:10 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*04:11-chain,HLA-DRB1*04:11 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*07:01-chain,HLA-DRB1*07:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*07:03-chain,HLA-DRB1*07:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*08:01-chain,HLA-DRB1*08:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*08:02-chain,HLA-DRB1*08:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*08:03-chain,HLA-DRB1*08:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*08:04-chain,HLA-DRB1*08:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*08:18-chain,HLA-DRB1*08:18 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*08:20-chain,HLA-DRB1*08:20 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*09:01-chain,HLA-DRB1*09:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*10:01-chain,HLA-DRB1*10:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*11:01-chain,HLA-DRB1*11:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*11:02-chain,HLA-DRB1*11:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*11:03-chain,HLA-DRB1*11:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*11:04-chain,HLA-DRB1*11:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*12:01-chain,HLA-DRB1*12:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*12:02-chain,HLA-DRB1*12:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:01-chain,HLA-DRB1*13:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:02-chain,HLA-DRB1*13:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:03-chain,HLA-DRB1*13:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:04-chain,HLA-DRB1*13:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:05-chain,HLA-DRB1*13:05 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:07-chain,HLA-DRB1*13:07 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:15-chain,HLA-DRB1*13:15 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*13:68-chain,HLA-DRB1*13:68 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:01-chain,HLA-DRB1*14:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:02-chain,HLA-DRB1*14:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:04-chain,HLA-DRB1*14:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:05-chain,HLA-DRB1*14:05 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:09-chain,HLA-DRB1*14:09 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:10-chain,HLA-DRB1*14:10 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*14:54-chain,HLA-DRB1*14:54 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*15:01-chain,HLA-DRB1*15:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*15:02-chain,HLA-DRB1*15:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*15:03-chain,HLA-DRB1*15:03 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*15:04-chain,HLA-DRB1*15:04 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*16:01-chain,HLA-DRB1*16:01 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb1*16:02-chain,HLA-DRB1*16:02 chain,,subclass,HLA-DRB1 chain,
-MRO:hla-drb3-chain,HLA-DRB3 chain,,equivalent,protein,HLA-DRB3 locus
-MRO:hla-drb3*01:01-chain,HLA-DRB3*01:01 chain,,subclass,HLA-DRB3 chain,
-MRO:hla-drb3*02:01-chain,HLA-DRB3*02:01 chain,,subclass,HLA-DRB3 chain,
-MRO:hla-drb3*02:02-chain,HLA-DRB3*02:02 chain,,subclass,HLA-DRB3 chain,
-MRO:hla-drb3*03:01-chain,HLA-DRB3*03:01 chain,,subclass,HLA-DRB3 chain,
-MRO:hla-drb4-chain,HLA-DRB4 chain,,equivalent,protein,HLA-DRB4 locus
-MRO:hla-drb4*01:01-chain,HLA-DRB4*01:01 chain,,subclass,HLA-DRB4 chain,
-MRO:hla-drb4*01:02-chain,HLA-DRB4*01:02 chain,,subclass,HLA-DRB4 chain,
-MRO:hla-drb4*01:03-chain,HLA-DRB4*01:03 chain,,subclass,HLA-DRB4 chain,
-MRO:hla-drb5-chain,HLA-DRB5 chain,,equivalent,protein,HLA-DRB5 locus
-MRO:hla-drb5*01:01-chain,HLA-DRB5*01:01 chain,,subclass,HLA-DRB5 chain,
-MRO:hla-drb5*01:02-chain,HLA-DRB5*01:02 chain,,subclass,HLA-DRB5 chain,
-MRO:hla-drb5*02:02-chain,HLA-DRB5*02:02 chain,,subclass,HLA-DRB5 chain,
-MRO:hla-e-chain,HLA-E chain,,equivalent,protein,HLA-E locus
-MRO:hla-e*01:01-chain,HLA-E*01:01 chain,,subclass,HLA-E chain,
-MRO:hla-e*01:03-chain,HLA-E*01:03 chain,,subclass,HLA-E chain,
-MRO:hla-g-chain,HLA-G chain,,equivalent,protein,HLA-G locus
-MRO:hla-g*01:01-chain,HLA-G*01:01 chain,,subclass,HLA-G chain,
-MRO:hla-mr1-chain,HLA-MR1 chain,,equivalent,protein,HLA-MR1 locus
-MRO:mhc-class-i-chain,MHC class I chain,,equivalent,protein,MHC class I locus
-MRO:mhc-class-ii-chain,MHC class II chain,,equivalent,protein,MHC class II locus
-MRO:mamu-a-chain,Mamu-A chain,,equivalent,protein,Mamu-A locus
-MRO:mamu-a*01-chain,Mamu-A*01 chain,,subclass,Mamu-A chain,
-MRO:mamu-a*02-chain,Mamu-A*02 chain,,subclass,Mamu-A chain,
-MRO:mamu-a*08-chain,Mamu-A*08 chain,,subclass,Mamu-A chain,
-MRO:mamu-a*11-chain,Mamu-A*11 chain,,subclass,Mamu-A chain,
-MRO:mamu-b-chain,Mamu-B chain,,equivalent,protein,Mamu-B locus
-MRO:mamu-b*01-chain,Mamu-B*01 chain,,subclass,Mamu-B chain,
-MRO:mamu-b*029-chain,Mamu-B*029 chain,,subclass,Mamu-B chain,
-MRO:mamu-b*03-chain,Mamu-B*03 chain,,subclass,Mamu-B chain,
-MRO:mamu-b*04-chain,Mamu-B*04 chain,,subclass,Mamu-B chain,
-MRO:mamu-b*08-chain,Mamu-B*08 chain,,subclass,Mamu-B chain,
-MRO:mamu-b*12-chain,Mamu-B*12 chain,,subclass,Mamu-B chain,
-MRO:mamu-b*17-chain,Mamu-B*17 chain,,subclass,Mamu-B chain,
-MRO:mamu-dpa-chain,Mamu-DPA chain,,equivalent,protein,Mamu-DPA locus
-MRO:mamu-dpb-chain,Mamu-DPB chain,,equivalent,protein,Mamu-DPB locus
-MRO:mamu-dpb1*01:01-chain,Mamu-DPB1*01:01 chain,,subclass,Mamu-DPB chain,
-MRO:mamu-dra-chain,Mamu-DRA chain,,equivalent,protein,Mamu-DRA locus
-MRO:mamu-drb-chain,Mamu-DRB chain,,equivalent,protein,Mamu-DRB locus
-MRO:mamu-drb*w2:01-chain,Mamu-DRB*w2:01 chain,,subclass,Mamu-DRB chain,
-MRO:mamu-drb1*03:03-chain,Mamu-DRB1*03:03 chain,,subclass,Mamu-DRB chain,
-MRO:mamu-drb1*03:06-chain,Mamu-DRB1*03:06 chain,,subclass,Mamu-DRB chain,
-MRO:mamu-drb1*03:08-chain,Mamu-DRB1*03:08 chain,,subclass,Mamu-DRB chain,
-MRO:mamu-drb1*04:06-chain,Mamu-DRB1*04:06 chain,,subclass,Mamu-DRB chain,
-MRO:papa-a-chain,Papa-A chain,,equivalent,protein,Papa-A locus
-MRO:papa-a*06:01-chain,Papa-A*06:01 chain,,subclass,Papa-A chain,
-MRO:patr-a-chain,Patr-A chain,,equivalent,protein,Patr-A locus
-MRO:patr-a*01:01-chain,Patr-A*01:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*03:01-chain,Patr-A*03:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*04:01-chain,Patr-A*04:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*04:02-chain,Patr-A*04:02 chain,,subclass,Patr-A chain,
-MRO:patr-a*05:01-chain,Patr-A*05:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*06:01-chain,Patr-A*06:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*06:02-chain,Patr-A*06:02 chain,,subclass,Patr-A chain,
-MRO:patr-a*07:01-chain,Patr-A*07:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*09:01-chain,Patr-A*09:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*11:01-chain,Patr-A*11:01 chain,,subclass,Patr-A chain,
-MRO:patr-a*14:01-chain,Patr-A*14:01 chain,,subclass,Patr-A chain,
-MRO:patr-al-chain,Patr-AL chain,,equivalent,protein,Patr-AL locus
-MRO:patr-b-chain,Patr-B chain,,equivalent,protein,Patr-B locus
-MRO:patr-b*01:01-chain,Patr-B*01:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*02:01-chain,Patr-B*02:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*03:01-chain,Patr-B*03:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*03:02-chain,Patr-B*03:02 chain,,subclass,Patr-B chain,
-MRO:patr-b*04:01-chain,Patr-B*04:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*05:01-chain,Patr-B*05:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*09:01-chain,Patr-B*09:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*13:01-chain,Patr-B*13:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*14:01-chain,Patr-B*14:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*16:01-chain,Patr-B*16:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*16:02-chain,Patr-B*16:02 chain,,subclass,Patr-B chain,
-MRO:patr-b*17:01-chain,Patr-B*17:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*20:01-chain,Patr-B*20:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*23:01-chain,Patr-B*23:01 chain,,subclass,Patr-B chain,
-MRO:patr-b*23:02-chain,Patr-B*23:02 chain,,subclass,Patr-B chain,
-MRO:patr-b*24:01-chain,Patr-B*24:01 chain,,subclass,Patr-B chain,
-MRO:patr-c-chain,Patr-C chain,,equivalent,protein,Patr-C locus
-MRO:patr-c*02:03-chain,Patr-C*02:03 chain,,subclass,Patr-C chain,
-MRO:patr-c*04:01-chain,Patr-C*04:01 chain,,subclass,Patr-C chain,
-MRO:patr-c*05:02-chain,Patr-C*05:02 chain,,subclass,Patr-C chain,
-MRO:patr-c*06:01-chain,Patr-C*06:01 chain,,subclass,Patr-C chain,
-MRO:patr-dpa-chain,Patr-DPA chain,,equivalent,protein,Patr-DPA locus
-MRO:patr-dpb-chain,Patr-DPB chain,,equivalent,protein,Patr-DPB locus
-MRO:patr-dqa-chain,Patr-DQA chain,,equivalent,protein,Patr-DQA locus
-MRO:patr-dqb-chain,Patr-DQB chain,,equivalent,protein,Patr-DQB locus
-MRO:patr-dra-chain,Patr-DRA chain,,equivalent,protein,Patr-DRA locus
-MRO:patr-drb-chain,Patr-DRB chain,,equivalent,protein,Patr-DRB locus
-MRO:patr-drb1*03:08-chain,Patr-DRB1*03:08 chain,,subclass,Patr-DRB chain,
-MRO:patr-drb1*07:01-chain,Patr-DRB1*07:01 chain,,subclass,Patr-DRB chain,
-MRO:patr-drb1*10:01-chain,Patr-DRB1*10:01 chain,,subclass,Patr-DRB chain,
-MRO:patr-drb5*03:10-chain,Patr-DRB5*03:10 chain,,subclass,Patr-DRB chain,
-MRO:rt1-a-chain,RT1-A chain,,equivalent,protein,RT1-A locus
-MRO:rt1-a1-chain,RT1-A1 chain,,equivalent,protein,RT1-A1 locus
-MRO:rt1-a2-chain,RT1-A2 chain,,equivalent,protein,RT1-A2 locus
-MRO:rt1-b-chain,RT1-B chain,,equivalent,protein,RT1-B locus
-MRO:rt1-d-chain,RT1-D chain,,equivalent,protein,RT1-D locus
-MRO:sla-1-chain,SLA-1 chain,,equivalent,protein,SLA-1 locus
-MRO:sla-1*0401-chain,SLA-1*0401 chain,,subclass,SLA-1 chain,
-MRO:sla-1*1502-chain,SLA-1*1502 chain,,subclass,SLA-1 chain,
-MRO:sla-2-chain,SLA-2 chain,,equivalent,protein,SLA-2 locus
-MRO:sla-2*0401-chain,SLA-2*0401 chain,,subclass,SLA-2 chain,
-MRO:saoe-g-chain,Saoe-G chain,,equivalent,protein,Saoe-G locus
-MRO:saoe-g*02-chain,Saoe-G*02 chain,,subclass,Saoe-G chain,
-MRO:saoe-g*04-chain,Saoe-G*04 chain,,subclass,Saoe-G chain,
-MRO:saoe-g*08-chain,Saoe-G*08 chain,,subclass,Saoe-G chain,
-MRO:saoe-g*12-chain,Saoe-G*12 chain,,subclass,Saoe-G chain,
-MRO:yf1w*7.1-chain,YF1w*7.1 chain,,subclass,BF-YF chain,
-MRO:bonobo-mhc-class-i-chain,bonobo MHC class I chain,,equivalent,protein,bonobo MHC class I locus
-MRO:bonobo-mhc-class-ii-chain,bonobo MHC class II chain,,equivalent,protein,bonobo MHC class II locus
-MRO:cattle-cd1b3-chain,cattle CD1b3 chain,,subclass,BoLA-CD1 chain,
-MRO:cattle-cd1d-chain,cattle CD1d chain,,subclass,BoLA-CD1 chain,
-MRO:cattle-mhc-class-i-chain,cattle MHC class I chain,,equivalent,protein,cattle MHC class I locus
-MRO:cattle-mhc-class-ii-chain,cattle MHC class II chain,,equivalent,protein,cattle MHC class II locus
-MRO:cattle-mr1-chain,cattle MR1 chain,,subclass,BoLA-MR1 chain,
-MRO:cattle-non-classical-mhc-chain,cattle non-classical MHC chain,,equivalent,protein,cattle non-classical MHC locus
-MRO:chicken-cd1-1-chain,chicken CD1-1 chain,,subclass,BF-B chain,
-MRO:chicken-cd1-2-chain,chicken CD1-2 chain,,subclass,BF-B chain,
-MRO:chicken-mhc-class-i-chain,chicken MHC class I chain,,equivalent,protein,chicken MHC class I locus
-MRO:chicken-mhc-class-ii-chain,chicken MHC class II chain,,equivalent,protein,chicken MHC class II locus
-MRO:chicken-non-classical-mhc-chain,chicken non-classical MHC chain,,equivalent,protein,chicken non-classical MHC locus
-MRO:chimpanzee-mhc-class-i-chain,chimpanzee MHC class I chain,,equivalent,protein,chimpanzee MHC class I locus
-MRO:chimpanzee-mhc-class-ii-chain,chimpanzee MHC class II chain,,equivalent,protein,chimpanzee MHC class II locus
-MRO:chimpanzee-non-classical-mhc-chain,chimpanzee non-classical MHC chain,,equivalent,protein,chimpanzee non-classical MHC locus
-MRO:cotton-top-tamarin-mhc-class-i-chain,cotton-top tamarin MHC class I chain,,equivalent,protein,cotton-top tamarin MHC class I locus
-MRO:cotton-top-tamarin-mhc-class-ii-chain,cotton-top tamarin MHC class II chain,,equivalent,protein,cotton-top tamarin MHC class II locus
-MRO:dog-mhc-class-i-chain,dog MHC class I chain,,equivalent,protein,dog MHC class I locus
-MRO:dog-mhc-class-ii-chain,dog MHC class II chain,,equivalent,protein,dog MHC class II locus
-MRO:gorilla-mhc-class-i-chain,gorilla MHC class I chain,,equivalent,protein,gorilla MHC class I locus
-MRO:gorilla-mhc-class-ii-chain,gorilla MHC class II chain,,equivalent,protein,gorilla MHC class II locus
-MRO:horse-mhc-class-i-chain,horse MHC class I chain,,equivalent,protein,horse MHC class I locus
-MRO:horse-mhc-class-ii-chain,horse MHC class II chain,,equivalent,protein,horse MHC class II locus
-MRO:human-btn3a1-chain,human BTN3A1 chain,,subclass,HLA-BTN3A chain,
-MRO:human-cd1a-chain,human CD1a chain,,subclass,HLA-CD1 chain,
-MRO:human-cd1b-chain,human CD1b chain,,subclass,HLA-CD1 chain,
-MRO:human-cd1c-chain,human CD1c chain,,subclass,HLA-CD1 chain,
-MRO:human-cd1d-chain,human CD1d chain,,subclass,HLA-CD1 chain,
-MRO:human-mhc-class-i-chain,human MHC class I chain,,equivalent,protein,human MHC class I locus
-MRO:human-mhc-class-ii-chain,human MHC class II chain,,equivalent,protein,human MHC class II locus
-MRO:human-mr1-k43a-mutant-chain,human MR1 K43A mutant chain,,subclass,HLA-MR1 chain,
-MRO:human-mr1-chain,human MR1 chain,,subclass,HLA-MR1 chain,
-MRO:human-non-classical-mhc-chain,human non-classical MHC chain,,equivalent,protein,human non-classical MHC locus
-MRO:marmoset-mhc-class-i-chain,marmoset MHC class I chain,,equivalent,protein,marmoset MHC class I locus
-MRO:mouse-cd1d-chain,mouse CD1d chain,,subclass,H-2-CD1 chain,
-MRO:mouse-mhc-class-i-chain,mouse MHC class I chain,,equivalent,protein,mouse MHC class I locus
-MRO:mouse-mhc-class-ii-chain,mouse MHC class II chain,,equivalent,protein,mouse MHC class II locus
-MRO:mouse-mr1-chain,mouse MR1 chain,,subclass,H-2-MR1 chain,
-MRO:mouse-non-classical-mhc-chain,mouse non-classical MHC chain,,equivalent,protein,mouse non-classical MHC locus
-MRO:non-classical-mhc-chain,non-classical MHC chain,,equivalent,protein,non-classical MHC locus
-MRO:pig-mhc-class-i-chain,pig MHC class I chain,,equivalent,protein,pig MHC class I locus
-MRO:pig-mhc-class-ii-chain,pig MHC class II chain,,equivalent,protein,pig MHC class II locus
-MRO:rat-mhc-class-i-chain,rat MHC class I chain,,equivalent,protein,rat MHC class I locus
-MRO:rat-mhc-class-ii-chain,rat MHC class II chain,,equivalent,protein,rat MHC class II locus
-MRO:rhesus-macaque-mhc-class-i-chain,rhesus macaque MHC class I chain,,equivalent,protein,rhesus macaque MHC class I locus
-MRO:rhesus-macaque-mhc-class-ii-chain,rhesus macaque MHC class II chain,,equivalent,protein,rhesus macaque MHC class II locus
-MRO:sheep-mhc-class-i-chain,sheep MHC class I chain,,equivalent,protein,sheep MHC class I locus
-MRO:sheep-mhc-class-ii-chain,sheep MHC class II chain,,equivalent,protein,sheep MHC class II locus
+Label,Synonyms,Class Type,Parent,Gene
+LABEL,A IAO:0000118 SPLIT=|,CLASS_TYPE,C %,C 'gene product of' some %
+BF-B chain,,equivalent,protein,BF-B locus
+BF-BF1 chain,,equivalent,protein,BF-BF1 locus
+BF-BF2 chain,,equivalent,protein,BF-BF2 locus
+BF-YF chain,,equivalent,protein,BF-YF locus
+BF1*0201 chain,,subclass,BF-BF1 chain,
+BF2*0201 chain,,subclass,BF-BF2 chain,
+BF2*0401 chain,,subclass,BF-BF2 chain,
+BF2*1201 chain,,subclass,BF-BF2 chain,
+BF2*1401 chain,,subclass,BF-BF2 chain,
+BF2*1501 chain,,subclass,BF-BF2 chain,
+BF2*2101 chain,,subclass,BF-BF2 chain,
+BoLA-1 chain,,equivalent,protein,BoLA-1 locus
+BoLA-1*02101 chain,,subclass,BoLA-1 chain,
+BoLA-1*02301 chain,,subclass,BoLA-1 chain,
+BoLA-2 chain,,equivalent,protein,BoLA-2 locus
+BoLA-2*01201 chain,,subclass,BoLA-2 chain,
+BoLA-2*01801 chain,,subclass,BoLA-2 chain,
+BoLA-2*02201 chain,,subclass,BoLA-2 chain,
+BoLA-3 chain,,equivalent,protein,BoLA-3 locus
+BoLA-3*00101 chain,,subclass,BoLA-3 chain,
+BoLA-3*00201 chain,,subclass,BoLA-3 chain,
+BoLA-6 chain,,equivalent,protein,BoLA-6 locus
+BoLA-6*01301 chain,,subclass,BoLA-6 chain,
+BoLA-6*04101 chain,,subclass,BoLA-6 chain,
+BoLA-CD1 chain,,equivalent,protein,BoLA-CD1 locus
+BoLA-DQA chain,,equivalent,protein,BoLA-DQA locus
+BoLA-DQA*0202 chain,,subclass,BoLA-DQA chain,
+BoLA-DQA*0301 chain,,subclass,BoLA-DQA chain,
+BoLA-DQA*10011 chain,,subclass,BoLA-DQA chain,
+BoLA-DQA*12011 chain,,subclass,BoLA-DQA chain,
+BoLA-DQA*2201 chain,,subclass,BoLA-DQA chain,
+BoLA-DQA*2202 chain,,subclass,BoLA-DQA chain,
+BoLA-DQA*2206 chain,,subclass,BoLA-DQA chain,
+BoLA-DQB chain,,equivalent,protein,BoLA-DQB locus
+BoLA-DQB*0402 chain,,subclass,BoLA-DQB chain,
+BoLA-DQB*0901 chain,,subclass,BoLA-DQB chain,
+BoLA-DQB*10021 chain,,subclass,BoLA-DQB chain,
+BoLA-DQB*10051 chain,,subclass,BoLA-DQB chain,
+BoLA-DQB*1201 chain,,subclass,BoLA-DQB chain,
+BoLA-DQB*1301 chain,,subclass,BoLA-DQB chain,
+BoLA-DQB*1402 chain,,subclass,BoLA-DQB chain,
+BoLA-DRA chain,,equivalent,protein,BoLA-DRA locus
+BoLA-DRB chain,,equivalent,protein,BoLA-DRB locus
+BoLA-DRB3 chain,,equivalent,protein,BoLA-DRB3 locus
+BoLA-DRB3*0101 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*0201 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*0701 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*1101 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*1201 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*1202 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*14011 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*1501 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*1502 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*2002 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*2703 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*3001 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB3*4501 chain,,subclass,BoLA-DRB3 chain,
+BoLA-DRB6 chain,,equivalent,protein,BoLA-DRB6 locus
+BoLA-MR1 chain,,equivalent,protein,BoLA-MR1 locus
+Caja-E chain,,equivalent,protein,Caja-E locus
+Caja-G chain,,equivalent,protein,Caja-G locus
+DLA-88 chain,,equivalent,protein,DLA-88 locus
+DLA-88*50801 chain,,subclass,DLA-88 chain,
+ELA-N chain,,equivalent,protein,ELA-N locus
+Eqca-N*00602 chain,,subclass,ELA-N chain,
+Gogo-B chain,,equivalent,protein,Gogo-B locus
+Gogo-B*0101 chain,,subclass,Gogo-B chain,
+H-2-CD1 chain,,equivalent,protein,H-2-CD1 locus
+H-2-D chain,,equivalent,protein,H-2-D locus
+H-2-Db chain,,subclass,H-2-D chain,
+H-2-Dd chain,,subclass,H-2-D chain,
+H-2-Dk chain,,subclass,H-2-D chain,
+H-2-Dr chain,,subclass,H-2-D chain,
+H-2-Ds chain,,subclass,H-2-D chain,
+H-2-IA alpha chain,,equivalent,protein,H-2-IA alpha locus
+H-2-IA beta chain,,equivalent,protein,H-2-IA beta locus
+H-2-IAb alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAb beta chain,,subclass,H-2-IA beta chain,
+H-2-IAd alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAd beta chain,,subclass,H-2-IA beta chain,
+H-2-IAf alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAf beta chain,,subclass,H-2-IA beta chain,
+H-2-IAg7 alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAg7 beta chain,,subclass,H-2-IA beta chain,
+H-2-IAk alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAk beta chain,,subclass,H-2-IA beta chain,
+H-2-IAp alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAp beta chain,,subclass,H-2-IA beta chain,
+H-2-IAq alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAq beta chain,,subclass,H-2-IA beta chain,
+H-2-IAr alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAr beta chain,,subclass,H-2-IA beta chain,
+H-2-IAs alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAs beta chain,,subclass,H-2-IA beta chain,
+H-2-IAu alpha chain,,subclass,H-2-IA alpha chain,
+H-2-IAu beta chain,,subclass,H-2-IA beta chain,
+H-2-IE alpha chain,,equivalent,protein,H-2-IE alpha locus
+H-2-IE beta chain,,equivalent,protein,H-2-IE beta locus
+H-2-IEb alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEb beta chain,,subclass,H-2-IE beta chain,
+H-2-IEd alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEd beta chain,,subclass,H-2-IE beta chain,
+H-2-IEg7 alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEg7 beta chain,,subclass,H-2-IE beta chain,
+H-2-IEk alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEk beta chain,,subclass,H-2-IE beta chain,
+H-2-IEp alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEp beta chain,,subclass,H-2-IE beta chain,
+H-2-IEr alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEr beta chain,,subclass,H-2-IE beta chain,
+H-2-IEu alpha chain,,subclass,H-2-IE alpha chain,
+H-2-IEu beta chain,,subclass,H-2-IE beta chain,
+H-2-K chain,,equivalent,protein,H-2-K locus
+H-2-Kb chain,,subclass,H-2-K chain,
+H-2-Kd chain,,subclass,H-2-K chain,
+H-2-Kk chain,,subclass,H-2-K chain,
+H-2-Ks chain,,subclass,H-2-K chain,
+H-2-Kwm7 chain,,subclass,H-2-K chain,
+H-2-L chain,,equivalent,protein,H-2-L locus
+H-2-Ld chain,,subclass,H-2-L chain,
+H-2-Lq chain,,subclass,H-2-L chain,
+H-2-M chain,,equivalent,protein,H-2-M locus
+H-2-M3 chain,,subclass,H-2-M chain,
+H-2-MR1 chain,,equivalent,protein,H-2-MR1 locus
+H-2-Q chain,,equivalent,protein,H-2-Q locus
+H-2-Q9 chain,,subclass,H-2-Q chain,
+H-2-Qa1 chain,,subclass,H-2-Q chain,
+H-2-Qa2 chain,,subclass,H-2-Q chain,
+H-2-Qa9 chain,,subclass,H-2-Q chain,
+HLA-A chain,,equivalent,protein,HLA-A locus
+HLA-A*01:01 chain,,subclass,HLA-A chain,
+HLA-A*02:01 chain,,subclass,HLA-A chain,
+HLA-A*02:02 chain,,subclass,HLA-A chain,
+HLA-A*02:03 chain,,subclass,HLA-A chain,
+HLA-A*02:04 chain,,subclass,HLA-A chain,
+HLA-A*02:05 chain,,subclass,HLA-A chain,
+HLA-A*02:06 chain,,subclass,HLA-A chain,
+HLA-A*02:07 chain,,subclass,HLA-A chain,
+HLA-A*02:08 chain,,subclass,HLA-A chain,
+HLA-A*02:09 chain,,subclass,HLA-A chain,
+HLA-A*02:10 chain,,subclass,HLA-A chain,
+HLA-A*02:11 chain,,subclass,HLA-A chain,
+HLA-A*02:12 chain,,subclass,HLA-A chain,
+HLA-A*02:13 chain,,subclass,HLA-A chain,
+HLA-A*02:14 chain,,subclass,HLA-A chain,
+HLA-A*02:16 chain,,subclass,HLA-A chain,
+HLA-A*02:17 chain,,subclass,HLA-A chain,
+HLA-A*02:19 chain,,subclass,HLA-A chain,
+HLA-A*02:20 chain,,subclass,HLA-A chain,
+HLA-A*02:50 chain,,subclass,HLA-A chain,
+HLA-A*03:01 chain,,subclass,HLA-A chain,
+HLA-A*03:02 chain,,subclass,HLA-A chain,
+HLA-A*03:19 chain,,subclass,HLA-A chain,
+HLA-A*11:01 chain,,subclass,HLA-A chain,
+HLA-A*11:02 chain,,subclass,HLA-A chain,
+HLA-A*23:01 chain,,subclass,HLA-A chain,
+HLA-A*24:02 chain,,subclass,HLA-A chain,
+HLA-A*24:03 chain,,subclass,HLA-A chain,
+HLA-A*24:06 chain,,subclass,HLA-A chain,
+HLA-A*24:07 chain,,subclass,HLA-A chain,
+HLA-A*24:13 chain,,subclass,HLA-A chain,
+HLA-A*25:01 chain,,subclass,HLA-A chain,
+HLA-A*26:01 chain,,subclass,HLA-A chain,
+HLA-A*26:02 chain,,subclass,HLA-A chain,
+HLA-A*26:03 chain,,subclass,HLA-A chain,
+HLA-A*29:01 chain,,subclass,HLA-A chain,
+HLA-A*29:02 chain,,subclass,HLA-A chain,
+HLA-A*30:01 chain,,subclass,HLA-A chain,
+HLA-A*30:02 chain,,subclass,HLA-A chain,
+HLA-A*30:03 chain,,subclass,HLA-A chain,
+HLA-A*30:04 chain,,subclass,HLA-A chain,
+HLA-A*31:01 chain,,subclass,HLA-A chain,
+HLA-A*32:01 chain,,subclass,HLA-A chain,
+HLA-A*32:05 chain,,subclass,HLA-A chain,
+HLA-A*32:07 chain,,subclass,HLA-A chain,
+HLA-A*32:15 chain,,subclass,HLA-A chain,
+HLA-A*33:01 chain,,subclass,HLA-A chain,
+HLA-A*33:03 chain,,subclass,HLA-A chain,
+HLA-A*66:01 chain,,subclass,HLA-A chain,
+HLA-A*68:01 chain,,subclass,HLA-A chain,
+HLA-A*68:02 chain,,subclass,HLA-A chain,
+HLA-A*68:23 chain,,subclass,HLA-A chain,
+HLA-A*69:01 chain,,subclass,HLA-A chain,
+HLA-A*74:01 chain,,subclass,HLA-A chain,
+HLA-A*80:01 chain,,subclass,HLA-A chain,
+HLA-B chain,,equivalent,protein,HLA-B locus
+HLA-B*07:02 chain,,subclass,HLA-B chain,
+HLA-B*08:01 chain,,subclass,HLA-B chain,
+HLA-B*08:02 chain,,subclass,HLA-B chain,
+HLA-B*08:03 chain,,subclass,HLA-B chain,
+HLA-B*13:01 chain,,subclass,HLA-B chain,
+HLA-B*13:02 chain,,subclass,HLA-B chain,
+HLA-B*14:02 chain,,subclass,HLA-B chain,
+HLA-B*14:03 chain,,subclass,HLA-B chain,
+HLA-B*15:01 chain,,subclass,HLA-B chain,
+HLA-B*15:02 chain,,subclass,HLA-B chain,
+HLA-B*15:03 chain,,subclass,HLA-B chain,
+HLA-B*15:08 chain,,subclass,HLA-B chain,
+HLA-B*15:09 chain,,subclass,HLA-B chain,
+HLA-B*15:10 chain,,subclass,HLA-B chain,
+HLA-B*15:13 chain,,subclass,HLA-B chain,
+HLA-B*15:16 chain,,subclass,HLA-B chain,
+HLA-B*15:17 chain,,subclass,HLA-B chain,
+HLA-B*15:25 chain,,subclass,HLA-B chain,
+HLA-B*15:42 chain,,subclass,HLA-B chain,
+HLA-B*18:01 chain,,subclass,HLA-B chain,
+HLA-B*27:01 chain,,subclass,HLA-B chain,
+HLA-B*27:02 chain,,subclass,HLA-B chain,
+HLA-B*27:03 chain,,subclass,HLA-B chain,
+HLA-B*27:04 chain,,subclass,HLA-B chain,
+HLA-B*27:05 chain,,subclass,HLA-B chain,
+HLA-B*27:06 chain,,subclass,HLA-B chain,
+HLA-B*27:07 chain,,subclass,HLA-B chain,
+HLA-B*27:09 chain,,subclass,HLA-B chain,
+HLA-B*27:10 chain,,subclass,HLA-B chain,
+HLA-B*27:20 chain,,subclass,HLA-B chain,
+HLA-B*35:01 chain,,subclass,HLA-B chain,
+HLA-B*35:02 chain,,subclass,HLA-B chain,
+HLA-B*35:03 chain,,subclass,HLA-B chain,
+HLA-B*35:04 chain,,subclass,HLA-B chain,
+HLA-B*35:06 chain,,subclass,HLA-B chain,
+HLA-B*35:08 chain,,subclass,HLA-B chain,
+HLA-B*35:14 chain,,subclass,HLA-B chain,
+HLA-B*37:01 chain,,subclass,HLA-B chain,
+HLA-B*38:01 chain,,subclass,HLA-B chain,
+HLA-B*38:02 chain,,subclass,HLA-B chain,
+HLA-B*39:01 chain,,subclass,HLA-B chain,
+HLA-B*39:05 chain,,subclass,HLA-B chain,
+HLA-B*39:06 chain,,subclass,HLA-B chain,
+HLA-B*39:10 chain,,subclass,HLA-B chain,
+HLA-B*40:01 chain,,subclass,HLA-B chain,
+HLA-B*40:02 chain,,subclass,HLA-B chain,
+HLA-B*40:06 chain,,subclass,HLA-B chain,
+HLA-B*40:13 chain,,subclass,HLA-B chain,
+HLA-B*41:01 chain,,subclass,HLA-B chain,
+HLA-B*41:02 chain,,subclass,HLA-B chain,
+HLA-B*41:03 chain,,subclass,HLA-B chain,
+HLA-B*41:04 chain,,subclass,HLA-B chain,
+HLA-B*41:05 chain,,subclass,HLA-B chain,
+HLA-B*41:06 chain,,subclass,HLA-B chain,
+HLA-B*42:0 chain,,subclass,HLA-B chain,
+HLA-B*42:01 chain,,subclass,HLA-B chain,
+HLA-B*44:01 chain,,subclass,HLA-B chain,
+HLA-B*44:02 chain,,subclass,HLA-B chain,
+HLA-B*44:03 chain,,subclass,HLA-B chain,
+HLA-B*44:05 chain,,subclass,HLA-B chain,
+HLA-B*44:08 chain,,subclass,HLA-B chain,
+HLA-B*44:27 chain,,subclass,HLA-B chain,
+HLA-B*44:28 chain,,subclass,HLA-B chain,
+HLA-B*45:01 chain,,subclass,HLA-B chain,
+HLA-B*45:06 chain,,subclass,HLA-B chain,
+HLA-B*46:01 chain,,subclass,HLA-B chain,
+HLA-B*48:01 chain,,subclass,HLA-B chain,
+HLA-B*49:01 chain,,subclass,HLA-B chain,
+HLA-B*50:01 chain,,subclass,HLA-B chain,
+HLA-B*51:01 chain,,subclass,HLA-B chain,
+HLA-B*51:02 chain,,subclass,HLA-B chain,
+HLA-B*51:03 chain,,subclass,HLA-B chain,
+HLA-B*52:01 chain,,subclass,HLA-B chain,
+HLA-B*53:01 chain,,subclass,HLA-B chain,
+HLA-B*54:01 chain,,subclass,HLA-B chain,
+HLA-B*55:01 chain,,subclass,HLA-B chain,
+HLA-B*55:02 chain,,subclass,HLA-B chain,
+HLA-B*56:01 chain,,subclass,HLA-B chain,
+HLA-B*57:01 chain,,subclass,HLA-B chain,
+HLA-B*57:02 chain,,subclass,HLA-B chain,
+HLA-B*57:03 chain,,subclass,HLA-B chain,
+HLA-B*58:01 chain,,subclass,HLA-B chain,
+HLA-B*58:02 chain,,subclass,HLA-B chain,
+HLA-B*67:01 chain,,subclass,HLA-B chain,
+HLA-B*73:01 chain,,subclass,HLA-B chain,
+HLA-B*81:01 chain,,subclass,HLA-B chain,
+HLA-B*83:01 chain,,subclass,HLA-B chain,
+HLA-BTN3A chain,,equivalent,protein,HLA-BTN3A locus
+HLA-C chain,,equivalent,protein,HLA-C locus
+HLA-C*01:02 chain,,subclass,HLA-C chain,
+HLA-C*02:02 chain,,subclass,HLA-C chain,
+HLA-C*03:03 chain,,subclass,HLA-C chain,
+HLA-C*03:04 chain,,subclass,HLA-C chain,
+HLA-C*04:01 chain,,subclass,HLA-C chain,
+HLA-C*05:01 chain,,subclass,HLA-C chain,
+HLA-C*06:02 chain,,subclass,HLA-C chain,
+HLA-C*07:01 chain,,subclass,HLA-C chain,
+HLA-C*07:02 chain,,subclass,HLA-C chain,
+HLA-C*07:04 chain,,subclass,HLA-C chain,
+HLA-C*08:01 chain,,subclass,HLA-C chain,
+HLA-C*08:02 chain,,subclass,HLA-C chain,
+HLA-C*12:02 chain,,subclass,HLA-C chain,
+HLA-C*12:03 chain,,subclass,HLA-C chain,
+HLA-C*14:02 chain,,subclass,HLA-C chain,
+HLA-C*15:02 chain,,subclass,HLA-C chain,
+HLA-C*16:01 chain,,subclass,HLA-C chain,
+HLA-CD1 chain,,equivalent,protein,HLA-CD1 locus
+HLA-DPA chain,,equivalent,protein,HLA-DPA locus
+HLA-DPA1*01:03 chain,,subclass,HLA-DPA chain,
+HLA-DPA1*02:01 chain,,subclass,HLA-DPA chain,
+HLA-DPA1*02:02 chain,,subclass,HLA-DPA chain,
+HLA-DPA1*03:01 chain,,subclass,HLA-DPA chain,
+HLA-DPB chain,,equivalent,protein,HLA-DPB locus
+HLA-DPB1*01:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*02:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*02:12 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*03:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*04:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*04:02 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*05:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*06:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*09:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*11:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*13:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*14:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*16:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*17:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*20:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*23:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*31:01 chain,,subclass,HLA-DPB chain,
+HLA-DPB1*34:01 chain,,subclass,HLA-DPB chain,
+HLA-DQA chain,,equivalent,protein,HLA-DQA locus
+HLA-DQA1*01:01 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*01:02 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*01:03 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*01:04 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*02:01 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*03:01 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*03:02 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*03:03 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*04:01 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*05:01 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*05:05 chain,,subclass,HLA-DQA chain,
+HLA-DQA1*06:01 chain,,subclass,HLA-DQA chain,
+HLA-DQB chain,,equivalent,protein,HLA-DQB locus
+HLA-DQB*03:02 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*02:01 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*02:02 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*03:01 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*03:02 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*03:03 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*03:04 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*03:05 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*03:19 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*04:01 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*04:02 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*05:01 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*05:02 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*05:03 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*06:01 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*06:02 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*06:03 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*06:04 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*06:05 chain,,subclass,HLA-DQB chain,
+HLA-DQB1*06:09 chain,,subclass,HLA-DQB chain,
+HLA-DRA chain,,equivalent,protein,HLA-DRA locus
+HLA-DRA*01:01 chain,,subclass,HLA-DRA chain,
+HLA-DRA*01:02 chain,,subclass,HLA-DRA chain,
+HLA-DRB chain,,equivalent,protein,HLA-DRB locus
+HLA-DRB1 chain,,equivalent,protein,HLA-DRB1 locus
+HLA-DRB1*01:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*01:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*01:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*01:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*01:07 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*03:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*03:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*03:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*03:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*03:05 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*03:11 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:05 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:06 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:07 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:08 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:10 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*04:11 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*07:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*07:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*08:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*08:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*08:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*08:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*08:18 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*08:20 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*09:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*10:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*11:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*11:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*11:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*11:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*12:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*12:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:05 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:07 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:15 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*13:68 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:05 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:09 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:10 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*14:54 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*15:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*15:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*15:03 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*15:04 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*16:01 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB1*16:02 chain,,subclass,HLA-DRB1 chain,
+HLA-DRB3 chain,,equivalent,protein,HLA-DRB3 locus
+HLA-DRB3*01:01 chain,,subclass,HLA-DRB3 chain,
+HLA-DRB3*02:01 chain,,subclass,HLA-DRB3 chain,
+HLA-DRB3*02:02 chain,,subclass,HLA-DRB3 chain,
+HLA-DRB3*03:01 chain,,subclass,HLA-DRB3 chain,
+HLA-DRB4 chain,,equivalent,protein,HLA-DRB4 locus
+HLA-DRB4*01:01 chain,,subclass,HLA-DRB4 chain,
+HLA-DRB4*01:02 chain,,subclass,HLA-DRB4 chain,
+HLA-DRB4*01:03 chain,,subclass,HLA-DRB4 chain,
+HLA-DRB5 chain,,equivalent,protein,HLA-DRB5 locus
+HLA-DRB5*01:01 chain,,subclass,HLA-DRB5 chain,
+HLA-DRB5*01:02 chain,,subclass,HLA-DRB5 chain,
+HLA-DRB5*02:02 chain,,subclass,HLA-DRB5 chain,
+HLA-E chain,,equivalent,protein,HLA-E locus
+HLA-E*01:01 chain,,subclass,HLA-E chain,
+HLA-E*01:03 chain,,subclass,HLA-E chain,
+HLA-G chain,,equivalent,protein,HLA-G locus
+HLA-G*01:01 chain,,subclass,HLA-G chain,
+HLA-MR1 chain,,equivalent,protein,HLA-MR1 locus
+MHC class I chain,,equivalent,protein,MHC class I locus
+MHC class II chain,,equivalent,protein,MHC class II locus
+Mamu-A chain,,equivalent,protein,Mamu-A locus
+Mamu-A*01 chain,,subclass,Mamu-A chain,
+Mamu-A*02 chain,,subclass,Mamu-A chain,
+Mamu-A*08 chain,,subclass,Mamu-A chain,
+Mamu-A*11 chain,,subclass,Mamu-A chain,
+Mamu-B chain,,equivalent,protein,Mamu-B locus
+Mamu-B*01 chain,,subclass,Mamu-B chain,
+Mamu-B*029 chain,,subclass,Mamu-B chain,
+Mamu-B*03 chain,,subclass,Mamu-B chain,
+Mamu-B*04 chain,,subclass,Mamu-B chain,
+Mamu-B*08 chain,,subclass,Mamu-B chain,
+Mamu-B*12 chain,,subclass,Mamu-B chain,
+Mamu-B*17 chain,,subclass,Mamu-B chain,
+Mamu-DPA chain,,equivalent,protein,Mamu-DPA locus
+Mamu-DPB chain,,equivalent,protein,Mamu-DPB locus
+Mamu-DPB1*01:01 chain,,subclass,Mamu-DPB chain,
+Mamu-DRA chain,,equivalent,protein,Mamu-DRA locus
+Mamu-DRB chain,,equivalent,protein,Mamu-DRB locus
+Mamu-DRB*w2:01 chain,,subclass,Mamu-DRB chain,
+Mamu-DRB1*03:03 chain,,subclass,Mamu-DRB chain,
+Mamu-DRB1*03:06 chain,,subclass,Mamu-DRB chain,
+Mamu-DRB1*03:08 chain,,subclass,Mamu-DRB chain,
+Mamu-DRB1*04:06 chain,,subclass,Mamu-DRB chain,
+Papa-A chain,,equivalent,protein,Papa-A locus
+Papa-A*06:01 chain,,subclass,Papa-A chain,
+Patr-A chain,,equivalent,protein,Patr-A locus
+Patr-A*01:01 chain,,subclass,Patr-A chain,
+Patr-A*03:01 chain,,subclass,Patr-A chain,
+Patr-A*04:01 chain,,subclass,Patr-A chain,
+Patr-A*04:02 chain,,subclass,Patr-A chain,
+Patr-A*05:01 chain,,subclass,Patr-A chain,
+Patr-A*06:01 chain,,subclass,Patr-A chain,
+Patr-A*06:02 chain,,subclass,Patr-A chain,
+Patr-A*07:01 chain,,subclass,Patr-A chain,
+Patr-A*09:01 chain,,subclass,Patr-A chain,
+Patr-A*11:01 chain,,subclass,Patr-A chain,
+Patr-A*14:01 chain,,subclass,Patr-A chain,
+Patr-AL chain,,equivalent,protein,Patr-AL locus
+Patr-B chain,,equivalent,protein,Patr-B locus
+Patr-B*01:01 chain,,subclass,Patr-B chain,
+Patr-B*02:01 chain,,subclass,Patr-B chain,
+Patr-B*03:01 chain,,subclass,Patr-B chain,
+Patr-B*03:02 chain,,subclass,Patr-B chain,
+Patr-B*04:01 chain,,subclass,Patr-B chain,
+Patr-B*05:01 chain,,subclass,Patr-B chain,
+Patr-B*09:01 chain,,subclass,Patr-B chain,
+Patr-B*13:01 chain,,subclass,Patr-B chain,
+Patr-B*14:01 chain,,subclass,Patr-B chain,
+Patr-B*16:01 chain,,subclass,Patr-B chain,
+Patr-B*16:02 chain,,subclass,Patr-B chain,
+Patr-B*17:01 chain,,subclass,Patr-B chain,
+Patr-B*20:01 chain,,subclass,Patr-B chain,
+Patr-B*23:01 chain,,subclass,Patr-B chain,
+Patr-B*23:02 chain,,subclass,Patr-B chain,
+Patr-B*24:01 chain,,subclass,Patr-B chain,
+Patr-C chain,,equivalent,protein,Patr-C locus
+Patr-C*02:03 chain,,subclass,Patr-C chain,
+Patr-C*04:01 chain,,subclass,Patr-C chain,
+Patr-C*05:02 chain,,subclass,Patr-C chain,
+Patr-C*06:01 chain,,subclass,Patr-C chain,
+Patr-DPA chain,,equivalent,protein,Patr-DPA locus
+Patr-DPB chain,,equivalent,protein,Patr-DPB locus
+Patr-DQA chain,,equivalent,protein,Patr-DQA locus
+Patr-DQB chain,,equivalent,protein,Patr-DQB locus
+Patr-DRA chain,,equivalent,protein,Patr-DRA locus
+Patr-DRB chain,,equivalent,protein,Patr-DRB locus
+Patr-DRB1*03:08 chain,,subclass,Patr-DRB chain,
+Patr-DRB1*07:01 chain,,subclass,Patr-DRB chain,
+Patr-DRB1*10:01 chain,,subclass,Patr-DRB chain,
+Patr-DRB5*03:10 chain,,subclass,Patr-DRB chain,
+RT1-A chain,,equivalent,protein,RT1-A locus
+RT1-A1 chain,,equivalent,protein,RT1-A1 locus
+RT1-A2 chain,,equivalent,protein,RT1-A2 locus
+RT1-B chain,,equivalent,protein,RT1-B locus
+RT1-D chain,,equivalent,protein,RT1-D locus
+SLA-1 chain,,equivalent,protein,SLA-1 locus
+SLA-1*0401 chain,,subclass,SLA-1 chain,
+SLA-1*1502 chain,,subclass,SLA-1 chain,
+SLA-2 chain,,equivalent,protein,SLA-2 locus
+SLA-2*0401 chain,,subclass,SLA-2 chain,
+Saoe-G chain,,equivalent,protein,Saoe-G locus
+Saoe-G*02 chain,,subclass,Saoe-G chain,
+Saoe-G*04 chain,,subclass,Saoe-G chain,
+Saoe-G*08 chain,,subclass,Saoe-G chain,
+Saoe-G*12 chain,,subclass,Saoe-G chain,
+YF1w*7.1 chain,,subclass,BF-YF chain,
+bonobo MHC class I chain,,equivalent,protein,bonobo MHC class I locus
+bonobo MHC class II chain,,equivalent,protein,bonobo MHC class II locus
+cattle CD1b3 chain,,subclass,BoLA-CD1 chain,
+cattle CD1d chain,,subclass,BoLA-CD1 chain,
+cattle MHC class I chain,,equivalent,protein,cattle MHC class I locus
+cattle MHC class II chain,,equivalent,protein,cattle MHC class II locus
+cattle MR1 chain,,subclass,BoLA-MR1 chain,
+cattle non-classical MHC chain,,equivalent,protein,cattle non-classical MHC locus
+chicken CD1-1 chain,,subclass,BF-B chain,
+chicken CD1-2 chain,,subclass,BF-B chain,
+chicken MHC class I chain,,equivalent,protein,chicken MHC class I locus
+chicken MHC class II chain,,equivalent,protein,chicken MHC class II locus
+chicken non-classical MHC chain,,equivalent,protein,chicken non-classical MHC locus
+chimpanzee MHC class I chain,,equivalent,protein,chimpanzee MHC class I locus
+chimpanzee MHC class II chain,,equivalent,protein,chimpanzee MHC class II locus
+chimpanzee non-classical MHC chain,,equivalent,protein,chimpanzee non-classical MHC locus
+cotton-top tamarin MHC class I chain,,equivalent,protein,cotton-top tamarin MHC class I locus
+cotton-top tamarin MHC class II chain,,equivalent,protein,cotton-top tamarin MHC class II locus
+dog MHC class I chain,,equivalent,protein,dog MHC class I locus
+dog MHC class II chain,,equivalent,protein,dog MHC class II locus
+gorilla MHC class I chain,,equivalent,protein,gorilla MHC class I locus
+gorilla MHC class II chain,,equivalent,protein,gorilla MHC class II locus
+horse MHC class I chain,,equivalent,protein,horse MHC class I locus
+horse MHC class II chain,,equivalent,protein,horse MHC class II locus
+human BTN3A1 chain,,subclass,HLA-BTN3A chain,
+human CD1a chain,,subclass,HLA-CD1 chain,
+human CD1b chain,,subclass,HLA-CD1 chain,
+human CD1c chain,,subclass,HLA-CD1 chain,
+human CD1d chain,,subclass,HLA-CD1 chain,
+human MHC class I chain,,equivalent,protein,human MHC class I locus
+human MHC class II chain,,equivalent,protein,human MHC class II locus
+human MR1 K43A mutant chain,,subclass,HLA-MR1 chain,
+human MR1 chain,,subclass,HLA-MR1 chain,
+human non-classical MHC chain,,equivalent,protein,human non-classical MHC locus
+marmoset MHC class I chain,,equivalent,protein,marmoset MHC class I locus
+mouse CD1d chain,,subclass,H-2-CD1 chain,
+mouse MHC class I chain,,equivalent,protein,mouse MHC class I locus
+mouse MHC class II chain,,equivalent,protein,mouse MHC class II locus
+mouse MR1 chain,,subclass,H-2-MR1 chain,
+mouse non-classical MHC chain,,equivalent,protein,mouse non-classical MHC locus
+non-classical MHC chain,,equivalent,protein,non-classical MHC locus
+pig MHC class I chain,,equivalent,protein,pig MHC class I locus
+pig MHC class II chain,,equivalent,protein,pig MHC class II locus
+rat MHC class I chain,,equivalent,protein,rat MHC class I locus
+rat MHC class II chain,,equivalent,protein,rat MHC class II locus
+rhesus macaque MHC class I chain,,equivalent,protein,rhesus macaque MHC class I locus
+rhesus macaque MHC class II chain,,equivalent,protein,rhesus macaque MHC class II locus
+sheep MHC class I chain,,equivalent,protein,sheep MHC class I locus
+sheep MHC class II chain,,equivalent,protein,sheep MHC class II locus

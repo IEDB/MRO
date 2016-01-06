@@ -13,6 +13,8 @@ MRO_UNSTABLE.owl: mro-manual.owl mro-obo.owl mro-core.csv $(generatedCSVFiles) m
 	--input mro-obo.owl \
 	template \
 	--prefix "MRO: $(MRO)#" \
+	--prefix "REO: $(OBO)/REO_" \
+	--template mro-ids.csv \
 	--template mro-core.csv \
 	$(generatedTemplates) \
 	--template mro-sequences.csv \
