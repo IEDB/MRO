@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+
+<https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl>
+  dc:creator "Alessandro Sette" ;
+  dc:creator "Bjoern Peters" ;
+  dc:creator "Emily Seymour" ;
+  dc:creator "James A. Overton" ;
+  dc:creator "Jim Kaufman" ;
+  dc:creator "John Hammond" ;
+  dc:creator "John Sidney" ;
+  dc:creator "Randi Vita" ;
+  dc:creator "Rebecca L. Tallmadge" ;
+  dc:creator "Shirley Ellis" ;
+  rdfs:comment "WARNING: This is preliminary work in progress! Term identifiers are UNSTABLE, WILL NOT be maintained, and SHOULD NOT be used except for review!" .

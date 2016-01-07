@@ -1,5 +1,8 @@
 ID	Label	Type
 ID	A rdfs:label	TYPE
+MRO:haplotype-member-of	haplotype member of	owl:ObjectProperty
+MRO:serotype-member-of	serotype member of	owl:ObjectProperty
+MRO:mutant-of	is synthetic protein mutant of	owl:ObjectProperty
 MRO:genetic-entity	genetic entity	owl:Class
 MRO:mhc-locus	MHC locus	owl:Class
 MRO:mhc-haplotype	MHC haplotype	owl:Class
@@ -10,6 +13,7 @@ MRO:mhc-ligand-assay	MHC ligand assay	owl:Class
 MRO:mhc-protein-complex-with-haplotype	MHC protein complex with haplotype	owl:Class
 MRO:mhc-protein-complex-with-serotype	MHC protein complex with serotype	owl:Class
 MRO:mutant-mhc-protein-complex	mutant MHC protein complex	owl:Class
+MRO:hla-dr-protein-complex	HLA-DR protein complex	owl:Class
 MRO:bf-b-locus	BF-B locus	owl:Class
 MRO:bf-bf1-locus	BF-BF1 locus	owl:Class
 MRO:bf-bf2-locus	BF-BF2 locus	owl:Class

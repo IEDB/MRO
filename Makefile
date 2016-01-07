@@ -2,29 +2,25 @@ OBO = http://purl.obolibrary.org/obo
 MRO = https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl
 LIB = lib
 
-generatedTables = loci haplotypes serotypes chains molecules haplotype-molecules serotype-molecules mutant-molecules
-generatedTSVFiles = $(foreach o,$(generatedTables),ontology/$(o).tsv)
-generatedTemplates = $(foreach i,$(generatedTSVFiles),--template $(i))
+tables = external core loci haplotypes serotypes chains molecules haplotype-molecules serotype-molecules mutant-molecules sequences evidence-codes
+TSVFiles = $(foreach o,$(tables),ontology/$(o).tsv)
+templates = $(foreach i,$(TSVFiles),--template $(i))
 
 # core
-MRO_UNSTABLE.owl: mro-manual.owl mro-imports.owl index.tsv ontology/external.tsv ontology/core.tsv $(generatedTSVFiles) ontology/sequences.tsv ontology/evidence-codes.tsv
+MRO_UNSTABLE.owl: mro-imports.owl index.tsv $(TSVFiles) ontology/annotations.ttl
 	robot merge \
-	--input mro-manual.owl \
 	--input mro-imports.owl \
 	template \
 	--prefix "MRO: $(MRO)#" \
 	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
-	--template ontology/external.tsv \
-	--template ontology/core.tsv \
-	$(generatedTemplates) \
-	--template ontology/sequences.tsv \
-	--template ontology/evidence-codes.tsv \
+	$(templates) \
 	--merge-before \
 	reason --reasoner HermiT \
 	annotate \
 	--ontology-iri "$(MRO)" \
 	--version-iri "$(MRO)#$(shell date +%Y-%m-%d)" \
+	--annotation-file ontology/annotations.ttl \
 	--output $@
 
 # extended version for IEDB use

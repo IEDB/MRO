@@ -344,6 +344,7 @@ HLA-DQB1*06:03 protein complex	HLA-DQB1*06:03	HLA-DQB1*0603|DQB1*0603|DQB10603|D
 HLA-DQB1*06:04 protein complex	HLA-DQB1*06:04	HLA-DQB1*0604|DQB1*0604|DQB10604|DQB106:04	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:04 chain		HLA-DQ6 serotype
 HLA-DQB1*06:05 protein complex	HLA-DQB1*06:05	HLA-DQB1*0605|DQB1*0605|DQB10605|DQB106:05	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:05 chain		HLA-DQ6 serotype
 HLA-DQB1*06:09 protein complex	HLA-DQB1*06:09	HLA-DQB1*0609|DQB1*0609|DQB10609|DQB106:09	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:09 chain		HLA-DQ6 serotype
+HLA-DR protein complex	HLA-DR		equivalent	MHC class II protein complex	human	HLA-DRA chain	HLA-DRB chain		
 HLA-DRA*01:01/DRB1*01:01 protein complex	HLA-DRA*01:01/DRB1*01:01	HLA-DRA*0101/DRB1*0101|HLA-DRA1*0101/DRB1*0101|DRA*0101/DRB1*0101|DRA0101/DRB10101|DRA01:01/DRB101:01	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*01:01 chain		HLA-DR1 serotype
 HLA-DRA*01:01/DRB1*03:01 protein complex	HLA-DRA*01:01/DRB1*03:01	HLA-DRA*0101/DRB1*0301|HLA-DRA1*0101/DRB1*0301|DRA*0101/DRB1*0301|DRA0101/DRB10301|DRA01:01/DRB103:01	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*03:01 chain		HLA-DR3 serotype
 HLA-DRA*01:01/DRB1*04:01 protein complex	HLA-DRA*01:01/DRB1*04:01	HLA-DRA*0101/DRB1*0401|HLA-DRA1*0101/DRB1*0401|DRA*0101/DRB1*0401|DRA0101/DRB10401|DRA01:01/DRB104:01	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*04:01 chain		HLA-DR4 serotype
