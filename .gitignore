@@ -6,6 +6,6 @@ alleles.csv
 catalog-v001.xml
 junk/
 lib/
-mro-imports.owl
+mro-import.owl
 src/mro/~$templates.xlsx
 target/

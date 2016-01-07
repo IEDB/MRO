@@ -1,14 +1,14 @@
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
 
-tables = external core loci haplotypes serotypes chains molecules haplotype-molecules serotype-molecules mutant-molecules sequences evidence-codes
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
 TSVFiles = $(foreach o,$(tables),ontology/$(o).tsv)
 templates = $(foreach i,$(TSVFiles),--template $(i))
 
 # core
-mro.owl: mro-imports.owl index.tsv $(TSVFiles) ontology/annotations.ttl
+mro.owl: mro-import.owl index.tsv $(TSVFiles) ontology/metadata.ttl
 	robot merge \
-	--input mro-imports.owl \
+	--input mro-import.owl \
 	template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
@@ -20,7 +20,7 @@ mro.owl: mro-imports.owl index.tsv $(TSVFiles) ontology/annotations.ttl
 	--ontology-iri "$(OBO)/mro.owl" \
 	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro.owl" \
 	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
-	--annotation-file ontology/annotations.ttl \
+	--annotation-file ontology/metadata.ttl \
 	--output $@
 
 # extended version for IEDB use
@@ -33,8 +33,8 @@ mro-iedb.owl: mro.owl ontology/iedb.tsv ontology/iedb-manual.tsv
 	--merge-before \
 	--output $@
 
-# imports
-mro-imports.owl: ontology/imports.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
+# import
+mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
 	robot merge \
 	--input $(LIB)/eco.owl \
 	--input $(LIB)/obi.owl \
@@ -56,4 +56,4 @@ $(LIB)/%:
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
 clean:
-	rm -f mro.owl mro-iedb.owl mro-imports.owl
+	rm -f mro.owl mro-iedb.owl mro-import.owl
