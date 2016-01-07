@@ -1,5 +1,4 @@
 OBO = http://purl.obolibrary.org/obo
-MRO = https://github.com/IEDB/MRO/raw/master/MRO_UNSTABLE.owl
 LIB = lib
 
 tables = external core loci haplotypes serotypes chains molecules haplotype-molecules serotype-molecules mutant-molecules sequences evidence-codes
@@ -7,27 +6,28 @@ TSVFiles = $(foreach o,$(tables),ontology/$(o).tsv)
 templates = $(foreach i,$(TSVFiles),--template $(i))
 
 # core
-MRO_UNSTABLE.owl: mro-imports.owl index.tsv $(TSVFiles) ontology/annotations.ttl
+mro.owl: mro-imports.owl index.tsv $(TSVFiles) ontology/annotations.ttl
 	robot merge \
 	--input mro-imports.owl \
 	template \
-	--prefix "MRO: $(MRO)#" \
+	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
 	$(templates) \
 	--merge-before \
 	reason --reasoner HermiT \
 	annotate \
-	--ontology-iri "$(MRO)" \
-	--version-iri "$(MRO)#$(shell date +%Y-%m-%d)" \
+	--ontology-iri "$(OBO)/mro.owl" \
+	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro.owl" \
+	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
 	--annotation-file ontology/annotations.ttl \
 	--output $@
 
 # extended version for IEDB use
-MRO_UNSTABLE_IEDB.owl: MRO_UNSTABLE.owl ontology/iedb.tsv ontology/iedb-manual.tsv
+mro-iedb.owl: mro.owl ontology/iedb.tsv ontology/iedb-manual.tsv
 	robot template \
-	--prefix "MRO: $(MRO)#" \
-	--input MRO_UNSTABLE.owl \
+	--prefix "MRO: $(OBO)/MRO_" \
+	--input $< \
 	--template ontology/iedb.tsv \
 	--template ontology/iedb-manual.tsv \
 	--merge-before \
@@ -56,4 +56,4 @@ $(LIB)/%:
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
 clean:
-	rm -f mro-imports.owl MRO_UNSTABLE.owl MRO_UNSTABLE_IEDB.owl
+	rm -f mro.owl mro-iedb.owl mro-imports.owl
