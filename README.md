@@ -1,6 +1,9 @@
 # MHC Restriction Ontology (MRO)
 
-[**Download the development version of MRO.**](mro.owl?raw=true)
+[**Download the latest release of MRO.**](http://purl.obolibrary.org/obo/mro.owl)
+
+[Download the development version of MRO.](mro.owl?raw=true)
+
 We recommend [Protégé 5 beta](http://protege.stanford.edu/products.php#desktop-protege) for viewing MRO in OWL format.
 
 MHC molecules form a highly diverse family of proteins that play a key role in cellular immune recognition. Over time, different techniques and terminologies have been developed to identify the specific type(s) of MHC molecule involved in a specific immune recognition context. No consistent nomenclature exists across different vertebrate species. To correctly represent MHC related data in [The Immune Epitope Database (IEDB)](http://www.iedb.org), we built upon a previously established MHC ontology ([MaHCO](http://www.bioinformatics.org/mahco/wiki/)) and created **MRO** to represent MHC molecules as they relate to immunological experiments. MRO models MHC protein chains from 16 species, deals with different approaches used to identify MHC, such as direct sequencing verses serotyping, relates engineered MHC molecules to naturally occurring ones, connects genetic loci, alleles, protein chains and multichain proteins, and establishes evidence codes for MHC restriction. Where available, this work is based on existing ontologies from the [OBO Foundry](http://obofoundry.org). We link to well-established MHC nomenclature resources of the international [ImMunoGeneTics information system (IMGT)](http://www.imgt.org) for human data and [The Immuno Polymorphism Database (IPD)](http://www.ebi.ac.uk/ipd) for non-human species.
