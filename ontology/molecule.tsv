@@ -1,7 +1,7 @@
 Label	IEDB Label	Synonyms	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
-BF-BF1 protein complex	BF-BF1		equivalent	MHC class I protein complex	chicken	BF-BF1 chain	Beta-2-microglobulin		
-BF-BF2 protein complex	BF-BF2		equivalent	MHC class I protein complex	chicken	BF-BF2 chain	Beta-2-microglobulin		
+BF1 protein complex	BF1		equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
+BF2 protein complex	BF2		equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		
 BF1*0201 protein complex	BF1*0201	BF10201	equivalent	MHC class I protein complex	chicken	BF1*0201 chain	Beta-2-microglobulin		
 BF2*0201 protein complex	BF2*0201	BF20201	equivalent	MHC class I protein complex	chicken	BF2*0201 chain	Beta-2-microglobulin	B2 haplotype	
 BF2*0401 protein complex	BF2*0401	BF20401	equivalent	MHC class I protein complex	chicken	BF2*0401 chain	Beta-2-microglobulin	B4 haplotype	
@@ -53,46 +53,46 @@ ELA-N protein complex	ELA-N		equivalent	MHC class I protein complex	horse	ELA-N 
 Eqca-N*00602 protein complex	Eqca-N*00602	A1*7-6|Eqca-N00602	equivalent	MHC class I protein complex	horse	Eqca-N*00602 chain	Beta-2-microglobulin	A1 haplotype	
 Gogo-B protein complex	Gogo-B		equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
 Gogo-B*0101 protein complex	Gogo-B*0101	B0101	equivalent	MHC class I protein complex	gorilla	Gogo-B*0101 chain	Beta-2-microglobulin		
-H-2-D protein complex	H-2-D		equivalent	MHC class I protein complex	mouse	H-2-D chain	Beta-2-microglobulin		
-H-2-Db protein complex	H-2-Db		equivalent	MHC class I protein complex	mouse	H-2-Db chain	Beta-2-microglobulin	H-2-b haplotype	
-H-2-Dd protein complex	H-2-Dd		equivalent	MHC class I protein complex	mouse	H-2-Dd chain	Beta-2-microglobulin	H-2-d haplotype	
-H-2-Dk protein complex	H-2-Dk		equivalent	MHC class I protein complex	mouse	H-2-Dk chain	Beta-2-microglobulin	H-2-k haplotype	
-H-2-Dr protein complex	H-2-Dr		equivalent	MHC class I protein complex	mouse	H-2-Dr chain	Beta-2-microglobulin	H-2-r haplotype	
-H-2-Ds protein complex	H-2-Ds		equivalent	MHC class I protein complex	mouse	H-2-Ds chain	Beta-2-microglobulin	H-2-s haplotype	
-H-2-IA protein complex	H-2-IA		equivalent	MHC class II protein complex	mouse	H-2-IA alpha chain	H-2-IA beta chain		
-H-2-IAb protein complex	H-2-IAb		equivalent	MHC class II protein complex	mouse	H-2-IAb alpha chain	H-2-IAb beta chain	H-2-b haplotype	
-H-2-IAd protein complex	H-2-IAd		equivalent	MHC class II protein complex	mouse	H-2-IAd alpha chain	H-2-IAd beta chain	H-2-d haplotype	
-H-2-IAf protein complex	H-2-IAf		equivalent	MHC class II protein complex	mouse	H-2-IAf alpha chain	H-2-IAf beta chain	H-2-f haplotype	
-H-2-IAg7 protein complex	H-2-IAg7		equivalent	MHC class II protein complex	mouse	H-2-IAg7 alpha chain	H-2-IAg7 beta chain	H-2-g7 haplotype	
-H-2-IAk protein complex	H-2-IAk		equivalent	MHC class II protein complex	mouse	H-2-IAk alpha chain	H-2-IAk beta chain	H-2-k haplotype	
-H-2-IAp protein complex	H-2-IAp		equivalent	MHC class II protein complex	mouse	H-2-IAp alpha chain	H-2-IAp beta chain	H-2-p haplotype	
-H-2-IAq protein complex	H-2-IAq		equivalent	MHC class II protein complex	mouse	H-2-IAq alpha chain	H-2-IAq beta chain	H-2-q haplotype	
-H-2-IAr protein complex	H-2-IAr		equivalent	MHC class II protein complex	mouse	H-2-IAr alpha chain	H-2-IAr beta chain	H-2-r haplotype	
-H-2-IAs protein complex	H-2-IAs		equivalent	MHC class II protein complex	mouse	H-2-IAs alpha chain	H-2-IAs beta chain	H-2-s haplotype	
-H-2-IAu protein complex	H-2-IAu		equivalent	MHC class II protein complex	mouse	H-2-IAu alpha chain	H-2-IAu beta chain	H-2-u haplotype	
-H-2-IE protein complex	H-2-IE		equivalent	MHC class II protein complex	mouse	H-2-IE alpha chain	H-2-IE beta chain		
-H-2-IEb protein complex	H-2-IEb		equivalent	MHC class II protein complex	mouse	H-2-IEb alpha chain	H-2-IEb beta chain	H-2-b haplotype	
-H-2-IEd protein complex	H-2-IEd		equivalent	MHC class II protein complex	mouse	H-2-IEd alpha chain	H-2-IEd beta chain	H-2-d haplotype	
-H-2-IEg7 protein complex	H-2-IEg7		equivalent	MHC class II protein complex	mouse	H-2-IEg7 alpha chain	H-2-IEg7 beta chain		
-H-2-IEk protein complex	H-2-IEk		equivalent	MHC class II protein complex	mouse	H-2-IEk alpha chain	H-2-IEk beta chain	H-2-k haplotype	
-H-2-IEp protein complex	H-2-IEp		equivalent	MHC class II protein complex	mouse	H-2-IEp alpha chain	H-2-IEp beta chain	H-2-p haplotype	
-H-2-IEr protein complex	H-2-IEr		equivalent	MHC class II protein complex	mouse	H-2-IEr alpha chain	H-2-IEr beta chain	H-2-r haplotype	
-H-2-IEu protein complex	H-2-IEu		equivalent	MHC class II protein complex	mouse	H-2-IEu alpha chain	H-2-IEu beta chain	H-2-u haplotype	
-H-2-K protein complex	H-2-K		equivalent	MHC class I protein complex	mouse	H-2-K chain	Beta-2-microglobulin		
-H-2-Kb protein complex	H-2-Kb		equivalent	MHC class I protein complex	mouse	H-2-Kb chain	Beta-2-microglobulin	H-2-b haplotype	
-H-2-Kd protein complex	H-2-Kd		equivalent	MHC class I protein complex	mouse	H-2-Kd chain	Beta-2-microglobulin	H-2-d haplotype	
-H-2-Kk protein complex	H-2-Kk		equivalent	MHC class I protein complex	mouse	H-2-Kk chain	Beta-2-microglobulin	H-2-k haplotype	
-H-2-Ks protein complex	H-2-Ks		equivalent	MHC class I protein complex	mouse	H-2-Ks chain	Beta-2-microglobulin	H-2-s haplotype	
-H-2-Kwm7 protein complex	H-2-Kwm7		equivalent	MHC class I protein complex	mouse	H-2-Kwm7 chain	Beta-2-microglobulin	H-2-wm haplotype	
-H-2-L protein complex	H-2-L		equivalent	MHC class I protein complex	mouse	H-2-L chain	Beta-2-microglobulin		
-H-2-Ld protein complex	H-2-Ld		equivalent	MHC class I protein complex	mouse	H-2-Ld chain	Beta-2-microglobulin	H-2-d haplotype	
-H-2-Lq protein complex	H-2-Lq	H-2-Lw16	equivalent	MHC class I protein complex	mouse	H-2-Lq chain	Beta-2-microglobulin	H-2-q haplotype	
-H-2-M3 protein complex	H-2-M3		equivalent	non-classical MHC protein complex	mouse	H-2-M3 chain			
-H-2-Q protein complex	H-2-Q		equivalent	MHC class I protein complex	mouse	H-2-Q chain	Beta-2-microglobulin		
-H-2-Q9 protein complex	H-2-Q9		equivalent	MHC class I protein complex	mouse	H-2-Q9 chain			
-H-2-Qa1 protein complex	H-2-Qa1	Qa-1b	equivalent	MHC class I protein complex	mouse	H-2-Qa1 chain	Beta-2-microglobulin	H-2-a haplotype	
-H-2-Qa2 protein complex	H-2-Qa2		equivalent	MHC class I protein complex	mouse	H-2-Qa2 chain	Beta-2-microglobulin	H-2-a haplotype	
-H-2-Qa9 protein complex	H-2-Qa9		equivalent	MHC class I protein complex	mouse	H-2-Qa9 chain	Beta-2-microglobulin	H-2-a haplotype	
+H2-D protein complex	H2-D		equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
+H2-Db protein complex	H2-Db		equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
+H2-Dd protein complex	H2-Dd		equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	
+H2-Dk protein complex	H2-Dk		equivalent	MHC class I protein complex	mouse	H2-Dk chain	Beta-2-microglobulin	H2-k haplotype	
+H2-Dr protein complex	H2-Dr		equivalent	MHC class I protein complex	mouse	H2-Dr chain	Beta-2-microglobulin	H2-r haplotype	
+H2-Ds protein complex	H2-Ds		equivalent	MHC class I protein complex	mouse	H2-Ds chain	Beta-2-microglobulin	H2-s haplotype	
+H2-IA protein complex	H2-IA		equivalent	MHC class II protein complex	mouse	H2-IA alpha chain	H2-IA beta chain		
+H2-IAb protein complex	H2-IAb		equivalent	MHC class II protein complex	mouse	H2-IAb alpha chain	H2-IAb beta chain	H2-b haplotype	
+H2-IAd protein complex	H2-IAd		equivalent	MHC class II protein complex	mouse	H2-IAd alpha chain	H2-IAd beta chain	H2-d haplotype	
+H2-IAf protein complex	H2-IAf		equivalent	MHC class II protein complex	mouse	H2-IAf alpha chain	H2-IAf beta chain	H2-f haplotype	
+H2-IAg7 protein complex	H2-IAg7		equivalent	MHC class II protein complex	mouse	H2-IAg7 alpha chain	H2-IAg7 beta chain	H2-g7 haplotype	
+H2-IAk protein complex	H2-IAk		equivalent	MHC class II protein complex	mouse	H2-IAk alpha chain	H2-IAk beta chain	H2-k haplotype	
+H2-IAp protein complex	H2-IAp		equivalent	MHC class II protein complex	mouse	H2-IAp alpha chain	H2-IAp beta chain	H2-p haplotype	
+H2-IAq protein complex	H2-IAq		equivalent	MHC class II protein complex	mouse	H2-IAq alpha chain	H2-IAq beta chain	H2-q haplotype	
+H2-IAr protein complex	H2-IAr		equivalent	MHC class II protein complex	mouse	H2-IAr alpha chain	H2-IAr beta chain	H2-r haplotype	
+H2-IAs protein complex	H2-IAs		equivalent	MHC class II protein complex	mouse	H2-IAs alpha chain	H2-IAs beta chain	H2-s haplotype	
+H2-IAu protein complex	H2-IAu		equivalent	MHC class II protein complex	mouse	H2-IAu alpha chain	H2-IAu beta chain	H2-u haplotype	
+H2-IE protein complex	H2-IE		equivalent	MHC class II protein complex	mouse	H2-IE alpha chain	H2-IE beta chain		
+H2-IEb protein complex	H2-IEb		equivalent	MHC class II protein complex	mouse	H2-IEb alpha chain	H2-IEb beta chain	H2-b haplotype	
+H2-IEd protein complex	H2-IEd		equivalent	MHC class II protein complex	mouse	H2-IEd alpha chain	H2-IEd beta chain	H2-d haplotype	
+H2-IEg7 protein complex	H2-IEg7		equivalent	MHC class II protein complex	mouse	H2-IEg7 alpha chain	H2-IEg7 beta chain		
+H2-IEk protein complex	H2-IEk		equivalent	MHC class II protein complex	mouse	H2-IEk alpha chain	H2-IEk beta chain	H2-k haplotype	
+H2-IEp protein complex	H2-IEp		equivalent	MHC class II protein complex	mouse	H2-IEp alpha chain	H2-IEp beta chain	H2-p haplotype	
+H2-IEr protein complex	H2-IEr		equivalent	MHC class II protein complex	mouse	H2-IEr alpha chain	H2-IEr beta chain	H2-r haplotype	
+H2-IEu protein complex	H2-IEu		equivalent	MHC class II protein complex	mouse	H2-IEu alpha chain	H2-IEu beta chain	H2-u haplotype	
+H2-K protein complex	H2-K		equivalent	MHC class I protein complex	mouse	H2-K chain	Beta-2-microglobulin		
+H2-Kb protein complex	H2-Kb		equivalent	MHC class I protein complex	mouse	H2-Kb chain	Beta-2-microglobulin	H2-b haplotype	
+H2-Kd protein complex	H2-Kd		equivalent	MHC class I protein complex	mouse	H2-Kd chain	Beta-2-microglobulin	H2-d haplotype	
+H2-Kk protein complex	H2-Kk		equivalent	MHC class I protein complex	mouse	H2-Kk chain	Beta-2-microglobulin	H2-k haplotype	
+H2-Ks protein complex	H2-Ks		equivalent	MHC class I protein complex	mouse	H2-Ks chain	Beta-2-microglobulin	H2-s haplotype	
+H2-Kwm7 protein complex	H2-Kwm7		equivalent	MHC class I protein complex	mouse	H2-Kwm7 chain	Beta-2-microglobulin	H2-wm haplotype	
+H2-L protein complex	H2-L		equivalent	MHC class I protein complex	mouse	H2-L chain	Beta-2-microglobulin		
+H2-Ld protein complex	H2-Ld		equivalent	MHC class I protein complex	mouse	H2-Ld chain	Beta-2-microglobulin	H2-d haplotype	
+H2-Lq protein complex	H2-Lq	H2-Lw16	equivalent	MHC class I protein complex	mouse	H2-Lq chain	Beta-2-microglobulin	H2-q haplotype	
+H2-M3 protein complex	H2-M3		equivalent	non-classical MHC protein complex	mouse	H2-M3 chain			
+H2-Q protein complex	H2-Q		equivalent	MHC class I protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
+H2-Q9 protein complex	H2-Q9		equivalent	MHC class I protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
+H2-Qa1 protein complex	H2-Qa1	Qa-1b	equivalent	MHC class I protein complex	mouse	H2-Qa1 chain	Beta-2-microglobulin	H2-a haplotype	
+H2-Qa2 protein complex	H2-Qa2		equivalent	MHC class I protein complex	mouse	H2-Qa2 chain	Beta-2-microglobulin	H2-a haplotype	
+H2-Qa9 protein complex	H2-Qa9		equivalent	MHC class I protein complex	mouse	H2-Qa9 chain	Beta-2-microglobulin	H2-a haplotype	
 HLA-A protein complex	HLA-A		equivalent	MHC class I protein complex	human	HLA-A chain	Beta-2-microglobulin		
 HLA-A*01:01 protein complex	HLA-A*01:01	HLA-A*0101|HLA-A*010101|A*0101|A0101|A01:01	equivalent	MHC class I protein complex	human	HLA-A*01:01 chain	Beta-2-microglobulin		HLA-A1 serotype
 HLA-A*02:01 protein complex	HLA-A*02:01	HLA-A*0201|HLA-A2.1|HLA-A*020101|A*0201|A0201|A02:01	equivalent	MHC class I protein complex	human	HLA-A*02:01 chain	Beta-2-microglobulin		HLA-A2 serotype
@@ -204,7 +204,7 @@ HLA-B*41:03 protein complex	HLA-B*41:03	HLA-B*4103|B*4103|B4103|B41:03	equivalen
 HLA-B*41:04 protein complex	HLA-B*41:04	HLA-B*4104|B*4104|B4104|B41:04	equivalent	MHC class I protein complex	human	HLA-B*41:04 chain	Beta-2-microglobulin		HLA-B41 serotype
 HLA-B*41:05 protein complex	HLA-B*41:05	HLA-B*4105|B*4105|B4105|B41:05	equivalent	MHC class I protein complex	human	HLA-B*41:05 chain	Beta-2-microglobulin		HLA-B41 serotype
 HLA-B*41:06 protein complex	HLA-B*41:06	HLA-B*4106|B*4106|B4106|B41:06	equivalent	MHC class I protein complex	human	HLA-B*41:06 chain	Beta-2-microglobulin		HLA-B41 serotype
-HLA-B*42:0 protein complex	HLA-B*42:0	HLA-B*4202|B*4202|B4202|B42:02	equivalent	MHC class I protein complex	human	HLA-B*42:0 chain	Beta-2-microglobulin		HLA-B42 serotype
+HLA-B*42:02 protein complex	HLA-B*42:02	HLA-B*4202|B*4202|B4202|B42:02	equivalent	MHC class I protein complex	human	HLA-B*42:02 chain	Beta-2-microglobulin		HLA-B42 serotype
 HLA-B*42:01 protein complex	HLA-B*42:01	HLA-B*4201|B*4201|B4201|B42:01	equivalent	MHC class I protein complex	human	HLA-B*42:01 chain	Beta-2-microglobulin		HLA-B42 serotype
 HLA-B*44:01 protein complex	HLA-B*44:01	HLA-B*4401|B*4401|B4401|B44:01	equivalent	MHC class I protein complex	human	HLA-B*44:01 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*44:02 protein complex	HLA-B*44:02	HLA-B*4402|HLA-B*44020101|B*4402|B4402|B44:02	equivalent	MHC class I protein complex	human	HLA-B*44:02 chain	Beta-2-microglobulin		HLA-B44 serotype
@@ -447,18 +447,18 @@ HLA-G*01:01 protein complex	HLA-G*01:01	HLA-G*0101|G*0101|G0101|G01:01	equivalen
 MHC class I protein complex	class I		subclass	MHC protein complex					
 MHC class II protein complex	class II		subclass	MHC protein complex					
 Mamu-A protein complex	Mamu-A		equivalent	MHC class I protein complex	rhesus macaque	Mamu-A chain	Beta-2-microglobulin		
-Mamu-A*01 protein complex	Mamu-A*01	A01	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A*01 chain	Beta-2-microglobulin		
-Mamu-A*02 protein complex	Mamu-A*02	A02	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A*02 chain	Beta-2-microglobulin		
-Mamu-A*08 protein complex	Mamu-A*08	A08	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A*08 chain	Beta-2-microglobulin		
-Mamu-A*11 protein complex	Mamu-A*11	A11	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A*11 chain	Beta-2-microglobulin		
+Mamu-A1*001:01 protein complex	Mamu-A1*001:01	A01	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*001:01 chain	Beta-2-microglobulin		
+Mamu-A1*002:01 protein complex	Mamu-A1*002:01	A02	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*002:01 chain	Beta-2-microglobulin		
+Mamu-A1*022:02 protein complex	Mamu-A1*022:02	A08	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*022:02 chain	Beta-2-microglobulin		
+Mamu-A1*011:01 protein complex	Mamu-A1*011:01	A11	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*011:01 chain	Beta-2-microglobulin		
 Mamu-B protein complex	Mamu-B		equivalent	MHC class I protein complex	rhesus macaque	Mamu-B chain	Beta-2-microglobulin		
 Mamu-B*01 protein complex	Mamu-B*01	B01	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*01 chain	Beta-2-microglobulin		
 Mamu-B*029 protein complex	Mamu-B*029	B029	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*029 chain	Beta-2-microglobulin		
 Mamu-B*03 protein complex	Mamu-B*03	B03	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*03 chain	Beta-2-microglobulin		
 Mamu-B*04 protein complex	Mamu-B*04	B04	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*04 chain	Beta-2-microglobulin		
-Mamu-B*08 protein complex	Mamu-B*08	B08	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*08 chain	Beta-2-microglobulin		
-Mamu-B*12 protein complex	Mamu-B*12	B12	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*12 chain	Beta-2-microglobulin		
-Mamu-B*17 protein complex	Mamu-B*17	B17	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*17 chain	Beta-2-microglobulin		
+Mamu-B*065:02 protein complex	Mamu-B*065:02	B08	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*065:02 chain	Beta-2-microglobulin		
+Mamu-B*012:02 protein complex	Mamu-B*012:02	B12	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*012:02 chain	Beta-2-microglobulin		
+Mamu-B*017:04 protein complex	Mamu-B*017:04	B17	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*017:04 chain	Beta-2-microglobulin		
 Mamu-DP protein complex	Mamu-DP		equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB chain		
 Mamu-DPB1*01:01 protein complex	Mamu-DPB1*01:01	Mamu-DPB1*0101|DPB1*0101|DPB10101|DPB101:01	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB1*01:01 chain		
 Mamu-DR protein complex	Mamu-DR		equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB chain		
@@ -545,12 +545,11 @@ human CD1c protein complex	human CD1c	HLA-CD1c|hCD1c	equivalent	non-classical MH
 human CD1d protein complex	human CD1d	HLA-CD1d|hCD1d	equivalent	non-classical MHC protein complex	human	human CD1d chain	Beta-2-microglobulin		
 human MHC class I protein complex	human		equivalent	MHC class I protein complex	human				
 human MHC class II protein complex	human		equivalent	MHC class II protein complex	human				
-human MR1 K43A mutant protein complex	human MR1 K43A mutant	HLA-MR1 K43A mutant|hMR1 K43A mutant	equivalent	non-classical MHC protein complex	human	human MR1 K43A mutant chain	Beta-2-microglobulin		
 human MR1 protein complex	human MR1	HLA-MR1|hMR1	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
 human non-classical MHC protein complex	human		equivalent	non-classical MHC protein complex	human				
 mouse CD1d protein complex	mouse CD1d	mCD1d	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
 mouse MHC class I protein complex	mouse		equivalent	MHC class I protein complex	mouse				
-mouse MHC class II protein complex	mouse		equivalent	MHC class II protein complex	mouse				
+mouse MHC class II protein complex	mouse		equivalent	MHC class II protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
 mouse MR1 protein complex	mouse MR1	mMR1	equivalent	non-classical MHC protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
 mouse non-classical MHC protein complex	mouse		equivalent	non-classical MHC protein complex	mouse				
 non-classical MHC protein complex	non-classical		subclass	MHC protein complex					

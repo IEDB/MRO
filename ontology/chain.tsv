@@ -1,16 +1,16 @@
 Label	Synonyms	Class Type	Parent	Gene
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %
 BF-B chain		equivalent	protein	BF-B locus
-BF-BF1 chain		equivalent	protein	BF-BF1 locus
-BF-BF2 chain		equivalent	protein	BF-BF2 locus
+BF1 chain		equivalent	protein	BF1 locus
+BF2 chain		equivalent	protein	BF2 locus
 BF-YF chain		equivalent	protein	BF-YF locus
-BF1*0201 chain		subclass	BF-BF1 chain	
-BF2*0201 chain		subclass	BF-BF2 chain	
-BF2*0401 chain		subclass	BF-BF2 chain	
-BF2*1201 chain		subclass	BF-BF2 chain	
-BF2*1401 chain		subclass	BF-BF2 chain	
-BF2*1501 chain		subclass	BF-BF2 chain	
-BF2*2101 chain		subclass	BF-BF2 chain	
+BF1*0201 chain		subclass	BF1 chain	
+BF2*0201 chain		subclass	BF2 chain	
+BF2*0401 chain		subclass	BF2 chain	
+BF2*1201 chain		subclass	BF2 chain	
+BF2*1401 chain		subclass	BF2 chain	
+BF2*1501 chain		subclass	BF2 chain	
+BF2*2101 chain		subclass	BF2 chain	
 BoLA-1 chain		equivalent	protein	BoLA-1 locus
 BoLA-1*02101 chain		subclass	BoLA-1 chain	
 BoLA-1*02301 chain		subclass	BoLA-1 chain	
@@ -67,68 +67,68 @@ ELA-N chain		equivalent	protein	ELA-N locus
 Eqca-N*00602 chain		subclass	ELA-N chain	
 Gogo-B chain		equivalent	protein	Gogo-B locus
 Gogo-B*0101 chain		subclass	Gogo-B chain	
-H-2-CD1 chain		equivalent	protein	H-2-CD1 locus
-H-2-D chain		equivalent	protein	H-2-D locus
-H-2-Db chain		subclass	H-2-D chain	
-H-2-Dd chain		subclass	H-2-D chain	
-H-2-Dk chain		subclass	H-2-D chain	
-H-2-Dr chain		subclass	H-2-D chain	
-H-2-Ds chain		subclass	H-2-D chain	
-H-2-IA alpha chain		equivalent	protein	H-2-IA alpha locus
-H-2-IA beta chain		equivalent	protein	H-2-IA beta locus
-H-2-IAb alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAb beta chain		subclass	H-2-IA beta chain	
-H-2-IAd alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAd beta chain		subclass	H-2-IA beta chain	
-H-2-IAf alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAf beta chain		subclass	H-2-IA beta chain	
-H-2-IAg7 alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAg7 beta chain		subclass	H-2-IA beta chain	
-H-2-IAk alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAk beta chain		subclass	H-2-IA beta chain	
-H-2-IAp alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAp beta chain		subclass	H-2-IA beta chain	
-H-2-IAq alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAq beta chain		subclass	H-2-IA beta chain	
-H-2-IAr alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAr beta chain		subclass	H-2-IA beta chain	
-H-2-IAs alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAs beta chain		subclass	H-2-IA beta chain	
-H-2-IAu alpha chain		subclass	H-2-IA alpha chain	
-H-2-IAu beta chain		subclass	H-2-IA beta chain	
-H-2-IE alpha chain		equivalent	protein	H-2-IE alpha locus
-H-2-IE beta chain		equivalent	protein	H-2-IE beta locus
-H-2-IEb alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEb beta chain		subclass	H-2-IE beta chain	
-H-2-IEd alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEd beta chain		subclass	H-2-IE beta chain	
-H-2-IEg7 alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEg7 beta chain		subclass	H-2-IE beta chain	
-H-2-IEk alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEk beta chain		subclass	H-2-IE beta chain	
-H-2-IEp alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEp beta chain		subclass	H-2-IE beta chain	
-H-2-IEr alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEr beta chain		subclass	H-2-IE beta chain	
-H-2-IEu alpha chain		subclass	H-2-IE alpha chain	
-H-2-IEu beta chain		subclass	H-2-IE beta chain	
-H-2-K chain		equivalent	protein	H-2-K locus
-H-2-Kb chain		subclass	H-2-K chain	
-H-2-Kd chain		subclass	H-2-K chain	
-H-2-Kk chain		subclass	H-2-K chain	
-H-2-Ks chain		subclass	H-2-K chain	
-H-2-Kwm7 chain		subclass	H-2-K chain	
-H-2-L chain		equivalent	protein	H-2-L locus
-H-2-Ld chain		subclass	H-2-L chain	
-H-2-Lq chain		subclass	H-2-L chain	
-H-2-M chain		equivalent	protein	H-2-M locus
-H-2-M3 chain		subclass	H-2-M chain	
-H-2-MR1 chain		equivalent	protein	H-2-MR1 locus
-H-2-Q chain		equivalent	protein	H-2-Q locus
-H-2-Q9 chain		subclass	H-2-Q chain	
-H-2-Qa1 chain		subclass	H-2-Q chain	
-H-2-Qa2 chain		subclass	H-2-Q chain	
-H-2-Qa9 chain		subclass	H-2-Q chain	
+H2-CD1 chain		equivalent	protein	H2-CD1 locus
+H2-D chain		equivalent	protein	H2-D locus
+H2-Db chain		subclass	H2-D chain	
+H2-Dd chain		subclass	H2-D chain	
+H2-Dk chain		subclass	H2-D chain	
+H2-Dr chain		subclass	H2-D chain	
+H2-Ds chain		subclass	H2-D chain	
+H2-IA alpha chain		equivalent	protein	H2-IA alpha locus
+H2-IA beta chain		equivalent	protein	H2-IA beta locus
+H2-IAb alpha chain		subclass	H2-IA alpha chain	
+H2-IAb beta chain		subclass	H2-IA beta chain	
+H2-IAd alpha chain		subclass	H2-IA alpha chain	
+H2-IAd beta chain		subclass	H2-IA beta chain	
+H2-IAf alpha chain		subclass	H2-IA alpha chain	
+H2-IAf beta chain		subclass	H2-IA beta chain	
+H2-IAg7 alpha chain		subclass	H2-IA alpha chain	
+H2-IAg7 beta chain		subclass	H2-IA beta chain	
+H2-IAk alpha chain		subclass	H2-IA alpha chain	
+H2-IAk beta chain		subclass	H2-IA beta chain	
+H2-IAp alpha chain		subclass	H2-IA alpha chain	
+H2-IAp beta chain		subclass	H2-IA beta chain	
+H2-IAq alpha chain		subclass	H2-IA alpha chain	
+H2-IAq beta chain		subclass	H2-IA beta chain	
+H2-IAr alpha chain		subclass	H2-IA alpha chain	
+H2-IAr beta chain		subclass	H2-IA beta chain	
+H2-IAs alpha chain		subclass	H2-IA alpha chain	
+H2-IAs beta chain		subclass	H2-IA beta chain	
+H2-IAu alpha chain		subclass	H2-IA alpha chain	
+H2-IAu beta chain		subclass	H2-IA beta chain	
+H2-IE alpha chain		equivalent	protein	H2-IE alpha locus
+H2-IE beta chain		equivalent	protein	H2-IE beta locus
+H2-IEb alpha chain		subclass	H2-IE alpha chain	
+H2-IEb beta chain		subclass	H2-IE beta chain	
+H2-IEd alpha chain		subclass	H2-IE alpha chain	
+H2-IEd beta chain		subclass	H2-IE beta chain	
+H2-IEg7 alpha chain		subclass	H2-IE alpha chain	
+H2-IEg7 beta chain		subclass	H2-IE beta chain	
+H2-IEk alpha chain		subclass	H2-IE alpha chain	
+H2-IEk beta chain		subclass	H2-IE beta chain	
+H2-IEp alpha chain		subclass	H2-IE alpha chain	
+H2-IEp beta chain		subclass	H2-IE beta chain	
+H2-IEr alpha chain		subclass	H2-IE alpha chain	
+H2-IEr beta chain		subclass	H2-IE beta chain	
+H2-IEu alpha chain		subclass	H2-IE alpha chain	
+H2-IEu beta chain		subclass	H2-IE beta chain	
+H2-K chain		equivalent	protein	H2-K locus
+H2-Kb chain		subclass	H2-K chain	
+H2-Kd chain		subclass	H2-K chain	
+H2-Kk chain		subclass	H2-K chain	
+H2-Ks chain		subclass	H2-K chain	
+H2-Kwm7 chain		subclass	H2-K chain	
+H2-L chain		equivalent	protein	H2-L locus
+H2-Ld chain		subclass	H2-L chain	
+H2-Lq chain		subclass	H2-L chain	
+H2-M chain		equivalent	protein	H2-M locus
+H2-M3 chain		subclass	H2-M chain	
+H2-MR1 chain		equivalent	protein	H2-MR1 locus
+H2-Q chain		equivalent	protein	H2-Q locus
+H2-Q9 chain		subclass	H2-Q chain	
+H2-Qa1 chain		subclass	H2-Q chain	
+H2-Qa2 chain		subclass	H2-Q chain	
+H2-Qa9 chain		subclass	H2-Q chain	
 HLA-A chain		equivalent	protein	HLA-A locus
 HLA-A*01:01 chain		subclass	HLA-A chain	
 HLA-A*02:01 chain		subclass	HLA-A chain	
@@ -240,7 +240,7 @@ HLA-B*41:03 chain		subclass	HLA-B chain
 HLA-B*41:04 chain		subclass	HLA-B chain	
 HLA-B*41:05 chain		subclass	HLA-B chain	
 HLA-B*41:06 chain		subclass	HLA-B chain	
-HLA-B*42:0 chain		subclass	HLA-B chain	
+HLA-B*42:02 chain		subclass	HLA-B chain	
 HLA-B*42:01 chain		subclass	HLA-B chain	
 HLA-B*44:01 chain		subclass	HLA-B chain	
 HLA-B*44:02 chain		subclass	HLA-B chain	
@@ -436,18 +436,18 @@ HLA-MR1 chain		equivalent	protein	HLA-MR1 locus
 MHC class I chain		equivalent	protein	MHC class I locus
 MHC class II chain		equivalent	protein	MHC class II locus
 Mamu-A chain		equivalent	protein	Mamu-A locus
-Mamu-A*01 chain		subclass	Mamu-A chain	
-Mamu-A*02 chain		subclass	Mamu-A chain	
-Mamu-A*08 chain		subclass	Mamu-A chain	
-Mamu-A*11 chain		subclass	Mamu-A chain	
+Mamu-A1*001:01 chain		subclass	Mamu-A chain	
+Mamu-A1*002:01 chain		subclass	Mamu-A chain	
+Mamu-A1*022:02 chain		subclass	Mamu-A chain	
+Mamu-A1*011:01 chain		subclass	Mamu-A chain	
 Mamu-B chain		equivalent	protein	Mamu-B locus
 Mamu-B*01 chain		subclass	Mamu-B chain	
 Mamu-B*029 chain		subclass	Mamu-B chain	
 Mamu-B*03 chain		subclass	Mamu-B chain	
 Mamu-B*04 chain		subclass	Mamu-B chain	
-Mamu-B*08 chain		subclass	Mamu-B chain	
-Mamu-B*12 chain		subclass	Mamu-B chain	
-Mamu-B*17 chain		subclass	Mamu-B chain	
+Mamu-B*065:02 chain		subclass	Mamu-B chain	
+Mamu-B*012:02 chain		subclass	Mamu-B chain	
+Mamu-B*017:04 chain		subclass	Mamu-B chain	
 Mamu-DPA chain		equivalent	protein	Mamu-DPA locus
 Mamu-DPB chain		equivalent	protein	Mamu-DPB locus
 Mamu-DPB1*01:01 chain		subclass	Mamu-DPB chain	
@@ -556,10 +556,10 @@ human MR1 K43A mutant chain		subclass	HLA-MR1 chain
 human MR1 chain		subclass	HLA-MR1 chain	
 human non-classical MHC chain		equivalent	protein	human non-classical MHC locus
 marmoset MHC class I chain		equivalent	protein	marmoset MHC class I locus
-mouse CD1d chain		subclass	H-2-CD1 chain	
+mouse CD1d chain		subclass	H2-CD1 chain	
 mouse MHC class I chain		equivalent	protein	mouse MHC class I locus
 mouse MHC class II chain		equivalent	protein	mouse MHC class II locus
-mouse MR1 chain		subclass	H-2-MR1 chain	
+mouse MR1 chain		subclass	H2-MR1 chain	
 mouse non-classical MHC chain		equivalent	protein	mouse non-classical MHC locus
 non-classical MHC chain		equivalent	protein	non-classical MHC locus
 pig MHC class I chain		equivalent	protein	pig MHC class I locus

@@ -16,6 +16,7 @@ mro.owl: mro-import.owl index.tsv $(TSVFiles) ontology/metadata.ttl
 	$(templates) \
 	--merge-before \
 	reason --reasoner HermiT \
+	--remove-redundant-subclass-axioms false \
 	annotate \
 	--ontology-iri "$(OBO)/mro.owl" \
 	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro.owl" \
@@ -54,6 +55,13 @@ mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
 $(LIB)/%:
 	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/$*"
+
+mhc_allele_restriction.csv: mro-iedb.owl src/mhc_allele_restriction.rq
+	robot query --input $(word 1,$^) --select $(word 2,$^) $@
+
+mhc_allele_restriction.tsv: src/clean.py mhc_allele_restriction.csv cheats.tsv
+	python3 $^ \
+	> $@
 
 clean:
 	rm -f mro.owl mro-iedb.owl mro-import.owl

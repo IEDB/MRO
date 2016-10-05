@@ -1,8 +1,8 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
 BF-B locus		subclass	chicken non-classical MHC locus	
-BF-BF1 locus		subclass	chicken MHC class I locus	
-BF-BF2 locus		subclass	chicken MHC class I locus	
+BF1 locus		subclass	chicken MHC class I locus	
+BF2 locus		subclass	chicken MHC class I locus	
 BF-YF locus		subclass	chicken non-classical MHC locus	
 BoLA-1 locus		subclass	cattle MHC class I locus	
 BoLA-2 locus		subclass	cattle MHC class I locus	
@@ -21,17 +21,17 @@ Caja-G locus		subclass	marmoset MHC class I locus
 DLA-88 locus		subclass	dog MHC class I locus	
 ELA-N locus		subclass	horse MHC class I locus	
 Gogo-B locus		subclass	gorilla MHC class I locus	
-H-2-CD1 locus		subclass	mouse non-classical MHC locus	
-H-2-D locus		subclass	mouse MHC class I locus	
-H-2-IA alpha locus		subclass	mouse MHC class II locus	
-H-2-IA beta locus		subclass	mouse MHC class II locus	
-H-2-IE alpha locus		subclass	mouse MHC class II locus	
-H-2-IE beta locus		subclass	mouse MHC class II locus	
-H-2-K locus		subclass	mouse MHC class I locus	
-H-2-L locus		subclass	mouse MHC class I locus	
-H-2-M locus		subclass	mouse non-classical MHC locus	
-H-2-MR1 locus		subclass	mouse non-classical MHC locus	
-H-2-Q locus		subclass	mouse MHC class I locus	
+H2-CD1 locus		subclass	mouse non-classical MHC locus	
+H2-D locus		subclass	mouse MHC class I locus	
+H2-IA alpha locus		subclass	mouse MHC class II locus	
+H2-IA beta locus		subclass	mouse MHC class II locus	
+H2-IE alpha locus		subclass	mouse MHC class II locus	
+H2-IE beta locus		subclass	mouse MHC class II locus	
+H2-K locus		subclass	mouse MHC class I locus	
+H2-L locus		subclass	mouse MHC class I locus	
+H2-M locus		subclass	mouse non-classical MHC locus	
+H2-MR1 locus		subclass	mouse non-classical MHC locus	
+H2-Q locus		subclass	mouse MHC class I locus	
 HLA-A locus		subclass	human MHC class I locus	
 HLA-B locus		subclass	human MHC class I locus	
 HLA-BTN3A locus		subclass	human non-classical MHC locus	
