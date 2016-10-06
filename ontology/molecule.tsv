@@ -549,7 +549,7 @@ human MR1 protein complex	human MR1	HLA-MR1|hMR1	equivalent	non-classical MHC pr
 human non-classical MHC protein complex	human		equivalent	non-classical MHC protein complex	human				
 mouse CD1d protein complex	mouse CD1d	mCD1d	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
 mouse MHC class I protein complex	mouse		equivalent	MHC class I protein complex	mouse				
-mouse MHC class II protein complex	mouse		equivalent	MHC class II protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
+mouse MHC class II protein complex	mouse		equivalent	MHC class II protein complex	mouse				
 mouse MR1 protein complex	mouse MR1	mMR1	equivalent	non-classical MHC protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
 mouse non-classical MHC protein complex	mouse		equivalent	non-classical MHC protein complex	mouse				
 non-classical MHC protein complex	non-classical		subclass	MHC protein complex					
