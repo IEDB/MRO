@@ -51,9 +51,21 @@ WHERE {
   OPTIONAL {
     ?subject obo:IAO_0000118 ?synonym .
   }
+
+  # Get haplotype
   OPTIONAL {
-    ?subject MRO:has-mhc-haplotype ?haplotype .
+    FILTER (?subject != MRO:0000010) # not MHC protein complex with haplotype
+    ?subject
+      (rdfs:subClassOf / owl:someValuesFrom)? / # handle mutants
+        owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first
+          ?haplotype_member .
+    ?haplotype_member
+      owl:onProperty MRO:0000000 ; # haplotype member of
+      owl:someValuesFrom ?haplotype_iri .
+    ?haplotype_iri
+      rdfs:label ?haplotype .
   }
+
   OPTIONAL {
     ?subject MRO:has-mhc-serotype ?serotype .
   }

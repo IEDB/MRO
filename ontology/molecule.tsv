@@ -73,7 +73,7 @@ H2-IAu protein complex	H2-IAu		equivalent	MHC class II protein complex	mouse	H2-
 H2-IE protein complex	H2-IE		equivalent	MHC class II protein complex	mouse	H2-IE alpha chain	H2-IE beta chain		
 H2-IEb protein complex	H2-IEb		equivalent	MHC class II protein complex	mouse	H2-IEb alpha chain	H2-IEb beta chain	H2-b haplotype	
 H2-IEd protein complex	H2-IEd		equivalent	MHC class II protein complex	mouse	H2-IEd alpha chain	H2-IEd beta chain	H2-d haplotype	
-H2-IEg7 protein complex	H2-IEg7		equivalent	MHC class II protein complex	mouse	H2-IEg7 alpha chain	H2-IEg7 beta chain		
+H2-IEg7 protein complex	H2-IEg7		equivalent	MHC class II protein complex	mouse	H2-IEg7 alpha chain	H2-IEg7 beta chain	H2-g7 haplotype	
 H2-IEk protein complex	H2-IEk		equivalent	MHC class II protein complex	mouse	H2-IEk alpha chain	H2-IEk beta chain	H2-k haplotype	
 H2-IEp protein complex	H2-IEp		equivalent	MHC class II protein complex	mouse	H2-IEp alpha chain	H2-IEp beta chain	H2-p haplotype	
 H2-IEr protein complex	H2-IEr		equivalent	MHC class II protein complex	mouse	H2-IEr alpha chain	H2-IEr beta chain	H2-r haplotype	
@@ -83,7 +83,7 @@ H2-Kb protein complex	H2-Kb		equivalent	MHC class I protein complex	mouse	H2-Kb 
 H2-Kd protein complex	H2-Kd		equivalent	MHC class I protein complex	mouse	H2-Kd chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Kk protein complex	H2-Kk		equivalent	MHC class I protein complex	mouse	H2-Kk chain	Beta-2-microglobulin	H2-k haplotype	
 H2-Ks protein complex	H2-Ks		equivalent	MHC class I protein complex	mouse	H2-Ks chain	Beta-2-microglobulin	H2-s haplotype	
-H2-Kwm7 protein complex	H2-Kwm7		equivalent	MHC class I protein complex	mouse	H2-Kwm7 chain	Beta-2-microglobulin	H2-wm haplotype	
+H2-Kwm7 protein complex	H2-Kwm7		equivalent	MHC class I protein complex	mouse	H2-Kwm7 chain	Beta-2-microglobulin	H2-wm7 haplotype	
 H2-L protein complex	H2-L		equivalent	MHC class I protein complex	mouse	H2-L chain	Beta-2-microglobulin		
 H2-Ld protein complex	H2-Ld		equivalent	MHC class I protein complex	mouse	H2-Ld chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Lq protein complex	H2-Lq	H2-Lw16	equivalent	MHC class I protein complex	mouse	H2-Lq chain	Beta-2-microglobulin	H2-q haplotype	

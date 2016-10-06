@@ -160,7 +160,7 @@ MRO:0000156	H2-r haplotype	owl:Class
 MRO:0000157	H2-s haplotype	owl:Class
 MRO:0000158	H2-u haplotype	owl:Class
 MRO:0000159	H2-v haplotype	owl:Class
-MRO:0000160	H2-wm haplotype	owl:Class
+MRO:0000160	H2-wm7 haplotype	owl:Class
 MRO:0000161	H2-z haplotype	owl:Class
 MRO:0000162	H2-z/d haplotype	owl:Class
 MRO:0000163	RT1-a haplotype	owl:Class
@@ -1504,7 +1504,7 @@ MRO:0001500	H2 protein complex with H2-r haplotype	owl:Class
 MRO:0001501	H2 protein complex with H2-s haplotype	owl:Class
 MRO:0001502	H2 protein complex with H2-u haplotype	owl:Class
 MRO:0001503	H2 protein complex with H2-v haplotype	owl:Class
-MRO:0001504	H2 protein complex with H2-wm haplotype	owl:Class
+MRO:0001504	H2 protein complex with H2-wm7 haplotype	owl:Class
 MRO:0001505	H2 protein complex with H2-z haplotype	owl:Class
 MRO:0001506	H2 protein complex with H2-z/d haplotype	owl:Class
 MRO:0001507	RT1 protein complex with RT1-a haplotype	owl:Class
