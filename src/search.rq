@@ -1,0 +1,53 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX obo:  <http://purl.obolibrary.org/obo/>
+PREFIX MRO:  <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT ?subject
+  ?restriction_level
+  ?mhc_allele_restriction_id
+  ?organism_taxon_id
+  ?organism_name
+  ?class
+  ?locus
+  ?haplotype
+  ?serotype
+  ?label
+  ?short_id
+  ?namespace
+WHERE {
+  ?subject
+    rdfs:subClassOf* obo:GO_0043234 ;
+    rdfs:label ?label .
+  OPTIONAL {
+    ?subject MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
+  }
+  OPTIONAL {
+    ?subject MRO:has-mhc-restriction ?restriction_level .
+  }
+  OPTIONAL {
+    ?subject MRO:has-taxon-id ?organism_taxon_id .
+  }
+  OPTIONAL {
+    ?subject MRO:has-taxon-label ?organism_name .
+  }
+  OPTIONAL {
+    ?subject MRO:has-mhc-class ?class .
+  }
+  OPTIONAL {
+    ?subject MRO:has-mhc-locus ?locus .
+  }
+  OPTIONAL {
+    ?subject MRO:has-mhc-haplotype ?haplotype .
+  }
+  OPTIONAL {
+    ?subject MRO:has-mhc-serotype ?serotype .
+  }
+  BIND(REPLACE(STR(?subject), "http://purl.obolibrary.org/obo/", "") AS ?short_id)
+  BIND("http://purl.obolibrary.org/obo/" AS ?namespace)
+}
+ORDER BY ?subject
+
+

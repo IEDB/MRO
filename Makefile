@@ -63,5 +63,22 @@ mhc_allele_restriction.tsv: src/clean.py mhc_allele_restriction.csv cheats.tsv
 	python3 $^ \
 	> $@
 
+names.csv: mro-iedb.owl src/names.rq
+	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
+	tail -n+2 $@.tmp | dos2unix > $@
+	rm $@.tmp
+
+search.csv: mro-iedb.owl src/search.rq
+	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
+	tail -n+2 $@.tmp | dos2unix > $@
+	rm $@.tmp
+
+.PHONY: check
+check: mhc_allele_restriction.tsv names.csv search.csv
+	diff mhc_allele_restriction_target.tsv mhc_allele_restriction.tsv
+	diff names_target.csv names.csv
+	diff search_target.csv search.csv
+
+.PHONY: clean
 clean:
 	rm -f mro.owl mro-iedb.owl mro-import.owl
