@@ -67,8 +67,18 @@ WHERE {
       rdfs:label ?haplotype .
   }
 
+  # Get serotype
   OPTIONAL {
-    ?subject MRO:has-mhc-serotype ?serotype .
+    FILTER (?subject != MRO:0000011) # not MHC protein complex with serotype
+    ?subject
+      (rdfs:subClassOf / owl:someValuesFrom)? / # handle mutants
+        owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first
+          ?serotype_member .
+    ?serotype_member
+      owl:onProperty MRO:0000001 ; # serotype member of
+      owl:someValuesFrom ?serotype_iri .
+    ?serotype_iri
+      rdfs:label ?serotype .
   }
 
   BIND(REPLACE(STR(?subject), "http://purl.obolibrary.org/obo/", "") AS ?short_id)
