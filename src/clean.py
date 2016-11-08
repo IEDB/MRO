@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# This script takes the CSV file with results
+# from the mhc_allele_restriction.rq SPARQL query
+# and reformats the rows to align with
+# the mhc_allele_restriction table in the current IEDB.
+# Some of these manipulations could be done in SPARQL,
+# but that query is already ugly enough.
+
 import argparse, csv
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE,SIG_DFL)
@@ -7,7 +14,7 @@ signal(SIGPIPE,SIG_DFL)
 # Parse arguments
 
 parser = argparse.ArgumentParser(
-    description='Generate Turtle for pruned taxa')
+    description='Clean SPARQL results to align with mhc_allele_restriction table')
 parser.add_argument('alleles',
     type=argparse.FileType('r'),
     help='read query result CSV')
@@ -110,7 +117,7 @@ for row in rows:
   values = []
   for header in headers:
     # TODO: Fix this
-    if header != 'synonyms':
+    if header in row and header != 'synonyms':
       values.append(row[header] or '')
   results.append(values)
 
