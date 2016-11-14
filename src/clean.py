@@ -18,9 +18,6 @@ parser = argparse.ArgumentParser(
 parser.add_argument('alleles',
     type=argparse.FileType('r'),
     help='read query result CSV')
-parser.add_argument('cheats',
-    type=argparse.FileType('r'),
-    help='extra rows')
 args = parser.parse_args()
 
 organisms = {
@@ -63,6 +60,7 @@ codes = {
 def clean_code(name):
   return name.replace('BF-','') \
              .replace('BoLA-','') \
+             .replace('Caja-','') \
              .replace('DLA-','') \
              .replace('ELA-','') \
              .replace('Gogo-','') \
@@ -72,7 +70,8 @@ def clean_code(name):
              .replace('Papa-','') \
              .replace('Patr-','') \
              .replace('Saoe-','') \
-             .replace('SLA-','')
+             .replace('SLA-','') \
+             .replace('RT1-','')
 
 # Grab the first row and use those headers.
 
@@ -100,24 +99,13 @@ for row in rows:
   row['chain_ii_locus'] = clean_code(row['chain_ii_locus'].replace(' locus', ''))
 
   if row['restriction_level'] == 'class':
-    row['displayed_restriction'] = codes[row['organism_ncbi_tax_id']] + '-class ' + row['class']
-  elif row['restriction_level'] == 'haplotype' \
-      and row['organism'] not in ['chicken (Gallus gallus)']:
-    row['displayed_restriction'] = codes[row['organism_ncbi_tax_id']] + '-' + row['displayed_restriction']
+    row['displayed_restriction'] = codes[row['organism_ncbi_tax_id']] \
+        + ' class ' + row['class']
 
   values = []
   for header in headers:
     # TODO: Fix this
     if header != 'synonyms':
-      values.append(row[header] or '')
-  results.append(values)
-
-rows = csv.DictReader(args.cheats, delimiter='\t')
-for row in rows:
-  values = []
-  for header in headers:
-    # TODO: Fix this
-    if header in row and header != 'synonyms':
       values.append(row[header] or '')
   results.append(values)
 

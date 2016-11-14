@@ -56,29 +56,34 @@ $(LIB)/%:
 	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
-mhc_allele_restriction.csv: mro-iedb.owl src/mhc_allele_restriction.rq
+
+# generate files for IEDB
+
+build:
+	mkdir -p $@
+
+build/mhc_allele_restriction.csv: mro-iedb.owl src/mhc_allele_restriction.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@
 
-mhc_allele_restriction.tsv: src/clean.py mhc_allele_restriction.csv cheats.tsv
+build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | build
 	python3 $^ \
 	> $@
 
-names.csv: mro-iedb.owl src/names.rq
+build/names.csv: mro-iedb.owl src/names.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-search.csv: mro-iedb.owl src/search.rq
+build/search.csv: mro-iedb.owl src/search.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
 .PHONY: check
-check: mhc_allele_restriction.tsv names.csv search.csv
-	diff mhc_allele_restriction_target.tsv mhc_allele_restriction.tsv
-	diff names_target.csv names.csv
-	diff search_target.csv search.csv
+check: build/mhc_allele_restriction.tsv
+	diff reference/mhc_allele_restriction.tsv build/mhc_allele_restriction.tsv
 
 .PHONY: clean
 clean:
 	rm -f mro.owl mro-iedb.owl mro-import.owl
+	rm -rf build

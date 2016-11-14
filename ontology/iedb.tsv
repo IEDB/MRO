@@ -113,13 +113,28 @@ H2-IEd protein complex	116	MHC class II	IE	56056	253158
 H2-IEg7 protein complex	117	MHC class II	IE		
 H2-IEk protein complex	118	MHC class II	IE	301186	301192
 H2-IEu protein complex	119	MHC class II	IE	301187	301193
+mouse MHC class I protein complex with H2-k haplotype	120	MHC class I			
+mouse MHC class II protein complex with H2-k haplotype	121	MHC class II			
 H2-Kb protein complex	122	MHC class I	K	51919	240777
-H2-Kb Y22F, M23I, E24S, D30N mutant	123	MHC class I	K		
+"H2-Kb Y22F, M23I, E24S, D30N mutant"	123	MHC class I	K		
 H2-Kd protein complex	124	MHC class I	K	256539	240777
 H2-Kk protein complex	125	MHC class I	K	301184	240777
 H2-Ld protein complex	126	MHC class I	L	251683	240777
 H2-Lq protein complex	127	MHC class I	L		
 H2-M3 protein complex	128	non-classical MHC	M	301188	240777
+mouse MHC class I protein complex with H2-p haplotype	129	MHC class I			
+mouse MHC class II protein complex with H2-p haplotype	130	MHC class II			
+mouse MHC class I protein complex with H2-q haplotype	131	MHC class I			
+mouse MHC class II protein complex with H2-q haplotype	132	MHC class II			
+H2-Q1 protein complex	133	MHC class I	Q1		
+mouse MHC class I protein complex with H2-r haplotype	134	MHC class I			
+mouse MHC class II protein complex with H2-r haplotype	135	MHC class II			
+mouse MHC class I protein complex with H2-s haplotype	136	MHC class I			
+mouse MHC class II protein complex with H2-s haplotype	137	MHC class II			
+mouse MHC class I protein complex with H2-u haplotype	138	MHC class I			
+mouse MHC class I protein complex with H2-v haplotype	139	MHC class I			
+mouse MHC class I protein complex with H2-z haplotype	140	MHC class I			
+mouse MHC class II protein complex with H2-z haplotype	141	MHC class II			
 HLA-A*01:01 protein complex	142	MHC class I	A	300551	56585
 HLA-A*02:01 protein complex	143	MHC class I	A	300552	56585
 BF protein complex with B12 haplotype	144	MHC class I			
@@ -127,6 +142,7 @@ cattle MHC class II protein complex	145	MHC class II
 BoLA-DQ protein complex	146	MHC class II	DQ		
 BoLA-DQA*0202 protein complex	147	MHC class II	DQ		
 BoLA-DQA*0301 protein complex	148	MHC class II	DQ	300436	
+BoLA-DR protein complex	149	MHC class II	DR		
 BoLA-DRB3*0101 protein complex	150	MHC class II	DRB3		300497
 BoLA-DRB3*3001 protein complex	151	MHC class II	DRB3		300498
 BoLA-DRB3*4501 protein complex	152	MHC class II	DRB3		300505
@@ -142,12 +158,23 @@ ELA protein complex with A6 haplotype	161	MHC class I
 ELA protein complex with A9 haplotype	162	MHC class I			
 ELA protein complex with W11 haplotype	163	MHC class I			
 Gogo-B*0101 protein complex	164	MHC class I	B		
+mouse MHC class I protein complex with H2-a haplotype	165	MHC class I			
+mouse MHC class II protein complex with H2-a haplotype	166	MHC class II			
+mouse MHC class I protein complex with H2-b haplotype	167	MHC class I			
+mouse MHC class II protein complex with H2-b haplotype	168	MHC class II			
+mouse MHC class I protein complex with H2-d haplotype	169	MHC class I			
+mouse MHC class II protein complex with H2-d haplotype	170	MHC class II			
 H2-Db protein complex	172	MHC class I	D	55197	240777
 H2-Dd protein complex	173	MHC class I	D	301183	240777
 H2-Dk protein complex	174	MHC class I	D		
+mouse MHC class I protein complex with H2-f haplotype	175	MHC class I			
+mouse MHC class II protein complex with H2-f haplotype	176	MHC class II			
+mouse MHC class I protein complex with H2-i haplotype	177	MHC class I			
+mouse MHC class II protein complex with H2-i haplotype	178	MHC class II			
+mouse MHC class II protein complex with H2-i3 haplotype	179	MHC class II			
 H2-IA protein complex	180	MHC class II	IA		
 H2-IAb protein complex	181	MHC class II	IA	254615	301190
-H2-IAb I67F, R70Q, T71K mutant	182	MHC class II	IA		
+"H2-IAb I67F, R70Q, T71K mutant"	182	MHC class II	IA		
 H2-IAd protein complex	183	MHC class II	IA	251229	244885
 HLA-B*15:17 protein complex	184	MHC class I	B	300616	56585
 HLA-B*18:01 protein complex	185	MHC class I	B	300619	56585
@@ -284,6 +311,7 @@ HLA-DQB1*06:01 protein complex	322	MHC class II	DQ		300738
 HLA-DQB1*06:02 protein complex	323	MHC class II	DQ		300739
 HLA-DQB1*06:03 protein complex	324	MHC class II	DQ		300740
 HLA-DQB1*06:04 protein complex	325	MHC class II	DQ		300741
+HLA-DR protein complex	326	MHC class II	DR		
 HLA protein complex with DR1 serotype	327	MHC class II	DR		
 HLA protein complex with DR10 serotype	328	MHC class II	DR		
 HLA protein complex with DR11 serotype	330	MHC class II	DR		
@@ -327,9 +355,9 @@ Mamu-A1*001:01 protein complex	375	MHC class I	A	300434	56585
 Mamu-A1*002:01 protein complex	376	MHC class I	A	300435	56585
 Mamu-A1*022:02 protein complex	377	MHC class I	A	300471	56585
 Mamu-A1*011:01 protein complex	378	MHC class I	A	300468	56585
-Mamu-B*01 protein complex	379	MHC class I	B		
-Mamu-B*03 protein complex	380	MHC class I	B		
-Mamu-B*04 protein complex	381	MHC class I	B		
+Mamu-B*001:01 protein complex	379	MHC class I	B	AAA84383.2	
+Mamu-B*003:01 protein complex	380	MHC class I	B	ADK23899.1	
+Mamu-B*004:01 protein complex	381	MHC class I	B	AAC50576.1	
 Mamu-B*012:02 protein complex	382	MHC class I	B	300473	56585
 Mamu-B*017:04 protein complex	383	MHC class I	B	300474	56585
 Mamu protein complex with DR1B serotype	385	MHC class II	DR		
@@ -404,6 +432,8 @@ Patr-C*04:01 protein complex	459	MHC class I	C	300441	300490
 Patr-C*05:02 protein complex	460	MHC class I	C	300443	300490
 Patr-C*06:01 protein complex	461	MHC class I	C	300442	300490
 chimpanzee MHC class I protein complex	462	MHC class I			
+Patr-DP protein complex	463	MHC class II	DP		
+Patr-DQ protein complex	464	MHC class II	DQ		
 Patr protein complex with DR1 serotype	465	MHC class II	DR		
 Patr protein complex with DR10 serotype	466	MHC class II	DR		
 Patr protein complex with DR2 serotype	468	MHC class II	DR		
@@ -416,15 +446,21 @@ Patr protein complex with DR9 serotype	474	MHC class II	DR
 Patr-DRB1*07:01 protein complex	475	MHC class II	DR		300519
 Patr-DRB1*10:01 protein complex	476	MHC class II	DR		300520
 Patr-DRB5*03:10 protein complex	477	MHC class II	DR		300521
-Saoe-G*02 protein complex	482	MHC class I	G		
-Saoe-G*04 protein complex	483	MHC class I	G		
-Saoe-G*08 protein complex	484	MHC class I	G		
-Saoe-G*12 protein complex	485	MHC class I	G		
+rat MHC class II protein complex with RT11 haplotype	478	MHC class II			
+rat MHC class II protein complex with RT11v1 haplotype	479	MHC class II			
+RT1-B protein complex	480	MHC class II	B		
+rat MHC class II protein complex with RT1-n haplotype	481	MHC class II			
+Saoe protein complex with G*02 serotype	482	MHC class I	G		
+Saoe protein complex with G*04 serotype	483	MHC class I	G		
+Saoe protein complex with G*08 serotype	484	MHC class I	G		
+Saoe protein complex with G*12 serotype	485	MHC class I	G		
+pig MHC class I protein complex	486	MHC class I			
 HLA-DRA*01:01/DRB5*01:01 protein complex	487	MHC class II	DR	300744	300808
 BoLA-DRB3 protein complex	488	MHC class II	DRB3		
 BoLA-6*01301 protein complex	489	MHC class I	6	300479	300493
 BoLA-2*01201 protein complex	490	MHC class I	2	300476	300493
 BoLA-3*00101 protein complex	491	MHC class I	3	300433	300493
+pig MHC class II protein complex	492	MHC class II			
 H2-Ks protein complex	493	MHC class I	K		
 BoLA-DRB3*0201 protein complex	494	MHC class II	DRB3		300494
 BoLA-DRB3*1101 protein complex	495	MHC class II	DRB3		300510
@@ -432,11 +468,14 @@ BoLA-DRB3*1201 protein complex	496	MHC class II	DRB3		300511
 BoLA-DRB3*0701 protein complex	499	MHC class II	DRB3		300509
 BoLA-DRB3*2002 protein complex	501	MHC class II	DRB3		300513
 BoLA-DRB3*2703 protein complex	503	MHC class II	DRB3		300507
+BoLA-DRB6 protein complex	504	MHC class II	DRB6		
 BF2*2101 protein complex	506	MHC class I	BF2		
 cattle MHC class I protein complex	507	MHC class I			
 BoLA-1*02101 protein complex	508	MHC class I	1	300478	300493
 BoLA-2*02201 protein complex	509	MHC class I	2	300480	300493
+H2-Q9 protein complex	510	MHC class I	Q9		
 HLA-DQA1*01:03/DQB1*06:03 protein complex	511	MHC class II	DQ	300716	300740
+RT1-A protein complex	512	MHC class I	A		
 HLA-A*25:01 protein complex	514	MHC class I	A	300580	56585
 HLA-DQB1*02:02 protein complex	515	MHC class II	DQ		300727
 BoLA-DRB3*1202 protein complex	516	MHC class II	DRB3		300495
@@ -470,17 +509,22 @@ HLA-A*32:01 protein complex	544	MHC class I	A	300591	56585
 Mamu-B*065:02 protein complex	545	MHC class I	B	300472	56585
 HLA-DPB1*16:01 protein complex	547	MHC class II	DP		300708
 horse MHC class I protein complex	548	MHC class I			
-H2-Db L114Q, F116Y, E119D mutant	550	MHC class I	D		
+horse MHC class II protein complex	549	MHC class II			
+"H2-Db L114Q, F116Y, E119D mutant"	550	MHC class I	D		
 H2-IAf protein complex	551	MHC class II	IA		
 H2-Kk D152A mutant	552	MHC class I	K		
-H2-Kb E152A, R155Y, L156Y mutant	553	MHC class I	K		
+"H2-Kb E152A, R155Y, L156Y mutant"	553	MHC class I	K		
+RT1-Aa protein complex	555	MHC class I	A		
+RT1-Ac protein complex	556	MHC class I	A		
+dog MHC class II protein complex	558	MHC class II			
 HLA protein complex with B41 serotype	561	MHC class I	B		
 HLA-DRB5*02:02 protein complex	562	MHC class II	DR		300810
 H2-Kb Y84A mutant	564	MHC class I	K		
 H2-Kb Y84C mutant	565	MHC class I	K		
 HLA-E*01:03 protein complex	566	non-classical MHC	E	300812	56585
-HLA-DRB1*04:01 Q110N, K139T mutant	567	MHC class II	DR		
-H2-Kb D77S, K89A mutant	569	MHC class I	K		
+"HLA-DRB1*04:01 Q110N, K139T mutant"	567	MHC class II	DR		
+"H2-Kb D77S, K89A mutant"	569	MHC class I	K		
+sheep MHC class I protein complex	570	MHC class I			
 HLA protein complex with A34 serotype	571	MHC class I	A		
 HLA protein complex with A74 serotype	572	MHC class I	A		
 HLA protein complex with A80 serotype	573	MHC class I	A		
@@ -492,29 +536,48 @@ HLA protein complex with Cw2 serotype	578	MHC class I	C
 HLA-B*67:01 protein complex	581	MHC class I	B	300673	56585
 HLA-C*12:02 protein complex	582	MHC class I	C	300688	56585
 BF2 protein complex	583	MHC class I	BF2		
+mouse MHC class I protein complex with H2-g7 haplotype	584	MHC class I			
+mouse MHC class II protein complex with H2-g7 haplotype	585	MHC class II			
 HLA-DQB1*03:04 protein complex	586	MHC class II	DQ		300731
 HLA-DQB1*06:09 protein complex	587	MHC class II	DQ		300743
 BoLA protein complex with A11 serotype	588	MHC class I			
-H2-IAg7 H56P, S57D mutant	589	MHC class II	IA		
+"H2-IAg7 H56P, S57D mutant"	589	MHC class II	IA		
 HLA-A*02:17 protein complex	590	MHC class I	A	300567	56585
 HLA-DQA1*01:01/DQB1*05:03 protein complex	591	MHC class II	DQ	300714	300737
 H2-IAr protein complex	592	MHC class II	IA		
 HLA protein complex with B63 serotype	594	MHC class I	B		
 HLA-DRB1*07:03 protein complex	595	MHC class II	DR		300767
+rat MHC class I protein complex with RT1-A haplotype	596	MHC class I			
 H2-IEr protein complex	598	MHC class II	IE		
 H2-IAp protein complex	599	MHC class II	IA		
+RT1-Bl protein complex	600	MHC class II	B		
+RT1-Dl protein complex	601	MHC class II	D		
 HLA-DQA1*03:02/DQB1*04:01 protein complex	602	MHC class II	DQ	300720	300733
 HLA-A*02:08 protein complex	603	MHC class I	A	300559	56585
 HLA-A*11:02 protein complex	604	MHC class I	A	300573	56585
 HLA-DQA1*01:03/DQB1*03:02 protein complex	606	MHC class II	DQ	300716	300729
+mouse MHC class II protein complex with H2-u haplotype	607	MHC class II			
+RT1-Ba protein complex	608	MHC class II	B		
+RT1-Bn protein complex	609	MHC class II	B		
+RT1-Bu protein complex	610	MHC class II	B		
+RT1-Da protein complex	611	MHC class II	D		
+RT1-Dn protein complex	612	MHC class II	D		
+rat MHC class II protein complex with RT1-av1 haplotype	613	MHC class II			
+rat MHC class II protein complex with RT1-u haplotype	614	MHC class II			
 HLA-DPA1*01:03/DPB1*02:12 E69K mutant	615	MHC class II	DP	300693	
+RT1-Du protein complex	616	MHC class II	D		
 Mamu-DPB1*01:01 protein complex	617	MHC class II	DP		300522
 HLA-DRA*01:01/DRB1*15:01 protein complex	618	MHC class II	DR	300744	300795
+RT1-D protein complex	620	MHC class II	D		
 H2-IEp protein complex	621	MHC class II	IE		
 H2-IAk H9V mutant	622	MHC class II	IA		
 H2-IAu V9H mutant	623	MHC class II	IA		
+H2-Q2 protein complex	624	MHC class I	Q2		
 H2-Ds protein complex	625	MHC class I	D		
+mouse MHC class I protein complex	626	MHC class I			
+mouse MHC class II protein complex	627	MHC class II			
 HLA-C*04:01 protein complex	629	MHC class I	C	300680	56585
+rat MHC class II protein complex with RT1-A haplotype	630	MHC class II			
 HLA-DRA*01:01/DRB1*03:01 protein complex	631	MHC class II	DR	300744	300750
 H2-Dr protein complex	632	MHC class I	D		
 HLA-B*83:01 protein complex	633	MHC class I	B	300814	56585
@@ -528,20 +591,21 @@ HLA-B*27:20 protein complex	640	MHC class I	B	300815	56585
 HLA-B*40:13 protein complex	641	MHC class I	B	300644	56585
 HLA-B*45:06 protein complex	642	MHC class I	B	300824	56585
 HLA-B*57:03 protein complex	643	MHC class I	B	300670	56585
+RT1-Bk protein complex	644	MHC class II	B		
 H2-Kwm7 protein complex	645	MHC class I	K	248908	240777
 HLA-DPA1*01:03/DPB1*04:02 protein complex	646	MHC class II	DP	300693	300701
 HLA-DPA1*02:01/DPB1*05:01 protein complex	647	MHC class II	DP	300694	300702
 HLA-DPA1*03:01/DPB1*04:02 protein complex	648	MHC class II	DP	300696	300701
 HLA-A*02:01 K66A mutant	651	MHC class I	A		
 HLA-DRB1*01:01 D57A mutant	652	MHC class II	DR		
-HLA-DRB1*01:01 D57A, Y60H mutant	653	MHC class II	DR		
+"HLA-DRB1*01:01 D57A, Y60H mutant"	653	MHC class II	DR		
 HLA-DRB1*01:01 D57V mutant	654	MHC class II	DR		
-HLA-DRB1*01:01 D57V, Y60S mutant	655	MHC class II	DR		
+"HLA-DRB1*01:01 D57V, Y60S mutant"	655	MHC class II	DR		
 HLA-DPB1*14:01 protein complex	656	MHC class II	DP		300707
-HLA-A*02:01 K66A, E63Q mutant	657	MHC class I	A		
+"HLA-A*02:01 K66A, E63Q mutant"	657	MHC class I	A		
 HLA-DQA1*01:02/DQB1*03:01 protein complex	658	MHC class II	DQ	300715	300728
 HLA-DQA1*03:03/DQB1*03:01 protein complex	659	MHC class II	DQ	300721	300728
-H2-IEk alpha E11Q, D66N mutant	660	MHC class II	IE		
+"H2-IEk alpha E11Q, D66N mutant"	660	MHC class II	IE		
 HLA-DPA1*02:01/DPB1*09:01 protein complex	661	MHC class II	DP	300694	300704
 HLA-A*02:01 W167A mutant	662	MHC class I	A		
 HLA-A*02:01 Q155A mutant	664	MHC class I	A		
@@ -555,8 +619,8 @@ HLA-DRA*01:01/DRB1*01:01 G86Y mutant	677	MHC class II	DR	300744
 HLA-B*27:05 L81A mutant	679	MHC class I	B		
 HLA-B*27:05 D74Y D77N mutant	680	MHC class I	B		
 chicken CD1-2 protein complex	681	non-classical MHC	B		
-HLA-B*35:08 Q65A, T69A, Q155A mutant	682	MHC class I	B		
-H2-Dd R155Y, D156Y, R169H mutant	686	MHC class I	D		
+"HLA-B*35:08 Q65A, T69A, Q155A mutant"	682	MHC class I	B		
+"H2-Dd R155Y, D156Y, R169H mutant"	686	MHC class I	D		
 H2-Kb V9W mutant	689	MHC class I	K		
 SLA-1*0401 protein complex	690	MHC class I	1	300438	300492
 HLA-B*41:01 protein complex	691	MHC class I	B	300645	56585
@@ -565,6 +629,7 @@ HLA-B*41:04 protein complex	693	MHC class I	B	300817	56585
 HLA-B*41:05 protein complex	694	MHC class I	B	300818	56585
 HLA-B*41:06 protein complex	695	MHC class I	B	300821	56585
 BoLA-2*01801 protein complex	696	MHC class I	2	300484	300493
+Patr-AL protein complex	697	non-classical MHC	AL		
 BoLA-3*00201 protein complex	698	MHC class I	3	300481	300493
 BoLA-1*02301 protein complex	699	MHC class I	1	300485	300493
 HLA-DRB1*08:18 protein complex	700	MHC class II	DR		300772
@@ -574,6 +639,7 @@ Patr-B*03:01 protein complex	704	MHC class I	B	300458	300490
 Patr-B*03:02 protein complex	705	MHC class I	B	300469	300490
 YF1w*7.1 protein complex	709	non-classical MHC	YF		
 HLA-DQA1*05:01/DQB1*03:02 protein complex	710	MHC class II	DQ	300723	300729
+mouse MHC class II protein complex with H2-z/d haplotype	713	MHC class II			
 HLA-B*38:02 protein complex	714	MHC class I	B	300636	56585
 Mamu-DRB1*03:03 protein complex	715	MHC class II	DR		300516
 Mamu-DRB1*03:06 protein complex	716	MHC class II	DR		300502
@@ -632,18 +698,22 @@ HLA-DRB1*13:07 protein complex	773	MHC class II	DR		300787
 HLA-DQA1*03:01 protein complex	774	MHC class II	DQ	300719	
 HLA-A*30:03 protein complex	775	MHC class I	A	300588	56585
 HLA-A*30:04 protein complex	776	MHC class I	A	300589	56585
+RT1-A1 protein complex	777	MHC class I	A1		
+RT1-A2 protein complex	778	MHC class I	A2		
 HLA-DRA*01:01/DRB1*14:54 protein complex	779	MHC class II	DR	300744	300828
 HLA-DRA*01:01/DRB1*09:01 protein complex	780	MHC class II	DR	300744	300774
 HLA-DRA*01:01/DRB3*01:01 protein complex	781	MHC class II	DR	300744	300801
 HLA-DRA*01:01/DRB1*01:01 C30S mutant	782	MHC class II	DR	300744	
 HLA-B*44:08 protein complex	783	MHC class I	B	300653	56585
-Mamu-B*029 protein complex	784	MHC class I	B		
+Mamu-B*029:01 protein complex	784	MHC class I	B	ABZ91878.1	
 human MR1 K43A mutant protein complex	785	non-classical MHC	MR1		
 HLA-A*32:05 protein complex	786	MHC class I	A	300816	56585
 HLA-B*57:01 I80T mutant	788	MHC class I	B		
 BoLA-6*04101 protein complex	790	MHC class I	6	300477	300493
 HLA-DPB1*02:01 E69K mutant	794	MHC class II	DP		
 HLA-DPA1*02:02/DPB1*05:01 protein complex	795	MHC class II	DP	300695	300702
+chicken MHC class II protein complex with BF21 haplotype	796	MHC class II			
+chicken MHC class II protein complex with BF19 haplotype	797	MHC class II			
 HLA-C*12:03 protein complex	798	MHC class I	C	300689	56585
 HLA-DQA1*01:02/DQB1*05:01 protein complex	799	MHC class II	DQ	300715	300735
 HLA-DQA1*02:01/DQB1*03:01 protein complex	800	MHC class II	DQ	300718	300728
@@ -657,6 +727,21 @@ HLA-B*57:01 I80N mutant	815	MHC class I	B
 HLA-B*08:01 N80I mutant	816	MHC class I	B		
 HLA-B*13:01 protein complex	817	MHC class I	B	300604	56585
 HLA-DQB1*05:02 protein complex	818	MHC class II	DQ		300736
+Caja-E protein complex	819	MHC class I	E		
+Caja-G protein complex	820	MHC class I	G		
+cotton-top tamarin MHC class I protein complex	821	MHC class I			
+cotton-top tamarin MHC class II protein complex	822	MHC class II			
+rhesus macaque MHC class I protein complex	823	MHC class I			
+rhesus macaque MHC class II protein complex	824	MHC class II			
+gorilla MHC class I protein complex	825	MHC class I			
+gorilla MHC class II protein complex	826	MHC class II			
+bonobo MHC class I protein complex	827	MHC class I			
+bonobo MHC class II protein complex	828	MHC class II			
+chimpanzee MHC class II protein complex	829	MHC class II			
+chicken class I protein complex	830	MHC class I			
+chicken class II protein complex	831	MHC class II			
+rat class I protein complex	832	MHC class I			
+rat class II protein complex	833	MHC class II			
 HLA-B*51:03 protein complex	836	MHC class I	B	300661	56585
 HLA-DPB1*23:01 protein complex	837	MHC class II	DP		300711
 HLA-DQB1*03:05 protein complex	838	MHC class II	DQ		300732
@@ -672,90 +757,5 @@ BF2*1401 protein complex	848	MHC class I	BF2
 BF1*0201 protein complex	849	MHC class I	BF1		
 HLA-B*44:28 protein complex	850	MHC class I	B		
 dog MHC class I protein complex	851	MHC class I			
+sheep MHC class II protein complex	852	MHC class II			
 HLA-DQA1*03:02/DQB1*03:01 protein complex	853	MHC class II	DQ		
-BF protein complex with BF21 haplotype		MHC class II	BF		
-BF protein complex with BF19 haplotype		MHC class II	BF		
-cotton-top tamarin MHC class I protein complex		MHC class I			
-rhesus macaque MHC class I protein complex		MHC class I			
-rhesus macaque MHC class II protein complex		MHC class II			
-gorilla MHC class I protein complex		MHC class I			
-bonobo MHC class I protein complex		MHC class I			
-chimpanzee MHC class II protein complex		MHC class II			
-chicken MHC class I protein complex		MHC class I			
-mouse MHC class I protein complex		MHC class I			
-mouse MHC class II protein complex		MHC class II			
-HLA-DQB*03:02 protein complex		MHC class II	DQ		
-H2-Q9 protein complex		MHC class I	Q9		
-RT1 protein complex with RT1A haplotype		MHC class I			
-RT1 protein complex with RT1-av1 haplotype		MHC class II			
-RT1 protein complex with RT1-u haplotype		MHC class II			
-H2-Qa2 protein complex		MHC class I	Q		
-MHC class I protein complex		MHC class I			
-MHC class II protein complex		MHC class II			
-Patr-AL protein complex		non-classical MHC	AL		
-H2-Qa9 protein complex		MHC class I	Q		
-pig MHC class I protein complex		MHC class I			
-RT1 protein complex with RT11 haplotype		MHC class II			
-RT1 protein complex with RT11v1 haplotype		MHC class II			
-RT1 protein complex with RT1-n haplotype		MHC class II			
-chicken non-classical MHC protein complex		non-classical MHC			
-chimpanzee non-classical MHC protein complex		non-classical MHC			
-human non-classical MHC protein complex		non-classical MHC			
-cattle non-classical MHC protein complex		non-classical MHC			
-mouse non-classical MHC protein complex		non-classical MHC			
-mutant MHC class I protein complex		MHC class I			
-mutant MHC class II protein complex		MHC class II			
-mutant human MHC class I protein complex		MHC class I			
-mutant human MHC class II protein complex		MHC class II			
-mutant mouse MHC class I protein complex		MHC class I			
-mutant mouse MHC class II protein complex		MHC class II			
-non-classical MHC protein complex		non-classical MHC			
-HLA-DPA1*01:03/DPB1*02:12 protein complex		MHC class II			
-H2-Qa1 protein complex		MHC class I	Q		
-H2 protein complex with H2-k haplotype		MHC class II			
-H2 protein complex with H2-p haplotype		MHC class II			
-H2 protein complex with H2-q haplotype		MHC class II			
-H2 protein complex with H2-r haplotype		MHC class II			
-H2 protein complex with H2-s haplotype		MHC class II			
-H2 protein complex with H2-v haplotype		MHC class I			
-H2 protein complex with H2-z haplotype		MHC class II			
-H2 protein complex with H2-a haplotype		MHC class II			
-H2 protein complex with H2-b haplotype		MHC class II			
-H2 protein complex with H2-d haplotype		MHC class II			
-H2 protein complex with H2-f haplotype		MHC class II			
-H2 protein complex with H2-i haplotype		MHC class II			
-H2 protein complex with H2-i3 haplotype		MHC class II			
-H2 protein complex with H2-g7 haplotype		MHC class II			
-H2 protein complex with H2-u haplotype		MHC class II			
-H2 protein complex with H2-z/d haplotype		MHC class II	IA		
-Saoe-G protein complex		MHC class I			
-Mamu-A protein complex		MHC class I			
-Mamu-B protein complex		MHC class I			
-Mamu-DP protein complex		MHC class II			
-Mamu-DR protein complex		MHC class II			
-Gogo-B protein complex		MHC class I			
-Papa-A protein complex		MHC class I			
-Patr-A protein complex		MHC class I			
-Patr-B protein complex		MHC class I			
-Patr-C protein complex		MHC class I			
-Patr-DR protein complex		MHC class II			
-HLA-A protein complex		MHC class I			
-HLA-B protein complex		MHC class I			
-HLA-C protein complex		MHC class I			
-DLA-88 protein complex		MHC class I			
-ELA-N protein complex		MHC class I			
-SLA-1 protein complex		MHC class I			
-SLA-2 protein complex		MHC class I			
-BoLA-1 protein complex		MHC class I			
-BoLA-2 protein complex		MHC class I			
-BoLA-3 protein complex		MHC class I			
-BoLA-6 protein complex		MHC class I			
-H2-D protein complex		MHC class I			
-H2-K protein complex		MHC class I			
-H2-L protein complex		MHC class I			
-H2-Q protein complex		MHC class I			
-rhesus macaque MHC class II protein complex with serotype		MHC class II	DR		
-chimpanzee MHC class II protein complex with serotype		MHC class II	DR		
-human MHC class II protein complex with serotype		MHC class II	DR		
-human MHC class I protein complex with serotype		MHC class I	B		
-cattle MHC class I protein complex with serotype		MHC class I			

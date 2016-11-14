@@ -1,8 +1,8 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A MRO:has-mhc-restriction	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
 BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
-BF2 protein complex	BF2		locus	equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		
 BF1*0201 protein complex	BF1*0201	BF10201	complete molecule	equivalent	MHC class I protein complex	chicken	BF1*0201 chain	Beta-2-microglobulin		
+BF2 protein complex	BF2		locus	equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		
 BF2*0201 protein complex	BF2*0201	BF20201	complete molecule	equivalent	MHC class I protein complex	chicken	BF2*0201 chain	Beta-2-microglobulin	B2 haplotype	
 BF2*0401 protein complex	BF2*0401	BF20401	complete molecule	equivalent	MHC class I protein complex	chicken	BF2*0401 chain	Beta-2-microglobulin	B4 haplotype	
 BF2*1201 protein complex	BF2*1201	BF21201	complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1201 chain	Beta-2-microglobulin	B12 haplotype	
@@ -33,6 +33,7 @@ BoLA-DQA*2202/DQB*0901 protein complex	BoLA-DQA*2202/DQB*0901	DQA2202/DQB0901	co
 BoLA-DQA*2202/DQB*1301 protein complex	BoLA-DQA*2202/DQB*1301	DQA2202/DQB1301	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2202 chain	BoLA-DQB*1301 chain		
 BoLA-DQA*2206/DQB*1301 protein complex	BoLA-DQA*2206/DQB*1301	DQA2206/DQB1301	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2206 chain	BoLA-DQB*1301 chain		
 BoLA-DQA*2206/DQB*1402 protein complex	BoLA-DQA*2206/DQB*1402	DQA2206/DQB1402	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2206 chain	BoLA-DQB*1402 chain		
+BoLA-DR protein complex	BoLA-DR		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB chain		
 BoLA-DRB3 protein complex	BoLA-DRB3		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3 chain		
 BoLA-DRB3*0101 protein complex	BoLA-DRB3*0101	DRB30101	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*0101 chain		
 BoLA-DRB3*0201 protein complex	BoLA-DRB3*0201	DRB30201	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*0201 chain	DH7A haplotype	
@@ -47,12 +48,42 @@ BoLA-DRB3*2002 protein complex	BoLA-DRB3*2002	DRB32002	partial molecule	equivale
 BoLA-DRB3*2703 protein complex	BoLA-DRB3*2703	DRB32703	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*2703 chain		
 BoLA-DRB3*3001 protein complex	BoLA-DRB3*3001	DRB33001	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*3001 chain		
 BoLA-DRB3*4501 protein complex	BoLA-DRB3*4501	DRB34501	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*4501 chain		
+BoLA-DRB6 protein complex	BoLA-DRB6		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB6 chain		
+bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
+bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
+bonobo MHC class II protein complex	bonobo		class	equivalent	MHC class II protein complex	bonobo				
+Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
+Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
+cattle CD1b3 protein complex	cattle CD1b3	boCD1b3|cowCD1b3	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1b3 chain	Beta-2-microglobulin		
+cattle CD1d protein complex	cattle CD1d	boCD1d|cowCD1d	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1d chain	Beta-2-microglobulin		
+cattle MHC class I protein complex	cattle		class	equivalent	MHC class I protein complex	cattle				
+cattle MHC class II protein complex	cattle		class	equivalent	MHC class II protein complex	cattle				
+cattle MR1 protein complex	cattle MR1	boMR1|cowMR1	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle MR1 chain	Beta-2-microglobulin		
+cattle non-classical MHC protein complex	cattle		class	equivalent	non-classical MHC protein complex	cattle				
+chicken CD1-1 protein complex	chicken CD1-1	CD1.1|cCD1-1	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-1 chain	Beta-2-microglobulin		
+chicken CD1-2 protein complex	chicken CD1-2	CD1.2|cCD1-2	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-2 chain	Beta-2-microglobulin		
+chicken class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
+chicken class II protein complex	chicken		class	equivalent	MHC class II protein complex	chicken				
+chicken MHC class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
+chicken non-classical MHC protein complex	chicken		class	equivalent	non-classical MHC protein complex	chicken				
+chimpanzee MHC class I protein complex	chimpanzee		class	equivalent	MHC class I protein complex	chimpanzee				
+chimpanzee MHC class II protein complex	chimpanzee		class	equivalent	MHC class II protein complex	chimpanzee				
+chimpanzee MHC class II protein complex	chimpanzee		class	equivalent	MHC class II protein complex	chimpanzee				
+chimpanzee non-classical MHC protein complex	chimpanzee		class	equivalent	non-classical MHC protein complex	chimpanzee				
+cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
+cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
+cotton-top tamarin MHC class II protein complex	cotton-top tamarin		class	equivalent	MHC class II protein complex	cotton-top tamarin				
 DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	DLA-88 chain	Beta-2-microglobulin		
 DLA-88*50801 protein complex	DLA-88*50801	dla88-21|8850801	complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50801 chain	Beta-2-microglobulin		
+dog MHC class I protein complex	dog		class	equivalent	MHC class I protein complex	dog				
+dog MHC class II protein complex	dog		class	equivalent	MHC class II protein complex	dog				
 ELA-N protein complex	ELA-N		locus	equivalent	MHC class I protein complex	horse	ELA-N chain	Beta-2-microglobulin		
 Eqca-N*00602 protein complex	Eqca-N*00602	A1*7-6|Eqca-N00602	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00602 chain	Beta-2-microglobulin	A1 haplotype	
 Gogo-B protein complex	Gogo-B		locus	equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
 Gogo-B*0101 protein complex	Gogo-B*0101	B0101	complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*0101 chain	Beta-2-microglobulin		
+gorilla MHC class I protein complex	gorilla		class	equivalent	MHC class I protein complex	gorilla				
+gorilla MHC class I protein complex	gorilla		class	equivalent	MHC class I protein complex	gorilla				
+gorilla MHC class II protein complex	gorilla		class	equivalent	MHC class II protein complex	gorilla				
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
 H2-Db protein complex	H2-Db		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
 H2-Dd protein complex	H2-Dd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	
@@ -89,7 +120,9 @@ H2-Ld protein complex	H2-Ld		complete molecule	equivalent	MHC class I protein co
 H2-Lq protein complex	H2-Lq	H2-Lw16	complete molecule	equivalent	MHC class I protein complex	mouse	H2-Lq chain	Beta-2-microglobulin	H2-q haplotype	
 H2-M3 protein complex	H2-M3		complete molecule	equivalent	non-classical MHC protein complex	mouse	H2-M3 chain			
 H2-Q protein complex	H2-Q		locus	equivalent	MHC class I protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
-H2-Q9 protein complex	H2-Q9		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
+H2-Q1 protein complex	H2-Q1		locus	equivalent	MHC class I protein complex	mouse	H2-Q1 chain	Beta-2-microglobulin		
+H2-Q2 protein complex	H2-Q2		locus	equivalent	MHC class I protein complex	mouse	H2-Q2 chain	Beta-2-microglobulin		
+H2-Q9 protein complex	H2-Q9		locus	equivalent	MHC class I protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
 H2-Qa1 protein complex	H2-Qa1	Qa-1b	complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa1 chain	Beta-2-microglobulin	H2-a haplotype	
 H2-Qa2 protein complex	H2-Qa2		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa2 chain	Beta-2-microglobulin	H2-a haplotype	
 H2-Qa9 protein complex	H2-Qa9		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa9 chain	Beta-2-microglobulin	H2-a haplotype	
@@ -204,8 +237,8 @@ HLA-B*41:03 protein complex	HLA-B*41:03	HLA-B*4103|B*4103|B4103|B41:03	complete 
 HLA-B*41:04 protein complex	HLA-B*41:04	HLA-B*4104|B*4104|B4104|B41:04	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*41:04 chain	Beta-2-microglobulin		HLA-B41 serotype
 HLA-B*41:05 protein complex	HLA-B*41:05	HLA-B*4105|B*4105|B4105|B41:05	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*41:05 chain	Beta-2-microglobulin		HLA-B41 serotype
 HLA-B*41:06 protein complex	HLA-B*41:06	HLA-B*4106|B*4106|B4106|B41:06	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*41:06 chain	Beta-2-microglobulin		HLA-B41 serotype
-HLA-B*42:02 protein complex	HLA-B*42:02	HLA-B*4202|B*4202|B4202|B42:02	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*42:02 chain	Beta-2-microglobulin		HLA-B42 serotype
 HLA-B*42:01 protein complex	HLA-B*42:01	HLA-B*4201|B*4201|B4201|B42:01	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*42:01 chain	Beta-2-microglobulin		HLA-B42 serotype
+HLA-B*42:02 protein complex	HLA-B*42:02	HLA-B*4202|B*4202|B4202|B42:02	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*42:02 chain	Beta-2-microglobulin		HLA-B42 serotype
 HLA-B*44:01 protein complex	HLA-B*44:01	HLA-B*4401|B*4401|B4401|B44:01	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:01 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*44:02 protein complex	HLA-B*44:02	HLA-B*4402|HLA-B*44020101|B*4402|B4402|B44:02	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:02 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*44:03 protein complex	HLA-B*44:03	HLA-B*4403|HLA-B*440301|B*4403|B4403|B44:03	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:03 chain	Beta-2-microglobulin		HLA-B44 serotype
@@ -444,21 +477,30 @@ HLA-E*01:01 protein complex	HLA-E*01:01	HLA-E*0101|E*0101|E0101|E01:01	complete 
 HLA-E*01:03 protein complex	HLA-E*01:03	HLA-E*0103|E*0103|E0103|E01:03	complete molecule	equivalent	non-classical MHC protein complex	human	HLA-E*01:03 chain	Beta-2-microglobulin		
 HLA-G protein complex	HLA-G		locus	equivalent	non-classical MHC protein complex	human	HLA-G chain	Beta-2-microglobulin		
 HLA-G*01:01 protein complex	HLA-G*01:01	HLA-G*0101|G*0101|G0101|G01:01	complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:01 chain	Beta-2-microglobulin		
-MHC class I protein complex	class I		class	subclass	MHC protein complex					
-MHC class II protein complex	class II		class	subclass	MHC protein complex					
+horse MHC class I protein complex	horse		class	equivalent	MHC class I protein complex	horse				
+horse MHC class II protein complex	horse		class	equivalent	MHC class II protein complex	horse				
+human BTN3A1 protein complex	human BTN3A1	Butyrophilin BTN3A1	complete molecule	equivalent	non-classical MHC protein complex	human	human BTN3A1 chain			
+human CD1a protein complex	human CD1a	HLA-CD1a|hCD1a	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1a chain	Beta-2-microglobulin		
+human CD1b protein complex	human CD1b	HLA-CD1b|hCD1b	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1b chain	Beta-2-microglobulin		
+human CD1c protein complex	human CD1c	HLA-CD1c|hCD1c	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1c chain	Beta-2-microglobulin		
+human CD1d protein complex	human CD1d	HLA-CD1d|hCD1d	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1d chain	Beta-2-microglobulin		
+human MHC class I protein complex	human		class	equivalent	MHC class I protein complex	human				
+human MHC class II protein complex	human		class	equivalent	MHC class II protein complex	human				
+human MR1 protein complex	human MR1	HLA-MR1|hMR1	complete molecule	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
+human non-classical MHC protein complex	human		class	equivalent	non-classical MHC protein complex	human				
 Mamu-A protein complex	Mamu-A		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A chain	Beta-2-microglobulin		
 Mamu-A1*001:01 protein complex	Mamu-A1*001:01	A01	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*001:01 chain	Beta-2-microglobulin		
 Mamu-A1*002:01 protein complex	Mamu-A1*002:01	A02	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*002:01 chain	Beta-2-microglobulin		
-Mamu-A1*022:02 protein complex	Mamu-A1*022:02	A08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*022:02 chain	Beta-2-microglobulin		
 Mamu-A1*011:01 protein complex	Mamu-A1*011:01	A11	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*011:01 chain	Beta-2-microglobulin		
+Mamu-A1*022:02 protein complex	Mamu-A1*022:02	A08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*022:02 chain	Beta-2-microglobulin		
 Mamu-B protein complex	Mamu-B		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B chain	Beta-2-microglobulin		
-Mamu-B*01 protein complex	Mamu-B*01	B01	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*01 chain	Beta-2-microglobulin		
-Mamu-B*029 protein complex	Mamu-B*029	B029	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*029 chain	Beta-2-microglobulin		
-Mamu-B*03 protein complex	Mamu-B*03	B03	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*03 chain	Beta-2-microglobulin		
-Mamu-B*04 protein complex	Mamu-B*04	B04	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*04 chain	Beta-2-microglobulin		
-Mamu-B*065:02 protein complex	Mamu-B*065:02	B08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*065:02 chain	Beta-2-microglobulin		
+Mamu-B*001:01 protein complex	Mamu-B*001:01	B01	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*001:01 chain	Beta-2-microglobulin		
+Mamu-B*003:01 protein complex	Mamu-B*003:01	B03	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*003:01 chain	Beta-2-microglobulin		
+Mamu-B*004:01 protein complex	Mamu-B*004:01	B04	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*004:01 chain	Beta-2-microglobulin		
 Mamu-B*012:02 protein complex	Mamu-B*012:02	B12	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*012:02 chain	Beta-2-microglobulin		
 Mamu-B*017:04 protein complex	Mamu-B*017:04	B17	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*017:04 chain	Beta-2-microglobulin		
+Mamu-B*029:01 protein complex	Mamu-B*029:01	B029	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*029:01 chain	Beta-2-microglobulin		
+Mamu-B*065:02 protein complex	Mamu-B*065:02	B08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*065:02 chain	Beta-2-microglobulin		
 Mamu-DP protein complex	Mamu-DP		locus	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB chain		
 Mamu-DPB1*01:01 protein complex	Mamu-DPB1*01:01	Mamu-DPB1*0101|DPB1*0101|DPB10101|DPB101:01	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB1*01:01 chain		
 Mamu-DR protein complex	Mamu-DR		locus	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB chain		
@@ -467,6 +509,14 @@ Mamu-DRB1*03:03 protein complex	Mamu-DRB1*03:03	Mamu-DRB1*0303|DRB1*0303|DRB1030
 Mamu-DRB1*03:06 protein complex	Mamu-DRB1*03:06	Mamu-DRB1*0306|DRB1*0306|DRB10306|DRB103:06	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:06 chain		
 Mamu-DRB1*03:08 protein complex	Mamu-DRB1*03:08	Mamu-DRB1*0308|DRB1*0308|DRB10308|DRB103:08	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:08 chain		
 Mamu-DRB1*04:06 protein complex	Mamu-DRB1*04:06	Mamu-DRB1*0406|DRB1*0406|DRB10406|DRB104:06	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*04:06 chain		
+MHC class I protein complex	class I		class	subclass	MHC protein complex					
+MHC class II protein complex	class II		class	subclass	MHC protein complex					
+mouse CD1d protein complex	mouse CD1d	mCD1d	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
+mouse MHC class I protein complex	mouse		class	equivalent	MHC class I protein complex	mouse				
+mouse MHC class II protein complex	mouse		class	equivalent	MHC class II protein complex	mouse				
+mouse MR1 protein complex	mouse MR1	mMR1	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
+mouse non-classical MHC protein complex	mouse		class	equivalent	non-classical MHC protein complex	mouse				
+non-classical MHC protein complex	non-classical		class	subclass	MHC protein complex					
 Papa-A protein complex	Papa-A		locus	equivalent	MHC class I protein complex	bonobo	Papa-A chain	Beta-2-microglobulin		
 Papa-A*06:01 protein complex	Papa-A*06:01	Papa-A06|A*0601|A0601|A06:01	complete molecule	equivalent	MHC class I protein complex	bonobo	Papa-A*06:01 chain	Beta-2-microglobulin		
 Patr-A protein complex	Patr-A		locus	equivalent	MHC class I protein complex	chimpanzee	Patr-A chain	Beta-2-microglobulin		
@@ -504,55 +554,45 @@ Patr-C*02:03 protein complex	Patr-C*02:03	Patr-C*0203|C*0203|C0203|C02:03	comple
 Patr-C*04:01 protein complex	Patr-C*04:01	Patr-C*0401|C*0401|C0401|C04:01	complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-C*04:01 chain	Beta-2-microglobulin		
 Patr-C*05:02 protein complex	Patr-C*05:02	Patr-C*0502|C*0502|C0502|C05:02	complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-C*05:02 chain	Beta-2-microglobulin		
 Patr-C*06:01 protein complex	Patr-C*06:01	Patr-C*0601|C*0601|C0601|C06:01	complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-C*06:01 chain	Beta-2-microglobulin		
+Patr-DP protein complex	Patr-DP		locus	equivalent	MHC class II protein complex	chimpanzee	Patr-DPA chain	Patr-DPB chain		
+Patr-DQ protein complex	Patr-DQ		locus	equivalent	MHC class II protein complex	chimpanzee	Patr-DQA chain	Patr-DQB chain		
 Patr-DR protein complex	Patr-DR		locus	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB chain		
 Patr-DRB1*03:08 protein complex	Patr-DRB1*03:08	DRB1*0308|DRB10308|DRB103:08	partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB1*03:08 chain		
 Patr-DRB1*07:01 protein complex	Patr-DRB1*07:01	Patr-DRB1*0701|DRB1*0701|DRB10701|DRB107:01	partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB1*07:01 chain		
 Patr-DRB1*10:01 protein complex	Patr-DRB1*10:01	Patr-DRB1*1001|DRB1*1001|DRB11001|DRB110:01	partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB1*10:01 chain		
 Patr-DRB5*03:10 protein complex	Patr-DRB5*03:10	Patr-DRB5*0310|DRB5*0310|DRB50310|DRB503:10	partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB5*03:10 chain		
+pig MHC class I protein complex	pig		class	equivalent	MHC class I protein complex	pig				
+pig MHC class II protein complex	pig		class	equivalent	MHC class II protein complex	pig				
+rat class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
+rat class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
+rat class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
+rat class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
+rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
+rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
+rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
+rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
+RT1-A protein complex	RT1-A		locus	equivalent	MHC class I protein complex	rat	RT1-A chain	Beta-2-microglobulin		
+RT1-A1 protein complex	RT1-A1		locus	equivalent	MHC class I protein complex	rat	RT1-A1 chain	Beta-2-microglobulin		
+RT1-A2 protein complex	RT1-A2		locus	equivalent	MHC class I protein complex	rat	RT1-A2 chain	Beta-2-microglobulin		
+RT1-Aa protein complex	RT1-Aa		complete molecule	equivalent	MHC class I protein complex	rat	RT1-Aa chain	Beta-2-microglobulin	RT1-a haplotype	
+RT1-Ac protein complex	RT1-Ac		complete molecule	equivalent	MHC class I protein complex	rat	RT1-Ac chain	Beta-2-microglobulin	RT1-c haplotype	
+RT1-B protein complex	RT1-B		locus	equivalent	MHC class II protein complex	rat	RT1-B alpha chain	RT1-B beta chain		
+RT1-Ba protein complex	RT1-Ba		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Ba alpha chain	RT1-Ba beta chain	RT1-a haplotype	
+RT1-Bk protein complex	RT1-Bk		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Bk alpha chain	RT1-Bk beta chain	RT1-k haplotype	
+RT1-Bl protein complex	RT1-Bl		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Bl alpha chain	RT1-Bl beta chain	RT1-l haplotype	
+RT1-Bn protein complex	RT1-Bn		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Bn alpha chain	RT1-Bn beta chain	RT1-n haplotype	
+RT1-Bu protein complex	RT1-Bu		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Bu alpha chain	RT1-Bu beta chain	RT1-u haplotype	
+RT1-D protein complex	RT1-D		locus	equivalent	MHC class II protein complex	rat	RT1-D alpha chain	RT1-D beta chain		
+RT1-Da protein complex	RT1-Da		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Da alpha chain	RT1-Da beta chain	RT1-a haplotype	
+RT1-Dl protein complex	RT1-Dl		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Dl alpha chain	RT1-Dl beta chain	RT1-l haplotype	
+RT1-Dn protein complex	RT1-Dn		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Dn alpha chain	RT1-Dn beta chain	RT1-n haplotype	
+RT1-Du protein complex	RT1-Du		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Du alpha chain	RT1-Du beta chain	RT1-u haplotype	
+Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G chain	Beta-2-microglobulin		
+sheep MHC class I protein complex	sheep		class	equivalent	MHC class I protein complex	sheep				
+sheep MHC class II protein complex	sheep		class	equivalent	MHC class II protein complex	sheep				
 SLA-1 protein complex	SLA-1		locus	equivalent	MHC class I protein complex	pig	SLA-1 chain	Beta-2-microglobulin		
 SLA-1*0401 protein complex	SLA-1*0401	10401	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*0401 chain	Beta-2-microglobulin		
 SLA-1*1502 protein complex	SLA-1*1502	11502	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*1502 chain	Beta-2-microglobulin		
 SLA-2 protein complex	SLA-2		locus	equivalent	MHC class I protein complex	pig	SLA-2 chain	Beta-2-microglobulin		
 SLA-2*0401 protein complex	SLA-2*0401	20401	complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*0401 chain	Beta-2-microglobulin		
-Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G chain	Beta-2-microglobulin		
-Saoe-G*02 protein complex	Saoe-G*02	G02	complete molecule	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G*02 chain	Beta-2-microglobulin		
-Saoe-G*04 protein complex	Saoe-G*04	G04	complete molecule	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G*04 chain	Beta-2-microglobulin		
-Saoe-G*08 protein complex	Saoe-G*08	G08	complete molecule	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G*08 chain	Beta-2-microglobulin		
-Saoe-G*12 protein complex	Saoe-G*12	G12	complete molecule	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G*12 chain	Beta-2-microglobulin		
 YF1w*7.1 protein complex	YF1w*7.1	YF1*7.1|YF1w7.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	YF1w*7.1 chain		YF1 haplotype	
-bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
-cattle CD1b3 protein complex	cattle CD1b3	boCD1b3|cowCD1b3	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1b3 chain	Beta-2-microglobulin		
-cattle CD1d protein complex	cattle CD1d	boCD1d|cowCD1d	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1d chain	Beta-2-microglobulin		
-cattle MHC class I protein complex	cattle		class	equivalent	MHC class I protein complex	cattle				
-cattle MHC class II protein complex	cattle		class	equivalent	MHC class II protein complex	cattle				
-cattle MR1 protein complex	cattle MR1	boMR1|cowMR1	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle MR1 chain	Beta-2-microglobulin		
-cattle non-classical MHC protein complex	cattle		class	equivalent	non-classical MHC protein complex	cattle				
-chicken CD1-1 protein complex	chicken CD1-1	CD1.1|cCD1-1	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-1 chain	Beta-2-microglobulin		
-chicken CD1-2 protein complex	chicken CD1-2	CD1.2|cCD1-2	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-2 chain	Beta-2-microglobulin		
-chicken MHC class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
-chicken non-classical MHC protein complex	chicken		class	equivalent	non-classical MHC protein complex	chicken				
-chimpanzee MHC class I protein complex	chimpanzee		class	equivalent	MHC class I protein complex	chimpanzee				
-chimpanzee MHC class II protein complex	chimpanzee		class	equivalent	MHC class II protein complex	chimpanzee				
-chimpanzee non-classical MHC protein complex	chimpanzee		class	equivalent	non-classical MHC protein complex	chimpanzee				
-cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
-dog MHC class I protein complex	dog		class	equivalent	MHC class I protein complex	dog				
-gorilla MHC class I protein complex	gorilla		class	equivalent	MHC class I protein complex	gorilla				
-horse MHC class I protein complex	horse		class	equivalent	MHC class I protein complex	horse				
-human BTN3A1 protein complex	human BTN3A1	Butyrophilin BTN3A1	complete molecule	equivalent	non-classical MHC protein complex	human	human BTN3A1 chain			
-human CD1a protein complex	human CD1a	HLA-CD1a|hCD1a	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1a chain	Beta-2-microglobulin		
-human CD1b protein complex	human CD1b	HLA-CD1b|hCD1b	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1b chain	Beta-2-microglobulin		
-human CD1c protein complex	human CD1c	HLA-CD1c|hCD1c	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1c chain	Beta-2-microglobulin		
-human CD1d protein complex	human CD1d	HLA-CD1d|hCD1d	complete molecule	equivalent	non-classical MHC protein complex	human	human CD1d chain	Beta-2-microglobulin		
-human MHC class I protein complex	human		class	equivalent	MHC class I protein complex	human				
-human MHC class II protein complex	human		class	equivalent	MHC class II protein complex	human				
-human MR1 protein complex	human MR1	HLA-MR1|hMR1	complete molecule	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
-human non-classical MHC protein complex	human		class	equivalent	non-classical MHC protein complex	human				
-mouse CD1d protein complex	mouse CD1d	mCD1d	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
-mouse MHC class I protein complex	mouse		class	equivalent	MHC class I protein complex	mouse				
-mouse MHC class II protein complex	mouse		class	equivalent	MHC class II protein complex	mouse				
-mouse MR1 protein complex	mouse MR1	mMR1	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
-mouse non-classical MHC protein complex	mouse		class	equivalent	non-classical MHC protein complex	mouse				
-non-classical MHC protein complex	non-classical		class	subclass	MHC protein complex					
-pig MHC class I protein complex	pig		class	equivalent	MHC class I protein complex	pig				
-rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
-rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				

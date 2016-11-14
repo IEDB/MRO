@@ -1,157 +1,162 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A MRO:has-mhc-restriction	CLASS_TYPE	C %	C 'in taxon' some %	C 'serotype member of' some %
-BoLA protein complex with A10 serotype	BoLA-A10		serotype	equivalent	protein complex	cattle	BoLA-A10 serotype
-BoLA protein complex with A11 serotype	BoLA-A11		serotype	equivalent	protein complex	cattle	BoLA-A11 serotype
-BoLA protein complex with A14 serotype	BoLA-A14		serotype	equivalent	protein complex	cattle	BoLA-A14 serotype
-BoLA protein complex with A18 serotype	BoLA-A18		serotype	equivalent	protein complex	cattle	BoLA-A18 serotype
-BoLA protein complex with A31 serotype	BoLA-A31		serotype	equivalent	protein complex	cattle	BoLA-A31 serotype
-HLA protein complex with A1 serotype	HLA-A1	HLA-A*01	serotype	equivalent	protein complex	human	HLA-A1 serotype
-HLA protein complex with A11 serotype	HLA-A11	HLA-A*11	serotype	equivalent	protein complex	human	HLA-A11 serotype
-HLA protein complex with A2 serotype	HLA-A2	HLA-A*02|HLA-A2.2	serotype	equivalent	protein complex	human	HLA-A2 serotype
-HLA protein complex with A203 serotype	HLA-A203		serotype	equivalent	protein complex	human	HLA-A203 serotype
-HLA protein complex with A23 serotype	HLA-A23	HLA-A*23	serotype	equivalent	protein complex	human	HLA-A23 serotype
-HLA protein complex with A24 serotype	HLA-A24	HLA-A*24|HLA-A24.1	serotype	equivalent	protein complex	human	HLA-A24 serotype
-HLA protein complex with A2403 serotype	HLA-A2403		serotype	equivalent	protein complex	human	HLA-A2403 serotype
-HLA protein complex with A25 serotype	HLA-A25	HLA-A*25	serotype	equivalent	protein complex	human	HLA-A25 serotype
-HLA protein complex with A26 serotype	HLA-A26	HLA-A*26	serotype	equivalent	protein complex	human	HLA-A26 serotype
-HLA protein complex with A28 serotype	HLA-A28	HLA-A*28	serotype	equivalent	protein complex	human	HLA-A28 serotype
-HLA protein complex with A29 serotype	HLA-A29	HLA-A*29	serotype	equivalent	protein complex	human	HLA-A29 serotype
-HLA protein complex with A3 serotype	HLA-A3	HLA-A*03	serotype	equivalent	protein complex	human	HLA-A3 serotype
-HLA protein complex with A30 serotype	HLA-A30	HLA-A*30	serotype	equivalent	protein complex	human	HLA-A30 serotype
-HLA protein complex with A31 serotype	HLA-A31	HLA-A*31	serotype	equivalent	protein complex	human	HLA-A31 serotype
-HLA protein complex with A32 serotype	HLA-A32	HLA-A*32	serotype	equivalent	protein complex	human	HLA-A32 serotype
-HLA protein complex with A33 serotype	HLA-A33	HLA-A*33	serotype	equivalent	protein complex	human	HLA-A33 serotype
-HLA protein complex with A34 serotype	HLA-A34	HLA-A*34	serotype	equivalent	protein complex	human	HLA-A34 serotype
-HLA protein complex with A66 serotype	HLA-A66		serotype	equivalent	protein complex	human	HLA-A66 serotype
-HLA protein complex with A68 serotype	HLA-A68	HLA-A*68|HLA-Aw68	serotype	equivalent	protein complex	human	HLA-A68 serotype
-HLA protein complex with A69 serotype	HLA-A69	HLA-A*69|HLA-Aw69	serotype	equivalent	protein complex	human	HLA-A69 serotype
-HLA protein complex with A74 serotype	HLA-A74	HLA-A*74	serotype	equivalent	protein complex	human	HLA-A74 serotype
-HLA protein complex with A80 serotype	HLA-A80	HLA-A*80	serotype	equivalent	protein complex	human	HLA-A80 serotype
-HLA protein complex with B12 serotype	HLA-B12	HLA-B*12	serotype	equivalent	protein complex	human	HLA-B12 serotype
-HLA protein complex with B13 serotype	HLA-B13	HLA-B*13	serotype	equivalent	protein complex	human	HLA-B13 serotype
-HLA protein complex with B14 serotype	HLA-B14	HLA-B*14	serotype	equivalent	protein complex	human	HLA-B14 serotype
-HLA protein complex with B15 serotype	HLA-B15	HLA-B*15	serotype	equivalent	protein complex	human	HLA-B15 serotype
-HLA protein complex with B16 serotype	HLA-B16	HLA-B*16	serotype	equivalent	protein complex	human	HLA-B16 serotype
-HLA protein complex with B17 serotype	HLA-B17	HLA-B*17	serotype	equivalent	protein complex	human	HLA-B17 serotype
-HLA protein complex with B18 serotype	HLA-B18	HLA-B*18	serotype	equivalent	protein complex	human	HLA-B18 serotype
-HLA protein complex with B27 serotype	HLA-B27	HLA-B*27	serotype	equivalent	protein complex	human	HLA-B27 serotype
-HLA protein complex with B35 serotype	HLA-B35	HLA-B*35|HLA-B35.3	serotype	equivalent	protein complex	human	HLA-B35 serotype
-HLA protein complex with B37 serotype	HLA-B37	HLA-B*37	serotype	equivalent	protein complex	human	HLA-B37 serotype
-HLA protein complex with B38 serotype	HLA-B38	HLA-B*38	serotype	equivalent	protein complex	human	HLA-B38 serotype
-HLA protein complex with B39 serotype	HLA-B39	HLA-B*39	serotype	equivalent	protein complex	human	HLA-B39 serotype
-HLA protein complex with B3901 serotype	HLA-B3901		serotype	equivalent	protein complex	human	HLA-B3901 serotype
-HLA protein complex with B40 serotype	HLA-B40	HLA-B*40	serotype	equivalent	protein complex	human	HLA-B40 serotype
-HLA protein complex with B41 serotype	HLA-B41	HLA-B*41	serotype	equivalent	protein complex	human	HLA-B41 serotype
-HLA protein complex with B42 serotype	HLA-B42	HLA-B*42	serotype	equivalent	protein complex	human	HLA-B42 serotype
-HLA protein complex with B44 serotype	HLA-B44	HLA-B*44	serotype	equivalent	protein complex	human	HLA-B44 serotype
-HLA protein complex with B45 serotype	HLA-B45	HLA-B*45	serotype	equivalent	protein complex	human	HLA-B45 serotype
-HLA protein complex with B46 serotype	HLA-B46		serotype	equivalent	protein complex	human	HLA-B46 serotype
-HLA protein complex with B47 serotype	HLA-B47	HLA-B*47	serotype	equivalent	protein complex	human	HLA-B47 serotype
-HLA protein complex with B48 serotype	HLA-B48		serotype	equivalent	protein complex	human	HLA-B48 serotype
-HLA protein complex with B49 serotype	HLA-B49	HLA-B*49	serotype	equivalent	protein complex	human	HLA-B49 serotype
-HLA protein complex with B50 serotype	HLA-B50	HLA-B*50	serotype	equivalent	protein complex	human	HLA-B50 serotype
-HLA protein complex with B51 serotype	HLA-B51	HLA-B*51|HLA-B51.1	serotype	equivalent	protein complex	human	HLA-B51 serotype
-HLA protein complex with B5102 serotype	HLA-B5102		serotype	equivalent	protein complex	human	HLA-B5102 serotype
-HLA protein complex with B52 serotype	HLA-B52	HLA-B*52	serotype	equivalent	protein complex	human	HLA-B52 serotype
-HLA protein complex with B53 serotype	HLA-B53	HLA-B*53	serotype	equivalent	protein complex	human	HLA-B53 serotype
-HLA protein complex with B54 serotype	HLA-B54	HLA-B*54	serotype	equivalent	protein complex	human	HLA-B54 serotype
-HLA protein complex with B55 serotype	HLA-B55	HLA-B*55	serotype	equivalent	protein complex	human	HLA-B55 serotype
-HLA protein complex with B56 serotype	HLA-B56		serotype	equivalent	protein complex	human	HLA-B56 serotype
-HLA protein complex with B57 serotype	HLA-B57	HLA-B*57	serotype	equivalent	protein complex	human	HLA-B57 serotype
-HLA protein complex with B58 serotype	HLA-B58	HLA-B*58	serotype	equivalent	protein complex	human	HLA-B58 serotype
-HLA protein complex with B60 serotype	HLA-B60	HLA-B*60	serotype	equivalent	protein complex	human	HLA-B60 serotype
-HLA protein complex with B61 serotype	HLA-B61	HLA-B*61	serotype	equivalent	protein complex	human	HLA-B61 serotype
-HLA protein complex with B62 serotype	HLA-B62	HLA-B*62	serotype	equivalent	protein complex	human	HLA-B62 serotype
-HLA protein complex with B63 serotype	HLA-B63	HLA-B*63	serotype	equivalent	protein complex	human	HLA-B63 serotype
-HLA protein complex with B65 serotype	HLA-B65		serotype	equivalent	protein complex	human	HLA-B65 serotype
-HLA protein complex with B7 serotype	HLA-B7	HLA-B*07	serotype	equivalent	protein complex	human	HLA-B7 serotype
-HLA protein complex with B70 serotype	HLA-B70		serotype	equivalent	protein complex	human	HLA-B70 serotype
-HLA protein complex with B71 serotype	HLA-B71		serotype	equivalent	protein complex	human	HLA-B71 serotype
-HLA protein complex with B73 serotype	HLA-B73		serotype	equivalent	protein complex	human	HLA-B73 serotype
-HLA protein complex with B75 serotype	HLA-B75		serotype	equivalent	protein complex	human	HLA-B75 serotype
-HLA protein complex with B77 serotype	HLA-B77		serotype	equivalent	protein complex	human	HLA-B77 serotype
-HLA protein complex with B8 serotype	HLA-B8	HLA-B*08	serotype	equivalent	protein complex	human	HLA-B8 serotype
-HLA protein complex with B81 serotype	HLA-B81	HLA-B*81	serotype	equivalent	protein complex	human	HLA-B81 serotype
-HLA protein complex with Bw4 serotype	HLA-Bw4	HLA-B*w4	serotype	equivalent	protein complex	human	HLA-Bw4 serotype
-HLA protein complex with Cw1 serotype	HLA-Cw1	HLA-Cw*01	serotype	equivalent	protein complex	human	HLA-Cw1 serotype
-HLA protein complex with Cw10 serotype	HLA-Cw10		serotype	equivalent	protein complex	human	HLA-Cw10 serotype
-HLA protein complex with Cw12 serotype	HLA-Cw12	HLA-Cw*12	serotype	equivalent	protein complex	human	HLA-Cw12 serotype
-HLA protein complex with Cw15 serotype	HLA-Cw15	HLA-Cw*15	serotype	equivalent	protein complex	human	HLA-Cw15 serotype
-HLA protein complex with Cw16 serotype	HLA-Cw16	HLA-Cw*16	serotype	equivalent	protein complex	human	HLA-Cw16 serotype
-HLA protein complex with Cw2 serotype	HLA-Cw2	HLA-Cw*02	serotype	equivalent	protein complex	human	HLA-Cw2 serotype
-HLA protein complex with Cw3 serotype	HLA-Cw3	HLA-Cw*03	serotype	equivalent	protein complex	human	HLA-Cw3 serotype
-HLA protein complex with Cw4 serotype	HLA-Cw4	HLA-Cw*04	serotype	equivalent	protein complex	human	HLA-Cw4 serotype
-HLA protein complex with Cw5 serotype	HLA-Cw5		serotype	equivalent	protein complex	human	HLA-Cw5 serotype
-HLA protein complex with Cw6 serotype	HLA-Cw6	HLA-Cw*06	serotype	equivalent	protein complex	human	HLA-Cw6 serotype
-HLA protein complex with Cw7 serotype	HLA-Cw7	HLA-Cw*07	serotype	equivalent	protein complex	human	HLA-Cw7 serotype
-HLA protein complex with Cw8 serotype	HLA-Cw8	HLA-Cw*08	serotype	equivalent	protein complex	human	HLA-Cw8 serotype
-HLA protein complex with Cw9 serotype	HLA-Cw9		serotype	equivalent	protein complex	human	HLA-Cw9 serotype
-HLA protein complex with DP1 serotype	HLA-DP1		serotype	equivalent	protein complex	human	HLA-DP1 serotype
-HLA protein complex with DP4 serotype	HLA-DP4		serotype	equivalent	protein complex	human	HLA-DP4 serotype
-HLA protein complex with DP5 serotype	HLA-DP5		serotype	equivalent	protein complex	human	HLA-DP5 serotype
-HLA protein complex with DP9 serotype	HLA-DP9		serotype	equivalent	protein complex	human	HLA-DP9 serotype
-HLA protein complex with DPw1 serotype	HLA-DPw1		serotype	equivalent	protein complex	human	HLA-DPw1 serotype
-HLA protein complex with DPw2 serotype	HLA-DPw2	HLA-DP2	serotype	equivalent	protein complex	human	HLA-DPw2 serotype
-HLA protein complex with DPw3 serotype	HLA-DPw3	HLA-DP3	serotype	equivalent	protein complex	human	HLA-DPw3 serotype
-HLA protein complex with DPw4 serotype	HLA-DPw4	HLA-DP4	serotype	equivalent	protein complex	human	HLA-DPw4 serotype
-HLA protein complex with DPw5 serotype	HLA-DPw5	HLA-DP5	serotype	equivalent	protein complex	human	HLA-DPw5 serotype
-HLA protein complex with DPw6 serotype	HLA-DPw6		serotype	equivalent	protein complex	human	HLA-DPw6 serotype
-HLA protein complex with DQ1 serotype	HLA-DQ1	HLA-DQw1	serotype	equivalent	protein complex	human	HLA-DQ1 serotype
-HLA protein complex with DQ2 serotype	HLA-DQ2	HLA-DQw2	serotype	equivalent	protein complex	human	HLA-DQ2 serotype
-HLA protein complex with DQ2.3 serotype	HLA-DQ2.3		serotype	equivalent	protein complex	human	HLA-DQ2.3 serotype
-HLA protein complex with DQ3 serotype	HLA-DQ3	HLA-DQw3	serotype	equivalent	protein complex	human	HLA-DQ3 serotype
-HLA protein complex with DQ3.33 serotype	HLA-DQ3.33		serotype	equivalent	protein complex	human	HLA-DQ3.33 serotype
-HLA protein complex with DQ3t12 serotype	HLA-DQ3t12		serotype	equivalent	protein complex	human	HLA-DQ3t12 serotype
-HLA protein complex with DQ4 serotype	HLA-DQ4		serotype	equivalent	protein complex	human	HLA-DQ4 serotype
-HLA protein complex with DQ5 serotype	HLA-DQ5	HLA-DQw5	serotype	equivalent	protein complex	human	HLA-DQ5 serotype
-HLA protein complex with DQ6 serotype	HLA-DQ6	HLA-DQw6	serotype	equivalent	protein complex	human	HLA-DQ6 serotype
-HLA protein complex with DQ7 serotype	HLA-DQ7	HLA-DQw7	serotype	equivalent	protein complex	human	HLA-DQ7 serotype
-HLA protein complex with DQ8 serotype	HLA-DQ8	HLA-DQw8	serotype	equivalent	protein complex	human	HLA-DQ8 serotype
-HLA protein complex with DQ9 serotype	HLA-DQ9		serotype	equivalent	protein complex	human	HLA-DQ9 serotype
-HLA protein complex with DQ9.2 serotype	HLA-DQ9.2		serotype	equivalent	protein complex	human	HLA-DQ9.2 serotype
-HLA protein complex with DR1 serotype	HLA-DR1	HLA-DRB1*01|HLA-DRw1	serotype	equivalent	protein complex	human	HLA-DR1 serotype
-HLA protein complex with DR10 serotype	HLA-DR10	HLA-DRw10	serotype	equivalent	protein complex	human	HLA-DR10 serotype
-HLA protein complex with DR103 serotype	HLA-DR103		serotype	equivalent	protein complex	human	HLA-DR103 serotype
-HLA protein complex with DR11 serotype	HLA-DR11	HLA-DRB1*11|HLA-DRw11	serotype	equivalent	protein complex	human	HLA-DR11 serotype
-HLA protein complex with DR12 serotype	HLA-DR12	HLA-DR12 DwH|HLA-DRw12	serotype	equivalent	protein complex	human	HLA-DR12 serotype
-HLA protein complex with DR13 serotype	HLA-DR13	HLA-DRB1*13|HLA-DRw13	serotype	equivalent	protein complex	human	HLA-DR13 serotype
-HLA protein complex with DR14 serotype	HLA-DR14		serotype	equivalent	protein complex	human	HLA-DR14 serotype
-HLA protein complex with DR1404 serotype	HLA-DR1404		serotype	equivalent	protein complex	human	HLA-DR1404 serotype
-HLA protein complex with DR15 serotype	HLA-DR15	HLA-DRB1*15	serotype	equivalent	protein complex	human	HLA-DR15 serotype
-HLA protein complex with DR16 serotype	HLA-DR16		serotype	equivalent	protein complex	human	HLA-DR16 serotype
-HLA protein complex with DR17 serotype	HLA-DR17	HLA-DRw17	serotype	equivalent	protein complex	human	HLA-DR17 serotype
-HLA protein complex with DR18 serotype	HLA-DR18		serotype	equivalent	protein complex	human	HLA-DR18 serotype
-HLA protein complex with DR2 serotype	HLA-DR2		serotype	equivalent	protein complex	human	HLA-DR2 serotype
-HLA protein complex with DR3 serotype	HLA-DR3	HLA-DRB1*03	serotype	equivalent	protein complex	human	HLA-DR3 serotype
-HLA protein complex with DR4 serotype	HLA-DR4	HLA-DRB1*04	serotype	equivalent	protein complex	human	HLA-DR4 serotype
-HLA protein complex with DR5 serotype	HLA-DR5		serotype	equivalent	protein complex	human	HLA-DR5 serotype
-HLA protein complex with DR51 serotype	HLA-DR51		serotype	equivalent	protein complex	human	HLA-DR51 serotype
-HLA protein complex with DR52 serotype	HLA-DR52	HLA-DRB3*52|HLA-DRw52	serotype	equivalent	protein complex	human	HLA-DR52 serotype
-HLA protein complex with DR53 serotype	HLA-DR53	HLA-DRB4*53|HLA-DRw53	serotype	equivalent	protein complex	human	HLA-DR53 serotype
-HLA protein complex with DR6 serotype	HLA-DR6	HLA-DRw6	serotype	equivalent	protein complex	human	HLA-DR6 serotype
-HLA protein complex with DR7 serotype	HLA-DR7	HLA-DR7 Dw11|HLA-DRB1*07	serotype	equivalent	protein complex	human	HLA-DR7 serotype
-HLA protein complex with DR8 serotype	HLA-DR8	HLA-DRB1*08|HLA-DRw8	serotype	equivalent	protein complex	human	HLA-DR8 serotype
-HLA protein complex with DR9 serotype	HLA-DR9	HLA-DRB1*09	serotype	equivalent	protein complex	human	HLA-DR9 serotype
-MHC class I protein complex with serotype	class I		serotype	equivalent	protein complex		MHC class I serotype
-MHC class II protein complex with serotype	class II		serotype	equivalent	protein complex		MHC class II serotype
-Mamu protein complex with DR1B serotype	Mamu-DR1B		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR1B serotype
-Mamu protein complex with DR2 serotype	Mamu-DR2		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR2 serotype
-Mamu protein complex with DR3A serotype	Mamu-DR3A		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR3A serotype
-Mamu protein complex with DR4 serotype	Mamu-DR4		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR4 serotype
-Mamu protein complex with DR6 serotype	Mamu-DR6		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR6 serotype
-Mamu protein complex with DR7A serotype	Mamu-DR7A		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR7A serotype
-Mamu protein complex with DR8 serotype	Mamu-DR8		serotype	equivalent	protein complex	rhesus macaque	Mamu-DR8 serotype
-Patr protein complex with DR1 serotype	Patr-DR1		serotype	equivalent	protein complex	chimpanzee	Patr-DR1 serotype
-Patr protein complex with DR10 serotype	Patr-DR10		serotype	equivalent	protein complex	chimpanzee	Patr-DR10 serotype
-Patr protein complex with DR2 serotype	Patr-DR2		serotype	equivalent	protein complex	chimpanzee	Patr-DR2 serotype
-Patr protein complex with DR3 serotype	Patr-DR3		serotype	equivalent	protein complex	chimpanzee	Patr-DR3 serotype
-Patr protein complex with DR4 serotype	Patr-DR4		serotype	equivalent	protein complex	chimpanzee	Patr-DR4 serotype
-Patr protein complex with DR5 serotype	Patr-DR5		serotype	equivalent	protein complex	chimpanzee	Patr-DR5 serotype
-Patr protein complex with DR7 serotype	Patr-DR7		serotype	equivalent	protein complex	chimpanzee	Patr-DR7 serotype
-Patr protein complex with DR8 serotype	Patr-DR8		serotype	equivalent	protein complex	chimpanzee	Patr-DR8 serotype
-Patr protein complex with DR9 serotype	Patr-DR9		serotype	equivalent	protein complex	chimpanzee	Patr-DR9 serotype
-cattle MHC class I protein complex with serotype	cattle		serotype	equivalent	protein complex	cattle	cattle MHC class I serotype
-chimpanzee MHC class II protein complex with serotype	chimpanzee		serotype	equivalent	protein complex	chimpanzee	chimpanzee MHC class II serotype
-human MHC class I protein complex with serotype	human		serotype	equivalent	protein complex	human	human MHC class I serotype
-human MHC class II protein complex with serotype	human		serotype	equivalent	protein complex	human	human MHC class II serotype
-rhesus macaque MHC class II protein complex with serotype	rhesus macaque		serotype	equivalent	protein complex	rhesus macaque	rhesus macaque MHC class II serotype
+BoLA protein complex with A10 serotype	BoLA-A10		serotype	equivalent	MHC protein complex	cattle	BoLA-A10 serotype
+BoLA protein complex with A11 serotype	BoLA-A11		serotype	equivalent	MHC protein complex	cattle	BoLA-A11 serotype
+BoLA protein complex with A14 serotype	BoLA-A14		serotype	equivalent	MHC protein complex	cattle	BoLA-A14 serotype
+BoLA protein complex with A18 serotype	BoLA-A18		serotype	equivalent	MHC protein complex	cattle	BoLA-A18 serotype
+BoLA protein complex with A31 serotype	BoLA-A31		serotype	equivalent	MHC protein complex	cattle	BoLA-A31 serotype
+cattle MHC class I protein complex with serotype	cattle		serotype	equivalent	MHC protein complex	cattle	cattle MHC class I serotype
+chimpanzee MHC class II protein complex with serotype	chimpanzee		serotype	equivalent	MHC protein complex	chimpanzee	chimpanzee MHC class II serotype
+cotton-top tamarin MHC class I protein complex with serotype	cotton-top tamarin		serotype	equivalent	MHC protein complex	cotton-top tamarin	cotton-top tamarin MHC class I serotype
+HLA protein complex with A1 serotype	HLA-A1	HLA-A*01	serotype	equivalent	MHC protein complex	human	HLA-A1 serotype
+HLA protein complex with A11 serotype	HLA-A11	HLA-A*11	serotype	equivalent	MHC protein complex	human	HLA-A11 serotype
+HLA protein complex with A2 serotype	HLA-A2	HLA-A*02|HLA-A2.2	serotype	equivalent	MHC protein complex	human	HLA-A2 serotype
+HLA protein complex with A203 serotype	HLA-A203		serotype	equivalent	MHC protein complex	human	HLA-A203 serotype
+HLA protein complex with A23 serotype	HLA-A23	HLA-A*23	serotype	equivalent	MHC protein complex	human	HLA-A23 serotype
+HLA protein complex with A24 serotype	HLA-A24	HLA-A*24|HLA-A24.1	serotype	equivalent	MHC protein complex	human	HLA-A24 serotype
+HLA protein complex with A2403 serotype	HLA-A2403		serotype	equivalent	MHC protein complex	human	HLA-A2403 serotype
+HLA protein complex with A25 serotype	HLA-A25	HLA-A*25	serotype	equivalent	MHC protein complex	human	HLA-A25 serotype
+HLA protein complex with A26 serotype	HLA-A26	HLA-A*26	serotype	equivalent	MHC protein complex	human	HLA-A26 serotype
+HLA protein complex with A28 serotype	HLA-A28	HLA-A*28	serotype	equivalent	MHC protein complex	human	HLA-A28 serotype
+HLA protein complex with A29 serotype	HLA-A29	HLA-A*29	serotype	equivalent	MHC protein complex	human	HLA-A29 serotype
+HLA protein complex with A3 serotype	HLA-A3	HLA-A*03	serotype	equivalent	MHC protein complex	human	HLA-A3 serotype
+HLA protein complex with A30 serotype	HLA-A30	HLA-A*30	serotype	equivalent	MHC protein complex	human	HLA-A30 serotype
+HLA protein complex with A31 serotype	HLA-A31	HLA-A*31	serotype	equivalent	MHC protein complex	human	HLA-A31 serotype
+HLA protein complex with A32 serotype	HLA-A32	HLA-A*32	serotype	equivalent	MHC protein complex	human	HLA-A32 serotype
+HLA protein complex with A33 serotype	HLA-A33	HLA-A*33	serotype	equivalent	MHC protein complex	human	HLA-A33 serotype
+HLA protein complex with A34 serotype	HLA-A34	HLA-A*34	serotype	equivalent	MHC protein complex	human	HLA-A34 serotype
+HLA protein complex with A66 serotype	HLA-A66		serotype	equivalent	MHC protein complex	human	HLA-A66 serotype
+HLA protein complex with A68 serotype	HLA-A68	HLA-A*68|HLA-Aw68	serotype	equivalent	MHC protein complex	human	HLA-A68 serotype
+HLA protein complex with A69 serotype	HLA-A69	HLA-A*69|HLA-Aw69	serotype	equivalent	MHC protein complex	human	HLA-A69 serotype
+HLA protein complex with A74 serotype	HLA-A74	HLA-A*74	serotype	equivalent	MHC protein complex	human	HLA-A74 serotype
+HLA protein complex with A80 serotype	HLA-A80	HLA-A*80	serotype	equivalent	MHC protein complex	human	HLA-A80 serotype
+HLA protein complex with B12 serotype	HLA-B12	HLA-B*12	serotype	equivalent	MHC protein complex	human	HLA-B12 serotype
+HLA protein complex with B13 serotype	HLA-B13	HLA-B*13	serotype	equivalent	MHC protein complex	human	HLA-B13 serotype
+HLA protein complex with B14 serotype	HLA-B14	HLA-B*14	serotype	equivalent	MHC protein complex	human	HLA-B14 serotype
+HLA protein complex with B15 serotype	HLA-B15	HLA-B*15	serotype	equivalent	MHC protein complex	human	HLA-B15 serotype
+HLA protein complex with B16 serotype	HLA-B16	HLA-B*16	serotype	equivalent	MHC protein complex	human	HLA-B16 serotype
+HLA protein complex with B17 serotype	HLA-B17	HLA-B*17	serotype	equivalent	MHC protein complex	human	HLA-B17 serotype
+HLA protein complex with B18 serotype	HLA-B18	HLA-B*18	serotype	equivalent	MHC protein complex	human	HLA-B18 serotype
+HLA protein complex with B27 serotype	HLA-B27	HLA-B*27	serotype	equivalent	MHC protein complex	human	HLA-B27 serotype
+HLA protein complex with B35 serotype	HLA-B35	HLA-B*35|HLA-B35.3	serotype	equivalent	MHC protein complex	human	HLA-B35 serotype
+HLA protein complex with B37 serotype	HLA-B37	HLA-B*37	serotype	equivalent	MHC protein complex	human	HLA-B37 serotype
+HLA protein complex with B38 serotype	HLA-B38	HLA-B*38	serotype	equivalent	MHC protein complex	human	HLA-B38 serotype
+HLA protein complex with B39 serotype	HLA-B39	HLA-B*39	serotype	equivalent	MHC protein complex	human	HLA-B39 serotype
+HLA protein complex with B3901 serotype	HLA-B3901		serotype	equivalent	MHC protein complex	human	HLA-B3901 serotype
+HLA protein complex with B40 serotype	HLA-B40	HLA-B*40	serotype	equivalent	MHC protein complex	human	HLA-B40 serotype
+HLA protein complex with B41 serotype	HLA-B41	HLA-B*41	serotype	equivalent	MHC protein complex	human	HLA-B41 serotype
+HLA protein complex with B42 serotype	HLA-B42	HLA-B*42	serotype	equivalent	MHC protein complex	human	HLA-B42 serotype
+HLA protein complex with B44 serotype	HLA-B44	HLA-B*44	serotype	equivalent	MHC protein complex	human	HLA-B44 serotype
+HLA protein complex with B45 serotype	HLA-B45	HLA-B*45	serotype	equivalent	MHC protein complex	human	HLA-B45 serotype
+HLA protein complex with B46 serotype	HLA-B46		serotype	equivalent	MHC protein complex	human	HLA-B46 serotype
+HLA protein complex with B47 serotype	HLA-B47	HLA-B*47	serotype	equivalent	MHC protein complex	human	HLA-B47 serotype
+HLA protein complex with B48 serotype	HLA-B48		serotype	equivalent	MHC protein complex	human	HLA-B48 serotype
+HLA protein complex with B49 serotype	HLA-B49	HLA-B*49	serotype	equivalent	MHC protein complex	human	HLA-B49 serotype
+HLA protein complex with B50 serotype	HLA-B50	HLA-B*50	serotype	equivalent	MHC protein complex	human	HLA-B50 serotype
+HLA protein complex with B51 serotype	HLA-B51	HLA-B*51|HLA-B51.1	serotype	equivalent	MHC protein complex	human	HLA-B51 serotype
+HLA protein complex with B5102 serotype	HLA-B5102		serotype	equivalent	MHC protein complex	human	HLA-B5102 serotype
+HLA protein complex with B52 serotype	HLA-B52	HLA-B*52	serotype	equivalent	MHC protein complex	human	HLA-B52 serotype
+HLA protein complex with B53 serotype	HLA-B53	HLA-B*53	serotype	equivalent	MHC protein complex	human	HLA-B53 serotype
+HLA protein complex with B54 serotype	HLA-B54	HLA-B*54	serotype	equivalent	MHC protein complex	human	HLA-B54 serotype
+HLA protein complex with B55 serotype	HLA-B55	HLA-B*55	serotype	equivalent	MHC protein complex	human	HLA-B55 serotype
+HLA protein complex with B56 serotype	HLA-B56		serotype	equivalent	MHC protein complex	human	HLA-B56 serotype
+HLA protein complex with B57 serotype	HLA-B57	HLA-B*57	serotype	equivalent	MHC protein complex	human	HLA-B57 serotype
+HLA protein complex with B58 serotype	HLA-B58	HLA-B*58	serotype	equivalent	MHC protein complex	human	HLA-B58 serotype
+HLA protein complex with B60 serotype	HLA-B60	HLA-B*60	serotype	equivalent	MHC protein complex	human	HLA-B60 serotype
+HLA protein complex with B61 serotype	HLA-B61	HLA-B*61	serotype	equivalent	MHC protein complex	human	HLA-B61 serotype
+HLA protein complex with B62 serotype	HLA-B62	HLA-B*62	serotype	equivalent	MHC protein complex	human	HLA-B62 serotype
+HLA protein complex with B63 serotype	HLA-B63	HLA-B*63	serotype	equivalent	MHC protein complex	human	HLA-B63 serotype
+HLA protein complex with B65 serotype	HLA-B65		serotype	equivalent	MHC protein complex	human	HLA-B65 serotype
+HLA protein complex with B7 serotype	HLA-B7	HLA-B*07	serotype	equivalent	MHC protein complex	human	HLA-B7 serotype
+HLA protein complex with B70 serotype	HLA-B70		serotype	equivalent	MHC protein complex	human	HLA-B70 serotype
+HLA protein complex with B71 serotype	HLA-B71		serotype	equivalent	MHC protein complex	human	HLA-B71 serotype
+HLA protein complex with B73 serotype	HLA-B73		serotype	equivalent	MHC protein complex	human	HLA-B73 serotype
+HLA protein complex with B75 serotype	HLA-B75		serotype	equivalent	MHC protein complex	human	HLA-B75 serotype
+HLA protein complex with B77 serotype	HLA-B77		serotype	equivalent	MHC protein complex	human	HLA-B77 serotype
+HLA protein complex with B8 serotype	HLA-B8	HLA-B*08	serotype	equivalent	MHC protein complex	human	HLA-B8 serotype
+HLA protein complex with B81 serotype	HLA-B81	HLA-B*81	serotype	equivalent	MHC protein complex	human	HLA-B81 serotype
+HLA protein complex with Bw4 serotype	HLA-Bw4	HLA-B*w4	serotype	equivalent	MHC protein complex	human	HLA-Bw4 serotype
+HLA protein complex with Cw1 serotype	HLA-Cw1	HLA-Cw*01	serotype	equivalent	MHC protein complex	human	HLA-Cw1 serotype
+HLA protein complex with Cw10 serotype	HLA-Cw10		serotype	equivalent	MHC protein complex	human	HLA-Cw10 serotype
+HLA protein complex with Cw12 serotype	HLA-Cw12	HLA-Cw*12	serotype	equivalent	MHC protein complex	human	HLA-Cw12 serotype
+HLA protein complex with Cw15 serotype	HLA-Cw15	HLA-Cw*15	serotype	equivalent	MHC protein complex	human	HLA-Cw15 serotype
+HLA protein complex with Cw16 serotype	HLA-Cw16	HLA-Cw*16	serotype	equivalent	MHC protein complex	human	HLA-Cw16 serotype
+HLA protein complex with Cw2 serotype	HLA-Cw2	HLA-Cw*02	serotype	equivalent	MHC protein complex	human	HLA-Cw2 serotype
+HLA protein complex with Cw3 serotype	HLA-Cw3	HLA-Cw*03	serotype	equivalent	MHC protein complex	human	HLA-Cw3 serotype
+HLA protein complex with Cw4 serotype	HLA-Cw4	HLA-Cw*04	serotype	equivalent	MHC protein complex	human	HLA-Cw4 serotype
+HLA protein complex with Cw5 serotype	HLA-Cw5		serotype	equivalent	MHC protein complex	human	HLA-Cw5 serotype
+HLA protein complex with Cw6 serotype	HLA-Cw6	HLA-Cw*06	serotype	equivalent	MHC protein complex	human	HLA-Cw6 serotype
+HLA protein complex with Cw7 serotype	HLA-Cw7	HLA-Cw*07	serotype	equivalent	MHC protein complex	human	HLA-Cw7 serotype
+HLA protein complex with Cw8 serotype	HLA-Cw8	HLA-Cw*08	serotype	equivalent	MHC protein complex	human	HLA-Cw8 serotype
+HLA protein complex with Cw9 serotype	HLA-Cw9		serotype	equivalent	MHC protein complex	human	HLA-Cw9 serotype
+HLA protein complex with DP1 serotype	HLA-DP1		serotype	equivalent	MHC protein complex	human	HLA-DP1 serotype
+HLA protein complex with DP4 serotype	HLA-DP4		serotype	equivalent	MHC protein complex	human	HLA-DP4 serotype
+HLA protein complex with DP5 serotype	HLA-DP5		serotype	equivalent	MHC protein complex	human	HLA-DP5 serotype
+HLA protein complex with DP9 serotype	HLA-DP9		serotype	equivalent	MHC protein complex	human	HLA-DP9 serotype
+HLA protein complex with DPw1 serotype	HLA-DPw1		serotype	equivalent	MHC protein complex	human	HLA-DPw1 serotype
+HLA protein complex with DPw2 serotype	HLA-DPw2	HLA-DP2	serotype	equivalent	MHC protein complex	human	HLA-DPw2 serotype
+HLA protein complex with DPw3 serotype	HLA-DPw3	HLA-DP3	serotype	equivalent	MHC protein complex	human	HLA-DPw3 serotype
+HLA protein complex with DPw4 serotype	HLA-DPw4	HLA-DP4	serotype	equivalent	MHC protein complex	human	HLA-DPw4 serotype
+HLA protein complex with DPw5 serotype	HLA-DPw5	HLA-DP5	serotype	equivalent	MHC protein complex	human	HLA-DPw5 serotype
+HLA protein complex with DPw6 serotype	HLA-DPw6		serotype	equivalent	MHC protein complex	human	HLA-DPw6 serotype
+HLA protein complex with DQ1 serotype	HLA-DQ1	HLA-DQw1	serotype	equivalent	MHC protein complex	human	HLA-DQ1 serotype
+HLA protein complex with DQ2 serotype	HLA-DQ2	HLA-DQw2	serotype	equivalent	MHC protein complex	human	HLA-DQ2 serotype
+HLA protein complex with DQ2.3 serotype	HLA-DQ2.3		serotype	equivalent	MHC protein complex	human	HLA-DQ2.3 serotype
+HLA protein complex with DQ3 serotype	HLA-DQ3	HLA-DQw3	serotype	equivalent	MHC protein complex	human	HLA-DQ3 serotype
+HLA protein complex with DQ3.33 serotype	HLA-DQ3.33		serotype	equivalent	MHC protein complex	human	HLA-DQ3.33 serotype
+HLA protein complex with DQ3t12 serotype	HLA-DQ3t12		serotype	equivalent	MHC protein complex	human	HLA-DQ3t12 serotype
+HLA protein complex with DQ4 serotype	HLA-DQ4		serotype	equivalent	MHC protein complex	human	HLA-DQ4 serotype
+HLA protein complex with DQ5 serotype	HLA-DQ5	HLA-DQw5	serotype	equivalent	MHC protein complex	human	HLA-DQ5 serotype
+HLA protein complex with DQ6 serotype	HLA-DQ6	HLA-DQw6	serotype	equivalent	MHC protein complex	human	HLA-DQ6 serotype
+HLA protein complex with DQ7 serotype	HLA-DQ7	HLA-DQw7	serotype	equivalent	MHC protein complex	human	HLA-DQ7 serotype
+HLA protein complex with DQ8 serotype	HLA-DQ8	HLA-DQw8	serotype	equivalent	MHC protein complex	human	HLA-DQ8 serotype
+HLA protein complex with DQ9 serotype	HLA-DQ9		serotype	equivalent	MHC protein complex	human	HLA-DQ9 serotype
+HLA protein complex with DQ9.2 serotype	HLA-DQ9.2		serotype	equivalent	MHC protein complex	human	HLA-DQ9.2 serotype
+HLA protein complex with DR1 serotype	HLA-DR1	HLA-DRB1*01|HLA-DRw1	serotype	equivalent	MHC protein complex	human	HLA-DR1 serotype
+HLA protein complex with DR10 serotype	HLA-DR10	HLA-DRw10	serotype	equivalent	MHC protein complex	human	HLA-DR10 serotype
+HLA protein complex with DR103 serotype	HLA-DR103		serotype	equivalent	MHC protein complex	human	HLA-DR103 serotype
+HLA protein complex with DR11 serotype	HLA-DR11	HLA-DRB1*11|HLA-DRw11	serotype	equivalent	MHC protein complex	human	HLA-DR11 serotype
+HLA protein complex with DR12 serotype	HLA-DR12	HLA-DR12 DwH|HLA-DRw12	serotype	equivalent	MHC protein complex	human	HLA-DR12 serotype
+HLA protein complex with DR13 serotype	HLA-DR13	HLA-DRB1*13|HLA-DRw13	serotype	equivalent	MHC protein complex	human	HLA-DR13 serotype
+HLA protein complex with DR14 serotype	HLA-DR14		serotype	equivalent	MHC protein complex	human	HLA-DR14 serotype
+HLA protein complex with DR1404 serotype	HLA-DR1404		serotype	equivalent	MHC protein complex	human	HLA-DR1404 serotype
+HLA protein complex with DR15 serotype	HLA-DR15	HLA-DRB1*15	serotype	equivalent	MHC protein complex	human	HLA-DR15 serotype
+HLA protein complex with DR16 serotype	HLA-DR16		serotype	equivalent	MHC protein complex	human	HLA-DR16 serotype
+HLA protein complex with DR17 serotype	HLA-DR17	HLA-DRw17	serotype	equivalent	MHC protein complex	human	HLA-DR17 serotype
+HLA protein complex with DR18 serotype	HLA-DR18		serotype	equivalent	MHC protein complex	human	HLA-DR18 serotype
+HLA protein complex with DR2 serotype	HLA-DR2		serotype	equivalent	MHC protein complex	human	HLA-DR2 serotype
+HLA protein complex with DR3 serotype	HLA-DR3	HLA-DRB1*03	serotype	equivalent	MHC protein complex	human	HLA-DR3 serotype
+HLA protein complex with DR4 serotype	HLA-DR4	HLA-DRB1*04	serotype	equivalent	MHC protein complex	human	HLA-DR4 serotype
+HLA protein complex with DR5 serotype	HLA-DR5		serotype	equivalent	MHC protein complex	human	HLA-DR5 serotype
+HLA protein complex with DR51 serotype	HLA-DR51		serotype	equivalent	MHC protein complex	human	HLA-DR51 serotype
+HLA protein complex with DR52 serotype	HLA-DR52	HLA-DRB3*52|HLA-DRw52	serotype	equivalent	MHC protein complex	human	HLA-DR52 serotype
+HLA protein complex with DR53 serotype	HLA-DR53	HLA-DRB4*53|HLA-DRw53	serotype	equivalent	MHC protein complex	human	HLA-DR53 serotype
+HLA protein complex with DR6 serotype	HLA-DR6	HLA-DRw6	serotype	equivalent	MHC protein complex	human	HLA-DR6 serotype
+HLA protein complex with DR7 serotype	HLA-DR7	HLA-DR7 Dw11|HLA-DRB1*07	serotype	equivalent	MHC protein complex	human	HLA-DR7 serotype
+HLA protein complex with DR8 serotype	HLA-DR8	HLA-DRB1*08|HLA-DRw8	serotype	equivalent	MHC protein complex	human	HLA-DR8 serotype
+HLA protein complex with DR9 serotype	HLA-DR9	HLA-DRB1*09	serotype	equivalent	MHC protein complex	human	HLA-DR9 serotype
+human MHC class I protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class I serotype
+human MHC class II protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class II serotype
+Mamu protein complex with DR1B serotype	Mamu-DR1B		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR1B serotype
+Mamu protein complex with DR2 serotype	Mamu-DR2		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR2 serotype
+Mamu protein complex with DR3A serotype	Mamu-DR3A		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR3A serotype
+Mamu protein complex with DR4 serotype	Mamu-DR4		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR4 serotype
+Mamu protein complex with DR6 serotype	Mamu-DR6		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR6 serotype
+Mamu protein complex with DR7A serotype	Mamu-DR7A		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR7A serotype
+Mamu protein complex with DR8 serotype	Mamu-DR8		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR8 serotype
+MHC class I protein complex with serotype	class I		serotype	equivalent	MHC protein complex		MHC class I serotype
+MHC class II protein complex with serotype	class II		serotype	equivalent	MHC protein complex		MHC class II serotype
+Patr protein complex with DR1 serotype	Patr-DR1		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR1 serotype
+Patr protein complex with DR10 serotype	Patr-DR10		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR10 serotype
+Patr protein complex with DR2 serotype	Patr-DR2		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR2 serotype
+Patr protein complex with DR3 serotype	Patr-DR3		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR3 serotype
+Patr protein complex with DR4 serotype	Patr-DR4		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR4 serotype
+Patr protein complex with DR5 serotype	Patr-DR5		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR5 serotype
+Patr protein complex with DR7 serotype	Patr-DR7		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR7 serotype
+Patr protein complex with DR8 serotype	Patr-DR8		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR8 serotype
+Patr protein complex with DR9 serotype	Patr-DR9		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR9 serotype
+rhesus macaque MHC class II protein complex with serotype	rhesus macaque		serotype	equivalent	MHC protein complex	rhesus macaque	rhesus macaque MHC class II serotype
+Saoe protein complex with G*02 serotype	Saoe-G*02	G02	serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*02 serotype
+Saoe protein complex with G*04 serotype	Saoe-G*04	G04	serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*04 serotype
+Saoe protein complex with G*08 serotype	Saoe-G*08	G08	serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*08 serotype
+Saoe protein complex with G*12 serotype	Saoe-G*12	G12	serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*12 serotype

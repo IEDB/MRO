@@ -17,6 +17,8 @@ B21 haplotype		subclass	chicken haplotype
 B4 haplotype		subclass	chicken haplotype	
 BF19 haplotype		subclass	chicken haplotype	
 BF21 haplotype		subclass	chicken haplotype	
+cattle haplotype		equivalent	MHC haplotype	cattle
+chicken haplotype		equivalent	MHC haplotype	chicken
 DH22B haplotype		subclass	cattle haplotype	
 DH7A haplotype		subclass	cattle haplotype	
 DH8A haplotype		subclass	cattle haplotype	
@@ -37,21 +39,20 @@ H2-v haplotype		subclass	mouse haplotype
 H2-wm7 haplotype		subclass	mouse haplotype	
 H2-z haplotype		subclass	mouse haplotype	
 H2-z/d haplotype		subclass	mouse haplotype	
-RT1-a haplotype		subclass	rat haplotype	
-RT1-av1 haplotype		subclass	rat haplotype	
-RT1-k haplotype		subclass	rat haplotype	
-RT1-n haplotype		subclass	rat haplotype	
-RT1-u haplotype		subclass	rat haplotype	
-RT11 haplotype		subclass	rat haplotype	
-RT11v1 haplotype		subclass	rat haplotype	
-RT1A haplotype		subclass	rat haplotype	
-RT1B1 haplotype		subclass	rat haplotype	
-W11 haplotype		subclass	horse haplotype	
-YF1 haplotype		subclass	chicken haplotype	
-cattle haplotype		equivalent	MHC haplotype	cattle
-chicken haplotype		equivalent	MHC haplotype	chicken
 horse haplotype		equivalent	MHC haplotype	horse
 mouse haplotype		equivalent	MHC haplotype	mouse
 pig haplotype		equivalent	MHC haplotype	pig
 rat haplotype		equivalent	MHC haplotype	rat
+RT1-a haplotype		subclass	rat haplotype	
+RT1-A haplotype		subclass	rat haplotype	
+RT1-av1 haplotype		subclass	rat haplotype	
+RT1-c haplotype		subclass	rat haplotype	
+RT1-k haplotype		subclass	rat haplotype	
+RT1-l haplotype		subclass	rat haplotype	
+RT1-n haplotype		subclass	rat haplotype	
+RT1-u haplotype		subclass	rat haplotype	
+RT11 haplotype		subclass	rat haplotype	
+RT11v1 haplotype		subclass	rat haplotype	
+W11 haplotype		subclass	horse haplotype	
+YF1 haplotype		subclass	chicken haplotype	
 z haplotype		subclass	pig haplotype	
