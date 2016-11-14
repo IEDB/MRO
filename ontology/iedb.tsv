@@ -738,10 +738,10 @@ gorilla MHC class II protein complex	826	MHC class II
 bonobo MHC class I protein complex	827	MHC class I			
 bonobo MHC class II protein complex	828	MHC class II			
 chimpanzee MHC class II protein complex	829	MHC class II			
-chicken class I protein complex	830	MHC class I			
-chicken class II protein complex	831	MHC class II			
-rat class I protein complex	832	MHC class I			
-rat class II protein complex	833	MHC class II			
+chicken MHC class I protein complex	830	MHC class I			
+chicken MHC class II protein complex	831	MHC class II			
+rat MHC class I protein complex	832	MHC class I			
+rat MHC class II protein complex	833	MHC class II			
 HLA-B*51:03 protein complex	836	MHC class I	B	300661	56585
 HLA-DPB1*23:01 protein complex	837	MHC class II	DP		300711
 HLA-DQB1*03:05 protein complex	838	MHC class II	DQ		300732

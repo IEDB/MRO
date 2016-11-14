@@ -52,6 +52,7 @@ BoLA-DRB6 protein complex	BoLA-DRB6		locus	equivalent	MHC class II protein compl
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class II protein complex	bonobo		class	equivalent	MHC class II protein complex	bonobo				
+marmoset MHC class I protein complex	marmoset		class	equivalent	MHC class I protein complex	marmoset				
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
 cattle CD1b3 protein complex	cattle CD1b3	boCD1b3|cowCD1b3	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1b3 chain	Beta-2-microglobulin		
@@ -62,8 +63,8 @@ cattle MR1 protein complex	cattle MR1	boMR1|cowMR1	complete molecule	equivalent	
 cattle non-classical MHC protein complex	cattle		class	equivalent	non-classical MHC protein complex	cattle				
 chicken CD1-1 protein complex	chicken CD1-1	CD1.1|cCD1-1	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-1 chain	Beta-2-microglobulin		
 chicken CD1-2 protein complex	chicken CD1-2	CD1.2|cCD1-2	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-2 chain	Beta-2-microglobulin		
-chicken class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
-chicken class II protein complex	chicken		class	equivalent	MHC class II protein complex	chicken				
+chicken MHC class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
+chicken MHC class II protein complex	chicken		class	equivalent	MHC class II protein complex	chicken				
 chicken MHC class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
 chicken non-classical MHC protein complex	chicken		class	equivalent	non-classical MHC protein complex	chicken				
 chimpanzee MHC class I protein complex	chimpanzee		class	equivalent	MHC class I protein complex	chimpanzee				
@@ -563,10 +564,8 @@ Patr-DRB1*10:01 protein complex	Patr-DRB1*10:01	Patr-DRB1*1001|DRB1*1001|DRB1100
 Patr-DRB5*03:10 protein complex	Patr-DRB5*03:10	Patr-DRB5*0310|DRB5*0310|DRB50310|DRB503:10	partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB5*03:10 chain		
 pig MHC class I protein complex	pig		class	equivalent	MHC class I protein complex	pig				
 pig MHC class II protein complex	pig		class	equivalent	MHC class II protein complex	pig				
-rat class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
-rat class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
-rat class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
-rat class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
+rat MHC class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
+rat MHC class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				

@@ -1741,8 +1741,8 @@ MRO:0001737	BoLA-DRB6 protein complex	owl:Class
 MRO:0001738	bonobo MHC class II protein complex	owl:Class	
 MRO:0001739	Caja-E protein complex	owl:Class	
 MRO:0001740	Caja-G protein complex	owl:Class	
-MRO:0001741	chicken class I protein complex	owl:Class	
-MRO:0001742	chicken class II protein complex	owl:Class	
+MRO:0001741	marmoset MHC class I protein complex	owl:Class	
+MRO:0001742	chicken MHC class II protein complex	owl:Class	
 MRO:0001743	chicken MHC class II protein complex with BF19 haplotype	owl:Class	
 MRO:0001744	chicken MHC class II protein complex with BF21 haplotype	owl:Class	
 MRO:0001745	cotton-top tamarin MHC class I protein complex with serotype	owl:Class	
@@ -1790,8 +1790,8 @@ MRO:0001786	mouse MHC class II protein complex with H2-z/d haplotype	owl:Class
 MRO:0001787	Patr-DP protein complex	owl:Class	
 MRO:0001788	Patr-DQ protein complex	owl:Class	
 MRO:0001789	pig MHC class II protein complex	owl:Class	
-MRO:0001790	rat class I protein complex	owl:Class	
-MRO:0001791	rat class II protein complex	owl:Class	
+MRO:0001790	rat MHC class I protein complex	owl:Class	
+MRO:0001791	rat MHC class II protein complex	owl:Class	
 MRO:0001792	rat MHC class I protein complex with RT1-A haplotype	owl:Class	
 MRO:0001793	rat MHC class II protein complex with RT1-A haplotype	owl:Class	
 MRO:0001794	rat MHC class II protein complex with RT1-av1 haplotype	owl:Class	
@@ -1868,3 +1868,5 @@ MRO:0001864	horse MHC class I protein complex with A7 haplotype	owl:Class
 MRO:0001865	horse MHC class I protein complex with A8 haplotype	owl:Class	
 MRO:0001866	horse MHC class I protein complex with A9 haplotype	owl:Class	
 MRO:0001867	horse MHC class I protein complex with W11 haplotype	owl:Class	
+MRO:0001868	rat MHC protein complex with RT1-c haplotype	owl:Class	
+MRO:0001869	rat MHC protein complex with RT1-l haplotype	owl:Class	
