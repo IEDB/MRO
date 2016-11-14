@@ -45,10 +45,21 @@ WHERE {
   BIND(IF(BOUND(?taxon_id), ?taxon_id, "1") AS ?organism_taxon_id)
   BIND(IF(BOUND(?taxon_label), ?taxon_label, "organism") AS ?organism_label)
 
-
+  # Get class information
   OPTIONAL {
-    ?subject MRO:has-mhc-class ?class .
+    VALUES (?class_iri ?class) {
+      (MRO:0001355 "MHC class I")
+      (MRO:0001356 "MHC class II")
+      (MRO:0001464 "non-classical MHC")
+      (MRO:0001655 "MHC class I") # serotype
+      (MRO:0001656 "MHC class II") # serotype
+      (MRO:0001718 "MHC class I") # mutant
+      (MRO:0001719 "MHC class II") # mutant
+      (MRO:0001734 "non-classical MHC") # mutant
+    }
+    ?subject rdfs:subClassOf* ?class_iri .
   }
+
   OPTIONAL {
     ?subject MRO:has-mhc-locus ?locus .
   }

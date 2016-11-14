@@ -30,7 +30,21 @@ WHERE {
     MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
     obo:OBI_9991118 ?displayed_restriction ;
     MRO:has-mhc-restriction ?restriction_level ;
-    MRO:has-mhc-class ?class .
+
+  # Get class information
+  OPTIONAL {
+    VALUES (?class_iri ?class) {
+      (MRO:0001355 "MHC class I")
+      (MRO:0001356 "MHC class II")
+      (MRO:0001464 "non-classical MHC")
+      (MRO:0001655 "MHC class I") # serotype
+      (MRO:0001656 "MHC class II") # serotype
+      (MRO:0001718 "MHC class I") # mutant
+      (MRO:0001719 "MHC class II") # mutant
+      (MRO:0001734 "non-classical MHC") # mutant
+    }
+    ?subject rdfs:subClassOf* ?class_iri .
+  }
 
   # Get taxon information, default to "organism"
   OPTIONAL {
