@@ -11,6 +11,7 @@ cotton-top tamarin MHC class I serotype		equivalent	MHC class I serotype	cotton-
 HLA-A serotype		subclass	human MHC class I serotype	
 HLA-A1 serotype		subclass	HLA-A serotype	
 HLA-A11 serotype		subclass	HLA-A serotype	
+HLA-A18 serotype		subclass	HLA-A serotype	
 HLA-A2 serotype		subclass	HLA-A serotype	
 HLA-A203 serotype		subclass	HLA-A serotype	
 HLA-A23 serotype		subclass	HLA-A serotype	
@@ -68,6 +69,7 @@ HLA-B60 serotype		subclass	HLA-B serotype
 HLA-B61 serotype		subclass	HLA-B serotype	
 HLA-B62 serotype		subclass	HLA-B serotype	
 HLA-B63 serotype		subclass	HLA-B serotype	
+HLA-B64 serotype		subclass	HLA-B serotype	
 HLA-B65 serotype		subclass	HLA-B serotype	
 HLA-B7 serotype		subclass	HLA-B serotype	
 HLA-B70 serotype		subclass	HLA-B serotype	

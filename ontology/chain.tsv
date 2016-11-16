@@ -8,21 +8,27 @@ BF2 chain		equivalent	protein	BF2 locus
 BF2*0201 chain		subclass	BF2 chain	
 BF2*0401 chain		subclass	BF2 chain	
 BF2*1201 chain		subclass	BF2 chain	
+BF2*1301 chain		subclass	BF2 chain	
 BF2*1401 chain		subclass	BF2 chain	
 BF2*1501 chain		subclass	BF2 chain	
 BF2*2101 chain		subclass	BF2 chain	
 BoLA-1 chain		equivalent	protein	BoLA-1 locus
+BoLA-1*01901 chain		subclass	BoLA-1 chain	
 BoLA-1*02101 chain		subclass	BoLA-1 chain	
 BoLA-1*02301 chain		subclass	BoLA-1 chain	
 BoLA-2 chain		equivalent	protein	BoLA-2 locus
+BoLA-2*00801 chain		subclass	BoLA-2 chain	
 BoLA-2*01201 chain		subclass	BoLA-2 chain	
 BoLA-2*01801 chain		subclass	BoLA-2 chain	
 BoLA-2*02201 chain		subclass	BoLA-2 chain	
 BoLA-3 chain		equivalent	protein	BoLA-3 locus
 BoLA-3*00101 chain		subclass	BoLA-3 chain	
 BoLA-3*00201 chain		subclass	BoLA-3 chain	
+BoLA-4 chain		equivalent	protein	BoLA-4 locus
+BoLA-4*02401 chain		subclass	BoLA-4 chain	
 BoLA-6 chain		equivalent	protein	BoLA-6 locus
 BoLA-6*01301 chain		subclass	BoLA-6 chain	
+BoLA-6*01302 chain		subclass	BoLA-6 chain	
 BoLA-6*04101 chain		subclass	BoLA-6 chain	
 BoLA-CD1 chain		equivalent	protein	BoLA-CD1 locus
 BoLA-DQA chain		equivalent	protein	BoLA-DQA locus
@@ -47,12 +53,14 @@ BoLA-DRB3 chain		equivalent	protein	BoLA-DRB3 locus
 BoLA-DRB3*0101 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*0201 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*0701 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*1001 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*1101 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*1201 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*1202 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*14011 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*1501 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*1502 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*1801 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*2002 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*2703 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*3001 chain		subclass	BoLA-DRB3 chain	
@@ -83,7 +91,13 @@ DLA-88 chain		equivalent	protein	DLA-88 locus
 DLA-88*50801 chain		subclass	DLA-88 chain	
 dog MHC class I chain		equivalent	protein	dog MHC class I locus
 dog MHC class II chain		equivalent	protein	dog MHC class II locus
+ELA-1 chain		equivalent	protein	ELA-1 locus
+ELA-16 chain		equivalent	protein	ELA-16 locus
 ELA-N chain		equivalent	protein	ELA-N locus
+Eqca-1*00101 chain		subclass	ELA-1 chain	
+Eqca-1*00201 chain		subclass	ELA-1 chain	
+Eqca-16*00101 chain		subclass	ELA-16 chain	
+Eqca-N*00101 chain		subclass	ELA-N chain	
 Eqca-N*00602 chain		subclass	ELA-N chain	
 Gogo-B chain		equivalent	protein	Gogo-B locus
 Gogo-B*0101 chain		subclass	Gogo-B chain	
@@ -155,6 +169,7 @@ H2-Qa2 chain		subclass	H2-Q chain
 H2-Qa9 chain		subclass	H2-Q chain	
 HLA-A chain		equivalent	protein	HLA-A locus
 HLA-A*01:01 chain		subclass	HLA-A chain	
+HLA-A*01:03 chain		subclass	HLA-A chain	
 HLA-A*02:01 chain		subclass	HLA-A chain	
 HLA-A*02:02 chain		subclass	HLA-A chain	
 HLA-A*02:03 chain		subclass	HLA-A chain	
@@ -195,6 +210,7 @@ HLA-A*30:01 chain		subclass	HLA-A chain
 HLA-A*30:02 chain		subclass	HLA-A chain	
 HLA-A*30:03 chain		subclass	HLA-A chain	
 HLA-A*30:04 chain		subclass	HLA-A chain	
+HLA-A*30:14L chain		subclass	HLA-A chain	
 HLA-A*31:01 chain		subclass	HLA-A chain	
 HLA-A*32:01 chain		subclass	HLA-A chain	
 HLA-A*32:05 chain		subclass	HLA-A chain	
@@ -203,6 +219,7 @@ HLA-A*32:15 chain		subclass	HLA-A chain
 HLA-A*33:01 chain		subclass	HLA-A chain	
 HLA-A*33:03 chain		subclass	HLA-A chain	
 HLA-A*66:01 chain		subclass	HLA-A chain	
+HLA-A*66:02 chain		subclass	HLA-A chain	
 HLA-A*68:01 chain		subclass	HLA-A chain	
 HLA-A*68:02 chain		subclass	HLA-A chain	
 HLA-A*68:23 chain		subclass	HLA-A chain	
@@ -216,6 +233,7 @@ HLA-B*08:02 chain		subclass	HLA-B chain
 HLA-B*08:03 chain		subclass	HLA-B chain	
 HLA-B*13:01 chain		subclass	HLA-B chain	
 HLA-B*13:02 chain		subclass	HLA-B chain	
+HLA-B*14:01 chain		subclass	HLA-B chain	
 HLA-B*14:02 chain		subclass	HLA-B chain	
 HLA-B*14:03 chain		subclass	HLA-B chain	
 HLA-B*15:01 chain		subclass	HLA-B chain	
@@ -224,12 +242,16 @@ HLA-B*15:03 chain		subclass	HLA-B chain
 HLA-B*15:08 chain		subclass	HLA-B chain	
 HLA-B*15:09 chain		subclass	HLA-B chain	
 HLA-B*15:10 chain		subclass	HLA-B chain	
+HLA-B*15:11 chain		subclass	HLA-B chain	
 HLA-B*15:13 chain		subclass	HLA-B chain	
 HLA-B*15:16 chain		subclass	HLA-B chain	
 HLA-B*15:17 chain		subclass	HLA-B chain	
+HLA-B*15:18 chain		subclass	HLA-B chain	
+HLA-B*15:21 chain		subclass	HLA-B chain	
 HLA-B*15:25 chain		subclass	HLA-B chain	
 HLA-B*15:42 chain		subclass	HLA-B chain	
 HLA-B*18:01 chain		subclass	HLA-B chain	
+HLA-B*18:03 chain		subclass	HLA-B chain	
 HLA-B*27:01 chain		subclass	HLA-B chain	
 HLA-B*27:02 chain		subclass	HLA-B chain	
 HLA-B*27:03 chain		subclass	HLA-B chain	
@@ -237,6 +259,7 @@ HLA-B*27:04 chain		subclass	HLA-B chain
 HLA-B*27:05 chain		subclass	HLA-B chain	
 HLA-B*27:06 chain		subclass	HLA-B chain	
 HLA-B*27:07 chain		subclass	HLA-B chain	
+HLA-B*27:08 chain		subclass	HLA-B chain	
 HLA-B*27:09 chain		subclass	HLA-B chain	
 HLA-B*27:10 chain		subclass	HLA-B chain	
 HLA-B*27:20 chain		subclass	HLA-B chain	
@@ -247,13 +270,16 @@ HLA-B*35:04 chain		subclass	HLA-B chain
 HLA-B*35:06 chain		subclass	HLA-B chain	
 HLA-B*35:08 chain		subclass	HLA-B chain	
 HLA-B*35:14 chain		subclass	HLA-B chain	
+HLA-B*35:62 chain		subclass	HLA-B chain	
 HLA-B*37:01 chain		subclass	HLA-B chain	
 HLA-B*38:01 chain		subclass	HLA-B chain	
 HLA-B*38:02 chain		subclass	HLA-B chain	
 HLA-B*39:01 chain		subclass	HLA-B chain	
 HLA-B*39:05 chain		subclass	HLA-B chain	
 HLA-B*39:06 chain		subclass	HLA-B chain	
+HLA-B*39:09 chain		subclass	HLA-B chain	
 HLA-B*39:10 chain		subclass	HLA-B chain	
+HLA-B*39:24 chain		subclass	HLA-B chain	
 HLA-B*40:01 chain		subclass	HLA-B chain	
 HLA-B*40:02 chain		subclass	HLA-B chain	
 HLA-B*40:06 chain		subclass	HLA-B chain	
@@ -275,10 +301,13 @@ HLA-B*44:27 chain		subclass	HLA-B chain
 HLA-B*44:28 chain		subclass	HLA-B chain	
 HLA-B*45:01 chain		subclass	HLA-B chain	
 HLA-B*45:06 chain		subclass	HLA-B chain	
+HLA-B*45:07 chain		subclass	HLA-B chain	
 HLA-B*46:01 chain		subclass	HLA-B chain	
+HLA-B*47:01 chain		subclass	HLA-B chain	
 HLA-B*48:01 chain		subclass	HLA-B chain	
 HLA-B*49:01 chain		subclass	HLA-B chain	
 HLA-B*50:01 chain		subclass	HLA-B chain	
+HLA-B*50:02 chain		subclass	HLA-B chain	
 HLA-B*51:01 chain		subclass	HLA-B chain	
 HLA-B*51:02 chain		subclass	HLA-B chain	
 HLA-B*51:03 chain		subclass	HLA-B chain	
@@ -313,6 +342,7 @@ HLA-C*08:01 chain		subclass	HLA-C chain
 HLA-C*08:02 chain		subclass	HLA-C chain	
 HLA-C*12:02 chain		subclass	HLA-C chain	
 HLA-C*12:03 chain		subclass	HLA-C chain	
+HLA-C*12:04 chain		subclass	HLA-C chain	
 HLA-C*14:02 chain		subclass	HLA-C chain	
 HLA-C*15:02 chain		subclass	HLA-C chain	
 HLA-C*16:01 chain		subclass	HLA-C chain	
@@ -369,6 +399,7 @@ HLA-DQB1*04:02 chain		subclass	HLA-DQB chain
 HLA-DQB1*05:01 chain		subclass	HLA-DQB chain	
 HLA-DQB1*05:02 chain		subclass	HLA-DQB chain	
 HLA-DQB1*05:03 chain		subclass	HLA-DQB chain	
+HLA-DQB1*05:04 chain		subclass	HLA-DQB chain	
 HLA-DQB1*06:01 chain		subclass	HLA-DQB chain	
 HLA-DQB1*06:02 chain		subclass	HLA-DQB chain	
 HLA-DQB1*06:03 chain		subclass	HLA-DQB chain	
@@ -436,6 +467,7 @@ HLA-DRB1*15:01 chain		subclass	HLA-DRB1 chain
 HLA-DRB1*15:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*15:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*15:04 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*15:06 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*16:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*16:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB3 chain		equivalent	protein	HLA-DRB3 locus
@@ -472,22 +504,34 @@ human non-classical MHC chain		equivalent	protein	human non-classical MHC locus
 Mamu-A chain		equivalent	protein	Mamu-A locus
 Mamu-A1*001:01 chain		subclass	Mamu-A chain	
 Mamu-A1*002:01 chain		subclass	Mamu-A chain	
+Mamu-A1*007:01 chain		subclass	Mamu-A chain	
 Mamu-A1*011:01 chain		subclass	Mamu-A chain	
 Mamu-A1*022:02 chain		subclass	Mamu-A chain	
+Mamu-A2*01:02:01 chain		subclass	Mamu-A chain	
+Mamu-A7*01:03 chain		subclass	Mamu-A chain	
 Mamu-B chain		equivalent	protein	Mamu-B locus
 Mamu-B*001:01 chain		subclass	Mamu-B chain	
 Mamu-B*003:01 chain		subclass	Mamu-B chain	
 Mamu-B*004:01 chain		subclass	Mamu-B chain	
+Mamu-B*008:01 chain		subclass	Mamu-B chain	
 Mamu-B*012:02 chain		subclass	Mamu-B chain	
 Mamu-B*017:04 chain		subclass	Mamu-B chain	
 Mamu-B*029:01 chain		subclass	Mamu-B chain	
+Mamu-B*039:01 chain		subclass	Mamu-B chain	
 Mamu-B*065:02 chain		subclass	Mamu-B chain	
+Mamu-B*066:01 chain		subclass	Mamu-B chain	
+Mamu-B*083:01 chain		subclass	Mamu-B chain	
+Mamu-B*087:01 chain		subclass	Mamu-B chain	
+Mamu-B*090:01 chain		subclass	Mamu-B chain	
+Mamu-B*098 chain		subclass	Mamu-B chain	
 Mamu-DPA chain		equivalent	protein	Mamu-DPA locus
 Mamu-DPB chain		equivalent	protein	Mamu-DPB locus
 Mamu-DPB1*01:01 chain		subclass	Mamu-DPB chain	
+Mamu-DPB1*07:01 chain		subclass	Mamu-DPB chain	
 Mamu-DRA chain		equivalent	protein	Mamu-DRA locus
 Mamu-DRB chain		equivalent	protein	Mamu-DRB locus
 Mamu-DRB*w2:01 chain		subclass	Mamu-DRB chain	
+Mamu-DRB*W6:02 chain		subclass	Mamu-DRB chain	
 Mamu-DRB1*03:03 chain		subclass	Mamu-DRB chain	
 Mamu-DRB1*03:06 chain		subclass	Mamu-DRB chain	
 Mamu-DRB1*03:08 chain		subclass	Mamu-DRB chain	
@@ -592,4 +636,7 @@ SLA-1*0401 chain		subclass	SLA-1 chain
 SLA-1*1502 chain		subclass	SLA-1 chain	
 SLA-2 chain		equivalent	protein	SLA-2 locus
 SLA-2*0401 chain		subclass	SLA-2 chain	
+SLA-3 chain		equivalent	protein	SLA-3 locus
+SLA-3*0202 chain		subclass	SLA-3 chain	
+SLA-3*0401 chain		subclass	SLA-3 chain	
 YF1w*7.1 chain		subclass	BF-YF chain	

@@ -1870,3 +1870,112 @@ MRO:0001866	horse MHC class I protein complex with A9 haplotype	owl:Class
 MRO:0001867	horse MHC class I protein complex with W11 haplotype	owl:Class	
 MRO:0001868	rat MHC protein complex with RT1-c haplotype	owl:Class	
 MRO:0001869	rat MHC protein complex with RT1-l haplotype	owl:Class	
+MRO:0001870	B13 haplotype	owl:Class	
+MRO:0001871	BF2*1301 chain	owl:Class	
+MRO:0001872	BF2*1301 protein complex	owl:Class	
+MRO:0001873	BoLA-1*01901 chain	owl:Class	
+MRO:0001874	BoLA-1*01901 protein complex	owl:Class	
+MRO:0001875	BoLA-2*00801 chain	owl:Class	
+MRO:0001876	BoLA-2*00801 protein complex	owl:Class	
+MRO:0001877	BoLA-4 chain	owl:Class	
+MRO:0001878	BoLA-4 locus	owl:Class	
+MRO:0001879	BoLA-4*02401 chain	owl:Class	
+MRO:0001880	BoLA-4*02401 protein complex	owl:Class	
+MRO:0001881	BoLA-6*01302 chain	owl:Class	
+MRO:0001882	BoLA-6*01302 protein complex	owl:Class	
+MRO:0001883	BoLA-DRB3*1001 chain	owl:Class	
+MRO:0001884	BoLA-DRB3*1001 protein complex	owl:Class	
+MRO:0001885	BoLA-DRB3*1801 chain	owl:Class	
+MRO:0001886	BoLA-DRB3*1801 protein complex	owl:Class	
+MRO:0001887	chicken MHC class I protein complex with B13 haplotype	owl:Class	
+MRO:0001888	ELA-1 chain	owl:Class	
+MRO:0001889	ELA-1 locus	owl:Class	
+MRO:0001890	ELA-16 chain	owl:Class	
+MRO:0001891	ELA-16 locus	owl:Class	
+MRO:0001892	Eqca-1*00101 chain	owl:Class	
+MRO:0001893	Eqca-1*00101 protein complex	owl:Class	
+MRO:0001894	Eqca-1*00201 chain	owl:Class	
+MRO:0001895	Eqca-1*00201 protein complex	owl:Class	
+MRO:0001896	Eqca-16*00101 chain	owl:Class	
+MRO:0001897	Eqca-16*00101 protein complex	owl:Class	
+MRO:0001898	Eqca-N*00101 chain	owl:Class	
+MRO:0001899	Eqca-N*00101 protein complex	owl:Class	
+MRO:0001900	HLA protein complex with A18 serotype	owl:Class	
+MRO:0001901	HLA protein complex with B64 serotype	owl:Class	
+MRO:0001902	HLA-A*01:03 chain	owl:Class	
+MRO:0001903	HLA-A*01:03 protein complex	owl:Class	
+MRO:0001904	HLA-A*30:14L chain	owl:Class	
+MRO:0001905	HLA-A*30:14L protein complex	owl:Class	
+MRO:0001906	HLA-A*66:02 chain	owl:Class	
+MRO:0001907	HLA-A*66:02 protein complex	owl:Class	
+MRO:0001908	HLA-A18 serotype	owl:Class	
+MRO:0001909	HLA-B*14:01 chain	owl:Class	
+MRO:0001910	HLA-B*14:01 protein complex	owl:Class	
+MRO:0001911	HLA-B*15:11 chain	owl:Class	
+MRO:0001912	HLA-B*15:11 protein complex	owl:Class	
+MRO:0001913	HLA-B*15:18 chain	owl:Class	
+MRO:0001914	HLA-B*15:18 protein complex	owl:Class	
+MRO:0001915	HLA-B*15:21 chain	owl:Class	
+MRO:0001916	HLA-B*15:21 protein complex	owl:Class	
+MRO:0001917	HLA-B*18:03 chain	owl:Class	
+MRO:0001918	HLA-B*18:03 protein complex	owl:Class	
+MRO:0001919	HLA-B*27:08 chain	owl:Class	
+MRO:0001920	HLA-B*27:08 protein complex	owl:Class	
+MRO:0001921	HLA-B*35:62 chain	owl:Class	
+MRO:0001922	HLA-B*35:62 protein complex	owl:Class	
+MRO:0001923	HLA-B*39:09 chain	owl:Class	
+MRO:0001924	HLA-B*39:09 protein complex	owl:Class	
+MRO:0001925	HLA-B*39:24 chain	owl:Class	
+MRO:0001926	HLA-B*39:24 protein complex	owl:Class	
+MRO:0001927	HLA-B*45:07 chain	owl:Class	
+MRO:0001928	HLA-B*45:07 protein complex	owl:Class	
+MRO:0001929	HLA-B*47:01 chain	owl:Class	
+MRO:0001930	HLA-B*47:01 protein complex	owl:Class	
+MRO:0001931	HLA-B*50:02 chain	owl:Class	
+MRO:0001932	HLA-B*50:02 protein complex	owl:Class	
+MRO:0001933	HLA-B64 serotype	owl:Class	
+MRO:0001934	HLA-C*12:04 chain	owl:Class	
+MRO:0001935	HLA-C*12:04 protein complex	owl:Class	
+MRO:0001936	HLA-DPA1*01:03/DPB1*06:01 protein complex	owl:Class	
+MRO:0001937	HLA-DPA1*01:03/DPB1*14:01 protein complex	owl:Class	
+MRO:0001938	HLA-DPA1*01:03/DPB1*20:01 protein complex	owl:Class	
+MRO:0001939	HLA-DPA1*02:01/DPB1*14:01 protein complex	owl:Class	
+MRO:0001940	HLA-DQA1*01:02/DRB1*15:01 protein complex	owl:Class	
+MRO:0001941	HLA-DQA1*02:01/DQB1*03:02 protein complex	owl:Class	
+MRO:0001942	HLA-DQB1*05:04 chain	owl:Class	
+MRO:0001943	HLA-DQB1*05:04 protein complex	owl:Class	
+MRO:0001944	HLA-DRA*01:01/DRB1*03:01 Q74R mutant	owl:Class	
+MRO:0001945	HLA-DRA*01:01/DRB1*10:01 protein complex	owl:Class	
+MRO:0001946	HLA-DRA*01:02/DRB1*03:01 Q74R mutant	owl:Class	
+MRO:0001947	HLA-DRB1*15:06 chain	owl:Class	
+MRO:0001948	HLA-DRB1*15:06 protein complex	owl:Class	
+MRO:0001949	Mamu-A1*007:01 chain	owl:Class	
+MRO:0001950	Mamu-A1*007:01 protein complex	owl:Class	
+MRO:0001951	Mamu-A2*01:02:01 chain	owl:Class	
+MRO:0001952	Mamu-A2*01:02:01 protein complex	owl:Class	
+MRO:0001953	Mamu-A7*01:03 chain	owl:Class	
+MRO:0001954	Mamu-A7*01:03 protein complex	owl:Class	
+MRO:0001955	Mamu-B*008:01 chain	owl:Class	
+MRO:0001956	Mamu-B*008:01 protein complex	owl:Class	
+MRO:0001957	Mamu-B*039:01 chain	owl:Class	
+MRO:0001958	Mamu-B*039:01 protein complex	owl:Class	
+MRO:0001959	Mamu-B*066:01 chain	owl:Class	
+MRO:0001960	Mamu-B*066:01 protein complex	owl:Class	
+MRO:0001961	Mamu-B*083:01 chain	owl:Class	
+MRO:0001962	Mamu-B*083:01 protein complex	owl:Class	
+MRO:0001963	Mamu-B*087:01 chain	owl:Class	
+MRO:0001964	Mamu-B*087:01 protein complex	owl:Class	
+MRO:0001965	Mamu-B*090:01 chain	owl:Class	
+MRO:0001966	Mamu-B*090:01 protein complex	owl:Class	
+MRO:0001967	Mamu-B*098 chain	owl:Class	
+MRO:0001968	Mamu-B*098 protein complex	owl:Class	
+MRO:0001969	Mamu-DPB1*07:01 chain	owl:Class	
+MRO:0001970	Mamu-DPB1*07:01 protein complex	owl:Class	
+MRO:0001971	Mamu-DRB*W6:02 chain	owl:Class	
+MRO:0001972	Mamu-DRB*W6:02 protein complex	owl:Class	
+MRO:0001973	SLA-3 chain	owl:Class	
+MRO:0001974	SLA-3 locus	owl:Class	
+MRO:0001975	SLA-3*0202 chain	owl:Class	
+MRO:0001976	SLA-3*0202 protein complex	owl:Class	
+MRO:0001977	SLA-3*0401 chain	owl:Class	
+MRO:0001978	SLA-3*0401 protein complex	owl:Class	

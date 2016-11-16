@@ -10,6 +10,7 @@ chimpanzee MHC class II protein complex with serotype	chimpanzee		serotype	equiv
 cotton-top tamarin MHC class I protein complex with serotype	cotton-top tamarin		serotype	equivalent	MHC protein complex	cotton-top tamarin	cotton-top tamarin MHC class I serotype
 HLA protein complex with A1 serotype	HLA-A1	HLA-A*01	serotype	equivalent	MHC protein complex	human	HLA-A1 serotype
 HLA protein complex with A11 serotype	HLA-A11	HLA-A*11	serotype	equivalent	MHC protein complex	human	HLA-A11 serotype
+HLA protein complex with A18 serotype	HLA-A18	HLA-A*18	serotype	equivalent	MHC protein complex	human	HLA-A18 serotype
 HLA protein complex with A2 serotype	HLA-A2	HLA-A*02|HLA-A2.2	serotype	equivalent	MHC protein complex	human	HLA-A2 serotype
 HLA protein complex with A203 serotype	HLA-A203		serotype	equivalent	MHC protein complex	human	HLA-A203 serotype
 HLA protein complex with A23 serotype	HLA-A23	HLA-A*23	serotype	equivalent	MHC protein complex	human	HLA-A23 serotype
@@ -66,6 +67,7 @@ HLA protein complex with B60 serotype	HLA-B60	HLA-B*60	serotype	equivalent	MHC p
 HLA protein complex with B61 serotype	HLA-B61	HLA-B*61	serotype	equivalent	MHC protein complex	human	HLA-B61 serotype
 HLA protein complex with B62 serotype	HLA-B62	HLA-B*62	serotype	equivalent	MHC protein complex	human	HLA-B62 serotype
 HLA protein complex with B63 serotype	HLA-B63	HLA-B*63	serotype	equivalent	MHC protein complex	human	HLA-B63 serotype
+HLA protein complex with B64 serotype	HLA-B64		serotype	equivalent	MHC protein complex	human	HLA-B64 serotype
 HLA protein complex with B65 serotype	HLA-B65		serotype	equivalent	MHC protein complex	human	HLA-B65 serotype
 HLA protein complex with B7 serotype	HLA-B7	HLA-B*07	serotype	equivalent	MHC protein complex	human	HLA-B7 serotype
 HLA protein complex with B70 serotype	HLA-B70		serotype	equivalent	MHC protein complex	human	HLA-B70 serotype

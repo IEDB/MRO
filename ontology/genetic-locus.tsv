@@ -7,6 +7,7 @@ BF2 locus		subclass	chicken MHC class I locus
 BoLA-1 locus		subclass	cattle MHC class I locus	
 BoLA-2 locus		subclass	cattle MHC class I locus	
 BoLA-3 locus		subclass	cattle MHC class I locus	
+BoLA-4 locus		subclass	cattle MHC class I locus	
 BoLA-6 locus		subclass	cattle MHC class I locus	
 BoLA-CD1 locus		subclass	cattle non-classical MHC locus	
 BoLA-DQA locus		subclass	cattle MHC class II locus	
@@ -34,6 +35,8 @@ cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top ta
 DLA-88 locus		subclass	dog MHC class I locus	
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
+ELA-1 locus		subclass	horse MHC class I locus	
+ELA-16 locus		subclass	horse MHC class I locus	
 ELA-N locus		subclass	horse MHC class I locus	
 Gogo-B locus		subclass	gorilla MHC class I locus	
 gorilla MHC class I locus		subclass	MHC class I locus	gorilla
@@ -117,3 +120,4 @@ sheep MHC class I locus		subclass	MHC class I locus	sheep
 sheep MHC class II locus		subclass	MHC class II locus	sheep
 SLA-1 locus		subclass	pig MHC class I locus	
 SLA-2 locus		subclass	pig MHC class I locus	
+SLA-3 locus		subclass	pig MHC class I locus	
