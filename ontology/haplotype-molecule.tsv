@@ -1,23 +1,23 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	With Haplotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A MRO:has-mhc-restriction	CLASS_TYPE	C %	C 'in taxon' some %	C 'haplotype member of' some %
-cattle MHC protein complex with DH22B haplotype	DH22B		haplotype	equivalent	MHC protein complex	cattle	DH22B haplotype
 cattle MHC protein complex with DH7A haplotype	DH7A		haplotype	equivalent	MHC protein complex	cattle	DH7A haplotype
 cattle MHC protein complex with DH8A haplotype	DH8A		haplotype	equivalent	MHC protein complex	cattle	DH8A haplotype
+cattle MHC protein complex with DH22B haplotype	DH22B		haplotype	equivalent	MHC protein complex	cattle	DH22B haplotype
 cattle MHC protein complex with haplotype	cattle		haplotype	equivalent	MHC protein complex	cattle	MHC haplotype
+chicken MHC class I protein complex with B4 haplotype	B4 class I		haplotype	equivalent	MHC class I protein complex	chicken	B4 haplotype
 chicken MHC class I protein complex with B12 haplotype	B12 class I		haplotype	equivalent	MHC class I protein complex	chicken	B12 haplotype
 chicken MHC class I protein complex with B13 haplotype	B13 class I		haplotype	equivalent	MHC class I protein complex	chicken	B13 haplotype
 chicken MHC class I protein complex with B15 haplotype	B15 class I		haplotype	equivalent	MHC class I protein complex	chicken	B15 haplotype
 chicken MHC class I protein complex with B19 haplotype	B19 class I		haplotype	equivalent	MHC class I protein complex	chicken	B19 haplotype
-chicken MHC class I protein complex with B4 haplotype	B4 class I		haplotype	equivalent	MHC class I protein complex	chicken	B4 haplotype
 chicken MHC class II protein complex with BF19 haplotype	BF19 class II		haplotype	equivalent	MHC class II protein complex	chicken	BF19 haplotype
 chicken MHC class II protein complex with BF21 haplotype	BF21 class II		haplotype	equivalent	MHC class II protein complex	chicken	BF21 haplotype
+chicken MHC protein complex with B2 haplotype	B2		haplotype	equivalent	MHC protein complex	chicken	B2 haplotype
+chicken MHC protein complex with B4 haplotype	B4		haplotype	equivalent	MHC protein complex	chicken	B4 haplotype
 chicken MHC protein complex with B12 haplotype	B12		haplotype	equivalent	MHC protein complex	chicken	B12 haplotype
 chicken MHC protein complex with B14 haplotype	B14		haplotype	equivalent	MHC protein complex	chicken	B14 haplotype
 chicken MHC protein complex with B15 haplotype	B15		haplotype	equivalent	MHC protein complex	chicken	B15 haplotype
 chicken MHC protein complex with B19 haplotype	B19		haplotype	equivalent	MHC protein complex	chicken	B19 haplotype
-chicken MHC protein complex with B2 haplotype	B2		haplotype	equivalent	MHC protein complex	chicken	B2 haplotype
 chicken MHC protein complex with B21 haplotype	B21		haplotype	equivalent	MHC protein complex	chicken	B21 haplotype
-chicken MHC protein complex with B4 haplotype	B4		haplotype	equivalent	MHC protein complex	chicken	B4 haplotype
 chicken MHC protein complex with BF19 haplotype	BF19		haplotype	equivalent	MHC protein complex	chicken	BF19 haplotype
 chicken MHC protein complex with BF21 haplotype	BF21		haplotype	equivalent	MHC protein complex	chicken	BF21 haplotype
 chicken MHC protein complex with haplotype	chicken		haplotype	equivalent	MHC protein complex	chicken	MHC haplotype
@@ -60,8 +60,8 @@ mouse MHC class II protein complex with H2-b haplotype	H2-b class II		haplotype	
 mouse MHC class II protein complex with H2-d haplotype	H2-d class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-d haplotype
 mouse MHC class II protein complex with H2-f haplotype	H2-f class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-f haplotype
 mouse MHC class II protein complex with H2-g7 haplotype	H2-g7 class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-g7 haplotype
-mouse MHC class II protein complex with H2-i haplotype	H2-i class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-i haplotype
 mouse MHC class II protein complex with H2-i3 haplotype	H2-i3 class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-i3 haplotype
+mouse MHC class II protein complex with H2-i haplotype	H2-i class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-i haplotype
 mouse MHC class II protein complex with H2-k haplotype	H2-k class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-k haplotype
 mouse MHC class II protein complex with H2-p haplotype	H2-p class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-p haplotype
 mouse MHC class II protein complex with H2-q haplotype	H2-q class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-q haplotype
@@ -75,8 +75,8 @@ mouse MHC protein complex with H2-b haplotype	H2-b		haplotype	equivalent	MHC pro
 mouse MHC protein complex with H2-d haplotype	H2-d		haplotype	equivalent	MHC protein complex	mouse	H2-d haplotype
 mouse MHC protein complex with H2-f haplotype	H2-f		haplotype	equivalent	MHC protein complex	mouse	H2-f haplotype
 mouse MHC protein complex with H2-g7 haplotype	H2-g7		haplotype	equivalent	MHC protein complex	mouse	H2-g7 haplotype
-mouse MHC protein complex with H2-i haplotype	H2-i		haplotype	equivalent	MHC protein complex	mouse	H2-i haplotype
 mouse MHC protein complex with H2-i3 haplotype	H2-i3		haplotype	equivalent	MHC protein complex	mouse	H2-i3 haplotype
+mouse MHC protein complex with H2-i haplotype	H2-i		haplotype	equivalent	MHC protein complex	mouse	H2-i haplotype
 mouse MHC protein complex with H2-k haplotype	H2-k		haplotype	equivalent	MHC protein complex	mouse	H2-k haplotype
 mouse MHC protein complex with H2-p haplotype	H2-p		haplotype	equivalent	MHC protein complex	mouse	H2-p haplotype
 mouse MHC protein complex with H2-q haplotype	H2-q		haplotype	equivalent	MHC protein complex	mouse	H2-q haplotype

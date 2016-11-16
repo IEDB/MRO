@@ -31,13 +31,13 @@ BoLA-DQ protein complex	BoLA-DQ		locus	equivalent	MHC class II protein complex	c
 BoLA-DQA*0202 protein complex	BoLA-DQA*0202	BoLA-DQA1*0202|DQA0202	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*0202 chain	BoLA-DQB chain		
 BoLA-DQA*0301 protein complex	BoLA-DQA*0301	BoLA-DQA1*0301|DQA0301	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*0301 chain	BoLA-DQB chain		
 BoLA-DQA*0301/DQB*0402 protein complex	BoLA-DQA*0301/DQB*0402	DQA0301/DQB0402	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*0301 chain	BoLA-DQB*0402 chain		
-BoLA-DQA*10011/DQB*10021 protein complex	BoLA-DQA*10011/DQB*10021	DQA10011/DQB10021	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*10011 chain	BoLA-DQB*10021 chain		
-BoLA-DQA*12011/DQB*10051 protein complex	BoLA-DQA*12011/DQB*10051	DQA12011/DQB10051	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*12011 chain	BoLA-DQB*10051 chain		
 BoLA-DQA*2201/DQB*1201 protein complex	BoLA-DQA*2201/DQB*1201	DQA2201/DQB1201	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2201 chain	BoLA-DQB*1201 chain		
 BoLA-DQA*2202/DQB*0901 protein complex	BoLA-DQA*2202/DQB*0901	DQA2202/DQB0901	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2202 chain	BoLA-DQB*0901 chain		
 BoLA-DQA*2202/DQB*1301 protein complex	BoLA-DQA*2202/DQB*1301	DQA2202/DQB1301	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2202 chain	BoLA-DQB*1301 chain		
 BoLA-DQA*2206/DQB*1301 protein complex	BoLA-DQA*2206/DQB*1301	DQA2206/DQB1301	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2206 chain	BoLA-DQB*1301 chain		
 BoLA-DQA*2206/DQB*1402 protein complex	BoLA-DQA*2206/DQB*1402	DQA2206/DQB1402	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*2206 chain	BoLA-DQB*1402 chain		
+BoLA-DQA*10011/DQB*10021 protein complex	BoLA-DQA*10011/DQB*10021	DQA10011/DQB10021	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*10011 chain	BoLA-DQB*10021 chain		
+BoLA-DQA*12011/DQB*10051 protein complex	BoLA-DQA*12011/DQB*10051	DQA12011/DQB10051	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*12011 chain	BoLA-DQB*10051 chain		
 BoLA-DR protein complex	BoLA-DR		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB chain		
 BoLA-DRB3 protein complex	BoLA-DRB3		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3 chain		
 BoLA-DRB3*0101 protein complex	BoLA-DRB3*0101	DRB30101	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*0101 chain		
@@ -47,7 +47,6 @@ BoLA-DRB3*1001 protein complex	BoLA-DRB3*1001		partial molecule	equivalent	MHC c
 BoLA-DRB3*1101 protein complex	BoLA-DRB3*1101	DRB31101	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*1101 chain	DH22B haplotype	
 BoLA-DRB3*1201 protein complex	BoLA-DRB3*1201	DRB31201	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*1201 chain	DH8A haplotype	
 BoLA-DRB3*1202 protein complex	BoLA-DRB3*1202	DRB31202	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*1202 chain		
-BoLA-DRB3*14011 protein complex	BoLA-DRB3*14011	DRB314011	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*14011 chain		
 BoLA-DRB3*1501 protein complex	BoLA-DRB3*1501	DRB31501	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*1501 chain		
 BoLA-DRB3*1502 protein complex	BoLA-DRB3*1502	DRB31502	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*1502 chain		
 BoLA-DRB3*1801 protein complex	BoLA-DRB3*1801		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*1801 chain		
@@ -55,6 +54,7 @@ BoLA-DRB3*2002 protein complex	BoLA-DRB3*2002	DRB32002	partial molecule	equivale
 BoLA-DRB3*2703 protein complex	BoLA-DRB3*2703	DRB32703	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*2703 chain		
 BoLA-DRB3*3001 protein complex	BoLA-DRB3*3001	DRB33001	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*3001 chain		
 BoLA-DRB3*4501 protein complex	BoLA-DRB3*4501	DRB34501	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*4501 chain		
+BoLA-DRB3*14011 protein complex	BoLA-DRB3*14011	DRB314011	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*14011 chain		
 BoLA-DRB6 protein complex	BoLA-DRB6		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB6 chain		
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
@@ -130,10 +130,10 @@ H2-L protein complex	H2-L		locus	equivalent	MHC class I protein complex	mouse	H2
 H2-Ld protein complex	H2-Ld		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Ld chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Lq protein complex	H2-Lq	H2-Lw16	complete molecule	equivalent	MHC class I protein complex	mouse	H2-Lq chain	Beta-2-microglobulin	H2-q haplotype	
 H2-M3 protein complex	H2-M3		complete molecule	equivalent	non-classical MHC protein complex	mouse	H2-M3 chain			
-H2-Q protein complex	H2-Q		locus	equivalent	MHC class I protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
 H2-Q1 protein complex	H2-Q1		locus	equivalent	MHC class I protein complex	mouse	H2-Q1 chain	Beta-2-microglobulin		
 H2-Q2 protein complex	H2-Q2		locus	equivalent	MHC class I protein complex	mouse	H2-Q2 chain	Beta-2-microglobulin		
 H2-Q9 protein complex	H2-Q9		locus	equivalent	MHC class I protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
+H2-Q protein complex	H2-Q		locus	equivalent	MHC class I protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
 H2-Qa1 protein complex	H2-Qa1	Qa-1b	complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa1 chain	Beta-2-microglobulin	H2-a haplotype	
 H2-Qa2 protein complex	H2-Qa2		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa2 chain	Beta-2-microglobulin	H2-a haplotype	
 H2-Qa9 protein complex	H2-Qa9		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa9 chain	Beta-2-microglobulin	H2-a haplotype	
@@ -390,7 +390,6 @@ HLA-DQA1*05:01/DQB1*03:03 protein complex	HLA-DQA1*05:01/DQB1*03:03	DQA1*0501/DQ
 HLA-DQA1*05:01/DQB1*04:02 protein complex	HLA-DQA1*05:01/DQB1*04:02	DQA1*0501/DQB1*0402|DQA10501/DQB10402|DQA105:01/DQB104:02	complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:01 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
 HLA-DQA1*05:05/DQB1*03:01 protein complex	HLA-DQA1*05:05/DQB1*03:01	HLA-DQA1*0505/DQB1*0301|DQA1*0505/DQB1*0301|DQA10505/DQB10301|DQA105:05/DQB103:01	complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:05 chain	HLA-DQB1*03:01 chain		HLA-DQ7 serotype
 HLA-DQA1*06:01/DQB1*04:02 protein complex	HLA-DQA1*06:01/DQB1*04:02	DQA1*0601/DQB1*0402|DQA10601/DQB10402|DQA106:01/DQB104:02	complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*06:01 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
-HLA-DQB*03:02 protein complex	HLA-DQB*03:02	HLA-DQB*0302|DQB*0302|DQB0302|DQB03:02	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB*03:02 chain		HLA-DQ8 serotype
 HLA-DQB1*02:01 protein complex	HLA-DQB1*02:01	HLA-DQB1*0201|DQB1*0201|DQB10201|DQB102:01	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*02:01 chain		HLA-DQ2 serotype
 HLA-DQB1*02:02 protein complex	HLA-DQB1*02:02	HLA-DQB1*0202|DQB1*0202|DQB10202|DQB102:02	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*02:02 chain		HLA-DQ2 serotype
 HLA-DQB1*03:01 protein complex	HLA-DQB1*03:01	HLA-DQB1*0301|DQB1*0301|DQB10301|DQB103:01	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*03:01 chain		HLA-DQ7 serotype
@@ -411,6 +410,7 @@ HLA-DQB1*06:03 protein complex	HLA-DQB1*06:03	HLA-DQB1*0603|DQB1*0603|DQB10603|D
 HLA-DQB1*06:04 protein complex	HLA-DQB1*06:04	HLA-DQB1*0604|DQB1*0604|DQB10604|DQB106:04	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:04 chain		HLA-DQ6 serotype
 HLA-DQB1*06:05 protein complex	HLA-DQB1*06:05	HLA-DQB1*0605|DQB1*0605|DQB10605|DQB106:05	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:05 chain		HLA-DQ6 serotype
 HLA-DQB1*06:09 protein complex	HLA-DQB1*06:09	HLA-DQB1*0609|DQB1*0609|DQB10609|DQB106:09	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:09 chain		HLA-DQ6 serotype
+HLA-DQB*03:02 protein complex	HLA-DQB*03:02	HLA-DQB*0302|DQB*0302|DQB0302|DQB03:02	partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB*03:02 chain		HLA-DQ8 serotype
 HLA-DR protein complex	HLA-DR		locus	equivalent	MHC class II protein complex	human	HLA-DRA chain	HLA-DRB chain		
 HLA-DRA*01:01/DRB1*01:01 protein complex	HLA-DRA*01:01/DRB1*01:01	HLA-DRA*0101/DRB1*0101|HLA-DRA1*0101/DRB1*0101|DRA*0101/DRB1*0101|DRA0101/DRB10101|DRA01:01/DRB101:01	complete molecule	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*01:01 chain		HLA-DR1 serotype
 HLA-DRA*01:01/DRB1*03:01 protein complex	HLA-DRA*01:01/DRB1*03:01	HLA-DRA*0101/DRB1*0301|HLA-DRA1*0101/DRB1*0301|DRA*0101/DRB1*0301|DRA0101/DRB10301|DRA01:01/DRB103:01	complete molecule	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*03:01 chain		HLA-DR3 serotype
@@ -524,7 +524,6 @@ human MHC class I protein complex	human		class	equivalent	MHC class I protein co
 human MHC class II protein complex	human		class	equivalent	MHC class II protein complex	human				
 human MR1 protein complex	human MR1	HLA-MR1|hMR1	complete molecule	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
 human non-classical MHC protein complex	human		class	equivalent	non-classical MHC protein complex	human				
-Mamu-A protein complex	Mamu-A		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A chain	Beta-2-microglobulin		
 Mamu-A1*001:01 protein complex	Mamu-A1*001:01	A01	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*001:01 chain	Beta-2-microglobulin		
 Mamu-A1*002:01 protein complex	Mamu-A1*002:01	A02	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*002:01 chain	Beta-2-microglobulin		
 Mamu-A1*007:01 protein complex	Mamu-A1*007:01		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*007:01 chain	Beta-2-microglobulin		
@@ -532,6 +531,7 @@ Mamu-A1*011:01 protein complex	Mamu-A1*011:01	A11	complete molecule	equivalent	M
 Mamu-A1*022:02 protein complex	Mamu-A1*022:02	A08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*022:02 chain	Beta-2-microglobulin		
 Mamu-A2*01:02:01 protein complex	Mamu-A2*01:02:01		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A2*01:02:01 chain	Beta-2-microglobulin		
 Mamu-A7*01:03 protein complex	Mamu-A7*01:03		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A7*01:03 chain	Beta-2-microglobulin		
+Mamu-A protein complex	Mamu-A		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A chain	Beta-2-microglobulin		
 Mamu-B protein complex	Mamu-B		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B chain	Beta-2-microglobulin		
 Mamu-B*001:01 protein complex	Mamu-B*001:01	B01	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*001:01 chain	Beta-2-microglobulin		
 Mamu-B*003:01 protein complex	Mamu-B*003:01	B03	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B*003:01 chain	Beta-2-microglobulin		
@@ -551,12 +551,12 @@ Mamu-DP protein complex	Mamu-DP		locus	equivalent	MHC class II protein complex	r
 Mamu-DPB1*01:01 protein complex	Mamu-DPB1*01:01	Mamu-DPB1*0101|DPB1*0101|DPB10101|DPB101:01	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB1*01:01 chain		
 Mamu-DPB1*07:01 protein complex	Mamu-DPB1*07:01		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB1*07:01 chain		
 Mamu-DR protein complex	Mamu-DR		locus	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB chain		
-Mamu-DRB*w2:01 protein complex	Mamu-DRB*w2:01	Mamu-DRBW2*0101|DRB*w201|DRBw201|DRBw2:01	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*w2:01 chain		
-Mamu-DRB*W6:02 protein complex	Mamu-DRB*W6:02		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*W6:02 chain		
 Mamu-DRB1*03:03 protein complex	Mamu-DRB1*03:03	Mamu-DRB1*0303|DRB1*0303|DRB10303|DRB103:03	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:03 chain		
 Mamu-DRB1*03:06 protein complex	Mamu-DRB1*03:06	Mamu-DRB1*0306|DRB1*0306|DRB10306|DRB103:06	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:06 chain		
 Mamu-DRB1*03:08 protein complex	Mamu-DRB1*03:08	Mamu-DRB1*0308|DRB1*0308|DRB10308|DRB103:08	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:08 chain		
 Mamu-DRB1*04:06 protein complex	Mamu-DRB1*04:06	Mamu-DRB1*0406|DRB1*0406|DRB10406|DRB104:06	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*04:06 chain		
+Mamu-DRB*w2:01 protein complex	Mamu-DRB*w2:01	Mamu-DRBW2*0101|DRB*w201|DRBw201|DRBw2:01	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*w2:01 chain		
+Mamu-DRB*W6:02 protein complex	Mamu-DRB*W6:02		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*W6:02 chain		
 marmoset MHC class I protein complex	marmoset		class	equivalent	MHC class I protein complex	marmoset				
 MHC class I protein complex	class I		class	subclass	MHC protein complex					
 MHC class II protein complex	class II		class	subclass	MHC protein complex					
@@ -618,9 +618,9 @@ rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC 
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
-RT1-A protein complex	RT1-A		locus	equivalent	MHC class I protein complex	rat	RT1-A chain	Beta-2-microglobulin		
 RT1-A1 protein complex	RT1-A1		locus	equivalent	MHC class I protein complex	rat	RT1-A1 chain	Beta-2-microglobulin		
 RT1-A2 protein complex	RT1-A2		locus	equivalent	MHC class I protein complex	rat	RT1-A2 chain	Beta-2-microglobulin		
+RT1-A protein complex	RT1-A		locus	equivalent	MHC class I protein complex	rat	RT1-A chain	Beta-2-microglobulin		
 RT1-Aa protein complex	RT1-Aa		complete molecule	equivalent	MHC class I protein complex	rat	RT1-Aa chain	Beta-2-microglobulin	RT1-a haplotype	
 RT1-Ac protein complex	RT1-Ac		complete molecule	equivalent	MHC class I protein complex	rat	RT1-Ac chain	Beta-2-microglobulin	RT1-c haplotype	
 RT1-B protein complex	RT1-B		locus	equivalent	MHC class II protein complex	rat	RT1-B alpha chain	RT1-B beta chain		

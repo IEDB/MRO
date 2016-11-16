@@ -57,6 +57,13 @@ $(LIB)/%:
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
 
+# Utilities
+
+.PHONY: sort
+sort:
+	src/sort.py $(TSVFiles)
+
+
 # generate files for IEDB
 
 build:
@@ -79,6 +86,19 @@ build/search.csv: mro-iedb.owl src/search.rq | build
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
+build/parents.csv: mro-iedb.owl src/parents.rq | build
+	robot query --input $(word 1,$^) --select $(word 2,$^) $@
+
+build/tree.csv: src/tree.py build/parents.csv | build
+	$^ --mode CSV > $@
+
+build/tree.json: src/tree.py build/parents.csv | build
+	$^ --mode JSON > $@
+
+.PHONY: test
+test:
+
+	py.test src/tree.py
 .PHONY: check
 check: build/mhc_allele_restriction.tsv
 	diff reference/mhc_allele_restriction.tsv build/mhc_allele_restriction.tsv

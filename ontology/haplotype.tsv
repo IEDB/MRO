@@ -8,28 +8,28 @@ A6 haplotype		subclass	horse haplotype
 A7 haplotype		subclass	horse haplotype	
 A8 haplotype		subclass	horse haplotype	
 A9 haplotype		subclass	horse haplotype	
+B2 haplotype		subclass	chicken haplotype	
+B4 haplotype		subclass	chicken haplotype	
 B12 haplotype		subclass	chicken haplotype	
 B13 haplotype		subclass	chicken haplotype	
 B14 haplotype		subclass	chicken haplotype	
 B15 haplotype		subclass	chicken haplotype	
 B19 haplotype		subclass	chicken haplotype	
-B2 haplotype		subclass	chicken haplotype	
 B21 haplotype		subclass	chicken haplotype	
-B4 haplotype		subclass	chicken haplotype	
 BF19 haplotype		subclass	chicken haplotype	
 BF21 haplotype		subclass	chicken haplotype	
 cattle haplotype		equivalent	MHC haplotype	cattle
 chicken haplotype		equivalent	MHC haplotype	chicken
-DH22B haplotype		subclass	cattle haplotype	
 DH7A haplotype		subclass	cattle haplotype	
 DH8A haplotype		subclass	cattle haplotype	
+DH22B haplotype		subclass	cattle haplotype	
 H2-a haplotype		subclass	mouse haplotype	
 H2-b haplotype		subclass	mouse haplotype	
 H2-d haplotype		subclass	mouse haplotype	
 H2-f haplotype		subclass	mouse haplotype	
 H2-g7 haplotype		subclass	mouse haplotype	
-H2-i haplotype		subclass	mouse haplotype	
 H2-i3 haplotype		subclass	mouse haplotype	
+H2-i haplotype		subclass	mouse haplotype	
 H2-k haplotype		subclass	mouse haplotype	
 H2-p haplotype		subclass	mouse haplotype	
 H2-q haplotype		subclass	mouse haplotype	

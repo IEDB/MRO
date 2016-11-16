@@ -1,9 +1,9 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-BF-B locus		subclass	chicken non-classical MHC locus	
-BF-YF locus		subclass	chicken non-classical MHC locus	
 BF1 locus		subclass	chicken MHC class I locus	
 BF2 locus		subclass	chicken MHC class I locus	
+BF-B locus		subclass	chicken non-classical MHC locus	
+BF-YF locus		subclass	chicken non-classical MHC locus	
 BoLA-1 locus		subclass	cattle MHC class I locus	
 BoLA-2 locus		subclass	cattle MHC class I locus	
 BoLA-3 locus		subclass	cattle MHC class I locus	
@@ -13,9 +13,9 @@ BoLA-CD1 locus		subclass	cattle non-classical MHC locus
 BoLA-DQA locus		subclass	cattle MHC class II locus	
 BoLA-DQB locus		subclass	cattle MHC class II locus	
 BoLA-DRA locus		subclass	cattle MHC class II locus	
-BoLA-DRB locus		subclass	cattle MHC class II locus	
 BoLA-DRB3 locus		subclass	BoLA-DRB locus	
 BoLA-DRB6 locus		subclass	BoLA-DRB locus	
+BoLA-DRB locus		subclass	cattle MHC class II locus	
 BoLA-MR1 locus		subclass	cattle non-classical MHC locus	
 bonobo MHC class I locus		subclass	MHC class I locus	bonobo
 bonobo MHC class II locus		subclass	MHC class II locus	bonobo
@@ -51,10 +51,10 @@ H2-K locus		subclass	mouse MHC class I locus
 H2-L locus		subclass	mouse MHC class I locus	
 H2-M locus		subclass	mouse non-classical MHC locus	
 H2-MR1 locus		subclass	mouse non-classical MHC locus	
-H2-Q locus		subclass	mouse MHC class I locus	
 H2-Q1 locus		subclass	H2-Q locus	
 H2-Q2 locus		subclass	H2-Q locus	
 H2-Q9 locus		subclass	H2-Q locus	
+H2-Q locus		subclass	mouse MHC class I locus	
 HLA-A locus		subclass	human MHC class I locus	
 HLA-B locus		subclass	human MHC class I locus	
 HLA-BTN3A locus		subclass	human non-classical MHC locus	
@@ -65,11 +65,11 @@ HLA-DPB locus		subclass	human MHC class II locus
 HLA-DQA locus		subclass	human MHC class II locus	
 HLA-DQB locus		subclass	human MHC class II locus	
 HLA-DRA locus		subclass	human MHC class II locus	
-HLA-DRB locus		subclass	human MHC class II locus	
 HLA-DRB1 locus		subclass	HLA-DRB locus	
 HLA-DRB3 locus		subclass	HLA-DRB locus	
 HLA-DRB4 locus		subclass	HLA-DRB locus	
 HLA-DRB5 locus		subclass	HLA-DRB locus	
+HLA-DRB locus		subclass	human MHC class II locus	
 HLA-E locus		subclass	human non-classical MHC locus	
 HLA-G locus		subclass	human non-classical MHC locus	
 HLA-MR1 locus		subclass	human non-classical MHC locus	
@@ -108,9 +108,9 @@ rat MHC class I locus		subclass	MHC class I locus	rat
 rat MHC class II locus		subclass	MHC class II locus	rat
 rhesus macaque MHC class I locus		subclass	MHC class I locus	rhesus macaque
 rhesus macaque MHC class II locus		subclass	MHC class II locus	rhesus macaque
-RT1-A locus		subclass	rat MHC class I locus	
 RT1-A1 locus		subclass	RT1-A locus	
 RT1-A2 locus		subclass	RT1-A locus	
+RT1-A locus		subclass	rat MHC class I locus	
 RT1-B alpha locus		subclass	rat MHC class II locus	
 RT1-B beta locus		subclass	rat MHC class II locus	
 RT1-D alpha locus		subclass	rat MHC class II locus	

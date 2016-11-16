@@ -8,20 +8,17 @@ BoLA-A31 serotype		subclass	cattle MHC class I serotype
 cattle MHC class I serotype		equivalent	MHC class I serotype	cattle
 chimpanzee MHC class II serotype		equivalent	MHC class II serotype	chimpanzee
 cotton-top tamarin MHC class I serotype		equivalent	MHC class I serotype	cotton-top tamarin
-HLA-A serotype		subclass	human MHC class I serotype	
 HLA-A1 serotype		subclass	HLA-A serotype	
+HLA-A2 serotype		subclass	HLA-A serotype	
+HLA-A3 serotype		subclass	HLA-A serotype	
 HLA-A11 serotype		subclass	HLA-A serotype	
 HLA-A18 serotype		subclass	HLA-A serotype	
-HLA-A2 serotype		subclass	HLA-A serotype	
-HLA-A203 serotype		subclass	HLA-A serotype	
 HLA-A23 serotype		subclass	HLA-A serotype	
 HLA-A24 serotype		subclass	HLA-A serotype	
-HLA-A2403 serotype		subclass	HLA-A serotype	
 HLA-A25 serotype		subclass	HLA-A serotype	
 HLA-A26 serotype		subclass	HLA-A serotype	
 HLA-A28 serotype		subclass	HLA-A serotype	
 HLA-A29 serotype		subclass	HLA-A serotype	
-HLA-A3 serotype		subclass	HLA-A serotype	
 HLA-A30 serotype		subclass	HLA-A serotype	
 HLA-A31 serotype		subclass	HLA-A serotype	
 HLA-A32 serotype		subclass	HLA-A serotype	
@@ -32,7 +29,11 @@ HLA-A68 serotype		subclass	HLA-A serotype
 HLA-A69 serotype		subclass	HLA-A serotype	
 HLA-A74 serotype		subclass	HLA-A serotype	
 HLA-A80 serotype		subclass	HLA-A serotype	
-HLA-B serotype		subclass	human MHC class I serotype	
+HLA-A203 serotype		subclass	HLA-A serotype	
+HLA-A2403 serotype		subclass	HLA-A serotype	
+HLA-A serotype		subclass	human MHC class I serotype	
+HLA-B7 serotype		subclass	HLA-B serotype	
+HLA-B8 serotype		subclass	HLA-B serotype	
 HLA-B12 serotype		subclass	HLA-B serotype	
 HLA-B13 serotype		subclass	HLA-B serotype	
 HLA-B14 serotype		subclass	HLA-B serotype	
@@ -45,7 +46,6 @@ HLA-B35 serotype		subclass	HLA-B serotype
 HLA-B37 serotype		subclass	HLA-B serotype	
 HLA-B38 serotype		subclass	HLA-B serotype	
 HLA-B39 serotype		subclass	HLA-B serotype	
-HLA-B3901 serotype		subclass	HLA-B serotype	
 HLA-B40 serotype		subclass	HLA-B serotype	
 HLA-B41 serotype		subclass	HLA-B serotype	
 HLA-B42 serotype		subclass	HLA-B serotype	
@@ -57,7 +57,6 @@ HLA-B48 serotype		subclass	HLA-B serotype
 HLA-B49 serotype		subclass	HLA-B serotype	
 HLA-B50 serotype		subclass	HLA-B serotype	
 HLA-B51 serotype		subclass	HLA-B serotype	
-HLA-B5102 serotype		subclass	HLA-B serotype	
 HLA-B52 serotype		subclass	HLA-B serotype	
 HLA-B53 serotype		subclass	HLA-B serotype	
 HLA-B54 serotype		subclass	HLA-B serotype	
@@ -71,21 +70,18 @@ HLA-B62 serotype		subclass	HLA-B serotype
 HLA-B63 serotype		subclass	HLA-B serotype	
 HLA-B64 serotype		subclass	HLA-B serotype	
 HLA-B65 serotype		subclass	HLA-B serotype	
-HLA-B7 serotype		subclass	HLA-B serotype	
 HLA-B70 serotype		subclass	HLA-B serotype	
 HLA-B71 serotype		subclass	HLA-B serotype	
 HLA-B73 serotype		subclass	HLA-B serotype	
 HLA-B75 serotype		subclass	HLA-B serotype	
 HLA-B77 serotype		subclass	HLA-B serotype	
-HLA-B8 serotype		subclass	HLA-B serotype	
 HLA-B81 serotype		subclass	HLA-B serotype	
+HLA-B3901 serotype		subclass	HLA-B serotype	
+HLA-B5102 serotype		subclass	HLA-B serotype	
+HLA-B serotype		subclass	human MHC class I serotype	
 HLA-Bw4 serotype		subclass	HLA-B serotype	
 HLA-C serotype		subclass	human MHC class I serotype	
 HLA-Cw1 serotype		subclass	HLA-C serotype	
-HLA-Cw10 serotype		subclass	HLA-C serotype	
-HLA-Cw12 serotype		subclass	HLA-C serotype	
-HLA-Cw15 serotype		subclass	HLA-C serotype	
-HLA-Cw16 serotype		subclass	HLA-C serotype	
 HLA-Cw2 serotype		subclass	HLA-C serotype	
 HLA-Cw3 serotype		subclass	HLA-C serotype	
 HLA-Cw4 serotype		subclass	HLA-C serotype	
@@ -94,18 +90,21 @@ HLA-Cw6 serotype		subclass	HLA-C serotype
 HLA-Cw7 serotype		subclass	HLA-C serotype	
 HLA-Cw8 serotype		subclass	HLA-C serotype	
 HLA-Cw9 serotype		subclass	HLA-C serotype	
-HLA-DP serotype		subclass	human MHC class II serotype	
+HLA-Cw10 serotype		subclass	HLA-C serotype	
+HLA-Cw12 serotype		subclass	HLA-C serotype	
+HLA-Cw15 serotype		subclass	HLA-C serotype	
+HLA-Cw16 serotype		subclass	HLA-C serotype	
 HLA-DP1 serotype		subclass	HLA-DP serotype	
 HLA-DP4 serotype		subclass	HLA-DP serotype	
 HLA-DP5 serotype		subclass	HLA-DP serotype	
 HLA-DP9 serotype		subclass	HLA-DP serotype	
+HLA-DP serotype		subclass	human MHC class II serotype	
 HLA-DPw1 serotype		subclass	HLA-DP serotype	
 HLA-DPw2 serotype		subclass	HLA-DP serotype	
 HLA-DPw3 serotype		subclass	HLA-DP serotype	
 HLA-DPw4 serotype		subclass	HLA-DP serotype	
 HLA-DPw5 serotype		subclass	HLA-DP serotype	
 HLA-DPw6 serotype		subclass	HLA-DP serotype	
-HLA-DQ serotype		subclass	human MHC class II serotype	
 HLA-DQ1 serotype		subclass	HLA-DQ serotype	
 HLA-DQ2 serotype		subclass	HLA-DQ serotype	
 HLA-DQ2.3 serotype		subclass	HLA-DQ serotype	
@@ -119,30 +118,31 @@ HLA-DQ7 serotype		subclass	HLA-DQ serotype
 HLA-DQ8 serotype		subclass	HLA-DQ serotype	
 HLA-DQ9 serotype		subclass	HLA-DQ serotype	
 HLA-DQ9.2 serotype		subclass	HLA-DQ serotype	
-HLA-DR serotype		subclass	human MHC class II serotype	
+HLA-DQ serotype		subclass	human MHC class II serotype	
 HLA-DR1 serotype		subclass	HLA-DR serotype	
-HLA-DR10 serotype		subclass	HLA-DR serotype	
-HLA-DR103 serotype		subclass	HLA-DR serotype	
-HLA-DR11 serotype		subclass	HLA-DR serotype	
-HLA-DR12 serotype		subclass	HLA-DR serotype	
-HLA-DR13 serotype		subclass	HLA-DR serotype	
-HLA-DR14 serotype		subclass	HLA-DR serotype	
-HLA-DR1404 serotype		subclass	HLA-DR serotype	
-HLA-DR15 serotype		subclass	HLA-DR serotype	
-HLA-DR16 serotype		subclass	HLA-DR serotype	
-HLA-DR17 serotype		subclass	HLA-DR serotype	
-HLA-DR18 serotype		subclass	HLA-DR serotype	
 HLA-DR2 serotype		subclass	HLA-DR serotype	
 HLA-DR3 serotype		subclass	HLA-DR serotype	
 HLA-DR4 serotype		subclass	HLA-DR serotype	
 HLA-DR5 serotype		subclass	HLA-DR serotype	
-HLA-DR51 serotype		subclass	HLA-DR serotype	
-HLA-DR52 serotype		subclass	HLA-DR serotype	
-HLA-DR53 serotype		subclass	HLA-DR serotype	
 HLA-DR6 serotype		subclass	HLA-DR serotype	
 HLA-DR7 serotype		subclass	HLA-DR serotype	
 HLA-DR8 serotype		subclass	HLA-DR serotype	
 HLA-DR9 serotype		subclass	HLA-DR serotype	
+HLA-DR10 serotype		subclass	HLA-DR serotype	
+HLA-DR11 serotype		subclass	HLA-DR serotype	
+HLA-DR12 serotype		subclass	HLA-DR serotype	
+HLA-DR13 serotype		subclass	HLA-DR serotype	
+HLA-DR14 serotype		subclass	HLA-DR serotype	
+HLA-DR15 serotype		subclass	HLA-DR serotype	
+HLA-DR16 serotype		subclass	HLA-DR serotype	
+HLA-DR17 serotype		subclass	HLA-DR serotype	
+HLA-DR18 serotype		subclass	HLA-DR serotype	
+HLA-DR51 serotype		subclass	HLA-DR serotype	
+HLA-DR52 serotype		subclass	HLA-DR serotype	
+HLA-DR53 serotype		subclass	HLA-DR serotype	
+HLA-DR103 serotype		subclass	HLA-DR serotype	
+HLA-DR1404 serotype		subclass	HLA-DR serotype	
+HLA-DR serotype		subclass	human MHC class II serotype	
 human MHC class I serotype		equivalent	MHC class I serotype	human
 human MHC class II serotype		equivalent	MHC class II serotype	human
 Mamu-DR1B serotype		subclass	rhesus macaque MHC class II serotype	
@@ -155,7 +155,6 @@ Mamu-DR8 serotype		subclass	rhesus macaque MHC class II serotype
 MHC class I serotype		subclass	MHC serotype	
 MHC class II serotype		subclass	MHC serotype	
 Patr-DR1 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR10 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR2 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR3 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR4 serotype		subclass	chimpanzee MHC class II serotype	
@@ -163,6 +162,7 @@ Patr-DR5 serotype		subclass	chimpanzee MHC class II serotype
 Patr-DR7 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR8 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR9 serotype		subclass	chimpanzee MHC class II serotype	
+Patr-DR10 serotype		subclass	chimpanzee MHC class II serotype	
 rhesus macaque MHC class II serotype		equivalent	MHC class II serotype	rhesus macaque
 Saoe-G*02 serotype		subclass	cotton-top tamarin MHC class I serotype	
 Saoe-G*04 serotype		subclass	cotton-top tamarin MHC class I serotype	
