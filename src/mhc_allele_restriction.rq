@@ -182,8 +182,7 @@ WHERE {
   }
   OPTIONAL {
     FILTER (?restriction_level = "partial molecule"
-            && (?chain_i_source_id ||
-                ?locus = "DP" || ?locus = "DQ" || ?locus = "DR"))
+            && regex(?displayed_restriction, "DPA|DQA|DRA"))
     ?subject
       obo:OBI_9991118 ?molecule ;
       owl:equivalentClass / owl:intersectionOf ?intersection .
@@ -203,7 +202,7 @@ WHERE {
   }
   OPTIONAL {
     FILTER (?restriction_level = "partial molecule"
-            && ?chain_ii_source_id)
+            && regex(?displayed_restriction, "DPB|DQB|DRB"))
     ?subject
       obo:OBI_9991118 ?molecule ;
       owl:equivalentClass / owl:intersectionOf ?intersection .
