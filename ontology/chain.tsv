@@ -98,6 +98,7 @@ Eqca-1*00101 chain		subclass	ELA-1 chain
 Eqca-1*00201 chain		subclass	ELA-1 chain	
 Eqca-16*00101 chain		subclass	ELA-16 chain	
 Eqca-N*00101 chain		subclass	ELA-N chain	
+Eqca-N*00601 chain		subclass	ELA-N chain	
 Eqca-N*00602 chain		subclass	ELA-N chain	
 Gogo-B chain		equivalent	protein	Gogo-B locus
 Gogo-B*0101 chain		subclass	Gogo-B chain	

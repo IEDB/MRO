@@ -1979,3 +1979,7 @@ MRO:0001975	SLA-3*0202 chain	owl:Class
 MRO:0001976	SLA-3*0202 protein complex	owl:Class	
 MRO:0001977	SLA-3*0401 chain	owl:Class	
 MRO:0001978	SLA-3*0401 protein complex	owl:Class	
+MRO:0001979	Eqca-N*00601 chain	owl:Class	
+MRO:0001980	Eqca-N*00601 protein complex	owl:Class	
+MRO:0001981	HLA-Cw18 serotype	owl:Class	
+MRO:0001982	HLA protein complex with Cw18 serotype	owl:Class	
