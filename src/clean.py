@@ -96,9 +96,11 @@ results = []
 for row in rows:
   label = row['displayed_restriction']
   synonyms = row['synonyms'].split(', ')
+  includes = list(remove_synonyms(label, synonyms))
   synonyms.sort(key=natural_sort_key)
+  includes.sort(key=natural_sort_key)
   row['synonyms'] = '|'.join(synonyms)
-  row['includes'] = '|'.join(remove_synonyms(label, synonyms))
+  row['includes'] = '|'.join(includes)
   row['organism'] = organisms[row['organism']]
   row['class'] = row['class'].replace('MHC class ', '').replace(' MHC', '').replace('non-','non ')
   row['haplotype'] = row['haplotype'].replace(' haplotype', '')
