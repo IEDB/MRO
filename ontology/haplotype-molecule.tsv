@@ -22,15 +22,15 @@ chicken MHC protein complex with BF19 haplotype	BF19		haplotype	equivalent	MHC p
 chicken MHC protein complex with BF21 haplotype	BF21		haplotype	equivalent	MHC protein complex	chicken	BF21 haplotype
 chicken MHC protein complex with haplotype	chicken		haplotype	equivalent	MHC protein complex	chicken	MHC haplotype
 chicken MHC protein complex with YF1 haplotype	YF1		haplotype	equivalent	MHC protein complex	chicken	YF1 haplotype
-horse MHC class I protein complex with A1 haplotype	ELA-A1 class I		haplotype	equivalent	MHC class I protein complex	horse	A1 haplotype
-horse MHC class I protein complex with A3 haplotype	ELA-A3 class I		haplotype	equivalent	MHC class I protein complex	horse	A3 haplotype
-horse MHC class I protein complex with A4 haplotype	ELA-A4 class I		haplotype	equivalent	MHC class I protein complex	horse	A4 haplotype
-horse MHC class I protein complex with A5 haplotype	ELA-A5 class I		haplotype	equivalent	MHC class I protein complex	horse	A5 haplotype
-horse MHC class I protein complex with A6 haplotype	ELA-A6 class I		haplotype	equivalent	MHC class I protein complex	horse	A6 haplotype
-horse MHC class I protein complex with A7 haplotype	ELA-A7 class I		haplotype	equivalent	MHC class I protein complex	horse	A7 haplotype
-horse MHC class I protein complex with A8 haplotype	ELA-A8 class I		haplotype	equivalent	MHC class I protein complex	horse	A8 haplotype
-horse MHC class I protein complex with A9 haplotype	ELA-A9 class I		haplotype	equivalent	MHC class I protein complex	horse	A9 haplotype
-horse MHC class I protein complex with W11 haplotype	ELA-W11 class I		haplotype	equivalent	MHC class I protein complex	horse	W11 haplotype
+horse MHC class I protein complex with A1 haplotype	ELA-A1 class I	A1	haplotype	equivalent	MHC class I protein complex	horse	A1 haplotype
+horse MHC class I protein complex with A3 haplotype	ELA-A3 class I	A3	haplotype	equivalent	MHC class I protein complex	horse	A3 haplotype
+horse MHC class I protein complex with A4 haplotype	ELA-A4 class I	A4	haplotype	equivalent	MHC class I protein complex	horse	A4 haplotype
+horse MHC class I protein complex with A5 haplotype	ELA-A5 class I	A5	haplotype	equivalent	MHC class I protein complex	horse	A5 haplotype
+horse MHC class I protein complex with A6 haplotype	ELA-A6 class I	A6	haplotype	equivalent	MHC class I protein complex	horse	A6 haplotype
+horse MHC class I protein complex with A7 haplotype	ELA-A7 class I	A7	haplotype	equivalent	MHC class I protein complex	horse	A7 haplotype
+horse MHC class I protein complex with A8 haplotype	ELA-A8 class I	A8	haplotype	equivalent	MHC class I protein complex	horse	A8 haplotype
+horse MHC class I protein complex with A9 haplotype	ELA-A9 class I	A9	haplotype	equivalent	MHC class I protein complex	horse	A9 haplotype
+horse MHC class I protein complex with W11 haplotype	ELA-W11 class I	W11	haplotype	equivalent	MHC class I protein complex	horse	W11 haplotype
 horse MHC protein complex with A1 haplotype	ELA-A1	A1	haplotype	equivalent	MHC protein complex	horse	A1 haplotype
 horse MHC protein complex with A3 haplotype	ELA-A3	A3	haplotype	equivalent	MHC protein complex	horse	A3 haplotype
 horse MHC protein complex with A4 haplotype	ELA-A4	A4	haplotype	equivalent	MHC protein complex	horse	A4 haplotype
@@ -69,7 +69,7 @@ mouse MHC class II protein complex with H2-r haplotype	H2-r class II		haplotype	
 mouse MHC class II protein complex with H2-s haplotype	H2-s class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-s haplotype
 mouse MHC class II protein complex with H2-u haplotype	H2-u class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-u haplotype
 mouse MHC class II protein complex with H2-z haplotype	H2-z class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-z haplotype
-mouse MHC class II protein complex with H2-z/d haplotype	H2-z/d class II		haplotype	equivalent	MHC class II protein complex	mouse	H2-z/d haplotype
+mouse MHC class II protein complex with H2-z/d haplotype	H2-z/d class II	H2-IAz/d mixed haplotype	haplotype	equivalent	MHC class II protein complex	mouse	H2-z/d haplotype
 mouse MHC protein complex with H2-a haplotype	H2-a		haplotype	equivalent	MHC protein complex	mouse	H2-a haplotype
 mouse MHC protein complex with H2-b haplotype	H2-b		haplotype	equivalent	MHC protein complex	mouse	H2-b haplotype
 mouse MHC protein complex with H2-d haplotype	H2-d		haplotype	equivalent	MHC protein complex	mouse	H2-d haplotype
@@ -95,7 +95,7 @@ rat MHC class II protein complex with RT1-A haplotype	RT1-A class II		haplotype	
 rat MHC class II protein complex with RT1-av1 haplotype	RT1-av1 class II		haplotype	equivalent	MHC class II protein complex	rat	RT1-av1 haplotype
 rat MHC class II protein complex with RT1-n haplotype	RT1-n class II		haplotype	equivalent	MHC class II protein complex	rat	RT1-n haplotype
 rat MHC class II protein complex with RT1-u haplotype	RT1-u class II		haplotype	equivalent	MHC class II protein complex	rat	RT1-u haplotype
-rat MHC class II protein complex with RT11 haplotype	RT11 class II		haplotype	equivalent	MHC class II protein complex	rat	RT11 haplotype
+rat MHC class II protein complex with RT11 haplotype	RT11 class II	RT1-1	haplotype	equivalent	MHC class II protein complex	rat	RT11 haplotype
 rat MHC class II protein complex with RT11v1 haplotype	RT11v1 class II		haplotype	equivalent	MHC class II protein complex	rat	RT11v1 haplotype
 rat MHC protein complex with haplotype	rat		haplotype	equivalent	MHC protein complex	rat	MHC haplotype
 rat MHC protein complex with RT1-a haplotype	RT1-a		haplotype	equivalent	MHC protein complex	rat	RT1-a haplotype

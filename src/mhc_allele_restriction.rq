@@ -6,8 +6,10 @@ PREFIX obo:  <http://purl.obolibrary.org/obo/>
 PREFIX MRO:  <http://purl.obolibrary.org/obo/MRO_>
 
 SELECT ?mhc_allele_restriction_id
+  ?iri
   ?displayed_restriction
   (GROUP_CONCAT(DISTINCT ?synonym; separator=", ") as ?synonyms)
+  ?includes
   ?restriction_level
   ?organism
   ?organism_ncbi_tax_id
@@ -26,10 +28,10 @@ SELECT ?mhc_allele_restriction_id
   ?chain_ii_source_id
 
 WHERE {
-  ?subject
+  ?iri
     MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
     obo:OBI_9991118 ?displayed_restriction ;
-    MRO:has-mhc-restriction ?restriction_level ;
+    MRO:has-mhc-restriction ?restriction_level .
 
   # Get class information
   OPTIONAL {
@@ -43,12 +45,12 @@ WHERE {
       (MRO:0001719 "MHC class II") # mutant
       (MRO:0001734 "non-classical MHC") # mutant
     }
-    ?subject rdfs:subClassOf* ?class_iri .
+    ?iri rdfs:subClassOf* ?class_iri .
   }
 
   # Get taxon information, default to "organism"
   OPTIONAL {
-    ?subject
+    ?iri
       rdfs:subClassOf* ?taxon_protein .
     ?taxon_protein
       owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first ?in_taxon .
@@ -63,13 +65,13 @@ WHERE {
   BIND(IF(BOUND(?taxon_id), ?taxon_id, "1") AS ?organism_ncbi_tax_id)
 
   OPTIONAL {
-    ?subject obo:IAO_0000118 ?synonym .
+    ?iri obo:IAO_0000118 ?synonym .
   }
 
   # Get haplotype
   OPTIONAL {
-    FILTER (?subject != MRO:0000010) # not MHC protein complex with haplotype
-    ?subject
+    FILTER (?iri != MRO:0000010) # not MHC protein complex with haplotype
+    ?iri
       (rdfs:subClassOf / owl:someValuesFrom)? / # handle mutants
         owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first
           ?haplotype_member .
@@ -82,8 +84,8 @@ WHERE {
 
   # Get serotype
   OPTIONAL {
-    FILTER (?subject != MRO:0000011) # not MHC protein complex with serotype
-    ?subject
+    FILTER (?iri != MRO:0000011) # not MHC protein complex with serotype
+    ?iri
       (rdfs:subClassOf / owl:someValuesFrom)? / # handle mutants
         owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first
           ?serotype_member .
@@ -95,24 +97,24 @@ WHERE {
   }
 
   OPTIONAL {
-    ?subject MRO:has-mhc-locus ?locus .
+    ?iri MRO:has-mhc-locus ?locus .
   }
   OPTIONAL {
-    ?subject MRO:has-chain-i-source-id ?chain_i_source_id .
+    ?iri MRO:has-chain-i-source-id ?chain_i_source_id .
   }
   OPTIONAL {
-    ?subject MRO:has-chain-ii-source-id ?chain_ii_source_id .
+    ?iri MRO:has-chain-ii-source-id ?chain_ii_source_id .
   }
   OPTIONAL {
-    ?subject MRO:has-chain-i-mutation ?chain_i_mutation .
+    ?iri MRO:has-chain-i-mutation ?chain_i_mutation .
   }
   OPTIONAL {
-    ?subject MRO:has-chain-ii-mutation ?chain_ii_mutation .
+    ?iri MRO:has-chain-ii-mutation ?chain_ii_mutation .
   }
 
   OPTIONAL {
     FILTER (?restriction_level = "locus")
-    ?subject
+    ?iri
       owl:equivalentClass / owl:intersectionOf ?intersection .
     ?intersection
       rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
@@ -130,7 +132,7 @@ WHERE {
   }
   OPTIONAL {
     FILTER (?restriction_level = "complete molecule")
-    ?subject
+    ?iri
       obo:OBI_9991118 ?molecule ;
       owl:equivalentClass / owl:intersectionOf ?intersection .
     ?intersection
@@ -158,7 +160,7 @@ WHERE {
   OPTIONAL {
     FILTER (?restriction_level = "complete molecule"
             && (?chain_i_mutation || ?chain_ii_mutation))
-    ?subject
+    ?iri
       rdfs:subClassOf / owl:someValuesFrom ?source_molecule .
     ?source_molecule
       obo:OBI_9991118 ?molecule ;
@@ -183,7 +185,7 @@ WHERE {
   OPTIONAL {
     FILTER (?restriction_level = "partial molecule"
             && regex(?displayed_restriction, "DPA|DQA|DRA"))
-    ?subject
+    ?iri
       obo:OBI_9991118 ?molecule ;
       owl:equivalentClass / owl:intersectionOf ?intersection .
     ?intersection
@@ -203,7 +205,7 @@ WHERE {
   OPTIONAL {
     FILTER (?restriction_level = "partial molecule"
             && regex(?displayed_restriction, "DPB|DQB|DRB"))
-    ?subject
+    ?iri
       obo:OBI_9991118 ?molecule ;
       owl:equivalentClass / owl:intersectionOf ?intersection .
     ?intersection
@@ -223,7 +225,7 @@ WHERE {
   OPTIONAL {
     FILTER (?restriction_level = "partial molecule"
             && ?chain_ii_mutation)
-    ?subject
+    ?iri
       rdfs:subClassOf / owl:someValuesFrom ?source_molecule .
     ?source_molecule
       obo:OBI_9991118 ?molecule ;
@@ -244,7 +246,9 @@ WHERE {
   }
 }
 GROUP BY ?mhc_allele_restriction_id
+  ?iri
   ?displayed_restriction
+  ?includes
   ?restriction_level
   ?organism
   ?organism_ncbi_tax_id

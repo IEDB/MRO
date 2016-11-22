@@ -7,9 +7,17 @@
 # Some of these manipulations could be done in SPARQL,
 # but that query is already ugly enough.
 
-import argparse, csv
+import argparse, csv, re
+from synonyms import remove_synonyms
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE,SIG_DFL)
+
+# http://stackoverflow.com/a/16090640
+def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
+  return [
+    int(text) if text.isdigit() else text.lower()
+    for text in re.split(_nsre, s)
+  ]
 
 # Parse arguments
 
@@ -86,9 +94,11 @@ rows = csv.DictReader(args.alleles, fieldnames=headers)
 
 results = []
 for row in rows:
+  label = row['displayed_restriction']
   synonyms = row['synonyms'].split(', ')
-  synonyms.sort()
-  row['synonyms'] = ', '.join(synonyms)
+  synonyms.sort(key=natural_sort_key)
+  row['synonyms'] = '|'.join(synonyms)
+  row['includes'] = '|'.join(remove_synonyms(label, synonyms))
   row['organism'] = organisms[row['organism']]
   row['class'] = row['class'].replace('MHC class ', '').replace(' MHC', '').replace('non-','non ')
   row['haplotype'] = row['haplotype'].replace(' haplotype', '')
@@ -104,14 +114,12 @@ for row in rows:
 
   values = []
   for header in headers:
-    # TODO: Fix this
-    if header != 'synonyms':
-      values.append(row[header] or '')
+    values.append(row[header] or '')
   results.append(values)
 
 results.sort(key=lambda x: int(x[0]))
 
-print('\t'.join(x for x in headers if x != 'synonyms')) # TODO: Fix this
+print('\t'.join(headers))
 for result in results:
   print('\t'.join(result))
 

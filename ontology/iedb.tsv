@@ -116,7 +116,7 @@ H2-IEu protein complex	119	IE	301187	301193
 mouse MHC class I protein complex with H2-k haplotype	120			
 mouse MHC class II protein complex with H2-k haplotype	121			
 H2-Kb protein complex	122	K	51919	240777
-"H2-Kb Y22F, M23I, E24S, D30N mutant"	123	K		
+H2-Kb Y22F, M23I, E24S, D30N mutant	123	K		
 H2-Kd protein complex	124	K	256539	240777
 H2-Kk protein complex	125	K	301184	240777
 H2-Ld protein complex	126	L	251683	240777
@@ -174,7 +174,7 @@ mouse MHC class II protein complex with H2-i haplotype	178
 mouse MHC class II protein complex with H2-i3 haplotype	179			
 H2-IA protein complex	180	IA		
 H2-IAb protein complex	181	IA	254615	301190
-"H2-IAb I67F, R70Q, T71K mutant"	182	IA		
+H2-IAb I67F, R70Q, T71K mutant	182	IA		
 H2-IAd protein complex	183	IA	251229	244885
 HLA-B*15:17 protein complex	184	B	300616	56585
 HLA-B*18:01 protein complex	185	B	300619	56585
@@ -510,10 +510,10 @@ Mamu-B*065:02 protein complex	545	B	300472	56585
 HLA-DPB1*16:01 protein complex	547	DP		300708
 horse MHC class I protein complex	548			
 horse MHC class II protein complex	549			
-"H2-Db L114Q, F116Y, E119D mutant"	550	D		
+H2-Db L114Q, F116Y, E119D mutant	550	D		
 H2-IAf protein complex	551	IA		
 H2-Kk D152A mutant	552	K		
-"H2-Kb E152A, R155Y, L156Y mutant"	553	K		
+H2-Kb E152A, R155Y, L156Y mutant	553	K		
 RT1-Aa protein complex	555	A		
 RT1-Ac protein complex	556	A		
 dog MHC class II protein complex	558			
@@ -522,8 +522,8 @@ HLA-DRB5*02:02 protein complex	562	DR		300810
 H2-Kb Y84A mutant	564	K		
 H2-Kb Y84C mutant	565	K		
 HLA-E*01:03 protein complex	566	E	300812	56585
-"HLA-DRB1*04:01 Q110N, K139T mutant"	567	DR		
-"H2-Kb D77S, K89A mutant"	569	K		
+HLA-DRB1*04:01 Q110N, K139T mutant	567	DR		
+H2-Kb D77S, K89A mutant	569	K		
 sheep MHC class I protein complex	570			
 HLA protein complex with A34 serotype	571	A		
 HLA protein complex with A74 serotype	572	A		
@@ -541,7 +541,7 @@ mouse MHC class II protein complex with H2-g7 haplotype	585
 HLA-DQB1*03:04 protein complex	586	DQ		300731
 HLA-DQB1*06:09 protein complex	587	DQ		300743
 BoLA protein complex with A11 serotype	588			
-"H2-IAg7 H56P, S57D mutant"	589	IA		
+H2-IAg7 H56P, S57D mutant	589	IA		
 HLA-A*02:17 protein complex	590	A	300567	56585
 HLA-DQA1*01:01/DQB1*05:03 protein complex	591	DQ	300714	300737
 H2-IAr protein complex	592	IA		
@@ -598,14 +598,14 @@ HLA-DPA1*02:01/DPB1*05:01 protein complex	647	DP	300694	300702
 HLA-DPA1*03:01/DPB1*04:02 protein complex	648	DP	300696	300701
 HLA-A*02:01 K66A mutant	651	A		
 HLA-DRB1*01:01 D57A mutant	652	DR		
-"HLA-DRB1*01:01 D57A, Y60H mutant"	653	DR		
+HLA-DRB1*01:01 D57A, Y60H mutant	653	DR		
 HLA-DRB1*01:01 D57V mutant	654	DR		
-"HLA-DRB1*01:01 D57V, Y60S mutant"	655	DR		
+HLA-DRB1*01:01 D57V, Y60S mutant	655	DR		
 HLA-DPB1*14:01 protein complex	656	DP		300707
-"HLA-A*02:01 K66A, E63Q mutant"	657	A		
+HLA-A*02:01 K66A, E63Q mutant	657	A		
 HLA-DQA1*01:02/DQB1*03:01 protein complex	658	DQ	300715	300728
 HLA-DQA1*03:03/DQB1*03:01 protein complex	659	DQ	300721	300728
-"H2-IEk alpha E11Q, D66N mutant"	660	IE		
+H2-IEk alpha E11Q, D66N mutant	660	IE		
 HLA-DPA1*02:01/DPB1*09:01 protein complex	661	DP	300694	300704
 HLA-A*02:01 W167A mutant	662	A		
 HLA-A*02:01 Q155A mutant	664	A		
@@ -619,8 +619,8 @@ HLA-DRA*01:01/DRB1*01:01 G86Y mutant	677	DR	300744
 HLA-B*27:05 L81A mutant	679	B		
 HLA-B*27:05 D74Y D77N mutant	680	B		
 chicken CD1-2 protein complex	681	B		
-"HLA-B*35:08 Q65A, T69A, Q155A mutant"	682	B		
-"H2-Dd R155Y, D156Y, R169H mutant"	686	D		
+HLA-B*35:08 Q65A, T69A, Q155A mutant	682	B		
+H2-Dd R155Y, D156Y, R169H mutant	686	D		
 H2-Kb V9W mutant	689	K		
 SLA-1*0401 protein complex	690	1	300438	300492
 HLA-B*41:01 protein complex	691	B	300645	56585
