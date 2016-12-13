@@ -89,12 +89,12 @@ build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv 
 	python3 $^ \
 	> $@
 
-build/names.csv: mro-iedb.owl src/names.rq | build
+build/ALLELE_FINDER_NAMES.csv: mro-iedb.owl src/names.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/search.csv: mro-iedb.owl src/search.rq | build
+build/ALLELE_FINDER_SEARCH.csv: mro-iedb.owl src/search.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
@@ -102,11 +102,18 @@ build/search.csv: mro-iedb.owl src/search.rq | build
 build/parents.csv: mro-iedb.owl src/parents.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@
 
-build/tree.csv: src/tree.py build/parents.csv | build
+build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | build
 	$^ --mode CSV > $@
 
 build/tree.json: src/tree.py build/parents.csv | build
 	$^ --mode JSON > $@
+
+build/full_tree.json: src/tree.py build/full_tree.csv | build
+	$^ --mode JSON > $@
+
+.PHONY: finder
+finder: build/ALLELE_FINDER_NAMES.csv build/ALLELE_FINDER_SEARCH.csv build/ALLELE_FINDER_TREE.csv
+
 
 .PHONY: test
 test:
