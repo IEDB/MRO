@@ -2,10 +2,13 @@
 .lein-env
 .lein-repl-history
 .nrepl-port
-alleles.csv
+build/
 catalog-v001.xml
+graphviz-images/
 junk/
 lib/
 mro-import.owl
-src/mro/~$templates.xlsx
+reference/
+src/.cache/
+src/__pycache__/
 target/
