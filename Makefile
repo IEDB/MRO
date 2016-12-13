@@ -21,6 +21,21 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 	$^ > $@
 
 
+# Represent tables in Excel
+
+mro.xlsx: src/tsv2xlsx.py index.tsv ontology/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv ontology/iedb-manual.tsv ontology/evidence.tsv
+	$< $@ $(wordlist 2,100,$^)
+
+.PHONY: update-tsv
+update-tsv:
+	src/xlsx2tsv.py mro.xlsx index > index.tsv
+	src/xlsx2tsv.py mro.xlsx iedb > ontology/iedb.tsv
+	src/xlsx2tsv.py mro.xlsx iedb-manual > ontology/iedb-manual.tsv
+	$(foreach t,$(tables),src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
+	src/sort.py $(source_files)
+
+
+
 # core
 mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl
 	robot merge \

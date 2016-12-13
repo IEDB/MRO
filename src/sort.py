@@ -40,7 +40,9 @@ for filename in args.files:
   data.sort(key=lambda x: natural_sort_key(x[0]))
 
   with open(filename, 'w') as f:
-    writer = csv.writer(f, delimiter='\t', lineterminator="\n")
+    writer = csv.writer(f, delimiter='\t',
+        quoting=csv.QUOTE_MINIMAL,
+        lineterminator="\n")
     writer.writerow(header1)
     writer.writerow(header2)
     writer.writerows(data)
