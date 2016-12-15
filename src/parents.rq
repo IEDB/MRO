@@ -1,0 +1,40 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX obo:  <http://purl.obolibrary.org/obo/>
+PREFIX MRO:  <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT ?subject ?parent ?label ?sort
+  (GROUP_CONCAT(DISTINCT ?synonym; separator=", ") as ?synonyms)
+WHERE {
+  {
+    # Manually describe the top-level nodes.
+    VALUES (?subject ?parent ?label ?sort) {
+      (obo:GO_0043234 ""             "MHC"                 "")
+      (obo:GO_0042611 obo:GO_0043234 "MHC molecule"        "1")
+      (MRO:0000010    obo:GO_0043234 "haplotype"           "2")
+      (MRO:0000011    obo:GO_0043234 "serotype"            "3")
+      (MRO:0000012    obo:GO_0043234 "mutant MHC molecule" "4")
+    }
+  }
+  UNION
+  {
+    # Now match all descendants of 'protein complex'.
+    ?subject
+      rdfs:subClassOf+ obo:GO_0043234 ; # protein complex
+      rdfs:subClassOf ?parent ;
+      obo:OBI_9991118 ?label .
+    OPTIONAL {
+      ?subject obo:IAO_0000118 ?synonym . # alternative term
+    }
+    # Ignore the manual top-level nodes.
+    FILTER (?subject NOT IN (obo:GO_0042611, MRO:0000010, MRO:0000011, MRO:0000012))
+    # Ignore haplotype nodes when they're under class nodes.
+    MINUS {
+      ?subject MRO:0001984 "haplotype" . # has MHC restriction level
+      ?parent MRO:0001984 "class" . # has MHC restriction level
+    }
+  }
+}
+GROUP BY ?subject ?parent ?label ?sort

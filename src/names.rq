@@ -1,0 +1,16 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX obo:  <http://purl.obolibrary.org/obo/>
+PREFIX MRO:  <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT ?subject ?nothing ?name
+WHERE {
+  ?subject
+    rdfs:subClassOf* obo:GO_0043234 ;
+    (obo:IAO_0000118 | obo:OBI_9991118 ) # alternative term | IEDB alternative term
+      ?synonym .
+  BIND(REPLACE(?synonym, " protein complex", "") AS ?name)
+}
+ORDER BY ?subject ?name

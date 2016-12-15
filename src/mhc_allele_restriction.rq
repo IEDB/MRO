@@ -1,0 +1,268 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX obo:  <http://purl.obolibrary.org/obo/>
+PREFIX MRO:  <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT ?mhc_allele_restriction_id
+  ?iri
+  ?displayed_restriction
+  (GROUP_CONCAT(DISTINCT ?synonym; separator=", ") as ?synonyms)
+  ?includes
+  ?restriction_level
+  ?organism
+  ?organism_ncbi_tax_id
+  ?class
+  ?haplotype
+  ?locus
+  ?serotype
+  ?molecule
+  ?chain_i_name
+  ?chain_ii_name
+  ?chain_i_locus
+  ?chain_i_mutation
+  ?chain_ii_locus
+  ?chain_ii_mutation
+  ?chain_i_source_id
+  ?chain_ii_source_id
+
+WHERE {
+  ?iri
+    MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
+    obo:OBI_9991118 ?displayed_restriction ;
+    MRO:0001984 ?restriction_level . # has MHC restriction level
+
+  # Get class information
+  OPTIONAL {
+    VALUES (?class_iri ?class) {
+      (MRO:0001355 "MHC class I")
+      (MRO:0001356 "MHC class II")
+      (MRO:0001464 "non-classical MHC")
+      (MRO:0001655 "MHC class I") # serotype
+      (MRO:0001656 "MHC class II") # serotype
+      (MRO:0001718 "MHC class I") # mutant
+      (MRO:0001719 "MHC class II") # mutant
+      (MRO:0001734 "non-classical MHC") # mutant
+    }
+    ?iri rdfs:subClassOf* ?class_iri .
+  }
+
+  # Get taxon information, default to "organism"
+  OPTIONAL {
+    ?iri
+      rdfs:subClassOf* ?taxon_protein .
+    ?taxon_protein
+      owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first ?in_taxon .
+    ?in_taxon
+      owl:onProperty obo:RO_0002162 ; # in taxon
+      owl:someValuesFrom ?taxon .
+    ?taxon
+      rdfs:label ?taxon_label .
+  }
+  BIND(IF(BOUND(?taxon_label), ?taxon_label, "organism") AS ?organism)
+  BIND(REPLACE(STR(?taxon), "http://purl.obolibrary.org/obo/NCBITaxon_", "") AS ?taxon_id)
+  BIND(IF(BOUND(?taxon_id), ?taxon_id, "1") AS ?organism_ncbi_tax_id)
+
+  OPTIONAL {
+    ?iri obo:IAO_0000118 ?synonym .
+  }
+
+  # Get haplotype
+  OPTIONAL {
+    FILTER (?iri != MRO:0000010) # not MHC protein complex with haplotype
+    ?iri
+      (rdfs:subClassOf / owl:someValuesFrom)? / # handle mutants
+        owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first
+          ?haplotype_member .
+    ?haplotype_member
+      owl:onProperty MRO:0000000 ; # haplotype member of
+      owl:someValuesFrom ?haplotype_iri .
+    ?haplotype_iri
+      rdfs:label ?haplotype .
+  }
+
+  # Get serotype
+  OPTIONAL {
+    FILTER (?iri != MRO:0000011) # not MHC protein complex with serotype
+    ?iri
+      (rdfs:subClassOf / owl:someValuesFrom)? / # handle mutants
+        owl:equivalentClass / owl:intersectionOf / rdf:rest* / rdf:first
+          ?serotype_member .
+    ?serotype_member
+      owl:onProperty MRO:0000001 ; # serotype member of
+      owl:someValuesFrom ?serotype_iri .
+    ?serotype_iri
+      rdfs:label ?serotype .
+  }
+
+  OPTIONAL {
+    ?iri MRO:has-mhc-locus ?locus .
+  }
+  OPTIONAL {
+    ?iri MRO:has-chain-i-source-id ?chain_i_source_id .
+  }
+  OPTIONAL {
+    ?iri MRO:has-chain-ii-source-id ?chain_ii_source_id .
+  }
+  OPTIONAL {
+    ?iri MRO:0001985 ?chain_i_mutation . # has chain I mutation
+  }
+  OPTIONAL {
+    ?iri MRO:0001986 ?chain_ii_mutation . # has chain II mutation
+  }
+
+  OPTIONAL {
+    FILTER (?restriction_level = "locus")
+    ?iri
+      owl:equivalentClass / owl:intersectionOf ?intersection .
+    ?intersection
+      rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
+      rdf:rest / rdf:rest / rdf:first / owl:someValuesFrom ?chain_ii .
+    ?chain_i
+      owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_i_locus .
+    OPTIONAL {
+      ?chain_ii
+        owl:equivalentClass / owl:intersectionOf /
+          rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+            ?chain_ii_locus .
+    }
+  }
+  OPTIONAL {
+    FILTER (?restriction_level = "complete molecule")
+    ?iri
+      obo:OBI_9991118 ?molecule ;
+      owl:equivalentClass / owl:intersectionOf ?intersection .
+    ?intersection
+      rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
+      rdf:rest / rdf:rest / rdf:first / owl:someValuesFrom ?chain_ii .
+    ?chain_i
+      rdfs:label ?chain_i_name ;
+      rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_i_locus .
+    OPTIONAL {
+      FILTER (?chain_ii = obo:PR_000004580)
+      ?chain_ii rdfs:label ?chain_ii_name .
+    }
+    OPTIONAL {
+      ?chain_ii
+        rdfs:label ?chain_ii_name ;
+        rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+          rdf:first obo:PR_000000001 ; # protein
+        rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+          rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+            ?chain_ii_locus .
+    }
+  }
+  OPTIONAL {
+    FILTER (?restriction_level = "complete molecule"
+            && (?chain_i_mutation || ?chain_ii_mutation))
+    ?iri
+      rdfs:subClassOf / owl:someValuesFrom ?source_molecule .
+    ?source_molecule
+      obo:OBI_9991118 ?molecule ;
+      owl:equivalentClass / owl:intersectionOf ?intersection .
+    ?intersection
+      rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
+      rdf:rest / rdf:rest / rdf:first / owl:someValuesFrom ?chain_ii .
+    ?chain_i
+      rdfs:label ?chain_i_name ;
+      rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_i_locus .
+    ?chain_ii
+      rdfs:label ?chain_ii_name .
+    OPTIONAL {
+      ?chain_ii
+        rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+          rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+            ?chain_ii_locus .
+    }
+  }
+  OPTIONAL {
+    FILTER (?restriction_level = "partial molecule"
+            && regex(?displayed_restriction, "DPA|DQA|DRA"))
+    ?iri
+      obo:OBI_9991118 ?molecule ;
+      owl:equivalentClass / owl:intersectionOf ?intersection .
+    ?intersection
+      rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
+      rdf:rest / rdf:rest / rdf:first / owl:someValuesFrom ?chain_ii .
+    ?chain_i
+      rdfs:label ?chain_i_name ;
+      rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_i_locus .
+    ?chain_ii
+      rdfs:label ?chain_ii_name ;
+      owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_ii_locus .
+  }
+  OPTIONAL {
+    FILTER (?restriction_level = "partial molecule"
+            && regex(?displayed_restriction, "DPB|DQB|DRB"))
+    ?iri
+      obo:OBI_9991118 ?molecule ;
+      owl:equivalentClass / owl:intersectionOf ?intersection .
+    ?intersection
+      rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
+      rdf:rest / rdf:rest / rdf:first / owl:someValuesFrom ?chain_ii .
+    ?chain_i
+      rdfs:label ?chain_i_name ;
+      owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_i_locus .
+    ?chain_ii
+      rdfs:label ?chain_ii_name ;
+      rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_ii_locus .
+  }
+  OPTIONAL {
+    FILTER (?restriction_level = "partial molecule"
+            && ?chain_ii_mutation)
+    ?iri
+      rdfs:subClassOf / owl:someValuesFrom ?source_molecule .
+    ?source_molecule
+      obo:OBI_9991118 ?molecule ;
+      owl:equivalentClass / owl:intersectionOf ?intersection .
+    ?intersection
+      rdf:rest / rdf:first / owl:someValuesFrom ?chain_i ;
+      rdf:rest / rdf:rest / rdf:first / owl:someValuesFrom ?chain_ii .
+    ?chain_i
+      rdfs:label ?chain_i_name ;
+      owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_i_locus .
+    ?chain_ii
+      rdfs:label ?chain_ii_name ;
+      rdfs:subClassOf / owl:equivalentClass / owl:intersectionOf /
+        rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
+          ?chain_ii_locus .
+  }
+}
+GROUP BY ?mhc_allele_restriction_id
+  ?iri
+  ?displayed_restriction
+  ?includes
+  ?restriction_level
+  ?organism
+  ?organism_ncbi_tax_id
+  ?class
+  ?haplotype
+  ?locus
+  ?serotype
+  ?molecule
+  ?chain_i_name
+  ?chain_ii_name
+  ?chain_i_locus
+  ?chain_i_mutation
+  ?chain_ii_locus
+  ?chain_ii_mutation
+  ?chain_i_source_id
+  ?chain_ii_source_id
+ORDER BY xsd:integer(?mhc_allele_restriction_id)
