@@ -41,6 +41,7 @@ HLA-DRB1*01:01 D57A mutant	HLA-DRB1*01:01 D57A mutant	HLA-DRB1*0101	partial mole
 HLA-DRB1*01:01 D57A, Y60H mutant	HLA-DRB1*01:01 D57A, Y60H mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57A, Y60H
 HLA-DRB1*01:01 D57V mutant	HLA-DRB1*01:01 D57V mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V
 HLA-DRB1*01:01 D57V, Y60S mutant	HLA-DRB1*01:01 D57V, Y60S mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V, Y60S
+HLA-DRB1*01:01 N82A mutant	HLA-DRB1*01:01 N82A mutant	HLA-DRB1*0101 N82A mutant	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		N82A
 HLA-DRB1*04:01 Q110N, K139T mutant	HLA-DRB1*04:01 Q110N, K139T mutant		partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*04:01 protein complex		Q110N, K139T
 human MR1 K43A mutant protein complex	human MR1 K43A mutant	HLA-MR1 K43A mutant|hMR1 K43A mutant	complete molecule	subclass	mutant human non-classical MHC protein complex		human MR1 protein complex	K43A	
 mutant human MHC class I protein complex	human		class	equivalent	mutant MHC class I protein complex	human			
