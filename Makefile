@@ -23,14 +23,14 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 
 # Represent tables in Excel
 
-mro.xlsx: src/tsv2xlsx.py index.tsv ontology/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv ontology/iedb-manual.tsv ontology/evidence.tsv
+mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv
 	$< $@ $(wordlist 2,100,$^)
 
 .PHONY: update-tsv
 update-tsv:
 	src/xlsx2tsv.py mro.xlsx index > index.tsv
-	src/xlsx2tsv.py mro.xlsx iedb > ontology/iedb.tsv
-	src/xlsx2tsv.py mro.xlsx iedb-manual > ontology/iedb-manual.tsv
+	src/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
+	src/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
 	$(foreach t,$(tables),src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
 	src/sort.py $(source_files)
 
@@ -53,16 +53,6 @@ mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl
 	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro.owl" \
 	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
 	--annotation-file ontology/metadata.ttl \
-	--output $@
-
-# extended version for IEDB use
-mro-iedb.owl: mro.owl build/iedb.tsv build/iedb-manual.tsv
-	robot template \
-	--prefix "MRO: $(OBO)/MRO_" \
-	--input $< \
-	--template build/iedb.tsv \
-	--template build/iedb-manual.tsv \
-	--merge-before \
 	--output $@
 
 # import
@@ -97,27 +87,40 @@ sort:
 
 # generate files for IEDB
 
-build/mhc_allele_restriction.csv: mro-iedb.owl src/mhc_allele_restriction.rq | build
+iedb:
+	mkdir -p $@
+
+# extended version for IEDB use
+iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | iedb
+	robot template \
+	--prefix "MRO: $(OBO)/MRO_" \
+	--input $< \
+	--template $(word 2,$^) \
+	--template $(word 3,$^) \
+	--merge-before \
+	--output $@
+
+build/mhc_allele_restriction.csv: iedb/mro-iedb.owl src/mhc_allele_restriction.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@
 
-build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | build
+iedb/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
 	python3 $^ \
 	> $@
 
-build/ALLELE_FINDER_NAMES.csv: mro-iedb.owl src/names.rq | build
+iedb/ALLELE_FINDER_NAMES.csv: iedb/mro-iedb.owl src/names.rq | iedb
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/ALLELE_FINDER_SEARCH.csv: mro-iedb.owl src/search.rq | build
+iedb/ALLELE_FINDER_SEARCH.csv: iedb/mro-iedb.owl src/search.rq | iedb
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: mro-iedb.owl src/parents.rq | build
+build/parents.csv: iedb/mro-iedb.owl src/parents.rq | build
 	robot query --input $(word 1,$^) --select $(word 2,$^) $@
 
-build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | build
+iedb/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
 	$^ --mode CSV > $@
 
 build/tree.json: src/tree.py build/parents.csv | build
@@ -126,8 +129,10 @@ build/tree.json: src/tree.py build/parents.csv | build
 build/full_tree.json: src/tree.py build/full_tree.csv | build
 	$^ --mode JSON > $@
 
-.PHONY: finder
-finder: build/ALLELE_FINDER_NAMES.csv build/ALLELE_FINDER_SEARCH.csv build/ALLELE_FINDER_TREE.csv
+
+IEDB_TARGETS := iedb/mro-iedb.owl iedb/mhc_allele_restriction.tsv iedb/ALLELE_FINDER_NAMES.csv iedb/ALLELE_FINDER_SEARCH.csv iedb/ALLELE_FINDER_TREE.csv
+.PHONY: update-iedb
+update-iedb: $(IEDB_TARGETS)
 
 
 .PHONY: test
@@ -135,11 +140,8 @@ test:
 	py.test src/tree.py
 	py.test src/synonyms.py
 
-.PHONY: check
-check: build/mhc_allele_restriction.tsv
-	diff reference/mhc_allele_restriction.tsv build/mhc_allele_restriction.tsv
-
 .PHONY: clean
 clean:
-	rm -f mro.owl mro-iedb.owl mro-import.owl
 	rm -rf build
+	rm -f mro.owl mro-import.owl
+	rm -f $(IEDB_TARGETS)
