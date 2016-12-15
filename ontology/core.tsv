@@ -2,6 +2,8 @@ Label	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of
 LABEL	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112
 genetic entity		subclass					
 haplotype member of					A relation between a protein complex and a haplotype, in which some parts of the protein complex are encoded by genes in the haplotype.		
+has chain I mutation							
+has chain II mutation							
 has MHC restriction level							
 is synthetic protein mutant of					A relationship between a protein that was designed as a variant and its naturally occurring template protein, where the synthesized variant has one or more defined differences - typically introduced to examine the impact of such variations on protein function.		
 MHC haplotype		subclass	SO:0001024		A set of MHC alleles that is frequently inherited together.	IEDB	The mouse H-2-k class II haplotype is expressed in C3H mice.

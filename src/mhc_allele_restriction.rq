@@ -106,10 +106,10 @@ WHERE {
     ?iri MRO:has-chain-ii-source-id ?chain_ii_source_id .
   }
   OPTIONAL {
-    ?iri MRO:has-chain-i-mutation ?chain_i_mutation .
+    ?iri MRO:0001985 ?chain_i_mutation . # has chain I mutation
   }
   OPTIONAL {
-    ?iri MRO:has-chain-ii-mutation ?chain_ii_mutation .
+    ?iri MRO:0001986 ?chain_ii_mutation . # has chain II mutation
   }
 
   OPTIONAL {
