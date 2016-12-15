@@ -8,7 +8,9 @@ graphviz-images/
 junk/
 lib/
 mro-import.owl
+mro.xlsx
 reference/
 src/.cache/
 src/__pycache__/
 target/
+~$mro.xlsx
