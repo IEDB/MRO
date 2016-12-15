@@ -26,7 +26,7 @@ WHERE {
     ?subject MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
   }
   OPTIONAL {
-    ?subject MRO:has-mhc-restriction ?restriction_level .
+    ?subject MRO:0001984 ?restriction_level . # has MHC restriciton level
   }
 
   # Get taxon information, default to "organism"

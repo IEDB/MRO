@@ -1984,3 +1984,4 @@ MRO:0001980	Eqca-N*00601 protein complex	owl:Class
 MRO:0001981	HLA-Cw18 serotype	owl:Class	
 MRO:0001982	HLA protein complex with Cw18 serotype	owl:Class	
 MRO:0001983	HLA-DRB1*01:01 N82A mutant	owl:Class	
+MRO:0001984	has MHC restriction level	owl:AnnotationProperty	

@@ -32,8 +32,8 @@ WHERE {
     FILTER (?subject NOT IN (obo:GO_0042611, MRO:0000010, MRO:0000011, MRO:0000012))
     # Ignore haplotype nodes when they're under class nodes.
     MINUS {
-      ?subject MRO:has-mhc-restriction "haplotype" .
-      ?parent MRO:has-mhc-restriction "class" .
+      ?subject MRO:0001984 "haplotype" . # has MHC restriction level
+      ?parent MRO:0001984 "class" . # has MHC restriction level
     }
   }
 }

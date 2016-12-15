@@ -1,5 +1,5 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
-LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A MRO:has-mhc-restriction	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
+LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
 BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
 BF1*0201 protein complex	BF1*0201		complete molecule	equivalent	MHC class I protein complex	chicken	BF1*0201 chain	Beta-2-microglobulin		
 BF2 protein complex	BF2		locus	equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		

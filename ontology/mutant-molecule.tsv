@@ -1,5 +1,5 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Mutant Of	Chain I Mutation	Chain II Mutation
-LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A MRO:has-mhc-restriction	CLASS_TYPE	C %	C 'in taxon' some %	C 'is synthetic protein mutant of' some %	A MRO:has-chain-i-mutation	A MRO:has-chain-ii-mutation
+LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'is synthetic protein mutant of' some %	A MRO:has-chain-i-mutation	A MRO:has-chain-ii-mutation
 H2-Db H155A mutant	H2-Db H155A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	H155A	
 H2-Db L114Q, F116Y, E119D mutant	H2-Db L114Q, F116Y, E119D mutant	H2-Dbm13	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	L114Q, F116Y, E119D	
 H2-Db Q70H mutant	H2-Db Q70H mutant	H2-Dbm14	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	Q70H	

@@ -31,7 +31,7 @@ WHERE {
   ?iri
     MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
     obo:OBI_9991118 ?displayed_restriction ;
-    MRO:has-mhc-restriction ?restriction_level .
+    MRO:0001984 ?restriction_level . # has MHC restriction level
 
   # Get class information
   OPTIONAL {
