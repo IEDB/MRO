@@ -1679,25 +1679,25 @@ MRO:0001675	human MHC class I protein complex with serotype	owl:Class
 MRO:0001676	human MHC class II protein complex with serotype	owl:Class	
 MRO:0001677	rhesus macaque MHC class II protein complex with serotype	owl:Class	
 MRO:0001678	H2-Db H155A mutant	owl:Class	
-MRO:0001679	"H2-Db L114Q, F116Y, E119D mutant"	owl:Class	
+MRO:0001679	H2-Db L114Q, F116Y, E119D mutant	owl:Class	
 MRO:0001680	H2-Db Q70H mutant	owl:Class	
 MRO:0001681	H2-Db Y159F mutant	owl:Class	
-MRO:0001682	"H2-Dd R155Y, D156Y, R169H mutant"	owl:Class	
-MRO:0001683	"H2-IAb I67F, R70Q, T71K mutant"	owl:Class	
-MRO:0001684	"H2-IAg7 H56P, S57D mutant"	owl:Class	
+MRO:0001682	H2-Dd R155Y, D156Y, R169H mutant	owl:Class	
+MRO:0001683	H2-IAb I67F, R70Q, T71K mutant	owl:Class	
+MRO:0001684	H2-IAg7 H56P, S57D mutant	owl:Class	
 MRO:0001685	H2-IAk H9V mutant	owl:Class	
 MRO:0001686	H2-IAu V9H mutant	owl:Class	
-MRO:0001687	"H2-IEk alpha E11Q, D66N mutant"	owl:Class	
-MRO:0001688	"H2-Kb D77S, K89A mutant"	owl:Class	
-MRO:0001689	"H2-Kb E152A, R155Y, L156Y mutant"	owl:Class	
+MRO:0001687	H2-IEk alpha E11Q, D66N mutant	owl:Class	
+MRO:0001688	H2-Kb D77S, K89A mutant	owl:Class	
+MRO:0001689	H2-Kb E152A, R155Y, L156Y mutant	owl:Class	
 MRO:0001690	H2-Kb V9W mutant	owl:Class	
-MRO:0001691	"H2-Kb Y22F, M23I, E24S, D30N mutant"	owl:Class	
+MRO:0001691	H2-Kb Y22F, M23I, E24S, D30N mutant	owl:Class	
 MRO:0001692	H2-Kb Y84A mutant	owl:Class	
 MRO:0001693	H2-Kb Y84C mutant	owl:Class	
 MRO:0001694	H2-Kk D152A mutant	owl:Class	
 MRO:0001695	HLA-A*02:01 A150P mutant	owl:Class	
 MRO:0001696	HLA-A*02:01 K66A mutant	owl:Class	
-MRO:0001697	"HLA-A*02:01 K66A, E63Q mutant"	owl:Class	
+MRO:0001697	HLA-A*02:01 K66A, E63Q mutant	owl:Class	
 MRO:0001698	HLA-A*02:01 Q155A mutant	owl:Class	
 MRO:0001699	HLA-A*02:01 T163A mutant	owl:Class	
 MRO:0001700	HLA-A*02:01 W167A mutant	owl:Class	
@@ -1705,7 +1705,7 @@ MRO:0001701	HLA-B*08:01 B:I66A mutant	owl:Class
 MRO:0001702	HLA-B*08:01 N80I mutant	owl:Class	
 MRO:0001703	HLA-B*27:05 D74Y D77N mutant	owl:Class	
 MRO:0001704	HLA-B*27:05 L81A mutant	owl:Class	
-MRO:0001705	"HLA-B*35:08 Q65A, T69A, Q155A mutant"	owl:Class	
+MRO:0001705	HLA-B*35:08 Q65A, T69A, Q155A mutant	owl:Class	
 MRO:0001706	HLA-B*57:01 I80N mutant	owl:Class	
 MRO:0001707	HLA-B*57:01 I80T mutant	owl:Class	
 MRO:0001708	HLA-DPA1*01:03/DPB1*02:12 E69K mutant	owl:Class	
@@ -1714,10 +1714,10 @@ MRO:0001710	HLA-DRA*01:01 F54C mutant/DRB1*01:01	owl:Class
 MRO:0001711	HLA-DRA*01:01/DRB1*01:01 C30S mutant	owl:Class	
 MRO:0001712	HLA-DRA*01:01/DRB1*01:01 G86Y mutant	owl:Class	
 MRO:0001713	HLA-DRB1*01:01 D57A mutant	owl:Class	
-MRO:0001714	"HLA-DRB1*01:01 D57A, Y60H mutant"	owl:Class	
+MRO:0001714	HLA-DRB1*01:01 D57A, Y60H mutant	owl:Class	
 MRO:0001715	HLA-DRB1*01:01 D57V mutant	owl:Class	
-MRO:0001716	"HLA-DRB1*01:01 D57V, Y60S mutant"	owl:Class	
-MRO:0001717	"HLA-DRB1*04:01 Q110N, K139T mutant"	owl:Class	
+MRO:0001716	HLA-DRB1*01:01 D57V, Y60S mutant	owl:Class	
+MRO:0001717	HLA-DRB1*04:01 Q110N, K139T mutant	owl:Class	
 MRO:0001718	mutant MHC class I protein complex	owl:Class	
 MRO:0001719	mutant MHC class II protein complex	owl:Class	
 MRO:0001720	mutant human MHC class I protein complex	owl:Class	
