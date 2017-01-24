@@ -965,3 +965,4 @@ http://purl.obolibrary.org/obo/MRO_0001978,complete molecule,902,9823,pig,MHC cl
 http://purl.obolibrary.org/obo/MRO_0001980,complete molecule,906,9796,horse,MHC class I,N,,,Eqca-N*00601 protein complex,MRO_0001980,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001982,serotype,907,9606,human,MHC class I,C,,HLA-Cw18 serotype,HLA protein complex with Cw18 serotype,MRO_0001982,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001983,partial molecule,908,9606,human,MHC class II,DR,,HLA-DR1 serotype,HLA-DRB1*01:01 N82A mutant,MRO_0001983,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001988,complete molecule,909,9615,dog,MHC class I,88,,,DLA-88*50101 protein complex,MRO_0001988,http://purl.obolibrary.org/obo/

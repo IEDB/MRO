@@ -11,8 +11,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2016-12-15/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-12-15</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2017-01-24/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-01-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -44389,6 +44389,50 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N82A</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 N82A mutant</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 N82A mutant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000403"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAC83845.1</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*50101 </obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHSLRYFYTSVSRPGRGDPRFIAVGYVDDAQFVRFDSDAATGRMEPRAPWVEQEGPEYWDPQTRTIKETARTFRVDLDTLRGYYNQSEA</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*50101 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001988">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001987"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000959"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-8850101 </obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*50101 </obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*50101 protein complex</rdfs:label>
     </owl:Class>
     
 

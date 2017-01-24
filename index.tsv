@@ -1987,3 +1987,5 @@ MRO:0001983	HLA-DRB1*01:01 N82A mutant	owl:Class
 MRO:0001984	has MHC restriction level	owl:AnnotationProperty	
 MRO:0001985	has chain I mutation	owl:AnnotationProperty	
 MRO:0001986	has chain II mutation	owl:AnnotationProperty	
+MRO:0001987	DLA-88*50101 chain	owl:Class	
+MRO:0001988	DLA-88*50101 protein complex	owl:Class	
