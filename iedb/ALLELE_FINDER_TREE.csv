@@ -798,13 +798,13 @@
 798,http://purl.obolibrary.org/obo/MRO_0001521,664,pig,,1:664:798
 799,http://purl.obolibrary.org/obo/MRO_0001516,798,z,,1:664:798:799
 800,http://purl.obolibrary.org/obo/MRO_0001522,664,rat,,1:664:800
-801,http://purl.obolibrary.org/obo/MRO_0001507,800,RT1-a,,1:664:800:801
-802,http://purl.obolibrary.org/obo/MRO_0001803,801,RT1-Aa,,1:664:800:801:802
-803,http://purl.obolibrary.org/obo/MRO_0001813,801,RT1-Ba,,1:664:800:801:803
-804,http://purl.obolibrary.org/obo/MRO_0001834,801,RT1-Da,,1:664:800:801:804
-805,http://purl.obolibrary.org/obo/MRO_0001514,800,RT1-A,,1:664:800:805
-806,http://purl.obolibrary.org/obo/MRO_0001792,805,RT1-A class I,,1:664:800:805:806
-807,http://purl.obolibrary.org/obo/MRO_0001793,805,RT1-A class II,,1:664:800:805:807
+801,http://purl.obolibrary.org/obo/MRO_0001514,800,RT1-A,,1:664:800:801
+802,http://purl.obolibrary.org/obo/MRO_0001792,801,RT1-A class I,,1:664:800:801:802
+803,http://purl.obolibrary.org/obo/MRO_0001793,801,RT1-A class II,,1:664:800:801:803
+804,http://purl.obolibrary.org/obo/MRO_0001507,800,RT1-a,,1:664:800:804
+805,http://purl.obolibrary.org/obo/MRO_0001803,804,RT1-Aa,,1:664:800:804:805
+806,http://purl.obolibrary.org/obo/MRO_0001813,804,RT1-Ba,,1:664:800:804:806
+807,http://purl.obolibrary.org/obo/MRO_0001834,804,RT1-Da,,1:664:800:804:807
 808,http://purl.obolibrary.org/obo/MRO_0001508,800,RT1-av1,,1:664:800:808
 809,http://purl.obolibrary.org/obo/MRO_0001794,808,RT1-av1 class II,,1:664:800:808:809
 810,http://purl.obolibrary.org/obo/MRO_0001868,800,RT1-c,,1:664:800:810

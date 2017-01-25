@@ -12,10 +12,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2017-01-24/mro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2017-01-25/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-01-25</owl:versionInfo>
         <dc:creator>James A. Overton</dc:creator>
         <dc:description>The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions.</dc:description>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-01-24</owl:versionInfo>
         <dc:creator>John Sidney</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator>Shirley Ellis</dc:creator>
@@ -30424,7 +30424,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B00101</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B001:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAA84383.2</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338361</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">379</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B*001:01</obo:OBI_9991118>
@@ -30461,7 +30461,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B02901</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B029:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABZ91878.1</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338362</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">784</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B*029:01</obo:OBI_9991118>
@@ -30498,7 +30498,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B00301</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B003:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADK23899.1</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338363</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">380</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B*003:01</obo:OBI_9991118>
@@ -30535,7 +30535,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B00401</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B004:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAC50576.1</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338364</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">381</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B*004:01</obo:OBI_9991118>
@@ -44397,7 +44397,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31001</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*10</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA60992.1</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344097</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">904</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1001</obo:OBI_9991118>
@@ -44441,7 +44441,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31801</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB08</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA61001.1</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344098</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">905</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1801</obo:OBI_9991118>
@@ -46021,7 +46021,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-A100701</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-A1007:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAC50582.1</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">338360</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">891</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-A1*007:01</obo:OBI_9991118>
@@ -46671,7 +46671,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eqca-N00601</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC I 1 14 allele, 7-6</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAQ73247.2</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">344099</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">906</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eqca-N*00601</obo:OBI_9991118>

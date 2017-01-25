@@ -355,9 +355,9 @@ Mamu-A1*001:01 protein complex	375	A	300434	56585
 Mamu-A1*002:01 protein complex	376	A	300435	56585
 Mamu-A1*022:02 protein complex	377	A	300471	56585
 Mamu-A1*011:01 protein complex	378	A	300468	56585
-Mamu-B*001:01 protein complex	379	B	AAA84383.2	
-Mamu-B*003:01 protein complex	380	B	ADK23899.1	
-Mamu-B*004:01 protein complex	381	B	AAC50576.1	
+Mamu-B*001:01 protein complex	379	B	338361	
+Mamu-B*003:01 protein complex	380	B	338363	
+Mamu-B*004:01 protein complex	381	B	338364	
 Mamu-B*012:02 protein complex	382	B	300473	56585
 Mamu-B*017:04 protein complex	383	B	300474	56585
 Mamu protein complex with DR1B serotype	385	DR		
@@ -705,7 +705,7 @@ HLA-DRA*01:01/DRB1*09:01 protein complex	780	DR	300744	300774
 HLA-DRA*01:01/DRB3*01:01 protein complex	781	DR	300744	300801
 HLA-DRA*01:01/DRB1*01:01 C30S mutant	782	DR	300744	
 HLA-B*44:08 protein complex	783	B	300653	56585
-Mamu-B*029:01 protein complex	784	B	ABZ91878.1	
+Mamu-B*029:01 protein complex	784	B	338362	
 human MR1 K43A mutant protein complex	785	MR1		
 HLA-A*32:05 protein complex	786	A	300816	56585
 HLA-B*57:01 I80T mutant	788	B		
@@ -796,7 +796,7 @@ Eqca-1*00201 protein complex	887	1
 Eqca-16*00101 protein complex	888	16		
 Eqca-N*00101 protein complex	889	N		
 HLA-B*14:01 protein complex	890	B		
-Mamu-A1*007:01 protein complex	891	A	AAC50582.1	
+Mamu-A1*007:01 protein complex	891	A	338360	
 Mamu-B*098 protein complex	892	B		
 HLA-DPA1*01:03/DPB1*06:01 protein complex	893	DP		
 HLA-DPA1*02:01/DPB1*14:01 protein complex	894	DP		
@@ -809,9 +809,9 @@ Mamu-B*087:01 protein complex	900	B
 Mamu-B*090:01 protein complex	901	B		
 SLA-3*0401 protein complex	902	3		
 HLA-A*30:14L protein complex	903	A		
-BoLA-DRB3*1001 protein complex	904	DRB3	CAA60992.1	
-BoLA-DRB3*1801 protein complex	905	DRB3	CAA61001.1	
-Eqca-N*00601 protein complex	906	N	AAQ73247.2	
+BoLA-DRB3*1001 protein complex	904	DRB3	344097	
+BoLA-DRB3*1801 protein complex	905	DRB3	344098	
+Eqca-N*00601 protein complex	906	N	344099	
 HLA protein complex with Cw18 serotype	907	C		
 HLA-DRB1*01:01 N82A mutant	908	DR		
 DLA-88*50101 protein complex	909	88		
