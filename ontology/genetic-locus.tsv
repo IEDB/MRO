@@ -54,7 +54,7 @@ H2-MR1 locus		subclass	mouse non-classical MHC locus
 H2-Q1 locus		subclass	H2-Q locus	
 H2-Q2 locus		subclass	H2-Q locus	
 H2-Q9 locus		subclass	H2-Q locus	
-H2-Q locus		subclass	mouse MHC class I locus	
+H2-Q locus		subclass	mouse non-classical MHC locus	
 HLA-A locus		subclass	human MHC class I locus	
 HLA-B locus		subclass	human MHC class I locus	
 HLA-BTN3A locus		subclass	human non-classical MHC locus	
@@ -104,8 +104,10 @@ Patr-DRA locus		subclass	chimpanzee MHC class II locus
 Patr-DRB locus		subclass	chimpanzee MHC class II locus	
 pig MHC class I locus		subclass	MHC class I locus	pig
 pig MHC class II locus		subclass	MHC class II locus	pig
+rat CD1 locus		subclass	rat non-classical MHC locus	rat
 rat MHC class I locus		subclass	MHC class I locus	rat
 rat MHC class II locus		subclass	MHC class II locus	rat
+rat non-classical MHC locus		subclass	non-classical MHC locus	rat
 rhesus macaque MHC class I locus		subclass	MHC class I locus	rhesus macaque
 rhesus macaque MHC class II locus		subclass	MHC class II locus	rhesus macaque
 RT1-A1 locus		subclass	RT1-A locus	

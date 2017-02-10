@@ -132,13 +132,11 @@ H2-L protein complex	H2-L		locus	equivalent	MHC class I protein complex	mouse	H2
 H2-Ld protein complex	H2-Ld		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Ld chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Lq protein complex	H2-Lq	H2-Lw16	complete molecule	equivalent	MHC class I protein complex	mouse	H2-Lq chain	Beta-2-microglobulin	H2-q haplotype	
 H2-M3 protein complex	H2-M3		complete molecule	equivalent	non-classical MHC protein complex	mouse	H2-M3 chain			
-H2-Q1 protein complex	H2-Q1	H2-Qa1|Qa-1b	locus	equivalent	MHC class I protein complex	mouse	H2-Q1 chain	Beta-2-microglobulin		
-H2-Q2 protein complex	H2-Q2	H2-Qa2	locus	equivalent	MHC class I protein complex	mouse	H2-Q2 chain	Beta-2-microglobulin		
-H2-Q9 protein complex	H2-Q9		locus	equivalent	MHC class I protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
-H2-Q protein complex	H2-Q		locus	equivalent	MHC class I protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
-H2-Qa1 protein complex	H2-Qa1	Qa-1b	complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa1 chain	Beta-2-microglobulin	H2-a haplotype	
-H2-Qa2 protein complex	H2-Qa2		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa2 chain	Beta-2-microglobulin	H2-a haplotype	
-H2-Qa9 protein complex	H2-Qa9		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Qa9 chain	Beta-2-microglobulin	H2-a haplotype	
+H2-Q1 protein complex	H2-Q1	H2-Qa1|Qa-1b	locus	equivalent	non-classical MHC protein complex	mouse	H2-Q1 chain	Beta-2-microglobulin		
+H2-Q2 protein complex	H2-Q2	H2-Qa2	locus	equivalent	non-classical MHC protein complex	mouse	H2-Q2 chain	Beta-2-microglobulin		
+H2-Q9 protein complex	H2-Q9		locus	equivalent	non-classical MHC protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
+H2-Q protein complex	H2-Q		locus	equivalent	non-classical MHC protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
+H2-Qa-1b protein complex	H2-Qa-1b	Qa1b	complete molecule	equivalent	non-classical MHC protein complex	mouse	H2-Qa-1b chain	Beta-2-microglobulin		
 HLA-A protein complex	HLA-A		locus	equivalent	MHC class I protein complex	human	HLA-A chain	Beta-2-microglobulin		
 HLA-A*01:01 protein complex	HLA-A*01:01	HLA-A*010101	complete molecule	equivalent	MHC class I protein complex	human	HLA-A*01:01 chain	Beta-2-microglobulin		HLA-A1 serotype
 HLA-A*01:03 protein complex	HLA-A*01:03		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*01:03 chain	Beta-2-microglobulin		HLA-A1 serotype
@@ -412,7 +410,6 @@ HLA-DQB1*06:03 protein complex	HLA-DQB1*06:03		partial molecule	equivalent	MHC c
 HLA-DQB1*06:04 protein complex	HLA-DQB1*06:04		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:04 chain		HLA-DQ6 serotype
 HLA-DQB1*06:05 protein complex	HLA-DQB1*06:05		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:05 chain		HLA-DQ6 serotype
 HLA-DQB1*06:09 protein complex	HLA-DQB1*06:09		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*06:09 chain		HLA-DQ6 serotype
-HLA-DQB*03:02 protein complex	HLA-DQB*03:02		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB*03:02 chain		HLA-DQ8 serotype
 HLA-DR protein complex	HLA-DR		locus	equivalent	MHC class II protein complex	human	HLA-DRA chain	HLA-DRB chain		
 HLA-DRA*01:01/DRB1*01:01 protein complex	HLA-DRA*01:01/DRB1*01:01	HLA-DRA1*0101/DRB1*0101	complete molecule	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*01:01 chain		HLA-DR1 serotype
 HLA-DRA*01:01/DRB1*03:01 protein complex	HLA-DRA*01:01/DRB1*03:01	HLA-DRA1*0101/DRB1*0301	complete molecule	equivalent	MHC class II protein complex	human	HLA-DRA*01:01 chain	HLA-DRB1*03:01 chain		HLA-DR3 serotype
@@ -614,8 +611,10 @@ Patr-DRB1*10:01 protein complex	Patr-DRB1*10:01		partial molecule	equivalent	MHC
 Patr-DRB5*03:10 protein complex	Patr-DRB5*03:10		partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB5*03:10 chain		
 pig MHC class I protein complex	pig		class	equivalent	MHC class I protein complex	pig				
 pig MHC class II protein complex	pig		class	equivalent	MHC class II protein complex	pig				
+rat CD1d protein complex	rat CD1d	rCD1d	complete molecule	equivalent	non-classical MHC protein complex	rat	rat CD1d chain	Beta-2-microglobulin		
 rat MHC class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
 rat MHC class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
+rat non-classical MHC protein complex	rat		class	equivalent	non-classical MHC protein complex	rat				
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				

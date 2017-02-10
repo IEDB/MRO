@@ -12,12 +12,12 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2017-01-25/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-01-25</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2017-02-10/mro.owl"/>
         <dc:creator>James A. Overton</dc:creator>
         <dc:description>The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions.</dc:description>
         <dc:creator>John Sidney</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-02-10</owl:versionInfo>
         <dc:creator>Shirley Ellis</dc:creator>
         <dc:creator>Bjoern Peters</dc:creator>
         <dc:creator>Alessandro Sette</dc:creator>
@@ -1648,7 +1648,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000114"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000116"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Q locus</rdfs:label>
     </owl:Class>
     
@@ -6253,7 +6253,7 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000899"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000902"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Q chain</rdfs:label>
     </owl:Class>
     
@@ -6282,8 +6282,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0000468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000468">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000466"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa1 chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete H2-Qa1 chain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6291,8 +6292,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000469">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000466"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa2 chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete H2-Qa2 chain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6300,8 +6302,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0000470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000470">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000466"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa9 chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete H2-Qa9 chain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8978,8 +8981,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0000673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000672"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB*03:02 chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete HLA-DQB*03:02 chain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15632,7 +15636,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000466"/>
@@ -15648,7 +15652,7 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001463"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Q</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Q protein complex</rdfs:label>
@@ -15662,7 +15666,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000467"/>
@@ -15691,36 +15695,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0001002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001002">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000468"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000146"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001758"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Qa1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qa-1b</obo:IAO_0000118>
-        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa1</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa1 protein complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete H2-Qa1 protein complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15728,35 +15705,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0001003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001003">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000469"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000146"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001758"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Qa2</obo:IAO_0000118>
-        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa2</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa2 protein complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete H2-Qa2 protein complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15764,35 +15715,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0001004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001004">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000470"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000146"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001758"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Qa9</obo:IAO_0000118>
-        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa9</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa9 protein complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete H2-Qa9 protein complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -22708,6 +22633,8 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA10103/DPB10212</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA101:03/DPB102:12</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">912</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DP</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA1*01:03/DPB1*02:12</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA1*01:03/DPB1*02:12 protein complex</rdfs:label>
     </owl:Class>
@@ -25332,37 +25259,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0001236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001236">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000659"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000673"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000292"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001197"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001629"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB*0302</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB0302</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB03:02</obo:IAO_0000118>
-        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB*03:02</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB*03:02 protein complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete HLA-DQB*03:02 protein complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -34305,6 +34204,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-a</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-a</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-a haplotype</rdfs:label>
@@ -34331,6 +34231,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-b</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-b</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-b haplotype</rdfs:label>
@@ -34357,6 +34258,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-d</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-d</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-d haplotype</rdfs:label>
@@ -34383,6 +34285,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-f</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-f</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-f haplotype</rdfs:label>
@@ -34409,6 +34312,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-g7</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-g7</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-g7 haplotype</rdfs:label>
@@ -34435,6 +34339,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-i</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-i</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-i haplotype</rdfs:label>
@@ -34461,6 +34366,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-i3</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-i3</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-i3 haplotype</rdfs:label>
@@ -34487,6 +34393,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-k</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-k</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-k haplotype</rdfs:label>
@@ -34513,6 +34420,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-p</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-p</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-p haplotype</rdfs:label>
@@ -34539,6 +34447,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-q</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-q</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-q haplotype</rdfs:label>
@@ -34565,6 +34474,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-r</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-r</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-r haplotype</rdfs:label>
@@ -34591,6 +34501,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-s</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-s</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-s haplotype</rdfs:label>
@@ -34617,6 +34528,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-u</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-u</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-u haplotype</rdfs:label>
@@ -34643,6 +34555,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-v</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-v</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-v haplotype</rdfs:label>
@@ -34669,6 +34582,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-wm7</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-wm7</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-wm7 haplotype</rdfs:label>
@@ -34695,6 +34609,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-z</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-z</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-z haplotype</rdfs:label>
@@ -34721,6 +34636,7 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001520"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-z/d</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-z/d</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse MHC protein complex with H2-z/d haplotype</rdfs:label>
@@ -41187,7 +41103,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001750"/>
@@ -41250,7 +41166,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001753"/>
@@ -41329,6 +41245,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001490"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-a class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">165</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-a class I</obo:OBI_9991118>
@@ -41357,6 +41274,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001491"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-b class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">167</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-b class I</obo:OBI_9991118>
@@ -41385,6 +41303,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001492"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-d class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-d class I</obo:OBI_9991118>
@@ -41413,6 +41332,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001493"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-f class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">175</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-f class I</obo:OBI_9991118>
@@ -41441,6 +41361,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001494"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-g7 class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">584</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-g7 class I</obo:OBI_9991118>
@@ -41469,6 +41390,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001495"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-i class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">177</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-i class I</obo:OBI_9991118>
@@ -41497,6 +41419,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001497"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-k class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-k class I</obo:OBI_9991118>
@@ -41525,6 +41448,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001498"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-p class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-p class I</obo:OBI_9991118>
@@ -41553,6 +41477,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001499"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-q class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-q class I</obo:OBI_9991118>
@@ -41581,6 +41506,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001500"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-r class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">134</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-r class I</obo:OBI_9991118>
@@ -41609,6 +41535,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001501"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-s class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-s class I</obo:OBI_9991118>
@@ -41637,6 +41564,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001502"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-u class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">138</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-u class I</obo:OBI_9991118>
@@ -41665,6 +41593,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001503"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-v class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">139</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-v class I</obo:OBI_9991118>
@@ -41693,6 +41622,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001460"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001505"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-z class I</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-z class I</obo:OBI_9991118>
@@ -41721,6 +41651,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001490"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-a class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">166</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-a class II</obo:OBI_9991118>
@@ -41749,6 +41680,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001491"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-b class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">168</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-b class II</obo:OBI_9991118>
@@ -41777,6 +41709,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001492"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-d class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">170</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-d class II</obo:OBI_9991118>
@@ -41805,6 +41738,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001493"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-f class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-f class II</obo:OBI_9991118>
@@ -41833,6 +41767,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001494"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-g7 class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">585</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-g7 class II</obo:OBI_9991118>
@@ -41861,6 +41796,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001495"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-i class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">178</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-i class II</obo:OBI_9991118>
@@ -41889,6 +41825,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001496"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-i3 class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">179</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-i3 class II</obo:OBI_9991118>
@@ -41917,6 +41854,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001497"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-k class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-k class II</obo:OBI_9991118>
@@ -41945,6 +41883,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001498"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-p class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">130</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-p class II</obo:OBI_9991118>
@@ -41973,6 +41912,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001499"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-q class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">132</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-q class II</obo:OBI_9991118>
@@ -42001,6 +41941,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001500"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-r class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-r class II</obo:OBI_9991118>
@@ -42029,6 +41970,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001501"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-s class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">137</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-s class II</obo:OBI_9991118>
@@ -42057,6 +41999,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001502"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-u class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">607</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-u class II</obo:OBI_9991118>
@@ -42085,6 +42028,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001505"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-z class II</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-z class II</obo:OBI_9991118>
@@ -42113,6 +42057,8 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001461"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001506"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-IAz/d mixed haplotype</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-z/d class II</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAz/d mixed haplotype</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haplotype</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">713</obo:MRO_has-iedb-mhc-id>
@@ -46783,6 +46729,200 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*50101 </obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*50101 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001989">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000117"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat non-classical MHC locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001989"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat CD1 locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001991">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001989"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000903"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat non-classical MHC chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001992">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001990"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001991"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat CD1 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001992"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q63493.2</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat CD1d chain</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLYLPCLLLWAFPQFWGQSEVQQNYTFGCLQISSFANRSWSRTDSVVWLGDLQTHRWSNDSDTISFTKPWSQGKFSNQQWEKLQHMFQVYRTSFTRDIKEIVKMMSPKEDYPIEVQLSAGCEMYPGNASESFLHVAFQGEYVVRFHGTSWQKVPEAPSWLDLPIKMLNADEGTRETVQILLNDTCPQFVRGLLEAGKPDLEKQEKPVAWLSRGPNPAHGHLQLVCHVSGFHPKPVWVMWMRGDQEQGGTHRGDILPNADETWYLQATLDVEAGDEAGLACRVKHSSLEGQDIILYWGGRQVSPVLIFLIVGVLVLVVCAVAYYIIRKRRRSYQDIM</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat CD1d chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001994 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001994">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001464"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat non-classical MHC protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001995">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001993"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001994"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rCD1d</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q63493.2</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">910</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD1</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat CD1d</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rat CD1d protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001996">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001750"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3VJ6_A</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chain A, Structure Of The Mhc Class Ib Molecule Qa-1b</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPHSLRYFTTAVSRPGLGEPRFIIVGYVDDTQFVRFDSDAENPRMEPRARWIEQEGPEYWERETWKARDMGRNFRVNLRTLLGYYNQSNDESHTLQWMYGCDVGPDGRLLRGYCQEAYDGQDYISLNEDLRSWTANDIASQISKHKSEAVDEAHQQRAYLQGPCVEWLHRYLRLGNETLQRSDPPKAHVTHHPRSEDEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWAAVVVPLGKEQYYTCHVYHEGLPEPLTLRWEPP</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa-1b chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0001997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001997">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0001996"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001752"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Qa-1b</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qa1b</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3VJ6_A</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">911</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q1</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa-1b</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Qa-1b protein complex</rdfs:label>
     </owl:Class>
     
 

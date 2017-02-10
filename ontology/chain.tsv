@@ -166,9 +166,7 @@ H2-Q1 chain		equivalent	protein	H2-Q1 locus
 H2-Q2 chain		equivalent	protein	H2-Q2 locus
 H2-Q9 chain		equivalent	protein	H2-Q9 locus
 H2-Q chain		equivalent	protein	H2-Q locus
-H2-Qa1 chain		subclass	H2-Q chain	
-H2-Qa2 chain		subclass	H2-Q chain	
-H2-Qa9 chain		subclass	H2-Q chain	
+H2-Qa-1b chain		subclass	protein	H2-Q1 locus
 HLA-A chain		equivalent	protein	HLA-A locus
 HLA-A*01:01 chain		subclass	HLA-A chain	
 HLA-A*01:03 chain		subclass	HLA-A chain	
@@ -407,7 +405,6 @@ HLA-DQB1*06:04 chain		subclass	HLA-DQB chain
 HLA-DQB1*06:05 chain		subclass	HLA-DQB chain	
 HLA-DQB1*06:09 chain		subclass	HLA-DQB chain	
 HLA-DQB chain		equivalent	protein	HLA-DQB locus
-HLA-DQB*03:02 chain		subclass	HLA-DQB chain	
 HLA-DRA chain		equivalent	protein	HLA-DRA locus
 HLA-DRA*01:01 chain		subclass	HLA-DRA chain	
 HLA-DRA*01:02 chain		subclass	HLA-DRA chain	
@@ -596,8 +593,11 @@ Patr-DRB5*03:10 chain		subclass	Patr-DRB chain
 Patr-DRB chain		equivalent	protein	Patr-DRB locus
 pig MHC class I chain		equivalent	protein	pig MHC class I locus
 pig MHC class II chain		equivalent	protein	pig MHC class II locus
+rat CD1 chain		equivalent	protein	rat CD1 locus
+rat CD1d chain		subclass	rat CD1 chain	
 rat MHC class I chain		equivalent	protein	rat MHC class I locus
 rat MHC class II chain		equivalent	protein	rat MHC class II locus
+rat non-classical MHC chain		equivalent	protein	rat non-classical MHC locus
 rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I locus
 rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus
 RT1-A1 chain		equivalent	protein	RT1-A1 locus

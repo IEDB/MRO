@@ -112,8 +112,8 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 117	http://purl.obolibrary.org/obo/MRO_0000985	H2-IEg7	H-2-IEg7		complete molecule	mouse (Mus musculus)	10090	II	H2-g7	IE		H2-IEg7	H2-IEg7 alpha	H2-IEg7 beta	IE alpha		IE beta			
 118	http://purl.obolibrary.org/obo/MRO_0000986	H2-IEk	H-2-IEk		complete molecule	mouse (Mus musculus)	10090	II	H2-k	IE		H2-IEk	H2-IEk alpha	H2-IEk beta	IE alpha		IE beta		301186	301192
 119	http://purl.obolibrary.org/obo/MRO_0000989	H2-IEu	H-2-IEu		complete molecule	mouse (Mus musculus)	10090	II	H2-u	IE		H2-IEu	H2-IEu alpha	H2-IEu beta	IE alpha		IE beta		301187	301193
-120	http://purl.obolibrary.org/obo/MRO_0001764	H2-k class I			haplotype	mouse (Mus musculus)	10090	I	H2-k											
-121	http://purl.obolibrary.org/obo/MRO_0001779	H2-k class II			haplotype	mouse (Mus musculus)	10090	II	H2-k											
+120	http://purl.obolibrary.org/obo/MRO_0001764	H2-k class I	H-2-k class I		haplotype	mouse (Mus musculus)	10090	I	H2-k											
+121	http://purl.obolibrary.org/obo/MRO_0001779	H2-k class II	H-2-k class II		haplotype	mouse (Mus musculus)	10090	II	H2-k											
 122	http://purl.obolibrary.org/obo/MRO_0000991	H2-Kb	H-2-Kb		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K				51919	240777
 123	http://purl.obolibrary.org/obo/MRO_0001691	H2-Kb Y22F, M23I, E24S, D30N mutant	D30N mutant|E24S|H2-Kbm8|H-2-Kb Y22F|H-2-Kbm8|M23I	D30N mutant|E24S|H2-Kbm8|H-2-Kb Y22F|M23I	complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	Y22F, M23I, E24S, D30N				
 124	http://purl.obolibrary.org/obo/MRO_0000992	H2-Kd	H-2-Kd		complete molecule	mouse (Mus musculus)	10090	I	H2-d	K		H2-Kd	H2-Kd	Beta-2-microglobulin	K				256539	240777
@@ -121,19 +121,19 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 126	http://purl.obolibrary.org/obo/MRO_0000997	H2-Ld	H-2-Ld		complete molecule	mouse (Mus musculus)	10090	I	H2-d	L		H2-Ld	H2-Ld	Beta-2-microglobulin	L				251683	240777
 127	http://purl.obolibrary.org/obo/MRO_0000998	H2-Lq	H2-Lw16|H-2-Lq|H-2-Lw16	H2-Lw16	complete molecule	mouse (Mus musculus)	10090	I	H2-q	L		H2-Lq	H2-Lq	Beta-2-microglobulin	L					
 128	http://purl.obolibrary.org/obo/MRO_0000999	H2-M3	H-2-M3		complete molecule	mouse (Mus musculus)	10090	non classical		M		H2-M3	H2-M3		M				301188	240777
-129	http://purl.obolibrary.org/obo/MRO_0001765	H2-p class I			haplotype	mouse (Mus musculus)	10090	I	H2-p											
-130	http://purl.obolibrary.org/obo/MRO_0001780	H2-p class II			haplotype	mouse (Mus musculus)	10090	II	H2-p											
-131	http://purl.obolibrary.org/obo/MRO_0001766	H2-q class I			haplotype	mouse (Mus musculus)	10090	I	H2-q											
-132	http://purl.obolibrary.org/obo/MRO_0001781	H2-q class II			haplotype	mouse (Mus musculus)	10090	II	H2-q											
-133	http://purl.obolibrary.org/obo/MRO_0001752	H2-Q1	H2-Qa1|Qa-1b	H2-Qa1|Qa-1b	locus	mouse (Mus musculus)	10090	I		Q1					Q1					
-134	http://purl.obolibrary.org/obo/MRO_0001767	H2-r class I			haplotype	mouse (Mus musculus)	10090	I	H2-r											
-135	http://purl.obolibrary.org/obo/MRO_0001782	H2-r class II			haplotype	mouse (Mus musculus)	10090	II	H2-r											
-136	http://purl.obolibrary.org/obo/MRO_0001768	H2-s class I			haplotype	mouse (Mus musculus)	10090	I	H2-s											
-137	http://purl.obolibrary.org/obo/MRO_0001783	H2-s class II			haplotype	mouse (Mus musculus)	10090	II	H2-s											
-138	http://purl.obolibrary.org/obo/MRO_0001769	H2-u class I			haplotype	mouse (Mus musculus)	10090	I	H2-u											
-139	http://purl.obolibrary.org/obo/MRO_0001770	H2-v class I			haplotype	mouse (Mus musculus)	10090	I	H2-v											
-140	http://purl.obolibrary.org/obo/MRO_0001771	H2-z class I			haplotype	mouse (Mus musculus)	10090	I	H2-z											
-141	http://purl.obolibrary.org/obo/MRO_0001785	H2-z class II			haplotype	mouse (Mus musculus)	10090	II	H2-z											
+129	http://purl.obolibrary.org/obo/MRO_0001765	H2-p class I	H-2-p class I		haplotype	mouse (Mus musculus)	10090	I	H2-p											
+130	http://purl.obolibrary.org/obo/MRO_0001780	H2-p class II	H-2-p class II		haplotype	mouse (Mus musculus)	10090	II	H2-p											
+131	http://purl.obolibrary.org/obo/MRO_0001766	H2-q class I	H-2-q class I		haplotype	mouse (Mus musculus)	10090	I	H2-q											
+132	http://purl.obolibrary.org/obo/MRO_0001781	H2-q class II	H-2-q class II		haplotype	mouse (Mus musculus)	10090	II	H2-q											
+133	http://purl.obolibrary.org/obo/MRO_0001752	H2-Q1	H2-Qa1|Qa-1b	H2-Qa1|Qa-1b	locus	mouse (Mus musculus)	10090	non classical		Q1					Q1					
+134	http://purl.obolibrary.org/obo/MRO_0001767	H2-r class I	H-2-r class I		haplotype	mouse (Mus musculus)	10090	I	H2-r											
+135	http://purl.obolibrary.org/obo/MRO_0001782	H2-r class II	H-2-r class II		haplotype	mouse (Mus musculus)	10090	II	H2-r											
+136	http://purl.obolibrary.org/obo/MRO_0001768	H2-s class I	H-2-s class I		haplotype	mouse (Mus musculus)	10090	I	H2-s											
+137	http://purl.obolibrary.org/obo/MRO_0001783	H2-s class II	H-2-s class II		haplotype	mouse (Mus musculus)	10090	II	H2-s											
+138	http://purl.obolibrary.org/obo/MRO_0001769	H2-u class I	H-2-u class I		haplotype	mouse (Mus musculus)	10090	I	H2-u											
+139	http://purl.obolibrary.org/obo/MRO_0001770	H2-v class I	H-2-v class I		haplotype	mouse (Mus musculus)	10090	I	H2-v											
+140	http://purl.obolibrary.org/obo/MRO_0001771	H2-z class I	H-2-z class I		haplotype	mouse (Mus musculus)	10090	I	H2-z											
+141	http://purl.obolibrary.org/obo/MRO_0001785	H2-z class II	H-2-z class II		haplotype	mouse (Mus musculus)	10090	II	H2-z											
 142	http://purl.obolibrary.org/obo/MRO_0001006	HLA-A*01:01	HLA-A01:01|HLA-A0101|HLA-A*0101|HLA-A*010101	HLA-A*010101	complete molecule	human (Homo sapiens)	9606	I		A	A1	HLA-A*01:01	HLA-A*01:01	Beta-2-microglobulin	A				300551	56585
 143	http://purl.obolibrary.org/obo/MRO_0001007	HLA-A*02:01	HLA-A2.1|HLA-A02:01|HLA-A0201|HLA-A*0201|HLA-A*020101	HLA-A2.1|HLA-A*020101	complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:01	HLA-A*02:01	Beta-2-microglobulin	A				300552	56585
 144	http://purl.obolibrary.org/obo/MRO_0001856	B12 class I			haplotype	chicken (Gallus gallus)	9031	I	B12											
@@ -157,20 +157,20 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 162	http://purl.obolibrary.org/obo/MRO_0001866	ELA-A9 class I	A9	A9	haplotype	horse (Equus caballus)	9796	I	A9											
 163	http://purl.obolibrary.org/obo/MRO_0001867	ELA-W11 class I	W11	W11	haplotype	horse (Equus caballus)	9796	I	W11											
 164	http://purl.obolibrary.org/obo/MRO_0000964	Gogo-B*0101	Gogo-B0101		complete molecule	gorilla (Gorilla gorilla)	9593	I		B		Gogo-B*0101	Gogo-B*0101	Beta-2-microglobulin	B					
-165	http://purl.obolibrary.org/obo/MRO_0001758	H2-a class I			haplotype	mouse (Mus musculus)	10090	I	H2-a											
-166	http://purl.obolibrary.org/obo/MRO_0001772	H2-a class II			haplotype	mouse (Mus musculus)	10090	II	H2-a											
-167	http://purl.obolibrary.org/obo/MRO_0001759	H2-b class I			haplotype	mouse (Mus musculus)	10090	I	H2-b											
-168	http://purl.obolibrary.org/obo/MRO_0001773	H2-b class II			haplotype	mouse (Mus musculus)	10090	II	H2-b											
-169	http://purl.obolibrary.org/obo/MRO_0001760	H2-d class I			haplotype	mouse (Mus musculus)	10090	I	H2-d											
-170	http://purl.obolibrary.org/obo/MRO_0001774	H2-d class II			haplotype	mouse (Mus musculus)	10090	II	H2-d											
+165	http://purl.obolibrary.org/obo/MRO_0001758	H2-a class I	H-2-a class I		haplotype	mouse (Mus musculus)	10090	I	H2-a											
+166	http://purl.obolibrary.org/obo/MRO_0001772	H2-a class II	H-2-a class II		haplotype	mouse (Mus musculus)	10090	II	H2-a											
+167	http://purl.obolibrary.org/obo/MRO_0001759	H2-b class I	H-2-b class I		haplotype	mouse (Mus musculus)	10090	I	H2-b											
+168	http://purl.obolibrary.org/obo/MRO_0001773	H2-b class II	H-2-b class II		haplotype	mouse (Mus musculus)	10090	II	H2-b											
+169	http://purl.obolibrary.org/obo/MRO_0001760	H2-d class I	H-2-d class I		haplotype	mouse (Mus musculus)	10090	I	H2-d											
+170	http://purl.obolibrary.org/obo/MRO_0001774	H2-d class II	H-2-d class II		haplotype	mouse (Mus musculus)	10090	II	H2-d											
 172	http://purl.obolibrary.org/obo/MRO_0000966	H2-Db	H-2-Db		complete molecule	mouse (Mus musculus)	10090	I	H2-b	D		H2-Db	H2-Db	Beta-2-microglobulin	D				55197	240777
 173	http://purl.obolibrary.org/obo/MRO_0000967	H2-Dd	H-2-Dd		complete molecule	mouse (Mus musculus)	10090	I	H2-d	D		H2-Dd	H2-Dd	Beta-2-microglobulin	D				301183	240777
 174	http://purl.obolibrary.org/obo/MRO_0000968	H2-Dk	H-2-Dk		complete molecule	mouse (Mus musculus)	10090	I	H2-k	D		H2-Dk	H2-Dk	Beta-2-microglobulin	D					
-175	http://purl.obolibrary.org/obo/MRO_0001761	H2-f class I			haplotype	mouse (Mus musculus)	10090	I	H2-f											
-176	http://purl.obolibrary.org/obo/MRO_0001775	H2-f class II			haplotype	mouse (Mus musculus)	10090	II	H2-f											
-177	http://purl.obolibrary.org/obo/MRO_0001763	H2-i class I			haplotype	mouse (Mus musculus)	10090	I	H2-i											
-178	http://purl.obolibrary.org/obo/MRO_0001777	H2-i class II			haplotype	mouse (Mus musculus)	10090	II	H2-i											
-179	http://purl.obolibrary.org/obo/MRO_0001778	H2-i3 class II			haplotype	mouse (Mus musculus)	10090	II	H2-i3											
+175	http://purl.obolibrary.org/obo/MRO_0001761	H2-f class I	H-2-f class I		haplotype	mouse (Mus musculus)	10090	I	H2-f											
+176	http://purl.obolibrary.org/obo/MRO_0001775	H2-f class II	H-2-f class II		haplotype	mouse (Mus musculus)	10090	II	H2-f											
+177	http://purl.obolibrary.org/obo/MRO_0001763	H2-i class I	H-2-i class I		haplotype	mouse (Mus musculus)	10090	I	H2-i											
+178	http://purl.obolibrary.org/obo/MRO_0001777	H2-i class II	H-2-i class II		haplotype	mouse (Mus musculus)	10090	II	H2-i											
+179	http://purl.obolibrary.org/obo/MRO_0001778	H2-i3 class II	H-2-i3 class II		haplotype	mouse (Mus musculus)	10090	II	H2-i3											
 180	http://purl.obolibrary.org/obo/MRO_0000971	H2-IA			locus	mouse (Mus musculus)	10090	II		IA					IA alpha		IA beta			
 181	http://purl.obolibrary.org/obo/MRO_0000972	H2-IAb	H-2-IAb		complete molecule	mouse (Mus musculus)	10090	II	H2-b	IA		H2-IAb	H2-IAb alpha	H2-IAb beta	IA alpha		IA beta		254615	301190
 182	http://purl.obolibrary.org/obo/MRO_0001683	H2-IAb I67F, R70Q, T71K mutant	H2-IAbm12|H-2-IAb I67F|H-2-IAbm12|R70Q|T71K mutant	H2-IAbm12|H-2-IAb I67F|R70Q|T71K mutant	complete molecule	mouse (Mus musculus)	10090	II	H2-b	IA		H2-IAb	H2-IAb alpha	H2-IAb beta	IA alpha	I67F, R70Q, T71K	IA beta			
@@ -472,7 +472,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 507	http://purl.obolibrary.org/obo/MRO_0001434	BoLA class I			class	cattle (Bos taurus)	9913	I												
 508	http://purl.obolibrary.org/obo/MRO_0000922	BoLA-1*02101	BoLA-102101|N*02101	N*02101	complete molecule	cattle (Bos taurus)	9913	I		1	A31	BoLA-1*02101	BoLA-1*02101	Beta-2-microglobulin	1				300478	300493
 509	http://purl.obolibrary.org/obo/MRO_0000927	BoLA-2*02201	BoLA-202201|N*02201	N*02201	complete molecule	cattle (Bos taurus)	9913	I		2	A31	BoLA-2*02201	BoLA-2*02201	Beta-2-microglobulin	2				300480	300493
-510	http://purl.obolibrary.org/obo/MRO_0001001	H2-Q9			locus	mouse (Mus musculus)	10090	I		Q9					Q9					
+510	http://purl.obolibrary.org/obo/MRO_0001001	H2-Q9			locus	mouse (Mus musculus)	10090	non classical		Q9					Q9					
 511	http://purl.obolibrary.org/obo/MRO_0001209	HLA-DQA1*01:03/DQB1*06:03	HLA-DQA1*0103/DQB1*0603|HLA-DQA101:03/DQB106:03|HLA-DQA10103/DQB10603		complete molecule	human (Homo sapiens)	9606	II		DQ	DQ6	HLA-DQA1*01:03/DQB1*06:03	HLA-DQA1*01:03	HLA-DQB1*06:03	DQA		DQB		300716	300740
 512	http://purl.obolibrary.org/obo/MRO_0001799	RT1-A	RT1A	RT1A	locus	rat (Rattus norvegicus)	10116	I		A					A					
 514	http://purl.obolibrary.org/obo/MRO_0001037	HLA-A*25:01	HLA-A25:01|HLA-A2501|HLA-A*2501		complete molecule	human (Homo sapiens)	9606	I		A	A25	HLA-A*25:01	HLA-A*25:01	Beta-2-microglobulin	A				300580	56585
@@ -535,8 +535,8 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 581	http://purl.obolibrary.org/obo/MRO_0001145	HLA-B*67:01	HLA-B67:01|HLA-B6701|HLA-B*6701		complete molecule	human (Homo sapiens)	9606	I		B		HLA-B*67:01	HLA-B*67:01	Beta-2-microglobulin	B				300673	56585
 582	http://purl.obolibrary.org/obo/MRO_0001162	HLA-C*12:02	HLA-C12:02|HLA-C1202|HLA-C*1202		complete molecule	human (Homo sapiens)	9606	I		C		HLA-C*12:02	HLA-C*12:02	Beta-2-microglobulin	C				300688	56585
 583	http://purl.obolibrary.org/obo/MRO_0000913	BF2			locus	chicken (Gallus gallus)	9031	I		BF2					BF2					
-584	http://purl.obolibrary.org/obo/MRO_0001762	H2-g7 class I			haplotype	mouse (Mus musculus)	10090	I	H2-g7											
-585	http://purl.obolibrary.org/obo/MRO_0001776	H2-g7 class II			haplotype	mouse (Mus musculus)	10090	II	H2-g7											
+584	http://purl.obolibrary.org/obo/MRO_0001762	H2-g7 class I	H-2-g7 class I		haplotype	mouse (Mus musculus)	10090	I	H2-g7											
+585	http://purl.obolibrary.org/obo/MRO_0001776	H2-g7 class II	H-2-g7 class II		haplotype	mouse (Mus musculus)	10090	II	H2-g7											
 586	http://purl.obolibrary.org/obo/MRO_0001242	HLA-DQB1*03:04	HLA-DQB1*0304|HLA-DQB103:04|HLA-DQB10304		partial molecule	human (Homo sapiens)	9606	II		DQ	DQ7	HLA-DQB1*03:04	HLA-DQA	HLA-DQB1*03:04	DQA		DQB			300731
 587	http://purl.obolibrary.org/obo/MRO_0001255	HLA-DQB1*06:09	HLA-DQB1*0609|HLA-DQB106:09|HLA-DQB10609		partial molecule	human (Homo sapiens)	9606	II		DQ	DQ6	HLA-DQB1*06:09	HLA-DQA	HLA-DQB1*06:09	DQA		DQB			300743
 588	http://purl.obolibrary.org/obo/MRO_0001524	BoLA-A11			serotype	cattle (Bos taurus)	9913	I			A11									
@@ -555,7 +555,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 603	http://purl.obolibrary.org/obo/MRO_0001014	HLA-A*02:08	HLA-A02:08|HLA-A0208|HLA-A*0208		complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:08	HLA-A*02:08	Beta-2-microglobulin	A				300559	56585
 604	http://purl.obolibrary.org/obo/MRO_0001030	HLA-A*11:02	HLA-A11:02|HLA-A1102|HLA-A*1102		complete molecule	human (Homo sapiens)	9606	I		A	A11	HLA-A*11:02	HLA-A*11:02	Beta-2-microglobulin	A				300573	56585
 606	http://purl.obolibrary.org/obo/MRO_0001207	HLA-DQA1*01:03/DQB1*03:02	HLA-DQA1*0103/DQB1*0302|HLA-DQA101:03/DQB103:02|HLA-DQA10103/DQB10302		complete molecule	human (Homo sapiens)	9606	II		DQ	DQ8	HLA-DQA1*01:03/DQB1*03:02	HLA-DQA1*01:03	HLA-DQB1*03:02	DQA		DQB		300716	300729
-607	http://purl.obolibrary.org/obo/MRO_0001784	H2-u class II			haplotype	mouse (Mus musculus)	10090	II	H2-u											
+607	http://purl.obolibrary.org/obo/MRO_0001784	H2-u class II	H-2-u class II		haplotype	mouse (Mus musculus)	10090	II	H2-u											
 608	http://purl.obolibrary.org/obo/MRO_0001813	RT1-Ba			complete molecule	rat (Rattus norvegicus)	10116	II	RT1-a	B		RT1-Ba	RT1-Ba alpha	RT1-Ba beta	B alpha		B beta			
 609	http://purl.obolibrary.org/obo/MRO_0001822	RT1-Bn			complete molecule	rat (Rattus norvegicus)	10116	II	RT1-n	B		RT1-Bn	RT1-Bn alpha	RT1-Bn beta	B alpha		B beta			
 610	http://purl.obolibrary.org/obo/MRO_0001825	RT1-Bu			complete molecule	rat (Rattus norvegicus)	10116	II	RT1-u	B		RT1-Bu	RT1-Bu alpha	RT1-Bu beta	B alpha		B beta			
@@ -571,7 +571,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 621	http://purl.obolibrary.org/obo/MRO_0000987	H2-IEp	H-2-IEp		complete molecule	mouse (Mus musculus)	10090	II	H2-p	IE		H2-IEp	H2-IEp alpha	H2-IEp beta	IE alpha		IE beta			
 622	http://purl.obolibrary.org/obo/MRO_0001685	H2-IAk H9V mutant	H-2-IAk H9V mutant		complete molecule	mouse (Mus musculus)	10090	II	H2-k	IA		H2-IAk	H2-IAk alpha	H2-IAk beta	IA alpha	H9V	IA beta	H9V		
 623	http://purl.obolibrary.org/obo/MRO_0001686	H2-IAu V9H mutant	H-2-IAu V9H mutant		complete molecule	mouse (Mus musculus)	10090	II	H2-u	IA		H2-IAu	H2-IAu alpha	H2-IAu beta	IA alpha	V9H	IA beta	V9H		
-624	http://purl.obolibrary.org/obo/MRO_0001755	H2-Q2	H2-Qa2	H2-Qa2	locus	mouse (Mus musculus)	10090	I		Q2					Q2					
+624	http://purl.obolibrary.org/obo/MRO_0001755	H2-Q2	H2-Qa2	H2-Qa2	locus	mouse (Mus musculus)	10090	non classical		Q2					Q2					
 625	http://purl.obolibrary.org/obo/MRO_0000970	H2-Ds	H-2-Ds		complete molecule	mouse (Mus musculus)	10090	I	H2-s	D		H2-Ds	H2-Ds	Beta-2-microglobulin	D					
 626	http://purl.obolibrary.org/obo/MRO_0001460	H2 class I			class	mouse (Mus musculus)	10090	I												
 627	http://purl.obolibrary.org/obo/MRO_0001461	H2 class II			class	mouse (Mus musculus)	10090	II												
@@ -638,7 +638,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 705	http://purl.obolibrary.org/obo/MRO_0001397	Patr-B*03:02	Patr-B03:02|Patr-B0302|Patr-B*0302		complete molecule	chimpanzee (Pan troglodytes)	9598	I		B		Patr-B*03:02	Patr-B*03:02	Beta-2-microglobulin	B				300469	300490
 709	http://purl.obolibrary.org/obo/MRO_0001430	YF1w*7.1	YF1*7.1|YF1w7.1	YF1*7.1	complete molecule	chicken (Gallus gallus)	9031	non classical	YF1	YF		YF1w*7.1	YF1w*7.1		YF					
 710	http://purl.obolibrary.org/obo/MRO_0001231	HLA-DQA1*05:01/DQB1*03:02	HLA-DQA1*0501/DQB1*0302|HLA-DQA1*0501/HLA-DQB1*0302|HLA-DQA105:01/DQB103:02|HLA-DQA10501/DQB10302	HLA-DQA1*0501/HLA-DQB1*0302	complete molecule	human (Homo sapiens)	9606	II		DQ	DQ8	HLA-DQA1*05:01/DQB1*03:02	HLA-DQA1*05:01	HLA-DQB1*03:02	DQA		DQB		300723	300729
-713	http://purl.obolibrary.org/obo/MRO_0001786	H2-z/d class II	H2-IAz/d mixed haplotype	H2-IAz/d mixed haplotype	haplotype	mouse (Mus musculus)	10090	II	H2-z/d											
+713	http://purl.obolibrary.org/obo/MRO_0001786	H2-z/d class II	H2-IAz/d mixed haplotype|H-2-IAz/d mixed haplotype|H-2-z/d class II	H2-IAz/d mixed haplotype	haplotype	mouse (Mus musculus)	10090	II	H2-z/d											
 714	http://purl.obolibrary.org/obo/MRO_0001101	HLA-B*38:02	HLA-B38:02|HLA-B3802|HLA-B*3802		complete molecule	human (Homo sapiens)	9606	I		B	B38	HLA-B*38:02	HLA-B*38:02	Beta-2-microglobulin	B				300636	56585
 715	http://purl.obolibrary.org/obo/MRO_0001374	Mamu-DRB1*03:03	Mamu-DRB1*0303|Mamu-DRB103:03|Mamu-DRB10303		partial molecule	rhesus macaque (Macaca mulatta)	9544	II		DR		Mamu-DRB1*03:03	Mamu-DRA	Mamu-DRB1*03:03	DRA		DRB			300516
 716	http://purl.obolibrary.org/obo/MRO_0001375	Mamu-DRB1*03:06	Mamu-DRB1*0306|Mamu-DRB103:06|Mamu-DRB10306		partial molecule	rhesus macaque (Macaca mulatta)	9544	II		DR		Mamu-DRB1*03:06	Mamu-DRA	Mamu-DRB1*03:06	DRA		DRB			300502
@@ -814,3 +814,6 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 907	http://purl.obolibrary.org/obo/MRO_0001982	HLA-Cw18	HLA-Cw*18	HLA-Cw*18	serotype	human (Homo sapiens)	9606	I		C	Cw18									
 908	http://purl.obolibrary.org/obo/MRO_0001983	HLA-DRB1*01:01 N82A mutant	HLA-DRB1*0101 N82A mutant|HLA-DRB101:01 N82A mutant|HLA-DRB10101 N82A mutant		partial molecule	human (Homo sapiens)	9606	II		DR	DR1	HLA-DRB1*01:01	HLA-DRA	HLA-DRB1*01:01	DRA		DRB1	N82A		
 909	http://purl.obolibrary.org/obo/MRO_0001988	DLA-88*50101 	DLA-8850101 		complete molecule	dog (Canis lupus familiaris)	9615	I		88		DLA-88*50101 	DLA-88*50101	Beta-2-microglobulin	88					
+910	http://purl.obolibrary.org/obo/MRO_0001995	rat CD1d	rCD1d	rCD1d	complete molecule	rat (Rattus norvegicus)	10116	non classical		CD1		rat CD1d	rat CD1d	Beta-2-microglobulin	rat CD1				Q63493.2	
+911	http://purl.obolibrary.org/obo/MRO_0001997	H2-Qa-1b	H-2-Qa-1b|Qa1b	Qa1b	complete molecule	mouse (Mus musculus)	10090	non classical		Q1		H2-Qa-1b	H2-Qa-1b	Beta-2-microglobulin	Q1				3VJ6_A	
+912	http://purl.obolibrary.org/obo/MRO_0001170	HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*0103/DPB1*0212|HLA-DPA101:03/DPB102:12|HLA-DPA10103/DPB10212		complete molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*01:03	HLA-DPB1*02:12	DPA		DPB			

@@ -92,11 +92,8 @@ http://purl.obolibrary.org/obo/MRO_0000996,locus,,10090,mouse,MHC class I,,,,H2-
 http://purl.obolibrary.org/obo/MRO_0000997,complete molecule,126,10090,mouse,MHC class I,L,H2-d haplotype,,H2-Ld protein complex,MRO_0000997,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000998,complete molecule,127,10090,mouse,MHC class I,L,H2-q haplotype,,H2-Lq protein complex,MRO_0000998,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000999,complete molecule,128,10090,mouse,non-classical MHC,M,,,H2-M3 protein complex,MRO_0000999,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001000,locus,,10090,mouse,MHC class I,,,,H2-Q protein complex,MRO_0001000,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001001,locus,510,10090,mouse,MHC class I,Q9,,,H2-Q9 protein complex,MRO_0001001,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001002,complete molecule,,10090,mouse,MHC class I,,H2-a haplotype,,H2-Qa1 protein complex,MRO_0001002,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001003,complete molecule,,10090,mouse,MHC class I,,H2-a haplotype,,H2-Qa2 protein complex,MRO_0001003,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001004,complete molecule,,10090,mouse,MHC class I,,H2-a haplotype,,H2-Qa9 protein complex,MRO_0001004,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001000,locus,,10090,mouse,non-classical MHC,,,,H2-Q protein complex,MRO_0001000,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001001,locus,510,10090,mouse,non-classical MHC,Q9,,,H2-Q9 protein complex,MRO_0001001,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001005,locus,,9606,human,MHC class I,,,,HLA-A protein complex,MRO_0001005,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001006,complete molecule,142,9606,human,MHC class I,A,,HLA-A1 serotype,HLA-A*01:01 protein complex,MRO_0001006,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001007,complete molecule,143,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 protein complex,MRO_0001007,http://purl.obolibrary.org/obo/
@@ -262,7 +259,7 @@ http://purl.obolibrary.org/obo/MRO_0001166,complete molecule,9,9606,human,MHC cl
 http://purl.obolibrary.org/obo/MRO_0001167,locus,17,9606,human,MHC class II,DP,,,HLA-DP protein complex,MRO_0001167,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001168,partial molecule,18,9606,human,MHC class II,DP,,,HLA-DPA1*01:03 protein complex,MRO_0001168,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001169,complete molecule,19,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*02:01 protein complex,MRO_0001169,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001170,complete molecule,,9606,human,MHC class II,,,,HLA-DPA1*01:03/DPB1*02:12 protein complex,MRO_0001170,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001170,complete molecule,912,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*02:12 protein complex,MRO_0001170,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001171,complete molecule,20,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*03:01 protein complex,MRO_0001171,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001172,complete molecule,522,9606,human,MHC class II,DP,,HLA-DP4 serotype,HLA-DPA1*01:03/DPB1*04:01 protein complex,MRO_0001172,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001173,complete molecule,646,9606,human,MHC class II,DP,,HLA-DP4 serotype,HLA-DPA1*01:03/DPB1*04:02 protein complex,MRO_0001173,http://purl.obolibrary.org/obo/
@@ -328,7 +325,6 @@ http://purl.obolibrary.org/obo/MRO_0001232,complete molecule,803,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0001233,complete molecule,804,9606,human,MHC class II,DQ,,HLA-DQ4 serotype,HLA-DQA1*05:01/DQB1*04:02 protein complex,MRO_0001233,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001234,complete molecule,524,9606,human,MHC class II,DQ,,HLA-DQ7 serotype,HLA-DQA1*05:05/DQB1*03:01 protein complex,MRO_0001234,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001235,complete molecule,805,9606,human,MHC class II,DQ,,HLA-DQ4 serotype,HLA-DQA1*06:01/DQB1*04:02 protein complex,MRO_0001235,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001236,partial molecule,,9606,human,MHC class II,,,HLA-DQ8 serotype,HLA-DQB*03:02 protein complex,MRO_0001236,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001237,partial molecule,316,9606,human,MHC class II,DQ,,HLA-DQ2 serotype,HLA-DQB1*02:01 protein complex,MRO_0001237,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001238,partial molecule,515,9606,human,MHC class II,DQ,,HLA-DQ2 serotype,HLA-DQB1*02:02 protein complex,MRO_0001238,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001239,partial molecule,317,9606,human,MHC class II,DQ,,HLA-DQ7 serotype,HLA-DQB1*03:01 protein complex,MRO_0001239,http://purl.obolibrary.org/obo/
@@ -826,8 +822,8 @@ http://purl.obolibrary.org/obo/MRO_0001745,serotype,,9490,cotton-top tamarin,MHC
 http://purl.obolibrary.org/obo/MRO_0001747,class,822,9490,cotton-top tamarin,MHC class II,,,,cotton-top tamarin MHC class II protein complex,MRO_0001747,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001748,class,558,9615,dog,MHC class II,,,,dog MHC class II protein complex,MRO_0001748,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001749,class,826,9593,gorilla,MHC class II,,,,gorilla MHC class II protein complex,MRO_0001749,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001752,locus,133,10090,mouse,MHC class I,Q1,,,H2-Q1 protein complex,MRO_0001752,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001755,locus,624,10090,mouse,MHC class I,Q2,,,H2-Q2 protein complex,MRO_0001755,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001752,locus,133,10090,mouse,non-classical MHC,Q1,,,H2-Q1 protein complex,MRO_0001752,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001755,locus,624,10090,mouse,non-classical MHC,Q2,,,H2-Q2 protein complex,MRO_0001755,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001757,class,549,9796,horse,MHC class II,,,,horse MHC class II protein complex,MRO_0001757,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001758,haplotype,165,10090,mouse,MHC class I,,H2-a haplotype,,mouse MHC class I protein complex with H2-a haplotype,MRO_0001758,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001759,haplotype,167,10090,mouse,MHC class I,,H2-b haplotype,,mouse MHC class I protein complex with H2-b haplotype,MRO_0001759,http://purl.obolibrary.org/obo/
@@ -966,3 +962,6 @@ http://purl.obolibrary.org/obo/MRO_0001980,complete molecule,906,9796,horse,MHC 
 http://purl.obolibrary.org/obo/MRO_0001982,serotype,907,9606,human,MHC class I,C,,HLA-Cw18 serotype,HLA protein complex with Cw18 serotype,MRO_0001982,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001983,partial molecule,908,9606,human,MHC class II,DR,,HLA-DR1 serotype,HLA-DRB1*01:01 N82A mutant,MRO_0001983,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001988,complete molecule,909,9615,dog,MHC class I,88,,,DLA-88*50101 protein complex,MRO_0001988,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001994,class,,10116,rat,non-classical MHC,,,,rat non-classical MHC protein complex,MRO_0001994,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001995,complete molecule,910,10116,rat,non-classical MHC,CD1,,,rat CD1d protein complex,MRO_0001995,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001997,complete molecule,911,10090,mouse,non-classical MHC,Q1,,,H2-Qa-1b protein complex,MRO_0001997,http://purl.obolibrary.org/obo/

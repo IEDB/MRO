@@ -468,9 +468,9 @@ MRO:0000464	H2-M3 chain	owl:Class
 MRO:0000465	H2-MR1 chain	owl:Class	
 MRO:0000466	H2-Q chain	owl:Class	
 MRO:0000467	H2-Q9 chain	owl:Class	
-MRO:0000468	H2-Qa1 chain	owl:Class	
-MRO:0000469	H2-Qa2 chain	owl:Class	
-MRO:0000470	H2-Qa9 chain	owl:Class	
+MRO:0000468	obsolete H2-Qa1 chain	owl:Class	true
+MRO:0000469	obsolete H2-Qa2 chain	owl:Class	true
+MRO:0000470	obsolete H2-Qa9 chain	owl:Class	true
 MRO:0000471	HLA-A chain	owl:Class	
 MRO:0000472	HLA-A*01:01 chain	owl:Class	
 MRO:0000473	HLA-A*02:01 chain	owl:Class	
@@ -673,7 +673,7 @@ MRO:0000669	HLA-DQA1*05:01 chain	owl:Class
 MRO:0000670	HLA-DQA1*05:05 chain	owl:Class	
 MRO:0000671	HLA-DQA1*06:01 chain	owl:Class	
 MRO:0000672	HLA-DQB chain	owl:Class	
-MRO:0000673	HLA-DQB*03:02 chain	owl:Class	
+MRO:0000673	obsolete HLA-DQB*03:02 chain	owl:Class	true
 MRO:0000674	HLA-DQB1*02:01 chain	owl:Class	
 MRO:0000675	HLA-DQB1*02:02 chain	owl:Class	
 MRO:0000676	HLA-DQB1*03:01 chain	owl:Class	
@@ -1002,9 +1002,9 @@ MRO:0000998	H2-Lq protein complex	owl:Class
 MRO:0000999	H2-M3 protein complex	owl:Class	
 MRO:0001000	H2-Q protein complex	owl:Class	
 MRO:0001001	H2-Q9 protein complex	owl:Class	
-MRO:0001002	H2-Qa1 protein complex	owl:Class	
-MRO:0001003	H2-Qa2 protein complex	owl:Class	
-MRO:0001004	H2-Qa9 protein complex	owl:Class	
+MRO:0001002	obsolete H2-Qa1 protein complex	owl:Class	true
+MRO:0001003	obsolete H2-Qa2 protein complex	owl:Class	true
+MRO:0001004	obsolete H2-Qa9 protein complex	owl:Class	true
 MRO:0001005	HLA-A protein complex	owl:Class	
 MRO:0001006	HLA-A*01:01 protein complex	owl:Class	
 MRO:0001007	HLA-A*02:01 protein complex	owl:Class	
@@ -1236,7 +1236,7 @@ MRO:0001232	HLA-DQA1*05:01/DQB1*03:03 protein complex	owl:Class
 MRO:0001233	HLA-DQA1*05:01/DQB1*04:02 protein complex	owl:Class	
 MRO:0001234	HLA-DQA1*05:05/DQB1*03:01 protein complex	owl:Class	
 MRO:0001235	HLA-DQA1*06:01/DQB1*04:02 protein complex	owl:Class	
-MRO:0001236	HLA-DQB*03:02 protein complex	owl:Class	
+MRO:0001236	obsolete HLA-DQB*03:02 protein complex	owl:Class	true
 MRO:0001237	HLA-DQB1*02:01 protein complex	owl:Class	
 MRO:0001238	HLA-DQB1*02:02 protein complex	owl:Class	
 MRO:0001239	HLA-DQB1*03:01 protein complex	owl:Class	
@@ -1989,3 +1989,12 @@ MRO:0001985	has chain I mutation	owl:AnnotationProperty
 MRO:0001986	has chain II mutation	owl:AnnotationProperty	
 MRO:0001987	DLA-88*50101 chain	owl:Class	
 MRO:0001988	DLA-88*50101 protein complex	owl:Class	
+MRO:0001989	rat non-classical MHC locus	owl:Class	
+MRO:0001990	rat CD1 locus	owl:Class	
+MRO:0001991	rat non-classical MHC chain	owl:Class	
+MRO:0001992	rat CD1 chain	owl:Class	
+MRO:0001993	rat CD1d chain	owl:Class	
+MRO:0001994	rat non-classical MHC protein complex	owl:Class	
+MRO:0001995	rat CD1d protein complex	owl:Class	
+MRO:0001996	H2-Qa-1b chain	owl:Class	
+MRO:0001997	H2-Qa-1b protein complex	owl:Class	
