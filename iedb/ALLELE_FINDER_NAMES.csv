@@ -113,6 +113,7 @@ http://purl.obolibrary.org/obo/MRO_0000962,,Eqca-N00602
 http://purl.obolibrary.org/obo/MRO_0000963,,Gogo-B
 http://purl.obolibrary.org/obo/MRO_0000964,,Gogo-B*0101
 http://purl.obolibrary.org/obo/MRO_0000964,,Gogo-B0101
+http://purl.obolibrary.org/obo/MRO_0000965,,H-2-D
 http://purl.obolibrary.org/obo/MRO_0000965,,H2-D
 http://purl.obolibrary.org/obo/MRO_0000966,,H-2-Db
 http://purl.obolibrary.org/obo/MRO_0000966,,H2-Db
@@ -124,6 +125,7 @@ http://purl.obolibrary.org/obo/MRO_0000969,,H-2-Dr
 http://purl.obolibrary.org/obo/MRO_0000969,,H2-Dr
 http://purl.obolibrary.org/obo/MRO_0000970,,H-2-Ds
 http://purl.obolibrary.org/obo/MRO_0000970,,H2-Ds
+http://purl.obolibrary.org/obo/MRO_0000971,,H-2-IA
 http://purl.obolibrary.org/obo/MRO_0000971,,H2-IA
 http://purl.obolibrary.org/obo/MRO_0000972,,H-2-IAb
 http://purl.obolibrary.org/obo/MRO_0000972,,H2-IAb
@@ -145,6 +147,7 @@ http://purl.obolibrary.org/obo/MRO_0000980,,H-2-IAs
 http://purl.obolibrary.org/obo/MRO_0000980,,H2-IAs
 http://purl.obolibrary.org/obo/MRO_0000981,,H-2-IAu
 http://purl.obolibrary.org/obo/MRO_0000981,,H2-IAu
+http://purl.obolibrary.org/obo/MRO_0000982,,H-2-IE
 http://purl.obolibrary.org/obo/MRO_0000982,,H2-IE
 http://purl.obolibrary.org/obo/MRO_0000983,,H-2-IEb
 http://purl.obolibrary.org/obo/MRO_0000983,,H2-IEb
@@ -160,6 +163,7 @@ http://purl.obolibrary.org/obo/MRO_0000988,,H-2-IEr
 http://purl.obolibrary.org/obo/MRO_0000988,,H2-IEr
 http://purl.obolibrary.org/obo/MRO_0000989,,H-2-IEu
 http://purl.obolibrary.org/obo/MRO_0000989,,H2-IEu
+http://purl.obolibrary.org/obo/MRO_0000990,,H-2-K
 http://purl.obolibrary.org/obo/MRO_0000990,,H2-K
 http://purl.obolibrary.org/obo/MRO_0000991,,H-2-Kb
 http://purl.obolibrary.org/obo/MRO_0000991,,H2-Kb
@@ -171,6 +175,7 @@ http://purl.obolibrary.org/obo/MRO_0000994,,H-2-Ks
 http://purl.obolibrary.org/obo/MRO_0000994,,H2-Ks
 http://purl.obolibrary.org/obo/MRO_0000995,,H-2-Kwm7
 http://purl.obolibrary.org/obo/MRO_0000995,,H2-Kwm7
+http://purl.obolibrary.org/obo/MRO_0000996,,H-2-L
 http://purl.obolibrary.org/obo/MRO_0000996,,H2-L
 http://purl.obolibrary.org/obo/MRO_0000997,,H-2-Ld
 http://purl.obolibrary.org/obo/MRO_0000997,,H2-Ld
@@ -180,7 +185,9 @@ http://purl.obolibrary.org/obo/MRO_0000998,,H2-Lq
 http://purl.obolibrary.org/obo/MRO_0000998,,H2-Lw16
 http://purl.obolibrary.org/obo/MRO_0000999,,H-2-M3
 http://purl.obolibrary.org/obo/MRO_0000999,,H2-M3
+http://purl.obolibrary.org/obo/MRO_0001000,,H-2-Q
 http://purl.obolibrary.org/obo/MRO_0001000,,H2-Q
+http://purl.obolibrary.org/obo/MRO_0001001,,H-2-Q9
 http://purl.obolibrary.org/obo/MRO_0001001,,H2-Q9
 http://purl.obolibrary.org/obo/MRO_0001005,,HLA-A
 http://purl.obolibrary.org/obo/MRO_0001006,,HLA-A*0101
@@ -2477,9 +2484,13 @@ http://purl.obolibrary.org/obo/MRO_0001745,,cotton-top tamarin
 http://purl.obolibrary.org/obo/MRO_0001747,,cotton-top tamarin
 http://purl.obolibrary.org/obo/MRO_0001748,,dog
 http://purl.obolibrary.org/obo/MRO_0001749,,gorilla
+http://purl.obolibrary.org/obo/MRO_0001752,,H-2-Q1
+http://purl.obolibrary.org/obo/MRO_0001752,,H-2-Qa1
 http://purl.obolibrary.org/obo/MRO_0001752,,H2-Q1
 http://purl.obolibrary.org/obo/MRO_0001752,,H2-Qa1
 http://purl.obolibrary.org/obo/MRO_0001752,,Qa-1b
+http://purl.obolibrary.org/obo/MRO_0001755,,H-2-Q2
+http://purl.obolibrary.org/obo/MRO_0001755,,H-2-Qa2
 http://purl.obolibrary.org/obo/MRO_0001755,,H2-Q2
 http://purl.obolibrary.org/obo/MRO_0001755,,H2-Qa2
 http://purl.obolibrary.org/obo/MRO_0001757,,horse
