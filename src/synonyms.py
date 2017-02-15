@@ -100,7 +100,7 @@ def main():
     label = row[L]
     synonyms = row[S].split('|')
     if row[S] != 'A IAO:0000118 SPLIT=|': # ignore special case
-      if row[R] in ['complete molecule', 'partial molecule', 'haplotype']:
+      if row[R] in ['complete molecule', 'partial molecule', 'haplotype', 'locus']:
         synonyms = update_synonyms(label, synonyms)
       row[S] = '|'.join(sorted(synonyms, key=natural_sort_key))
     print('\t'.join(row))
