@@ -817,3 +817,4 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 910	http://purl.obolibrary.org/obo/MRO_0001995	rat CD1d	rCD1d	rCD1d	complete molecule	rat (Rattus norvegicus)	10116	non classical		CD1		rat CD1d	rat CD1d	Beta-2-microglobulin	rat CD1				352098	
 911	http://purl.obolibrary.org/obo/MRO_0001997	H2-Qa-1b	H-2-Qa-1b|Qa1b	Qa1b	complete molecule	mouse (Mus musculus)	10090	non classical		Q1		H2-Qa-1b	H2-Qa-1b	Beta-2-microglobulin	Q1				352115	
 912	http://purl.obolibrary.org/obo/MRO_0001170	HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*0103/DPB1*0212|HLA-DPA101:03/DPB102:12|HLA-DPA10103/DPB10212		complete molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*01:03	HLA-DPB1*02:12	DPA		DPB			
+913	http://purl.obolibrary.org/obo/MRO_0001999	HLA-DPB1*85:01	HLA-DPB1*8501|HLA-DPB185:01|HLA-DPB18501		partial molecule	human (Homo sapiens)	9606	II		DP		HLA-DPB1*85:01	HLA-DPA	HLA-DPB1*85:01	DPA		DPB			357876
