@@ -966,3 +966,4 @@ http://purl.obolibrary.org/obo/MRO_0001994,class,,10116,rat,non-classical MHC,,,
 http://purl.obolibrary.org/obo/MRO_0001995,complete molecule,910,10116,rat,non-classical MHC,CD1,,,rat CD1d protein complex,MRO_0001995,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001997,complete molecule,911,10090,mouse,non-classical MHC,Q1,,,H2-Qa-1b protein complex,MRO_0001997,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001999,partial molecule,913,9606,human,MHC class II,DP,,,HLA-DPB1*85:01 protein complex,MRO_0001999,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002001,partial molecule,914,9606,human,MHC class II,DR,,,HLA-DRB1*14:06 protein complex,MRO_0002001,http://purl.obolibrary.org/obo/

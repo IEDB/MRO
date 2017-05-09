@@ -2000,3 +2000,5 @@ MRO:0001996	H2-Qa-1b chain	owl:Class
 MRO:0001997	H2-Qa-1b protein complex	owl:Class	
 MRO:0001998	HLA-DPB1*85:01 chain	owl:Class	
 MRO:0001999	HLA-DPB1*85:01 protein complex	owl:Class	
+MRO:0002000	HLA-DRB1*14:06 chain	owl:Class	
+MRO:0002001	HLA-DRB1*14:06 protein complex	owl:Class	

@@ -291,7 +291,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 302	http://purl.obolibrary.org/obo/MRO_0001595	HLA-Bw4	HLA-B*w4	HLA-B*w4	serotype	human (Homo sapiens)	9606	I		B	Bw4									
 303	http://purl.obolibrary.org/obo/MRO_0001454	HLA class I			class	human (Homo sapiens)	9606	I												
 304	http://purl.obolibrary.org/obo/MRO_0001455	HLA class II			class	human (Homo sapiens)	9606	II												
-305	http://purl.obolibrary.org/obo/MRO_0001150	HLA-C*01:02	HLA-C01:02|HLA-C0102|HLA-C*0102|HLA-Cw*0102|HLA-CW*0102	HLA-CW*0102|HLA-Cw*0102	complete molecule	human (Homo sapiens)	9606	I		C	Cw1	HLA-C*01:02	HLA-C*01:02	Beta-2-microglobulin	C				300676	56585
+305	http://purl.obolibrary.org/obo/MRO_0001150	HLA-C*01:02	HLA-C01:02|HLA-C0102|HLA-C*0102|HLA-Cw*0102|HLA-CW*0102	HLA-Cw*0102|HLA-CW*0102	complete molecule	human (Homo sapiens)	9606	I		C	Cw1	HLA-C*01:02	HLA-C*01:02	Beta-2-microglobulin	C				300676	56585
 306	http://purl.obolibrary.org/obo/MRO_0001151	HLA-C*02:02	HLA-C02:02|HLA-C0202|HLA-C*0202|HLA-Cw*0202|HLA-Cw*020201	HLA-Cw*0202|HLA-Cw*020201	complete molecule	human (Homo sapiens)	9606	I		C	Cw2	HLA-C*02:02	HLA-C*02:02	Beta-2-microglobulin	C				300677	56585
 307	http://purl.obolibrary.org/obo/MRO_0001152	HLA-C*03:03	HLA-C03:03|HLA-C0303|HLA-C*0303|HLA-Cw*0303	HLA-Cw*0303	complete molecule	human (Homo sapiens)	9606	I		C	Cw9	HLA-C*03:03	HLA-C*03:03	Beta-2-microglobulin	C				300678	56585
 308	http://purl.obolibrary.org/obo/MRO_0001153	HLA-C*03:04	HLA-C03:04|HLA-C0304|HLA-C*0304|HLA-Cw*0301|HLA-Cw*0304	HLA-Cw*0301|HLA-Cw*0304	complete molecule	human (Homo sapiens)	9606	I		C	Cw10	HLA-C*03:04	HLA-C*03:04	Beta-2-microglobulin	C				300679	56585
@@ -818,3 +818,4 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 911	http://purl.obolibrary.org/obo/MRO_0001997	H2-Qa-1b	H-2-Qa-1b|Qa1b	Qa1b	complete molecule	mouse (Mus musculus)	10090	non classical		Q1		H2-Qa-1b	H2-Qa-1b	Beta-2-microglobulin	Q1				352115	
 912	http://purl.obolibrary.org/obo/MRO_0001170	HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*0103/DPB1*0212|HLA-DPA101:03/DPB102:12|HLA-DPA10103/DPB10212		complete molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*01:03	HLA-DPB1*02:12	DPA		DPB			
 913	http://purl.obolibrary.org/obo/MRO_0001999	HLA-DPB1*85:01	HLA-DPB1*8501|HLA-DPB185:01|HLA-DPB18501		partial molecule	human (Homo sapiens)	9606	II		DP		HLA-DPB1*85:01	HLA-DPA	HLA-DPB1*85:01	DPA		DPB			357876
+914	http://purl.obolibrary.org/obo/MRO_0002001	HLA-DRB1*14:06	HLA-DRB1*1406|HLA-DRB114:06|HLA-DRB11406		partial molecule	human (Homo sapiens)	9606	II		DR		HLA-DRB1*14:06	HLA-DRA	HLA-DRB1*14:06	DRA		DRB1			365102
