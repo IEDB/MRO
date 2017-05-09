@@ -967,3 +967,8 @@ http://purl.obolibrary.org/obo/MRO_0001995,complete molecule,910,10116,rat,non-c
 http://purl.obolibrary.org/obo/MRO_0001997,complete molecule,911,10090,mouse,non-classical MHC,Q1,,,H2-Qa-1b protein complex,MRO_0001997,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001999,partial molecule,913,9606,human,MHC class II,DP,,,HLA-DPB1*85:01 protein complex,MRO_0001999,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002001,partial molecule,914,9606,human,MHC class II,DR,,,HLA-DRB1*14:06 protein complex,MRO_0002001,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002014,class,,9541,crab-eating macaque,MHC class II,,,,crab-eating macaque MHC class II protein complex,MRO_0002014,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002015,locus,,9541,crab-eating macaque,MHC class II,,,,Mafa-DQB protein complex,MRO_0002015,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002016,locus,,9541,crab-eating macaque,MHC class II,,,,Mafa-DRB protein complex,MRO_0002016,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002017,partial molecule,915,9541,crab-eating macaque,MHC class II,DQB1,,,Mafa-DQB1*18:01 protein complex,MRO_0002017,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002018,partial molecule,916,9541,crab-eating macaque,MHC class II,DR,,,Mafa-DRB*w5:01 protein complex,MRO_0002018,http://purl.obolibrary.org/obo/

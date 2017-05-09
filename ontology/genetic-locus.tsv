@@ -32,6 +32,7 @@ chimpanzee MHC class II locus		subclass	MHC class II locus	chimpanzee
 chimpanzee non-classical MHC locus		subclass	non-classical MHC locus	chimpanzee
 cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
 cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
+crab-eating macaque MHC class II locus		subclass	MHC class II locus	
 DLA-88 locus		subclass	dog MHC class I locus	
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
@@ -78,6 +79,10 @@ horse MHC class II locus		subclass	MHC class II locus	horse
 human MHC class I locus		subclass	MHC class I locus	human
 human MHC class II locus		subclass	MHC class II locus	human
 human non-classical MHC locus		subclass	non-classical MHC locus	human
+Mafa-DQA locus		subclass	crab-eating macaque MHC class II locus	
+Mafa-DQB locus		subclass	crab-eating macaque MHC class II locus	
+Mafa-DRA locus		subclass	crab-eating macaque MHC class II locus	
+Mafa-DRB locus		subclass	crab-eating macaque MHC class II locus	
 Mamu-A locus		subclass	rhesus macaque MHC class I locus	
 Mamu-B locus		subclass	rhesus macaque MHC class I locus	
 Mamu-DPA locus		subclass	rhesus macaque MHC class II locus	

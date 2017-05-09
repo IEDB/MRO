@@ -44672,6 +44672,313 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MRO_0002002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000065"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crab-eating macaque MHC class II locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQA locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRA locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000776"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crab-eating macaque MHC class II chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQA chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRA chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002011">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB1*18:01 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB*w5:01 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001356"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crab-eating macaque</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crab-eating macaque MHC class II protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002008"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002014"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002016">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002010"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002014"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002017">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002008"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002012"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002015"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB11801</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB1*1801</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB1*18:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002010"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002016"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRBw501</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB*w501</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB*w5:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
@@ -44723,6 +45030,17 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saguinus oedipus</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cotton-top tamarin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaca fascicularis</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crab-eating macaque</rdfs:label>
     </owl:Class>
     
 

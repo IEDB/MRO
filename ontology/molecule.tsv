@@ -80,6 +80,7 @@ chimpanzee non-classical MHC protein complex	chimpanzee		class	equivalent	non-cl
 cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
 cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
 cotton-top tamarin MHC class II protein complex	cotton-top tamarin		class	equivalent	MHC class II protein complex	cotton-top tamarin				
+crab-eating macaque MHC class II protein complex	crab-eating macaque		class	equivalent	MHC class II protein complex	crab-eating macaque				
 DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	DLA-88 chain	Beta-2-microglobulin		
 DLA-88*50101 protein complex	DLA-88*50101 		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50101 chain	Beta-2-microglobulin		
 DLA-88*50801 protein complex	DLA-88*50801	dla88-21	complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50801 chain	Beta-2-microglobulin		
@@ -525,6 +526,10 @@ human MHC class I protein complex	human		class	equivalent	MHC class I protein co
 human MHC class II protein complex	human		class	equivalent	MHC class II protein complex	human				
 human MR1 protein complex	human MR1	HLA-MR1|hMR1	complete molecule	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
 human non-classical MHC protein complex	human		class	equivalent	non-classical MHC protein complex	human				
+Mafa-DQB1*18:01 protein complex	Mafa-DQB1*1801		partial molecule	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DQA chain	Mafa-DQB1*18:01 chain		
+Mafa-DQB protein complex	Mafa-DQB		locus	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DQA chain	Mafa-DQB chain		
+Mafa-DRB protein complex	Mafa-DRB		locus	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DRA chain	Mafa-DRB chain		
+Mafa-DRB*w5:01 protein complex	Mafa-DRB*w501		partial molecule	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DRA chain	Mafa-DRB*w5:01 chain		
 Mamu-A1*001:01 protein complex	Mamu-A1*001:01	Mamu-A*01	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*001:01 chain	Beta-2-microglobulin		
 Mamu-A1*002:01 protein complex	Mamu-A1*002:01	Mamu-A*02	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*002:01 chain	Beta-2-microglobulin		
 Mamu-A1*007:01 protein complex	Mamu-A1*007:01	Mamu-A*07	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*007:01 chain	Beta-2-microglobulin		

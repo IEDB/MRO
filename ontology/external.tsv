@@ -6,6 +6,7 @@ GO:0043234	protein complex	protein complex	MHC	subclass	material entity					http
 NCBITaxon:9031	chicken	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9483	marmoset	Callithrix jacchus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9490	cotton-top tamarin	Saguinus oedipus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
+NCBITaxon:9541	crab-eating macaque	Macaca fascicularis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9544	rhesus macaque	Macaca mulatta		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9593	gorilla	Gorilla gorilla		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9597	bonobo	Pan paniscus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl

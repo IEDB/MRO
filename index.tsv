@@ -2002,3 +2002,20 @@ MRO:0001998	HLA-DPB1*85:01 chain	owl:Class
 MRO:0001999	HLA-DPB1*85:01 protein complex	owl:Class	
 MRO:0002000	HLA-DRB1*14:06 chain	owl:Class	
 MRO:0002001	HLA-DRB1*14:06 protein complex	owl:Class	
+MRO:0002002	crab-eating macaque MHC class II locus	owl:Class	
+MRO:0002003	Mafa-DQA locus	owl:Class	
+MRO:0002004	Mafa-DQB locus	owl:Class	
+MRO:0002005	Mafa-DRA locus	owl:Class	
+MRO:0002006	Mafa-DRB locus	owl:Class	
+MRO:0002007	crab-eating macaque MHC class II chain	owl:Class	
+MRO:0002008	Mafa-DQA chain	owl:Class	
+MRO:0002009	Mafa-DQB chain	owl:Class	
+MRO:0002010	Mafa-DRA chain	owl:Class	
+MRO:0002011	Mafa-DRB chain	owl:Class	
+MRO:0002012	Mafa-DQB1*18:01 chain	owl:Class	
+MRO:0002013	Mafa-DRB*w5:01 chain	owl:Class	
+MRO:0002014	crab-eating macaque MHC class II protein complex	owl:Class	
+MRO:0002015	Mafa-DQB protein complex	owl:Class	
+MRO:0002016	Mafa-DRB protein complex	owl:Class	
+MRO:0002017	Mafa-DQB1*18:01 protein complex	owl:Class	
+MRO:0002018	Mafa-DRB*w5:01 protein complex	owl:Class	

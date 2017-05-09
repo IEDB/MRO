@@ -87,6 +87,7 @@ chimpanzee MHC class II chain		equivalent	protein	chimpanzee MHC class II locus
 chimpanzee non-classical MHC chain		equivalent	protein	chimpanzee non-classical MHC locus
 cotton-top tamarin MHC class I chain		equivalent	protein	cotton-top tamarin MHC class I locus
 cotton-top tamarin MHC class II chain		equivalent	protein	cotton-top tamarin MHC class II locus
+crab-eating macaque MHC class II chain		equivalent	protein	crab-eating macaque MHC class II locus
 DLA-88 chain		equivalent	protein	DLA-88 locus
 DLA-88*50101 chain		subclass	DLA-88 chain	
 DLA-88*50801 chain		subclass	DLA-88 chain	
@@ -502,6 +503,12 @@ human MHC class II chain		equivalent	protein	human MHC class II locus
 human MR1 chain		subclass	HLA-MR1 chain	
 human MR1 K43A mutant chain		subclass	HLA-MR1 chain	
 human non-classical MHC chain		equivalent	protein	human non-classical MHC locus
+Mafa-DQA chain		equivalent	protein	Mafa-DQA locus
+Mafa-DQB1*18:01 chain		subclass	Mafa-DQB chain	
+Mafa-DQB chain		equivalent	protein	Mafa-DQB locus
+Mafa-DRA chain		equivalent	protein	Mafa-DRA locus
+Mafa-DRB chain		equivalent	protein	Mafa-DRB locus
+Mafa-DRB*w5:01 chain		subclass	Mafa-DRB chain	
 Mamu-A1*001:01 chain		subclass	Mamu-A chain	
 Mamu-A1*002:01 chain		subclass	Mamu-A chain	
 Mamu-A1*007:01 chain		subclass	Mamu-A chain	
