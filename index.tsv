@@ -2019,3 +2019,5 @@ MRO:0002015	Mafa-DQB protein complex	owl:Class
 MRO:0002016	Mafa-DRB protein complex	owl:Class	
 MRO:0002017	Mafa-DQB1*18:01 protein complex	owl:Class	
 MRO:0002018	Mafa-DRB*w5:01 protein complex	owl:Class	
+MRO:0002019	HLA-B78 serotype	owl:Class	
+MRO:0002020	HLA protein complex with B78 serotype	owl:Class	
