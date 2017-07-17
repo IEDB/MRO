@@ -111,6 +111,7 @@ H2-D chain		equivalent	protein	H2-D locus
 H2-Db chain		subclass	H2-D chain	
 H2-Dd chain		subclass	H2-D chain	
 H2-Dk chain		subclass	H2-D chain	
+H2-Dq chain		subclass	H2-D chain	
 H2-Dr chain		subclass	H2-D chain	
 H2-Ds chain		subclass	H2-D chain	
 H2-IA alpha chain		equivalent	protein	H2-IA alpha locus
@@ -155,6 +156,7 @@ H2-K chain		equivalent	protein	H2-K locus
 H2-Kb chain		subclass	H2-K chain	
 H2-Kd chain		subclass	H2-K chain	
 H2-Kk chain		subclass	H2-K chain	
+H2-Kq chain		subclass	H2-K chain	
 H2-Ks chain		subclass	H2-K chain	
 H2-Kwm7 chain		subclass	H2-K chain	
 H2-L chain		equivalent	protein	H2-L locus
@@ -361,6 +363,7 @@ HLA-DPB1*04:01 chain		subclass	HLA-DPB chain
 HLA-DPB1*04:02 chain		subclass	HLA-DPB chain	
 HLA-DPB1*05:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*06:01 chain		subclass	HLA-DPB chain	
+HLA-DPB1*08:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*09:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*11:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*13:01 chain		subclass	HLA-DPB chain	
@@ -643,6 +646,7 @@ Saoe-G chain		equivalent	protein	Saoe-G locus
 sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
 sheep MHC class II chain		equivalent	protein	sheep MHC class II locus
 SLA-1 chain		equivalent	protein	SLA-1 locus
+SLA-1*07:02 chain		subclass	SLA-1 chain	
 SLA-1*0401 chain		subclass	SLA-1 chain	
 SLA-1*1502 chain		subclass	SLA-1 chain	
 SLA-2 chain		equivalent	protein	SLA-2 locus

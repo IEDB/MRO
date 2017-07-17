@@ -2860,3 +2860,20 @@ http://purl.obolibrary.org/obo/MRO_0002017,,Mafa-DQB11801
 http://purl.obolibrary.org/obo/MRO_0002018,,Mafa-DRB*w501
 http://purl.obolibrary.org/obo/MRO_0002018,,Mafa-DRBw501
 http://purl.obolibrary.org/obo/MRO_0002020,,HLA-B78
+http://purl.obolibrary.org/obo/MRO_0002025,,SLA-1*0702
+http://purl.obolibrary.org/obo/MRO_0002025,,"SLA-1*0702, SLA-1*07ce08"
+http://purl.obolibrary.org/obo/MRO_0002025,,SLA-1*07:02
+http://purl.obolibrary.org/obo/MRO_0002025,,SLA-10702
+http://purl.obolibrary.org/obo/MRO_0002025,,SLA-107:02
+http://purl.obolibrary.org/obo/MRO_0002026,,H-2-Dq
+http://purl.obolibrary.org/obo/MRO_0002026,,H2-Dq
+http://purl.obolibrary.org/obo/MRO_0002027,,H-2-Kq
+http://purl.obolibrary.org/obo/MRO_0002027,,H2-Kq
+http://purl.obolibrary.org/obo/MRO_0002028,,HLA-DPA1*0103/DPB1*0501
+http://purl.obolibrary.org/obo/MRO_0002028,,HLA-DPA1*01:03/DPB1*05:01
+http://purl.obolibrary.org/obo/MRO_0002028,,HLA-DPA10103/DPB10501
+http://purl.obolibrary.org/obo/MRO_0002028,,HLA-DPA101:03/DPB105:01
+http://purl.obolibrary.org/obo/MRO_0002029,,HLA-DPA1*0103/DPB1*0801
+http://purl.obolibrary.org/obo/MRO_0002029,,HLA-DPA1*01:03/DPB1*08:01
+http://purl.obolibrary.org/obo/MRO_0002029,,HLA-DPA10103/DPB10801
+http://purl.obolibrary.org/obo/MRO_0002029,,HLA-DPA101:03/DPB108:01

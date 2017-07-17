@@ -102,6 +102,7 @@ H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2
 H2-Db protein complex	H2-Db		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
 H2-Dd protein complex	H2-Dd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Dk protein complex	H2-Dk		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dk chain	Beta-2-microglobulin	H2-k haplotype	
+H2-Dq protein complex	H2-Dq		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dq chain	Beta-2-microglobulin	H2-q haplotype	
 H2-Dr protein complex	H2-Dr		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dr chain	Beta-2-microglobulin	H2-r haplotype	
 H2-Ds protein complex	H2-Ds		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Ds chain	Beta-2-microglobulin	H2-s haplotype	
 H2-IA protein complex	H2-IA		locus	equivalent	MHC class II protein complex	mouse	H2-IA alpha chain	H2-IA beta chain		
@@ -127,6 +128,7 @@ H2-K protein complex	H2-K		locus	equivalent	MHC class I protein complex	mouse	H2
 H2-Kb protein complex	H2-Kb		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Kb chain	Beta-2-microglobulin	H2-b haplotype	
 H2-Kd protein complex	H2-Kd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Kd chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Kk protein complex	H2-Kk		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Kk chain	Beta-2-microglobulin	H2-k haplotype	
+H2-Kq protein complex	H2-Kq		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Kq chain	Beta-2-microglobulin	H2-q haplotype	
 H2-Ks protein complex	H2-Ks		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Ks chain	Beta-2-microglobulin	H2-s haplotype	
 H2-Kwm7 protein complex	H2-Kwm7		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Kwm7 chain	Beta-2-microglobulin	H2-wm7 haplotype	
 H2-L protein complex	H2-L		locus	equivalent	MHC class I protein complex	mouse	H2-L chain	Beta-2-microglobulin		
@@ -323,7 +325,9 @@ HLA-DPA1*01:03/DPB1*02:12 protein complex	HLA-DPA1*01:03/DPB1*02:12		complete mo
 HLA-DPA1*01:03/DPB1*03:01 protein complex	HLA-DPA1*01:03/DPB1*03:01	HLA-DPA1*01031/DPB1*0301	complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*03:01 chain		
 HLA-DPA1*01:03/DPB1*04:01 protein complex	HLA-DPA1*01:03/DPB1*04:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*04:01 chain		HLA-DP4 serotype
 HLA-DPA1*01:03/DPB1*04:02 protein complex	HLA-DPA1*01:03/DPB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*04:02 chain		HLA-DP4 serotype
+HLA-DPA1*01:03/DPB1*05:01 protein complex	HLA-DPA1*01:03/DPB1*05:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*05:01 chain		
 HLA-DPA1*01:03/DPB1*06:01 protein complex	HLA-DPA1*01:03/DPB1*06:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*06:01 chain		HLA-DPw6 serotype
+HLA-DPA1*01:03/DPB1*08:01 protein complex	HLA-DPA1*01:03/DPB1*08:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*08:01 chain		
 HLA-DPA1*01:03/DPB1*14:01 protein complex	HLA-DPA1*01:03/DPB1*14:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*14:01 chain		
 HLA-DPA1*01:03/DPB1*20:01 protein complex	HLA-DPA1*01:03/DPB1*20:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*20:01 chain		
 HLA-DPA1*02:01 protein complex	HLA-DPA1*02:01	HLA-DPA1*020101	partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB chain		
@@ -646,6 +650,7 @@ Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cott
 sheep MHC class I protein complex	sheep		class	equivalent	MHC class I protein complex	sheep				
 sheep MHC class II protein complex	sheep		class	equivalent	MHC class II protein complex	sheep				
 SLA-1 protein complex	SLA-1		locus	equivalent	MHC class I protein complex	pig	SLA-1 chain	Beta-2-microglobulin		
+SLA-1*07:02 protein complex	SLA-1*07:02	SLA-1*0702, SLA-1*07ce08	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:02 chain	Beta-2-microglobulin		
 SLA-1*0401 protein complex	SLA-1*0401		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*0401 chain	Beta-2-microglobulin		
 SLA-1*1502 protein complex	SLA-1*1502		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*1502 chain	Beta-2-microglobulin		
 SLA-2 protein complex	SLA-2		locus	equivalent	MHC class I protein complex	pig	SLA-2 chain	Beta-2-microglobulin		

@@ -973,3 +973,8 @@ http://purl.obolibrary.org/obo/MRO_0002016,locus,,9541,crab-eating macaque,MHC c
 http://purl.obolibrary.org/obo/MRO_0002017,partial molecule,915,9541,crab-eating macaque,MHC class II,DQB1,,,Mafa-DQB1*18:01 protein complex,MRO_0002017,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002018,partial molecule,916,9541,crab-eating macaque,MHC class II,DR,,,Mafa-DRB*w5:01 protein complex,MRO_0002018,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002020,serotype,917,9606,human,MHC class I,B,,HLA-B78 serotype,HLA protein complex with B78 serotype,MRO_0002020,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002025,complete molecule,918,9823,pig,MHC class I,1,,,SLA-1*07:02 protein complex,MRO_0002025,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002026,complete molecule,919,10090,mouse,MHC class I,D,H2-q haplotype,,H2-Dq protein complex,MRO_0002026,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002027,complete molecule,920,10090,mouse,MHC class I,K,H2-q haplotype,,H2-Kq protein complex,MRO_0002027,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002028,complete molecule,921,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*05:01 protein complex,MRO_0002028,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002029,complete molecule,922,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*08:01 protein complex,MRO_0002029,http://purl.obolibrary.org/obo/
