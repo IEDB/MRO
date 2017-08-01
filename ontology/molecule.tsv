@@ -1,5 +1,7 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
+Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
+Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
 BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
 BF1*0201 protein complex	BF1*0201		complete molecule	equivalent	MHC class I protein complex	chicken	BF1*0201 chain	Beta-2-microglobulin		
 BF2 protein complex	BF2		locus	equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		
@@ -86,6 +88,7 @@ DLA-88*50101 protein complex	DLA-88*50101 		complete molecule	equivalent	MHC cla
 DLA-88*50801 protein complex	DLA-88*50801	dla88-21	complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50801 chain	Beta-2-microglobulin		
 dog MHC class I protein complex	dog		class	equivalent	MHC class I protein complex	dog				
 dog MHC class II protein complex	dog		class	equivalent	MHC class II protein complex	dog				
+duck MHC class I protein complex			class	equivalent	MHC class I protein complex	duck				
 ELA-N protein complex	ELA-N		locus	equivalent	MHC class I protein complex	horse	ELA-N chain	Beta-2-microglobulin		
 Eqca-1*00101 protein complex	Eqca-1*00101	ELA-A3.1	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*00101 chain	Beta-2-microglobulin	A3 haplotype	
 Eqca-1*00201 protein complex	Eqca-1*00201		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*00201 chain	Beta-2-microglobulin		
@@ -284,6 +287,7 @@ HLA-B*50:02 protein complex	HLA-B*50:02		complete molecule	equivalent	MHC class 
 HLA-B*51:01 protein complex	HLA-B*51:01	HLA-B*510101	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*51:01 chain	Beta-2-microglobulin		HLA-B51 serotype
 HLA-B*51:02 protein complex	HLA-B*51:02	HLA-B*510201	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*51:02 chain	Beta-2-microglobulin		HLA-B5102 serotype
 HLA-B*51:03 protein complex	HLA-B*51:03		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*51:03 chain	Beta-2-microglobulin		HLA-B51 serotype
+HLA-B*51:08 protein complex	HLA-B*51:08		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*51:08 chain	Beta-2-microglobulin		HLA-B51 serotype
 HLA-B*52:01 protein complex	HLA-B*52:01	HLA-B*520101	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*52:01 chain	Beta-2-microglobulin		HLA-B52 serotype
 HLA-B*53:01 protein complex	HLA-B*53:01		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*53:01 chain	Beta-2-microglobulin		HLA-B53 serotype
 HLA-B*54:01 protein complex	HLA-B*54:01		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*54:01 chain	Beta-2-microglobulin		HLA-B54 serotype

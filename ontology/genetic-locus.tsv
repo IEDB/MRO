@@ -1,5 +1,6 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
+Anpl-UAA locus		subclass	duck MHC class I locus	
 BF1 locus		subclass	chicken MHC class I locus	
 BF2 locus		subclass	chicken MHC class I locus	
 BF-B locus		subclass	chicken non-classical MHC locus	
@@ -36,6 +37,7 @@ crab-eating macaque MHC class II locus		subclass	MHC class II locus
 DLA-88 locus		subclass	dog MHC class I locus	
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
+duck MHC class I locus		subclass	MHC class I locus	duck
 ELA-1 locus		subclass	horse MHC class I locus	
 ELA-16 locus		subclass	horse MHC class I locus	
 ELA-N locus		subclass	horse MHC class I locus	

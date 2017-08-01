@@ -36,6 +36,7 @@ organisms = {
   'cotton-top tamarin': 'cotton-top tamarin (Saguinus oedipus)',
   'crab-eating macaque': 'crab-eating macaque (Macaca fascicularis)',
   'dog': 'dog (Canis lupus familiaris)',
+  'duck': 'duck (Anas platyrhynchos)',
   'gorilla': 'gorilla (Gorilla gorilla)',
   'horse': 'horse (Equus caballus)',
   'human': 'human (Homo sapiens)',
@@ -49,6 +50,7 @@ organisms = {
 }
 codes = {
   '1': 'organism',
+  '8839': 'duck',
   '9031': 'chicken',
   '9483': 'marmoset',
   '9490': 'Saoe',

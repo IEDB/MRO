@@ -1,5 +1,7 @@
 Label	Synonyms	Class Type	Parent	Gene
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %
+Anpl-UAA chain		equivalent	protein	Anpl-UAA locus
+Anpl-UAA*01 chain		subclass	Anpl-UAA chain	
 BF1 chain		equivalent	protein	BF1 locus
 BF1*0201 chain		subclass	BF1 chain	
 BF2 chain		equivalent	protein	BF2 locus
@@ -93,6 +95,7 @@ DLA-88*50101 chain		subclass	DLA-88 chain
 DLA-88*50801 chain		subclass	DLA-88 chain	
 dog MHC class I chain		equivalent	protein	dog MHC class I locus
 dog MHC class II chain		equivalent	protein	dog MHC class II locus
+duck MHC class I chain		equivalent	protein	duck MHC class I locus
 ELA-1 chain		equivalent	protein	ELA-1 locus
 ELA-16 chain		equivalent	protein	ELA-16 locus
 ELA-N chain		equivalent	protein	ELA-N locus
@@ -314,6 +317,7 @@ HLA-B*50:02 chain		subclass	HLA-B chain
 HLA-B*51:01 chain		subclass	HLA-B chain	
 HLA-B*51:02 chain		subclass	HLA-B chain	
 HLA-B*51:03 chain		subclass	HLA-B chain	
+HLA-B*51:08 chain		subclass	HLA-B chain	
 HLA-B*52:01 chain		subclass	HLA-B chain	
 HLA-B*53:01 chain		subclass	HLA-B chain	
 HLA-B*54:01 chain		subclass	HLA-B chain	

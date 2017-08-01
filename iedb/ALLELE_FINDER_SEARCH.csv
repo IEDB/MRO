@@ -978,3 +978,7 @@ http://purl.obolibrary.org/obo/MRO_0002026,complete molecule,919,10090,mouse,MHC
 http://purl.obolibrary.org/obo/MRO_0002027,complete molecule,920,10090,mouse,MHC class I,K,H2-q haplotype,,H2-Kq protein complex,MRO_0002027,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002028,complete molecule,921,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*05:01 protein complex,MRO_0002028,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002029,complete molecule,922,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*08:01 protein complex,MRO_0002029,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002035,class,,8839,duck,MHC class I,,,,duck MHC class I protein complex,MRO_0002035,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002036,locus,,8839,duck,MHC class I,,,,Anpl-UAA protein complex,MRO_0002036,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002037,complete molecule,924,8839,duck,MHC class I,UAA,,,Anpl-UAA*01 protein complex,MRO_0002037,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002039,complete molecule,923,9606,human,MHC class I,B,,HLA-B51 serotype,HLA-B*51:08 protein complex,MRO_0002039,http://purl.obolibrary.org/obo/
