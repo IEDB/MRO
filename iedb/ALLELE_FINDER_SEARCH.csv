@@ -982,3 +982,6 @@ http://purl.obolibrary.org/obo/MRO_0002035,class,,8839,duck,MHC class I,,,,duck 
 http://purl.obolibrary.org/obo/MRO_0002036,locus,,8839,duck,MHC class I,,,,Anpl-UAA protein complex,MRO_0002036,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002037,complete molecule,924,8839,duck,MHC class I,UAA,,,Anpl-UAA*01 protein complex,MRO_0002037,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002039,complete molecule,923,9606,human,MHC class I,B,,HLA-B51 serotype,HLA-B*51:08 protein complex,MRO_0002039,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002040,complete molecule,925,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 R65A mutant,MRO_0002040,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002041,complete molecule,926,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 A69G mutant,MRO_0002041,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002042,complete molecule,927,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 E166A mutant,MRO_0002042,http://purl.obolibrary.org/obo/

@@ -2040,3 +2040,6 @@ MRO:0002036	Anpl-UAA protein complex	owl:Class
 MRO:0002037	Anpl-UAA*01 protein complex	owl:Class	
 MRO:0002038	HLA-B*51:08 chain	owl:Class	
 MRO:0002039	HLA-B*51:08 protein complex	owl:Class	
+MRO:0002040	HLA-A*02:01 R65A mutant	owl:Class	
+MRO:0002041	HLA-A*02:01 A69G mutant	owl:Class	
+MRO:0002042	HLA-A*02:01 E166A mutant	owl:Class	

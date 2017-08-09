@@ -1342,53 +1342,56 @@
 1342,http://purl.obolibrary.org/obo/MRO_0000012,1,mutant MHC molecule,,1:1342
 1343,http://purl.obolibrary.org/obo/MRO_0001718,1342,class I,,1:1342:1343
 1344,http://purl.obolibrary.org/obo/MRO_0001720,1343,human,,1:1342:1343:1344
-1345,http://purl.obolibrary.org/obo/MRO_0001695,1344,HLA-A*02:01 A150P mutant,"HLA-A02:01 A150P mutant, HLA-A*0201 A150P mutant, HLA-A0201 A150P mutant",1:1342:1343:1344:1345
-1346,http://purl.obolibrary.org/obo/MRO_0001696,1344,HLA-A*02:01 K66A mutant,"HLA-A*0201 K66A mutant, HLA-A02:01 K66A mutant, HLA-A0201 K66A mutant",1:1342:1343:1344:1346
-1347,http://purl.obolibrary.org/obo/MRO_0001697,1344,"HLA-A*02:01 K66A, E63Q mutant","HLA-A0201 K66A, E63Q mutant, HLA-A02:01 K66A, E63Q mutant, HLA-A*0201 K66A, E63Q mutant",1:1342:1343:1344:1347
-1348,http://purl.obolibrary.org/obo/MRO_0001698,1344,HLA-A*02:01 Q155A mutant,"HLA-A0201 Q155A mutant, HLA-A*0201 Q155A mutant, HLA-A02:01 Q155A mutant",1:1342:1343:1344:1348
-1349,http://purl.obolibrary.org/obo/MRO_0001699,1344,HLA-A*02:01 T163A mutant,"HLA-A*0201 T163A mutant, HLA-A02:01 T163A mutant, HLA-A0201 T163A mutant",1:1342:1343:1344:1349
-1350,http://purl.obolibrary.org/obo/MRO_0001700,1344,HLA-A*02:01 W167A mutant,"HLA-A*0201 W167A mutant, HLA-A02:01 W167A mutant, HLA-A0201 W167A mutant",1:1342:1343:1344:1350
-1351,http://purl.obolibrary.org/obo/MRO_0001701,1344,HLA-B*08:01 B:I66A mutant,"HLA-B08:01 B:I66A mutant, HLA-B*8 I66A mutant, HLA-B*0801 BI66A mutant, HLA-B0801 BI66A mutant",1:1342:1343:1344:1351
-1352,http://purl.obolibrary.org/obo/MRO_0001702,1344,HLA-B*08:01 N80I mutant,"HLA-B0801 N80I mutant, HLA-B08:01 N80I mutant, HLA-B*0801 N80I mutant",1:1342:1343:1344:1352
-1353,http://purl.obolibrary.org/obo/MRO_0001703,1344,HLA-B*27:05 D74Y D77N mutant,"HLA-B2705 D74Y D77N mutant, HLA-B27:05 D74Y D77N mutant, HLA-B*2705 D74Y D77N mutant",1:1342:1343:1344:1353
-1354,http://purl.obolibrary.org/obo/MRO_0001704,1344,HLA-B*27:05 L81A mutant,"HLA-B*2705 L81A mutant, HLA-B2705 L81A mutant, HLA-B27:05 L81A mutant",1:1342:1343:1344:1354
-1355,http://purl.obolibrary.org/obo/MRO_0001705,1344,"HLA-B*35:08 Q65A, T69A, Q155A mutant","HLA-B3508 Q65A, T69A, Q155A mutant, HLA-B*3508 Q65A, T69A, Q155A mutant, HLA-B35:08 Q65A, T69A, Q155A mutant",1:1342:1343:1344:1355
-1356,http://purl.obolibrary.org/obo/MRO_0001706,1344,HLA-B*57:01 I80N mutant,"HLA-B57:01 I80N mutant, HLA-B5701 I80N mutant, HLA-B*5701 I80N mutant",1:1342:1343:1344:1356
-1357,http://purl.obolibrary.org/obo/MRO_0001707,1344,HLA-B*57:01 I80T mutant,"HLA-B*5701 I80T mutant, HLA-B57:01 I80T mutant, HLA-B5701 I80T mutant",1:1342:1343:1344:1357
-1358,http://purl.obolibrary.org/obo/MRO_0001722,1343,mouse,,1:1342:1343:1358
-1359,http://purl.obolibrary.org/obo/MRO_0001678,1358,H2-Db H155A mutant,H-2-Db H155A mutant,1:1342:1343:1358:1359
-1360,http://purl.obolibrary.org/obo/MRO_0001679,1358,"H2-Db L114Q, F116Y, E119D mutant","H-2-Dbm13, H-2-Db L114Q, F116Y, E119D mutant, H2-Dbm13",1:1342:1343:1358:1360
-1361,http://purl.obolibrary.org/obo/MRO_0001680,1358,H2-Db Q70H mutant,"H2-Dbm14, H-2-Dbm14, H-2-Db Q70H mutant",1:1342:1343:1358:1361
-1362,http://purl.obolibrary.org/obo/MRO_0001681,1358,H2-Db Y159F mutant,H-2-Db Y159F mutant,1:1342:1343:1358:1362
-1363,http://purl.obolibrary.org/obo/MRO_0001682,1358,"H2-Dd R155Y, D156Y, R169H mutant","H-2-Ddm1, H-2-Dd R155Y, D156Y, R169H mutant, H2-Ddm1",1:1342:1343:1358:1363
-1364,http://purl.obolibrary.org/obo/MRO_0001688,1358,"H2-Kb D77S, K89A mutant","H2-Kbm3, H-2-Kbm3, H-2-Kb D77S, K89A mutant",1:1342:1343:1358:1364
-1365,http://purl.obolibrary.org/obo/MRO_0001689,1358,"H2-Kb E152A, R155Y, L156Y mutant","H-2-Kbm1, H2-Kbm1, H-2-Kb E152A, R155Y, L156Y mutant",1:1342:1343:1358:1365
-1366,http://purl.obolibrary.org/obo/MRO_0001690,1358,H2-Kb V9W mutant,"H2-Kbw9, H-2-Kbw9, H-2-Kb V9W mutant",1:1342:1343:1358:1366
-1367,http://purl.obolibrary.org/obo/MRO_0001691,1358,"H2-Kb Y22F, M23I, E24S, D30N mutant","H-2-Kbm8, H-2-Kb Y22F, M23I, E24S, D30N mutant, H2-Kbm8",1:1342:1343:1358:1367
-1368,http://purl.obolibrary.org/obo/MRO_0001692,1358,H2-Kb Y84A mutant,H-2-Kb Y84A mutant,1:1342:1343:1358:1368
-1369,http://purl.obolibrary.org/obo/MRO_0001693,1358,H2-Kb Y84C mutant,H-2-Kb Y84C mutant,1:1342:1343:1358:1369
-1370,http://purl.obolibrary.org/obo/MRO_0001694,1358,H2-Kk D152A mutant,"H2-Kkm1, H-2-Kk D152A mutant, H-2-Kkm1",1:1342:1343:1358:1370
-1371,http://purl.obolibrary.org/obo/MRO_0001719,1342,class II,,1:1342:1371
-1372,http://purl.obolibrary.org/obo/MRO_0001721,1371,human,,1:1342:1371:1372
-1373,http://purl.obolibrary.org/obo/MRO_0001708,1372,HLA-DPA1*01:03/DPB1*02:12 E69K mutant,"HLA-DPA1*0103/DPB1*0212 E69K mutant, HLA-DPA101:03/DPB102:12 E69K mutant, HLA-DPA10103/DPB10212 E69K mutant",1:1342:1371:1372:1373
-1374,http://purl.obolibrary.org/obo/MRO_0001709,1372,HLA-DPB1*02:01 E69K mutant,"HLA-DPB1*0201 E69K mutant, HLA-DPB102:01 E69K mutant, HLA-DPB10201 E69K mutant",1:1342:1371:1372:1374
-1375,http://purl.obolibrary.org/obo/MRO_0001710,1372,HLA-DRA*01:01 F54C mutant/DRB1*01:01,"HLA-DRA*0101 F54C mutant/DRB1*0101, HLA-DRA0101 F54C mutant/DRB10101, HLA-DRA01:01 F54C mutant/DRB101:01, HLA-DRA1*0101 F54C mutant/DRB1*0101",1:1342:1371:1372:1375
-1376,http://purl.obolibrary.org/obo/MRO_0001711,1372,HLA-DRA*01:01/DRB1*01:01 C30S mutant,"HLA-DRA0101/DRB10101 C30S mutant, HLA-DRA*0101/DRB1*0101 C30S mutant, HLA-DRA01:01/DRB101:01 C30S mutant",1:1342:1371:1372:1376
-1377,http://purl.obolibrary.org/obo/MRO_0001712,1372,HLA-DRA*01:01/DRB1*01:01 G86Y mutant,"HLA-DRA*0101/DRB1*0101 G86Y mutant, HLA-DRA0101/DRB10101 G86Y mutant, HLA-DRA01:01/DRB101:01 G86Y mutant",1:1342:1371:1372:1377
-1378,http://purl.obolibrary.org/obo/MRO_0001944,1372,HLA-DRA*01:01/DRB1*03:01 Q74R mutant,"HLA-DRA*0101/DRB1*0301 Q74R mutant, HLA-DRA0101/DRB10301 Q74R mutant, HLA-DRA1*0101/DRB1*0301 Q74R mutant, HLA-DRA01:01/DRB103:01 Q74R mutant",1:1342:1371:1372:1378
-1379,http://purl.obolibrary.org/obo/MRO_0001946,1372,HLA-DRA*01:02/DRB1*03:01 Q74R mutant,"HLA-DRA*0102/DRB1*0301 Q74R mutant, HLA-DRA0102/DRB10301 Q74R mutant, HLA-DRA01:02/DRB103:01 Q74R mutant, HLA-DRA1*0102/DRB1*0301 Q74R mutant",1:1342:1371:1372:1379
-1380,http://purl.obolibrary.org/obo/MRO_0001713,1372,HLA-DRB1*01:01 D57A mutant,"HLA-DRB10101 D57A mutant, HLA-DRB1*0101 D57A mutant, HLA-DRB1*0101, HLA-DRB101:01 D57A mutant",1:1342:1371:1372:1380
-1381,http://purl.obolibrary.org/obo/MRO_0001714,1372,"HLA-DRB1*01:01 D57A, Y60H mutant","HLA-DRB1*0101, HLA-DRB101:01 D57A, Y60H mutant, HLA-DRB10101 D57A, Y60H mutant, HLA-DRB1*0101 D57A, Y60H mutant",1:1342:1371:1372:1381
-1382,http://purl.obolibrary.org/obo/MRO_0001715,1372,HLA-DRB1*01:01 D57V mutant,"HLA-DRB10101 D57V mutant, HLA-DRB1*0101 D57V mutant, HLA-DRB101:01 D57V mutant, HLA-DRB1*0101",1:1342:1371:1372:1382
-1383,http://purl.obolibrary.org/obo/MRO_0001716,1372,"HLA-DRB1*01:01 D57V, Y60S mutant","HLA-DRB1*0101, HLA-DRB101:01 D57V, Y60S mutant, HLA-DRB1*0101 D57V, Y60S mutant, HLA-DRB10101 D57V, Y60S mutant",1:1342:1371:1372:1383
-1384,http://purl.obolibrary.org/obo/MRO_0001983,1372,HLA-DRB1*01:01 N82A mutant,"HLA-DRB1*0101 N82A mutant, HLA-DRB10101 N82A mutant, HLA-DRB101:01 N82A mutant",1:1342:1371:1372:1384
-1385,http://purl.obolibrary.org/obo/MRO_0001717,1372,"HLA-DRB1*04:01 Q110N, K139T mutant","HLA-DRB104:01 Q110N, K139T mutant, HLA-DRB1*0401 Q110N, K139T mutant, HLA-DRB10401 Q110N, K139T mutant",1:1342:1371:1372:1385
-1386,http://purl.obolibrary.org/obo/MRO_0001723,1371,mouse,,1:1342:1371:1386
-1387,http://purl.obolibrary.org/obo/MRO_0001683,1386,"H2-IAb I67F, R70Q, T71K mutant","H-2-IAbm12, H-2-IAb I67F, R70Q, T71K mutant, H2-IAbm12",1:1342:1371:1386:1387
-1388,http://purl.obolibrary.org/obo/MRO_0001684,1386,"H2-IAg7 H56P, S57D mutant","H-2-IAg7 H56P, S57D mutant",1:1342:1371:1386:1388
-1389,http://purl.obolibrary.org/obo/MRO_0001685,1386,H2-IAk H9V mutant,H-2-IAk H9V mutant,1:1342:1371:1386:1389
-1390,http://purl.obolibrary.org/obo/MRO_0001686,1386,H2-IAu V9H mutant,H-2-IAu V9H mutant,1:1342:1371:1386:1390
-1391,http://purl.obolibrary.org/obo/MRO_0001687,1386,"H2-IEk alpha E11Q, D66N mutant","H-2-IEk alpha E11Q, D66N mutant",1:1342:1371:1386:1391
-1392,http://purl.obolibrary.org/obo/MRO_0001734,1342,non-classical,,1:1342:1392
-1393,http://purl.obolibrary.org/obo/MRO_0001735,1392,human,,1:1342:1392:1393
-1394,http://purl.obolibrary.org/obo/MRO_0001456,1393,human MR1 K43A mutant,"hMR1 K43A mutant, HLA-MR1 K43A mutant",1:1342:1392:1393:1394
+1345,http://purl.obolibrary.org/obo/MRO_0002041,1344,HLA-A*02:01 A69G mutant,"HLA-A0201 A69G mutant, HLA-A02:01 A69G mutant, HLA-A*0201 A69G mutant",1:1342:1343:1344:1345
+1346,http://purl.obolibrary.org/obo/MRO_0001695,1344,HLA-A*02:01 A150P mutant,"HLA-A02:01 A150P mutant, HLA-A*0201 A150P mutant, HLA-A0201 A150P mutant",1:1342:1343:1344:1346
+1347,http://purl.obolibrary.org/obo/MRO_0002042,1344,HLA-A*02:01 E166A mutant,"HLA-A02:01 E166A mutant, HLA-A0201 E166A mutant, HLA-A*0201 E166A mutant",1:1342:1343:1344:1347
+1348,http://purl.obolibrary.org/obo/MRO_0001696,1344,HLA-A*02:01 K66A mutant,"HLA-A*0201 K66A mutant, HLA-A02:01 K66A mutant, HLA-A0201 K66A mutant",1:1342:1343:1344:1348
+1349,http://purl.obolibrary.org/obo/MRO_0001697,1344,"HLA-A*02:01 K66A, E63Q mutant","HLA-A0201 K66A, E63Q mutant, HLA-A02:01 K66A, E63Q mutant, HLA-A*0201 K66A, E63Q mutant",1:1342:1343:1344:1349
+1350,http://purl.obolibrary.org/obo/MRO_0001698,1344,HLA-A*02:01 Q155A mutant,"HLA-A0201 Q155A mutant, HLA-A*0201 Q155A mutant, HLA-A02:01 Q155A mutant",1:1342:1343:1344:1350
+1351,http://purl.obolibrary.org/obo/MRO_0002040,1344,HLA-A*02:01 R65A mutant,"HLA-A02:01 R65A mutant, HLA-A*0201 R65A mutant, HLA-A0201 R65A mutant",1:1342:1343:1344:1351
+1352,http://purl.obolibrary.org/obo/MRO_0001699,1344,HLA-A*02:01 T163A mutant,"HLA-A*0201 T163A mutant, HLA-A02:01 T163A mutant, HLA-A0201 T163A mutant",1:1342:1343:1344:1352
+1353,http://purl.obolibrary.org/obo/MRO_0001700,1344,HLA-A*02:01 W167A mutant,"HLA-A*0201 W167A mutant, HLA-A02:01 W167A mutant, HLA-A0201 W167A mutant",1:1342:1343:1344:1353
+1354,http://purl.obolibrary.org/obo/MRO_0001701,1344,HLA-B*08:01 B:I66A mutant,"HLA-B08:01 B:I66A mutant, HLA-B*8 I66A mutant, HLA-B*0801 BI66A mutant, HLA-B0801 BI66A mutant",1:1342:1343:1344:1354
+1355,http://purl.obolibrary.org/obo/MRO_0001702,1344,HLA-B*08:01 N80I mutant,"HLA-B0801 N80I mutant, HLA-B08:01 N80I mutant, HLA-B*0801 N80I mutant",1:1342:1343:1344:1355
+1356,http://purl.obolibrary.org/obo/MRO_0001703,1344,HLA-B*27:05 D74Y D77N mutant,"HLA-B2705 D74Y D77N mutant, HLA-B27:05 D74Y D77N mutant, HLA-B*2705 D74Y D77N mutant",1:1342:1343:1344:1356
+1357,http://purl.obolibrary.org/obo/MRO_0001704,1344,HLA-B*27:05 L81A mutant,"HLA-B*2705 L81A mutant, HLA-B2705 L81A mutant, HLA-B27:05 L81A mutant",1:1342:1343:1344:1357
+1358,http://purl.obolibrary.org/obo/MRO_0001705,1344,"HLA-B*35:08 Q65A, T69A, Q155A mutant","HLA-B3508 Q65A, T69A, Q155A mutant, HLA-B*3508 Q65A, T69A, Q155A mutant, HLA-B35:08 Q65A, T69A, Q155A mutant",1:1342:1343:1344:1358
+1359,http://purl.obolibrary.org/obo/MRO_0001706,1344,HLA-B*57:01 I80N mutant,"HLA-B57:01 I80N mutant, HLA-B5701 I80N mutant, HLA-B*5701 I80N mutant",1:1342:1343:1344:1359
+1360,http://purl.obolibrary.org/obo/MRO_0001707,1344,HLA-B*57:01 I80T mutant,"HLA-B*5701 I80T mutant, HLA-B57:01 I80T mutant, HLA-B5701 I80T mutant",1:1342:1343:1344:1360
+1361,http://purl.obolibrary.org/obo/MRO_0001722,1343,mouse,,1:1342:1343:1361
+1362,http://purl.obolibrary.org/obo/MRO_0001678,1361,H2-Db H155A mutant,H-2-Db H155A mutant,1:1342:1343:1361:1362
+1363,http://purl.obolibrary.org/obo/MRO_0001679,1361,"H2-Db L114Q, F116Y, E119D mutant","H-2-Dbm13, H-2-Db L114Q, F116Y, E119D mutant, H2-Dbm13",1:1342:1343:1361:1363
+1364,http://purl.obolibrary.org/obo/MRO_0001680,1361,H2-Db Q70H mutant,"H2-Dbm14, H-2-Dbm14, H-2-Db Q70H mutant",1:1342:1343:1361:1364
+1365,http://purl.obolibrary.org/obo/MRO_0001681,1361,H2-Db Y159F mutant,H-2-Db Y159F mutant,1:1342:1343:1361:1365
+1366,http://purl.obolibrary.org/obo/MRO_0001682,1361,"H2-Dd R155Y, D156Y, R169H mutant","H-2-Ddm1, H-2-Dd R155Y, D156Y, R169H mutant, H2-Ddm1",1:1342:1343:1361:1366
+1367,http://purl.obolibrary.org/obo/MRO_0001688,1361,"H2-Kb D77S, K89A mutant","H2-Kbm3, H-2-Kbm3, H-2-Kb D77S, K89A mutant",1:1342:1343:1361:1367
+1368,http://purl.obolibrary.org/obo/MRO_0001689,1361,"H2-Kb E152A, R155Y, L156Y mutant","H-2-Kbm1, H2-Kbm1, H-2-Kb E152A, R155Y, L156Y mutant",1:1342:1343:1361:1368
+1369,http://purl.obolibrary.org/obo/MRO_0001690,1361,H2-Kb V9W mutant,"H2-Kbw9, H-2-Kbw9, H-2-Kb V9W mutant",1:1342:1343:1361:1369
+1370,http://purl.obolibrary.org/obo/MRO_0001691,1361,"H2-Kb Y22F, M23I, E24S, D30N mutant","H-2-Kbm8, H-2-Kb Y22F, M23I, E24S, D30N mutant, H2-Kbm8",1:1342:1343:1361:1370
+1371,http://purl.obolibrary.org/obo/MRO_0001692,1361,H2-Kb Y84A mutant,H-2-Kb Y84A mutant,1:1342:1343:1361:1371
+1372,http://purl.obolibrary.org/obo/MRO_0001693,1361,H2-Kb Y84C mutant,H-2-Kb Y84C mutant,1:1342:1343:1361:1372
+1373,http://purl.obolibrary.org/obo/MRO_0001694,1361,H2-Kk D152A mutant,"H2-Kkm1, H-2-Kk D152A mutant, H-2-Kkm1",1:1342:1343:1361:1373
+1374,http://purl.obolibrary.org/obo/MRO_0001719,1342,class II,,1:1342:1374
+1375,http://purl.obolibrary.org/obo/MRO_0001721,1374,human,,1:1342:1374:1375
+1376,http://purl.obolibrary.org/obo/MRO_0001708,1375,HLA-DPA1*01:03/DPB1*02:12 E69K mutant,"HLA-DPA1*0103/DPB1*0212 E69K mutant, HLA-DPA101:03/DPB102:12 E69K mutant, HLA-DPA10103/DPB10212 E69K mutant",1:1342:1374:1375:1376
+1377,http://purl.obolibrary.org/obo/MRO_0001709,1375,HLA-DPB1*02:01 E69K mutant,"HLA-DPB1*0201 E69K mutant, HLA-DPB102:01 E69K mutant, HLA-DPB10201 E69K mutant",1:1342:1374:1375:1377
+1378,http://purl.obolibrary.org/obo/MRO_0001710,1375,HLA-DRA*01:01 F54C mutant/DRB1*01:01,"HLA-DRA*0101 F54C mutant/DRB1*0101, HLA-DRA0101 F54C mutant/DRB10101, HLA-DRA01:01 F54C mutant/DRB101:01, HLA-DRA1*0101 F54C mutant/DRB1*0101",1:1342:1374:1375:1378
+1379,http://purl.obolibrary.org/obo/MRO_0001711,1375,HLA-DRA*01:01/DRB1*01:01 C30S mutant,"HLA-DRA0101/DRB10101 C30S mutant, HLA-DRA*0101/DRB1*0101 C30S mutant, HLA-DRA01:01/DRB101:01 C30S mutant",1:1342:1374:1375:1379
+1380,http://purl.obolibrary.org/obo/MRO_0001712,1375,HLA-DRA*01:01/DRB1*01:01 G86Y mutant,"HLA-DRA*0101/DRB1*0101 G86Y mutant, HLA-DRA0101/DRB10101 G86Y mutant, HLA-DRA01:01/DRB101:01 G86Y mutant",1:1342:1374:1375:1380
+1381,http://purl.obolibrary.org/obo/MRO_0001944,1375,HLA-DRA*01:01/DRB1*03:01 Q74R mutant,"HLA-DRA*0101/DRB1*0301 Q74R mutant, HLA-DRA0101/DRB10301 Q74R mutant, HLA-DRA1*0101/DRB1*0301 Q74R mutant, HLA-DRA01:01/DRB103:01 Q74R mutant",1:1342:1374:1375:1381
+1382,http://purl.obolibrary.org/obo/MRO_0001946,1375,HLA-DRA*01:02/DRB1*03:01 Q74R mutant,"HLA-DRA*0102/DRB1*0301 Q74R mutant, HLA-DRA0102/DRB10301 Q74R mutant, HLA-DRA01:02/DRB103:01 Q74R mutant, HLA-DRA1*0102/DRB1*0301 Q74R mutant",1:1342:1374:1375:1382
+1383,http://purl.obolibrary.org/obo/MRO_0001713,1375,HLA-DRB1*01:01 D57A mutant,"HLA-DRB10101 D57A mutant, HLA-DRB1*0101 D57A mutant, HLA-DRB1*0101, HLA-DRB101:01 D57A mutant",1:1342:1374:1375:1383
+1384,http://purl.obolibrary.org/obo/MRO_0001714,1375,"HLA-DRB1*01:01 D57A, Y60H mutant","HLA-DRB1*0101, HLA-DRB101:01 D57A, Y60H mutant, HLA-DRB10101 D57A, Y60H mutant, HLA-DRB1*0101 D57A, Y60H mutant",1:1342:1374:1375:1384
+1385,http://purl.obolibrary.org/obo/MRO_0001715,1375,HLA-DRB1*01:01 D57V mutant,"HLA-DRB10101 D57V mutant, HLA-DRB1*0101 D57V mutant, HLA-DRB101:01 D57V mutant, HLA-DRB1*0101",1:1342:1374:1375:1385
+1386,http://purl.obolibrary.org/obo/MRO_0001716,1375,"HLA-DRB1*01:01 D57V, Y60S mutant","HLA-DRB1*0101, HLA-DRB101:01 D57V, Y60S mutant, HLA-DRB1*0101 D57V, Y60S mutant, HLA-DRB10101 D57V, Y60S mutant",1:1342:1374:1375:1386
+1387,http://purl.obolibrary.org/obo/MRO_0001983,1375,HLA-DRB1*01:01 N82A mutant,"HLA-DRB1*0101 N82A mutant, HLA-DRB10101 N82A mutant, HLA-DRB101:01 N82A mutant",1:1342:1374:1375:1387
+1388,http://purl.obolibrary.org/obo/MRO_0001717,1375,"HLA-DRB1*04:01 Q110N, K139T mutant","HLA-DRB104:01 Q110N, K139T mutant, HLA-DRB1*0401 Q110N, K139T mutant, HLA-DRB10401 Q110N, K139T mutant",1:1342:1374:1375:1388
+1389,http://purl.obolibrary.org/obo/MRO_0001723,1374,mouse,,1:1342:1374:1389
+1390,http://purl.obolibrary.org/obo/MRO_0001683,1389,"H2-IAb I67F, R70Q, T71K mutant","H-2-IAbm12, H-2-IAb I67F, R70Q, T71K mutant, H2-IAbm12",1:1342:1374:1389:1390
+1391,http://purl.obolibrary.org/obo/MRO_0001684,1389,"H2-IAg7 H56P, S57D mutant","H-2-IAg7 H56P, S57D mutant",1:1342:1374:1389:1391
+1392,http://purl.obolibrary.org/obo/MRO_0001685,1389,H2-IAk H9V mutant,H-2-IAk H9V mutant,1:1342:1374:1389:1392
+1393,http://purl.obolibrary.org/obo/MRO_0001686,1389,H2-IAu V9H mutant,H-2-IAu V9H mutant,1:1342:1374:1389:1393
+1394,http://purl.obolibrary.org/obo/MRO_0001687,1389,"H2-IEk alpha E11Q, D66N mutant","H-2-IEk alpha E11Q, D66N mutant",1:1342:1374:1389:1394
+1395,http://purl.obolibrary.org/obo/MRO_0001734,1342,non-classical,,1:1342:1395
+1396,http://purl.obolibrary.org/obo/MRO_0001735,1395,human,,1:1342:1395:1396
+1397,http://purl.obolibrary.org/obo/MRO_0001456,1396,human MR1 K43A mutant,"hMR1 K43A mutant, HLA-MR1 K43A mutant",1:1342:1395:1396:1397
