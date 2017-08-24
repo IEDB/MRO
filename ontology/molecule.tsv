@@ -142,6 +142,7 @@ H2-Q1 protein complex	H2-Q1	H2-Qa1|Qa-1b	locus	equivalent	non-classical MHC prot
 H2-Q2 protein complex	H2-Q2	H2-Qa2	locus	equivalent	non-classical MHC protein complex	mouse	H2-Q2 chain	Beta-2-microglobulin		
 H2-Q9 protein complex	H2-Q9		locus	equivalent	non-classical MHC protein complex	mouse	H2-Q9 chain	Beta-2-microglobulin		
 H2-Q protein complex	H2-Q		locus	equivalent	non-classical MHC protein complex	mouse	H2-Q chain	Beta-2-microglobulin		
+H2-Qa-1a protein complex	H2-Qa-1a	Qa1a	complete molecule	equivalent	non-classical MHC protein complex	mouse	H2-Qa-1a chain	Beta-2-microglobulin		
 H2-Qa-1b protein complex	H2-Qa-1b	Qa1b	complete molecule	equivalent	non-classical MHC protein complex	mouse	H2-Qa-1b chain	Beta-2-microglobulin		
 HLA-A protein complex	HLA-A		locus	equivalent	MHC class I protein complex	human	HLA-A chain	Beta-2-microglobulin		
 HLA-A*01:01 protein complex	HLA-A*01:01	HLA-A*010101	complete molecule	equivalent	MHC class I protein complex	human	HLA-A*01:01 chain	Beta-2-microglobulin		HLA-A1 serotype
