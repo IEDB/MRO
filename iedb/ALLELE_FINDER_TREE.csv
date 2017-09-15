@@ -72,7 +72,7 @@
 72,http://purl.obolibrary.org/obo/MRO_0001425,71,Saoe-G,,1:2:3:71:72
 73,http://purl.obolibrary.org/obo/MRO_0001446,3,dog,,1:2:3:73
 74,http://purl.obolibrary.org/obo/MRO_0000959,73,DLA-88,,1:2:3:73:74
-75,http://purl.obolibrary.org/obo/MRO_0001988,74,DLA-88*50101 ,DLA-8850101 ,1:2:3:73:74:75
+75,http://purl.obolibrary.org/obo/MRO_0001988,74,DLA-88*50101,DLA-8850101,1:2:3:73:74:75
 76,http://purl.obolibrary.org/obo/MRO_0000960,74,DLA-88*50801,"DLA-8850801, dla88-21",1:2:3:73:74:76
 77,http://purl.obolibrary.org/obo/MRO_0001447,3,gorilla,,1:2:3:77
 78,http://purl.obolibrary.org/obo/MRO_0000963,77,Gogo-B,,1:2:3:77:78
@@ -810,13 +810,13 @@
 810,http://purl.obolibrary.org/obo/MRO_0001521,677,pig,,1:677:810
 811,http://purl.obolibrary.org/obo/MRO_0001516,810,z,,1:677:810:811
 812,http://purl.obolibrary.org/obo/MRO_0001522,677,rat,,1:677:812
-813,http://purl.obolibrary.org/obo/MRO_0001507,812,RT1-a,,1:677:812:813
-814,http://purl.obolibrary.org/obo/MRO_0001803,813,RT1-Aa,,1:677:812:813:814
-815,http://purl.obolibrary.org/obo/MRO_0001813,813,RT1-Ba,,1:677:812:813:815
-816,http://purl.obolibrary.org/obo/MRO_0001834,813,RT1-Da,,1:677:812:813:816
-817,http://purl.obolibrary.org/obo/MRO_0001514,812,RT1-A,,1:677:812:817
-818,http://purl.obolibrary.org/obo/MRO_0001792,817,RT1-A class I,,1:677:812:817:818
-819,http://purl.obolibrary.org/obo/MRO_0001793,817,RT1-A class II,,1:677:812:817:819
+813,http://purl.obolibrary.org/obo/MRO_0001514,812,RT1-A,,1:677:812:813
+814,http://purl.obolibrary.org/obo/MRO_0001792,813,RT1-A class I,,1:677:812:813:814
+815,http://purl.obolibrary.org/obo/MRO_0001793,813,RT1-A class II,,1:677:812:813:815
+816,http://purl.obolibrary.org/obo/MRO_0001507,812,RT1-a,,1:677:812:816
+817,http://purl.obolibrary.org/obo/MRO_0001803,816,RT1-Aa,,1:677:812:816:817
+818,http://purl.obolibrary.org/obo/MRO_0001813,816,RT1-Ba,,1:677:812:816:818
+819,http://purl.obolibrary.org/obo/MRO_0001834,816,RT1-Da,,1:677:812:816:819
 820,http://purl.obolibrary.org/obo/MRO_0001508,812,RT1-av1,,1:677:812:820
 821,http://purl.obolibrary.org/obo/MRO_0001794,820,RT1-av1 class II,,1:677:812:820:821
 822,http://purl.obolibrary.org/obo/MRO_0001868,812,RT1-c,,1:677:812:822

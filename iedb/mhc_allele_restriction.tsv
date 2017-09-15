@@ -813,7 +813,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 906	http://purl.obolibrary.org/obo/MRO_0001980	Eqca-N*00601	7-6|Eqca-N00601|MHC I 1 14 allele	7-6|MHC I 1 14 allele	complete molecule	horse (Equus caballus)	9796	I		N		Eqca-N*00601	Eqca-N*00601	Beta-2-microglobulin	N				344099	
 907	http://purl.obolibrary.org/obo/MRO_0001982	HLA-Cw18	HLA-Cw*18	HLA-Cw*18	serotype	human (Homo sapiens)	9606	I		C	Cw18									
 908	http://purl.obolibrary.org/obo/MRO_0001983	HLA-DRB1*01:01 N82A mutant	HLA-DRB1*0101 N82A mutant|HLA-DRB101:01 N82A mutant|HLA-DRB10101 N82A mutant		partial molecule	human (Homo sapiens)	9606	II		DR	DR1	HLA-DRB1*01:01	HLA-DRA	HLA-DRB1*01:01	DRA		DRB1	N82A		
-909	http://purl.obolibrary.org/obo/MRO_0001988	DLA-88*50101 	DLA-8850101 		complete molecule	dog (Canis lupus familiaris)	9615	I		88		DLA-88*50101 	DLA-88*50101	Beta-2-microglobulin	88					
+909	http://purl.obolibrary.org/obo/MRO_0001988	DLA-88*50101	DLA-8850101		complete molecule	dog (Canis lupus familiaris)	9615	I		88		DLA-88*50101	DLA-88*50101	Beta-2-microglobulin	88					
 910	http://purl.obolibrary.org/obo/MRO_0001995	rat CD1d	rCD1d	rCD1d	complete molecule	rat (Rattus norvegicus)	10116	non classical		CD1		rat CD1d	rat CD1d	Beta-2-microglobulin	rat CD1				352098	
 911	http://purl.obolibrary.org/obo/MRO_0001997	H2-Qa-1b	H-2-Qa-1b|Qa1b	Qa1b	complete molecule	mouse (Mus musculus)	10090	non classical		Q1		H2-Qa-1b	H2-Qa-1b	Beta-2-microglobulin	Q1				352115	
 912	http://purl.obolibrary.org/obo/MRO_0001170	HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*0103/DPB1*0212|HLA-DPA101:03/DPB102:12|HLA-DPA10103/DPB10212		complete molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*01:03/DPB1*02:12	HLA-DPA1*01:03	HLA-DPB1*02:12	DPA		DPB			
