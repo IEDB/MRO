@@ -986,3 +986,6 @@ http://purl.obolibrary.org/obo/MRO_0002040,complete molecule,925,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0002041,complete molecule,926,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 A69G mutant,MRO_0002041,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002042,complete molecule,927,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 E166A mutant,MRO_0002042,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002044,complete molecule,928,10090,mouse,non-classical MHC,Q1,,,H2-Qa-1a protein complex,MRO_0002044,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002045,complete molecule,929,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 Q65A mutant,MRO_0002045,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002046,complete molecule,930,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 T69A mutant,MRO_0002046,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002047,complete molecule,931,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 Q155A mutant,MRO_0002047,http://purl.obolibrary.org/obo/

@@ -2045,3 +2045,6 @@ MRO:0002041	HLA-A*02:01 A69G mutant	owl:Class
 MRO:0002042	HLA-A*02:01 E166A mutant	owl:Class	
 MRO:0002043	H2-Qa-1a chain	owl:Class	
 MRO:0002044	H2-Qa-1a protein complex	owl:Class	
+MRO:0002045	HLA-B*35:08 Q65A mutant	owl:Class	
+MRO:0002046	HLA-B*35:08 T69A mutant	owl:Class	
+MRO:0002047	HLA-B*35:08 Q155A mutant	owl:Class	
