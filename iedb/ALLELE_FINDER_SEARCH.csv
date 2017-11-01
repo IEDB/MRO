@@ -989,3 +989,4 @@ http://purl.obolibrary.org/obo/MRO_0002044,complete molecule,928,10090,mouse,non
 http://purl.obolibrary.org/obo/MRO_0002045,complete molecule,929,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 Q65A mutant,MRO_0002045,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002046,complete molecule,930,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 T69A mutant,MRO_0002046,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002047,complete molecule,931,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 Q155A mutant,MRO_0002047,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002049,complete molecule,932,9606,human,MHC class I,C,,,HLA-C*17:01 protein complex,MRO_0002049,http://purl.obolibrary.org/obo/

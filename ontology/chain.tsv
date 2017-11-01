@@ -354,6 +354,7 @@ HLA-C*12:04 chain		subclass	HLA-C chain
 HLA-C*14:02 chain		subclass	HLA-C chain	
 HLA-C*15:02 chain		subclass	HLA-C chain	
 HLA-C*16:01 chain		subclass	HLA-C chain	
+HLA-C*17:01 chain		subclass	HLA-C chain	
 HLA-CD1 chain		equivalent	protein	HLA-CD1 locus
 HLA-DPA1*01:03 chain		subclass	HLA-DPA chain	
 HLA-DPA1*02:01 chain		subclass	HLA-DPA chain	
