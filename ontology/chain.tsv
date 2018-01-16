@@ -653,9 +653,11 @@ sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
 sheep MHC class II chain		equivalent	protein	sheep MHC class II locus
 SLA-1 chain		equivalent	protein	SLA-1 locus
 SLA-1*07:02 chain		subclass	SLA-1 chain	
+SLA-1*0302 chain		subclass	SLA-1 chain	
 SLA-1*0401 chain		subclass	SLA-1 chain	
 SLA-1*1502 chain		subclass	SLA-1 chain	
 SLA-2 chain		equivalent	protein	SLA-2 locus
+SLA-2*0106 chain		subclass	SLA-2 chain	
 SLA-2*0401 chain		subclass	SLA-2 chain	
 SLA-2*0502 chain		subclass	SLA-2 chain	
 SLA-3 chain		equivalent	protein	SLA-3 locus

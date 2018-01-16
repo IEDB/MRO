@@ -141,12 +141,12 @@ iedb/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv |
 	python3 $^ > $@
 
 iedb/ALLELE_FINDER_NAMES.csv: iedb/mro-iedb.owl src/names.rq | iedb
-	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
+	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
 iedb/ALLELE_FINDER_SEARCH.csv: iedb/mro-iedb.owl src/search.rq | iedb
-	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp
+	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
