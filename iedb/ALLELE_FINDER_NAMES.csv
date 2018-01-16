@@ -1901,12 +1901,18 @@ http://purl.obolibrary.org/obo/MRO_0001419,,Patr-DRB50310
 http://purl.obolibrary.org/obo/MRO_0001419,,Patr-DRB503:10
 http://purl.obolibrary.org/obo/MRO_0001420,,SLA-1
 http://purl.obolibrary.org/obo/MRO_0001421,,SLA-1*0401
+http://purl.obolibrary.org/obo/MRO_0001421,,SLA-1*04:01
 http://purl.obolibrary.org/obo/MRO_0001421,,SLA-10401
+http://purl.obolibrary.org/obo/MRO_0001421,,SLA-104:01
 http://purl.obolibrary.org/obo/MRO_0001422,,SLA-1*1502
+http://purl.obolibrary.org/obo/MRO_0001422,,SLA-1*15:02
 http://purl.obolibrary.org/obo/MRO_0001422,,SLA-11502
+http://purl.obolibrary.org/obo/MRO_0001422,,SLA-115:02
 http://purl.obolibrary.org/obo/MRO_0001423,,SLA-2
 http://purl.obolibrary.org/obo/MRO_0001424,,SLA-2*0401
+http://purl.obolibrary.org/obo/MRO_0001424,,SLA-2*04:01
 http://purl.obolibrary.org/obo/MRO_0001424,,SLA-20401
+http://purl.obolibrary.org/obo/MRO_0001424,,SLA-204:01
 http://purl.obolibrary.org/obo/MRO_0001425,,Saoe-G
 http://purl.obolibrary.org/obo/MRO_0001430,,YF1*7.1
 http://purl.obolibrary.org/obo/MRO_0001430,,YF1w*7.1
@@ -2823,10 +2829,14 @@ http://purl.obolibrary.org/obo/MRO_0001972,,Mamu-DRB6*0102
 http://purl.obolibrary.org/obo/MRO_0001972,,Mamu-DRBW602
 http://purl.obolibrary.org/obo/MRO_0001972,,Mamu-DRBW6:02
 http://purl.obolibrary.org/obo/MRO_0001976,,SLA-3*0202
+http://purl.obolibrary.org/obo/MRO_0001976,,SLA-3*02:02
 http://purl.obolibrary.org/obo/MRO_0001976,,SLA-3*hs0202
 http://purl.obolibrary.org/obo/MRO_0001976,,SLA-30202
+http://purl.obolibrary.org/obo/MRO_0001976,,SLA-302:02
 http://purl.obolibrary.org/obo/MRO_0001978,,SLA-3*0401
+http://purl.obolibrary.org/obo/MRO_0001978,,SLA-3*04:01
 http://purl.obolibrary.org/obo/MRO_0001978,,SLA-30401
+http://purl.obolibrary.org/obo/MRO_0001978,,SLA-304:01
 http://purl.obolibrary.org/obo/MRO_0001980,,Eqca-N*00601
 http://purl.obolibrary.org/obo/MRO_0001980,,Eqca-N00601
 http://purl.obolibrary.org/obo/MRO_0001980,,"MHC I 1 14 allele, 7-6"
@@ -2919,7 +2929,12 @@ http://purl.obolibrary.org/obo/MRO_0002049,,HLA-Cw*1701
 http://purl.obolibrary.org/obo/MRO_0002051,,SLA-2*0502
 http://purl.obolibrary.org/obo/MRO_0002051,,SLA-2*05:02
 http://purl.obolibrary.org/obo/MRO_0002051,,SLA-20502
+http://purl.obolibrary.org/obo/MRO_0002051,,SLA-205:02
 http://purl.obolibrary.org/obo/MRO_0002053,,SLA-1*0302
+http://purl.obolibrary.org/obo/MRO_0002053,,SLA-1*03:02
 http://purl.obolibrary.org/obo/MRO_0002053,,SLA-10302
+http://purl.obolibrary.org/obo/MRO_0002053,,SLA-103:02
 http://purl.obolibrary.org/obo/MRO_0002055,,SLA-2*0106
+http://purl.obolibrary.org/obo/MRO_0002055,,SLA-2*01:06
 http://purl.obolibrary.org/obo/MRO_0002055,,SLA-20106
+http://purl.obolibrary.org/obo/MRO_0002055,,SLA-201:06

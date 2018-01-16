@@ -509,10 +509,10 @@ http://purl.obolibrary.org/obo/MRO_0001417,partial molecule,475,9598,chimpanzee,
 http://purl.obolibrary.org/obo/MRO_0001418,partial molecule,476,9598,chimpanzee,MHC class II,DR,,,Patr-DRB1*10:01 protein complex,MRO_0001418,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001419,partial molecule,477,9598,chimpanzee,MHC class II,DR,,,Patr-DRB5*03:10 protein complex,MRO_0001419,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001420,locus,,9823,pig,MHC class I,,,,SLA-1 protein complex,MRO_0001420,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001421,complete molecule,690,9823,pig,MHC class I,1,,,SLA-1*0401 protein complex,MRO_0001421,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001422,complete molecule,701,9823,pig,MHC class I,1,,,SLA-1*1502 protein complex,MRO_0001422,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001421,complete molecule,690,9823,pig,MHC class I,1,,,SLA-1*04:01 protein complex,MRO_0001421,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001422,complete molecule,701,9823,pig,MHC class I,1,,,SLA-1*15:02 protein complex,MRO_0001422,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001423,locus,,9823,pig,MHC class I,,,,SLA-2 protein complex,MRO_0001423,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001424,complete molecule,752,9823,pig,MHC class I,2,,,SLA-2*0401 protein complex,MRO_0001424,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001424,complete molecule,752,9823,pig,MHC class I,2,,,SLA-2*04:01 protein complex,MRO_0001424,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001425,locus,,9490,cotton-top tamarin,MHC class I,,,,Saoe-G protein complex,MRO_0001425,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001430,complete molecule,709,9031,chicken,non-classical MHC,YF,YF1 haplotype,,YF1w*7.1 protein complex,MRO_0001430,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001431,class,827,9597,bonobo,MHC class I,,,,bonobo MHC class I protein complex,MRO_0001431,http://purl.obolibrary.org/obo/
@@ -956,8 +956,8 @@ http://purl.obolibrary.org/obo/MRO_0001966,complete molecule,901,9544,rhesus mac
 http://purl.obolibrary.org/obo/MRO_0001968,complete molecule,892,9544,rhesus macaque,MHC class I,B,,,Mamu-B*098 protein complex,MRO_0001968,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001970,partial molecule,870,9544,rhesus macaque,MHC class II,DP,,,Mamu-DPB1*07:01 protein complex,MRO_0001970,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001972,partial molecule,873,9544,rhesus macaque,MHC class II,DR,,,Mamu-DRB*W6:02 protein complex,MRO_0001972,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001976,complete molecule,884,9823,pig,MHC class I,3,,,SLA-3*0202 protein complex,MRO_0001976,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001978,complete molecule,902,9823,pig,MHC class I,3,,,SLA-3*0401 protein complex,MRO_0001978,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001976,complete molecule,884,9823,pig,MHC class I,3,,,SLA-3*02:02 protein complex,MRO_0001976,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001978,complete molecule,902,9823,pig,MHC class I,3,,,SLA-3*04:01 protein complex,MRO_0001978,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001980,complete molecule,906,9796,horse,MHC class I,N,,,Eqca-N*00601 protein complex,MRO_0001980,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001982,serotype,907,9606,human,MHC class I,C,,HLA-Cw18 serotype,HLA protein complex with Cw18 serotype,MRO_0001982,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001983,partial molecule,908,9606,human,MHC class II,DR,,HLA-DR1 serotype,HLA-DRB1*01:01 N82A mutant,MRO_0001983,http://purl.obolibrary.org/obo/
@@ -990,6 +990,6 @@ http://purl.obolibrary.org/obo/MRO_0002045,complete molecule,929,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0002046,complete molecule,930,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 T69A mutant,MRO_0002046,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002047,complete molecule,931,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:08 Q155A mutant,MRO_0002047,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002049,complete molecule,932,9606,human,MHC class I,C,,,HLA-C*17:01 protein complex,MRO_0002049,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002051,complete molecule,933,9823,pig,MHC class I,2,,,SLA-2*0502 protein complex,MRO_0002051,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002053,complete molecule,934,9823,pig,MHC class I,1,,,SLA-1*0302 protein complex,MRO_0002053,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002055,complete molecule,935,9823,pig,MHC class I,2,,,SLA-2*0106 protein complex,MRO_0002055,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002051,complete molecule,933,9823,pig,MHC class I,2,,,SLA-2*05:02 protein complex,MRO_0002051,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002053,complete molecule,934,9823,pig,MHC class I,1,,,SLA-1*03:02 protein complex,MRO_0002053,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002055,complete molecule,935,9823,pig,MHC class I,2,,,SLA-2*01:06 protein complex,MRO_0002055,http://purl.obolibrary.org/obo/

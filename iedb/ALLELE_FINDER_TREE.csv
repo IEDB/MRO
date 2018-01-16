@@ -288,16 +288,16 @@
 288,http://purl.obolibrary.org/obo/MRO_0000998,286,H2-Lq,"H-2-Lw16, H2-Lw16, H-2-Lq",1:2:3:271:286:288
 289,http://purl.obolibrary.org/obo/MRO_0001465,3,pig,,1:2:3:289
 290,http://purl.obolibrary.org/obo/MRO_0001420,289,SLA-1,,1:2:3:289:290
-291,http://purl.obolibrary.org/obo/MRO_0002025,290,SLA-1*07:02,"SLA-1*0702, SLA-1*07ce08, SLA-10702, SLA-107:02, SLA-1*0702",1:2:3:289:290:291
-292,http://purl.obolibrary.org/obo/MRO_0002053,290,SLA-1*0302,SLA-10302,1:2:3:289:290:292
-293,http://purl.obolibrary.org/obo/MRO_0001421,290,SLA-1*0401,SLA-10401,1:2:3:289:290:293
-294,http://purl.obolibrary.org/obo/MRO_0001422,290,SLA-1*1502,SLA-11502,1:2:3:289:290:294
+291,http://purl.obolibrary.org/obo/MRO_0002053,290,SLA-1*03:02,"SLA-103:02, SLA-10302, SLA-1*0302",1:2:3:289:290:291
+292,http://purl.obolibrary.org/obo/MRO_0001421,290,SLA-1*04:01,"SLA-1*0401, SLA-104:01, SLA-10401",1:2:3:289:290:292
+293,http://purl.obolibrary.org/obo/MRO_0002025,290,SLA-1*07:02,"SLA-1*0702, SLA-1*07ce08, SLA-10702, SLA-107:02, SLA-1*0702",1:2:3:289:290:293
+294,http://purl.obolibrary.org/obo/MRO_0001422,290,SLA-1*15:02,"SLA-115:02, SLA-11502, SLA-1*1502",1:2:3:289:290:294
 295,http://purl.obolibrary.org/obo/MRO_0001423,289,SLA-2,,1:2:3:289:295
-296,http://purl.obolibrary.org/obo/MRO_0002055,295,SLA-2*0106,SLA-20106,1:2:3:289:295:296
-297,http://purl.obolibrary.org/obo/MRO_0001424,295,SLA-2*0401,SLA-20401,1:2:3:289:295:297
-298,http://purl.obolibrary.org/obo/MRO_0002051,295,SLA-2*0502,"SLA-20502, SLA-2*05:02",1:2:3:289:295:298
-299,http://purl.obolibrary.org/obo/MRO_0001976,289,SLA-3*0202,"SLA-30202, SLA-3*hs0202",1:2:3:289:299
-300,http://purl.obolibrary.org/obo/MRO_0001978,289,SLA-3*0401,SLA-30401,1:2:3:289:300
+296,http://purl.obolibrary.org/obo/MRO_0002055,295,SLA-2*01:06,"SLA-2*0106, SLA-201:06, SLA-20106",1:2:3:289:295:296
+297,http://purl.obolibrary.org/obo/MRO_0001424,295,SLA-2*04:01,"SLA-20401, SLA-204:01, SLA-2*0401",1:2:3:289:295:297
+298,http://purl.obolibrary.org/obo/MRO_0002051,295,SLA-2*05:02,"SLA-20502, SLA-2*0502, SLA-205:02",1:2:3:289:295:298
+299,http://purl.obolibrary.org/obo/MRO_0001976,289,SLA-3*02:02,"SLA-3*0202, SLA-302:02, SLA-30202, SLA-3*hs0202",1:2:3:289:299
+300,http://purl.obolibrary.org/obo/MRO_0001978,289,SLA-3*04:01,"SLA-3*0401, SLA-304:01, SLA-30401",1:2:3:289:300
 301,http://purl.obolibrary.org/obo/MRO_0001790,3,rat,,1:2:3:301
 302,http://purl.obolibrary.org/obo/MRO_0001799,301,RT1-A,RT1A,1:2:3:301:302
 303,http://purl.obolibrary.org/obo/MRO_0001800,302,RT1-A1,"RT1.A1(N), RT1A1",1:2:3:301:302:303

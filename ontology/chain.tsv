@@ -652,15 +652,15 @@ Saoe-G chain		equivalent	protein	Saoe-G locus
 sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
 sheep MHC class II chain		equivalent	protein	sheep MHC class II locus
 SLA-1 chain		equivalent	protein	SLA-1 locus
+SLA-1*03:02 chain		subclass	SLA-1 chain	
+SLA-1*04:01 chain		subclass	SLA-1 chain	
 SLA-1*07:02 chain		subclass	SLA-1 chain	
-SLA-1*0302 chain		subclass	SLA-1 chain	
-SLA-1*0401 chain		subclass	SLA-1 chain	
-SLA-1*1502 chain		subclass	SLA-1 chain	
+SLA-1*15:02 chain		subclass	SLA-1 chain	
 SLA-2 chain		equivalent	protein	SLA-2 locus
-SLA-2*0106 chain		subclass	SLA-2 chain	
-SLA-2*0401 chain		subclass	SLA-2 chain	
-SLA-2*0502 chain		subclass	SLA-2 chain	
+SLA-2*01:06 chain		subclass	SLA-2 chain	
+SLA-2*04:01 chain		subclass	SLA-2 chain	
+SLA-2*05:02 chain		subclass	SLA-2 chain	
 SLA-3 chain		equivalent	protein	SLA-3 locus
-SLA-3*0202 chain		subclass	SLA-3 chain	
-SLA-3*0401 chain		subclass	SLA-3 chain	
+SLA-3*02:02 chain		subclass	SLA-3 chain	
+SLA-3*04:01 chain		subclass	SLA-3 chain	
 YF1w*7.1 chain		subclass	BF-YF chain	

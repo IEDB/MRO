@@ -622,7 +622,7 @@ chicken CD1-2 protein complex	681	B
 HLA-B*35:08 Q65A, T69A, Q155A mutant	682	B		
 H2-Dd R155Y, D156Y, R169H mutant	686	D		
 H2-Kb V9W mutant	689	K		
-SLA-1*0401 protein complex	690	1	300438	300492
+SLA-1*04:01 protein complex	690	1	300438	300492
 HLA-B*41:01 protein complex	691	B	300645	56585
 HLA-B*41:03 protein complex	692	B	300647	56585
 HLA-B*41:04 protein complex	693	B	300817	56585
@@ -633,7 +633,7 @@ Patr-AL protein complex	697	AL
 BoLA-3*00201 protein complex	698	3	300481	300493
 BoLA-1*02301 protein complex	699	1	300485	300493
 HLA-DRB1*08:18 protein complex	700	DR		300772
-SLA-1*1502 protein complex	701	1		
+SLA-1*15:02 protein complex	701	1		
 HLA-A*02:01 A150P mutant	703	A		
 Patr-B*03:01 protein complex	704	B	300458	300490
 Patr-B*03:02 protein complex	705	B	300469	300490
@@ -673,7 +673,7 @@ HLA-DRA*01:01 F54C mutant/DRB1*01:01	747	DR		300746
 cattle CD1d protein complex	748	CD1	300431	300493
 HLA-DRB1*14:54 protein complex	750	DR		300828
 H2-Db H155A mutant	751	D		
-SLA-2*0401 protein complex	752	2	300439	300492
+SLA-2*04:01 protein complex	752	2	300439	300492
 BF2*1201 protein complex	753	BF2		
 BF2*1501 protein complex	754	BF2		
 HLA-DRB1*12:02 protein complex	755	DR		300781
@@ -789,7 +789,7 @@ HLA-DQA1*02:01/DQB1*03:02 protein complex	880	DQ
 HLA-DRA*01:02/DRB1*03:01 Q74R mutant	881	DR		
 HLA-DRA*01:01/DRB1*03:01 Q74R mutant	882	DR		
 HLA-B*18:03 protein complex	883	B		
-SLA-3*0202 protein complex	884	3		
+SLA-3*02:02 protein complex	884	3		
 HLA-DRB1*15:06 protein complex	885	DR		
 HLA-A*66:02 protein complex	886	A		
 Eqca-1*00201 protein complex	887	1		
@@ -807,7 +807,7 @@ Mamu-B*066:01 protein complex	898	B
 Mamu-B*083:01 protein complex	899	B		
 Mamu-B*087:01 protein complex	900	B		
 Mamu-B*090:01 protein complex	901	B		
-SLA-3*0401 protein complex	902	3		
+SLA-3*04:01 protein complex	902	3		
 HLA-A*30:14L protein complex	903	A		
 BoLA-DRB3*1001 protein complex	904	DRB3	344097	
 BoLA-DRB3*1801 protein complex	905	DRB3	344098	
@@ -838,6 +838,6 @@ HLA-B*35:08 Q65A mutant	929	B		56585
 HLA-B*35:08 T69A mutant	930	B		56585
 HLA-B*35:08 Q155A mutant	931	B		56585
 HLA-C*17:01 protein complex	932	C	400878	56585
-SLA-2*0502 protein complex	933	2		
-SLA-1*0302 protein complex	934	1		
-SLA-2*0106 protein complex	935	2		
+SLA-2*05:02 protein complex	933	2		
+SLA-1*03:02 protein complex	934	1		
+SLA-2*01:06 protein complex	935	2		

@@ -11446,7 +11446,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000853">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000852"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0401 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*04:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -11455,7 +11455,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000854">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000852"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*1502 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*15:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -11484,7 +11484,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000856">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000855"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0401 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*04:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -32391,14 +32391,16 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001420"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0401</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-10401</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-104:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300438</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-chain-ii-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300492</obo:MRO_has-chain-ii-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">690</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0401</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0401 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*04:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*04:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -32426,12 +32428,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001420"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*1502</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-11502</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-115:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">701</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*1502</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*1502 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*15:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*15:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -32489,14 +32493,16 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001423"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0401</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-20401</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-204:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300439</obo:MRO_has-chain-i-source-id>
         <obo:MRO_has-chain-ii-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300492</obo:MRO_has-chain-ii-source-id>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">752</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0401</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0401 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*04:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*04:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46497,7 +46503,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001975">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001973"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0202 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*02:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -46525,13 +46531,15 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001465"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0202</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*hs0202</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-30202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-302:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">884</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0202</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0202 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*02:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*02:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46540,7 +46548,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001977">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001973"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0401 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*04:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -46568,12 +46576,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001465"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0401</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-30401</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-304:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">902</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0401</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*0401 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*04:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-3*04:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -48066,7 +48076,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000855"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0502 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*05:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -48094,13 +48104,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001423"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*05:02</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0502</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-20502</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-205:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">933</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0502</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0502 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*05:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*05:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -48109,7 +48120,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000852"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0302 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*03:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -48137,12 +48148,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001420"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0302</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-10302</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-103:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">934</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0302</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*0302 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*03:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1*03:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -48151,7 +48164,7 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000855"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0106 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*01:06 chain</rdfs:label>
     </owl:Class>
     
 
@@ -48179,12 +48192,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001423"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0106</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-20106</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-201:06</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">935</obo:MRO_has-iedb-mhc-id>
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</obo:MRO_has-mhc-locus>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0106</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*0106 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*01:06</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2*01:06 protein complex</rdfs:label>
     </owl:Class>
     
 
