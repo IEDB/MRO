@@ -291,7 +291,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 302	http://purl.obolibrary.org/obo/MRO_0001595	HLA-Bw4	HLA-B*w4	HLA-B*w4	serotype	human (Homo sapiens)	9606	I		B	Bw4									
 303	http://purl.obolibrary.org/obo/MRO_0001454	HLA class I			class	human (Homo sapiens)	9606	I												
 304	http://purl.obolibrary.org/obo/MRO_0001455	HLA class II			class	human (Homo sapiens)	9606	II												
-305	http://purl.obolibrary.org/obo/MRO_0001150	HLA-C*01:02	HLA-C01:02|HLA-C0102|HLA-C*0102|HLA-Cw*0102|HLA-CW*0102	HLA-Cw*0102|HLA-CW*0102	complete molecule	human (Homo sapiens)	9606	I		C	Cw1	HLA-C*01:02	HLA-C*01:02	Beta-2-microglobulin	C				300676	56585
+305	http://purl.obolibrary.org/obo/MRO_0001150	HLA-C*01:02	HLA-C01:02|HLA-C0102|HLA-C*0102|HLA-Cw*0102|HLA-CW*0102	HLA-CW*0102|HLA-Cw*0102	complete molecule	human (Homo sapiens)	9606	I		C	Cw1	HLA-C*01:02	HLA-C*01:02	Beta-2-microglobulin	C				300676	56585
 306	http://purl.obolibrary.org/obo/MRO_0001151	HLA-C*02:02	HLA-C02:02|HLA-C0202|HLA-C*0202|HLA-Cw*0202|HLA-Cw*020201	HLA-Cw*0202|HLA-Cw*020201	complete molecule	human (Homo sapiens)	9606	I		C	Cw2	HLA-C*02:02	HLA-C*02:02	Beta-2-microglobulin	C				300677	56585
 307	http://purl.obolibrary.org/obo/MRO_0001152	HLA-C*03:03	HLA-C03:03|HLA-C0303|HLA-C*0303|HLA-Cw*0303	HLA-Cw*0303	complete molecule	human (Homo sapiens)	9606	I		C	Cw9	HLA-C*03:03	HLA-C*03:03	Beta-2-microglobulin	C				300678	56585
 308	http://purl.obolibrary.org/obo/MRO_0001153	HLA-C*03:04	HLA-C03:04|HLA-C0304|HLA-C*0304|HLA-Cw*0301|HLA-Cw*0304	HLA-Cw*0301|HLA-Cw*0304	complete molecule	human (Homo sapiens)	9606	I		C	Cw10	HLA-C*03:04	HLA-C*03:04	Beta-2-microglobulin	C				300679	56585
