@@ -74,6 +74,19 @@ sort:
 	python3 src/sort.py $(source_files)
 
 
+### Sequences
+
+build/hla.fasta: | build
+	curl -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/hla_prot.fasta
+
+build/sla.fasta: | build
+	curl -o $@ -L https://www.ebi.ac.uk/ipd/mhc/group/SLA/download?type=protein
+
+.PHONY: update-seqs
+update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/sla.fasta
+	python3 $^
+
+
 ### OWL Files
 
 mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl
