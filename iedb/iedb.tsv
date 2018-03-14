@@ -841,9 +841,11 @@ HLA-C*17:01 protein complex	932	C	400878	56585
 SLA-2*05:02 protein complex	933	2		
 SLA-1*03:02 protein complex	934	1		
 SLA-2*01:06 protein complex	935	2		
-SLA-1*13:01 protein complex		1		
-SLA-1*11:10 protein complex		1		
-SLA-1*20:01 protein complex		1		
-SLA-1*08:09 protein complex		1		
-SLA-1*11:01 protein complex		1		
-SLA-1*12:01 protein complex		1		
+SLA-1*13:01 protein complex	936	1		
+SLA-1*11:10 protein complex	937	1		
+SLA-1*20:01 protein complex	938	1		
+SLA-1*08:09 protein complex	939	1		
+SLA-1*11:01 protein complex	940	1		
+SLA-1*12:01 protein complex	941	1		
+mouse CD1d1 protein complex	942	CD1		
+mouse CD1d2 protein complex	943	CD1		

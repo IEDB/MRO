@@ -543,7 +543,7 @@ http://purl.obolibrary.org/obo/MRO_0001455,class,304,9606,human,MHC class II,,,,
 http://purl.obolibrary.org/obo/MRO_0001456,complete molecule,785,9606,human,non-classical MHC,MR1,,,human MR1 K43A mutant protein complex,MRO_0001456,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001457,complete molecule,738,9606,human,non-classical MHC,MR1,,,human MR1 protein complex,MRO_0001457,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001458,class,,9606,human,non-classical MHC,,,,human non-classical MHC protein complex,MRO_0001458,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001459,complete molecule,666,10090,mouse,non-classical MHC,CD1,,,mouse CD1d protein complex,MRO_0001459,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001459,locus,666,10090,mouse,non-classical MHC,CD1,,,mouse CD1d protein complex,MRO_0001459,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001460,class,626,10090,mouse,MHC class I,,,,mouse MHC class I protein complex,MRO_0001460,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001461,class,627,10090,mouse,MHC class II,,,,mouse MHC class II protein complex,MRO_0001461,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001462,complete molecule,766,10090,mouse,non-classical MHC,MR1,,,mouse MR1 protein complex,MRO_0001462,http://purl.obolibrary.org/obo/
@@ -993,9 +993,11 @@ http://purl.obolibrary.org/obo/MRO_0002049,complete molecule,932,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0002051,complete molecule,933,9823,pig,MHC class I,2,,,SLA-2*05:02 protein complex,MRO_0002051,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002053,complete molecule,934,9823,pig,MHC class I,1,,,SLA-1*03:02 protein complex,MRO_0002053,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002055,complete molecule,935,9823,pig,MHC class I,2,,,SLA-2*01:06 protein complex,MRO_0002055,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002062,complete molecule,,9823,pig,MHC class I,1,,,SLA-1*13:01 protein complex,MRO_0002062,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002063,complete molecule,,9823,pig,MHC class I,1,,,SLA-1*11:10 protein complex,MRO_0002063,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002064,complete molecule,,9823,pig,MHC class I,1,,,SLA-1*20:01 protein complex,MRO_0002064,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002065,complete molecule,,9823,pig,MHC class I,1,,,SLA-1*08:09 protein complex,MRO_0002065,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002066,complete molecule,,9823,pig,MHC class I,1,,,SLA-1*11:01 protein complex,MRO_0002066,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002067,complete molecule,,9823,pig,MHC class I,1,,,SLA-1*12:01 protein complex,MRO_0002067,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002062,complete molecule,936,9823,pig,MHC class I,1,,,SLA-1*13:01 protein complex,MRO_0002062,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002063,complete molecule,937,9823,pig,MHC class I,1,,,SLA-1*11:10 protein complex,MRO_0002063,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002064,complete molecule,938,9823,pig,MHC class I,1,,,SLA-1*20:01 protein complex,MRO_0002064,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002065,complete molecule,939,9823,pig,MHC class I,1,,,SLA-1*08:09 protein complex,MRO_0002065,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002066,complete molecule,940,9823,pig,MHC class I,1,,,SLA-1*11:01 protein complex,MRO_0002066,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002067,complete molecule,941,9823,pig,MHC class I,1,,,SLA-1*12:01 protein complex,MRO_0002067,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002071,complete molecule,942,10090,mouse,non-classical MHC,CD1,,,mouse CD1d1 protein complex,MRO_0002071,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002072,complete molecule,943,10090,mouse,non-classical MHC,CD1,,,mouse CD1d2 protein complex,MRO_0002072,http://purl.obolibrary.org/obo/

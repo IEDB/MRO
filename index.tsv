@@ -35,7 +35,7 @@ MRO:0000031	Caja-G locus	owl:Class
 MRO:0000032	DLA-88 locus	owl:Class	
 MRO:0000033	ELA-N locus	owl:Class	
 MRO:0000034	Gogo-B locus	owl:Class	
-MRO:0000035	H2-CD1 locus	owl:Class	
+MRO:0000035	obsolete H2-CD1 locus	owl:Class	true
 MRO:0000036	H2-D locus	owl:Class	
 MRO:0000037	H2-IA alpha locus	owl:Class	
 MRO:0000038	H2-IA beta locus	owl:Class	
@@ -409,7 +409,7 @@ MRO:0000405	ELA-N chain	owl:Class
 MRO:0000406	Eqca-N*00602 chain	owl:Class	
 MRO:0000407	Gogo-B chain	owl:Class	
 MRO:0000408	Gogo-B*0101 chain	owl:Class	
-MRO:0000409	H2-CD1 chain	owl:Class	
+MRO:0000409	obsolete H2-CD1 chain	owl:Class	true
 MRO:0000410	H2-D chain	owl:Class	
 MRO:0000411	H2-Db chain	owl:Class	
 MRO:0000412	H2-Dd chain	owl:Class	
@@ -2068,3 +2068,8 @@ MRO:0002064	SLA-1*20:01 protein complex	owl:Class
 MRO:0002065	SLA-1*08:09 protein complex	owl:Class	
 MRO:0002066	SLA-1*11:01 protein complex	owl:Class	
 MRO:0002067	SLA-1*12:01 protein complex	owl:Class	
+MRO:0002068	mouse CD1d locus	owl:Class	
+MRO:0002069	mouse CD1d1 chain	owl:Class	
+MRO:0002070	mouse CD1d2 chain	owl:Class	
+MRO:0002071	mouse CD1d1 protein complex	owl:Class	
+MRO:0002072	mouse CD1d2 protein complex	owl:Class	

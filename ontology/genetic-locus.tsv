@@ -44,7 +44,6 @@ ELA-N locus		subclass	horse MHC class I locus
 Gogo-B locus		subclass	gorilla MHC class I locus	
 gorilla MHC class I locus		subclass	MHC class I locus	gorilla
 gorilla MHC class II locus		subclass	MHC class II locus	gorilla
-H2-CD1 locus		subclass	mouse non-classical MHC locus	
 H2-D locus		subclass	mouse MHC class I locus	
 H2-IA alpha locus		subclass	mouse MHC class II locus	
 H2-IA beta locus		subclass	mouse MHC class II locus	
@@ -94,6 +93,7 @@ Mamu-DRB locus		subclass	rhesus macaque MHC class II locus
 marmoset MHC class I locus		subclass	MHC class I locus	marmoset
 MHC class I locus		subclass	MHC locus	
 MHC class II locus		subclass	MHC locus	
+mouse CD1d locus		subclass	mouse non-classical MHC locus	
 mouse MHC class I locus		subclass	MHC class I locus	mouse
 mouse MHC class II locus		subclass	MHC class II locus	mouse
 mouse non-classical MHC locus		subclass	non-classical MHC locus	mouse

@@ -109,7 +109,6 @@ Gogo-B chain		equivalent	protein	Gogo-B locus
 Gogo-B*0101 chain		subclass	Gogo-B chain	
 gorilla MHC class I chain		equivalent	protein	gorilla MHC class I locus
 gorilla MHC class II chain		equivalent	protein	gorilla MHC class II locus
-H2-CD1 chain		equivalent	protein	H2-CD1 locus
 H2-D chain		equivalent	protein	H2-D locus
 H2-Db chain		subclass	H2-D chain	
 H2-Dd chain		subclass	H2-D chain	
@@ -556,7 +555,9 @@ Mamu-DRB*W6:02 chain		subclass	Mamu-DRB chain
 marmoset MHC class I chain		equivalent	protein	marmoset MHC class I locus
 MHC class I chain		equivalent	protein	MHC class I locus
 MHC class II chain		equivalent	protein	MHC class II locus
-mouse CD1d chain		subclass	H2-CD1 chain	
+mouse CD1d1 chain		subclass	mouse CD1d chain	
+mouse CD1d2 chain		subclass	mouse CD1d chain	
+mouse CD1d chain		equivalent	protein	mouse CD1d locus
 mouse MHC class I chain		equivalent	protein	mouse MHC class I locus
 mouse MHC class II chain		equivalent	protein	mouse MHC class II locus
 mouse MR1 chain		subclass	H2-MR1 chain	

@@ -576,7 +576,9 @@ Mamu-DRB*W6:02 protein complex	Mamu-DRB*W6:02	Mamu-DRB6*0102	partial molecule	eq
 marmoset MHC class I protein complex	marmoset		class	equivalent	MHC class I protein complex	marmoset				
 MHC class I protein complex	class I		class	subclass	MHC protein complex					
 MHC class II protein complex	class II		class	subclass	MHC protein complex					
-mouse CD1d protein complex	mouse CD1d	mCD1d	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
+mouse CD1d1 protein complex			complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d1 chain	Beta-2-microglobulin		
+mouse CD1d2 protein complex			complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d2 chain	Beta-2-microglobulin		
+mouse CD1d protein complex	mouse CD1d	mCD1d	locus	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
 mouse MHC class I protein complex	mouse		class	equivalent	MHC class I protein complex	mouse				
 mouse MHC class II protein complex	mouse		class	equivalent	MHC class II protein complex	mouse				
 mouse MR1 protein complex	mouse MR1	mMR1	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
