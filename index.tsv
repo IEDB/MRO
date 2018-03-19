@@ -190,10 +190,10 @@ MRO:0000186	HLA-A serotype	owl:Class
 MRO:0000187	HLA-A1 serotype	owl:Class	
 MRO:0000188	HLA-A11 serotype	owl:Class	
 MRO:0000189	HLA-A2 serotype	owl:Class	
-MRO:0000190	HLA-A203 serotype	owl:Class	
+MRO:0000190	obsolete HLA-A203 serotype	owl:Class	true
 MRO:0000191	HLA-A23 serotype	owl:Class	
 MRO:0000192	HLA-A24 serotype	owl:Class	
-MRO:0000193	HLA-A2403 serotype	owl:Class	
+MRO:0000193	obsolete HLA-A2403 serotype	owl:Class	true
 MRO:0000194	HLA-A25 serotype	owl:Class	
 MRO:0000195	HLA-A26 serotype	owl:Class	
 MRO:0000196	HLA-A28 serotype	owl:Class	
