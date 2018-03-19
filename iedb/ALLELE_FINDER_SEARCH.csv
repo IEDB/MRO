@@ -98,7 +98,7 @@ http://purl.obolibrary.org/obo/MRO_0001005,locus,,9606,human,MHC class I,,,,HLA-
 http://purl.obolibrary.org/obo/MRO_0001006,complete molecule,142,9606,human,MHC class I,A,,HLA-A1 serotype,HLA-A*01:01 protein complex,MRO_0001006,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001007,complete molecule,143,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:01 protein complex,MRO_0001007,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001008,complete molecule,200,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:02 protein complex,MRO_0001008,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001009,complete molecule,201,9606,human,MHC class I,A,,HLA-A203 serotype,HLA-A*02:03 protein complex,MRO_0001009,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001009,complete molecule,201,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:03 protein complex,MRO_0001009,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001010,complete molecule,202,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:04 protein complex,MRO_0001010,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001011,complete molecule,203,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:05 protein complex,MRO_0001011,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001012,complete molecule,204,9606,human,MHC class I,A,,HLA-A2 serotype,HLA-A*02:06 protein complex,MRO_0001012,http://purl.obolibrary.org/obo/
@@ -122,7 +122,7 @@ http://purl.obolibrary.org/obo/MRO_0001029,complete molecule,213,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0001030,complete molecule,604,9606,human,MHC class I,A,,HLA-A11 serotype,HLA-A*11:02 protein complex,MRO_0001030,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001031,complete molecule,214,9606,human,MHC class I,A,,HLA-A23 serotype,HLA-A*23:01 protein complex,MRO_0001031,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001032,complete molecule,215,9606,human,MHC class I,A,,HLA-A24 serotype,HLA-A*24:02 protein complex,MRO_0001032,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001033,complete molecule,216,9606,human,MHC class I,A,,HLA-A2403 serotype,HLA-A*24:03 protein complex,MRO_0001033,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001033,complete molecule,216,9606,human,MHC class I,A,,HLA-A24 serotype,HLA-A*24:03 protein complex,MRO_0001033,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001034,complete molecule,840,9606,human,MHC class I,A,,HLA-A24 serotype,HLA-A*24:06 protein complex,MRO_0001034,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001035,complete molecule,217,9606,human,MHC class I,A,,HLA-A24 serotype,HLA-A*24:07 protein complex,MRO_0001035,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001036,complete molecule,841,9606,human,MHC class I,A,,HLA-A24 serotype,HLA-A*24:13 protein complex,MRO_0001036,http://purl.obolibrary.org/obo/
@@ -614,10 +614,8 @@ http://purl.obolibrary.org/obo/MRO_0001527,serotype,,9913,cattle,MHC class I,,,B
 http://purl.obolibrary.org/obo/MRO_0001528,serotype,233,9606,human,MHC class I,A,,HLA-A1 serotype,HLA protein complex with A1 serotype,MRO_0001528,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001529,serotype,234,9606,human,MHC class I,A,,HLA-A11 serotype,HLA protein complex with A11 serotype,MRO_0001529,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001530,serotype,235,9606,human,MHC class I,A,,HLA-A2 serotype,HLA protein complex with A2 serotype,MRO_0001530,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001531,serotype,,9606,human,MHC class I,,,HLA-A203 serotype,HLA protein complex with A203 serotype,MRO_0001531,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001532,serotype,236,9606,human,MHC class I,A,,HLA-A23 serotype,HLA protein complex with A23 serotype,MRO_0001532,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001533,serotype,237,9606,human,MHC class I,A,,HLA-A24 serotype,HLA protein complex with A24 serotype,MRO_0001533,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001534,serotype,,9606,human,MHC class I,,,HLA-A2403 serotype,HLA protein complex with A2403 serotype,MRO_0001534,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001535,serotype,238,9606,human,MHC class I,A,,HLA-A25 serotype,HLA protein complex with A25 serotype,MRO_0001535,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001536,serotype,239,9606,human,MHC class I,A,,HLA-A26 serotype,HLA protein complex with A26 serotype,MRO_0001536,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001537,serotype,240,9606,human,MHC class I,A,,HLA-A28 serotype,HLA protein complex with A28 serotype,MRO_0001537,http://purl.obolibrary.org/obo/
@@ -907,7 +905,7 @@ http://purl.obolibrary.org/obo/MRO_0001872,complete molecule,858,9031,chicken,MH
 http://purl.obolibrary.org/obo/MRO_0001874,complete molecule,874,9913,cattle,MHC class I,1,,,BoLA-1*01901 protein complex,MRO_0001874,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001876,complete molecule,875,9913,cattle,MHC class I,2,,,BoLA-2*00801 protein complex,MRO_0001876,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001880,complete molecule,876,9913,cattle,MHC class I,4,,,BoLA-4*02401 protein complex,MRO_0001880,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001882,complete molecule,862,9913,cattle,MHC class I,HD6,,HLA-A18 serotype,BoLA-6*01302 protein complex,MRO_0001882,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001882,complete molecule,862,9913,cattle,MHC class I,HD6,,BoLA-A18 serotype,BoLA-6*01302 protein complex,MRO_0001882,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001884,partial molecule,904,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1001 protein complex,MRO_0001884,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001886,partial molecule,905,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1801 protein complex,MRO_0001886,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001887,haplotype,,9031,chicken,MHC class I,,B13 haplotype,,chicken MHC class I protein complex with B13 haplotype,MRO_0001887,http://purl.obolibrary.org/obo/

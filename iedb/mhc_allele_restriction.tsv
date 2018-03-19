@@ -192,7 +192,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 198	http://purl.obolibrary.org/obo/MRO_0001097	HLA-B*35:08	HLA-B35:08|HLA-B3508|HLA-B*3508		complete molecule	human (Homo sapiens)	9606	I		B	B35	HLA-B*35:08	HLA-B*35:08	Beta-2-microglobulin	B				300632	56585
 199	http://purl.obolibrary.org/obo/MRO_0001098	HLA-B*35:14	HLA-B35:14|HLA-B3514|HLA-B*3514		complete molecule	human (Homo sapiens)	9606	I		B	B35	HLA-B*35:14	HLA-B*35:14	Beta-2-microglobulin	B				300633	56585
 200	http://purl.obolibrary.org/obo/MRO_0001008	HLA-A*02:02	HLA-A02:02|HLA-A0202|HLA-A*0202		complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:02	HLA-A*02:02	Beta-2-microglobulin	A				300553	56585
-201	http://purl.obolibrary.org/obo/MRO_0001009	HLA-A*02:03	HLA-A02:03|HLA-A0203|HLA-A*0203		complete molecule	human (Homo sapiens)	9606	I		A	A203	HLA-A*02:03	HLA-A*02:03	Beta-2-microglobulin	A				300554	56585
+201	http://purl.obolibrary.org/obo/MRO_0001009	HLA-A*02:03	HLA-A02:03|HLA-A0203|HLA-A*0203		complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:03	HLA-A*02:03	Beta-2-microglobulin	A				300554	56585
 202	http://purl.obolibrary.org/obo/MRO_0001010	HLA-A*02:04	HLA-A02:04|HLA-A0204|HLA-A*0204		complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:04	HLA-A*02:04	Beta-2-microglobulin	A				300555	56585
 203	http://purl.obolibrary.org/obo/MRO_0001011	HLA-A*02:05	HLA-A02:05|HLA-A0205|HLA-A*0205		complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:05	HLA-A*02:05	Beta-2-microglobulin	A				300556	56585
 204	http://purl.obolibrary.org/obo/MRO_0001012	HLA-A*02:06	HLA-A02:06|HLA-A0206|HLA-A*0206		complete molecule	human (Homo sapiens)	9606	I		A	A2	HLA-A*02:06	HLA-A*02:06	Beta-2-microglobulin	A				300557	56585
@@ -206,7 +206,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 213	http://purl.obolibrary.org/obo/MRO_0001029	HLA-A*11:01	HLA-A11:01|HLA-A1101|HLA-A*1101|HLA-A*110101	HLA-A*110101	complete molecule	human (Homo sapiens)	9606	I		A	A11	HLA-A*11:01	HLA-A*11:01	Beta-2-microglobulin	A				300572	56585
 214	http://purl.obolibrary.org/obo/MRO_0001031	HLA-A*23:01	HLA-A23:01|HLA-A2301|HLA-A*2301		complete molecule	human (Homo sapiens)	9606	I		A	A23	HLA-A*23:01	HLA-A*23:01	Beta-2-microglobulin	A				300574	56585
 215	http://purl.obolibrary.org/obo/MRO_0001032	HLA-A*24:02	HLA-A24:02|HLA-A2402|HLA-A*2402|HLA-A*24020101	HLA-A*24020101	complete molecule	human (Homo sapiens)	9606	I		A	A24	HLA-A*24:02	HLA-A*24:02	Beta-2-microglobulin	A				300575	56585
-216	http://purl.obolibrary.org/obo/MRO_0001033	HLA-A*24:03	HLA-A24:03|HLA-A2403|HLA-A*2403		complete molecule	human (Homo sapiens)	9606	I		A	A2403	HLA-A*24:03	HLA-A*24:03	Beta-2-microglobulin	A				300576	56585
+216	http://purl.obolibrary.org/obo/MRO_0001033	HLA-A*24:03	HLA-A24:03|HLA-A2403|HLA-A*2403		complete molecule	human (Homo sapiens)	9606	I		A	A24	HLA-A*24:03	HLA-A*24:03	Beta-2-microglobulin	A				300576	56585
 217	http://purl.obolibrary.org/obo/MRO_0001035	HLA-A*24:07	HLA-A24:07|HLA-A2407|HLA-A*2407		complete molecule	human (Homo sapiens)	9606	I		A	A24	HLA-A*24:07	HLA-A*24:07	Beta-2-microglobulin	A				300578	56585
 218	http://purl.obolibrary.org/obo/MRO_0001038	HLA-A*26:01	HLA-A26:01|HLA-A2601|HLA-A*2601		complete molecule	human (Homo sapiens)	9606	I		A	A26	HLA-A*26:01	HLA-A*26:01	Beta-2-microglobulin	A				300581	56585
 219	http://purl.obolibrary.org/obo/MRO_0001039	HLA-A*26:02	HLA-A26:02|HLA-A2602|HLA-A*2602		complete molecule	human (Homo sapiens)	9606	I		A	A26	HLA-A*26:02	HLA-A*26:02	Beta-2-microglobulin	A				300582	56585
