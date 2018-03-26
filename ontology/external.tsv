@@ -14,6 +14,7 @@ NCBITaxon:9597	bonobo	Pan paniscus		subclass	organism					http://purl.obolibrary
 NCBITaxon:9598	chimpanzee	Pan troglodytes		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9606	human	Homo sapiens		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9615	dog	Canis lupus familiaris		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
+NCBITaxon:9685	cat	Felis catus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9796	horse	Equus caballus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9823	pig	Sus scrofa		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9913	cattle	Bos taurus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl

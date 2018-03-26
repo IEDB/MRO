@@ -22,6 +22,9 @@ bonobo MHC class I locus		subclass	MHC class I locus	bonobo
 bonobo MHC class II locus		subclass	MHC class II locus	bonobo
 Caja-E locus		subclass	marmoset MHC class I locus	
 Caja-G locus		subclass	marmoset MHC class I locus	
+cat MHC class I locus		subclass	MHC class I locus	cat
+cat MHC class II locus		subclass	MHC class II locus	cat
+cat non-classical MHC locus		subclass	non-classical MHC locus	cat
 cattle MHC class I locus		subclass	MHC class I locus	cattle
 cattle MHC class II locus		subclass	MHC class II locus	cattle
 cattle non-classical MHC locus		subclass	non-classical MHC locus	cattle

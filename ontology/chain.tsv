@@ -73,6 +73,9 @@ bonobo MHC class I chain		equivalent	protein	bonobo MHC class I locus
 bonobo MHC class II chain		equivalent	protein	bonobo MHC class II locus
 Caja-E chain		equivalent	protein	Caja-E locus
 Caja-G chain		equivalent	protein	Caja-G locus
+cat MHC class I chain		equivalent	protein	cat MHC class I locus
+cat MHC class II chain		equivalent	protein	cat MHC class II locus
+cat non-classical MHC chain		equivalent	protein	cat non-classical MHC locus
 cattle CD1b3 chain		subclass	BoLA-CD1 chain	
 cattle CD1d chain		subclass	BoLA-CD1 chain	
 cattle MHC class I chain		equivalent	protein	cattle MHC class I locus

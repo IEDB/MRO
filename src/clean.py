@@ -30,6 +30,7 @@ args = parser.parse_args()
 
 organisms = {
   'bonobo': 'bonobo (Pan paniscus)',
+  'cat': 'cat (Felis catus)',
   'cattle': 'cattle (Bos taurus)',
   'chicken': 'chicken (Gallus gallus)',
   'chimpanzee': 'chimpanzee (Pan troglodytes)',
@@ -61,6 +62,7 @@ codes = {
   '9598': 'Patr',
   '9606': 'HLA',
   '9615': 'DLA',
+  '9685': 'FLA',
   '9796': 'ELA',
   '9823': 'SLA',
   '9913': 'BoLA',
