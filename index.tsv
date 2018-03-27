@@ -1531,10 +1531,10 @@ MRO:0001527	BoLA protein complex with A31 serotype	owl:Class
 MRO:0001528	HLA protein complex with A1 serotype	owl:Class	
 MRO:0001529	HLA protein complex with A11 serotype	owl:Class	
 MRO:0001530	HLA protein complex with A2 serotype	owl:Class	
-MRO:0001531	HLA protein complex with A203 serotype	owl:Class	
+MRO:0001531	obsolete HLA protein complex with A203 serotype	owl:Class	true
 MRO:0001532	HLA protein complex with A23 serotype	owl:Class	
 MRO:0001533	HLA protein complex with A24 serotype	owl:Class	
-MRO:0001534	HLA protein complex with A2403 serotype	owl:Class	
+MRO:0001534	obsolete HLA protein complex with A2403 serotype	owl:Class	true
 MRO:0001535	HLA protein complex with A25 serotype	owl:Class	
 MRO:0001536	HLA protein complex with A26 serotype	owl:Class	
 MRO:0001537	HLA protein complex with A28 serotype	owl:Class	
@@ -2082,3 +2082,10 @@ MRO:0002078	cat non-classical MHC chain	owl:Class
 MRO:0002079	cat MHC class I protein complex	owl:Class	
 MRO:0002080	cat MHC class II protein complex	owl:Class	
 MRO:0002081	cat non-classical MHC protein complex	owl:Class	
+MRO:0002082	FLA-E locus	owl:Class	
+MRO:0002083	FLA-E chain	owl:Class	
+MRO:0002084	FLA-E*01801 chain	owl:Class	
+MRO:0002085	FLA-E protein complex	owl:Class	
+MRO:0002086	FLA-E*01801 protein complex	owl:Class	
+MRO:0002087	FLA-E*01801 W167S mutant	owl:Class	
+MRO:0002088	mutant cat MHC class I protein complex	owl:Class	

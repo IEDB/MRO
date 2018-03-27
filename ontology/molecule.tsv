@@ -99,6 +99,8 @@ Eqca-16*00101 protein complex	Eqca-16*00101		complete molecule	equivalent	MHC cl
 Eqca-N*00101 protein complex	Eqca-N*00101		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00101 chain	Beta-2-microglobulin		
 Eqca-N*00601 protein complex	Eqca-N*00601	MHC I 1 14 allele, 7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00601 chain	Beta-2-microglobulin		
 Eqca-N*00602 protein complex	Eqca-N*00602	A1*7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00602 chain	Beta-2-microglobulin	A1 haplotype	
+FLA-E protein complex	FLA-E		locus	equivalent	MHC class I protein complex	cat	FLA-E chain	Beta-2-microglobulin		
+FLA-E*01801 protein complex	FLA-E*01801	FLA-B*n06	complete molecule	equivalent	MHC class I protein complex	cat	FLA-E*01801 chain	Beta-2-microglobulin		
 Gogo-B protein complex	Gogo-B		locus	equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
 Gogo-B*0101 protein complex	Gogo-B*0101		complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*0101 chain	Beta-2-microglobulin		
 gorilla MHC class I protein complex	gorilla		class	equivalent	MHC class I protein complex	gorilla				

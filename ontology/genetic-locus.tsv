@@ -44,6 +44,7 @@ duck MHC class I locus		subclass	MHC class I locus	duck
 ELA-1 locus		subclass	horse MHC class I locus	
 ELA-16 locus		subclass	horse MHC class I locus	
 ELA-N locus		subclass	horse MHC class I locus	
+FLA-E locus		subclass	cat MHC class I locus	
 Gogo-B locus		subclass	gorilla MHC class I locus	
 gorilla MHC class I locus		subclass	MHC class I locus	gorilla
 gorilla MHC class II locus		subclass	MHC class II locus	gorilla

@@ -108,6 +108,8 @@ Eqca-16*00101 chain		subclass	ELA-16 chain
 Eqca-N*00101 chain		subclass	ELA-N chain	
 Eqca-N*00601 chain		subclass	ELA-N chain	
 Eqca-N*00602 chain		subclass	ELA-N chain	
+FLA-E chain		equivalent	protein	FLA-E locus
+FLA-E*01801 chain		subclass	FLA-E chain	
 Gogo-B chain		equivalent	protein	Gogo-B locus
 Gogo-B*0101 chain		subclass	Gogo-B chain	
 gorilla MHC class I chain		equivalent	protein	gorilla MHC class I locus

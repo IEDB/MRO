@@ -999,3 +999,10 @@ http://purl.obolibrary.org/obo/MRO_0002066,complete molecule,940,9823,pig,MHC cl
 http://purl.obolibrary.org/obo/MRO_0002067,complete molecule,941,9823,pig,MHC class I,1,,,SLA-1*12:01 protein complex,MRO_0002067,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002071,complete molecule,942,10090,mouse,non-classical MHC,CD1,,,mouse CD1d1 protein complex,MRO_0002071,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002072,complete molecule,943,10090,mouse,non-classical MHC,CD1,,,mouse CD1d2 protein complex,MRO_0002072,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002079,class,,9685,cat,MHC class I,,,,cat MHC class I protein complex,MRO_0002079,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002080,class,,9685,cat,MHC class II,,,,cat MHC class II protein complex,MRO_0002080,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002081,class,,9685,cat,non-classical MHC,,,,cat non-classical MHC protein complex,MRO_0002081,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002085,locus,,9685,cat,MHC class I,,,,FLA-E protein complex,MRO_0002085,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002086,complete molecule,944,9685,cat,MHC class I,E,,,FLA-E*01801 protein complex,MRO_0002086,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002087,complete molecule,945,9685,cat,MHC class I,E,,,FLA-E*01801 W167S mutant,MRO_0002087,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002088,class,,9685,cat,MHC class I,,,,mutant cat MHC class I protein complex,MRO_0002088,http://purl.obolibrary.org/obo/
