@@ -35,7 +35,8 @@ for filename in args.files:
     header1 = next(rows)
     header2 = next(rows)
     for row in rows:
-      data.append(row)
+      if len(row) > 0:
+        data.append(row)
 
   data.sort(key=lambda x: natural_sort_key(x[0]))
 
