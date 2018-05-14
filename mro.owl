@@ -11,8 +11,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2018-03-27/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-03-27</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2018-05-14/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-05-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -46427,6 +46427,63 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class</obo:MRO_0001984>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cat</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutant cat MHC class I protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001722"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000991"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Kb E63A mutant</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E63A</obo:MRO_0001985>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E63A mutant</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E63A mutant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001722"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000991"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Kb K66A mutant</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K66A</obo:MRO_0001985>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb K66A mutant</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb K66A mutant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001722"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000991"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H-2-Kb W167A mutant</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W167A</obo:MRO_0001985>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb W167A mutant</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb W167A mutant</rdfs:label>
     </owl:Class>
     
 

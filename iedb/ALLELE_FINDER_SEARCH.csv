@@ -1006,3 +1006,6 @@ http://purl.obolibrary.org/obo/MRO_0002085,locus,,9685,cat,MHC class I,,,,FLA-E 
 http://purl.obolibrary.org/obo/MRO_0002086,complete molecule,944,9685,cat,MHC class I,E,,,FLA-E*01801 protein complex,MRO_0002086,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002087,complete molecule,945,9685,cat,MHC class I,E,,,FLA-E*01801 W167S mutant,MRO_0002087,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002088,class,,9685,cat,MHC class I,,,,mutant cat MHC class I protein complex,MRO_0002088,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002089,complete molecule,946,10090,mouse,MHC class I,K,H2-b haplotype,,H2-Kb E63A mutant,MRO_0002089,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002090,complete molecule,947,10090,mouse,MHC class I,K,H2-b haplotype,,H2-Kb K66A mutant,MRO_0002090,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002091,complete molecule,948,10090,mouse,MHC class I,K,H2-b haplotype,,H2-Kb W167A mutant,MRO_0002091,http://purl.obolibrary.org/obo/

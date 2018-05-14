@@ -291,7 +291,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 302	http://purl.obolibrary.org/obo/MRO_0001595	HLA-Bw4	HLA-B*w4	HLA-B*w4	serotype	human (Homo sapiens)	9606	I		B	Bw4									
 303	http://purl.obolibrary.org/obo/MRO_0001454	HLA class I			class	human (Homo sapiens)	9606	I												
 304	http://purl.obolibrary.org/obo/MRO_0001455	HLA class II			class	human (Homo sapiens)	9606	II												
-305	http://purl.obolibrary.org/obo/MRO_0001150	HLA-C*01:02	HLA-C01:02|HLA-C0102|HLA-C*0102|HLA-Cw*0102|HLA-CW*0102	HLA-Cw*0102|HLA-CW*0102	complete molecule	human (Homo sapiens)	9606	I		C	Cw1	HLA-C*01:02	HLA-C*01:02	Beta-2-microglobulin	C				300676	56585
+305	http://purl.obolibrary.org/obo/MRO_0001150	HLA-C*01:02	HLA-C01:02|HLA-C0102|HLA-C*0102|HLA-Cw*0102|HLA-CW*0102	HLA-CW*0102|HLA-Cw*0102	complete molecule	human (Homo sapiens)	9606	I		C	Cw1	HLA-C*01:02	HLA-C*01:02	Beta-2-microglobulin	C				300676	56585
 306	http://purl.obolibrary.org/obo/MRO_0001151	HLA-C*02:02	HLA-C02:02|HLA-C0202|HLA-C*0202|HLA-Cw*0202|HLA-Cw*020201	HLA-Cw*0202|HLA-Cw*020201	complete molecule	human (Homo sapiens)	9606	I		C	Cw2	HLA-C*02:02	HLA-C*02:02	Beta-2-microglobulin	C				300677	56585
 307	http://purl.obolibrary.org/obo/MRO_0001152	HLA-C*03:03	HLA-C03:03|HLA-C0303|HLA-C*0303|HLA-Cw*0303	HLA-Cw*0303	complete molecule	human (Homo sapiens)	9606	I		C	Cw9	HLA-C*03:03	HLA-C*03:03	Beta-2-microglobulin	C				300678	56585
 308	http://purl.obolibrary.org/obo/MRO_0001153	HLA-C*03:04	HLA-C03:04|HLA-C0304|HLA-C*0304|HLA-Cw*0301|HLA-Cw*0304	HLA-Cw*0301|HLA-Cw*0304	complete molecule	human (Homo sapiens)	9606	I		C	Cw10	HLA-C*03:04	HLA-C*03:04	Beta-2-microglobulin	C				300679	56585
@@ -848,3 +848,6 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 941	http://purl.obolibrary.org/obo/MRO_0002067	SLA-1*12:01	SLA-1*1201|SLA-112:01|SLA-11201		complete molecule	pig (Sus scrofa)	9823	I		1		SLA-1*12:01	SLA-1*12:01	Beta-2-microglobulin	1					
 944	http://purl.obolibrary.org/obo/MRO_0002086	FLA-E*01801	FLA-B*n06|FLA-E01801	FLA-B*n06	complete molecule	cat (Felis catus)	9685	I		E		FLA-E*01801	FLA-E*01801	Beta-2-microglobulin	FLA-E					
 945	http://purl.obolibrary.org/obo/MRO_0002087	FLA-E*01801 W167S mutant	FLA-E01801 W167S mutant		complete molecule	cat (Felis catus)	9685	I		E		FLA-E*01801	FLA-E*01801	Beta-2-microglobulin	FLA-E	W167S				
+946	http://purl.obolibrary.org/obo/MRO_0002089	H2-Kb E63A mutant	H-2-Kb E63A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	E63A				
+947	http://purl.obolibrary.org/obo/MRO_0002090	H2-Kb K66A mutant	H-2-Kb K66A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	K66A				
+948	http://purl.obolibrary.org/obo/MRO_0002091	H2-Kb W167A mutant	H-2-Kb W167A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	W167A				

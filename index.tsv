@@ -2089,3 +2089,6 @@ MRO:0002085	FLA-E protein complex	owl:Class
 MRO:0002086	FLA-E*01801 protein complex	owl:Class	
 MRO:0002087	FLA-E*01801 W167S mutant	owl:Class	
 MRO:0002088	mutant cat MHC class I protein complex	owl:Class	
+MRO:0002089	H2-Kb E63A mutant	owl:Class	
+MRO:0002090	H2-Kb K66A mutant	owl:Class	
+MRO:0002091	H2-Kb W167A mutant	owl:Class	
