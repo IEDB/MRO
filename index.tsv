@@ -2092,3 +2092,9 @@ MRO:0002088	mutant cat MHC class I protein complex	owl:Class
 MRO:0002089	H2-Kb E63A mutant	owl:Class	
 MRO:0002090	H2-Kb K66A mutant	owl:Class	
 MRO:0002091	H2-Kb W167A mutant	owl:Class	
+MRO:0002092	HLA-G*01:03 chain	owl:Class	
+MRO:0002093	HLA-G*01:04 chain	owl:Class	
+MRO:0002094	HLA-G*01:03 protein complex	owl:Class	
+MRO:0002095	HLA-G*01:04 protein complex	owl:Class	
+MRO:0002096	HLA-B*27:05 C67S mutant	owl:Class	
+MRO:0002097	HLA-B*27:09 C67S mutant	owl:Class	

@@ -530,6 +530,8 @@ HLA-E*01:01 protein complex	HLA-E*01:01		complete molecule	equivalent	non-classi
 HLA-E*01:03 protein complex	HLA-E*01:03		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-E*01:03 chain	Beta-2-microglobulin		
 HLA-G protein complex	HLA-G		locus	equivalent	non-classical MHC protein complex	human	HLA-G chain	Beta-2-microglobulin		
 HLA-G*01:01 protein complex	HLA-G*01:01		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:01 chain	Beta-2-microglobulin		
+HLA-G*01:03 protein complex	HLA-G*01:03		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:03 chain	Beta-2-microglobulin		
+HLA-G*01:04 protein complex	HLA-G*01:04		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:04 chain	Beta-2-microglobulin		
 horse MHC class I protein complex	horse		class	equivalent	MHC class I protein complex	horse				
 horse MHC class II protein complex	horse		class	equivalent	MHC class II protein complex	horse				
 human BTN3A1 protein complex	human BTN3A1	Butyrophilin BTN3A1	complete molecule	equivalent	non-classical MHC protein complex	human	human BTN3A1 chain			

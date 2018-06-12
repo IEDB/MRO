@@ -503,6 +503,8 @@ HLA-E*01:01 chain		subclass	HLA-E chain
 HLA-E*01:03 chain		subclass	HLA-E chain	
 HLA-G chain		equivalent	protein	HLA-G locus
 HLA-G*01:01 chain		subclass	HLA-G chain	
+HLA-G*01:03 chain		subclass	HLA-G chain	
+HLA-G*01:04 chain		subclass	HLA-G chain	
 HLA-MR1 chain		equivalent	protein	HLA-MR1 locus
 horse MHC class I chain		equivalent	protein	horse MHC class I locus
 horse MHC class II chain		equivalent	protein	horse MHC class II locus

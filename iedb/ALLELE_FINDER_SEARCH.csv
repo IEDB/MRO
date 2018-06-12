@@ -1009,3 +1009,7 @@ http://purl.obolibrary.org/obo/MRO_0002088,class,,9685,cat,MHC class I,,,,mutant
 http://purl.obolibrary.org/obo/MRO_0002089,complete molecule,946,10090,mouse,MHC class I,K,H2-b haplotype,,H2-Kb E63A mutant,MRO_0002089,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002090,complete molecule,947,10090,mouse,MHC class I,K,H2-b haplotype,,H2-Kb K66A mutant,MRO_0002090,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002091,complete molecule,948,10090,mouse,MHC class I,K,H2-b haplotype,,H2-Kb W167A mutant,MRO_0002091,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002094,complete molecule,951,9606,human,non-classical MHC,G,,,HLA-G*01:03 protein complex,MRO_0002094,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002095,complete molecule,952,9606,human,non-classical MHC,G,,,HLA-G*01:04 protein complex,MRO_0002095,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002096,complete molecule,949,9606,human,MHC class I,B,,HLA-B27 serotype,HLA-B*27:05 C67S mutant,MRO_0002096,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002097,complete molecule,950,9606,human,MHC class I,B,,HLA-B27 serotype,HLA-B*27:09 C67S mutant,MRO_0002097,http://purl.obolibrary.org/obo/

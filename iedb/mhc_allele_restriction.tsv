@@ -851,3 +851,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 946	http://purl.obolibrary.org/obo/MRO_0002089	H2-Kb E63A mutant	H-2-Kb E63A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	E63A				
 947	http://purl.obolibrary.org/obo/MRO_0002090	H2-Kb K66A mutant	H-2-Kb K66A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	K66A				
 948	http://purl.obolibrary.org/obo/MRO_0002091	H2-Kb W167A mutant	H-2-Kb W167A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	W167A				
+949	http://purl.obolibrary.org/obo/MRO_0002096	HLA-B*27:05 C67S mutant	HLA-B27:05 C67S mutant|HLA-B2705 C67S mutant|HLA-B*2705 C67S mutant		complete molecule	human (Homo sapiens)	9606	I		B	B27	HLA-B*27:05	HLA-B*27:05	Beta-2-microglobulin	B	C67S				
+950	http://purl.obolibrary.org/obo/MRO_0002097	HLA-B*27:09 C67S mutant	HLA-B27:09 C67S mutant|HLA-B2709 C67S mutant|HLA-B*2709 C67S mutant		complete molecule	human (Homo sapiens)	9606	I		B	B27	HLA-B*27:09	HLA-B*27:09	Beta-2-microglobulin	B	C67S				
+951	http://purl.obolibrary.org/obo/MRO_0002094	HLA-G*01:03	HLA-G01:03|HLA-G0103|HLA-G*0103		complete molecule	human (Homo sapiens)	9606	non classical		G		HLA-G*01:03	HLA-G*01:03	Beta-2-microglobulin	G					56585
+952	http://purl.obolibrary.org/obo/MRO_0002095	HLA-G*01:04	HLA-G01:04|HLA-G0104|HLA-G*0104		complete molecule	human (Homo sapiens)	9606	non classical		G		HLA-G*01:04	HLA-G*01:04	Beta-2-microglobulin	G					56585
