@@ -76,8 +76,10 @@ sort:
 
 ### Sequences
 
+# Moved to GitHub
+# OLD: https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 build/hla.fasta: | build
-	curl -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/hla_prot.fasta
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 
 build/sla.fasta: | build
 	curl -o $@ -L https://www.ebi.ac.uk/ipd/mhc/group/SLA/download?type=protein
