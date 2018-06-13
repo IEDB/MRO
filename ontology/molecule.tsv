@@ -63,9 +63,9 @@ bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein 
 bonobo MHC class II protein complex	bonobo		class	equivalent	MHC class II protein complex	bonobo				
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
-cat MHC class I protein complex	cattle		class	equivalent	MHC class I protein complex	cat				
-cat MHC class II protein complex	cattle		class	equivalent	MHC class II protein complex	cat				
-cat non-classical MHC protein complex	cattle		class	equivalent	non-classical MHC protein complex	cat				
+cat MHC class I protein complex	cat		class	equivalent	MHC class I protein complex	cat				
+cat MHC class II protein complex	cat		class	equivalent	MHC class II protein complex	cat				
+cat non-classical MHC protein complex	cat		class	equivalent	non-classical MHC protein complex	cat				
 cattle CD1b3 protein complex	cattle CD1b3	boCD1b3|cowCD1b3	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1b3 chain	Beta-2-microglobulin		
 cattle CD1d protein complex	cattle CD1d	boCD1d|cowCD1d	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle CD1d chain	Beta-2-microglobulin		
 cattle MHC class I protein complex	cattle		class	equivalent	MHC class I protein complex	cattle				
