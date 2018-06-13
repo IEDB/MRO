@@ -265,4 +265,4 @@ GROUP BY ?mhc_allele_restriction_id
   ?chain_ii_mutation
   ?chain_i_source_id
   ?chain_ii_source_id
-ORDER BY xsd:integer(?mhc_allele_restriction_id)
+ORDER BY xsd:integer(?mhc_allele_restriction_id) ?synonym
