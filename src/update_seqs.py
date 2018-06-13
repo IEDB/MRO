@@ -35,8 +35,8 @@ def main():
         # Match the accession
         if line.startswith('>HLA:HLA'):
           accession = line[5:13]
-        elif line.startswith('>MHC|IPD'):
-          accession = line[5:15]
+        elif line.startswith('>MHC|SLA'):
+          accession = line[5:13]
         else:
           print("Bad accession:", line)
       else:
