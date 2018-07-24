@@ -2098,3 +2098,7 @@ MRO:0002094	HLA-G*01:03 protein complex	owl:Class
 MRO:0002095	HLA-G*01:04 protein complex	owl:Class	
 MRO:0002096	HLA-B*27:05 C67S mutant	owl:Class	
 MRO:0002097	HLA-B*27:09 C67S mutant	owl:Class	
+MRO:0002098	SLA-2*11:04 chain	owl:Class	
+MRO:0002099	SLA-1*14:02 chain	owl:Class	
+MRO:0002100	SLA-2*11:04 protein complex	owl:Class	
+MRO:0002101	SLA-1*14:02 protein complex	owl:Class	

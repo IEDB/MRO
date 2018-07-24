@@ -673,12 +673,14 @@ SLA-1*11:01 protein complex	SLA-1*11:01	SLA-1*1101	complete molecule	equivalent	
 SLA-1*11:10 protein complex	SLA-1*11:10	SLA-1*1110	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:10 chain	Beta-2-microglobulin		
 SLA-1*12:01 protein complex	SLA-1*12:01	SLA-1*1201	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*12:01 chain	Beta-2-microglobulin		
 SLA-1*13:01 protein complex	SLA-1*13:01	SLA-1*1301	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*13:01 chain	Beta-2-microglobulin		
+SLA-1*14:02 protein complex	SLA-1*14:02	SLA-1*es11	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*14:02 chain	Beta-2-microglobulin		
 SLA-1*15:02 protein complex	SLA-1*15:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*15:02 chain	Beta-2-microglobulin		
 SLA-1*20:01 protein complex	SLA-1*20:01	SLA-1*2001	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*20:01 chain	Beta-2-microglobulin		
 SLA-2 protein complex	SLA-2		locus	equivalent	MHC class I protein complex	pig	SLA-2 chain	Beta-2-microglobulin		
 SLA-2*01:06 protein complex	SLA-2*01:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*01:06 chain	Beta-2-microglobulin		
 SLA-2*04:01 protein complex	SLA-2*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:01 chain	Beta-2-microglobulin		
 SLA-2*05:02 protein complex	SLA-2*05:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:02 chain	Beta-2-microglobulin		
+SLA-2*11:04 protein complex	SLA-2*11:04	Topigs|SLA-1*es22	complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:04 chain	Beta-2-microglobulin		
 SLA-3*02:02 protein complex	SLA-3*02:02	SLA-3*hs0202	complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*02:02 chain	Beta-2-microglobulin		
 SLA-3*04:01 protein complex	SLA-3*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:01 chain	Beta-2-microglobulin		
 YF1w*7.1 protein complex	YF1w*7.1	YF1*7.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	YF1w*7.1 chain		YF1 haplotype	
