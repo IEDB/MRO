@@ -30,6 +30,21 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
+ROBOT := java -jar build/robot.jar
+
+
+### Set Up
+
+build:
+	mkdir -p $@
+
+
+### ROBOT
+#
+# We use the official development version of ROBOT for most things.
+
+build/robot.jar: | build
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.0.0/robot.jar
 
 
 ### Ontology Source Tables
@@ -38,9 +53,6 @@ tables = external core genetic-locus haplotype serotype chain molecule haplotype
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
-
-build:
-	mkdir -p $@
 
 build/%.tsv: ontology/%.tsv | build
 	cp $< $@
@@ -91,8 +103,8 @@ update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta buil
 
 ### OWL Files
 
-mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl
-	robot merge \
+mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
+	$(ROBOT) merge \
 	--input mro-import.owl \
 	template \
 	--prefix "MRO: $(OBO)/MRO_" \
@@ -109,8 +121,8 @@ mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl
-	robot merge \
+mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
+	$(ROBOT) merge \
 	--input $(LIB)/eco.owl \
 	--input $(LIB)/obi.owl \
 	--input $(LIB)/ro.owl \
@@ -140,8 +152,8 @@ iedb:
 	mkdir -p $@
 
 # extended version for IEDB use
-iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | iedb
-	robot template \
+iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
+	$(ROBOT) template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--input $< \
 	--template $(word 2,$^) \
@@ -149,24 +161,24 @@ iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | iedb
 	--merge-before \
 	--output $@
 
-build/mhc_allele_restriction.csv: iedb/mro-iedb.owl src/mhc_allele_restriction.rq | build
-	robot query --input $(word 1,$^) --select $(word 2,$^) $@
+build/mhc_allele_restriction.csv: iedb/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
+	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
 iedb/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
 	python3 $^ > $@
 
-iedb/ALLELE_FINDER_NAMES.csv: iedb/mro-iedb.owl src/names.rq | iedb
-	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
+iedb/ALLELE_FINDER_NAMES.csv: iedb/mro-iedb.owl src/names.rq | build/robot.jar iedb
+	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-iedb/ALLELE_FINDER_SEARCH.csv: iedb/mro-iedb.owl src/search.rq | iedb
-	robot query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
+iedb/ALLELE_FINDER_SEARCH.csv: iedb/mro-iedb.owl src/search.rq | build/robot.jar iedb
+	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: iedb/mro-iedb.owl src/parents.rq | build
-	robot query --input $(word 1,$^) --select $(word 2,$^) $@
+build/parents.csv: iedb/mro-iedb.owl src/parents.rq | build/robot.jar
+	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
 iedb/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@
