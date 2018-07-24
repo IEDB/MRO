@@ -15,7 +15,7 @@ signal(SIGPIPE,SIG_DFL)
 # http://stackoverflow.com/a/16090640
 def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
   return [
-    int(text) if text.isdigit() else text.lower()
+    int(text) if text.isdigit() else text
     for text in re.split(_nsre, s)
   ]
 

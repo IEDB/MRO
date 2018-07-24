@@ -652,8 +652,8 @@
 652,http://purl.obolibrary.org/obo/MRO_0001375,650,Mamu-DRB1*03:06,"Mamu-DRB103:06, Mamu-DRB1*0306, Mamu-DRB10306",1:2:343:646:650:652
 653,http://purl.obolibrary.org/obo/MRO_0001376,650,Mamu-DRB1*03:08,"Mamu-DRB10308, Mamu-DRB1*0308, Mamu-DRB103:08",1:2:343:646:650:653
 654,http://purl.obolibrary.org/obo/MRO_0001377,650,Mamu-DRB1*04:06,"Mamu-DRB1*0406, Mamu-DRB10406, Mamu-DRB104:06",1:2:343:646:650:654
-655,http://purl.obolibrary.org/obo/MRO_0001373,650,Mamu-DRB*w2:01,"Mamu-DRBw201, Mamu-DRBw2:01, Mamu-DRB*w201, Mamu-DRBW2*0101",1:2:343:646:650:655
-656,http://purl.obolibrary.org/obo/MRO_0001972,650,Mamu-DRB*W6:02,"Mamu-DRBW6:02, Mamu-DRB6*0102, Mamu-DRB*W602, Mamu-DRBW602",1:2:343:646:650:656
+655,http://purl.obolibrary.org/obo/MRO_0001972,650,Mamu-DRB*W6:02,"Mamu-DRBW6:02, Mamu-DRB6*0102, Mamu-DRB*W602, Mamu-DRBW602",1:2:343:646:650:655
+656,http://purl.obolibrary.org/obo/MRO_0001373,650,Mamu-DRB*w2:01,"Mamu-DRBw201, Mamu-DRBw2:01, Mamu-DRB*w201, Mamu-DRBW2*0101",1:2:343:646:650:656
 657,http://purl.obolibrary.org/obo/MRO_0001854,343,sheep,,1:2:343:657
 658,http://purl.obolibrary.org/obo/MRO_0001464,2,non-classical,,1:2:658
 659,http://purl.obolibrary.org/obo/MRO_0002081,658,cat,,1:2:658:659
@@ -662,9 +662,9 @@
 662,http://purl.obolibrary.org/obo/MRO_0001433,660,cattle CD1d,"boCD1d, cowCD1d",1:2:658:660:662
 663,http://purl.obolibrary.org/obo/MRO_0001436,660,cattle MR1,"boMR1, cowMR1",1:2:658:660:663
 664,http://purl.obolibrary.org/obo/MRO_0001441,658,chicken,,1:2:658:664
-665,http://purl.obolibrary.org/obo/MRO_0001438,664,chicken CD1-1,"CD1.1, cCD1-1",1:2:658:664:665
-666,http://purl.obolibrary.org/obo/MRO_0001439,664,chicken CD1-2,"CD1.2, cCD1-2",1:2:658:664:666
-667,http://purl.obolibrary.org/obo/MRO_0001430,664,YF1w*7.1,"YF1w7.1, YF1*7.1",1:2:658:664:667
+665,http://purl.obolibrary.org/obo/MRO_0001430,664,YF1w*7.1,"YF1w7.1, YF1*7.1",1:2:658:664:665
+666,http://purl.obolibrary.org/obo/MRO_0001438,664,chicken CD1-1,"CD1.1, cCD1-1",1:2:658:664:666
+667,http://purl.obolibrary.org/obo/MRO_0001439,664,chicken CD1-2,"CD1.2, cCD1-2",1:2:658:664:667
 668,http://purl.obolibrary.org/obo/MRO_0001444,658,chimpanzee,,1:2:658:668
 669,http://purl.obolibrary.org/obo/MRO_0001392,668,Patr-AL,,1:2:658:668:669
 670,http://purl.obolibrary.org/obo/MRO_0001458,658,human,,1:2:658:670
@@ -829,13 +829,13 @@
 829,http://purl.obolibrary.org/obo/MRO_0001521,696,pig,,1:696:829
 830,http://purl.obolibrary.org/obo/MRO_0001516,829,z,,1:696:829:830
 831,http://purl.obolibrary.org/obo/MRO_0001522,696,rat,,1:696:831
-832,http://purl.obolibrary.org/obo/MRO_0001507,831,RT1-a,,1:696:831:832
-833,http://purl.obolibrary.org/obo/MRO_0001803,832,RT1-Aa,,1:696:831:832:833
-834,http://purl.obolibrary.org/obo/MRO_0001813,832,RT1-Ba,,1:696:831:832:834
-835,http://purl.obolibrary.org/obo/MRO_0001834,832,RT1-Da,,1:696:831:832:835
-836,http://purl.obolibrary.org/obo/MRO_0001514,831,RT1-A,,1:696:831:836
-837,http://purl.obolibrary.org/obo/MRO_0001792,836,RT1-A class I,,1:696:831:836:837
-838,http://purl.obolibrary.org/obo/MRO_0001793,836,RT1-A class II,,1:696:831:836:838
+832,http://purl.obolibrary.org/obo/MRO_0001514,831,RT1-A,,1:696:831:832
+833,http://purl.obolibrary.org/obo/MRO_0001792,832,RT1-A class I,,1:696:831:832:833
+834,http://purl.obolibrary.org/obo/MRO_0001793,832,RT1-A class II,,1:696:831:832:834
+835,http://purl.obolibrary.org/obo/MRO_0001507,831,RT1-a,,1:696:831:835
+836,http://purl.obolibrary.org/obo/MRO_0001803,835,RT1-Aa,,1:696:831:835:836
+837,http://purl.obolibrary.org/obo/MRO_0001813,835,RT1-Ba,,1:696:831:835:837
+838,http://purl.obolibrary.org/obo/MRO_0001834,835,RT1-Da,,1:696:831:835:838
 839,http://purl.obolibrary.org/obo/MRO_0001508,831,RT1-av1,,1:696:831:839
 840,http://purl.obolibrary.org/obo/MRO_0001794,839,RT1-av1 class II,,1:696:831:839:840
 841,http://purl.obolibrary.org/obo/MRO_0001868,831,RT1-c,,1:696:831:841
