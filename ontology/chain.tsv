@@ -522,6 +522,8 @@ Mamu-DRB1*04:06 chain		subclass	Mamu-DRB chain
 Mamu-DRB chain		equivalent	protein	Mamu-DRB locus
 Mamu-DRB*W6:02 chain		subclass	Mamu-DRB chain	
 Mamu-DRB*w2:01 chain		subclass	Mamu-DRB chain	
+Mamu-E chain		equivalent	protein	Mamu-E locus
+Mamu-E*02:04 chain		subclass	Mamu-E chain	
 Papa-A chain		equivalent	protein	Papa-A locus
 Papa-A*06:01 chain		subclass	Papa-A chain	
 Patr-A chain		equivalent	protein	Patr-A locus
