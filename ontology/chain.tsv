@@ -69,36 +69,11 @@ BoLA-DRB3*14011 chain		subclass	BoLA-DRB3 chain
 BoLA-DRB6 chain		equivalent	protein	BoLA-DRB6 locus
 BoLA-DRB chain		equivalent	protein	BoLA-DRB locus
 BoLA-MR1 chain		equivalent	protein	BoLA-MR1 locus
-bonobo MHC class I chain		equivalent	protein	bonobo MHC class I locus
-bonobo MHC class II chain		equivalent	protein	bonobo MHC class II locus
 Caja-E chain		equivalent	protein	Caja-E locus
 Caja-G chain		equivalent	protein	Caja-G locus
-cat MHC class I chain		equivalent	protein	cat MHC class I locus
-cat MHC class II chain		equivalent	protein	cat MHC class II locus
-cat non-classical MHC chain		equivalent	protein	cat non-classical MHC locus
-cattle CD1b3 chain		subclass	BoLA-CD1 chain	
-cattle CD1d chain		subclass	BoLA-CD1 chain	
-cattle MHC class I chain		equivalent	protein	cattle MHC class I locus
-cattle MHC class II chain		equivalent	protein	cattle MHC class II locus
-cattle MR1 chain		subclass	BoLA-MR1 chain	
-cattle non-classical MHC chain		equivalent	protein	cattle non-classical MHC locus
-chicken CD1-1 chain		subclass	BF-B chain	
-chicken CD1-2 chain		subclass	BF-B chain	
-chicken MHC class I chain		equivalent	protein	chicken MHC class I locus
-chicken MHC class II chain		equivalent	protein	chicken MHC class II locus
-chicken non-classical MHC chain		equivalent	protein	chicken non-classical MHC locus
-chimpanzee MHC class I chain		equivalent	protein	chimpanzee MHC class I locus
-chimpanzee MHC class II chain		equivalent	protein	chimpanzee MHC class II locus
-chimpanzee non-classical MHC chain		equivalent	protein	chimpanzee non-classical MHC locus
-cotton-top tamarin MHC class I chain		equivalent	protein	cotton-top tamarin MHC class I locus
-cotton-top tamarin MHC class II chain		equivalent	protein	cotton-top tamarin MHC class II locus
-crab-eating macaque MHC class II chain		equivalent	protein	crab-eating macaque MHC class II locus
 DLA-88 chain		equivalent	protein	DLA-88 locus
 DLA-88*50101 chain		subclass	DLA-88 chain	
 DLA-88*50801 chain		subclass	DLA-88 chain	
-dog MHC class I chain		equivalent	protein	dog MHC class I locus
-dog MHC class II chain		equivalent	protein	dog MHC class II locus
-duck MHC class I chain		equivalent	protein	duck MHC class I locus
 ELA-1 chain		equivalent	protein	ELA-1 locus
 ELA-16 chain		equivalent	protein	ELA-16 locus
 ELA-N chain		equivalent	protein	ELA-N locus
@@ -112,8 +87,6 @@ FLA-E chain		equivalent	protein	FLA-E locus
 FLA-E*01801 chain		subclass	FLA-E chain	
 Gogo-B chain		equivalent	protein	Gogo-B locus
 Gogo-B*0101 chain		subclass	Gogo-B chain	
-gorilla MHC class I chain		equivalent	protein	gorilla MHC class I locus
-gorilla MHC class II chain		equivalent	protein	gorilla MHC class II locus
 H2-D chain		equivalent	protein	H2-D locus
 H2-Db chain		subclass	H2-D chain	
 H2-Dd chain		subclass	H2-D chain	
@@ -506,18 +479,8 @@ HLA-G*01:01 chain		subclass	HLA-G chain
 HLA-G*01:03 chain		subclass	HLA-G chain	
 HLA-G*01:04 chain		subclass	HLA-G chain	
 HLA-MR1 chain		equivalent	protein	HLA-MR1 locus
-horse MHC class I chain		equivalent	protein	horse MHC class I locus
-horse MHC class II chain		equivalent	protein	horse MHC class II locus
-human BTN3A1 chain		subclass	HLA-BTN3A chain	
-human CD1a chain		subclass	HLA-CD1 chain	
-human CD1b chain		subclass	HLA-CD1 chain	
-human CD1c chain		subclass	HLA-CD1 chain	
-human CD1d chain		subclass	HLA-CD1 chain	
-human MHC class I chain		equivalent	protein	human MHC class I locus
-human MHC class II chain		equivalent	protein	human MHC class II locus
-human MR1 chain		subclass	HLA-MR1 chain	
-human MR1 K43A mutant chain		subclass	HLA-MR1 chain	
-human non-classical MHC chain		equivalent	protein	human non-classical MHC locus
+MHC class I chain		equivalent	protein	MHC class I locus
+MHC class II chain		equivalent	protein	MHC class II locus
 Mafa-DQA chain		equivalent	protein	Mafa-DQA locus
 Mafa-DQB1*18:01 chain		subclass	Mafa-DQB chain	
 Mafa-DQB chain		equivalent	protein	Mafa-DQB locus
@@ -557,19 +520,8 @@ Mamu-DRB1*03:06 chain		subclass	Mamu-DRB chain
 Mamu-DRB1*03:08 chain		subclass	Mamu-DRB chain	
 Mamu-DRB1*04:06 chain		subclass	Mamu-DRB chain	
 Mamu-DRB chain		equivalent	protein	Mamu-DRB locus
-Mamu-DRB*w2:01 chain		subclass	Mamu-DRB chain	
 Mamu-DRB*W6:02 chain		subclass	Mamu-DRB chain	
-marmoset MHC class I chain		equivalent	protein	marmoset MHC class I locus
-MHC class I chain		equivalent	protein	MHC class I locus
-MHC class II chain		equivalent	protein	MHC class II locus
-mouse CD1d1 chain		subclass	mouse CD1d chain	
-mouse CD1d2 chain		subclass	mouse CD1d chain	
-mouse CD1d chain		equivalent	protein	mouse CD1d locus
-mouse MHC class I chain		equivalent	protein	mouse MHC class I locus
-mouse MHC class II chain		equivalent	protein	mouse MHC class II locus
-mouse MR1 chain		subclass	H2-MR1 chain	
-mouse non-classical MHC chain		equivalent	protein	mouse non-classical MHC locus
-non-classical MHC chain		equivalent	protein	non-classical MHC locus
+Mamu-DRB*w2:01 chain		subclass	Mamu-DRB chain	
 Papa-A chain		equivalent	protein	Papa-A locus
 Papa-A*06:01 chain		subclass	Papa-A chain	
 Patr-A chain		equivalent	protein	Patr-A locus
@@ -617,15 +569,6 @@ Patr-DRB1*07:01 chain		subclass	Patr-DRB chain
 Patr-DRB1*10:01 chain		subclass	Patr-DRB chain	
 Patr-DRB5*03:10 chain		subclass	Patr-DRB chain	
 Patr-DRB chain		equivalent	protein	Patr-DRB locus
-pig MHC class I chain		equivalent	protein	pig MHC class I locus
-pig MHC class II chain		equivalent	protein	pig MHC class II locus
-rat CD1 chain		equivalent	protein	rat CD1 locus
-rat CD1d chain		subclass	rat CD1 chain	
-rat MHC class I chain		equivalent	protein	rat MHC class I locus
-rat MHC class II chain		equivalent	protein	rat MHC class II locus
-rat non-classical MHC chain		equivalent	protein	rat non-classical MHC locus
-rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I locus
-rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus
 RT1-A1 chain		equivalent	protein	RT1-A1 locus
 RT1-A1 chain		equivalent	protein	RT1-A1 locus
 RT1-A2 chain		equivalent	protein	RT1-A2 locus
@@ -656,9 +599,6 @@ RT1-Dn alpha chain		subclass	protein	RT1-D alpha locus
 RT1-Dn beta chain		subclass	protein	RT1-D beta locus
 RT1-Du alpha chain		subclass	protein	RT1-D alpha locus
 RT1-Du beta chain		subclass	protein	RT1-D beta locus
-Saoe-G chain		equivalent	protein	Saoe-G locus
-sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
-sheep MHC class II chain		equivalent	protein	sheep MHC class II locus
 SLA-1 chain		equivalent	protein	SLA-1 locus
 SLA-1*03:02 chain		subclass	SLA-1 chain	
 SLA-1*04:01 chain		subclass	SLA-1 chain	
@@ -679,4 +619,64 @@ SLA-2*11:04 chain		subclass	SLA-2 chain
 SLA-3 chain		equivalent	protein	SLA-3 locus
 SLA-3*02:02 chain		subclass	SLA-3 chain	
 SLA-3*04:01 chain		subclass	SLA-3 chain	
+Saoe-G chain		equivalent	protein	Saoe-G locus
 YF1w*7.1 chain		subclass	BF-YF chain	
+bonobo MHC class I chain		equivalent	protein	bonobo MHC class I locus
+bonobo MHC class II chain		equivalent	protein	bonobo MHC class II locus
+cat MHC class I chain		equivalent	protein	cat MHC class I locus
+cat MHC class II chain		equivalent	protein	cat MHC class II locus
+cat non-classical MHC chain		equivalent	protein	cat non-classical MHC locus
+cattle CD1b3 chain		subclass	BoLA-CD1 chain	
+cattle CD1d chain		subclass	BoLA-CD1 chain	
+cattle MHC class I chain		equivalent	protein	cattle MHC class I locus
+cattle MHC class II chain		equivalent	protein	cattle MHC class II locus
+cattle MR1 chain		subclass	BoLA-MR1 chain	
+cattle non-classical MHC chain		equivalent	protein	cattle non-classical MHC locus
+chicken CD1-1 chain		subclass	BF-B chain	
+chicken CD1-2 chain		subclass	BF-B chain	
+chicken MHC class I chain		equivalent	protein	chicken MHC class I locus
+chicken MHC class II chain		equivalent	protein	chicken MHC class II locus
+chicken non-classical MHC chain		equivalent	protein	chicken non-classical MHC locus
+chimpanzee MHC class I chain		equivalent	protein	chimpanzee MHC class I locus
+chimpanzee MHC class II chain		equivalent	protein	chimpanzee MHC class II locus
+chimpanzee non-classical MHC chain		equivalent	protein	chimpanzee non-classical MHC locus
+cotton-top tamarin MHC class I chain		equivalent	protein	cotton-top tamarin MHC class I locus
+cotton-top tamarin MHC class II chain		equivalent	protein	cotton-top tamarin MHC class II locus
+crab-eating macaque MHC class II chain		equivalent	protein	crab-eating macaque MHC class II locus
+dog MHC class I chain		equivalent	protein	dog MHC class I locus
+dog MHC class II chain		equivalent	protein	dog MHC class II locus
+duck MHC class I chain		equivalent	protein	duck MHC class I locus
+gorilla MHC class I chain		equivalent	protein	gorilla MHC class I locus
+gorilla MHC class II chain		equivalent	protein	gorilla MHC class II locus
+horse MHC class I chain		equivalent	protein	horse MHC class I locus
+horse MHC class II chain		equivalent	protein	horse MHC class II locus
+human BTN3A1 chain		subclass	HLA-BTN3A chain	
+human CD1a chain		subclass	HLA-CD1 chain	
+human CD1b chain		subclass	HLA-CD1 chain	
+human CD1c chain		subclass	HLA-CD1 chain	
+human CD1d chain		subclass	HLA-CD1 chain	
+human MHC class I chain		equivalent	protein	human MHC class I locus
+human MHC class II chain		equivalent	protein	human MHC class II locus
+human MR1 K43A mutant chain		subclass	HLA-MR1 chain	
+human MR1 chain		subclass	HLA-MR1 chain	
+human non-classical MHC chain		equivalent	protein	human non-classical MHC locus
+marmoset MHC class I chain		equivalent	protein	marmoset MHC class I locus
+mouse CD1d1 chain		subclass	mouse CD1d chain	
+mouse CD1d2 chain		subclass	mouse CD1d chain	
+mouse CD1d chain		equivalent	protein	mouse CD1d locus
+mouse MHC class I chain		equivalent	protein	mouse MHC class I locus
+mouse MHC class II chain		equivalent	protein	mouse MHC class II locus
+mouse MR1 chain		subclass	H2-MR1 chain	
+mouse non-classical MHC chain		equivalent	protein	mouse non-classical MHC locus
+non-classical MHC chain		equivalent	protein	non-classical MHC locus
+pig MHC class I chain		equivalent	protein	pig MHC class I locus
+pig MHC class II chain		equivalent	protein	pig MHC class II locus
+rat CD1 chain		equivalent	protein	rat CD1 locus
+rat CD1d chain		subclass	rat CD1 chain	
+rat MHC class I chain		equivalent	protein	rat MHC class I locus
+rat MHC class II chain		equivalent	protein	rat MHC class II locus
+rat non-classical MHC chain		equivalent	protein	rat non-classical MHC locus
+rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I locus
+rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus
+sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
+sheep MHC class II chain		equivalent	protein	sheep MHC class II locus

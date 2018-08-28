@@ -5,9 +5,6 @@ BoLA protein complex with A11 serotype	BoLA-A11		serotype	equivalent	MHC protein
 BoLA protein complex with A14 serotype	BoLA-A14		serotype	equivalent	MHC protein complex	cattle	BoLA-A14 serotype
 BoLA protein complex with A18 serotype	BoLA-A18		serotype	equivalent	MHC protein complex	cattle	BoLA-A18 serotype
 BoLA protein complex with A31 serotype	BoLA-A31		serotype	equivalent	MHC protein complex	cattle	BoLA-A31 serotype
-cattle MHC class I protein complex with serotype	cattle		serotype	equivalent	MHC protein complex	cattle	cattle MHC class I serotype
-chimpanzee MHC class II protein complex with serotype	chimpanzee		serotype	equivalent	MHC protein complex	chimpanzee	chimpanzee MHC class II serotype
-cotton-top tamarin MHC class I protein complex with serotype	cotton-top tamarin		serotype	equivalent	MHC protein complex	cotton-top tamarin	cotton-top tamarin MHC class I serotype
 HLA protein complex with A1 serotype	HLA-A1	HLA-A*01	serotype	equivalent	MHC protein complex	human	HLA-A1 serotype
 HLA protein complex with A2 serotype	HLA-A2	HLA-A*02|HLA-A2.2	serotype	equivalent	MHC protein complex	human	HLA-A2 serotype
 HLA protein complex with A3 serotype	HLA-A3	HLA-A*03	serotype	equivalent	MHC protein complex	human	HLA-A3 serotype
@@ -137,8 +134,8 @@ HLA protein complex with DR52 serotype	HLA-DR52	HLA-DRB3*52|HLA-DRw52	serotype	e
 HLA protein complex with DR53 serotype	HLA-DR53	HLA-DRB4*53|HLA-DRw53	serotype	equivalent	MHC protein complex	human	HLA-DR53 serotype
 HLA protein complex with DR103 serotype	HLA-DR103		serotype	equivalent	MHC protein complex	human	HLA-DR103 serotype
 HLA protein complex with DR1404 serotype	HLA-DR1404		serotype	equivalent	MHC protein complex	human	HLA-DR1404 serotype
-human MHC class I protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class I serotype
-human MHC class II protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class II serotype
+MHC class I protein complex with serotype	class I		serotype	equivalent	MHC protein complex		MHC class I serotype
+MHC class II protein complex with serotype	class II		serotype	equivalent	MHC protein complex		MHC class II serotype
 Mamu protein complex with DR1B serotype	Mamu-DR1B		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR1B serotype
 Mamu protein complex with DR2 serotype	Mamu-DR2		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR2 serotype
 Mamu protein complex with DR3A serotype	Mamu-DR3A		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR3A serotype
@@ -146,8 +143,6 @@ Mamu protein complex with DR4 serotype	Mamu-DR4		serotype	equivalent	MHC protein
 Mamu protein complex with DR6 serotype	Mamu-DR6		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR6 serotype
 Mamu protein complex with DR7A serotype	Mamu-DR7A		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR7A serotype
 Mamu protein complex with DR8 serotype	Mamu-DR8		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR8 serotype
-MHC class I protein complex with serotype	class I		serotype	equivalent	MHC protein complex		MHC class I serotype
-MHC class II protein complex with serotype	class II		serotype	equivalent	MHC protein complex		MHC class II serotype
 Patr protein complex with DR1 serotype	Patr-DR1		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR1 serotype
 Patr protein complex with DR2 serotype	Patr-DR2		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR2 serotype
 Patr protein complex with DR3 serotype	Patr-DR3		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR3 serotype
@@ -157,8 +152,13 @@ Patr protein complex with DR7 serotype	Patr-DR7		serotype	equivalent	MHC protein
 Patr protein complex with DR8 serotype	Patr-DR8		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR8 serotype
 Patr protein complex with DR9 serotype	Patr-DR9		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR9 serotype
 Patr protein complex with DR10 serotype	Patr-DR10		serotype	equivalent	MHC protein complex	chimpanzee	Patr-DR10 serotype
-rhesus macaque MHC class II protein complex with serotype	rhesus macaque		serotype	equivalent	MHC protein complex	rhesus macaque	rhesus macaque MHC class II serotype
 Saoe protein complex with G*02 serotype	Saoe-G*02		serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*02 serotype
 Saoe protein complex with G*04 serotype	Saoe-G*04		serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*04 serotype
 Saoe protein complex with G*08 serotype	Saoe-G*08		serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*08 serotype
 Saoe protein complex with G*12 serotype	Saoe-G*12		serotype	equivalent	MHC protein complex	cotton-top tamarin	Saoe-G*12 serotype
+cattle MHC class I protein complex with serotype	cattle		serotype	equivalent	MHC protein complex	cattle	cattle MHC class I serotype
+chimpanzee MHC class II protein complex with serotype	chimpanzee		serotype	equivalent	MHC protein complex	chimpanzee	chimpanzee MHC class II serotype
+cotton-top tamarin MHC class I protein complex with serotype	cotton-top tamarin		serotype	equivalent	MHC protein complex	cotton-top tamarin	cotton-top tamarin MHC class I serotype
+human MHC class I protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class I serotype
+human MHC class II protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class II serotype
+rhesus macaque MHC class II protein complex with serotype	rhesus macaque		serotype	equivalent	MHC protein complex	rhesus macaque	rhesus macaque MHC class II serotype

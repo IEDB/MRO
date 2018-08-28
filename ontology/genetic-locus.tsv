@@ -18,36 +18,14 @@ BoLA-DRB3 locus		subclass	BoLA-DRB locus
 BoLA-DRB6 locus		subclass	BoLA-DRB locus	
 BoLA-DRB locus		subclass	cattle MHC class II locus	
 BoLA-MR1 locus		subclass	cattle non-classical MHC locus	
-bonobo MHC class I locus		subclass	MHC class I locus	bonobo
-bonobo MHC class II locus		subclass	MHC class II locus	bonobo
 Caja-E locus		subclass	marmoset MHC class I locus	
 Caja-G locus		subclass	marmoset MHC class I locus	
-cat MHC class I locus		subclass	MHC class I locus	cat
-cat MHC class II locus		subclass	MHC class II locus	cat
-cat non-classical MHC locus		subclass	non-classical MHC locus	cat
-cattle MHC class I locus		subclass	MHC class I locus	cattle
-cattle MHC class II locus		subclass	MHC class II locus	cattle
-cattle non-classical MHC locus		subclass	non-classical MHC locus	cattle
-chicken MHC class I locus		subclass	MHC class I locus	chicken
-chicken MHC class II locus		subclass	MHC class II locus	chicken
-chicken non-classical MHC locus		subclass	non-classical MHC locus	chicken
-chimpanzee MHC class I locus		subclass	MHC class I locus	chimpanzee
-chimpanzee MHC class II locus		subclass	MHC class II locus	chimpanzee
-chimpanzee non-classical MHC locus		subclass	non-classical MHC locus	chimpanzee
-cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
-cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
-crab-eating macaque MHC class II locus		subclass	MHC class II locus	
 DLA-88 locus		subclass	dog MHC class I locus	
-dog MHC class I locus		subclass	MHC class I locus	dog
-dog MHC class II locus		subclass	MHC class II locus	dog
-duck MHC class I locus		subclass	MHC class I locus	duck
 ELA-1 locus		subclass	horse MHC class I locus	
 ELA-16 locus		subclass	horse MHC class I locus	
 ELA-N locus		subclass	horse MHC class I locus	
 FLA-E locus		subclass	cat MHC class I locus	
 Gogo-B locus		subclass	gorilla MHC class I locus	
-gorilla MHC class I locus		subclass	MHC class I locus	gorilla
-gorilla MHC class II locus		subclass	MHC class II locus	gorilla
 H2-D locus		subclass	mouse MHC class I locus	
 H2-IA alpha locus		subclass	mouse MHC class II locus	
 H2-IA beta locus		subclass	mouse MHC class II locus	
@@ -79,11 +57,8 @@ HLA-DRB locus		subclass	human MHC class II locus
 HLA-E locus		subclass	human non-classical MHC locus	
 HLA-G locus		subclass	human non-classical MHC locus	
 HLA-MR1 locus		subclass	human non-classical MHC locus	
-horse MHC class I locus		subclass	MHC class I locus	horse
-horse MHC class II locus		subclass	MHC class II locus	horse
-human MHC class I locus		subclass	MHC class I locus	human
-human MHC class II locus		subclass	MHC class II locus	human
-human non-classical MHC locus		subclass	non-classical MHC locus	human
+MHC class I locus		subclass	MHC locus	
+MHC class II locus		subclass	MHC locus	
 Mafa-DQA locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DQB locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DRA locus		subclass	crab-eating macaque MHC class II locus	
@@ -94,14 +69,6 @@ Mamu-DPA locus		subclass	rhesus macaque MHC class II locus
 Mamu-DPB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRB locus		subclass	rhesus macaque MHC class II locus	
-marmoset MHC class I locus		subclass	MHC class I locus	marmoset
-MHC class I locus		subclass	MHC locus	
-MHC class II locus		subclass	MHC locus	
-mouse CD1d locus		subclass	mouse non-classical MHC locus	
-mouse MHC class I locus		subclass	MHC class I locus	mouse
-mouse MHC class II locus		subclass	MHC class II locus	mouse
-mouse non-classical MHC locus		subclass	non-classical MHC locus	mouse
-non-classical MHC locus		subclass	MHC locus	
 Papa-A locus		subclass	bonobo MHC class I locus	
 Patr-A locus		subclass	chimpanzee MHC class I locus	
 Patr-AL locus		subclass	chimpanzee non-classical MHC locus	
@@ -113,6 +80,50 @@ Patr-DQA locus		subclass	chimpanzee MHC class II locus
 Patr-DQB locus		subclass	chimpanzee MHC class II locus	
 Patr-DRA locus		subclass	chimpanzee MHC class II locus	
 Patr-DRB locus		subclass	chimpanzee MHC class II locus	
+RT1-A1 locus		subclass	RT1-A locus	
+RT1-A2 locus		subclass	RT1-A locus	
+RT1-A locus		subclass	rat MHC class I locus	
+RT1-B alpha locus		subclass	rat MHC class II locus	
+RT1-B beta locus		subclass	rat MHC class II locus	
+RT1-D alpha locus		subclass	rat MHC class II locus	
+RT1-D beta locus		subclass	rat MHC class II locus	
+SLA-1 locus		subclass	pig MHC class I locus	
+SLA-2 locus		subclass	pig MHC class I locus	
+SLA-3 locus		subclass	pig MHC class I locus	
+Saoe-G locus		subclass	cotton-top tamarin MHC class I locus	
+bonobo MHC class I locus		subclass	MHC class I locus	bonobo
+bonobo MHC class II locus		subclass	MHC class II locus	bonobo
+cat MHC class I locus		subclass	MHC class I locus	cat
+cat MHC class II locus		subclass	MHC class II locus	cat
+cat non-classical MHC locus		subclass	non-classical MHC locus	cat
+cattle MHC class I locus		subclass	MHC class I locus	cattle
+cattle MHC class II locus		subclass	MHC class II locus	cattle
+cattle non-classical MHC locus		subclass	non-classical MHC locus	cattle
+chicken MHC class I locus		subclass	MHC class I locus	chicken
+chicken MHC class II locus		subclass	MHC class II locus	chicken
+chicken non-classical MHC locus		subclass	non-classical MHC locus	chicken
+chimpanzee MHC class I locus		subclass	MHC class I locus	chimpanzee
+chimpanzee MHC class II locus		subclass	MHC class II locus	chimpanzee
+chimpanzee non-classical MHC locus		subclass	non-classical MHC locus	chimpanzee
+cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
+cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
+crab-eating macaque MHC class II locus		subclass	MHC class II locus	
+dog MHC class I locus		subclass	MHC class I locus	dog
+dog MHC class II locus		subclass	MHC class II locus	dog
+duck MHC class I locus		subclass	MHC class I locus	duck
+gorilla MHC class I locus		subclass	MHC class I locus	gorilla
+gorilla MHC class II locus		subclass	MHC class II locus	gorilla
+horse MHC class I locus		subclass	MHC class I locus	horse
+horse MHC class II locus		subclass	MHC class II locus	horse
+human MHC class I locus		subclass	MHC class I locus	human
+human MHC class II locus		subclass	MHC class II locus	human
+human non-classical MHC locus		subclass	non-classical MHC locus	human
+marmoset MHC class I locus		subclass	MHC class I locus	marmoset
+mouse CD1d locus		subclass	mouse non-classical MHC locus	
+mouse MHC class I locus		subclass	MHC class I locus	mouse
+mouse MHC class II locus		subclass	MHC class II locus	mouse
+mouse non-classical MHC locus		subclass	non-classical MHC locus	mouse
+non-classical MHC locus		subclass	MHC locus	
 pig MHC class I locus		subclass	MHC class I locus	pig
 pig MHC class II locus		subclass	MHC class II locus	pig
 rat CD1 locus		subclass	rat non-classical MHC locus	rat
@@ -121,16 +132,5 @@ rat MHC class II locus		subclass	MHC class II locus	rat
 rat non-classical MHC locus		subclass	non-classical MHC locus	rat
 rhesus macaque MHC class I locus		subclass	MHC class I locus	rhesus macaque
 rhesus macaque MHC class II locus		subclass	MHC class II locus	rhesus macaque
-RT1-A1 locus		subclass	RT1-A locus	
-RT1-A2 locus		subclass	RT1-A locus	
-RT1-A locus		subclass	rat MHC class I locus	
-RT1-B alpha locus		subclass	rat MHC class II locus	
-RT1-B beta locus		subclass	rat MHC class II locus	
-RT1-D alpha locus		subclass	rat MHC class II locus	
-RT1-D beta locus		subclass	rat MHC class II locus	
-Saoe-G locus		subclass	cotton-top tamarin MHC class I locus	
 sheep MHC class I locus		subclass	MHC class I locus	sheep
 sheep MHC class II locus		subclass	MHC class II locus	sheep
-SLA-1 locus		subclass	pig MHC class I locus	
-SLA-2 locus		subclass	pig MHC class I locus	
-SLA-3 locus		subclass	pig MHC class I locus	

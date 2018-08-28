@@ -5,9 +5,6 @@ BoLA-A11 serotype		subclass	cattle MHC class I serotype
 BoLA-A14 serotype		subclass	cattle MHC class I serotype	
 BoLA-A18 serotype		subclass	cattle MHC class I serotype	
 BoLA-A31 serotype		subclass	cattle MHC class I serotype	
-cattle MHC class I serotype		equivalent	MHC class I serotype	cattle
-chimpanzee MHC class II serotype		equivalent	MHC class II serotype	chimpanzee
-cotton-top tamarin MHC class I serotype		equivalent	MHC class I serotype	cotton-top tamarin
 HLA-A1 serotype		subclass	HLA-A serotype	
 HLA-A2 serotype		subclass	HLA-A serotype	
 HLA-A3 serotype		subclass	HLA-A serotype	
@@ -143,8 +140,8 @@ HLA-DR53 serotype		subclass	HLA-DR serotype
 HLA-DR103 serotype		subclass	HLA-DR serotype	
 HLA-DR1404 serotype		subclass	HLA-DR serotype	
 HLA-DR serotype		subclass	human MHC class II serotype	
-human MHC class I serotype		equivalent	MHC class I serotype	human
-human MHC class II serotype		equivalent	MHC class II serotype	human
+MHC class I serotype		subclass	MHC serotype	
+MHC class II serotype		subclass	MHC serotype	
 Mamu-DR1B serotype		subclass	rhesus macaque MHC class II serotype	
 Mamu-DR2 serotype		subclass	rhesus macaque MHC class II serotype	
 Mamu-DR3A serotype		subclass	rhesus macaque MHC class II serotype	
@@ -152,8 +149,6 @@ Mamu-DR4 serotype		subclass	rhesus macaque MHC class II serotype
 Mamu-DR6 serotype		subclass	rhesus macaque MHC class II serotype	
 Mamu-DR7A serotype		subclass	rhesus macaque MHC class II serotype	
 Mamu-DR8 serotype		subclass	rhesus macaque MHC class II serotype	
-MHC class I serotype		subclass	MHC serotype	
-MHC class II serotype		subclass	MHC serotype	
 Patr-DR1 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR2 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR3 serotype		subclass	chimpanzee MHC class II serotype	
@@ -163,8 +158,13 @@ Patr-DR7 serotype		subclass	chimpanzee MHC class II serotype
 Patr-DR8 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR9 serotype		subclass	chimpanzee MHC class II serotype	
 Patr-DR10 serotype		subclass	chimpanzee MHC class II serotype	
-rhesus macaque MHC class II serotype		equivalent	MHC class II serotype	rhesus macaque
 Saoe-G*02 serotype		subclass	cotton-top tamarin MHC class I serotype	
 Saoe-G*04 serotype		subclass	cotton-top tamarin MHC class I serotype	
 Saoe-G*08 serotype		subclass	cotton-top tamarin MHC class I serotype	
 Saoe-G*12 serotype		subclass	cotton-top tamarin MHC class I serotype	
+cattle MHC class I serotype		equivalent	MHC class I serotype	cattle
+chimpanzee MHC class II serotype		equivalent	MHC class II serotype	chimpanzee
+cotton-top tamarin MHC class I serotype		equivalent	MHC class I serotype	cotton-top tamarin
+human MHC class I serotype		equivalent	MHC class I serotype	human
+human MHC class II serotype		equivalent	MHC class II serotype	human
+rhesus macaque MHC class II serotype		equivalent	MHC class II serotype	rhesus macaque
