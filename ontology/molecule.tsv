@@ -665,8 +665,8 @@ human MHC class II protein complex	human		class	equivalent	MHC class II protein 
 human MR1 protein complex	human MR1	HLA-MR1|hMR1	complete molecule	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
 human non-classical MHC protein complex	human		class	equivalent	non-classical MHC protein complex	human				
 marmoset MHC class I protein complex	marmoset		class	equivalent	MHC class I protein complex	marmoset				
-mouse CD1d1 protein complex			complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d1 chain	Beta-2-microglobulin		
-mouse CD1d2 protein complex			complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d2 chain	Beta-2-microglobulin		
+mouse CD1d1 protein complex	mouse CD1d1		complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d1 chain	Beta-2-microglobulin		
+mouse CD1d2 protein complex	mouse CD1d2		complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d2 chain	Beta-2-microglobulin		
 mouse CD1d protein complex	mouse CD1d	mCD1d	locus	equivalent	non-classical MHC protein complex	mouse	mouse CD1d chain	Beta-2-microglobulin		
 mouse MHC class I protein complex	mouse		class	equivalent	MHC class I protein complex	mouse				
 mouse MHC class II protein complex	mouse		class	equivalent	MHC class II protein complex	mouse				

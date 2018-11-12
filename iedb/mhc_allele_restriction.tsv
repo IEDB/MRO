@@ -846,6 +846,8 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 939	http://purl.obolibrary.org/obo/MRO_0002065	SLA-1*08:09	SLA-1*0809|SLA-108:09|SLA-10809		complete molecule	pig (Sus scrofa)	9823	I		1		SLA-1*08:09	SLA-1*08:09	Beta-2-microglobulin	1					
 940	http://purl.obolibrary.org/obo/MRO_0002066	SLA-1*11:01	SLA-1*1101|SLA-111:01|SLA-11101		complete molecule	pig (Sus scrofa)	9823	I		1		SLA-1*11:01	SLA-1*11:01	Beta-2-microglobulin	1					
 941	http://purl.obolibrary.org/obo/MRO_0002067	SLA-1*12:01	SLA-1*1201|SLA-112:01|SLA-11201		complete molecule	pig (Sus scrofa)	9823	I		1		SLA-1*12:01	SLA-1*12:01	Beta-2-microglobulin	1					
+942	http://purl.obolibrary.org/obo/MRO_0002071	mouse CD1d1			complete molecule	mouse (Mus musculus)	10090	non classical		CD1		mouse CD1d1	mouse CD1d1	Beta-2-microglobulin	mouse CD1d					
+943	http://purl.obolibrary.org/obo/MRO_0002072	mouse CD1d2			complete molecule	mouse (Mus musculus)	10090	non classical		CD1		mouse CD1d2	mouse CD1d2	Beta-2-microglobulin	mouse CD1d					
 944	http://purl.obolibrary.org/obo/MRO_0002086	FLA-E*01801	FLA-B*n06|FLA-E01801	FLA-B*n06	complete molecule	cat (Felis catus)	9685	I		E		FLA-E*01801	FLA-E*01801	Beta-2-microglobulin	FLA-E					
 945	http://purl.obolibrary.org/obo/MRO_0002087	FLA-E*01801 W167S mutant	FLA-E01801 W167S mutant		complete molecule	cat (Felis catus)	9685	I		E		FLA-E*01801	FLA-E*01801	Beta-2-microglobulin	FLA-E	W167S				
 946	http://purl.obolibrary.org/obo/MRO_0002089	H2-Kb E63A mutant	H-2-Kb E63A mutant		complete molecule	mouse (Mus musculus)	10090	I	H2-b	K		H2-Kb	H2-Kb	Beta-2-microglobulin	K	E63A				
