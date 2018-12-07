@@ -32468,6 +32468,8 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001465"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">956</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-2 protein complex</rdfs:label>
     </owl:Class>
