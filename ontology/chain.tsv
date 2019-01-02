@@ -281,6 +281,7 @@ HLA-B*44:02 chain		subclass	HLA-B chain
 HLA-B*44:03 chain		subclass	HLA-B chain	
 HLA-B*44:05 chain		subclass	HLA-B chain	
 HLA-B*44:08 chain		subclass	HLA-B chain	
+HLA-B*44:09 chain		subclass	HLA-B chain	
 HLA-B*44:27 chain		subclass	HLA-B chain	
 HLA-B*44:28 chain		subclass	HLA-B chain	
 HLA-B*45:01 chain		subclass	HLA-B chain	
@@ -524,6 +525,7 @@ Mamu-DRB*W6:02 chain		subclass	Mamu-DRB chain
 Mamu-DRB*w2:01 chain		subclass	Mamu-DRB chain	
 Mamu-E chain		equivalent	protein	Mamu-E locus
 Mamu-E*02:04 chain		subclass	Mamu-E chain	
+Mamu-MR1 chain		equivalent	protein	Mamu-MR1 locus
 Papa-A chain		equivalent	protein	Papa-A locus
 Papa-A*06:01 chain		subclass	Papa-A chain	
 Patr-A chain		equivalent	protein	Patr-A locus
@@ -680,5 +682,6 @@ rat MHC class II chain		equivalent	protein	rat MHC class II locus
 rat non-classical MHC chain		equivalent	protein	rat non-classical MHC locus
 rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I locus
 rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus
+rhesus macaque non-classical MHC chain		equivalent	protein	rhesus macaque non-classical MHC locus
 sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
 sheep MHC class II chain		equivalent	protein	sheep MHC class II locus

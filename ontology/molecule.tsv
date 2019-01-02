@@ -247,6 +247,7 @@ HLA-B*44:02 protein complex	HLA-B*44:02	HLA-B*44020101	complete molecule	equival
 HLA-B*44:03 protein complex	HLA-B*44:03	HLA-B*440301	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:03 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*44:05 protein complex	HLA-B*44:05		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:05 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*44:08 protein complex	HLA-B*44:08		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:08 chain	Beta-2-microglobulin		HLA-B44 serotype
+HLA-B*44:09 protein complex	HLA-B*44:09		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:09 chain	Beta-2-microglobulin		HLA-B45 serotype
 HLA-B*44:27 protein complex	HLA-B*44:27		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:27 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*44:28 protein complex	HLA-B*44:28		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*44:28 chain	Beta-2-microglobulin		HLA-B44 serotype
 HLA-B*45:01 protein complex	HLA-B*45:01		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*45:01 chain	Beta-2-microglobulin		HLA-B45 serotype
@@ -540,6 +541,7 @@ Mamu-DRB1*04:06 protein complex	Mamu-DRB1*04:06		partial molecule	equivalent	MHC
 Mamu-DRB*W6:02 protein complex	Mamu-DRB*W6:02	Mamu-DRB6*0102	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*W6:02 chain		
 Mamu-DRB*w2:01 protein complex	Mamu-DRB*w2:01	Mamu-DRBW2*0101	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*w2:01 chain		
 Mamu-E*02:04 protein complex	Mamu-E*02:04		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:04 chain	Beta-2-microglobulin		
+Mamu-MR1 protein complex	Mamu-MR1		complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	Mamu-MR1 chain	Beta-2-microglobulin		
 Papa-A protein complex	Papa-A		locus	equivalent	MHC class I protein complex	bonobo	Papa-A chain	Beta-2-microglobulin		
 Papa-A*06:01 protein complex	Papa-A*06:01	Papa-A06	complete molecule	equivalent	MHC class I protein complex	bonobo	Papa-A*06:01 chain	Beta-2-microglobulin		
 Patr-A protein complex	Patr-A		locus	equivalent	MHC class I protein complex	chimpanzee	Patr-A chain	Beta-2-microglobulin		

@@ -2106,3 +2106,10 @@ MRO:0002102	Mamu-E locus	owl:Class
 MRO:0002103	Mamu-E chain	owl:Class	
 MRO:0002104	Mamu-E*02:04 chain	owl:Class	
 MRO:0002105	Mamu-E*02:04 protein complex	owl:Class	
+MRO:0002106	HLA-B*44:09 chain	owl:Class	
+MRO:0002107	HLA-B*44:09 protein complex	owl:Class	
+MRO:0002108	rhesus macaque non-classical MHC locus	owl:Class	
+MRO:0002109	Mamu-MR1 locus	owl:Class	
+MRO:0002110	rhesus macaque non-classical MHC chain	owl:Class	
+MRO:0002111	Mamu-MR1 chain	owl:Class	
+MRO:0002112	Mamu-MR1 protein complex	owl:Class	

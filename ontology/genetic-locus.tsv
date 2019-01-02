@@ -70,6 +70,7 @@ Mamu-DPB locus		subclass	rhesus macaque MHC class II locus
 Mamu-DRA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-E locus		subclass	rhesus macaque MHC class I locus	
+Mamu-MR1 locus		subclass	rhesus macaque non-classical MHC locus	
 Papa-A locus		subclass	bonobo MHC class I locus	
 Patr-A locus		subclass	chimpanzee MHC class I locus	
 Patr-AL locus		subclass	chimpanzee non-classical MHC locus	
@@ -133,5 +134,6 @@ rat MHC class II locus		subclass	MHC class II locus	rat
 rat non-classical MHC locus		subclass	non-classical MHC locus	rat
 rhesus macaque MHC class I locus		subclass	MHC class I locus	rhesus macaque
 rhesus macaque MHC class II locus		subclass	MHC class II locus	rhesus macaque
+rhesus macaque non-classical MHC locus		subclass	non-classical MHC locus	rhesus macaque
 sheep MHC class I locus		subclass	MHC class I locus	sheep
 sheep MHC class II locus		subclass	MHC class II locus	sheep
