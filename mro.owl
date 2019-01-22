@@ -9128,7 +9128,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000672"/>
         <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00648</obo:MRO_accession>
         <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB1*06:04:01</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSWKKALRIPGDLRVATVTLMLAMLSSLLAEGRDSPEDFVYQFKGMCYFTNGTERVRLVTRHIYNREEYARFDSDVGVYRAVTPQGRPVAEYWNSQKEVLERTRAELDTVCRHNYEVGYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVQWFRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCHVEHPSLQSPITVEWRAQSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLHGLGLIIRQRSRKGLLH</obo:MRO_sequence>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSWKKALRIPGDLRVATVTLMLAMLSSLLAEGRDSPEDFVYQFKGMCYFTNGTERVRLVTRHIYNREEYARFDSDVGVYRAVTPQGRPVAEYWNSQKEVLERTRAELDTVCRHNYEVGYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVQWFRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCHVEHPSLQSPITVEWRAQSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLH</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQB1*06:04 chain</rdfs:label>
     </owl:Class>
@@ -46944,6 +46944,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000403"/>
         <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA08097</obo:MRO_accession>
         <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*03401</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHSLRYFYTSVSRPGRGDPRFIAVGYVDDTQFVRFDSDAATGRMEPRAPWVEQEGPEYWDGETRKVKETAQLYRVDLDTLRGYYNQSEAGSHTIQTMYGCDLGPGGRLLRGYSQDAYDGADYIALNEDLRSWTAADAAALITRRKREAAGDAGHLRNYLETTCVEWLRRYLEMGKETLLRA</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88*03401 chain</rdfs:label>
     </owl:Class>
@@ -47370,8 +47371,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <dc:creator>Rebecca L. Tallmadge</dc:creator>
         <dc:creator>John Hammond</dc:creator>
         <dc:creator>Randi Vita</dc:creator>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:description>The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions.</dc:description>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator>Shirley Ellis</dc:creator>
         <dc:creator>Emily Seymour</dc:creator>
     </rdf:Description>
