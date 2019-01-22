@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
 # Given the chain-sequence.tsv file
-# and one or more FASAT files,
+# and one or more FASTA files,
 # load the FASTA files into a dictionary,
-# then for each row of chain-sequence.tsv with an HLA* accession
+# then for each row of chain-sequence.tsv with a relevant accession
 # replace the sequence with the one from the FASTA file.
 
 import argparse, csv, re
 
 def main():
   parser = argparse.ArgumentParser(
-    description='Update HLA sequences')
+    description='Update chain sequences')
   parser.add_argument('filename',
       type=str,
       help='TSV file to update')
@@ -36,6 +36,8 @@ def main():
         if line.startswith('>HLA:HLA'):
           accession = line[5:13]
         elif line.startswith('>MHC|SLA'):
+          accession = line[5:13]
+        elif line.startswith('>MHC|DLA'):
           accession = line[5:13]
         else:
           print("Bad accession:", line)

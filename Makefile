@@ -96,8 +96,11 @@ build/hla.fasta: | build
 build/sla.fasta: | build
 	curl -o $@ -L https://www.ebi.ac.uk/ipd/mhc/group/SLA/download?type=protein
 
+build/dla.fasta: | build
+	curl -o $@ -L https://www.ebi.ac.uk/ipd/mhc/group/DLA/download?type=protein
+
 .PHONY: update-seqs
-update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/sla.fasta
+update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/sla.fasta build/dla.fasta
 	python3 $^
 
 
