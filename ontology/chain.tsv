@@ -683,6 +683,7 @@ rat MHC class II chain		equivalent	protein	rat MHC class II locus
 rat non-classical MHC chain		equivalent	protein	rat non-classical MHC locus
 rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I locus
 rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus
+rhesus macaque MR1 chain		subclass	Mamu-MR1 chain	
 rhesus macaque non-classical MHC chain		equivalent	protein	rhesus macaque non-classical MHC locus
 sheep MHC class I chain		equivalent	protein	sheep MHC class I locus
 sheep MHC class II chain		equivalent	protein	sheep MHC class II locus
