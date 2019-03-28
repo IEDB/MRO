@@ -1021,3 +1021,4 @@ http://purl.obolibrary.org/obo/MRO_0002112,complete molecule,,9544,rhesus macaqu
 http://purl.obolibrary.org/obo/MRO_0002114,complete molecule,959,9615,dog,MHC class I,88,,,DLA-88*03401 protein complex,MRO_0002114,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002115,class,,9544,rhesus macaque,non-classical MHC,,,,rhesus macaque non-classical MHC protein complex,MRO_0002115,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002117,complete molecule,958,9544,rhesus macaque,non-classical MHC,MR1,,,rhesus macaque MR1 protein complex,MRO_0002117,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002118,locus,,9544,rhesus macaque,MHC class I,,,,Mamu-E protein complex,MRO_0002118,http://purl.obolibrary.org/obo/
