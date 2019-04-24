@@ -2119,3 +2119,5 @@ MRO:0002115	rhesus macaque non-classical MHC protein complex	owl:Class
 MRO:0002116	rhesus macaque MR1 chain	owl:Class	
 MRO:0002117	rhesus macaque MR1 protein complex	owl:Class	
 MRO:0002118	Mamu-E protein complex	owl:Class	
+MRO:0002119	HLA-C*08:03 chain	owl:Class	
+MRO:0002120	HLA-C*08:03 protein complex	owl:Class	

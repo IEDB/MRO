@@ -864,3 +864,4 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 957	http://purl.obolibrary.org/obo/MRO_0002107	HLA-B*44:09	HLA-B44:09|HLA-B4409|HLA-B*4409		complete molecule	human (Homo sapiens)	9606	I		B	B45	HLA-B*44:09	HLA-B*44:09	Beta-2-microglobulin	B					56585
 958	http://purl.obolibrary.org/obo/MRO_0002117	rhesus macaque MR1			complete molecule	rhesus macaque (Macaca mulatta)	9544	non classical		MR1		rhesus macaque MR1	rhesus macaque MR1	Beta-2-microglobulin	MR1					
 959	http://purl.obolibrary.org/obo/MRO_0002114	DLA-88*03401	DLA-8803401		complete molecule	dog (Canis lupus familiaris)	9615	I		88		DLA-88*03401	DLA-88*03401	Beta-2-microglobulin	88					
+960	http://purl.obolibrary.org/obo/MRO_0002120	HLA-C*08:03	HLA-C08:03|HLA-C0803|HLA-C*0803		complete molecule	human (Homo sapiens)	9606	I		C	Cw8	HLA-C*08:03	HLA-C*08:03	Beta-2-microglobulin	C					
