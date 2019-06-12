@@ -130,6 +130,7 @@ mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl 
 	--input $(LIB)/obi.owl \
 	--input $(LIB)/ro.owl \
 	extract \
+	--method MIREOT \
 	--prefix "REO: $(OBO)/REO_" \
 	--upper-term "GO:0008150" \
 	--upper-term "IAO:0000030" \
