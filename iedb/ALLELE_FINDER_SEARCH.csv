@@ -1023,3 +1023,8 @@ http://purl.obolibrary.org/obo/MRO_0002115,class,,9544,rhesus macaque,non-classi
 http://purl.obolibrary.org/obo/MRO_0002117,complete molecule,958,9544,rhesus macaque,non-classical MHC,MR1,,,rhesus macaque MR1 protein complex,MRO_0002117,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002118,locus,,9544,rhesus macaque,MHC class I,,,,Mamu-E protein complex,MRO_0002118,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002120,complete molecule,960,9606,human,MHC class I,C,,HLA-Cw8 serotype,HLA-C*08:03 protein complex,MRO_0002120,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002127,locus,,9606,human,non-classical MHC,,,,HLA-F protein complex,MRO_0002127,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002128,complete molecule,961,9606,human,non-classical MHC,F,,HLA-F serotype,HLA-F*01:01 protein complex,MRO_0002128,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002129,serotype,,1,organism,,,,MHC non-classical serotype,MHC non-classical protein complex with serotype,MRO_0002129,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002130,serotype,,9606,human,,,,human MHC non-classical serotype,human MHC non-classical protein complex with serotype,MRO_0002130,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002131,serotype,,9606,human,,,,HLA-F serotype,HLA protein complex with F serotype,MRO_0002131,http://purl.obolibrary.org/obo/

@@ -55,6 +55,7 @@ HLA-DRB4 locus		subclass	HLA-DRB locus
 HLA-DRB5 locus		subclass	HLA-DRB locus	
 HLA-DRB locus		subclass	human MHC class II locus	
 HLA-E locus		subclass	human non-classical MHC locus	
+HLA-F locus		subclass	human non-classical MHC locus	
 HLA-G locus		subclass	human non-classical MHC locus	
 HLA-MR1 locus		subclass	human non-classical MHC locus	
 MHC class I locus		subclass	MHC locus	

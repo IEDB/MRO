@@ -2121,3 +2121,14 @@ MRO:0002117	rhesus macaque MR1 protein complex	owl:Class
 MRO:0002118	Mamu-E protein complex	owl:Class	
 MRO:0002119	HLA-C*08:03 chain	owl:Class	
 MRO:0002120	HLA-C*08:03 protein complex	owl:Class	
+MRO:0002121	HLA-F locus	owl:Class	
+MRO:0002122	MHC non-classical serotype	owl:Class	
+MRO:0002123	human MHC non-classical serotype	owl:Class	
+MRO:0002124	HLA-F serotype	owl:Class	
+MRO:0002125	HLA-F chain	owl:Class	
+MRO:0002126	HLA-F*01:01 chain	owl:Class	
+MRO:0002127	HLA-F protein complex	owl:Class	
+MRO:0002128	HLA-F*01:01 protein complex	owl:Class	
+MRO:0002129	MHC non-classical protein complex with serotype	owl:Class	
+MRO:0002130	human MHC non-classical protein complex with serotype	owl:Class	
+MRO:0002131	HLA protein complex with F serotype	owl:Class	

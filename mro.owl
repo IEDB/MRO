@@ -11,8 +11,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2019-04-24/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-04-24</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2019-06-12/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-06-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -563,6 +563,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 xml:lang="en">is about</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">This document is about information artifacts and their representations</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -609,6 +610,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/OBI_0000124 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000124">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_supported_by_data</obo:IAO_0000111>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relation between the conclusion &quot;Gene tpbA is involved in EPS production&quot; and the data items produced using two sets of organisms, one being a tpbA knockout, the other being tpbA wildtype tested in polysacharide production assays and analyzed using an ANOVA. </obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -705,6 +707,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/OBI_1110119 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_1110119">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bound_to</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A relationship between two material entities that form a complex based on a selective, non-covalent interaction.</obo:IAO_0000115>
@@ -717,6 +720,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
@@ -731,6 +735,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this investigation has participant this investigator</obo:IAO_0000112>
@@ -817,6 +822,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0002222 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002222">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000111 xml:lang="en">temporal relation</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000116>move to BFO?</obo:IAO_0000116>
@@ -836,6 +842,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0002320 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002320">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000115>A relationship that holds via some environmental process</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the process of evolution.</obo:IAO_0000232>
@@ -847,6 +854,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002323">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships</obo:IAO_0000232>
@@ -859,11 +867,18 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0002330 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002330">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000115>holds between two entities when some genome-level process such as gene expression is involved. This includes transcriptional, spliceosomal events. These relations can be used between either macromolecule entities (such as regions of nucleic acid) or between their abstract informational counterparts.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving the genome of an organism</obo:IAO_0000232>
         <rdfs:label xml:lang="en">genomically related to</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     
 
 
@@ -47124,6 +47139,228 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MRO_0002121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000112"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F locus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC non-classical serotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002123">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0002122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002122"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MHC non-classical serotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002123"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F serotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002125">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002121"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000896"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002125"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA01096</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F*01:01:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAPRSLLLLLSGALALTDTWAGSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWEQSPQPTIPIVGIVAGLVVLGAVVTGAVVAAVMWRKKSSDRNRGSYSQAAV</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F*01:01 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002127">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002125"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001458"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002128">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001464"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002126"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002124"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002131"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F*0101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F0101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F01:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F*01:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F*01:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002129">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042611"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002122"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000011"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotype</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-classical</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC non-classical protein complex with serotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002130">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042611"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002123"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002129"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotype</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MHC non-classical protein complex with serotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002131">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042611"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002124"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002130"/>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotype</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA protein complex with F serotype</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
@@ -47506,8 +47743,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/mro.owl">
         <dc:creator>John Sidney</dc:creator>
         <dc:creator>James A. Overton</dc:creator>
-        <dc:creator>Alessandro Sette</dc:creator>
         <dc:creator>Bjoern Peters</dc:creator>
+        <dc:creator>Alessandro Sette</dc:creator>
         <dc:title>MHC Restriction Ontology</dc:title>
         <dc:creator>Jim Kaufman</dc:creator>
         <dc:creator>Rebecca L. Tallmadge</dc:creator>

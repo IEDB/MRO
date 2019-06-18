@@ -134,8 +134,10 @@ HLA protein complex with DR52 serotype	HLA-DR52	HLA-DRB3*52|HLA-DRw52	serotype	e
 HLA protein complex with DR53 serotype	HLA-DR53	HLA-DRB4*53|HLA-DRw53	serotype	equivalent	MHC protein complex	human	HLA-DR53 serotype
 HLA protein complex with DR103 serotype	HLA-DR103		serotype	equivalent	MHC protein complex	human	HLA-DR103 serotype
 HLA protein complex with DR1404 serotype	HLA-DR1404		serotype	equivalent	MHC protein complex	human	HLA-DR1404 serotype
+HLA protein complex with F serotype	HLA-F		serotype	equivalent	MHC protein complex	human	HLA-F serotype
 MHC class I protein complex with serotype	class I		serotype	equivalent	MHC protein complex		MHC class I serotype
 MHC class II protein complex with serotype	class II		serotype	equivalent	MHC protein complex		MHC class II serotype
+MHC non-classical protein complex with serotype	non-classical		serotype	equivalent	MHC protein complex		MHC non-classical serotype
 Mamu protein complex with DR1B serotype	Mamu-DR1B		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR1B serotype
 Mamu protein complex with DR2 serotype	Mamu-DR2		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR2 serotype
 Mamu protein complex with DR3A serotype	Mamu-DR3A		serotype	equivalent	MHC protein complex	rhesus macaque	Mamu-DR3A serotype
@@ -161,4 +163,5 @@ chimpanzee MHC class II protein complex with serotype	chimpanzee		serotype	equiv
 cotton-top tamarin MHC class I protein complex with serotype	cotton-top tamarin		serotype	equivalent	MHC protein complex	cotton-top tamarin	cotton-top tamarin MHC class I serotype
 human MHC class I protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class I serotype
 human MHC class II protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC class II serotype
+human MHC non-classical protein complex with serotype	human		serotype	equivalent	MHC protein complex	human	human MHC non-classical serotype
 rhesus macaque MHC class II protein complex with serotype	rhesus macaque		serotype	equivalent	MHC protein complex	rhesus macaque	rhesus macaque MHC class II serotype

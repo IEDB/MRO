@@ -499,6 +499,8 @@ HLA-DRB5*02:02 protein complex	HLA-DRB5*02:02	HLA-DRB5*0201	partial molecule	equ
 HLA-E protein complex	HLA-E		locus	equivalent	non-classical MHC protein complex	human	HLA-E chain	Beta-2-microglobulin		
 HLA-E*01:01 protein complex	HLA-E*01:01		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-E*01:01 chain	Beta-2-microglobulin		
 HLA-E*01:03 protein complex	HLA-E*01:03		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-E*01:03 chain	Beta-2-microglobulin		
+HLA-F protein complex	HLA-F		locus	equivalent	non-classical MHC protein complex	human	HLA-F chain	Beta-2-microglobulin		
+HLA-F*01:01 protein complex	HLA-F*01:01		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-F*01:01 chain	Beta-2-microglobulin		HLA-F serotype
 HLA-G protein complex	HLA-G		locus	equivalent	non-classical MHC protein complex	human	HLA-G chain	Beta-2-microglobulin		
 HLA-G*01:01 protein complex	HLA-G*01:01		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:01 chain	Beta-2-microglobulin		
 HLA-G*01:03 protein complex	HLA-G*01:03		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:03 chain	Beta-2-microglobulin		

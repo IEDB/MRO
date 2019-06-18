@@ -477,6 +477,8 @@ HLA-DRB chain		equivalent	protein	HLA-DRB locus
 HLA-E chain		equivalent	protein	HLA-E locus
 HLA-E*01:01 chain		subclass	HLA-E chain	
 HLA-E*01:03 chain		subclass	HLA-E chain	
+HLA-F chain		equivalent	protein	HLA-F locus
+HLA-F*01:01 chain		subclass	HLA-F chain	
 HLA-G chain		equivalent	protein	HLA-G locus
 HLA-G*01:01 chain		subclass	HLA-G chain	
 HLA-G*01:03 chain		subclass	HLA-G chain	
