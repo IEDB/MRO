@@ -1031,3 +1031,4 @@ http://purl.obolibrary.org/obo/MRO_0002131,serotype,,9606,human,,,,HLA-F serotyp
 http://purl.obolibrary.org/obo/MRO_0002137,class,,9402,black flying fox,MHC class I,,,,black flying fox MHC class I protein complex,MRO_0002137,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002138,locus,,9402,black flying fox,MHC class I,,,,Ptal-N protein complex,MRO_0002138,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002139,complete molecule,962,9402,black flying fox,MHC class I,N,,,Ptal-N*01:01 protein complex,MRO_0002139,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002141,complete molecule,963,9544,rhesus macaque,MHC class I,B,,,Mamu-B*051:04 protein complex,MRO_0002141,http://purl.obolibrary.org/obo/
