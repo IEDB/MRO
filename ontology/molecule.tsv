@@ -591,6 +591,8 @@ Patr-DRB1*03:08 protein complex	Patr-DRB1*03:08		partial molecule	equivalent	MHC
 Patr-DRB1*07:01 protein complex	Patr-DRB1*07:01		partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB1*07:01 chain		
 Patr-DRB1*10:01 protein complex	Patr-DRB1*10:01		partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB1*10:01 chain		
 Patr-DRB5*03:10 protein complex	Patr-DRB5*03:10		partial molecule	equivalent	MHC class II protein complex	chimpanzee	Patr-DRA chain	Patr-DRB5*03:10 chain		
+Ptal-N protein complex	Ptal-N		locus	equivalent	MHC class I protein complex	black flying fox	Ptal-N chain	Beta-2-microglobulin		
+Ptal-N*01:01 protein complex	Ptal-N*01:01		complete molecule	equivalent	MHC class I protein complex	black flying fox	Ptal-N*01:01 chain	Beta-2-microglobulin		
 RT1-A1 protein complex	RT1-A1	RT1.A1(N)|RT1A1	locus	equivalent	MHC class I protein complex	rat	RT1-A1 chain	Beta-2-microglobulin		
 RT1-A2 protein complex	RT1-A2	RT1.A2(N)|RT1A2	locus	equivalent	MHC class I protein complex	rat	RT1-A2 chain	Beta-2-microglobulin		
 RT1-A protein complex	RT1-A	RT1A	locus	equivalent	MHC class I protein complex	rat	RT1-A chain	Beta-2-microglobulin		
@@ -628,6 +630,7 @@ SLA-3*02:02 protein complex	SLA-3*02:02	SLA-3*hs0202	complete molecule	equivalen
 SLA-3*04:01 protein complex	SLA-3*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:01 chain	Beta-2-microglobulin		
 Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G chain	Beta-2-microglobulin		
 YF1w*7.1 protein complex	YF1w*7.1	YF1*7.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	YF1w*7.1 chain		YF1 haplotype	
+black flying fox MHC class I protein complex	black flying fox		class	equivalent	MHC class I protein complex	black flying fox				
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class II protein complex	bonobo		class	equivalent	MHC class II protein complex	bonobo				

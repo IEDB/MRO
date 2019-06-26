@@ -2132,3 +2132,11 @@ MRO:0002128	HLA-F*01:01 protein complex	owl:Class
 MRO:0002129	MHC non-classical protein complex with serotype	owl:Class	
 MRO:0002130	human MHC non-classical protein complex with serotype	owl:Class	
 MRO:0002131	HLA protein complex with F serotype	owl:Class	
+MRO:0002132	black flying fox MHC class I locus	owl:Class	
+MRO:0002133	Ptal-N locus	owl:Class	
+MRO:0002134	black flying fox MHC class I chain	owl:Class	
+MRO:0002135	Ptal-N chain	owl:Class	
+MRO:0002136	Ptal-N*01:01 chain	owl:Class	
+MRO:0002137	black flying fox MHC class I protein complex	owl:Class	
+MRO:0002138	Ptal-N protein complex	owl:Class	
+MRO:0002139	Ptal-N*01:01 protein complex	owl:Class	

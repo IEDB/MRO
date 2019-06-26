@@ -29,6 +29,7 @@ parser.add_argument('alleles',
 args = parser.parse_args()
 
 organisms = {
+  'black flying fox': 'black flying fox (Pteropus alecto)',
   'bonobo': 'bonobo (Pan paniscus)',
   'cat': 'cat (Felis catus)',
   'cattle': 'cattle (Bos taurus)',

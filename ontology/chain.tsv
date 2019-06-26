@@ -577,6 +577,8 @@ Patr-DRB1*07:01 chain		subclass	Patr-DRB chain
 Patr-DRB1*10:01 chain		subclass	Patr-DRB chain	
 Patr-DRB5*03:10 chain		subclass	Patr-DRB chain	
 Patr-DRB chain		equivalent	protein	Patr-DRB locus
+Ptal-N chain		equivalent	protein	Ptal-N locus
+Ptal-N*01:01 chain		subclass	Ptal-N chain	
 RT1-A1 chain		equivalent	protein	RT1-A1 locus
 RT1-A1 chain		equivalent	protein	RT1-A1 locus
 RT1-A2 chain		equivalent	protein	RT1-A2 locus
@@ -629,6 +631,7 @@ SLA-3*02:02 chain		subclass	SLA-3 chain
 SLA-3*04:01 chain		subclass	SLA-3 chain	
 Saoe-G chain		equivalent	protein	Saoe-G locus
 YF1w*7.1 chain		subclass	BF-YF chain	
+black flying fox MHC class I chain		equivalent	protein	black flying fox MHC class I locus
 bonobo MHC class I chain		equivalent	protein	bonobo MHC class I locus
 bonobo MHC class II chain		equivalent	protein	bonobo MHC class II locus
 cat MHC class I chain		equivalent	protein	cat MHC class I locus

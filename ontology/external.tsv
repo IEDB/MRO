@@ -5,6 +5,7 @@ GO:0042611	MHC protein complex	MHC protein complex	MHC molecule	equivalent	prote
 GO:0043234	protein complex	protein complex	MHC	subclass	material entity					http://purl.obolibrary.org/obo/go.owl
 NCBITaxon:8839	duck	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9031	chicken	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
+NCBITaxon:9402	black flying fox	Pteropus alecto		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9483	marmoset	Callithrix jacchus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9490	cotton-top tamarin	Saguinus oedipus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9541	crab-eating macaque	Macaca fascicularis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
