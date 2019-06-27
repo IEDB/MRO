@@ -12,7 +12,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2019-06-26/mro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2019-06-27/mro.owl"/>
         <dc:creator>Alessandro Sette</dc:creator>
         <dc:creator>Bjoern Peters</dc:creator>
         <dc:creator>Emily Seymour</dc:creator>
@@ -26,7 +26,7 @@
         <dc:description>The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions.</dc:description>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:title>MHC Restriction Ontology</dc:title>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-06-26</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-06-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -14140,6 +14140,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001446"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">966</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLA-88 protein complex</rdfs:label>
     </owl:Class>
@@ -14273,6 +14274,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001447"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">965</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gogo-B</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gogo-B protein complex</rdfs:label>
     </owl:Class>
@@ -30115,6 +30117,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001466"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">969</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-A</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-A protein complex</rdfs:label>
     </owl:Class>
@@ -30299,6 +30302,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001466"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">970</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mamu-B protein complex</rdfs:label>
     </owl:Class>
@@ -30869,6 +30873,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001431"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">975</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papa-A</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papa-A protein complex</rdfs:label>
     </owl:Class>
@@ -30935,6 +30940,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001442"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">967</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patr-A</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patr-A protein complex</rdfs:label>
     </owl:Class>
@@ -32380,6 +32386,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001465"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">971</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLA-1 protein complex</rdfs:label>
     </owl:Class>
@@ -32551,6 +32558,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001445"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">968</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saoe-G</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saoe-G protein complex</rdfs:label>
     </owl:Class>
@@ -47228,6 +47236,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002014"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">973</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DQB protein complex</rdfs:label>
     </owl:Class>
@@ -47258,6 +47267,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002014"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">974</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mafa-DRB protein complex</rdfs:label>
     </owl:Class>
@@ -47721,6 +47731,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002035"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">972</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anpl-UAA</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anpl-UAA protein complex</rdfs:label>
     </owl:Class>
@@ -48808,6 +48819,7 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002079"/>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">964</obo:MRO_has-iedb-mhc-id>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLA-E</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLA-E protein complex</rdfs:label>
     </owl:Class>

@@ -1397,7 +1397,7 @@
 1397,http://purl.obolibrary.org/obo/MRO_0001702,1386,HLA-B*08:01 N80I mutant,"HLA-B0801 N80I mutant, HLA-B08:01 N80I mutant, HLA-B*0801 N80I mutant",1:1382:1383:1386:1397
 1398,http://purl.obolibrary.org/obo/MRO_0002096,1386,HLA-B*27:05 C67S mutant,"HLA-B27:05 C67S mutant, HLA-B*2705 C67S mutant, HLA-B2705 C67S mutant",1:1382:1383:1386:1398
 1399,http://purl.obolibrary.org/obo/MRO_0001703,1386,HLA-B*27:05 D74Y D77N mutant,"HLA-B2705 D74Y D77N mutant, HLA-B27:05 D74Y D77N mutant, HLA-B*2705 D74Y D77N mutant",1:1382:1383:1386:1399
-1400,http://purl.obolibrary.org/obo/MRO_0001704,1386,HLA-B*27:05 L81A mutant,"HLA-B2705 L81A mutant, HLA-B27:05 L81A mutant, HLA-B*2705 L81A mutant",1:1382:1383:1386:1400
+1400,http://purl.obolibrary.org/obo/MRO_0001704,1386,HLA-B*27:05 L81A mutant,"HLA-B*2705 L81A mutant, HLA-B2705 L81A mutant, HLA-B27:05 L81A mutant",1:1382:1383:1386:1400
 1401,http://purl.obolibrary.org/obo/MRO_0002097,1386,HLA-B*27:09 C67S mutant,"HLA-B2709 C67S mutant, HLA-B*2709 C67S mutant, HLA-B27:09 C67S mutant",1:1382:1383:1386:1401
 1402,http://purl.obolibrary.org/obo/MRO_0002045,1386,HLA-B*35:08 Q65A mutant,"HLA-B*3508 Q65A mutant, HLA-B35:08 Q65A mutant, HLA-B3508 Q65A mutant",1:1382:1383:1386:1402
 1403,http://purl.obolibrary.org/obo/MRO_0001705,1386,"HLA-B*35:08 Q65A, T69A, Q155A mutant","HLA-B3508 Q65A, T69A, Q155A mutant, HLA-B*3508 Q65A, T69A, Q155A mutant, HLA-B35:08 Q65A, T69A, Q155A mutant",1:1382:1383:1386:1403
