@@ -1445,3 +1445,5 @@
 1445,http://purl.obolibrary.org/obo/MRO_0001734,1382,non-classical,,1:1382:1445
 1446,http://purl.obolibrary.org/obo/MRO_0001735,1445,human,,1:1382:1445:1446
 1447,http://purl.obolibrary.org/obo/MRO_0001456,1446,human MR1 K43A mutant,"hMR1 K43A mutant, HLA-MR1 K43A mutant",1:1382:1445:1446:1447
+1448,http://purl.obolibrary.org/obo/MRO_0002142,1445,mouse,,1:1382:1445:1448
+1449,http://purl.obolibrary.org/obo/MRO_0002143,1448,mouse CD1d Y73H mutant,,1:1382:1445:1448:1449

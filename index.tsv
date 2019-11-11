@@ -2142,3 +2142,5 @@ MRO:0002138	Ptal-N protein complex	owl:Class
 MRO:0002139	Ptal-N*01:01 protein complex	owl:Class	
 MRO:0002140	Mamu-B*051:04 chain	owl:Class	
 MRO:0002141	Mamu-B*051:04 protein complex	owl:Class	
+MRO:0002142	mutant mouse non-classical MHC protein complex	owl:Class	
+MRO:0002143	mouse CD1d Y73H mutant protein complex	owl:Class	
