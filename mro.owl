@@ -12054,8 +12054,9 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/MRO_0000894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000774"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 K43A mutant chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human MR1 K43A mutant chain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -47956,8 +47957,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/mro.owl">
         <dc:creator>John Sidney</dc:creator>
         <dc:creator>James A. Overton</dc:creator>
-        <dc:creator>Alessandro Sette</dc:creator>
         <dc:creator>Bjoern Peters</dc:creator>
+        <dc:creator>Alessandro Sette</dc:creator>
         <dc:title>MHC Restriction Ontology</dc:title>
         <dc:creator>Jim Kaufman</dc:creator>
         <dc:creator>Rebecca L. Tallmadge</dc:creator>

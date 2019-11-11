@@ -669,7 +669,6 @@ human CD1c chain		subclass	HLA-CD1 chain
 human CD1d chain		subclass	HLA-CD1 chain	
 human MHC class I chain		equivalent	protein	human MHC class I locus
 human MHC class II chain		equivalent	protein	human MHC class II locus
-human MR1 K43A mutant chain		subclass	HLA-MR1 chain	
 human MR1 chain		subclass	HLA-MR1 chain	
 human non-classical MHC chain		equivalent	protein	human non-classical MHC locus
 marmoset MHC class I chain		equivalent	protein	marmoset MHC class I locus

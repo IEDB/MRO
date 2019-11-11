@@ -894,7 +894,7 @@ MRO:0000890	human CD1c chain	owl:Class
 MRO:0000891	human CD1d chain	owl:Class	
 MRO:0000892	human MHC class I chain	owl:Class	
 MRO:0000893	human MHC class II chain	owl:Class	
-MRO:0000894	human MR1 K43A mutant chain	owl:Class	
+MRO:0000894	obsolete human MR1 K43A mutant chain	owl:Class	true
 MRO:0000895	human MR1 chain	owl:Class	
 MRO:0000896	human non-classical MHC chain	owl:Class	
 MRO:0000897	marmoset MHC class I chain	owl:Class	
