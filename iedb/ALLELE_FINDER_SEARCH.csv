@@ -1034,3 +1034,6 @@ http://purl.obolibrary.org/obo/MRO_0002139,complete molecule,962,9402,black flyi
 http://purl.obolibrary.org/obo/MRO_0002141,complete molecule,963,9544,rhesus macaque,MHC class I,B,,,Mamu-B*051:04 protein complex,MRO_0002141,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002142,class,,10090,mouse,non-classical MHC,,,,mutant mouse non-classical MHC protein complex,MRO_0002142,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002143,complete molecule,,10090,mouse,non-classical MHC,,,,mouse CD1d Y73H mutant protein complex,MRO_0002143,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002144,partial molecule,976,9606,human,MHC class II,DQ,,,HLA-DQA1*01:03 protein complex,MRO_0002144,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002145,partial molecule,977,9606,human,MHC class II,DP,,,HLA-DPA1*03:01 protein complex,MRO_0002145,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002146,complete molecule,978,9606,human,MHC class I,B,,HLA-B8 serotype,HLA-B*08:01 E76C mutant,MRO_0002146,http://purl.obolibrary.org/obo/

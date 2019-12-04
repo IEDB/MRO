@@ -880,3 +880,6 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 973	http://purl.obolibrary.org/obo/MRO_0002015	Mafa-DQB			locus	crab-eating macaque (Macaca fascicularis)	9541	II							Mafa-DQA		Mafa-DQB			
 974	http://purl.obolibrary.org/obo/MRO_0002016	Mafa-DRB			locus	crab-eating macaque (Macaca fascicularis)	9541	II							Mafa-DRA		Mafa-DRB			
 975	http://purl.obolibrary.org/obo/MRO_0001378	Papa-A			locus	bonobo (Pan paniscus)	9597	I							A					
+976	http://purl.obolibrary.org/obo/MRO_0002144	HLA-DQA1*01:03	HLA-DQA1*0103|HLA-DQA101:03|HLA-DQA10103		partial molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*01:03	HLA-DQA1*01:03	HLA-DQB	DQA		DQB		300716	
+977	http://purl.obolibrary.org/obo/MRO_0002145	HLA-DPA1*03:01	HLA-DPA1*0301|HLA-DPA103:01|HLA-DPA10301		partial molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*03:01	HLA-DPA1*03:01	HLA-DPB	DPA		DPB		300696	
+978	http://purl.obolibrary.org/obo/MRO_0002146	HLA-B*08:01 E76C mutant	HLA-B08:01 E76C mutant|HLA-B0801 E76C mutant|HLA-B*0801 E76C mutant		complete molecule	human (Homo sapiens)	9606	I		B	B8	HLA-B*08:01	HLA-B*08:01	Beta-2-microglobulin	B	E76C				

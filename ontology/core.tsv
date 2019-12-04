@@ -6,7 +6,7 @@ MHC locus		subclass	genetic locus		The region of a chromosome that codes for MHC
 MHC protein complex with haplotype	haplotype	equivalent	MHC protein complex	('haplotype member of' some 'MHC haplotype')	A protein complex that is a member of an MHC haplotype.	IEDB	The mouse H-2-Kk molecule belongs to the H-2-k haplotype.
 MHC protein complex with serotype	serotype	equivalent	MHC protein complex	('serotype member of' some 'MHC serotype')	A protein complex that is a member of an MHC serotype.	IEDB	The human HLA-A*03:01 molecule is part of the HLA-A3 serotype.
 MHC serotype		subclass	serotype		A serotype identifying a specific group of MHC molecules.	IEDB	The human  HLA-A3 serotype includes HLA-A*03:01 and HLA-A*03:02.
-T cell epitope dependent biological activity assay		subclass	T cell  epitope recognition assay				
+T cell epitope dependent biological activity assay		subclass	assay measuring binding of a T cell epitope:MHC:TCR complex				
 genetic entity		subclass					
 haplotype member of					A relation between a protein complex and a haplotype, in which some parts of the protein complex are encoded by genes in the haplotype.		
 has MHC restriction level							
