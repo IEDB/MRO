@@ -2147,3 +2147,5 @@ MRO:0002143	mouse CD1d Y73H mutant protein complex	owl:Class
 MRO:0002144	HLA-DQA1*01:03 protein complex	owl:Class	
 MRO:0002145	HLA-DPA1*03:01 protein complex	owl:Class	
 MRO:0002146	HLA-B*08:01 E76C mutant	owl:Class	
+MRO:0002147	HLA-C*03:02 chain	owl:Class	
+MRO:0002148	HLA-C*03:02 protein complex	owl:Class	
