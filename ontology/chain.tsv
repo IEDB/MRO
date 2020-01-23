@@ -291,6 +291,7 @@ HLA-B*45:07 chain		subclass	HLA-B chain
 HLA-B*46:01 chain		subclass	HLA-B chain	
 HLA-B*47:01 chain		subclass	HLA-B chain	
 HLA-B*48:01 chain		subclass	HLA-B chain	
+HLA-B*48:03 chain		subclass	HLA-B chain	
 HLA-B*49:01 chain		subclass	HLA-B chain	
 HLA-B*50:01 chain		subclass	HLA-B chain	
 HLA-B*50:02 chain		subclass	HLA-B chain	
@@ -335,6 +336,7 @@ HLA-C*12:04 chain		subclass	HLA-C chain
 HLA-C*14:02 chain		subclass	HLA-C chain	
 HLA-C*15:02 chain		subclass	HLA-C chain	
 HLA-C*16:01 chain		subclass	HLA-C chain	
+HLA-C*16:02 chain	HLA-Cw*160201	subclass	HLA-C chain	
 HLA-C*17:01 chain		subclass	HLA-C chain	
 HLA-CD1 chain		equivalent	protein	HLA-CD1 locus
 HLA-DPA1*01:03 chain		subclass	HLA-DPA chain	
@@ -480,6 +482,8 @@ HLA-E*01:01 chain		subclass	HLA-E chain
 HLA-E*01:03 chain		subclass	HLA-E chain	
 HLA-F chain		equivalent	protein	HLA-F locus
 HLA-F*01:01 chain		subclass	HLA-F chain	
+HLA-F*01:03 chain		subclass	HLA-F chain	
+HLA-F*01:04 chain		subclass	HLA-F chain	
 HLA-G chain		equivalent	protein	HLA-G locus
 HLA-G*01:01 chain		subclass	HLA-G chain	
 HLA-G*01:03 chain		subclass	HLA-G chain	
@@ -632,6 +636,7 @@ SLA-3 chain		equivalent	protein	SLA-3 locus
 SLA-3*02:02 chain		subclass	SLA-3 chain	
 SLA-3*04:01 chain		subclass	SLA-3 chain	
 Saoe-G chain		equivalent	protein	Saoe-G locus
+Xela-UAAg chain		subclass	clawed frog MHC class I chain	
 YF1w*7.1 chain		subclass	BF-YF chain	
 black flying fox MHC class I chain		equivalent	protein	black flying fox MHC class I locus
 bonobo MHC class I chain		equivalent	protein	bonobo MHC class I locus
@@ -653,6 +658,7 @@ chicken non-classical MHC chain		equivalent	protein	chicken non-classical MHC lo
 chimpanzee MHC class I chain		equivalent	protein	chimpanzee MHC class I locus
 chimpanzee MHC class II chain		equivalent	protein	chimpanzee MHC class II locus
 chimpanzee non-classical MHC chain		equivalent	protein	chimpanzee non-classical MHC locus
+clawed frog MHC class I chain		equivalent	protein	clawed frog MHC class I locus
 cotton-top tamarin MHC class I chain		equivalent	protein	cotton-top tamarin MHC class I locus
 cotton-top tamarin MHC class II chain		equivalent	protein	cotton-top tamarin MHC class II locus
 crab-eating macaque MHC class II chain		equivalent	protein	crab-eating macaque MHC class II locus

@@ -1038,3 +1038,10 @@ http://purl.obolibrary.org/obo/MRO_0002144,partial molecule,976,9606,human,MHC c
 http://purl.obolibrary.org/obo/MRO_0002145,partial molecule,977,9606,human,MHC class II,DP,,,HLA-DPA1*03:01 protein complex,MRO_0002145,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002146,complete molecule,978,9606,human,MHC class I,B,,HLA-B8 serotype,HLA-B*08:01 E76C mutant,MRO_0002146,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002148,complete molecule,979,9606,human,MHC class I,C,,HLA-Cw3 serotype,HLA-C*03:02 protein complex,MRO_0002148,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002149,complete molecule,980,9606,human,MHC class I,C,,HLA-Cw16 serotype,HLA-C*16:02 protein complex,MRO_0002149,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002150,complete molecule,981,9606,human,MHC class I,B,,HLA-B48 serotype,HLA-B*48:03 protein complex,MRO_0002150,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002151,class,982,8355,clawed frog,MHC class I,,,,clawed frog MHC class I protein complex,MRO_0002151,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002152,class,983,8355,clawed frog,MHC class II,,,,clawed frog MHC class II protein complex,MRO_0002152,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002153,complete molecule,984,8355,clawed frog,MHC class I,,,,Xela-UAAg protein complex,MRO_0002153,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002162,complete molecule,985,9606,human,non-classical MHC,F,,HLA-F serotype,HLA-F*01:03 protein complex,MRO_0002162,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002163,complete molecule,986,9606,human,non-classical MHC,F,,HLA-F serotype,HLA-F*01:04 protein complex,MRO_0002163,http://purl.obolibrary.org/obo/

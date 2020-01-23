@@ -35,6 +35,7 @@ organisms = {
   'cattle': 'cattle (Bos taurus)',
   'chicken': 'chicken (Gallus gallus)',
   'chimpanzee': 'chimpanzee (Pan troglodytes)',
+  'clawed frog': 'clawed frog (Xenopus laevis)',
   'cotton-top tamarin': 'cotton-top tamarin (Saguinus oedipus)',
   'crab-eating macaque': 'crab-eating macaque (Macaca fascicularis)',
   'dog': 'dog (Canis lupus familiaris)',
@@ -52,6 +53,7 @@ organisms = {
 }
 codes = {
   '1': 'organism',
+  '8355': 'clawed frog',
   '8839': 'duck',
   '9031': 'chicken',
   '9483': 'marmoset',

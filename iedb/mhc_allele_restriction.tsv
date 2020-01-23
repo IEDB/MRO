@@ -884,3 +884,10 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 977	http://purl.obolibrary.org/obo/MRO_0002145	HLA-DPA1*03:01	HLA-DPA1*0301|HLA-DPA103:01|HLA-DPA10301		partial molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*03:01	HLA-DPA1*03:01	HLA-DPB	DPA		DPB		300696	
 978	http://purl.obolibrary.org/obo/MRO_0002146	HLA-B*08:01 E76C mutant	HLA-B08:01 E76C mutant|HLA-B0801 E76C mutant|HLA-B*0801 E76C mutant		complete molecule	human (Homo sapiens)	9606	I		B	B8	HLA-B*08:01	HLA-B*08:01	Beta-2-microglobulin	B	E76C				
 979	http://purl.obolibrary.org/obo/MRO_0002148	HLA-C*03:02	HLA-C03:02|HLA-C0302|HLA-C*0302|HLA-Cw*030201	HLA-Cw*030201	complete molecule	human (Homo sapiens)	9606	I		C	Cw3	HLA-C*03:02	HLA-C*03:02	Beta-2-microglobulin	C					56585
+980	http://purl.obolibrary.org/obo/MRO_0002149	HLA-C*16:02	HLA-C16:02|HLA-C1602|HLA-C*1602|HLA-Cw*160201	HLA-Cw*160201	complete molecule	human (Homo sapiens)	9606	I		C	Cw16	HLA-C*16:02	HLA-C*16:02	Beta-2-microglobulin	C					56585
+981	http://purl.obolibrary.org/obo/MRO_0002150	HLA-B*48:03	HLA-B48:03|HLA-B4803|HLA-B*4803		complete molecule	human (Homo sapiens)	9606	I		B	B48	HLA-B*48:03	HLA-B*48:03	Beta-2-microglobulin	B					56585
+982	http://purl.obolibrary.org/obo/MRO_0002151	clawed frog class I			class	clawed frog (Xenopus laevis)	8355	I												
+983	http://purl.obolibrary.org/obo/MRO_0002152	clawed frog class II			class	clawed frog (Xenopus laevis)	8355	II												
+984	http://purl.obolibrary.org/obo/MRO_0002153	Xela-UAAg			complete molecule	clawed frog (Xenopus laevis)	8355	I				Xela-UAAg	Xela-UAAg	Beta-2-microglobulin	clawed frog MHC class I					
+985	http://purl.obolibrary.org/obo/MRO_0002162	HLA-F*01:03	HLA-F01:03|HLA-F0103|HLA-F*0103		complete molecule	human (Homo sapiens)	9606	non classical		F	F	HLA-F*01:03	HLA-F*01:03	Beta-2-microglobulin	F					56585
+986	http://purl.obolibrary.org/obo/MRO_0002163	HLA-F*01:04	HLA-F01:04|HLA-F0104|HLA-F*0104		complete molecule	human (Homo sapiens)	9606	non classical		F	F	HLA-F*01:04	HLA-F*01:04	Beta-2-microglobulin	F					56585
