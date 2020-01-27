@@ -110,6 +110,8 @@ chicken non-classical MHC locus		subclass	non-classical MHC locus	chicken
 chimpanzee MHC class I locus		subclass	MHC class I locus	chimpanzee
 chimpanzee MHC class II locus		subclass	MHC class II locus	chimpanzee
 chimpanzee non-classical MHC locus		subclass	non-classical MHC locus	chimpanzee
+clawed frog MHC class I locus		subclass	MHC class I locus	clawed frog
+clawed frog MHC class II locus		subclass	MHC class II locus	clawed frog
 cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
 cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
 crab-eating macaque MHC class II locus		subclass	MHC class II locus	

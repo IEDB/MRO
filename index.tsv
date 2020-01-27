@@ -2149,3 +2149,18 @@ MRO:0002145	HLA-DPA1*03:01 protein complex	owl:Class
 MRO:0002146	HLA-B*08:01 E76C mutant	owl:Class	
 MRO:0002147	HLA-C*03:02 chain	owl:Class	
 MRO:0002148	HLA-C*03:02 protein complex	owl:Class	
+MRO:0002149	HLA-C*16:02 protein complex	owl:Class	
+MRO:0002150	HLA-B*48:03 protein complex	owl:Class	
+MRO:0002151	clawed frog MHC class I protein complex	owl:Class	
+MRO:0002152	clawed frog MHC class II protein complex	owl:Class	
+MRO:0002153	Xela-UAAg protein complex	owl:Class	
+MRO:0002154	HLA-B*48:03 chain	owl:Class	
+MRO:0002155	HLA-C*16:02 chain	owl:Class	
+MRO:0002156	Xela-UAAg chain	owl:Class	
+MRO:0002157	clawed frog MHC class I chain	owl:Class	
+MRO:0002158	clawed frog MHC class I locus	owl:Class	
+MRO:0002159	clawed frog MHC class II locus	owl:Class	
+MRO:0002160	HLA-F*01:03 chain	owl:Class	
+MRO:0002161	HLA-F*01:04 chain	owl:Class	
+MRO:0002162	HLA-F*01:03 protein complex	owl:Class	
+MRO:0002163	HLA-F*01:04 protein complex	owl:Class	
