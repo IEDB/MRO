@@ -12,8 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-01-23/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-23</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-01-27/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -47918,6 +47918,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000527"/>
         <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00337</obo:MRO_accession>
         <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B*48:03:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLVMAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQISQRKLEAARVAEQLRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWTAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSSQSTVPIVGIVAGLAVLAVVVIGAVVAAVMCRRKSSGGKGGSYSQAACSDSAQGSDVSLTA</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*48:03 chain</rdfs:label>
     </owl:Class>
@@ -47931,6 +47932,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-Cw*160201</obo:IAO_0000118>
         <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00476</obo:MRO_accession>
         <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C*16:02:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRVMAPRTLILLLSGALALTETWACSHSMRYFYTAVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRKLRGYYNQSEAGSHTLQWMYGCDLGPDGRLLRGYDQSAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARAAEQQRAYLEGTCVEWLRRYLENGKETLQRAEHPKTHVTHHLVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLAVLAVLAVLGAVVAVVMCRRKSSGGKGGSCSQAASSNSAQGSDESLIACKA</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C*16:02 chain</rdfs:label>
     </owl:Class>
@@ -48006,6 +48008,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002125"/>
         <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA02276</obo:MRO_accession>
         <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F*01:03:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAPRSLLLLLSGALALTDTWAGSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPPGEEQRYTCHVQHEGLPQPLILRWEQSPQPTIPIVGIVAGLVVLGAVVTGAVVAAVMWRKKSSDRNRGSYSQAAV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F*01:03 chain</rdfs:label>
     </owl:Class>
@@ -48018,6 +48021,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002125"/>
         <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA02272</obo:MRO_accession>
         <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F*01:04:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAPRSLLLLLSGALALTDTWAGSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREQWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWEQSPQPTIPIVGIVAGLVVLGAVVTGAVVAAVMWRKKSSDRNRGSYSQAAV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-F*01:04 chain</rdfs:label>
     </owl:Class>
