@@ -438,6 +438,7 @@ HLA-DRB1*11:01 chain		subclass	HLA-DRB1 chain
 HLA-DRB1*11:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*11:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*11:04 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*11:13 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*12:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*12:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*13:01 chain		subclass	HLA-DRB1 chain	
@@ -630,6 +631,7 @@ SLA-1*20:01 chain		subclass	SLA-1 chain
 SLA-2 chain		equivalent	protein	SLA-2 locus
 SLA-2*01:06 chain		subclass	SLA-2 chain	
 SLA-2*04:01 chain		subclass	SLA-2 chain	
+SLA-2*04:02 chain		subclass	SLA-2 chain	
 SLA-2*05:02 chain		subclass	SLA-2 chain	
 SLA-2*11:04 chain		subclass	SLA-2 chain	
 SLA-3 chain		equivalent	protein	SLA-3 locus
