@@ -196,6 +196,7 @@ HLA-B*15:09 protein complex	HLA-B*15:09		complete molecule	equivalent	MHC class 
 HLA-B*15:10 protein complex	HLA-B*15:10		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:10 chain	Beta-2-microglobulin		HLA-B71 serotype
 HLA-B*15:11 protein complex	HLA-B*15:11		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:11 chain	Beta-2-microglobulin		HLA-B75 serotype
 HLA-B*15:13 protein complex	HLA-B*15:13		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:13 chain	Beta-2-microglobulin		HLA-B77 serotype
+HLA-B*15:15 protein complex	HLA-B*15:15		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:15 chain	Beta-2-microglobulin		
 HLA-B*15:16 protein complex	HLA-B*15:16		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:16 chain	Beta-2-microglobulin		HLA-B63 serotype
 HLA-B*15:17 protein complex	HLA-B*15:17	HLA-B*15170101	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:17 chain	Beta-2-microglobulin		HLA-B63 serotype
 HLA-B*15:18 protein complex	HLA-B*15:18		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*15:18 chain	Beta-2-microglobulin		HLA-B71 serotype
@@ -288,6 +289,7 @@ HLA-C*02:10 protein complex	HLA-C*02:10	Cw*0210	complete molecule	equivalent	MHC
 HLA-C*03:02 protein complex	HLA-C*03:02	HLA-Cw*030201	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*03:02 chain	Beta-2-microglobulin		HLA-Cw3 serotype
 HLA-C*03:03 protein complex	HLA-C*03:03	HLA-Cw*0303	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*03:03 chain	Beta-2-microglobulin		HLA-Cw9 serotype
 HLA-C*03:04 protein complex	HLA-C*03:04	HLA-Cw*0301|HLA-Cw*0304	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*03:04 chain	Beta-2-microglobulin		HLA-Cw10 serotype
+HLA-C*03:13 protein complex	HLA-C*03:13		complete molecule	equivalent	MHC class I protein complex	human	HLA-C*03:13 chain	Beta-2-microglobulin		
 HLA-C*04:01 protein complex	HLA-C*04:01	HLA-Cw*0401	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*04:01 chain	Beta-2-microglobulin		
 HLA-C*05:01 protein complex	HLA-C*05:01	HLA-Cw*0501	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*05:01 chain	Beta-2-microglobulin		HLA-Cw5 serotype
 HLA-C*06:02 protein complex	HLA-C*06:02	HLA-Cw*0601|HLA-Cw*0602	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*06:02 chain	Beta-2-microglobulin		HLA-Cw6 serotype
@@ -544,6 +546,7 @@ Mamu-A1*002:01 protein complex	Mamu-A1*002:01	Mamu-A*02	complete molecule	equiva
 Mamu-A1*007:01 protein complex	Mamu-A1*007:01	Mamu-A*07	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*007:01 chain	Beta-2-microglobulin		
 Mamu-A1*011:01 protein complex	Mamu-A1*011:01	Mamu-A*11|MHCI-A*11	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*011:01 chain	Beta-2-microglobulin		
 Mamu-A1*022:02 protein complex	Mamu-A1*022:02	Mamu-A*08|Mamu-Ch_A*08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*022:02 chain	Beta-2-microglobulin		
+Mamu-A1*065:01 protein complex	Mamu-A1*065:01		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*065:01 chain	Beta-2-microglobulin		
 Mamu-A2*01:02:01 protein complex	Mamu-A2*01:02:01	Mamu-Ch_A*12	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A2*01:02:01 chain	Beta-2-microglobulin		
 Mamu-A7*01:03 protein complex	Mamu-A7*01:03	Mamu-A7*0101	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A7*01:03 chain	Beta-2-microglobulin		
 Mamu-A protein complex	Mamu-A		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A chain	Beta-2-microglobulin		
