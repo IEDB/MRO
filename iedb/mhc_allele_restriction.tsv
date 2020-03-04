@@ -911,3 +911,12 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 1004	http://purl.obolibrary.org/obo/MRO_0002183	HLA-DQA1*03:01/DQB1*06:02	HLA-DQA1*0301/DQB1*0602|HLA-DQA103:01/DQB106:02|HLA-DQA10301/DQB10602		complete molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*03:01/DQB1*06:02	HLA-DQA1*03:01	HLA-DQB1*06:02	DQA		DQB		300719	300739
 1005	http://purl.obolibrary.org/obo/MRO_0002184	HLA-DQA1*05:01/DQB1*06:02	HLA-DQA1*0501/DQB1*0602|HLA-DQA105:01/DQB106:02|HLA-DQA10501/DQB10602		complete molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*05:01/DQB1*06:02	HLA-DQA1*05:01	HLA-DQB1*06:02	DQA		DQB		300723	300739
 1006	http://purl.obolibrary.org/obo/MRO_0002185	HLA-DRB1*11:13	HLA-DRB1*1113|HLA-DRB111:13|HLA-DRB11113		partial molecule	human (Homo sapiens)	9606	II		DR		HLA-DRB1*11:13	HLA-DRA	HLA-DRB1*11:13	DRA		DRB1			
+1007	http://purl.obolibrary.org/obo/MRO_0002188	HLA-A*25:03	HLA-A25:03|HLA-A2503|HLA-A*2503		complete molecule	human (Homo sapiens)	9606	II		A		HLA-A*25:03	HLA-C*02:10	Beta-2-microglobulin	C					56585
+1008	http://purl.obolibrary.org/obo/MRO_0002189	HLA-C*02:10	Cw*0210|HLA-C02:10|HLA-C0210|HLA-C*0210	Cw*0210	complete molecule	human (Homo sapiens)	9606	II		C		HLA-C*02:10	HLA-A*25:03	Beta-2-microglobulin	A					56585
+1009	http://purl.obolibrary.org/obo/MRO_0001545	HLA-A66			serotype	human (Homo sapiens)	9606	I			A66									
+1010	http://purl.obolibrary.org/obo/MRO_0002197	HLA-B23	HLA-B*23	HLA-B*23	serotype	human (Homo sapiens)	9606	I			B23									
+1011	http://purl.obolibrary.org/obo/MRO_0001579	HLA-B56			serotype	human (Homo sapiens)	9606	I			B56									
+1012	http://purl.obolibrary.org/obo/MRO_0002194	HLA-C*03:13	HLA-C03:13|HLA-C0313|HLA-C*0313		complete molecule	human (Homo sapiens)	9606	I		C		HLA-C*03:13	HLA-C*03:13	Beta-2-microglobulin	C					56585
+1013	http://purl.obolibrary.org/obo/MRO_0002195	HLA-B*15:15	HLA-B15:15|HLA-B1515|HLA-B*1515		complete molecule	human (Homo sapiens)	9606	I		B		HLA-B*15:15	HLA-B*15:15	Beta-2-microglobulin	B					56585
+1014	http://purl.obolibrary.org/obo/MRO_0002195	HLA-B*15:15	HLA-B15:15|HLA-B1515|HLA-B*1515		complete molecule	human (Homo sapiens)	9606	I		B		HLA-B*15:15	HLA-B*15:15	Beta-2-microglobulin	B					56585
+1015	http://purl.obolibrary.org/obo/MRO_0002196	Mamu-A1*065:01	Mamu-A1*06501|Mamu-A1065:01|Mamu-A106501		complete molecule	rhesus macaque (Macaca mulatta)	9544	I		A		Mamu-A1*065:01	Mamu-A1*065:01	Beta-2-microglobulin	A					

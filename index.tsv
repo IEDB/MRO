@@ -2186,3 +2186,20 @@ MRO:0002182	HLA-DQA1*03:01/DQB1*05:01 protein complex	owl:Class
 MRO:0002183	HLA-DQA1*03:01/DQB1*06:02 protein complex	owl:Class	
 MRO:0002184	HLA-DQA1*05:01/DQB1*06:02 protein complex	owl:Class	
 MRO:0002185	HLA-DRB1*11:13 protein complex	owl:Class	
+MRO:0002186	HLA-C*02:10 chain	owl:Class	
+MRO:0002187	HLA-A*25:03 chain	owl:Class	
+MRO:0002188	HLA-A*25:03 protein complex	owl:Class	
+MRO:0002189	HLA-C*02:10 protein complex	owl:Class	
+MRO:0002190	HLA-C*03:13 chain	owl:Class	
+MRO:0002191	HLA-B*15:15 chain	owl:Class	
+MRO:0002192	Mamu-A1*065:01 chain	owl:Class	
+MRO:0002193	HLA-B23 serotype	owl:Class	
+MRO:0002194	HLA-C*03:13 protein complex	owl:Class	
+MRO:0002195	HLA-B*15:15 protein complex	owl:Class	
+MRO:0002196	Mamu-A1*065:01 protein complex	owl:Class	
+MRO:0002197	HLA protein complex with B23 serotype	owl:Class	
+			
+			
+			
+			
+			

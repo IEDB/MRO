@@ -912,6 +912,15 @@ HLA-DQA1*03:01/DQB1*05:01 protein complex	1003	DQ	300719	300735
 HLA-DQA1*03:01/DQB1*06:02 protein complex	1004	DQ	300719	300739
 HLA-DQA1*05:01/DQB1*06:02 protein complex	1005	DQ	300723	300739
 HLA-DRB1*11:13 protein complex	1006	DR		
+HLA-A*25:03 protein complex	1007	A		56585
+HLA-C*02:10 protein complex	1008	C		56585
+HLA protein complex with A66 serotype	1009			
+HLA protein complex with B23 serotype	1010			
+HLA protein complex with B56 serotype	1011			
+HLA-C*03:13 protein complex	1012	C		56585
+HLA-B*15:15 protein complex	1013	B		56585
+HLA-B*15:15 protein complex	1014	B		56585
+Mamu-A1*065:01 protein complex	1015	A		
 				
 				
 				
