@@ -230,6 +230,7 @@ HLA-B*15:09 chain		subclass	HLA-B chain
 HLA-B*15:10 chain		subclass	HLA-B chain	
 HLA-B*15:11 chain		subclass	HLA-B chain	
 HLA-B*15:13 chain		subclass	HLA-B chain	
+HLA-B*15:15 chain		subclass	HLA-B chain	
 HLA-B*15:16 chain		subclass	HLA-B chain	
 HLA-B*15:17 chain		subclass	HLA-B chain	
 HLA-B*15:18 chain		subclass	HLA-B chain	
@@ -323,6 +324,7 @@ HLA-C*02:10 chain		subclass	HLA-C chain
 HLA-C*03:02 chain		subclass	HLA-C chain	
 HLA-C*03:03 chain		subclass	HLA-C chain	
 HLA-C*03:04 chain		subclass	HLA-C chain	
+HLA-C*03:13 chain		subclass	HLA-C chain	
 HLA-C*04:01 chain		subclass	HLA-C chain	
 HLA-C*05:01 chain		subclass	HLA-C chain	
 HLA-C*06:02 chain		subclass	HLA-C chain	
@@ -505,6 +507,7 @@ Mamu-A1*002:01 chain		subclass	Mamu-A chain
 Mamu-A1*007:01 chain		subclass	Mamu-A chain	
 Mamu-A1*011:01 chain		subclass	Mamu-A chain	
 Mamu-A1*022:02 chain		subclass	Mamu-A chain	
+Mamu-A1*065:01 chain		subclass	Mamu-A chain	
 Mamu-A2*01:02:01 chain		subclass	Mamu-A chain	
 Mamu-A7*01:03 chain		subclass	Mamu-A chain	
 Mamu-A chain		equivalent	protein	Mamu-A locus
