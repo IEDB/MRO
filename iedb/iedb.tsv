@@ -351,15 +351,15 @@ HLA-E protein complex	371	E
 HLA-E*01:01 protein complex	372	E	300811	56585
 HLA-G protein complex	373	G		
 HLA-G*01:01 protein complex	374	G	300813	56585
-Mamu-A1*001:01 protein complex	375	A	300434	56585
-Mamu-A1*002:01 protein complex	376	A	300435	56585
-Mamu-A1*022:02 protein complex	377	A	300471	56585
-Mamu-A1*011:01 protein complex	378	A	300468	56585
+Mamu-A1*001:01 protein complex	375	A	300434	
+Mamu-A1*002:01 protein complex	376	A	300435	
+Mamu-A1*022:02 protein complex	377	A	300471	
+Mamu-A1*011:01 protein complex	378	A	300468	
 Mamu-B*001:01 protein complex	379	B	338361	
 Mamu-B*003:01 protein complex	380	B	338363	
 Mamu-B*004:01 protein complex	381	B	338364	
-Mamu-B*012:02 protein complex	382	B	300473	56585
-Mamu-B*017:04 protein complex	383	B	300474	56585
+Mamu-B*012:02 protein complex	382	B	300473	
+Mamu-B*017:04 protein complex	383	B	300474	
 Mamu protein complex with DR1B serotype	385	DR		
 Mamu protein complex with DR2 serotype	386	DR		
 Mamu protein complex with DR3A serotype	387	DR		
@@ -919,8 +919,14 @@ HLA protein complex with B23 serotype	1010
 HLA protein complex with B56 serotype	1011			
 HLA-C*03:13 protein complex	1012	C		56585
 HLA-B*15:15 protein complex	1013	B		56585
-HLA-B*15:15 protein complex	1014	B		56585
 Mamu-A1*065:01 protein complex	1015	A		
+HLA-A*34:01 protein complex	1016	A		56585
+HLA-A*34:02 protein complex	1017	A		56585
+HLA-A*36:01 protein complex	1018	A		56585
+HLA-B*07:04 protein complex	1019	B		56585
+HLA-B*35:07 protein complex	1020	B		56585
+HLA-C*04:03 protein complex	1021	C		56585
+HLA-C*14:03 protein complex	1022	C		56585
 				
 				
 				

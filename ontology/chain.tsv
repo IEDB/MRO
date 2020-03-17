@@ -204,6 +204,9 @@ HLA-A*32:07 chain		subclass	HLA-A chain
 HLA-A*32:15 chain		subclass	HLA-A chain	
 HLA-A*33:01 chain		subclass	HLA-A chain	
 HLA-A*33:03 chain		subclass	HLA-A chain	
+HLA-A*34:01 chain		subclass	HLA-A chain	
+HLA-A*34:02 chain		subclass	HLA-A chain	
+HLA-A*36:01 chain		subclass	HLA-A chain	
 HLA-A*66:01 chain		subclass	HLA-A chain	
 HLA-A*66:02 chain		subclass	HLA-A chain	
 HLA-A*68:01 chain		subclass	HLA-A chain	
@@ -214,6 +217,7 @@ HLA-A*74:01 chain		subclass	HLA-A chain
 HLA-A*80:01 chain		subclass	HLA-A chain	
 HLA-B chain		equivalent	protein	HLA-B locus
 HLA-B*07:02 chain		subclass	HLA-B chain	
+HLA-B*07:04 chain		subclass	HLA-B chain	
 HLA-B*08:01 chain		subclass	HLA-B chain	
 HLA-B*08:02 chain		subclass	HLA-B chain	
 HLA-B*08:03 chain		subclass	HLA-B chain	
@@ -255,6 +259,7 @@ HLA-B*35:02 chain		subclass	HLA-B chain
 HLA-B*35:03 chain		subclass	HLA-B chain	
 HLA-B*35:04 chain		subclass	HLA-B chain	
 HLA-B*35:06 chain		subclass	HLA-B chain	
+HLA-B*35:07 chain		subclass	HLA-B chain	
 HLA-B*35:08 chain		subclass	HLA-B chain	
 HLA-B*35:14 chain		subclass	HLA-B chain	
 HLA-B*35:62 chain		subclass	HLA-B chain	
@@ -326,6 +331,7 @@ HLA-C*03:03 chain		subclass	HLA-C chain
 HLA-C*03:04 chain		subclass	HLA-C chain	
 HLA-C*03:13 chain		subclass	HLA-C chain	
 HLA-C*04:01 chain		subclass	HLA-C chain	
+HLA-C*04:03 chain		subclass	HLA-C chain	
 HLA-C*05:01 chain		subclass	HLA-C chain	
 HLA-C*06:02 chain		subclass	HLA-C chain	
 HLA-C*07:01 chain		subclass	HLA-C chain	
@@ -338,6 +344,7 @@ HLA-C*12:02 chain		subclass	HLA-C chain
 HLA-C*12:03 chain		subclass	HLA-C chain	
 HLA-C*12:04 chain		subclass	HLA-C chain	
 HLA-C*14:02 chain		subclass	HLA-C chain	
+HLA-C*14:03 chain		subclass	HLA-C chain	
 HLA-C*15:02 chain		subclass	HLA-C chain	
 HLA-C*16:01 chain		subclass	HLA-C chain	
 HLA-C*16:02 chain	HLA-Cw*160201	subclass	HLA-C chain	
@@ -643,7 +650,7 @@ SLA-3 chain		equivalent	protein	SLA-3 locus
 SLA-3*02:02 chain		subclass	SLA-3 chain	
 SLA-3*04:01 chain		subclass	SLA-3 chain	
 Saoe-G chain		equivalent	protein	Saoe-G locus
-Xela-UAAg chain		subclass	clawed frog MHC class I chain	
+Xela-UAAg chain		equivalent	protein	Xela-UAAg locus
 YF1w*7.1 chain		subclass	BF-YF chain	
 black flying fox MHC class I chain		equivalent	protein	black flying fox MHC class I locus
 bonobo MHC class I chain		equivalent	protein	bonobo MHC class I locus

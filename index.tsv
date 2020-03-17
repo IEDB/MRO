@@ -2198,8 +2198,18 @@ MRO:0002194	HLA-C*03:13 protein complex	owl:Class
 MRO:0002195	HLA-B*15:15 protein complex	owl:Class	
 MRO:0002196	Mamu-A1*065:01 protein complex	owl:Class	
 MRO:0002197	HLA protein complex with B23 serotype	owl:Class	
-			
-			
-			
-			
-			
+MRO:0002198	Xela-UAAg locus	owl:Class	
+MRO:0002199	HLA-A*34:01 chain	owl:Class	
+MRO:0002200	HLA-A*34:02 chain	owl:Class	
+MRO:0002201	HLA-A*36:01 chain	owl:Class	
+MRO:0002202	HLA-B*07:04 chain	owl:Class	
+MRO:0002203	HLA-B*35:07 chain	owl:Class	
+MRO:0002204	HLA-C*04:03 chain	owl:Class	
+MRO:0002205	HLA-C*14:03 chain	owl:Class	
+MRO:0002206	HLA-A*34:01 protein complex	owl:Class	
+MRO:0002207	HLA-A*34:02 protein complex	owl:Class	
+MRO:0002208	HLA-A*36:01 protein complex	owl:Class	
+MRO:0002209	HLA-B*07:04 protein complex	owl:Class	
+MRO:0002210	HLA-B*35:07 protein complex	owl:Class	
+MRO:0002211	HLA-C*04:03 protein complex	owl:Class	
+MRO:0002212	HLA-C*14:03 protein complex	owl:Class	

@@ -1042,7 +1042,7 @@ http://purl.obolibrary.org/obo/MRO_0002149,complete molecule,980,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0002150,complete molecule,981,9606,human,MHC class I,B,,HLA-B48 serotype,HLA-B*48:03 protein complex,MRO_0002150,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002151,class,982,8355,clawed frog,MHC class I,,,,clawed frog MHC class I protein complex,MRO_0002151,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002152,class,983,8355,clawed frog,MHC class II,,,,clawed frog MHC class II protein complex,MRO_0002152,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002153,complete molecule,984,8355,clawed frog,MHC class I,,,,Xela-UAAg protein complex,MRO_0002153,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002153,locus,984,8355,clawed frog,MHC class I,,,,Xela-UAAg protein complex,MRO_0002153,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002162,complete molecule,985,9606,human,non-classical MHC,F,,HLA-F serotype,HLA-F*01:03 protein complex,MRO_0002162,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002163,complete molecule,986,9606,human,non-classical MHC,F,,HLA-F serotype,HLA-F*01:04 protein complex,MRO_0002163,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002166,complete molecule,987,9606,human,MHC class II,DP,,,HLA-DPA1*01:03/DPB1*01:01 protein complex,MRO_0002166,http://purl.obolibrary.org/obo/
@@ -1069,6 +1069,12 @@ http://purl.obolibrary.org/obo/MRO_0002188,complete molecule,1007,9606,human,MHC
 http://purl.obolibrary.org/obo/MRO_0002189,complete molecule,1008,9606,human,MHC class II,C,,,HLA-C*02:10 protein complex,MRO_0002189,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002194,complete molecule,1012,9606,human,MHC class I,C,,,HLA-C*03:13 protein complex,MRO_0002194,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002195,complete molecule,1013,9606,human,MHC class I,B,,,HLA-B*15:15 protein complex,MRO_0002195,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002195,complete molecule,1014,9606,human,MHC class I,B,,,HLA-B*15:15 protein complex,MRO_0002195,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002196,complete molecule,1015,9544,rhesus macaque,MHC class I,A,,,Mamu-A1*065:01 protein complex,MRO_0002196,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002197,serotype,1010,9606,human,MHC class I,,,HLA-B23 serotype,HLA protein complex with B23 serotype,MRO_0002197,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002206,complete molecule,1016,9606,human,MHC class I,A,,HLA-A34 serotype,HLA-A*34:01 protein complex,MRO_0002206,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002207,complete molecule,1017,9606,human,MHC class I,A,,HLA-A34 serotype,HLA-A*34:02 protein complex,MRO_0002207,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002208,complete molecule,1018,9606,human,MHC class I,A,,,HLA-A*36:01 protein complex,MRO_0002208,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002209,complete molecule,1019,9606,human,MHC class I,B,,HLA-B7 serotype,HLA-B*07:04 protein complex,MRO_0002209,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002210,complete molecule,1020,9606,human,MHC class I,B,,HLA-B35 serotype,HLA-B*35:07 protein complex,MRO_0002210,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002211,complete molecule,1021,9606,human,MHC class I,C,,,HLA-C*04:03 protein complex,MRO_0002211,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002212,complete molecule,1022,9606,human,MHC class I,C,,,HLA-C*14:03 protein complex,MRO_0002212,http://purl.obolibrary.org/obo/
