@@ -400,6 +400,7 @@ HLA-DQA1*03:01/DQB1*06:02 protein complex	HLA-DQA1*03:01/DQB1*06:02		complete mo
 HLA-DQA1*03:02/DQB1*03:01 protein complex	HLA-DQA1*03:02/DQB1*03:01	HLA-DQ7.3	complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:02 chain	HLA-DQB1*03:01 chain		HLA-DQ7 serotype
 HLA-DQA1*03:02/DQB1*03:03 protein complex	HLA-DQA1*03:02/DQB1*03:03		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:02 chain	HLA-DQB1*03:03 chain		HLA-DQ9 serotype
 HLA-DQA1*03:02/DQB1*04:01 protein complex	HLA-DQA1*03:02/DQB1*04:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:02 chain	HLA-DQB1*04:01 chain		HLA-DQ4 serotype
+HLA-DQA1*03:03 protein complex	HLA-DQA1*03:03		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:03 chain	HLA-DQB chain		
 HLA-DQA1*03:03/DQB1*03:01 protein complex	HLA-DQA1*03:03/DQB1*03:01	DQ3	complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:03 chain	HLA-DQB1*03:01 chain		HLA-DQ3.33 serotype
 HLA-DQA1*03:03/DQB1*04:02 protein complex	HLA-DQA1*03:03/DQB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:03 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
 HLA-DQA1*04:01/DQB1*04:02 protein complex	HLA-DQA1*04:01/DQB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*04:01 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
@@ -410,6 +411,7 @@ HLA-DQA1*05:01/DQB1*03:02 protein complex	HLA-DQA1*05:01/DQB1*03:02	HLA-DQA1*050
 HLA-DQA1*05:01/DQB1*03:03 protein complex	HLA-DQA1*05:01/DQB1*03:03		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:01 chain	HLA-DQB1*03:03 chain		HLA-DQ9 serotype
 HLA-DQA1*05:01/DQB1*04:02 protein complex	HLA-DQA1*05:01/DQB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:01 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
 HLA-DQA1*05:01/DQB1*06:02 protein complex	HLA-DQA1*05:01/DQB1*06:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:01 chain	HLA-DQB1*06:02 chain		
+HLA-DQA1*05:05 protein complex	HLA-DQA1*05:05		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:05 chain	HLA-DQB chain		
 HLA-DQA1*05:05/DQB1*03:01 protein complex	HLA-DQA1*05:05/DQB1*03:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:05 chain	HLA-DQB1*03:01 chain		HLA-DQ7 serotype
 HLA-DQA1*06:01/DQB1*04:02 protein complex	HLA-DQA1*06:01/DQB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*06:01 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
 HLA-DQB1*02:01 protein complex	HLA-DQB1*02:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA chain	HLA-DQB1*02:01 chain		HLA-DQ2 serotype
