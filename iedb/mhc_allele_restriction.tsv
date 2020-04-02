@@ -926,3 +926,5 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 1020	http://purl.obolibrary.org/obo/MRO_0002210	HLA-B*35:07	HLA-B35:07|HLA-B3507|HLA-B*3507		complete molecule	human (Homo sapiens)	9606	I		B	B35	HLA-B*35:07	HLA-B*35:07	Beta-2-microglobulin	B					56585
 1021	http://purl.obolibrary.org/obo/MRO_0002211	HLA-C*04:03	HLA-C04:03|HLA-C0403|HLA-C*0403		complete molecule	human (Homo sapiens)	9606	I		C		HLA-C*04:03	HLA-C*04:03	Beta-2-microglobulin	C					56585
 1022	http://purl.obolibrary.org/obo/MRO_0002212	HLA-C*14:03	HLA-C14:03|HLA-C1403|HLA-C*1403		complete molecule	human (Homo sapiens)	9606	I		C		HLA-C*14:03	HLA-C*14:03	Beta-2-microglobulin	C					56585
+1023	http://purl.obolibrary.org/obo/MRO_0002213	HLA-DQA1*03:03	HLA-DQA1*0303|HLA-DQA103:03|HLA-DQA10303		partial molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*03:03	HLA-DQA1*03:03	HLA-DQB	DQA		DQB		300721	
+1024	http://purl.obolibrary.org/obo/MRO_0002214	HLA-DQA1*05:05	HLA-DQA1*0505|HLA-DQA105:05|HLA-DQA10505		partial molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*05:05	HLA-DQA1*05:05	HLA-DQB	DQA		DQB		300724	

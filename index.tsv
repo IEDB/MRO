@@ -2213,3 +2213,5 @@ MRO:0002209	HLA-B*07:04 protein complex	owl:Class
 MRO:0002210	HLA-B*35:07 protein complex	owl:Class	
 MRO:0002211	HLA-C*04:03 protein complex	owl:Class	
 MRO:0002212	HLA-C*14:03 protein complex	owl:Class	
+MRO:0002213	HLA-DQA1*03:03 protein complex	owl:Class	
+MRO:0002214	HLA-DQA1*05:05 protein complex	owl:Class	
