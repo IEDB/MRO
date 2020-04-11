@@ -229,6 +229,7 @@ HLA-B*14:03 chain		subclass	HLA-B chain
 HLA-B*15:01 chain		subclass	HLA-B chain	
 HLA-B*15:02 chain		subclass	HLA-B chain	
 HLA-B*15:03 chain		subclass	HLA-B chain	
+HLA-B*15:04 chain		subclass	HLA-B chain	
 HLA-B*15:08 chain		subclass	HLA-B chain	
 HLA-B*15:09 chain		subclass	HLA-B chain	
 HLA-B*15:10 chain		subclass	HLA-B chain	
@@ -239,7 +240,9 @@ HLA-B*15:16 chain		subclass	HLA-B chain
 HLA-B*15:17 chain		subclass	HLA-B chain	
 HLA-B*15:18 chain		subclass	HLA-B chain	
 HLA-B*15:21 chain		subclass	HLA-B chain	
+HLA-B*15:24 chain		subclass	HLA-B chain	
 HLA-B*15:25 chain		subclass	HLA-B chain	
+HLA-B*15:39 chain		subclass	HLA-B chain	
 HLA-B*15:42 chain		subclass	HLA-B chain	
 HLA-B*18:01 chain		subclass	HLA-B chain	
 HLA-B*18:03 chain		subclass	HLA-B chain	
@@ -267,6 +270,7 @@ HLA-B*37:01 chain		subclass	HLA-B chain
 HLA-B*38:01 chain		subclass	HLA-B chain	
 HLA-B*38:02 chain		subclass	HLA-B chain	
 HLA-B*39:01 chain		subclass	HLA-B chain	
+HLA-B*39:03 chain		subclass	HLA-B chain	
 HLA-B*39:05 chain		subclass	HLA-B chain	
 HLA-B*39:06 chain		subclass	HLA-B chain	
 HLA-B*39:09 chain		subclass	HLA-B chain	
@@ -349,8 +353,10 @@ HLA-C*15:02 chain		subclass	HLA-C chain
 HLA-C*16:01 chain		subclass	HLA-C chain	
 HLA-C*16:02 chain	HLA-Cw*160201	subclass	HLA-C chain	
 HLA-C*17:01 chain		subclass	HLA-C chain	
+HLA-C*18:02 chain		subclass	HLA-C chain	
 HLA-CD1 chain		equivalent	protein	HLA-CD1 locus
 HLA-DPA1*01:03 chain		subclass	HLA-DPA chain	
+HLA-DPA1*01:05 chain		subclass	HLA-DPA chain	
 HLA-DPA1*02:01 chain		subclass	HLA-DPA chain	
 HLA-DPA1*02:02 chain		subclass	HLA-DPA chain	
 HLA-DPA1*03:01 chain		subclass	HLA-DPA chain	
@@ -370,6 +376,7 @@ HLA-DPB1*13:01 chain		subclass	HLA-DPB chain
 HLA-DPB1*14:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*16:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*17:01 chain		subclass	HLA-DPB chain	
+HLA-DPB1*18:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*20:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*23:01 chain		subclass	HLA-DPB chain	
 HLA-DPB1*31:01 chain		subclass	HLA-DPB chain	
@@ -380,12 +387,14 @@ HLA-DQA1*01:01 chain		subclass	HLA-DQA chain
 HLA-DQA1*01:02 chain		subclass	HLA-DQA chain	
 HLA-DQA1*01:03 chain		subclass	HLA-DQA chain	
 HLA-DQA1*01:04 chain		subclass	HLA-DQA chain	
+HLA-DQA1*01:04 chain		subclass	HLA-DQA chain	
 HLA-DQA1*02:01 chain		subclass	HLA-DQA chain	
 HLA-DQA1*03:01 chain		subclass	HLA-DQA chain	
 HLA-DQA1*03:02 chain		subclass	HLA-DQA chain	
 HLA-DQA1*03:03 chain		subclass	HLA-DQA chain	
 HLA-DQA1*04:01 chain		subclass	HLA-DQA chain	
 HLA-DQA1*05:01 chain		subclass	HLA-DQA chain	
+HLA-DQA1*05:03 chain		subclass	HLA-DQA chain	
 HLA-DQA1*05:05 chain		subclass	HLA-DQA chain	
 HLA-DQA1*06:01 chain		subclass	HLA-DQA chain	
 HLA-DQA chain		equivalent	protein	HLA-DQA locus
