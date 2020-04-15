@@ -221,6 +221,9 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 
 .PHONY: test
 test: build/report.csv verify
+
+.PHONY: pytest
+pytest:
 	py.test src/tree.py
 	py.test src/synonyms.py
 
