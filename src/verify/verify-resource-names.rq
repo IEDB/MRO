@@ -1,0 +1,7 @@
+PREFIX MRO: <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT DISTINCT ?s WHERE {
+	?s MRO:resource-name ?name1 ;
+	   MRO:resource-name ?name2 .
+	FILTER (?name1 != ?name2)
+}

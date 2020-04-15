@@ -1,5 +1,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
 
 <http://purl.obolibrary.org/obo/mro.owl>
   dc:title "MHC Restriction Ontology" ;
@@ -14,4 +15,4 @@
   dc:creator "Randi Vita" ;
   dc:creator "Rebecca L. Tallmadge" ;
   dc:creator "Shirley Ellis" ;
-  dc:license <http://creativecommons.org/licenses/by/3.0/> .
+  dct:license <http://creativecommons.org/licenses/by/3.0/> .
