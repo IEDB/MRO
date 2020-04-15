@@ -210,8 +210,7 @@ build/mro-base.owl: mro.owl | build/robot.jar
 
 .PRECIOUS: build/report.csv
 build/report.csv: build/mro-base.owl | build/robot.jar
-	$(ROBOT) report --input $< \
-	--output $@
+	$(ROBOT) report --input $< --print 10 --output $@
 
 .PHONY: verify
 verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
