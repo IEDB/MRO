@@ -44,7 +44,7 @@ build:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.6.0/robot.jar
 
 
 ### Ontology Source Tables
@@ -200,8 +200,27 @@ update-iedb: $(IEDB_TARGETS)
 
 ### General
 
+VERIFY_QUERIES = $(wildcard src/verify/*.rq)
+
+build/mro-base.owl: mro.owl | build/robot.jar
+	$(ROBOT) remove --input $< \
+	--base-iri $(OBO)/MRO_ \
+	--axioms external \
+	--output $@
+
+.PRECIOUS: build/report.csv
+build/report.csv: build/mro-base.owl | build/robot.jar
+	$(ROBOT) report --input $< \
+	--output $@
+
+.PHONY: verify
+verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
+	$(ROBOT) verify --input $< \
+	--queries $(VERIFY_QUERIES) \
+	--output-dir build
+
 .PHONY: test
-test:
+test: build/report.csv verify
 	py.test src/tree.py
 	py.test src/synonyms.py
 

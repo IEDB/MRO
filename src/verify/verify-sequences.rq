@@ -1,0 +1,7 @@
+PREFIX MRO: <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT DISTINCT ?s WHERE {
+	?s MRO:sequence ?seq1 ;
+	   MRO:sequence ?seq2 .
+	FILTER (?seq1 != ?seq2)
+}

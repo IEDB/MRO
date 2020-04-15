@@ -1,0 +1,7 @@
+PREFIX MRO: <http://purl.obolibrary.org/obo/MRO_>
+
+SELECT DISTINCT ?s WHERE {
+	?s MRO:has-chain-ii-source-id ?id1 ;
+	   MRO:has-chain-ii-source-id ?id2 .
+	FILTER (?id1 != ?id2)
+}
