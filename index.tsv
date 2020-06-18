@@ -2233,3 +2233,18 @@ MRO:0002229	HLA-DPA1*01:05 protein complex	owl:Class
 MRO:0002230	HLA-DPB1*18:01 protein complex	owl:Class	
 MRO:0002231	HLA-B*15:39 protein complex	owl:Class	
 MRO:0002232	HLA-DQA1*03:02 protein complex	owl:Class	
+MRO:0002233	HLA-DRB1*04:22 chain	owl:Class	
+MRO:0002234	HLA-DRB1*11:21 chain	owl:Class	
+MRO:0002235	HLA-DRB1*15:05 chain	owl:Class	
+MRO:0002236	HLA-DRB1*08:05 chain	owl:Class	
+MRO:0002237	HLA-DRB1*12:03 chain	owl:Class	
+MRO:0002238	HLA-C*18:01 chain	owl:Class	
+MRO:0002239	HLA-B*07:06 chain	owl:Class	
+MRO:0002240	HLA-DQA1*05:01/DQB1*05:01 protein complex	owl:Class	
+MRO:0002241	HLA-DRB1*04:22 protein complex	owl:Class	
+MRO:0002242	HLA-DRB1*11:21 protein complex	owl:Class	
+MRO:0002243	HLA-DRB1*15:05 protein complex	owl:Class	
+MRO:0002244	HLA-DRB1*08:05 protein complex	owl:Class	
+MRO:0002245	HLA-DRB1*12:03 protein complex	owl:Class	
+MRO:0002246	HLA-C*18:01 protein complex	owl:Class	
+MRO:0002247	HLA-B*07:06 protein complex	owl:Class	

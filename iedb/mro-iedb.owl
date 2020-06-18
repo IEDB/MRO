@@ -13,7 +13,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-04-15/mro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-06-18/mro.owl"/>
         <dc:creator>Alessandro Sette</dc:creator>
         <dc:creator>Bjoern Peters</dc:creator>
         <dc:creator>Emily Seymour</dc:creator>
@@ -25,9 +25,9 @@
         <dc:creator>Rebecca L. Tallmadge</dc:creator>
         <dc:creator>Shirley Ellis</dc:creator>
         <dc:description>The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions.</dc:description>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:title>MHC Restriction Ontology</dc:title>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-04-15</owl:versionInfo>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-06-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -445,12 +445,6 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
@@ -470,6 +464,12 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -52585,6 +52585,381 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQ</obo:MRO_has-mhc-locus>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA1*03:02</obo:OBI_9991118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA1*03:02 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000697"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00708</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*04:22</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EQVKHECHFFNGTERVRFLDRYFYHQEEYVRFDSDVGEYRAVTELGRPDAEYWNSQKDLLEQKRGRVDNYCRHNYGVVESFT</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*04:22 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000697"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00775</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*11:21</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVCLRLPGGSCMAVLTVTLMVLSSPLALAGDTRPRFLEYSTSECHFFNGTERVRFLDRYFYNQEEYVRFDSDVGEFRAVTELGRPDEEYWNSQKDILEDERAAVDTYCRHNYGAVESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVSGFYPGSIEVRWFRNGQEEKTGVVSTGLIHNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSESAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPRGFLS</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*11:21 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000697"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00872</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*15:05</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RFLWQPKRECHFFNGTERVRFLDRYFYNQEESVRFDSDVGEFRAVTELGRPDAEYWNSQKDLLEQARAAVDTYCRHNYGVVESFTVQRRVQPKVTVYPSKTQPLQHHNLLVCSVSGFYPGSIEVRWFLNGQEEKAGMVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEW</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*15:05 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000697"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00731</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*08:05</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RFLEYSTGECYFFNGTERVRFLDRYFYNQEEYVRFDSDVGEYRAVTELGRPSAEYWNSQKDFLEDRRAAVDTYCRHNYGVGESFTVQRR</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*08:05 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000697"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00793</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*12:03:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RFLEYSTGECYFFNGTERVRLLERHFHNQEELLRFDSDVGEFRAVTELGRPVAESWNSQKDILEDRRAAVDTYCRHNYGVVESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVSGFYPGSIEVRWFRNGQEEKTGVVSTGLIHNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEW</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*12:03 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000616"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00483</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C*18:01:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRVMAPRALLLLLSGGLALTETWACSHSMRYFDTAVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQADRVNLRKLRGYYNQSEDGSHTLQRMFGCDLGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQRRAYLEGTCVEWLRRYLENGKETLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQWDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWKPSSQPTIPIVGIVAGLAVLVVLAVLGAVVAVVMCRRKSSGGKGGSCSQAASSNSAQGSDESLIACKA</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C*18:01 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000527"/>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA00138</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B*07:06:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLVMAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIYKAQAQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQRRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSSQSTVPIVGIVAGLAVLAVVVIGAVVAAVMCRRKSSGGKGGSYSQAACSDSAQGSDVSLTA</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMGT/HLA</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*07:06 chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002240">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000669"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000684"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001228"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA1*0501/DQB1*0501</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA10501/DQB10501</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA105:01/DQB105:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_has-chain-i-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300723</obo:MRO_has-chain-i-source-id>
+        <obo:MRO_has-chain-ii-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300735</obo:MRO_has-chain-ii-source-id>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1036</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQ</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA1*05:01/DQB1*05:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DQA1*05:01/DQB1*05:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002241">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002233"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001278"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*0422</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB10422</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB104:22</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1037</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*04:22</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*04:22 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002242">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002234"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001278"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*1121</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB11121</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB111:21</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1038</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*11:21</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*11:21 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002243">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002235"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001278"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*1505</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB11505</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB115:05</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1039</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*15:05</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*15:05 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002244">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002236"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001278"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*0805</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB10805</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB108:05</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1040</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*08:05</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*08:05 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002245">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000693"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002237"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001278"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*1203</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB11203</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB112:03</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1041</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*12:03</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*12:03 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002246">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002238"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001149"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C*1801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C1801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C18:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_has-chain-ii-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56585</obo:MRO_has-chain-ii-source-id>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1042</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C*18:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-C*18:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002247">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001355"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002239"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000004580"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001061"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*0706</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B0706</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B07:06</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
+        <obo:MRO_has-chain-ii-source-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56585</obo:MRO_has-chain-ii-source-id>
+        <obo:MRO_has-iedb-mhc-id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1043</obo:MRO_has-iedb-mhc-id>
+        <obo:MRO_has-mhc-locus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</obo:MRO_has-mhc-locus>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*07:06</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*07:06 protein complex</rdfs:label>
     </owl:Class>
     
 
