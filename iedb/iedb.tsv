@@ -948,3 +948,32 @@ HLA-DRB1*08:05 protein complex	1040	DR
 HLA-DRB1*12:03 protein complex	1041	DR		
 HLA-C*18:01 protein complex	1042	C		56585
 HLA-B*07:06 protein complex	1043	B		56585
+HLA-A*26:08 protein complex	1044	A		56585
+HLA-C*15:05 protein complex	1045	C		56585
+HLA-DPA1*01:03/DPB1*17:01 protein complex	1046	DP		
+HLA-DPA1*02:01/DPB1*02:01 protein complex	1047	DP		
+HLA-DPA1*02:01/DPB1*03:01 protein complex	1048	DP		
+HLA-DPA1*02:01/DPB1*17:01 protein complex	1049	DP		
+HLA-DPA1*02:02/DPB1*03:01 protein complex	1050	DP		
+HLA-DPA1*02:02/DPB1*04:01 protein complex	1051	DP		
+HLA-DQA1*01:02/DQB1*02:02 protein complex	1052	DQ		
+HLA-DQA1*01:02/DQB1*03:03 protein complex	1053	DQ		
+HLA-DQA1*01:03/DQB1*02:02 protein complex	1054	DQ		
+HLA-DQA1*01:05/DQB1*05:01 protein complex	1055	DQ		
+HLA-DQA1*01:05/DQB1*05:02 protein complex	1056	DQ		
+HLA-DQA1*02:01/DQB1*06:03 protein complex	1057	DQ		
+HLA-DQA1*02:01/DQB1*06:04 protein complex	1058	DQ		
+HLA-DQA1*03:02/DQB1*03:02 protein complex	1059	DQ		
+HLA-DQA1*03:03/DQB1*02:02 protein complex	1060	DQ		
+HLA-DQA1*03:03/DQB1*03:02 protein complex	1061	DQ		
+HLA-DQA1*03:03/DQB1*06:02 protein complex	1062	DQ		
+HLA-DQA1*04:01/DQB1*03:01 protein complex	1063	DQ		
+HLA-DQA1*05:05/DQB1*02:02 protein complex	1064	DQ		
+HLA-DQA1*05:05/DQB1*03:02 protein complex	1065	DQ		
+HLA-DQA1*05:05/DQB1*04:02 protein complex	1066	DQ		
+HLA-DQA1*05:05/DQB1*05:01 protein complex	1067	DQ		
+HLA-DQA1*05:05/DQB1*05:03 protein complex	1068	DQ		
+HLA-DQA1*05:05/DQB1*06:02 protein complex	1069	DQ		
+HLA-DPA1*01:03/DPB1*104:01 protein complex	1070	DP		
+HLA-DQA1*01:05 protein complex	1071	DQ		
+HLA-DPB1*104:01 protein complex	1072	DP		
