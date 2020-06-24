@@ -219,6 +219,7 @@ HLA-A*80:01 chain		subclass	HLA-A chain
 HLA-B chain		equivalent	protein	HLA-B locus
 HLA-B*07:02 chain		subclass	HLA-B chain	
 HLA-B*07:04 chain		subclass	HLA-B chain	
+HLA-B*07:06 chain		subclass	HLA-B chain	
 HLA-B*08:01 chain		subclass	HLA-B chain	
 HLA-B*08:02 chain		subclass	HLA-B chain	
 HLA-B*08:03 chain		subclass	HLA-B chain	
@@ -355,6 +356,7 @@ HLA-C*15:05 chain		subclass	HLA-C chain
 HLA-C*16:01 chain		subclass	HLA-C chain	
 HLA-C*16:02 chain	HLA-Cw*160201	subclass	HLA-C chain	
 HLA-C*17:01 chain		subclass	HLA-C chain	
+HLA-C*18:01 chain		subclass	HLA-C chain	
 HLA-C*18:02 chain		subclass	HLA-C chain	
 HLA-CD1 chain		equivalent	protein	HLA-CD1 locus
 HLA-DPA1*01:03 chain		subclass	HLA-DPA chain	
@@ -448,12 +450,14 @@ HLA-DRB1*04:07 chain		subclass	HLA-DRB1 chain
 HLA-DRB1*04:08 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*04:10 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*04:11 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*04:22 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*07:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*07:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*08:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*08:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*08:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*08:04 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*08:05 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*08:18 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*08:20 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*09:01 chain		subclass	HLA-DRB1 chain	
@@ -463,8 +467,10 @@ HLA-DRB1*11:02 chain		subclass	HLA-DRB1 chain
 HLA-DRB1*11:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*11:04 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*11:13 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*11:21 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*12:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*12:02 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*12:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*13:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*13:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*13:03 chain		subclass	HLA-DRB1 chain	
@@ -485,6 +491,7 @@ HLA-DRB1*15:01 chain		subclass	HLA-DRB1 chain
 HLA-DRB1*15:02 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*15:03 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*15:04 chain		subclass	HLA-DRB1 chain	
+HLA-DRB1*15:05 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*15:06 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*16:01 chain		subclass	HLA-DRB1 chain	
 HLA-DRB1*16:02 chain		subclass	HLA-DRB1 chain	
