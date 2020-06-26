@@ -983,4 +983,4 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 1077	http://purl.obolibrary.org/obo/MRO_0002291	HLA-DPA1*01:04	HLA-DPA1*0104|HLA-DPA101:04|HLA-DPA10104		partial molecule	human (Homo sapiens)	9606	II		DP										
 1078	http://purl.obolibrary.org/obo/MRO_0002292	HLA-DPB1*10:01	HLA-DPB1*1001|HLA-DPB110:01|HLA-DPB11001		partial molecule	human (Homo sapiens)	9606	II		DP		HLA-DPB1*10:01	HLA-DPA	HLA-DPB1*10:01	DPA		DPB			
 1079	http://purl.obolibrary.org/obo/MRO_0002293	HLA-DPB1*15:01	HLA-DPB1*1501|HLA-DPB115:01|HLA-DPB11501		partial molecule	human (Homo sapiens)	9606	II		DP		HLA-DPB1*15:01	HLA-DPA	HLA-DPB1*15:01	DPA		DPB			
-1080	http://purl.obolibrary.org/obo/MRO_0002294	HLA-DQA1*04:01	HLA-DQA1*0401|HLA-DQA104:01|HLA-DQA10401		partial molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*04:01	HLA-DQB	HLA-DQA1*04:01 protein complex	human MHC class II		DQB chain			
+1080	http://purl.obolibrary.org/obo/MRO_0002294	HLA-DQA1*04:01	HLA-DQA1*0401|HLA-DQA104:01|HLA-DQA10401		partial molecule	human (Homo sapiens)	9606	II		DQ		HLA-DQA1*04:01	HLA-DQA1*04:01	HLA-DQB	DQA		DQB			
