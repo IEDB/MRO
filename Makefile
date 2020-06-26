@@ -35,7 +35,7 @@ ROBOT := java -jar build/robot.jar
 
 ### Set Up
 
-build:
+build build/validate:
 	mkdir -p $@
 
 
@@ -45,6 +45,9 @@ build:
 
 build/robot.jar: | build
 	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.6.0/robot.jar
+
+build/robot-validate.jar: | build
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
 
 
 ### Ontology Source Tables
@@ -218,8 +221,18 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
 
+.PHONY: validate
+validate: mro.owl $(source_files) | build/robot-validate.jar build/validate
+	java -jar build/robot-validate.jar validate \
+	--input $< \
+	$(foreach i,$(source_files),--table $(i)) \
+	--skip-row 2 \
+	--format html \
+	--standalone true \
+	--output-dir build/validate
+
 .PHONY: test
-test: build/report.csv verify
+test: build/report.csv verify validate
 
 .PHONY: pytest
 pytest:

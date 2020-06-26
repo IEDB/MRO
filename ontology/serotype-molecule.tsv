@@ -1,5 +1,6 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'serotype member of' some %
+							
 BoLA protein complex with A10 serotype	BoLA-A10		serotype	equivalent	MHC protein complex	cattle	BoLA-A10 serotype
 BoLA protein complex with A11 serotype	BoLA-A11		serotype	equivalent	MHC protein complex	cattle	BoLA-A11 serotype
 BoLA protein complex with A14 serotype	BoLA-A14		serotype	equivalent	MHC protein complex	cattle	BoLA-A14 serotype

@@ -1,5 +1,6 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
+				
 BoLA-A10 serotype		subclass	cattle MHC class I serotype	
 BoLA-A11 serotype		subclass	cattle MHC class I serotype	
 BoLA-A14 serotype		subclass	cattle MHC class I serotype	
