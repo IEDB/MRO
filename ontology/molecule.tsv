@@ -232,6 +232,7 @@ HLA-B*35:04 protein complex	HLA-B*35:04		complete molecule	equivalent	MHC class 
 HLA-B*35:06 protein complex	HLA-B*35:06		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:06 chain	Beta-2-microglobulin		HLA-B35 serotype
 HLA-B*35:07 protein complex	HLA-B*35:07		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:07 chain	Beta-2-microglobulin		HLA-B35 serotype
 HLA-B*35:08 protein complex	HLA-B*35:08		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:08 chain	Beta-2-microglobulin		HLA-B35 serotype
+HLA-B*35:12 protein complex	HLA-B*35:12		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:12 chain	Beta-2-microglobulin		HLA-B35 serotype
 HLA-B*35:14 protein complex	HLA-B*35:14		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:14 chain	Beta-2-microglobulin		HLA-B35 serotype
 HLA-B*35:62 protein complex	HLA-B*35:62		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:62 chain	Beta-2-microglobulin		HLA-B35 serotype
 HLA-B*37:01 protein complex	HLA-B*37:01		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*37:01 chain	Beta-2-microglobulin		HLA-B37 serotype
@@ -308,6 +309,7 @@ HLA-C*06:02 protein complex	HLA-C*06:02	HLA-Cw*0601|HLA-Cw*0602	complete molecul
 HLA-C*07:01 protein complex	HLA-C*07:01	HLA-Cw*0701|HLA-Cw*07011	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*07:01 chain	Beta-2-microglobulin		HLA-Cw7 serotype
 HLA-C*07:02 protein complex	HLA-C*07:02	HLA-Cw*0702	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*07:02 chain	Beta-2-microglobulin		HLA-Cw7 serotype
 HLA-C*07:04 protein complex	HLA-C*07:04	HLA-Cw*0704	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*07:04 chain	Beta-2-microglobulin		HLA-Cw7 serotype
+HLA-C*07:27 protein complex	HLA-C*07:27		complete molecule	equivalent	MHC class I protein complex	human	HLA-C*07:27 chain	Beta-2-microglobulin		
 HLA-C*08:01 protein complex	HLA-C*08:01	HLA-Cw*0801	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*08:01 chain	Beta-2-microglobulin		HLA-Cw8 serotype
 HLA-C*08:02 protein complex	HLA-C*08:02	HLA-Cw*0802	complete molecule	equivalent	MHC class I protein complex	human	HLA-C*08:02 chain	Beta-2-microglobulin		HLA-Cw8 serotype
 HLA-C*08:03 protein complex	HLA-C*08:03		complete molecule	equivalent	MHC class I protein complex	human	HLA-C*08:03 chain	Beta-2-microglobulin		HLA-Cw8 serotype
@@ -340,6 +342,7 @@ HLA-DPA1*01:03/DPB1*14:01 protein complex	HLA-DPA1*01:03/DPB1*14:01		complete mo
 HLA-DPA1*01:03/DPB1*17:01 protein complex	HLA-DPA1*01:03/DPB1*17:01 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*17:01 chain		
 HLA-DPA1*01:03/DPB1*20:01 protein complex	HLA-DPA1*01:03/DPB1*20:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*20:01 chain		
 HLA-DPA1*01:03/DPB1*104:01 protein complex	HLA-DPA1*01:03/DPB1*104:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*104:01 chain		
+HLA-DPA1*01:04 protein complex	HLA-DPA1*01:04		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:04 chain	HLA-DPB chain		
 HLA-DPA1*01:05 protein complex	HLA-DPA1*01:05		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:05 chain	HLA-DPB chain		
 HLA-DPA1*02:01 protein complex	HLA-DPA1*02:01	HLA-DPA1*020101	partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB chain		
 HLA-DPA1*02:01/DPB1*01:01 protein complex	HLA-DPA1*02:01/DPB1*01:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*01:01 chain		HLA-DP1 serotype
@@ -350,10 +353,12 @@ HLA-DPA1*02:01/DPB1*05:01 protein complex	HLA-DPA1*02:01/DPB1*05:01		complete mo
 HLA-DPA1*02:01/DPB1*09:01 protein complex	HLA-DPA1*02:01/DPB1*09:01	HLA-DPw9	complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*09:01 chain		HLA-DP9 serotype
 HLA-DPA1*02:01/DPB1*14:01 protein complex	HLA-DPA1*02:01/DPB1*14:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*14:01 chain		
 HLA-DPA1*02:01/DPB1*17:01 protein complex	HLA-DPA1*02:01/DPB1*17:01 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*17:01 chain		
+HLA-DPA1*02:02 protein complex	HLA-DPA1*02:02		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:02 chain	HLA-DPB chain		
 HLA-DPA1*02:02/DPB1*01:01 protein complex	HLA-DPA1*02:02/DPB1*01:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:02 chain	HLA-DPB1*01:01 chain		
 HLA-DPA1*02:02/DPB1*03:01 protein complex	HLA-DPA1*02:02/DPB1*03:01 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:02 chain	HLA-DPB1*03:01 chain		
 HLA-DPA1*02:02/DPB1*04:01 protein complex	HLA-DPA1*02:02/DPB1*04:01 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:02 chain	HLA-DPB1*04:01 chain		
 HLA-DPA1*02:02/DPB1*05:01 protein complex	HLA-DPA1*02:02/DPB1*05:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:02 chain	HLA-DPB1*05:01 chain		HLA-DP5 serotype
+HLA-DPA1*02:06 protein complex	HLA-DPA1*02:06		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:06 chain	HLA-DPB chain		
 HLA-DPA1*03:01 protein complex	HLA-DPA1*03:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*03:01 chain	HLA-DPB chain		
 HLA-DPA1*03:01/DPB1*04:02 protein complex	HLA-DPA1*03:01/DPB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*03:01 chain	HLA-DPB1*04:02 chain		HLA-DP4 serotype
 HLA-DPB1*01:01 protein complex	HLA-DPB1*01:01	HLA-DPB1*01011	partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*01:01 chain		HLA-DPw1 serotype
@@ -364,9 +369,11 @@ HLA-DPB1*04:02 protein complex	HLA-DPB1*04:02		partial molecule	equivalent	MHC c
 HLA-DPB1*05:01 protein complex	HLA-DPB1*05:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*05:01 chain		HLA-DPw5 serotype
 HLA-DPB1*06:01 protein complex	HLA-DPB1*06:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*06:01 chain		HLA-DPw6 serotype
 HLA-DPB1*09:01 protein complex	HLA-DPB1*09:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*09:01 chain		
+HLA-DPB1*10:01 protein complex	HLA-DPB1*10:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*10:01 chain		
 HLA-DPB1*11:01 protein complex	HLA-DPB1*11:01	HLA-DPB1*110101	partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*11:01 chain		
 HLA-DPB1*13:01 protein complex	HLA-DPB1*13:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*13:01 chain		
 HLA-DPB1*14:01 protein complex	HLA-DPB1*14:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*14:01 chain		
+HLA-DPB1*15:01 protein complex	HLA-DPB1*15:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*15:01 chain		
 HLA-DPB1*16:01 protein complex	HLA-DPB1*16:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*16:01 chain		
 HLA-DPB1*17:01 protein complex	HLA-DPB1*17:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*17:01 chain		
 HLA-DPB1*18:01 protein complex	HLA-DPB1*18:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA chain	HLA-DPB1*18:01 chain		
@@ -437,6 +444,7 @@ HLA-DQA1*03:03/DQB1*03:01 protein complex	HLA-DQA1*03:03/DQB1*03:01	DQ3	complete
 HLA-DQA1*03:03/DQB1*03:02 protein complex	HLA-DQA1*03:03/DQB1*03:02 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:03 chain	HLA-DQB1*03:02 chain		
 HLA-DQA1*03:03/DQB1*04:02 protein complex	HLA-DQA1*03:03/DQB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:03 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
 HLA-DQA1*03:03/DQB1*06:02 protein complex	HLA-DQA1*03:03/DQB1*06:02 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*03:03 chain	HLA-DQB1*06:02 chain		
+HLA-DQA1*04:01 protein complex	HLA-DQA1*04:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*04:01 protein complex	HLA-DQB chain		
 HLA-DQA1*04:01/DQB1*03:01 protein complex	HLA-DQA1*04:01/DQB1*03:01 		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*04:01 chain	HLA-DQB1*03:01 chain		
 HLA-DQA1*04:01/DQB1*04:02 protein complex	HLA-DQA1*04:01/DQB1*04:02		complete molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*04:01 chain	HLA-DQB1*04:02 chain		HLA-DQ4 serotype
 HLA-DQA1*05:01 protein complex	HLA-DQA1*05:01		partial molecule	equivalent	MHC class II protein complex	human	HLA-DQA1*05:01 chain	HLA-DQB chain		
