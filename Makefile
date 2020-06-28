@@ -44,9 +44,6 @@ build build/validate:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.6.0/robot.jar
-
-build/robot-validate.jar: | build
 	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
 
 
@@ -224,7 +221,7 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 # Validate a relaxed/reduced version of MRO
 .PHONY: validate
 validate: mro.owl $(source_files) | build/robot-validate.jar build/validate
-	java -jar build/robot-validate.jar relax --input $< \
+	$(ROBOT) relax --input $< \
 	reduce remove --axioms equivalent \
 	validate $(foreach i,$(source_files),--table $(i)) \
 	--skip-row 2 \
