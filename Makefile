@@ -221,11 +221,12 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
 
+# Validate a relaxed/reduced version of MRO
 .PHONY: validate
 validate: mro.owl $(source_files) | build/robot-validate.jar build/validate
-	java -jar build/robot-validate.jar validate \
-	--input $< \
-	$(foreach i,$(source_files),--table $(i)) \
+	java -jar build/robot-validate.jar relax --input $< \
+	reduce remove --axioms equivalent \
+	validate $(foreach i,$(source_files),--table $(i)) \
 	--skip-row 2 \
 	--format html \
 	--output-dir build/validate
