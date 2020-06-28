@@ -228,7 +228,6 @@ validate: mro.owl $(source_files) | build/robot-validate.jar build/validate
 	$(foreach i,$(source_files),--table $(i)) \
 	--skip-row 2 \
 	--format html \
-	--standalone true \
 	--output-dir build/validate
 
 .PHONY: test

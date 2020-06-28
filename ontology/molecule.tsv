@@ -1,6 +1,6 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
-					subclass-of 'protein complex';	subclass-of organism;	subclass-of ('gene product of' some 'genetic locus')	subclass-of ('gene product of' some 'genetic locus')	subclass-of haplotype;	subclass-of serotype;
+					is-required; subclass-of 'protein complex';	is-required (when %6 not-equivalent-to 'MHC protein complex'); subclass-of organism;	subclass-of ('gene product of' some 'genetic locus');	subclass-of ('Beta-2-microglobulin' or ('gene product of' some 'genetic locus'));	subclass-of haplotype;	subclass-of serotype;
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
 BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
@@ -137,7 +137,7 @@ HLA-A*02:12 protein complex	HLA-A*02:12		complete molecule	equivalent	MHC class 
 HLA-A*02:13 protein complex	HLA-A*02:13		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:13 chain	Beta-2-microglobulin		HLA-A2 serotype
 HLA-A*02:14 protein complex	HLA-A*02:14		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:14 chain	Beta-2-microglobulin		HLA-A2 serotype
 HLA-A*02:16 protein complex	HLA-A*02:16		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:16 chain	Beta-2-microglobulin		HLA-A2 serotype
-HLA-A*02:17 protein complex	HLA-A*02:17		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:17 protein complex	Beta-2-microglobulin		HLA-A2 serotype
+HLA-A*02:17 protein complex	HLA-A*02:17		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:17 chain	Beta-2-microglobulin		HLA-A2 serotype
 HLA-A*02:19 protein complex	HLA-A*02:19		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:19 chain	Beta-2-microglobulin		HLA-A2 serotype
 HLA-A*02:20 protein complex	HLA-A*02:20		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:20 chain	Beta-2-microglobulin		HLA-A2 serotype
 HLA-A*02:50 protein complex	HLA-A*02:50		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*02:50 chain	Beta-2-microglobulin		HLA-A2 serotype
