@@ -218,8 +218,12 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
 
+.PRECIOUS: build/mhc_allele_restriction_errors.tsv
+build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py iedb/mhc_allele_restriction.tsv | build
+	python3 $^ $@
+
 .PHONY: test
-test: build/report.csv verify
+test: build/report.csv verify build/mhc_allele_restriction_errors.tsv
 
 .PHONY: pytest
 pytest:

@@ -51,3 +51,20 @@ With GNU Make and ROBOT installed, building is as simple as running:
 
 	make
 
+### Testing
+
+We use a combination of ROBOT and Python (3.x) scripts for validating the MRO outputs. Install the Python requirements:
+
+	python3 -m pip install -r requirements.txt
+
+Then run:
+	
+	make test
+
+This will run the following checks:
+
+- [ROBOT report](http://robot.obolibrary.org/report) (writes to `build/report.csv` - fails on `ERROR`-level violations)
+- [ROBOT verify](http://robot.obolibrary.org/verify) (writes query results to `build/` - if any queries return results, this is an error)
+- validation of `iedb/mhc_allele_restriction.tsv` table (writes errors to `build/mhc_allele_restriction_errors.tsv`)
+
+The build will fail on any error from these steps.
