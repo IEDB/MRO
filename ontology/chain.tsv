@@ -220,6 +220,7 @@ HLA-A*80:01 chain		subclass	HLA-A chain
 HLA-B chain		equivalent	protein	HLA-B locus
 HLA-B*07:02 chain		subclass	HLA-B chain	
 HLA-B*07:04 chain		subclass	HLA-B chain	
+HLA-B*07:05 chain		subclass	HLA-B chain	
 HLA-B*07:06 chain		subclass	HLA-B chain	
 HLA-B*08:01 chain		subclass	HLA-B chain	
 HLA-B*08:02 chain		subclass	HLA-B chain	
@@ -345,6 +346,7 @@ HLA-C*06:02 chain		subclass	HLA-C chain
 HLA-C*07:01 chain		subclass	HLA-C chain	
 HLA-C*07:02 chain		subclass	HLA-C chain	
 HLA-C*07:04 chain		subclass	HLA-C chain	
+HLA-C*07:06 chain	Cw*0706	subclass	HLA-C chain	
 HLA-C*07:27 chain		subclass	HLA-C chain	
 HLA-C*08:01 chain		subclass	HLA-C chain	
 HLA-C*08:02 chain		subclass	HLA-C chain	

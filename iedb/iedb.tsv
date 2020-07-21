@@ -985,3 +985,6 @@ HLA-DPA1*01:04 protein complex	1077	DP
 HLA-DPB1*10:01 protein complex	1078	DP		
 HLA-DPB1*15:01 protein complex	1079	DP		
 HLA-DQA1*04:01 protein complex	1080	DQ		
+HLA-C*07:06 protein complex	1081	C		56585
+HLA-B*07:05 protein complex	1082	B		56585
+HLA-DPA1*02:01/ DPB1*13:01 protein complex	1083	DP	300694	300706

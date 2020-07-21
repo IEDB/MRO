@@ -1,6 +1,6 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-			is-required; subclass-of 'genetic locus';	subclass-of organism;
+			is-required; subclass-of 'genetic locus';	is-required (when %4 direct-subclass-of 'MHC locus'); subclass-of organism;
 Anpl-UAA locus		subclass	duck MHC class I locus	
 BF1 locus		subclass	chicken MHC class I locus	
 BF2 locus		subclass	chicken MHC class I locus	
@@ -116,7 +116,7 @@ clawed frog MHC class I locus		subclass	MHC class I locus	clawed frog
 clawed frog MHC class II locus		subclass	MHC class II locus	clawed frog
 cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
 cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
-crab-eating macaque MHC class II locus		subclass	MHC class II locus	
+crab-eating macaque MHC class II locus		subclass	MHC class II locus	crab-eating macaque
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
 duck MHC class I locus		subclass	MHC class I locus	duck
