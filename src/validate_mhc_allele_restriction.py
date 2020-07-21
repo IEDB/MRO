@@ -1,6 +1,5 @@
 import csv
 import sys
-import pandas as pd
 
 from argparse import ArgumentParser
 from cerberus import Validator
@@ -45,12 +44,12 @@ def main():
             NULL: False,
         },
         "haplotype": {TYPE: "string", MAX_LEN: 10, NULL: True},
-        "locus": {TYPE: "string", MAX_LEN: 10, NULL: True},
+        "locus": {MAX_LEN: 10, NULL: True},
         "serotype": {TYPE: "string", MAX_LEN: 10, NULL: True},
         "molecule": {TYPE: "string", MAX_LEN: 50, NULL: True},
         "chain_i_name": {TYPE: "string", MAX_LEN: 35, NULL: True},
         "chain_ii_name": {TYPE: "string", MAX_LEN: 35, NULL: True},
-        "chain_i_locus": {TYPE: "string", MAX_LEN: 10, NULL: True},
+        "chain_i_locus": {MAX_LEN: 10, NULL: True},
         "chain_i_mutation": {TYPE: "string", MAX_LEN: 35, NULL: True},
         "chain_ii_locus": {TYPE: "string", MAX_LEN: 10, NULL: True},
         "chain_ii_mutation": {TYPE: "string", MAX_LEN: 35, NULL: True},
@@ -63,22 +62,32 @@ def main():
             NULL: False,
         },
     }
-    v = Validator(schema)
+    validator = Validator(schema)
     errs = []
-    df = pd.read_csv(args.mhc_allele_restriction, sep="\t", low_memory=False)
-    df = df.where(pd.notnull(df), None)
     line = 2
-    for idx, row in df.iterrows():
-        if not v.validate(row.to_dict()):
-            for col_name, msg in v.errors.items():
-                fmt = {
-                    "Line": line,
-                    "Column": col_name,
-                    "Value": row[col_name],
-                    "Message": ", ".join(msg),
-                }
-                errs.append(fmt)
-        line += 1
+    with open(args.mhc_allele_restriction, "r") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            fixed_row = {}
+            for k, v in row.items():
+                if v == "":
+                    fixed = None
+                else:
+                    try:
+                        fixed = int(v)
+                    except Exception as e:
+                        fixed = v
+                fixed_row[k] = fixed
+            if not validator.validate(fixed_row):
+                for col_name, msg in validator.errors.items():
+                    fmt = {
+                        "Line": line,
+                        "Column": col_name,
+                        "Value": row[col_name],
+                        "Message": ", ".join(msg),
+                    }
+                    errs.append(fmt)
+            line += 1
 
     with open(args.output, "w") as f:
         if len(errs) > 0:
