@@ -1,5 +1,6 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
+			is-required; subclass-of haplotype;	is-required (when %4 equivalent-to 'MHC haplotype'); subclass-of organism;
 A1 haplotype		subclass	horse haplotype	
 A3 haplotype		subclass	horse haplotype	
 A4 haplotype		subclass	horse haplotype	

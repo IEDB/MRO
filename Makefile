@@ -35,7 +35,7 @@ ROBOT := java -jar build/robot.jar
 
 ### Set Up
 
-build:
+build build/validate:
 	mkdir -p $@
 
 
@@ -44,7 +44,7 @@ build:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.6.0/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/add_validate_operation/lastSuccessfulBuild/artifact/bin/robot.jar
 
 
 ### Ontology Source Tables
@@ -220,6 +220,16 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
 
+# Validate a relaxed/reduced version of MRO
+.PHONY: validate
+validate: mro.owl $(source_files) | build/robot.jar build/validate
+	$(ROBOT) relax --input $< \
+	reduce remove --axioms equivalent \
+	validate $(foreach i,$(source_files),--table $(i)) \
+	--skip-row 2 \
+	--format html \
+	--output-dir build/validate
+
 .PRECIOUS: build/mhc_allele_restriction_errors.tsv
 build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py iedb/mhc_allele_restriction.tsv | build
 	python3 $^ $@
@@ -229,7 +239,7 @@ build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb
 	python3 $^ $@
 
 .PHONY: test
-test: build/report.csv verify build/mhc_allele_restriction_errors.tsv
+test: build/report.csv verify validate build/mhc_allele_restriction_errors.tsv
 
 .PHONY: pytest
 pytest:

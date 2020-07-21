@@ -21,6 +21,11 @@ def main():
             else:
                 reader = csv.reader(f, delimiter="\t")
 
+            # Skip header, template, and rule rows
+            next(reader)
+            next(reader)
+            next(reader)
+
             row_num = 1
             for row in reader:
                 col_num = 1
