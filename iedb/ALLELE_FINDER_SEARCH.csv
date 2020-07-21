@@ -1137,3 +1137,4 @@ http://purl.obolibrary.org/obo/MRO_0002293,partial molecule,1079,9606,human,MHC 
 http://purl.obolibrary.org/obo/MRO_0002294,partial molecule,1080,9606,human,MHC class II,DQ,,,HLA-DQA1*04:01 protein complex,MRO_0002294,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002297,complete molecule,1081,9606,human,MHC class I,C,,HLA-Cw7 serotype,HLA-C*07:06 protein complex,MRO_0002297,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002298,complete molecule,1082,9606,human,MHC class I,B,,HLA-B7 serotype,HLA-B*07:05 protein complex,MRO_0002298,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002299,complete molecule,1083,9606,human,MHC class II,DP,,HLA-DP1 serotype,HLA-DPA1*02:01/ DPB1*13:01 protein complex,MRO_0002299,http://purl.obolibrary.org/obo/
