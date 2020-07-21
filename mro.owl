@@ -12,8 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-07-21/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-07-21</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-07-20/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-07-20</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -46440,7 +46440,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MRO_0000002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002088"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0002086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLA-E01801 W167S mutant</obo:IAO_0000118>
@@ -52199,9 +52199,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/mro.owl">
         <dc:creator>John Sidney</dc:creator>
         <dc:creator>James A. Overton</dc:creator>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <dc:creator>Bjoern Peters</dc:creator>
         <dc:creator>Alessandro Sette</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:title>MHC Restriction Ontology</dc:title>
         <dc:creator>Jim Kaufman</dc:creator>
         <dc:creator>Rebecca L. Tallmadge</dc:creator>
