@@ -3454,3 +3454,7 @@ http://purl.obolibrary.org/obo/MRO_0002299,,HLA-DPA1*0201/ DPB1*1301
 http://purl.obolibrary.org/obo/MRO_0002299,,HLA-DPA1*02:01/ DPB1*13:01
 http://purl.obolibrary.org/obo/MRO_0002299,,HLA-DPA10201/ DPB11301
 http://purl.obolibrary.org/obo/MRO_0002299,,HLA-DPA102:01/ DPB113:01
+http://purl.obolibrary.org/obo/MRO_0002300,,HLA-DPA1*0201/DPB1*1001
+http://purl.obolibrary.org/obo/MRO_0002300,,HLA-DPA1*02:01/DPB1*10:01
+http://purl.obolibrary.org/obo/MRO_0002300,,HLA-DPA10201/DPB11001
+http://purl.obolibrary.org/obo/MRO_0002300,,HLA-DPA102:01/DPB110:01
