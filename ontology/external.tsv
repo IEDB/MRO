@@ -22,6 +22,7 @@ NCBITaxon:9796	horse	Equus caballus		subclass	organism					http://purl.obolibrar
 NCBITaxon:9823	pig	Sus scrofa		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9913	cattle	Bos taurus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9940	sheep	Ovis aries		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
+NCBITaxon:9986	rabbit	Oryctolagus cuniculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:10090	mouse	Mus musculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:10116	rat	Rattus norvegicus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 PR:000000001	protein	protein		subclass	material entity					http://purl.obolibrary.org/obo/pr.owl

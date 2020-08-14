@@ -47,6 +47,7 @@ organisms = {
   'mouse': 'mouse (Mus musculus)',
   'organism': 'organism (all species)',
   'pig': 'pig (Sus scrofa)',
+  'rabbit': 'rabbit (Oryctolagus cuniculus)',
   'rat': 'rat (Rattus norvegicus)',
   'rhesus macaque': 'rhesus macaque (Macaca mulatta)',
   'sheep': 'sheep (Ovis aries)'
@@ -70,6 +71,7 @@ codes = {
   '9823': 'SLA',
   '9913': 'BoLA',
   '9940': 'Ovar',
+  '9986': 'RLA',
   '10090': 'H2',
   '10116': 'rat'
 }
@@ -88,7 +90,8 @@ def clean_code(name):
              .replace('Patr-','') \
              .replace('Saoe-','') \
              .replace('SLA-','') \
-             .replace('RT1-','')
+             .replace('RT1-','') \
+             .replace('RLA-', '')
 
 # Grab the first row and use those headers.
 

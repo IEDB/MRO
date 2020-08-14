@@ -988,3 +988,7 @@ mhc_allele_restriction_id	iri	displayed_restriction	synonyms	includes	restrictio
 1082	http://purl.obolibrary.org/obo/MRO_0002298	HLA-B*07:05	HLA-B07:05|HLA-B0705|HLA-B*0705		complete molecule	human (Homo sapiens)	9606	I		B	B7	HLA-B*07:05	HLA-B*07:05	Beta-2-microglobulin	B					56585
 1083	http://purl.obolibrary.org/obo/MRO_0002299	HLA-DPA1*02:01/ DPB1*13:01	HLA-DPA1*0201/ DPB1*1301|HLA-DPA102:01/ DPB113:01|HLA-DPA10201/ DPB11301		complete molecule	human (Homo sapiens)	9606	II		DP	DP1	HLA-DPA1*02:01/ DPB1*13:01	HLA-DPA1*02:01	HLA-DPB1*13:01	DPA		DPB		300694	300706
 1084	http://purl.obolibrary.org/obo/MRO_0002300	HLA-DPA1*02:01/DPB1*10:01	HLA-DPA1*0201/DPB1*1001|HLA-DPA102:01/DPB110:01|HLA-DPA10201/DPB11001		complete molecule	human (Homo sapiens)	9606	II		DP		HLA-DPA1*02:01/DPB1*10:01	HLA-DPA1*02:01	HLA-DPB1*10:01	DPA		DPB		300694	
+1085	http://purl.obolibrary.org/obo/MRO_0002308	RLA class I			class	rabbit (Oryctolagus cuniculus)	9986	I												
+1086	http://purl.obolibrary.org/obo/MRO_0002309	RLA class II			class	rabbit (Oryctolagus cuniculus)	9986	II												
+1087	http://purl.obolibrary.org/obo/MRO_0002310	RLA-A			locus	rabbit (Oryctolagus cuniculus)	9986	I		A					A					
+1088	http://purl.obolibrary.org/obo/MRO_0002311	RLA-A*01	RLA-A01		complete molecule	rabbit (Oryctolagus cuniculus)	9986	I		A		RLA-A*01	RLA-A*01	Beta-2-microglobulin	A					

@@ -627,6 +627,8 @@ Patr-DRB5*03:10 chain		subclass	Patr-DRB chain
 Patr-DRB chain		equivalent	protein	Patr-DRB locus
 Ptal-N chain		equivalent	protein	Ptal-N locus
 Ptal-N*01:01 chain		subclass	Ptal-N chain	
+RLA-A chain		equivalent	protein	RLA-A locus
+RLA-A*01 chain		subclass	RLA-A chain	
 RT1-A1 chain		equivalent	protein	RT1-A1 locus
 RT1-A1 chain		equivalent	protein	RT1-A1 locus
 RT1-A2 chain		equivalent	protein	RT1-A2 locus
@@ -732,6 +734,8 @@ mouse non-classical MHC chain		equivalent	protein	mouse non-classical MHC locus
 non-classical MHC chain		equivalent	protein	non-classical MHC locus
 pig MHC class I chain		equivalent	protein	pig MHC class I locus
 pig MHC class II chain		equivalent	protein	pig MHC class II locus
+rabbit MHC class I chain		equivalent	protein	rabbit MHC class I locus
+rabbit MHC class II chain		equivalent	protein	rabbit MHC class II locus
 rat CD1 chain		equivalent	protein	rat CD1 locus
 rat CD1d chain		subclass	rat CD1 chain	
 rat MHC class I chain		equivalent	protein	rat MHC class I locus
