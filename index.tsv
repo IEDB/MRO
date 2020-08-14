@@ -2301,3 +2301,14 @@ MRO:0002297	HLA-C*07:06 protein complex	owl:Class
 MRO:0002298	HLA-B*07:05 protein complex	owl:Class	
 MRO:0002299	HLA-DPA1*02:01/ DPB1*13:01 protein complex	owl:Class	
 MRO:0002300	HLA-DPA1*02:01/DPB1*10:01 protein complex	owl:Class	
+MRO:0002301	rabbit MHC class I locus	owl:Class	
+MRO:0002302	rabbit MHC class II locus	owl:Class	
+MRO:0002303	RLA-A locus	owl:Class	
+MRO:0002304	rabbit MHC class I chain	owl:Class	
+MRO:0002305	rabbit MHC class II chain	owl:Class	
+MRO:0002306	RLA-A chain	owl:Class	
+MRO:0002307	RLA-A*01 chain	owl:Class	
+MRO:0002308	rabbit MHC class I protein complex	owl:Class	
+MRO:0002309	rabbit MHC class II protein complex	owl:Class	
+MRO:0002310	RLA-A protein complex	owl:Class	
+MRO:0002311	RLA-A*01 protein complex	owl:Class	

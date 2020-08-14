@@ -1139,3 +1139,7 @@ http://purl.obolibrary.org/obo/MRO_0002297,complete molecule,1081,9606,human,MHC
 http://purl.obolibrary.org/obo/MRO_0002298,complete molecule,1082,9606,human,MHC class I,B,,HLA-B7 serotype,HLA-B*07:05 protein complex,MRO_0002298,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002299,complete molecule,1083,9606,human,MHC class II,DP,,HLA-DP1 serotype,HLA-DPA1*02:01/ DPB1*13:01 protein complex,MRO_0002299,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002300,complete molecule,1084,9606,human,MHC class II,DP,,,HLA-DPA1*02:01/DPB1*10:01 protein complex,MRO_0002300,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002308,class,1085,9986,rabbit,MHC class I,,,,rabbit MHC class I protein complex,MRO_0002308,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002309,class,1086,9986,rabbit,MHC class II,,,,rabbit MHC class II protein complex,MRO_0002309,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002310,locus,1087,9986,rabbit,MHC class I,A,,,RLA-A protein complex,MRO_0002310,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002311,complete molecule,1088,9986,rabbit,MHC class I,A,,,RLA-A*01 protein complex,MRO_0002311,http://purl.obolibrary.org/obo/

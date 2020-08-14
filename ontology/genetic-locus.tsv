@@ -85,6 +85,7 @@ Patr-DQB locus		subclass	chimpanzee MHC class II locus
 Patr-DRA locus		subclass	chimpanzee MHC class II locus	
 Patr-DRB locus		subclass	chimpanzee MHC class II locus	
 Ptal-N locus		subclass	black flying fox MHC class I locus	
+RLA-A locus		subclass	rabbit MHC class I locus	
 RT1-A1 locus		subclass	RT1-A locus	
 RT1-A2 locus		subclass	RT1-A locus	
 RT1-A locus		subclass	rat MHC class I locus	
@@ -135,6 +136,8 @@ mouse non-classical MHC locus		subclass	non-classical MHC locus	mouse
 non-classical MHC locus		subclass	MHC locus	
 pig MHC class I locus		subclass	MHC class I locus	pig
 pig MHC class II locus		subclass	MHC class II locus	pig
+rabbit MHC class I locus		subclass	MHC class I locus	rabbit
+rabbit MHC class II locus		subclass	MHC class II locus	rabbit
 rat CD1 locus		subclass	rat non-classical MHC locus	rat
 rat MHC class I locus		subclass	MHC class I locus	rat
 rat MHC class II locus		subclass	MHC class II locus	rat
