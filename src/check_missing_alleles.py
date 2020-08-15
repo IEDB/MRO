@@ -4,17 +4,27 @@ from subprocess import Popen, PIPE
 
 
 def get_IMGT_data():
-    imgt_prot_URL = "https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta"
-    imgt_allele_URL = "https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt"
-    process = Popen(['wget', imgt_prot_URL, imgt_allele_URL], stdout=PIPE, stderr=PIPE)
+    """Uses wget to retrieve the latest IMGT alleles + sequences from their github
+    These get deleted later after operations are complete
+    """
+    imgt_prot_URL = (
+        "https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta"
+    )
+    imgt_allele_URL = (
+        "https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt"
+    )
+    process = Popen(["wget", imgt_prot_URL, imgt_allele_URL], stdout=PIPE, stderr=PIPE)
     stdout, stderr = process.communicate()
     print(stdout, stderr)
 
-def update_chain_sequence():
-    """Update the chain-sequence.tsv table with any missing alleles and their sequences
-    Returns a list of missing alleles"""
 
-    #Parse the current MRO alleles
+def update_chain_sequence():
+    """Updates the chain-sequence.tsv with missing alleles from IMGT
+    
+    Returns:
+        A list of missing alleles ['A*02:01', 'B*02:01']
+    """
+
     mro_alleles = set()
     with open("../ontology/chain-sequence.tsv") as fh:
         rows = csv.DictReader(fh, delimiter="\t")
@@ -22,20 +32,20 @@ def update_chain_sequence():
             if "HLA" in row["Label"]:
                 mro_alleles.add(row["Label"].split(" ")[0][4:])
 
-    # Create a dictionary mapping the accession to sequence from IMGT
+    # Create a dictionary mapping the IMGT accession to protein sequence
     seqs = {}
     with open("./hla_prot.fasta") as fasta:
         accession = None
-        seq = ''
+        seq = ""
         for line in fasta:
-            if line.startswith('>'):
+            if line.startswith(">"):
                 if accession:
                     seqs[accession] = seq
                 accession = None
-                seq = ''
+                seq = ""
 
                 # Match the accession
-                if line.startswith('>HLA:HLA'):
+                if line.startswith(">HLA:HLA"):
                     accession = line[5:13]
                 else:
                     print("Bad accession:", line)
@@ -47,8 +57,8 @@ def update_chain_sequence():
 
     # Get the mapping between allele name and IMGT accession
     with open("./Allelelist.txt") as fh:
-        #Skip IMGT header
-        for i in range(6):
+        # Skip IMGT header
+        for _ in range(6):
             next(fh)
         rows = csv.DictReader(fh, delimiter=",")
         for row in rows:
@@ -61,7 +71,6 @@ def update_chain_sequence():
     imgt_alleles = set(imgt_dict.keys())
     missing_alleles = imgt_alleles.difference(mro_alleles)
 
-    # Create a set for the new rows to avoid redundancy
     missing_allele_rows = set()
     for allele in missing_alleles:
         try:
@@ -73,24 +82,26 @@ def update_chain_sequence():
             missing_allele_rows.add((label, resource_name, source, accession, seq))
         except:
             continue
-    
-    # File will be unsorted and needs to be passed to sort.py
+
     with open("../ontology/chain-sequence.tsv", "a+") as outfile:
         for tup in missing_allele_rows:
-            outfile.write(("\t").join(tup)  + "\n")
+            outfile.write(("\t").join(tup) + "\n")
 
     return missing_alleles
 
-def update_chain(missing_alleles):
-    """Update the chain.tsv table to add new chains"""
 
-    #Get genes from the IMGT alleles not in MRO
+def update_chain(missing_alleles):
+    """Update the chain.tsv table to add new chains from IMGT
+
+    Returns:
+        A list of missing genes ['DRB', 'Y']
+    """
+
     missing_genes = set()
     for allele in missing_alleles:
         gene = allele.split("*")[0]
         missing_genes.add(gene)
 
-    #Parse out the current MRO alleles and genes in chain.tsv
     mro_chains = set()
     mro_genes = set()
     with open("../ontology/chain.tsv") as fh:
@@ -106,7 +117,6 @@ def update_chain(missing_alleles):
                     mro_chains.add(allele)
 
     new_genes = missing_genes.difference(mro_genes)
-    #Create rows for missing genes
     new_gene_tups = set()
     for gene in new_genes:
         label = "HLA-" + gene + " chain"
@@ -117,12 +127,11 @@ def update_chain(missing_alleles):
         new_gene_tups.add((label, synonyms, class_type, parent, gene))
 
     new_chain_tups = set()
-    #Create rows for missing chains
     for allele in missing_alleles:
         label = "HLA-" + allele + " chain"
         synonyms = ""
         class_type = "subclass"
-        #This removes the specific allele #
+        # This removes the specific allele # (generic chain)
         parent = "HLA-" + allele.split("*")[0] + " chain"
         gene = ""
         new_chain_tups.add((label, synonyms, class_type, parent, gene))
@@ -135,7 +144,13 @@ def update_chain(missing_alleles):
 
     return new_genes
 
+
 def update_locus(missing_genes):
+    """Update genetic-locus.tsv with any missing genes
+    
+    Returns:
+        A list of missing genetic loci ['DRB', 'Y']
+    """
     class_I = ["A", "B", "C"]
     class_II = ["DP", "DM", "DOA", "DOB", "DQ", "DR"]
 
@@ -146,11 +161,11 @@ def update_locus(missing_genes):
             locus = row["Label"]
             if "HLA" in locus:
                 mro_loci.add(locus.split(" ")[0][4:])
-    
+
     new_loci_rows = set()
     new_loci = missing_genes.difference(mro_loci)
     for locus in new_loci:
-        # Fast and dirty way to check if classI, classII, etc
+        # Fast and dirty way to check if gene is classI, classII
         mhc_class = ""
         for prefix in class_I:
             if prefix in locus:
@@ -166,19 +181,23 @@ def update_locus(missing_genes):
         class_type = "subclass"
         parent = "human " + mhc_class + " locus"
         new_loci_rows.add((label, synonyms, class_type, parent))
-    
+
     with open("../ontology/genetic-locus.tsv", "a+") as fh:
         for row in new_loci_rows:
-            fh.write(("\t").join(row)  + "\n")
+            fh.write(("\t").join(row) + "\n")
 
     return new_loci
 
+
 def update_index(missing_alleles, missing_genes, missing_loci):
+    """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file
+    """
     with open("../index.tsv") as fh:
         last_line = fh.readlines()[-1]
         curr_mro_label = last_line.rstrip().split("\t")[0]
         curr_mro_num = int(curr_mro_label.split(":")[1])
-    
+
+    # Next few blocks will iterate MRO ID and pad left with 0s to 7 digits
     new_tups = []
     for allele in missing_alleles:
         mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
@@ -201,7 +220,7 @@ def update_index(missing_alleles, missing_genes, missing_loci):
     with open("../index.tsv", "a+") as fh:
         for tup in new_tups:
             fh.write(("\t").join(tup) + "\n")
-    
+
 
 get_IMGT_data()
 missing_alleles = update_chain_sequence()
