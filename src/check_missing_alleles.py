@@ -126,8 +126,9 @@ def update_chain(missing_alleles):
         gene = "HLA-" + gene + " locus"
         new_gene_tups.add((label, synonyms, class_type, parent, gene))
 
+    new_chains = missing_alleles.difference(mro_chains)
     new_chain_tups = set()
-    for allele in missing_alleles:
+    for allele in new_chains:
         label = "HLA-" + allele + " chain"
         synonyms = ""
         class_type = "subclass"
@@ -192,37 +193,45 @@ def update_locus(missing_genes):
 def update_index(missing_alleles, missing_genes, missing_loci):
     """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file
     """
+    mro_labels = set()
     with open("../index.tsv") as fh:
-        last_line = fh.readlines()[-1]
-        curr_mro_label = last_line.rstrip().split("\t")[0]
-        curr_mro_num = int(curr_mro_label.split(":")[1])
+        for _ in range(2):
+            next(fh)
+        for line in fh:
+            curr_mro_id = line.rstrip().split("\t")[0]
+            curr_mro_label = line.rstrip().split("\t")[1]
+            mro_labels.add(curr_mro_label)
+            curr_mro_num = int(curr_mro_id.split(":")[1])
 
     # Next few blocks will iterate MRO ID and pad left with 0s to 7 digits
     new_tups = []
     for allele in missing_alleles:
-        mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
-        curr_mro_num += 1
         chain_name = "HLA-" + allele + " chain"
-        new_tups.append((mro_id, chain_name, "owl:Class"))
+        if chain_name not in mro_labels:
+            mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
+            curr_mro_num += 1
+            new_tups.append((mro_id, chain_name, "owl:Class"))
 
     for gene in missing_genes:
-        mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
-        curr_mro_num += 1
         gene_name = "HLA-" + gene + " chain"
-        new_tups.append((mro_id, gene_name, "owl:Class"))
+        if gene_name not in mro_labels:
+            mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
+            curr_mro_num += 1
+            new_tups.append((mro_id, gene_name, "owl:Class"))
 
     for locus in missing_loci:
-        mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
-        curr_mro_num += 1
         locus_name = "HLA-" + locus + " locus"
-        new_tups.append((mro_id, locus_name, "owl:Class"))
+        if locus_name not in mro_labels:
+            mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
+            curr_mro_num += 1
+            new_tups.append((mro_id, locus_name, "owl:Class"))
 
     with open("../index.tsv", "a+") as fh:
         for tup in new_tups:
             fh.write(("\t").join(tup) + "\n")
 
 
-get_IMGT_data()
+# get_IMGT_data()
 missing_alleles = update_chain_sequence()
 missing_genes = update_chain(missing_alleles)
 missing_loci = update_locus(missing_genes)
