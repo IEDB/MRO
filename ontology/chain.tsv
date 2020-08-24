@@ -16,57 +16,57 @@ BF2*2101 chain		subclass	BF2 chain
 BF-B chain		equivalent	protein	BF-B locus
 BF-YF chain		equivalent	protein	BF-YF locus
 BoLA-1 chain		equivalent	protein	BoLA-1 locus
-BoLA-1*01901 chain		subclass	BoLA-1 chain	
-BoLA-1*02101 chain		subclass	BoLA-1 chain	
-BoLA-1*02301 chain		subclass	BoLA-1 chain	
+BoLA-1*019:01 chain		subclass	BoLA-1 chain	
+BoLA-1*021:01 chain		subclass	BoLA-1 chain	
+BoLA-1*023:01 chain		subclass	BoLA-1 chain	
 BoLA-2 chain		equivalent	protein	BoLA-2 locus
-BoLA-2*00801 chain		subclass	BoLA-2 chain	
-BoLA-2*01201 chain		subclass	BoLA-2 chain	
-BoLA-2*01801 chain		subclass	BoLA-2 chain	
-BoLA-2*02201 chain		subclass	BoLA-2 chain	
+BoLA-2*008:01 chain		subclass	BoLA-2 chain	
+BoLA-2*012:01 chain		subclass	BoLA-2 chain	
+BoLA-2*018:01 chain		subclass	BoLA-2 chain	
+BoLA-2*022:01 chain		subclass	BoLA-2 chain	
 BoLA-3 chain		equivalent	protein	BoLA-3 locus
-BoLA-3*00101 chain		subclass	BoLA-3 chain	
-BoLA-3*00201 chain		subclass	BoLA-3 chain	
+BoLA-3*001:01 chain		subclass	BoLA-3 chain	
+BoLA-3*002:01 chain		subclass	BoLA-3 chain	
 BoLA-4 chain		equivalent	protein	BoLA-4 locus
-BoLA-4*02401 chain		subclass	BoLA-4 chain	
+BoLA-4*024:01:01:01 chain		subclass	BoLA-4 chain	
 BoLA-6 chain		equivalent	protein	BoLA-6 locus
-BoLA-6*01301 chain		subclass	BoLA-6 chain	
-BoLA-6*01302 chain		subclass	BoLA-6 chain	
-BoLA-6*04101 chain		subclass	BoLA-6 chain	
+BoLA-6*013:01 chain		subclass	BoLA-6 chain	
+BoLA-6*013:02 chain		subclass	BoLA-6 chain	
+BoLA-6*041:01 chain		subclass	BoLA-6 chain	
 BoLA-CD1 chain		equivalent	protein	BoLA-CD1 locus
 BoLA-DQA chain		equivalent	protein	BoLA-DQA locus
-BoLA-DQA*0202 chain		subclass	BoLA-DQA chain	
-BoLA-DQA*0301 chain		subclass	BoLA-DQA chain	
-BoLA-DQA*2201 chain		subclass	BoLA-DQA chain	
-BoLA-DQA*2202 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*002:02 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*003:01 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*010:01:01 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*012:01:01 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*022:01 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*022:02:01 chain		subclass	BoLA-DQA chain	
 BoLA-DQA*2206 chain		subclass	BoLA-DQA chain	
-BoLA-DQA*10011 chain		subclass	BoLA-DQA chain	
-BoLA-DQA*12011 chain		subclass	BoLA-DQA chain	
 BoLA-DQB chain		equivalent	protein	BoLA-DQB locus
-BoLA-DQB*0402 chain		subclass	BoLA-DQB chain	
-BoLA-DQB*0901 chain		subclass	BoLA-DQB chain	
-BoLA-DQB*1201 chain		subclass	BoLA-DQB chain	
-BoLA-DQB*1301 chain		subclass	BoLA-DQB chain	
-BoLA-DQB*1402 chain		subclass	BoLA-DQB chain	
-BoLA-DQB*10021 chain		subclass	BoLA-DQB chain	
+BoLA-DQB*004:02 chain		subclass	BoLA-DQB chain	
+BoLA-DQB*009:01 chain		subclass	BoLA-DQB chain	
+BoLA-DQB*010:02:01 chain		subclass	BoLA-DQB chain	
+BoLA-DQB*012:01 chain		subclass	BoLA-DQB chain	
+BoLA-DQB*013:01 chain		subclass	BoLA-DQB chain	
+BoLA-DQB*014:02 chain		subclass	BoLA-DQB chain	
 BoLA-DQB*10051 chain		subclass	BoLA-DQB chain	
 BoLA-DRA chain		equivalent	protein	BoLA-DRA locus
 BoLA-DRB3 chain		equivalent	protein	BoLA-DRB3 locus
-BoLA-DRB3*0101 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*0201 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*0701 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1001 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1101 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1201 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1202 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1501 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1502 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*1801 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*2002 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*2703 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*3001 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*001:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*002:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*007:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*010:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*011:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*012:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*012:02 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*014:01:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*015:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*015:02 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*018:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*020:02 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*027:03 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*030:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*4501 chain		subclass	BoLA-DRB3 chain	
-BoLA-DRB3*14011 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB6 chain		equivalent	protein	BoLA-DRB6 locus
 BoLA-DRB chain		equivalent	protein	BoLA-DRB locus
 BoLA-MR1 chain		equivalent	protein	BoLA-MR1 locus

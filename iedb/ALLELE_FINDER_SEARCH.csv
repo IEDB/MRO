@@ -14,42 +14,42 @@ http://purl.obolibrary.org/obo/MRO_0000918,complete molecule,848,9031,chicken,MH
 http://purl.obolibrary.org/obo/MRO_0000919,complete molecule,754,9031,chicken,MHC class I,BF2,B15 haplotype,,BF2*1501 protein complex,MRO_0000919,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000920,complete molecule,506,9031,chicken,MHC class I,BF2,B21 haplotype,,BF2*2101 protein complex,MRO_0000920,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000921,locus,,9913,cattle,MHC class I,,,,BoLA-1 protein complex,MRO_0000921,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000922,complete molecule,508,9913,cattle,MHC class I,1,,BoLA-A31 serotype,BoLA-1*02101 protein complex,MRO_0000922,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000923,complete molecule,699,9913,cattle,MHC class I,1,,BoLA-A14 serotype,BoLA-1*02301 protein complex,MRO_0000923,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000922,complete molecule,508,9913,cattle,MHC class I,1,,BoLA-A31 serotype,BoLA-1*021:01 protein complex,MRO_0000922,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000923,complete molecule,699,9913,cattle,MHC class I,1,,BoLA-A14 serotype,BoLA-1*023:01 protein complex,MRO_0000923,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000924,locus,,9913,cattle,MHC class I,,,,BoLA-2 protein complex,MRO_0000924,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000925,complete molecule,490,9913,cattle,MHC class I,2,,BoLA-A10 serotype,BoLA-2*01201 protein complex,MRO_0000925,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000926,complete molecule,696,9913,cattle,MHC class I,2,,BoLA-A11 serotype,BoLA-2*01801 protein complex,MRO_0000926,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000927,complete molecule,509,9913,cattle,MHC class I,2,,BoLA-A31 serotype,BoLA-2*02201 protein complex,MRO_0000927,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000925,complete molecule,490,9913,cattle,MHC class I,2,,BoLA-A10 serotype,BoLA-2*012:01 protein complex,MRO_0000925,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000926,complete molecule,696,9913,cattle,MHC class I,2,,BoLA-A11 serotype,BoLA-2*018:01 protein complex,MRO_0000926,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000927,complete molecule,509,9913,cattle,MHC class I,2,,BoLA-A31 serotype,BoLA-2*022:01 protein complex,MRO_0000927,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000928,locus,,9913,cattle,MHC class I,,,,BoLA-3 protein complex,MRO_0000928,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000929,complete molecule,491,9913,cattle,MHC class I,3,,BoLA-A10 serotype,BoLA-3*00101 protein complex,MRO_0000929,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000930,complete molecule,698,9913,cattle,MHC class I,3,,BoLA-A10 serotype,BoLA-3*00201 protein complex,MRO_0000930,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000929,complete molecule,491,9913,cattle,MHC class I,3,,BoLA-A10 serotype,BoLA-3*001:01 protein complex,MRO_0000929,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000930,complete molecule,698,9913,cattle,MHC class I,3,,BoLA-A10 serotype,BoLA-3*002:01 protein complex,MRO_0000930,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000931,locus,,9913,cattle,MHC class I,,,,BoLA-6 protein complex,MRO_0000931,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000932,complete molecule,489,9913,cattle,MHC class I,6,,BoLA-A18 serotype,BoLA-6*01301 protein complex,MRO_0000932,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000933,complete molecule,790,9913,cattle,MHC class I,6,,,BoLA-6*04101 protein complex,MRO_0000933,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000932,complete molecule,489,9913,cattle,MHC class I,6,,BoLA-A18 serotype,BoLA-6*013:01 protein complex,MRO_0000932,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000933,complete molecule,790,9913,cattle,MHC class I,6,,,BoLA-6*041:01 protein complex,MRO_0000933,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000934,locus,146,9913,cattle,MHC class II,DQ,,,BoLA-DQ protein complex,MRO_0000934,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000935,partial molecule,147,9913,cattle,MHC class II,DQ,,,BoLA-DQA*0202 protein complex,MRO_0000935,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000936,partial molecule,148,9913,cattle,MHC class II,DQ,,,BoLA-DQA*0301 protein complex,MRO_0000936,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000937,complete molecule,525,9913,cattle,MHC class II,DQ,,,BoLA-DQA*0301/DQB*0402 protein complex,MRO_0000937,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000938,complete molecule,526,9913,cattle,MHC class II,DQ,,,BoLA-DQA*10011/DQB*10021 protein complex,MRO_0000938,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000939,complete molecule,527,9913,cattle,MHC class II,DQ,,,BoLA-DQA*12011/DQB*10051 protein complex,MRO_0000939,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000940,complete molecule,528,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2201/DQB*1201 protein complex,MRO_0000940,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000941,complete molecule,729,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2202/DQB*0901 protein complex,MRO_0000941,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000942,complete molecule,728,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2202/DQB*1301 protein complex,MRO_0000942,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000943,complete molecule,530,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2206/DQB*1301 protein complex,MRO_0000943,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000944,complete molecule,529,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2206/DQB*1402 protein complex,MRO_0000944,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000935,partial molecule,147,9913,cattle,MHC class II,DQ,,,BoLA-DQA*002:02 protein complex,MRO_0000935,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000936,partial molecule,148,9913,cattle,MHC class II,DQ,,,BoLA-DQA*003:01 protein complex,MRO_0000936,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000937,complete molecule,525,9913,cattle,MHC class II,DQ,,,BoLA-DQA*003:01/DQB*004:02 protein complex,MRO_0000937,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000938,complete molecule,526,9913,cattle,MHC class II,DQ,,,BoLA-DQA*010:01:01/DQB*010:02:01 protein complex,MRO_0000938,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000939,complete molecule,527,9913,cattle,MHC class II,DQ,,,BoLA-DQA*012:01:01/DQB*10051 protein complex,MRO_0000939,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000940,complete molecule,528,9913,cattle,MHC class II,DQ,,,BoLA-DQA*022:01/DQB*012:01 protein complex,MRO_0000940,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000941,complete molecule,729,9913,cattle,MHC class II,DQ,,,BoLA-DQA*022:02:01/DQB*009:01 protein complex,MRO_0000941,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000942,complete molecule,728,9913,cattle,MHC class II,DQ,,,BoLA-DQA*022:02:01/DQB*013:01 protein complex,MRO_0000942,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000943,complete molecule,530,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2206/DQB*013:01 protein complex,MRO_0000943,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000944,complete molecule,529,9913,cattle,MHC class II,DQ,,,BoLA-DQA*2206/DQB*014:02 protein complex,MRO_0000944,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000945,locus,488,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3 protein complex,MRO_0000945,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000946,partial molecule,150,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*0101 protein complex,MRO_0000946,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000947,partial molecule,494,9913,cattle,MHC class II,DRB3,DH7A haplotype,,BoLA-DRB3*0201 protein complex,MRO_0000947,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000948,partial molecule,499,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*0701 protein complex,MRO_0000948,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000949,partial molecule,495,9913,cattle,MHC class II,DRB3,DH22B haplotype,,BoLA-DRB3*1101 protein complex,MRO_0000949,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000950,partial molecule,496,9913,cattle,MHC class II,DRB3,DH8A haplotype,,BoLA-DRB3*1201 protein complex,MRO_0000950,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000951,partial molecule,516,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1202 protein complex,MRO_0000951,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000952,partial molecule,517,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*14011 protein complex,MRO_0000952,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000953,partial molecule,518,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1501 protein complex,MRO_0000953,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000954,partial molecule,521,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1502 protein complex,MRO_0000954,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000955,partial molecule,501,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*2002 protein complex,MRO_0000955,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000956,partial molecule,503,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*2703 protein complex,MRO_0000956,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0000957,partial molecule,151,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*3001 protein complex,MRO_0000957,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000946,partial molecule,150,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*001:01 protein complex,MRO_0000946,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000947,partial molecule,494,9913,cattle,MHC class II,DRB3,DH7A haplotype,,BoLA-DRB3*002:01 protein complex,MRO_0000947,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000948,partial molecule,499,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*007:01 protein complex,MRO_0000948,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000949,partial molecule,495,9913,cattle,MHC class II,DRB3,DH22B haplotype,,BoLA-DRB3*011:01 protein complex,MRO_0000949,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000950,partial molecule,496,9913,cattle,MHC class II,DRB3,DH8A haplotype,,BoLA-DRB3*012:01 protein complex,MRO_0000950,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000951,partial molecule,516,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*012:02 protein complex,MRO_0000951,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000952,partial molecule,517,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*014:01:01 protein complex,MRO_0000952,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000953,partial molecule,518,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*015:01 protein complex,MRO_0000953,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000954,partial molecule,521,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*015:02 protein complex,MRO_0000954,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000955,partial molecule,501,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*020:02 protein complex,MRO_0000955,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000956,partial molecule,503,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*027:03 protein complex,MRO_0000956,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0000957,partial molecule,151,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*030:01 protein complex,MRO_0000957,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000958,partial molecule,152,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*4501 protein complex,MRO_0000958,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000959,locus,966,9615,dog,MHC class I,,,,DLA-88 protein complex,MRO_0000959,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0000960,complete molecule,744,9615,dog,MHC class I,88,,,DLA-88*50801 protein complex,MRO_0000960,http://purl.obolibrary.org/obo/
@@ -902,12 +902,12 @@ http://purl.obolibrary.org/obo/MRO_0001867,haplotype,163,9796,horse,MHC class I,
 http://purl.obolibrary.org/obo/MRO_0001868,haplotype,,10116,rat,,,RT1-c haplotype,,rat MHC protein complex with RT1-c haplotype,MRO_0001868,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001869,haplotype,,10116,rat,,,RT1-l haplotype,,rat MHC protein complex with RT1-l haplotype,MRO_0001869,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001872,complete molecule,858,9031,chicken,MHC class I,BF2,B13 haplotype,,BF2*1301 protein complex,MRO_0001872,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001874,complete molecule,874,9913,cattle,MHC class I,1,,,BoLA-1*01901 protein complex,MRO_0001874,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001876,complete molecule,875,9913,cattle,MHC class I,2,,,BoLA-2*00801 protein complex,MRO_0001876,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001880,complete molecule,876,9913,cattle,MHC class I,4,,,BoLA-4*02401 protein complex,MRO_0001880,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001882,complete molecule,862,9913,cattle,MHC class I,HD6,,BoLA-A18 serotype,BoLA-6*01302 protein complex,MRO_0001882,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001884,partial molecule,904,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1001 protein complex,MRO_0001884,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001886,partial molecule,905,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*1801 protein complex,MRO_0001886,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001874,complete molecule,874,9913,cattle,MHC class I,1,,,BoLA-1*019:01 protein complex,MRO_0001874,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001876,complete molecule,875,9913,cattle,MHC class I,2,,,BoLA-2*008:01 protein complex,MRO_0001876,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001880,complete molecule,876,9913,cattle,MHC class I,4,,,BoLA-4*024:01:01:01 protein complex,MRO_0001880,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001882,complete molecule,862,9913,cattle,MHC class I,HD6,,BoLA-A18 serotype,BoLA-6*013:02 protein complex,MRO_0001882,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001884,partial molecule,904,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*010:01 protein complex,MRO_0001884,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001886,partial molecule,905,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*018:01 protein complex,MRO_0001886,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001887,haplotype,,9031,chicken,MHC class I,,B13 haplotype,,chicken MHC class I protein complex with B13 haplotype,MRO_0001887,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001893,complete molecule,869,9796,horse,MHC class I,1,A3 haplotype,,Eqca-1*00101 protein complex,MRO_0001893,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001895,complete molecule,887,9796,horse,MHC class I,1,,,Eqca-1*00201 protein complex,MRO_0001895,http://purl.obolibrary.org/obo/
@@ -1143,3 +1143,13 @@ http://purl.obolibrary.org/obo/MRO_0002308,class,1085,9986,rabbit,MHC class I,,,
 http://purl.obolibrary.org/obo/MRO_0002309,class,1086,9986,rabbit,MHC class II,,,,rabbit MHC class II protein complex,MRO_0002309,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002310,locus,1087,9986,rabbit,MHC class I,A,,,RLA-A protein complex,MRO_0002310,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002311,complete molecule,1088,9986,rabbit,MHC class I,A,,,RLA-A*01 protein complex,MRO_0002311,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002312,partial molecule,1089,9913,cattle,MHC class II,DQ,,,BoLA-DQA*010:01:01 protein complex,MRO_0002312,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002313,partial molecule,1090,9913,cattle,MHC class II,DQ,,,BoLA-DQA*012:01:01 protein complex,MRO_0002313,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002314,partial molecule,1091,9913,cattle,MHC class II,DQ,,,BoLA-DQA*022:01 protein complex,MRO_0002314,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002315,partial molecule,1092,9913,cattle,MHC class II,DQ,,,BoLA-DQA*022:02:01 protein complex,MRO_0002315,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002316,partial molecule,1093,9913,cattle,MHC class II,DQ,,,BoLA-DQB*004:02 protein complex,MRO_0002316,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002317,partial molecule,1094,9913,cattle,MHC class II,DQ,,,BoLA-DQB*009:01 protein complex,MRO_0002317,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002318,partial molecule,1095,9913,cattle,MHC class II,DQ,,,BoLA-DQB*010:02:01 protein complex,MRO_0002318,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002319,partial molecule,1096,9913,cattle,MHC class II,DQ,,,BoLA-DQB*012:01 protein complex,MRO_0002319,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002320,partial molecule,1097,9913,cattle,MHC class II,DQ,,,BoLA-DQB*013:01 protein complex,MRO_0002320,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002321,partial molecule,1098,9913,cattle,MHC class II,DQ,,,BoLA-DQB*014:02 protein complex,MRO_0002321,http://purl.obolibrary.org/obo/
