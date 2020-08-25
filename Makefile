@@ -95,14 +95,11 @@ sort:
 build/hla.fasta: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 
-build/sla.fasta: | build
-	curl -o $@ -L https://www.ebi.ac.uk/ipd/mhc/group/SLA/download?type=protein
-
-build/dla.fasta: | build
-	curl -o $@ -L https://www.ebi.ac.uk/ipd/mhc/group/DLA/download?type=protein
+build/mhc.fasta: | build
+	wget -O $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
 .PHONY: update-seqs
-update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/sla.fasta build/dla.fasta
+update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
 
 
