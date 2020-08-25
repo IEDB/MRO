@@ -12,8 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-08-14/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-08-14</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-08-25/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-08-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4774,11 +4774,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000353"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA56908.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1*02101</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRVMGPRTLFVLLLGALVLTETRAGSHSLRYFYTAVSRPGDGEPRFITVGYVDDTQFVWFDSDAPDPRKEPRTPWIEKEGPEYWDRETRISKENTLVYRGSLNNLRGYYNQSEAGSHTFQQMFGCDVGPDGRLLGGYRQYAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGDAERFRNYVEGECVEGLRRYLENGKDTLLRADPPKAHVTHHPISEREVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCHVQHKGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWRKKRSGEKRQTYTQAASGDSDQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03191</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*021:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLFVLLLGALVLTETRAGSHSLRYFYTAVSRPGDGEPRFITVGYVDDTQFVWFDSDAPDPRKEPRTPWIEKEGPEYWDRETRISKENTLVYRGSLNNLRGYYNQSEAGSHTFQQMFGCDVGPDGRLLGGYRQYAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGDAERFRNYVEGECVEGLRRYLENGKDTLLRADPPKAHVTHHPISEREVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCHVQHKGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWRKKRSGEKRQTYTQAASGDSDQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02101 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*021:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4787,11 +4787,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000353"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA70407.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1*02301</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RVMGPRTLFVLLLGALALTETRAGSHSLRYFYTAVSRPGLGEPRFISVGYVDDTQFVRFDSDAPNPREEPRAPWIEKEGPEYWDRETRISKENTLVYRESLNNLRGYYNQSEAGSHNIQAMYGCDVGSDGSFLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAEGYAESLRNYLEGRCVEWLRRYLENGKDALLRADPPMAHVTHHPSSEREVTLRCWALGFYPKEISLTWQREGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCHVQHEGLQEPLILRWEPPQTSFLIMGIIVGLVLLVVAVVAGAVIWRKKRSGEKRQTYTQAASGDSDQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03193</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*023:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLFVLLLGALALTETRAGSHSLRYFYTAVSRPGLGEPRFISVGYVDDTQFVRFDSDAPNPREEPRAPWIEKEGPEYWDRETRISKENTLVYRESLNNLRGYYNQSEAGSHNIQAMYGCDVGSDGSFLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAEGYAESLRNYLEGRCVEWLRRYLENGKDALLRADPPMAHVTHHPSSEREVTLRCWALGFYPKEISLTWQREGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCHVQHEGLQEPLILRWEPPQTSFLIMGIIVGLVLLVVAVVAGAVIWRKKRSGEKRQTYTQAASGDSDQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02301 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*023:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4820,11 +4820,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000356"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAE66655.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2*01201</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA02982</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*012:01</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRPRTLLLLLSGVLVLTETLAGSHSLRYFYTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDAPDPRTEPRVRWVEQEGPEYWDRETRNFKDTAQTFRVDLNTLRGYYNQSEAGSHNIQAMYGCDVGPDGRLLRGYRQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGEAERHRNYLEGTCVEWLRRYLENGKDTLLRADPPKAHVTHHSISDREVTLRCWALGFYPEEISLTWQREGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWRKKRSGEKGRIYTQAASSDSAQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*012:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4833,11 +4833,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000356"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA70406.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2*01801</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRVMRPRTLLLVLSRVLVLTETLAGSHSLRYFYTAVSRPGLGEPRFIAVGYVDDTQFTRFDSDAPNPRDEPRVPWMEQEGPEYWDRNTRIYKDTAQIFRANLNTALGYYNQSEAGSHTFQEMYGCYVGPDGRLLLGFMQFAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGEAERQRNYLEGRCVEGLRRYLENGKDTLLRADPPKAHVTHHPISDREVTLRCWALGFYPEEISLTWQHEGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWRKKRSGEKGRIYTQAASSDSAQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03187</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*018:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLLVLSRVLVLTETLAGSHSLRYFYTAVSRPGLGEPRFIAVGYVDDTQFTRFDSDAPNPRDEPRVPWMEQEGPEYWDRNTRIYKDTAQIFRANLNTALGYYNQSEAGSHTFQEMYGCYVGPDGRLLLGFMQFAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGEAERQRNYLEGRCVEGLRRYLENGKDTLLRADPPKAHVTHHPISDREVTLRCWALGFYPEEISLTWQHEGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWRKKRSGEKGRIYTQAASSDSAQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01801 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*018:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4846,11 +4846,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000356"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA56910.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2*02201</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTLLLLLSGVLVLTETRAGSHSLRYFHTAVSRPGLGEPRFISVGYVDDTQFVRFDSDSANPREEPRAPWMEQEGPEYWDEQTRIVKDTAQSFRVGLNTLRGYYNQSEAGSHTLQLMYGCDVGPDGRLLRGYEQDAYDGRDYIALNEDLRSWTAADTAAQITKRKREAAGAAERLRNYLEGTCVEGLRRYLENGKDALLRADPPKAHVTHHPVSDREVTLRCWALGFYPEEISLTWQREGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLIMGIIVGLVLLVVALVAGAVIWRKKRSGEKGRIYTQAASSDSAQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03192</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*022:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLLLLLSGVLVLTETRAGSHSLRYFHTAVSRPGLGEPRFISVGYVDDTQFVRFDSDSANPREEPRAPWMEQEGPEYWDEQTRIVKDTAQSFRVGLNTLRGYYNQSEAGSHTLQLMYGCDVGPDGRLLRGYEQDAYDGRDYIALNEDLRSWTAADTAAQITKRKREAAGAAERLRNYLEGTCVEGLRRYLENGKDALLRADPPKAHVTHHPVSDREVTLRCWALGFYPEEISLTWQREGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLIMGIIVGLVLLVVALVAGAVIWRKKRSGEKGRIYTQAASSDSAQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*02201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*022:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4879,11 +4879,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000360"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAA30638.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3*00101</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLLSGVLVLTETRAGSHSMRYFSTAVSRPGLGEPRYLEVGYVDDTQFVRFDSDAPNPRMEPRARWVEQEGPEYWDRETQRAKGNAQFFRVSLNNLRGYYNQSEAGSHTLQWMSGCYVGPDGRPPRGFMQFGYDGRDYLALNEDLRSWTAVETMAQISKRKMEAAGEAEVQRNYLEGRCVEWLRRYLENGKDTLLRADPPKAHVTRHPISGREVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALLVPSGEEQKYTCQVQHEGLQEPLTLKWEPPQPSFLTMGIIVGLVLLVVTGAVVAGVVICMKKRSGEKRGTYIQASSSDSAQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03166</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*001:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLLSGVLVLTETRAGSHSMRYFSTAVSRPGLGEPRYLEVGYVDDTQFVRFDSDAPNPRMEPRARWVEQEGPEYWDRETQRAKGNAQFFRVSLNNLRGYYNQSEAGSHTLQWMSGCYVGPDGRLRRGFMQFGYDGRDYLALNEDLRSWTAVETMAQISKRKMEAAGEAEVQRNYLEGRCVEWLRRYLENGKDTLLRADPPKAHVTRHPISGREVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALLVPSGEEQKYTCQVQHEGLQEPLTLKWEPPQPSFLTMGIIVGLVLLVVTGAVVAGVVICMKKRSGEKRGTYIQASSSDSAQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00101 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*001:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4892,11 +4892,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000360"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA63476.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3*00201</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLLLLSGVLVLTETVAGSHSMRYFLTAVSRPGFGEPRYLEVGYVDDTQFVRFDSDAPNPRMEPRARWVEQEGPEYWDQETRKAKGNAQFFRVSLNNLRGYYNQSEAGSHTLQLMSGCYVGPDGRLRRGFMQFGYDGRDYLALNEDLRSWTAVETVAQISKRKMEAAGEAEVQRNYLEGRCVEWLRRYLENGKDTLLRADPPKAHVTHHPISDREVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWVALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQPSFLTMGIIVGLVLLVVTGAVVAGVVVCMKKRSGEKRGTYIQASSSDSAQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03169</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*002:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLLLLLSGVLVLTETVAGSHSMRYFLTAVSRPGFGEPRYLEVGYVDDTQFVRFDSDAPNPRMEPRARWVEQEGPEYWDQETRKAKGNAQFFRVSLNNLRGYYNQSEAGSHTLQLMSGCYVGPDGRLRRGFMQFGYDGRDYLALNEDLRSWTAVETVAQISKRKMEAAGEAEVQRNYLEGRCVEWLRRYLENGKDTLLRADPPKAHVTHHPISDREVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWVALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQPSFLTMGIIVGLVLLVVTGAVVAGVVVCMKKRSGEKRGTYIQASSSDSAQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*002:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4925,11 +4925,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000363"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA56909.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6*01301</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03180</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:01</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPGTLFMLLLGALVLIETRAGSHSLRYFHTAVSRPGLREPLFITVGYVDDTQFVRFDSDARDPRTEPRQPWMEKEGPEYWDRETQISKENALWYREALNNLRGYYNQSEAGSHTLQEMYGCDVGSDGRLRRGYEQYGYDGRDYLALNEDLRSWTAADTAAQISKRKMEAAGAAERFRNYLEGTCVEWLRRYLENGKDTLLRADPPKAHVTRHPSSEHEVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWMKKHSGEKRRTYTQAASNDSAQGSDVSLTVPKV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01301 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4938,11 +4938,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000363"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAE94184.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6*04101</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLFMLLLGALVLIETRAGSHFLRYFHTAVSRPGLREPLFITVGYVDDTQFVRFDSDARDPRKEPRQPWMEKEGPEYWDRETQISKENALWYREALNTLRGYYNQSEAGSHTLQEMYGCDVGSDGRLRRGYEQYGYDGRDYLALNEDLRSWTAADTAAQISKRKMEAAGAAERFRNYLEGRCVESLRRYLENGKDTLLRADPPKAHVTRHPSSEHEVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWMKKHSGEKRRTYTQAASNDSAQGSDVSLTVPKA</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03222</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*041:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLFMLLLGALVLIETRAGSHFLRYFHTAVSRPGLREPLFITVGYVDDTQFVRFDSDARDPRKEPRQPWMEKEGPEYWDRETQISKENALWYREALNTLRGYYNQSEAGSHTLQEMYGCDVGSDGRLRRGYEQYGYDGRDYLALNEDLRSWTAADTAAQISKRKMEAAGAAERFRNYLEGRCVESLRRYLENGKDTLLRADPPKAHVTRHPSSEHEVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWMKKHSGEKRRTYTQAASNDSAQGSDVSLTVPK</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*04101 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*041:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -4991,8 +4991,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000368">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQA*0202</obo:MRO_resource-name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0202 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA02991</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*002:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AYGINVYHTYGPSGYFTHEFDGDEEFYVDLEKRETVWNLPLFSKFRRFDPQGALRNIATVKHNLEIVIQRSNSTA</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*002:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5001,11 +5004,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000369">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAB62015.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQA*0301</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DHIGAYGINVYHSYGPSGYYTHEFDGDEEFYVDLEKRETVWNLPLFSKFRRFDPQGALRNIATTKHNLEIMMQRSNSTAATN</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA02994</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*003:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DHIGAYGINVYHSYGPSGYYTHEFDGDEEFYVDLEKRETVWNLPLFSKFRRFDPQGALRNIATTKHNLEIMMQRSNSTAAT</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*003:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5014,11 +5017,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000370">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAB62025.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQA*10011</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DHIGTYGISIYHTYGPSGYYTHEFDGDEEFYVDLEKRETVWRLPVFSKFTSFDPQGALRNIAIVKHNLEIVIQRSNSTAATN</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA02999</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*010:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DHIGTYGISVYHTYGPSGYYTHEFDGDEEFYVDLEKRETVWRLPVFSKFTSFDPQGALRNIAIVKHNLEIVIQRSNSTAAT</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*10011 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*010:01:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5027,11 +5030,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA69154.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQA*12011</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVLNRALILGALALTTMMSPSGSEDIVADHIGTYGISIYHTYGPSGYYTHEFDGDEEFYVDLEKRETVWRLPVFSKFATFDPQGALRNIATTKHNLEIVIQRSNSTAATNKVPEVTVFSKSPVMLGQPNTLICHVDNIFPPVINITWLRNGHSVTEGVSETSFLIKSDYSFLKINYLTFLPSDDDVYDCKVEHWGLDEPLLKHWEPDIPAPMSELTETVVCALGLTVGLVGIMVGTILIIQGLRSGGPSRHQGPL</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03002</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*012:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVLNRALILGALALTTMMSPSGSEDIVADHIGTYGISVYHTYGPSGYYTHEFDGDEEFYVDLEKRETVWRLPVFSKFATFDPQGALRNIATTKHNLEIVIQRSNSTAATNKVPEVTVFSKSPVMLGQPNTLICHVDNIFPPVINITWLRNGHSVTEGVSETSFLIKSDYSFLKINYLTFLPSDDDVYDCKVEHWGLDEPLLKHWEPDIPAPMSELTETVVCALGLTVGLVGIMVGTILIIQGLRSGGPSRHQGPL</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*12011 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*012:01:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5040,11 +5043,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000372">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA69155.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQA*2201</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVLNRALILGALALTTMMSPNGGEDIVADHVGSYGTEIYQSHGPSGQYTQEFDGDEMFYVDLGKKETVWRLPMFSQFAGFDPQAALSEIATSKHNLDVLTKRSNFTPVINEVPEVTVFSKSPVILSQPNTLICHVDNIFPPVINITWLKNGHAVTEGVSETSFLPKDDHSFLKIGYLTFLPSDNDIYDCKVEHWGLDEPLLKHWEPEVPAPMSELTETVVCALGLTVGLVGIVVGTIFIIQGLRSGGTSRHQGPL</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03013</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVLNRALILGALALTTMMSPNGGEDIVADHVGSYGTEVYQSHGPSGQYTQEFDGDEMFYVDLGKKETVWRLPMFSQFAGFDPQAALSEIATSKHNLDVLTKRSNFTPVINEVPEVTVFSKSPVILSQPNTLICHVDNIFPPVINITWLKNGHAVTEGVSETSFLPKDDHSFLKIGYLTFLPSDNDIYDCKVEHWGLDEPLLKHWEPEVPAPMSELTETVVCALGLTVGLVGIVVGTIFIIQGLRSGGTSRHQGPL</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5053,11 +5056,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000373">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAA08765.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQA*22021</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVLNRALILGALALTTMMSSSGGEDIVADHVGSYGTEIYQSHGPSGQYTQEFDGDEMFYVDLGKKETVWRLPMFSQFAGFDPQAALSEIATAKHNLDVLTKRSNFTPVINEVPEVTVFSKSPVMLGQPNTLICHVDNIFPPVINITWLKNGHAVTEGVSETSFLPKDDHSFLKIGYLTFLPSDNDIYDCKVEHWGLDEPLLKHWEPEVPAPMSELTETVVCALGLTVGLVGIVVGTIFIIQGLRSGGASRHQGPL</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03014</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVLNRALILGALALTTMMSPSGGEDIVADHVGSYGTEVYQSHGPSGQYTQEFDGDEMFYVDLGKKETVWRLPMFSQFAGFDPQAALSEIATAKHNLDVLTKRSNFTPVINEVPEVTVFSKSPVMLGQPNTLICHVDNIFPPVINITWLKNGHAVTEGVSETSFLPKDDHSFLKIGYLTFLPSDNDIYDCKVEHWGLDEPLLKHWEPEVPAPMSELTETVVCALGLTVGLVGIVVGTIFIIQGLRSGGASRHQGPL</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5095,11 +5098,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAB39392.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB*0402</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YQFKCLCYFTNGTERVRYVTRYIYNQEENVRFDSDWDEYRAVTPLGRPDAEYWNSQKDILERVRAEVDRVCRNNYQAELIT</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03040</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*004:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YQFKCLCYFTNGTERVRYVTRYIYNQEENVRFDSDWDEYRAVTPLGRPDAEYWNSQKDILERVRAEVDRVCRNNYQAELI</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*0402 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*004:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5108,11 +5111,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000377">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAB39395.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB*0901</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VQFKGLCYFTNGTERVRLVVRHIYNREEYARFDSDVNEYRAVTPLGRPDAEYWNSQKDLLEQRRAEVDRVCRHNYQVAAPF</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03048</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*009:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VQFKGLCYFTNGTERVRLVVRHIYNREEYARFDSDVNEYRAVTPLGRPDAEYWNSQKDLLEQRRAEVDRVCRHNYQVAAP</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*0901 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*009:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5121,11 +5124,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAB39398.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB*10021</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YQFMGQCYFTNGTERVRYVTRYIYNQEEYARFDSDWDEYRALTPLGRPAAEYWNSQKDILERTRAEVDRVCRNNYQVEAPF</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03052</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*010:02:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YQFMGQCYFTNGTERVRYVTRYIYNQEEYARFDSDWDEYRALTPLGRPAAEYWNSQKDILERTRAEVDRVCRNNYQVEAP</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*10021 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*010:02:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5147,11 +5150,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000380">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA77080.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB*1201</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSGMVALWIPRGLWTAVVMVTLVMLSTPGAEGRDSPKDFVFQFKGLCYFTNGTERVRSVNRYIYNREEYVRFDSDWDEYRALTPLGRQDAEYFNSQKDFLEQTRAEADTVCRHNYQVAAPFTWQRQVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRWFRNDWEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCRVEHPSLQSPIMVEWRAQSESAQSKMLSGVGGFVLGLIFLGLGLIIRHRSQKGLVR</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03059</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*012:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FQFKGLCYFTNGTERVRSVNRYIYNREEYVRFDSDWDEYRALTPLGRQDAEYFNSQKDFLEQTRAEADTVCRHNYQVAAP</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*1201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*012:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5160,11 +5163,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAA07171.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB*1301</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSGMVALRIPRGLWTAAVMVTLAVLSTPGTEGRDSPQDFVFQFKGLCYFTNGTERVRSVTRYIYNREEYVRFDSDVNEYRAVTPLGRPSAEYFNSQEDLLERTRAEVDRVCRHNYQLDAPFTWQRQVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRWFRNDREETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCRVEHPSLQSPISVEWRAQSESAQSKMLSGVGGFVLGLIFLGLGLIIRHRSQKGLVR</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03060</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*013:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FQFKGLCYFTNGTERVRSVTRYIYNREEYVRFDSDVNEYRAVTPLGRPSAEYFNSQEDLLERTRAEVDRVCRHNYQLDAP</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*1301 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*013:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5173,11 +5176,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAD10286.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DQB*1402</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YQFKGLCYFTNGTERVRSVNRYIYNREEYVRFDSDWDEYRAVTPLGRPDAEYWNSQKDILERTRAEADTVCRHNYQVEAPF</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03062</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*014:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YQFKGLCYFTNGTERVRSVNRYIYNREEYVRFDSDWDEYRAVTPLGRPDAEYWNSQKDILERTRAEADTVCRHNYQVEAP</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*1402 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*014:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5246,11 +5249,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000386">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAA30646.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*0101</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYSKSECHFFNGTERVRFLDRYYTNGEETVRFDSDWGEFRAVTELGPQDREYWNSQKDFLEEKRAEVDRVCRHNYGGMESFTVQRRVEPTVTVYPAKTQPLQHHNLLVCSVNGFYPGHIEVRWFRNAHEEEAGVISTGLIQNGDWTFQTMVMLETVPQSGEVYTCQVDHPSRTSPITVEWRARSDSAQSKMMSGVGGFVLGLLFLAVGLFIYFRNQKG</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03100</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*001:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYSKSECHFFNGTERVRFLDRYYTNGEETVRFDSDWGEFRAVTELGRQDAEYWNSQKDFLEEKRAEVDRVCRHNYGGMESFTVQRRVEPTVTVYPAKTQPLQHHNLLVCSVNGFYPGHIEVRWFRNAHEEEAVDHPSRTSPITVEWRARSDSAQSKMMSGVGGFVLGLLFLAVGLFIYFR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0101 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*001:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5259,10 +5262,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAJ65220.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*0201</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03102</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*002:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYSTSECHFFNGTERVRFLDRYFHNGEEFVRFDSDWGEYRAVTELGRPDAEYWNSQEILERARAAVDTYCRHNYGGVESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*002:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5271,11 +5275,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAJ65224.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*0701</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03110</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*007:01</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYCKRECHFFNGTERVRFLDRCFHNGEEFVRFDSDWGEFRAVTELGRRVAEQWNSQKDFLEERRAEVDRVCRHNYGVVESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0701 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*007:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5284,11 +5288,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAJ65230.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*1101</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03116</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*011:01</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLQYHKGECHFFNGTERVRLLDRHFYNGEEYVRFDSDWDEFRAVTELGRPSAEYWNSQKDFLERRRAEVDTVCRHNYGVVESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1101 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*011:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5297,11 +5301,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000390">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAJ65231.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*1201</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03117</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:01</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYTKKECHFFNGTERVRFLNRYFHNGEEFVRFDSDWGEYRAVTELGRPDAEYWNSQKEILERARAAVDTYCRHNYGVGESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1201 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5310,11 +5314,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000391">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAA16293.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*1202</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYSKSECHFFNGTERVRFLERSFYNGEENVRFDSDWGEYRAVTELGRPDAEYWNSQKEILEERRAEVDRVCRHNYGVG</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03118</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYTKKECHFFNGTERVRFLNRYFHNGEEFVRFDSDWGEYRAVTELGRPDAEYWNSQKEILERGRAAVDTYCRHNYGVG</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1202 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5323,11 +5327,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000392">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFD28268.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*14011</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03120</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*014:01:01</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLQYHKGECHFFNGTERVRLLDRHFYNGEEFVRFDSDWDEFRAVTELGRPAAEQWNSQKDFLEQKRAEVDRVCRHNYGGVESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*14011 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*014:01:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5336,10 +5340,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABH09471.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*1501</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03122</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYSTSECHFFNGTERVRYLDRYFHNGEEFVRFDSDWGEYRAVTELGRRVAEQLNGQKDTLERERAYVDTYCRHNYGVVESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1501 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5348,11 +5353,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000394">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAA16295.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*1502</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03123</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:02</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYSTSECHFFNGTERVRYLDRYFHNGEEFVRFDSDWGEYRAVTELGRRSAEQLNGQKDTLERERAYVDTYCRHNYGVV</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1502 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5361,11 +5366,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAA61004.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*2002</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYCKRECHFFNGTERVRLLDRYFYNGEERVRFDSDWGEFRAVTELGRPDAEYWNSQKDFLEQRRAAVDTYCRHNYGVGESFTV</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03133</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*020:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYCKRECHFFNGTERVRLLDRYFYNGEERVRFDSDWGEFRAVTELGRPDAEYWNSQKDFLEQRRAAVDTYCRHNYGVGESFT</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2002 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*020:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5374,11 +5379,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFD28270.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*2703</obo:MRO_resource-name>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03145</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*027:03</obo:MRO_resource-name>
         <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYYKRECHFFNGTERVRFLDRCYTNGEETVRFDSDWGEFRAVTELGRPDAEYWNSQKDFLEERRAEVDRVCRHNYGVGESFTVQRR</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2703 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*027:03 chain</rdfs:label>
     </owl:Class>
     
 
@@ -5387,11 +5392,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0000397">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAB06455.1</obo:MRO_accession>
-        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*3001</obo:MRO_resource-name>
-        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLSAAHFLEYSKSECHFFNGTERVRFLDRYYTNGEETVRFDSDWGEFRALTELGRQDAEQWNSQKEILEDERAAVDTYCRYNYGVGESFTVQRR</obo:MRO_sequence>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03152</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*030:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EYSKSECHFFNGTERVRFLDRYYTNGEETVRFDSDWGEFRALTELGRQDAEQWNSQKEILEDERAAVDTYCRYNYGVGESFT</obo:MRO_sequence>
         <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*3001 chain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*030:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -12763,11 +12768,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000921"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001527"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02101</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-102101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1021:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*02101</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02101</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02101 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*021:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*021:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -12800,11 +12807,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000921"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001525"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02301</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-102301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1023:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*02301</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02301</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*02301 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*023:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*023:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -12867,11 +12876,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000924"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001523"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01201</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-201201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2012:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*01201</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01201</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01201 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*012:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*012:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -12904,11 +12915,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000924"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001524"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01801</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-201801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2018:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*01801</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01801</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*01801 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*018:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*018:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -12941,11 +12954,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000924"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001527"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*02201</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-202201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2022:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*02201</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*02201</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*02201 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*022:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*022:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13008,11 +13023,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000928"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001523"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00101</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-300101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3001:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*00101</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00101</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00101 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*001:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*001:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13045,11 +13062,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000928"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001523"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00201</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-300201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3002:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*00201</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00201</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*00201 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*002:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-3*002:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13112,12 +13131,14 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000931"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001526"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01301</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-601301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6013:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HD6</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N*01301</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01301</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01301 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13146,10 +13167,12 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000931"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA T2b</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*04101</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-604101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6041:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*04101</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*04101 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*041:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*041:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13207,11 +13230,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*00202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA00202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA002:02</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA1*0202</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0202</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0202 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*002:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*002:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13239,11 +13265,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*00301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA00301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA003:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA1*0301</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*003:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*003:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13271,10 +13300,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000936"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0301/DQB0402</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002316"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*00301/DQB*00402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301/DQB*0402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA00301/DQB00402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA003:01/DQB004:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301/DQB*0402</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0301/DQB*0402 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*003:01/DQB*004:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*003:01/DQB*004:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13301,11 +13334,15 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA10011/DQB10021</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002312"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002318"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0100101/DQB*0100201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*10011/DQB*10021</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0100101/DQB0100201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA010:01:01/DQB010:02:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*10011/DQB*10021</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*10011/DQB*10021 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*010:01:01/DQB*010:02:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*010:01:01/DQB*010:02:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13332,11 +13369,13 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA12011/DQB10051</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002313"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0120101/DQB*10051</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0120101/DQB10051</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA012:01:01/DQB10051</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*12011/DQB*10051</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*12011/DQB*10051 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*012:01:01/DQB*10051</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*012:01:01/DQB*10051 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13363,11 +13402,15 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2201/DQB1201</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002319"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*02201/DQB*01201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2201/DQB*1201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA02201/DQB01201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA022:01/DQB012:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2201/DQB*1201</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2201/DQB*1201 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:01/DQB*012:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:01/DQB*012:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13394,11 +13437,15 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2202/DQB0901</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002315"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002317"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0220201/DQB*00901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202/DQB*0901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0220201/DQB00901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA022:02:01/DQB009:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202/DQB*0901</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202/DQB*0901 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01/DQB*009:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01/DQB*009:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13425,11 +13472,15 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2202/DQB1301</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002315"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002320"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0220201/DQB*01301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202/DQB*1301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0220201/DQB01301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA022:02:01/DQB013:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202/DQB*1301</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202/DQB*1301 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01/DQB*013:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01/DQB*013:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13456,11 +13507,13 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2206/DQB1301</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002320"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*01301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2206/DQB01301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2206/DQB013:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*1301</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*1301 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*013:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*013:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13487,11 +13540,13 @@ Previous. An information content entity is a non-realizable information entity t
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2206/DQB1402</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0002321"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*01402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2206/DQB01402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA2206/DQB014:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*1402</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*1402 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*014:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2206/DQB*014:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13549,10 +13604,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB30101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*00101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB300101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3001:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0101</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0101 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*001:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*001:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13585,10 +13643,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001479"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB30201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*00201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB300201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3002:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0201</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0201 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*002:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*002:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13616,10 +13677,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB30701</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*00701</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0701</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB300701</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3007:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0701</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0701 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*007:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*007:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13652,10 +13716,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001478"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3011:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1101</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1101 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*011:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*011:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13688,10 +13755,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001480"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3012:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1201</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1201 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13719,10 +13789,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3012:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1202</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1202 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*012:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13750,10 +13823,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB314011</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*0140101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*14011</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB30140101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3014:01:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*14011</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*14011 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*014:01:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*014:01:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13781,10 +13857,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31501</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01501</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1501</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301501</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3015:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1501</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1501 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13812,10 +13891,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31502</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01502</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1502</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301502</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3015:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1502</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1502 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*015:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13843,10 +13925,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB32002</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*02002</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2002</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB302002</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3020:02</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2002</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2002 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*020:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*020:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13874,10 +13959,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB32703</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*02703</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2703</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB302703</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3027:03</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2703</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*2703 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*027:03</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*027:03 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -13905,10 +13993,13 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB33001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*03001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*3001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB303001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3030:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*3001</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*3001 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*030:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*030:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -41873,7 +41964,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001873">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000353"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*01901 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03189</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*019:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLFVLLLGALVLTETRAGSHSLKYFHTAVSRPGDGEPRFITVGYVDDTQFVRFDSDAPDPRKEPRAPWIEKEGPEYWDRETRISKENTLVYRGSLNNLRGYYNQSEAGSHTYQDMYGCDVGPDGRLLGGYDQYGYDGRDYLALNEDLRSWTAADTAAQITKRKWEAAGVAERFRNYVEGRCVEGLRRYLENGKDALLRADPPKAHVTHHPISEREVTLRCWALGFYPKEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCHVQHEGLQEPLTLRWEPPQTSFLIMGIIVGLVLLVVAVVAGAVIWRKKRSGEKRQTYTQAASGDSDQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*019:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -41903,10 +41998,12 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000921"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4221.1</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AH12-A</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*01901</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-101901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1019:01</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*01901</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*01901 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*019:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-1*019:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -41915,7 +42012,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001875">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000356"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*00801 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03176</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*008:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRPRTLLLLLSGVLVLTETLAGSHSLRYFLTAVSRPGLGEPRFIIVGYVDDTQFVRFDSNTPNPRMEPRARWVEKEGPEYWDRETRNSKETAQTFRANLNTALGYYNQSEAGSHTVQEMYGCDVGPDGRLLRGFMQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGDAETWRNYLEGRCVEWLRRYLENGKDALLRADPPKAHVTHHSISEREVTLRCWALGFYPEEISLTWQRDGEDQTQDMELVETRPSGDGTFQKWAALAVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWRKKRSGEKGRIYTQAASSDSTQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*008:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -41945,11 +42046,13 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000924"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AH12-B</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AH60-B</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*00801</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-200801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2008:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAN1</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*00801</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*00801 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*008:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-2*008:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -41987,7 +42090,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001879">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001877"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*02401 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03194</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*024:01:01:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPRTLLLLLSGVLVLTETRAGSHSLRYFSTAVSRPGLEEPRFIIVGYVDDTQFVRFDSDSPNPRAEPRAPWMEQEGPEYWDEQTRIVKDTAQTFRANLNTALGYYNQSEAGSHNIQAMYGCDVGSDGSFLRGYSQDAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAEGYAESLRNYLEGTCVEWLRRYLENGKDTLLRADPPKAHVTHHSISGREVTLRCWALGFYPEEISLTWQRKGEDQTQEMELVETRPSGDGNFQKWAALVVPSGEEQKYTCRVQHKGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVTGVVVAGAVIWMKRRSGEKGGNYIQASSSDSAQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*024:01:01:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -42015,11 +42122,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001434"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-402401</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*02401</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*024010101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4024010101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4024:01:01:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D18.1</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*02401</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*02401 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*024:01:01:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-4*024:01:01:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -42028,7 +42138,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001881">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000363"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01302 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03181</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:02</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGPGTLFMLLLGALVLIETRAGSHSLRYFHTAVSRPGLREPLFITVGYVDDTQFVRFDSDARDPRTEPRQPWMEKEGPEYWDRETQISKENALWYREALNNLRGYYNQSEAGSHTLQLMYGCDVGSDGRLRRGYEQYGYDGRDYLALNEDLRSWTAADTAAQISKRKMEAAGAAERFRNYLEGTCVEWLRRYLENGKDTLLRADPPKAHVTRHPSSEHEVTLRCWALGFYPEEISLTWQRNGEDQTQDMELVETRPSGDGNFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWEPPQTSFLTMGIIVGLVLLVVAVVAGAVIWMKKHSGEKRRTYTQAASNDSAQGSDVSLTVPKV</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:02 chain</rdfs:label>
     </owl:Class>
     
 
@@ -42061,11 +42175,13 @@ Previous. An information content entity is a non-realizable information entity t
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000931"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0001526"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01302</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-601302</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6013:02</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HD6.1</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01302</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*01302 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-6*013:02 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -42074,7 +42190,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001883">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1001 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03114</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*010:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYSKSECHFFNGTERVRFLDRYFHNGEEYVRFDSDWGEYRAVTELGQRVAEYCNSQKDFLERARAAVDTYCRHNYGVGESFTVQRR</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*010:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -42102,11 +42222,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301001</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3010:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB3*10</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1001</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1001 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*010:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*010:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -42115,7 +42238,11 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0001885">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000385"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1801 chain</rdfs:label>
+        <obo:MRO_accession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA03128</obo:MRO_accession>
+        <obo:MRO_resource-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*018:01</obo:MRO_resource-name>
+        <obo:MRO_sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLEYATSECHFFNGTERVRFLHRYFHNGEEFVRFDSDWGEFRAVTELGRPAAEQWNSQKDTLERERAYVDTYCRHNYGGVESFTVQRR</obo:MRO_sequence>
+        <obo:MRO_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPD</obo:MRO_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*018:01 chain</rdfs:label>
     </owl:Class>
     
 
@@ -42143,11 +42270,14 @@ Previous. An information content entity is a non-realizable information entity t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000945"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB31801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*01801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB301801</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3018:01</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB08</obo:IAO_0000118>
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1801</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*1801 protein complex</rdfs:label>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*018:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DRB3*018:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -52046,6 +52176,346 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MRO_0002312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002312">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000370"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0100101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*10011</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0100101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA010:01:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*010:01:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*010:01:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002313">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000371"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0120101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*12011</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0120101</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA012:01:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*012:01:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*012:01:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002314">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000372"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*02201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA02201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA022:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002315">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000373"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000375"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*0220201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*2202</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA0220201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA022:02:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQA*022:02:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002316">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000376"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*00402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*0402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB00402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB004:02</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*004:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*004:02 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002317">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000377"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*00901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*0901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB00901</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB009:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*009:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*009:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002318">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000378"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*0100201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*10021</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB0100201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB010:02:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*010:02:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*010:02:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002319">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000380"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*01201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*1201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB01201</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB012:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*012:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*012:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002320">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000381"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*01301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*1301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB01301</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB013:01</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*013:01</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*013:01 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MRO_0002321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MRO_0002321">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MRO_0001356"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000367"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MRO_0000382"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MRO_0000934"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*01402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*1402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB01402</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB014:02</obo:IAO_0000118>
+        <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*014:02</obo:OBI_9991118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoLA-DQB*014:02 protein complex</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
@@ -52461,9 +52931,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/mro.owl">
         <dc:creator>John Sidney</dc:creator>
         <dc:creator>James A. Overton</dc:creator>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <dc:creator>Bjoern Peters</dc:creator>
         <dc:creator>Alessandro Sette</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:title>MHC Restriction Ontology</dc:title>
         <dc:creator>Jim Kaufman</dc:creator>
         <dc:creator>Rebecca L. Tallmadge</dc:creator>
