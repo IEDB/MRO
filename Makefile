@@ -30,7 +30,7 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
-ROBOT := java -jar build/robot.jar
+ROBOT := java -jar build/robot.jar --prefix "MRO: $(OBO)/MRO_" --prefix "REO: $(OBO)/REO_" 
 
 
 ### Set Up
@@ -105,22 +105,28 @@ update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta buil
 
 ### OWL Files
 
-mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
+mro.owl: mro-import.owl mro-base.owl ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) merge \
 	--input mro-import.owl \
-	template \
-	--prefix "MRO: $(OBO)/MRO_" \
-	--prefix "REO: $(OBO)/REO_" \
-	--template index.tsv \
-	$(templates) \
-	--merge-before \
-	reason --reasoner HermiT \
-	--remove-redundant-subclass-axioms false \
+	--input mro-base.owl \
 	annotate \
 	--ontology-iri "$(OBO)/mro.owl" \
 	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro.owl" \
 	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
 	--annotation-file ontology/metadata.ttl \
+	--output $@
+
+mro-base.owl: index.tsv $(build_files) | build/robot.jar
+	$(ROBOT) template \
+	--input mro-import.owl \
+	--template index.tsv \
+	$(templates) \
+	reason --reasoner HermiT \
+	--remove-redundant-subclass-axioms false \
+	annotate \
+	--ontology-iri "$(OBO)/mro/mro-base.owl" \
+	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro-base.owl" \
+	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
 	--output $@
 
 mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
@@ -130,7 +136,6 @@ mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl 
 	--input $(LIB)/ro.owl \
 	extract \
 	--method MIREOT \
-	--prefix "REO: $(OBO)/REO_" \
 	--upper-term "GO:0008150" \
 	--upper-term "IAO:0000030" \
 	--upper-term "OBI:1110128" \
