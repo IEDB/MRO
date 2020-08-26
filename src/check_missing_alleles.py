@@ -19,7 +19,7 @@ def get_IMGT_data():
 
 def update_chain_sequence():
     """Updates the chain-sequence.tsv with missing alleles from IMGT
-    
+
     Returns:
         A list of missing alleles ['A*02:01', 'B*02:01']
     """
@@ -147,7 +147,7 @@ def update_chain(missing_alleles):
 
 def update_locus(missing_genes):
     """Update genetic-locus.tsv with any missing genes
-    
+
     Returns:
         A list of missing genetic loci ['DRB', 'Y']
     """
@@ -190,8 +190,7 @@ def update_locus(missing_genes):
 
 
 def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules):
-    """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file
-    """
+    """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file"""
     mro_labels = set()
     with open("../index.tsv") as fh:
         for _ in range(2):
@@ -236,6 +235,7 @@ def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules
         for tup in new_tups:
             fh.write(("\t").join(tup) + "\n")
 
+
 def create_classI_prot(missing_chainI):
     new_classI_molecules = set()
     with open("../ontology/molecule.tsv", "a+") as fh:
@@ -249,21 +249,45 @@ def create_classI_prot(missing_chainI):
             taxon = "human"
             alpha_chain = f"HLA-{allele} chain"
             beta_chain = "Beta-2-microglobulin"
-            fh.write(("\t").join([label, iedb_name, synonym, restrict_lvl, class_type, parent, taxon, alpha_chain, beta_chain]) + "\n")
+            fh.write(
+                ("\t").join(
+                    [
+                        label,
+                        iedb_name,
+                        synonym,
+                        restrict_lvl,
+                        class_type,
+                        parent,
+                        taxon,
+                        alpha_chain,
+                        beta_chain,
+                    ]
+                )
+                + "\n"
+            )
             new_classI_molecules.add(f"HLA-{allele} protein complex")
     return new_classI_molecules
+
 
 def create_classII_pairing(allele):
     """Simple helper class to create a pairing of alpha and beta chain"""
     pairing = {"DQA1": "DQB1", "DRA": ["DRB1", "DRB3", "DRB4", "DRB5"], "DPA1": "DPB1"}
-    pairing_rev = {"DQB1": "DQA1", "DRB1": "DRA", "DRB3": "DRA", "DRB4": "DRA", "DRB5": "DRA", "DPB1": "DPA1"}
+    pairing_rev = {
+        "DQB1": "DQA1",
+        "DRB1": "DRA",
+        "DRB3": "DRA",
+        "DRB4": "DRA",
+        "DRB5": "DRA",
+        "DPB1": "DPA1",
+    }
     gene = allele.split("*")[0]
     if gene in pairing:
         pair = f"{allele}/{pairing[gene]}"
     else:
         pair = f"{pairing_rev[gene]}/{allele}"
-    
+
     return pair
+
 
 def create_classII_prot(missing_chainII):
     new_classII_molecules = set()
@@ -272,7 +296,7 @@ def create_classII_prot(missing_chainII):
             pair = create_classII_pairing(allele)
             alpha_gene = pair.split("/")[0]
             beta_gene = pair.split("/")[1]
-            
+
             # First create a complete molecule entry
             label = f"HLA-{pair} protein complex"
             iedb_name = f"HLA-{pair}"
@@ -283,8 +307,23 @@ def create_classII_prot(missing_chainII):
             taxon = "human"
             alpha_chain = f"HLA-{alpha_gene} chain"
             beta_chain = f"HLA-{beta_gene} chain"
-            
-            fh.write(("\t").join([label, iedb_name, synonym, restrict_lvl, class_type, parent, taxon, alpha_chain, beta_chain]) + "\n")
+
+            fh.write(
+                ("\t").join(
+                    [
+                        label,
+                        iedb_name,
+                        synonym,
+                        restrict_lvl,
+                        class_type,
+                        parent,
+                        taxon,
+                        alpha_chain,
+                        beta_chain,
+                    ]
+                )
+                + "\n"
+            )
             new_classII_molecules.add(f"HLA-{pair} protein complex")
 
             # Now partial molecule entry
@@ -297,15 +336,41 @@ def create_classII_prot(missing_chainII):
             taxon = "human"
             alpha_chain = f"HLA-{alpha_gene} chain"
             beta_chain = f"HLA-{beta_gene} chain"
-            
-            fh.write(("\t").join([label, iedb_name, synonym, restrict_lvl, class_type, parent, taxon, alpha_chain, beta_chain]) + "\n")
+
+            fh.write(
+                ("\t").join(
+                    [
+                        label,
+                        iedb_name,
+                        synonym,
+                        restrict_lvl,
+                        class_type,
+                        parent,
+                        taxon,
+                        alpha_chain,
+                        beta_chain,
+                    ]
+                )
+                + "\n"
+            )
             new_classII_molecules.add(f"HLA-{allele} protein complex")
-    
+
     return new_classII_molecules
+
 
 def update_molecules(missing_alleles):
     class_I_genes = ["A", "B", "C"]
-    class_II_genes = ["DRA", "DRB1", "DRB3", "DRB4", "DRB5", "DQA1", "DQB1", "DPA1", "DPB1"]
+    class_II_genes = [
+        "DRA",
+        "DRB1",
+        "DRB3",
+        "DRB4",
+        "DRB5",
+        "DQA1",
+        "DQB1",
+        "DPA1",
+        "DPB1",
+    ]
 
     classI_imgt_alleles = set()
     classII_imgt_alleles = set()
@@ -330,13 +395,13 @@ def update_molecules(missing_alleles):
 
     missing_classI = classI_imgt_alleles.difference(mro_alleles)
     missing_classII = classII_imgt_alleles.difference(mro_alleles)
-    
+
     new_molecules = set()
     for x in list(create_classI_prot(missing_classI)):
         new_molecules.add(x)
     for y in list(create_classII_prot(missing_classII)):
         new_molecules.add(y)
-    
+
     return new_molecules
 
 
