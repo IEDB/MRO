@@ -15,7 +15,6 @@ def get_IMGT_data():
     )
     process = Popen(["wget", imgt_prot_URL, imgt_allele_URL], stdout=PIPE, stderr=PIPE)
     stdout, stderr = process.communicate()
-    print(stdout, stderr)
 
 
 def update_chain_sequence():
@@ -76,7 +75,7 @@ def update_chain_sequence():
         try:
             accession = imgt_dict[allele]
             source = "IMGT/HLA"
-            label = "HLA-" + allele + " chain"
+            label = f"HLA-{allele} chain"
             resource_name = allele
             seq = seqs[imgt_dict[allele]]
             missing_allele_rows.add((label, resource_name, source, accession, seq))
@@ -119,21 +118,21 @@ def update_chain(missing_alleles):
     new_genes = missing_genes.difference(mro_genes)
     new_gene_tups = set()
     for gene in new_genes:
-        label = "HLA-" + gene + " chain"
+        label = f"HLA-{gene} chain"
         synonyms = ""
         class_type = "equivalent"
         parent = "protein"
-        gene = "HLA-" + gene + " locus"
+        gene = f"HLA-{gene} locus"
         new_gene_tups.add((label, synonyms, class_type, parent, gene))
 
     new_chains = missing_alleles.difference(mro_chains)
     new_chain_tups = set()
     for allele in new_chains:
-        label = "HLA-" + allele + " chain"
+        label = f"HLA-{allele} chain"
         synonyms = ""
         class_type = "subclass"
         # This removes the specific allele # (generic chain)
-        parent = "HLA-" + allele.split("*")[0] + " chain"
+        parent = f"HLA-{allele.split('*')[0]} chain"
         gene = ""
         new_chain_tups.add((label, synonyms, class_type, parent, gene))
 
@@ -177,10 +176,10 @@ def update_locus(missing_genes):
         if mhc_class == "":
             mhc_class = "non-classical MHC"
 
-        label = "HLA-" + locus + " locus"
+        label = f"HLA-{locus} locus"
         synonyms = ""
         class_type = "subclass"
-        parent = "human " + mhc_class + " locus"
+        parent = f"human {mhc_class} locus"
         new_loci_rows.add((label, synonyms, class_type, parent))
 
     with open("../ontology/genetic-locus.tsv", "a+") as fh:
@@ -190,7 +189,7 @@ def update_locus(missing_genes):
     return new_loci
 
 
-def update_index(missing_alleles, missing_genes, missing_loci):
+def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules):
     """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file
     """
     mro_labels = set()
@@ -206,36 +205,147 @@ def update_index(missing_alleles, missing_genes, missing_loci):
     # Next few blocks will iterate MRO ID and pad left with 0s to 7 digits
     new_tups = []
     for allele in missing_alleles:
-        chain_name = "HLA-" + allele + " chain"
+        chain_name = f"HLA-{allele} chain"
         if chain_name not in mro_labels:
-            mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
+            mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
             curr_mro_num += 1
             new_tups.append((mro_id, chain_name, "owl:Class"))
 
     for gene in missing_genes:
-        gene_name = "HLA-" + gene + " chain"
+        gene_name = f"HLA-{gene} chain"
         if gene_name not in mro_labels:
-            mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
+            mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
             curr_mro_num += 1
             new_tups.append((mro_id, gene_name, "owl:Class"))
 
     for locus in missing_loci:
-        locus_name = "HLA-" + locus + " locus"
+        locus_name = f"HLA-{locus} locus"
         if locus_name not in mro_labels:
-            mro_id = "MRO:" + str(curr_mro_num + 1).zfill(7)
+            mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
             curr_mro_num += 1
             new_tups.append((mro_id, locus_name, "owl:Class"))
+
+    for molecule in missing_molecules:
+        molecule_name = f"HLA-{molecule} protein complex"
+        if molecule_name not in mro_labels:
+            mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
+            curr_mro_num += 1
+            new_tups.append((mro_id, molecule_name, "owl:Class"))
 
     with open("../index.tsv", "a+") as fh:
         for tup in new_tups:
             fh.write(("\t").join(tup) + "\n")
 
+def create_classI_prot(missing_chainI):
+    new_classI_molecules = set()
+    with open("../ontology/molecule.tsv", "a+") as fh:
+        for allele in missing_chainI:
+            label = f"HLA-{allele} protein complex"
+            iedb_name = f"HLA-{allele}"
+            synonym = ""
+            restrict_lvl = "complete molecule"
+            class_type = "equivalent"
+            parent = "MHC class I protein complex"
+            taxon = "human"
+            alpha_chain = f"HLA-{allele} chain"
+            beta_chain = "Beta-2-microglobulin"
+            fh.write(("\t").join([label, iedb_name, synonym, restrict_lvl, class_type, parent, taxon, alpha_chain, beta_chain]) + "\n")
+            new_classI_molecules.add(f"HLA-{allele} protein complex")
+    return new_classI_molecules
 
-# get_IMGT_data()
+def create_classII_pairing(allele):
+    """Simple helper class to create a pairing of alpha and beta chain"""
+    pairing = {"DQA1": "DQB1", "DRA": ["DRB1", "DRB3", "DRB4", "DRB5"], "DPA1": "DPB1"}
+    pairing_rev = {"DQB1": "DQA1", "DRB1": "DRA", "DRB3": "DRA", "DRB4": "DRA", "DRB5": "DRA", "DPB1": "DPA1"}
+    gene = allele.split("*")[0]
+    if gene in pairing:
+        pair = f"{allele}/{pairing[gene]}"
+    else:
+        pair = f"{pairing_rev[gene]}/{allele}"
+    
+    return pair
+
+def create_classII_prot(missing_chainII):
+    new_classII_molecules = set()
+    with open("../ontology/molecule.tsv", "a+") as fh:
+        for allele in missing_chainII:
+            pair = create_classII_pairing(allele)
+            alpha_gene = pair.split("/")[0]
+            beta_gene = pair.split("/")[1]
+            
+            # First create a complete molecule entry
+            label = f"HLA-{pair} protein complex"
+            iedb_name = f"HLA-{pair}"
+            synonym = ""
+            restrict_lvl = "complete molecule"
+            class_type = "equivalent"
+            parent = "MHC class II protein complex"
+            taxon = "human"
+            alpha_chain = f"HLA-{alpha_gene} chain"
+            beta_chain = f"HLA-{beta_gene} chain"
+            
+            fh.write(("\t").join([label, iedb_name, synonym, restrict_lvl, class_type, parent, taxon, alpha_chain, beta_chain]) + "\n")
+            new_classII_molecules.add(f"HLA-{pair} protein complex")
+
+            # Now partial molecule entry
+            label = f"HLA-{allele} protein complex"
+            iedb_name = f"HLA-{allele}"
+            synonym = ""
+            restrict_lvl = "partial molecule"
+            class_type = "equivalent"
+            parent = "MHC class II protein complex"
+            taxon = "human"
+            alpha_chain = f"HLA-{alpha_gene} chain"
+            beta_chain = f"HLA-{beta_gene} chain"
+            
+            fh.write(("\t").join([label, iedb_name, synonym, restrict_lvl, class_type, parent, taxon, alpha_chain, beta_chain]) + "\n")
+            new_classII_molecules.add(f"HLA-{allele} protein complex")
+    
+    return new_classII_molecules
+
+def update_molecules(missing_alleles):
+    class_I_genes = ["A", "B", "C"]
+    class_II_genes = ["DRA", "DRB1", "DRB3", "DRB4", "DRB5", "DQA1", "DQB1", "DPA1", "DPB1"]
+
+    classI_imgt_alleles = set()
+    classII_imgt_alleles = set()
+    for allele in missing_alleles:
+        gene = allele.split("*")[0]
+        if gene in class_I_genes:
+            classI_imgt_alleles.add(allele)
+        if gene in class_II_genes:
+            classII_imgt_alleles.add(allele)
+
+    mro_alleles = set()
+    with open("../ontology/molecule.tsv") as fh:
+        rows = csv.DictReader(fh, delimiter="\t")
+        for row in rows:
+            mro_protein = row["IEDB Label"]
+            if "HLA" in mro_protein and "*" in mro_protein:
+                if "/" in mro_protein:
+                    mro_alleles.add(mro_protein.split("/")[0][3:])
+                    mro_alleles.add(mro_protein.split("/")[1])
+                else:
+                    mro_alleles.add(mro_protein.split("HLA-")[1])
+
+    missing_classI = classI_imgt_alleles.difference(mro_alleles)
+    missing_classII = classII_imgt_alleles.difference(mro_alleles)
+    
+    new_molecules = set()
+    for x in list(create_classI_prot(missing_classI)):
+        new_molecules.add(x)
+    for y in list(create_classII_prot(missing_classII)):
+        new_molecules.add(y)
+    
+    return new_molecules
+
+
+get_IMGT_data()
 missing_alleles = update_chain_sequence()
 missing_genes = update_chain(missing_alleles)
 missing_loci = update_locus(missing_genes)
-update_index(missing_alleles, missing_genes, missing_loci)
+missing_molecules = update_molecules(missing_alleles)
+update_index(missing_alleles, missing_genes, missing_loci, missing_molecules)
 
 try:
     os.remove("hla_prot.fasta")
