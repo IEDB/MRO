@@ -190,7 +190,8 @@ def update_locus(missing_genes):
 
 
 def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules):
-    """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file"""
+    """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file
+    """
     mro_labels = set()
     with open("../index.tsv") as fh:
         for _ in range(2):
@@ -225,7 +226,7 @@ def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules
             new_tups.append((mro_id, locus_name, "owl:Class"))
 
     for molecule in missing_molecules:
-        molecule_name = f"HLA-{molecule} protein complex"
+        molecule_name = f"{molecule}"
         if molecule_name not in mro_labels:
             mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
             curr_mro_num += 1
@@ -237,6 +238,11 @@ def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules
 
 
 def create_classI_prot(missing_chainI):
+    """Creates entries for MHC class I molecules
+
+    Returns:
+        A list of new entries for molecule.tsv
+    """
     new_classI_molecules = set()
     with open("../ontology/molecule.tsv", "a+") as fh:
         for allele in missing_chainI:
@@ -270,7 +276,11 @@ def create_classI_prot(missing_chainI):
 
 
 def create_classII_pairing(allele):
-    """Simple helper class to create a pairing of alpha and beta chain"""
+    """Simple helper class to create a pairing of alpha and beta chain based on gene
+
+    Returns:
+        A string that has a pairing of alpha and beta chain (i.e. DRBA/DRB1*01:02)
+    """
     pairing = {"DQA1": "DQB1", "DRA": ["DRB1", "DRB3", "DRB4", "DRB5"], "DPA1": "DPB1"}
     pairing_rev = {
         "DQB1": "DQA1",
@@ -290,6 +300,11 @@ def create_classII_pairing(allele):
 
 
 def create_classII_prot(missing_chainII):
+    """Creates entries for MHC class II molecules
+
+    Returns:
+        A list of new entries for molecule.tsv
+    """
     new_classII_molecules = set()
     with open("../ontology/molecule.tsv", "a+") as fh:
         for allele in missing_chainII:
@@ -359,6 +374,11 @@ def create_classII_prot(missing_chainII):
 
 
 def update_molecules(missing_alleles):
+    """Adds new entries to molecules.tsv
+    
+    Returns:
+        A list of entries to be added to index.tsv
+    """
     class_I_genes = ["A", "B", "C"]
     class_II_genes = [
         "DRA",
