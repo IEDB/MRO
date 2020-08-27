@@ -1,21 +1,7 @@
 import csv
 import os
+import sys
 from subprocess import Popen, PIPE
-
-
-def get_IMGT_data():
-    """Uses wget to retrieve the latest IMGT alleles + sequences from their github
-    These get deleted later after operations are complete
-    """
-    imgt_prot_URL = (
-        "https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta"
-    )
-    imgt_allele_URL = (
-        "https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt"
-    )
-    process = Popen(["wget", imgt_prot_URL, imgt_allele_URL], stdout=PIPE, stderr=PIPE)
-    stdout, stderr = process.communicate()
-
 
 def update_chain_sequence():
     """Updates the chain-sequence.tsv with missing alleles from IMGT
@@ -25,7 +11,7 @@ def update_chain_sequence():
     """
 
     mro_alleles = set()
-    with open("../ontology/chain-sequence.tsv") as fh:
+    with open(sys.argv[1]) as fh:
         rows = csv.DictReader(fh, delimiter="\t")
         for row in rows:
             if "HLA" in row["Label"]:
@@ -33,7 +19,7 @@ def update_chain_sequence():
 
     # Create a dictionary mapping the IMGT accession to protein sequence
     seqs = {}
-    with open("./hla_prot.fasta") as fasta:
+    with open(sys.argv[6]) as fasta:
         accession = None
         seq = ""
         for line in fasta:
@@ -55,7 +41,7 @@ def update_chain_sequence():
     imgt_dict = {}
 
     # Get the mapping between allele name and IMGT accession
-    with open("./Allelelist.txt") as fh:
+    with open(sys.argv[7]) as fh:
         # Skip IMGT header
         for _ in range(6):
             next(fh)
@@ -82,9 +68,10 @@ def update_chain_sequence():
         except Exception:
             continue
 
-    with open("../ontology/chain-sequence.tsv", "a+") as outfile:
+    with open(sys.argv[1], "a+") as outfile:
+        writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
         for tup in missing_allele_rows:
-            outfile.write(("\t").join(tup) + "\n")
+            writer.writerow(tup)
 
     return missing_alleles
 
@@ -103,7 +90,7 @@ def update_chain(missing_alleles):
 
     mro_chains = set()
     mro_genes = set()
-    with open("../ontology/chain.tsv") as fh:
+    with open(sys.argv[2]) as fh:
         rows = csv.DictReader(fh, delimiter="\t")
         for row in rows:
             label = row["Label"]
@@ -136,11 +123,12 @@ def update_chain(missing_alleles):
         gene = ""
         new_chain_tups.add((label, synonyms, class_type, parent, gene))
 
-    with open("../ontology/chain.tsv", "a+") as fh:
+    with open(sys.argv[2], "a+") as outfile:
+        writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
         for tup in new_gene_tups:
-            fh.write(("\t").join(tup) + "\n")
+            writer.writerow(tup)
         for tup in new_chain_tups:
-            fh.write(("\t").join(tup) + "\n")
+            writer.writerow(tup)
 
     return new_genes
 
@@ -155,7 +143,7 @@ def update_locus(missing_genes):
     class_II = ["DP", "DM", "DOA", "DOB", "DQ", "DR"]
 
     mro_loci = set()
-    with open("../ontology/genetic-locus.tsv") as fh:
+    with open(sys.argv[4]) as fh:
         rows = csv.DictReader(fh, delimiter="\t")
         for row in rows:
             locus = row["Label"]
@@ -182,9 +170,10 @@ def update_locus(missing_genes):
         parent = f"human {mhc_class} locus"
         new_loci_rows.add((label, synonyms, class_type, parent))
 
-    with open("../ontology/genetic-locus.tsv", "a+") as fh:
+    with open(sys.argv[4], "a+") as outfile:
+        writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
         for row in new_loci_rows:
-            fh.write(("\t").join(row) + "\n")
+            writer.writerow(row)
 
     return new_loci
 
@@ -193,7 +182,7 @@ def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules
     """Adds new entries from IMGT to index.tsv to allow ROBOT to build owl file
     """
     mro_labels = set()
-    with open("../index.tsv") as fh:
+    with open(sys.argv[5]) as fh:
         for _ in range(2):
             next(fh)
         for line in fh:
@@ -232,9 +221,10 @@ def update_index(missing_alleles, missing_genes, missing_loci, missing_molecules
             curr_mro_num += 1
             new_tups.append((mro_id, molecule_name, "owl:Class"))
 
-    with open("../index.tsv", "a+") as fh:
+    with open(sys.argv[5], "a+") as outfile:
+        writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
         for tup in new_tups:
-            fh.write(("\t").join(tup) + "\n")
+            writer.writerow(tup)
 
 
 def create_classI_prot(missing_chainI):
@@ -244,7 +234,8 @@ def create_classI_prot(missing_chainI):
         A list of new entries for molecule.tsv
     """
     new_classI_molecules = set()
-    with open("../ontology/molecule.tsv", "a+") as fh:
+    with open(sys.argv[3], "a+") as fh:
+        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
         for allele in missing_chainI:
             label = f"HLA-{allele} protein complex"
             iedb_name = f"HLA-{allele}"
@@ -255,8 +246,7 @@ def create_classI_prot(missing_chainI):
             taxon = "human"
             alpha_chain = f"HLA-{allele} chain"
             beta_chain = "Beta-2-microglobulin"
-            fh.write(
-                ("\t").join(
+            writer.writerow(
                     [
                         label,
                         iedb_name,
@@ -268,8 +258,6 @@ def create_classI_prot(missing_chainI):
                         alpha_chain,
                         beta_chain,
                     ]
-                )
-                + "\n"
             )
             new_classI_molecules.add(f"HLA-{allele} protein complex")
     return new_classI_molecules
@@ -306,7 +294,8 @@ def create_classII_prot(missing_chainII):
         A list of new entries for molecule.tsv
     """
     new_classII_molecules = set()
-    with open("../ontology/molecule.tsv", "a+") as fh:
+    with open(sys.argv[3], "a+") as fh:
+        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
         for allele in missing_chainII:
             pair = create_classII_pairing(allele)
             alpha_gene = pair.split("/")[0]
@@ -323,8 +312,7 @@ def create_classII_prot(missing_chainII):
             alpha_chain = f"HLA-{alpha_gene} chain"
             beta_chain = f"HLA-{beta_gene} chain"
 
-            fh.write(
-                ("\t").join(
+            writer.writerow(
                     [
                         label,
                         iedb_name,
@@ -336,8 +324,6 @@ def create_classII_prot(missing_chainII):
                         alpha_chain,
                         beta_chain,
                     ]
-                )
-                + "\n"
             )
             new_classII_molecules.add(f"HLA-{pair} protein complex")
 
@@ -352,8 +338,7 @@ def create_classII_prot(missing_chainII):
             alpha_chain = f"HLA-{alpha_gene} chain"
             beta_chain = f"HLA-{beta_gene} chain"
 
-            fh.write(
-                ("\t").join(
+            writer.writerow(
                     [
                         label,
                         iedb_name,
@@ -365,8 +350,6 @@ def create_classII_prot(missing_chainII):
                         alpha_chain,
                         beta_chain,
                     ]
-                )
-                + "\n"
             )
             new_classII_molecules.add(f"HLA-{allele} protein complex")
 
@@ -402,7 +385,7 @@ def update_molecules(missing_alleles):
             classII_imgt_alleles.add(allele)
 
     mro_alleles = set()
-    with open("../ontology/molecule.tsv") as fh:
+    with open(sys.argv[3]) as fh:
         rows = csv.DictReader(fh, delimiter="\t")
         for row in rows:
             mro_protein = row["IEDB Label"]
@@ -425,15 +408,8 @@ def update_molecules(missing_alleles):
     return new_molecules
 
 
-get_IMGT_data()
 missing_alleles = update_chain_sequence()
 missing_genes = update_chain(missing_alleles)
 missing_loci = update_locus(missing_genes)
 missing_molecules = update_molecules(missing_alleles)
 update_index(missing_alleles, missing_genes, missing_loci, missing_molecules)
-
-try:
-    os.remove("hla_prot.fasta")
-    os.remove("Allelelist.txt")
-except Exception:
-    print("Unable to remove IMGT files")
