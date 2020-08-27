@@ -233,7 +233,6 @@ validate: mro.owl $(source_files) | build/robot.jar build/validate
 	$(ROBOT) relax --input $< \
 	reduce remove --axioms equivalent \
 	validate $(foreach i,$(source_files),--table $(i)) \
-	--reasoner ELK \
 	--skip-row 2 \
 	--format html \
 	--output-dir build/validate
@@ -247,7 +246,7 @@ build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb
 	python3 $^ $@
 
 .PHONY: test
-test: build/report.csv verify validate build/mhc_allele_restriction_errors.tsv
+test: build/report.csv verify build/mhc_allele_restriction_errors.tsv
 
 .PHONY: pytest
 pytest:
