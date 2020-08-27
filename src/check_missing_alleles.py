@@ -79,7 +79,7 @@ def update_chain_sequence():
             resource_name = allele
             seq = seqs[imgt_dict[allele]]
             missing_allele_rows.add((label, resource_name, source, accession, seq))
-        except:
+        except Exception:
             continue
 
     with open("../ontology/chain-sequence.tsv", "a+") as outfile:
@@ -375,7 +375,7 @@ def create_classII_prot(missing_chainII):
 
 def update_molecules(missing_alleles):
     """Adds new entries to molecules.tsv
-    
+
     Returns:
         A list of entries to be added to index.tsv
     """
@@ -435,5 +435,5 @@ update_index(missing_alleles, missing_genes, missing_loci, missing_molecules)
 try:
     os.remove("hla_prot.fasta")
     os.remove("Allelelist.txt")
-except:
+except Exception:
     print("Unable to remove IMGT files")
