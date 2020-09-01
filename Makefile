@@ -225,7 +225,7 @@ build/report.csv: build/mro-base.owl | build/robot.jar
 	$(ROBOT) report --input $< --print 10 --output $@
 
 .PHONY: verify
-verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
+verify: build/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	$(ROBOT) verify --input $< \
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
@@ -241,7 +241,7 @@ validate: build/mro.owl $(source_files) | build/robot.jar build/validate
 	--output-dir build/validate
 
 .PRECIOUS: build/mhc_allele_restriction_errors.tsv
-build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py iedb/mhc_allele_restriction.tsv | build
+build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py build/mhc_allele_restriction.tsv | build
 	python3 $^ $@
 
 .PRECIOUS: build/whitespace.tsv
