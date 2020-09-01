@@ -114,9 +114,9 @@ update-alleles: src/check_missing_alleles.py ontology/chain-sequence.tsv ontolog
 
 ### OWL Files
 
-mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
+build/mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) merge \
-	--input mro-import.owl \
+	--input $< \
 	template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
@@ -133,7 +133,7 @@ mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/r
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
+build/mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
 	$(ROBOT) merge \
 	--input $(LIB)/eco.owl \
 	--input $(LIB)/obi.owl \
@@ -150,6 +150,7 @@ mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl 
 	--lower-terms $< \
 	--output $@
 
+
 # fetch ontology dependencies
 $(LIB)/%:
 	mkdir -p $(LIB)
@@ -161,11 +162,14 @@ $(LIB)/%:
 # This includes an extended OWL file
 # and tables for the IEDB database and Finders.
 
-iedb:
-	mkdir -p $@
+IEDB_TARGETS := build/mro-iedb.owl \
+                build/mhc_allele_restriction.tsv \
+                build/ALLELE_FINDER_NAMES.csv \
+                build/ALLELE_FINDER_SEARCH.csv \
+                build/ALLELE_FINDER_TREE.csv
 
 # extended version for IEDB use
-iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
+build/mro-iedb.owl: build/mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
 	$(ROBOT) template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--input $< \
@@ -174,26 +178,26 @@ iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar 
 	--merge-before \
 	--output $@
 
-build/mhc_allele_restriction.csv: iedb/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
+build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
-iedb/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
+build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
 	python3 $^ > $@
 
-iedb/ALLELE_FINDER_NAMES.csv: iedb/mro-iedb.owl src/names.rq | build/robot.jar iedb
+build/ALLELE_FINDER_NAMES.csv: build/mro-iedb.owl src/names.rq | build/robot.jar iedb
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-iedb/ALLELE_FINDER_SEARCH.csv: iedb/mro-iedb.owl src/search.rq | build/robot.jar iedb
+build/ALLELE_FINDER_SEARCH.csv: build/mro-iedb.owl src/search.rq | build/robot.jar iedb
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: iedb/mro-iedb.owl src/parents.rq | build/robot.jar
+build/parents.csv: build/mro-iedb.owl src/parents.rq | build/robot.jar
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
-iedb/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
+build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@
 
 build/tree.json: src/tree.py build/parents.csv | build
@@ -202,16 +206,15 @@ build/tree.json: src/tree.py build/parents.csv | build
 build/full_tree.json: src/tree.py build/full_tree.csv | build
 	python3 $^ --mode JSON > $@
 
-IEDB_TARGETS := iedb/mro-iedb.owl iedb/mhc_allele_restriction.tsv iedb/ALLELE_FINDER_NAMES.csv iedb/ALLELE_FINDER_SEARCH.csv iedb/ALLELE_FINDER_TREE.csv
 .PHONY: update-iedb
 update-iedb: $(IEDB_TARGETS)
 
 
-### General
+### Testing & verification
 
 VERIFY_QUERIES = $(wildcard src/verify/*.rq)
 
-build/mro-base.owl: mro.owl | build/robot.jar
+build/mro-base.owl: build/mro.owl | build/robot.jar
 	$(ROBOT) remove --input $< \
 	--base-iri $(OBO)/MRO_ \
 	--axioms external \
@@ -229,7 +232,7 @@ verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 
 # Validate a relaxed/reduced version of MRO
 .PHONY: validate
-validate: mro.owl $(source_files) | build/robot.jar build/validate
+validate: build/mro.owl $(source_files) | build/robot.jar build/validate
 	$(ROBOT) relax --input $< \
 	reduce remove --axioms equivalent \
 	validate $(foreach i,$(source_files),--table $(i)) \
@@ -245,6 +248,20 @@ build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py 
 build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
 	python3 $^ $@
 
+
+### Release files
+
+iedb.zip: $(IEDB_TARGETS)
+	zip $@ $^
+
+mro.owl.gz: build/mro.owl
+	gzip -f $<
+
+release: iedb.zip mro.owl.gz
+
+
+### General
+
 .PHONY: test
 test: build/report.csv verify build/mhc_allele_restriction_errors.tsv
 
@@ -256,8 +273,8 @@ pytest:
 .PHONY: clean
 clean:
 	rm -rf build
-	rm -f mro.owl mro-import.owl
-	rm -f $(IEDB_TARGETS)
+	rm -f iedb.zip
+	rm -f mro.owl.gz
 
 .PHONY: all
-all: update-iedb
+all: clean release
