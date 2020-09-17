@@ -35,7 +35,9 @@ BoLA-6*013:02 chain		subclass	BoLA-6 chain
 BoLA-6*041:01 chain		subclass	BoLA-6 chain	
 BoLA-CD1 chain		equivalent	protein	BoLA-CD1 locus
 BoLA-DQA chain		equivalent	protein	BoLA-DQA locus
+BoLA-DQA*001:01 chain		subclass	BoLA-DQA chain	
 BoLA-DQA*002:02 chain		subclass	BoLA-DQA chain	
+BoLA-DQA*002:04 chain		subclass	BoLA-DQA chain	
 BoLA-DQA*003:01 chain		subclass	BoLA-DQA chain	
 BoLA-DQA*010:01:01 chain		subclass	BoLA-DQA chain	
 BoLA-DQA*012:01:01 chain		subclass	BoLA-DQA chain	
@@ -54,6 +56,7 @@ BoLA-DRA chain		equivalent	protein	BoLA-DRA locus
 BoLA-DRB3 chain		equivalent	protein	BoLA-DRB3 locus
 BoLA-DRB3*001:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*002:01 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*005:03 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*007:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*010:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*011:01 chain		subclass	BoLA-DRB3 chain	
@@ -62,6 +65,7 @@ BoLA-DRB3*012:02 chain		subclass	BoLA-DRB3 chain
 BoLA-DRB3*014:01:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*015:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*015:02 chain		subclass	BoLA-DRB3 chain	
+BoLA-DRB3*016:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*018:01 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*020:02 chain		subclass	BoLA-DRB3 chain	
 BoLA-DRB3*027:03 chain		subclass	BoLA-DRB3 chain	
@@ -541,6 +545,7 @@ Mafa-DRB*w5:01 chain		subclass	Mafa-DRB chain
 Mamu-A1*001:01 chain		subclass	Mamu-A chain	
 Mamu-A1*002:01 chain		subclass	Mamu-A chain	
 Mamu-A1*007:01 chain		subclass	Mamu-A chain	
+Mamu-A1*008:01 chain		subclass	Mamu-A chain	
 Mamu-A1*011:01 chain		subclass	Mamu-A chain	
 Mamu-A1*022:02 chain		subclass	Mamu-A chain	
 Mamu-A1*065:01 chain		subclass	Mamu-A chain	
