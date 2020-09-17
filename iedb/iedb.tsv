@@ -706,7 +706,7 @@ HLA-DRA*01:01/DRB3*01:01 protein complex	781	DR	300744	300801
 HLA-DRA*01:01/DRB1*01:01 C30S mutant	782	DR	300744	
 HLA-B*44:08 protein complex	783	B	300653	56585
 Mamu-B*029:01 protein complex	784	B	338362	
-human MR1 K43A mutant protein complex	785	MR1		
+human MR1 K43A mutant	785	MR1		
 HLA-A*32:05 protein complex	786	A	300816	56585
 HLA-B*57:01 I80T mutant	788	B		
 BoLA-6*041:01 protein complex	790	6	300477	300493
@@ -1003,3 +1003,9 @@ BoLA-DQB*010:02:01 protein complex	1095	DQ		300501
 BoLA-DQB*012:01 protein complex	1096	DQ		300514
 BoLA-DQB*013:01 protein complex	1097	DQ		300508
 BoLA-DQB*014:02 protein complex	1098	DQ		300504
+Mamu-A1*008:01 protein complex	1099	A		
+human MR1 R9H mutant	1100	MR1		56585
+BoLA-DRB3*016:01 protein complex	1101	DRB3		
+BoLA-DRB3*005:03 protein complex	1102	DRB3		
+BoLA-DQA*002:04 protein complex	1103	DQ		
+BoLA-DQA*001:01 protein complex	1104	DQ		
