@@ -50253,7 +50253,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y73H</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse CD1d Y73H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse CD1d Y73H mutant protein complex</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse CD1d Y73H mutant</rdfs:label>
     </owl:Class>
     
 
