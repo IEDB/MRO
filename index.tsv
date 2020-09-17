@@ -1456,7 +1456,7 @@ MRO:0001452	human CD1c protein complex	owl:Class
 MRO:0001453	human CD1d protein complex	owl:Class	
 MRO:0001454	human MHC class I protein complex	owl:Class	
 MRO:0001455	human MHC class II protein complex	owl:Class	
-MRO:0001456	human MR1 K43A mutant protein complex	owl:Class	
+MRO:0001456	human MR1 K43A mutant	owl:Class	
 MRO:0001457	human MR1 protein complex	owl:Class	
 MRO:0001458	human non-classical MHC protein complex	owl:Class	
 MRO:0001459	mouse CD1d protein complex	owl:Class	
@@ -2143,7 +2143,7 @@ MRO:0002139	Ptal-N*01:01 protein complex	owl:Class
 MRO:0002140	Mamu-B*051:04 chain	owl:Class	
 MRO:0002141	Mamu-B*051:04 protein complex	owl:Class	
 MRO:0002142	mutant mouse non-classical MHC protein complex	owl:Class	
-MRO:0002143	mouse CD1d Y73H mutant protein complex	owl:Class	
+MRO:0002143	mouse CD1d Y73H mutant	owl:Class	
 MRO:0002144	HLA-DQA1*01:03 protein complex	owl:Class	
 MRO:0002145	HLA-DPA1*03:01 protein complex	owl:Class	
 MRO:0002146	HLA-B*08:01 E76C mutant	owl:Class	
@@ -2322,3 +2322,14 @@ MRO:0002318	BoLA-DQB*010:02:01 protein complex	owl:Class
 MRO:0002319	BoLA-DQB*012:01 protein complex	owl:Class	
 MRO:0002320	BoLA-DQB*013:01 protein complex	owl:Class	
 MRO:0002321	BoLA-DQB*014:02 protein complex	owl:Class	
+MRO:0002322	Mamu-A1*008:01 chain	owl:Class	
+MRO:0002323	BoLA-DRB3*016:01 chain	owl:Class	
+MRO:0002324	BoLA-DRB3*005:03 chain	owl:Class	
+MRO:0002325	BoLA-DQA*002:04 chain	owl:Class	
+MRO:0002326	BoLA-DQA*001:01 chain	owl:Class	
+MRO:0002327	Mamu-A1*008:01 protein complex	owl:Class	
+MRO:0002328	BoLA-DRB3*016:01 protein complex	owl:Class	
+MRO:0002329	BoLA-DRB3*005:03 protein complex	owl:Class	
+MRO:0002330	BoLA-DQA*002:04 protein complex	owl:Class	
+MRO:0002331	BoLA-DQA*001:01 protein complex	owl:Class	
+MRO:0002332	human MR1 R9H mutant	owl:Class	

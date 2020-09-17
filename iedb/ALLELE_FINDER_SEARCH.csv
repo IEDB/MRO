@@ -540,7 +540,7 @@ http://purl.obolibrary.org/obo/MRO_0001452,complete molecule,155,9606,human,non-
 http://purl.obolibrary.org/obo/MRO_0001453,complete molecule,156,9606,human,non-classical MHC,CD1,,,human CD1d protein complex,MRO_0001453,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001454,class,303,9606,human,MHC class I,,,,human MHC class I protein complex,MRO_0001454,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001455,class,304,9606,human,MHC class II,,,,human MHC class II protein complex,MRO_0001455,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0001456,complete molecule,785,9606,human,non-classical MHC,MR1,,,human MR1 K43A mutant protein complex,MRO_0001456,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0001456,complete molecule,785,9606,human,non-classical MHC,MR1,,,human MR1 K43A mutant,MRO_0001456,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001457,complete molecule,738,9606,human,non-classical MHC,MR1,,,human MR1 protein complex,MRO_0001457,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001458,class,,9606,human,non-classical MHC,,,,human non-classical MHC protein complex,MRO_0001458,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0001459,locus,666,10090,mouse,non-classical MHC,CD1,,,mouse CD1d protein complex,MRO_0001459,http://purl.obolibrary.org/obo/
@@ -1033,7 +1033,7 @@ http://purl.obolibrary.org/obo/MRO_0002138,locus,,9402,black flying fox,MHC clas
 http://purl.obolibrary.org/obo/MRO_0002139,complete molecule,962,9402,black flying fox,MHC class I,N,,,Ptal-N*01:01 protein complex,MRO_0002139,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002141,complete molecule,963,9544,rhesus macaque,MHC class I,B,,,Mamu-B*051:04 protein complex,MRO_0002141,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002142,class,,10090,mouse,non-classical MHC,,,,mutant mouse non-classical MHC protein complex,MRO_0002142,http://purl.obolibrary.org/obo/
-http://purl.obolibrary.org/obo/MRO_0002143,complete molecule,,10090,mouse,non-classical MHC,,,,mouse CD1d Y73H mutant protein complex,MRO_0002143,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002143,complete molecule,,10090,mouse,non-classical MHC,,,,mouse CD1d Y73H mutant,MRO_0002143,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002144,partial molecule,976,9606,human,MHC class II,DQ,,,HLA-DQA1*01:03 protein complex,MRO_0002144,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002145,partial molecule,977,9606,human,MHC class II,DP,,,HLA-DPA1*03:01 protein complex,MRO_0002145,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002146,complete molecule,978,9606,human,MHC class I,B,,HLA-B8 serotype,HLA-B*08:01 E76C mutant,MRO_0002146,http://purl.obolibrary.org/obo/
@@ -1153,3 +1153,9 @@ http://purl.obolibrary.org/obo/MRO_0002318,partial molecule,1095,9913,cattle,MHC
 http://purl.obolibrary.org/obo/MRO_0002319,partial molecule,1096,9913,cattle,MHC class II,DQ,,,BoLA-DQB*012:01 protein complex,MRO_0002319,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002320,partial molecule,1097,9913,cattle,MHC class II,DQ,,,BoLA-DQB*013:01 protein complex,MRO_0002320,http://purl.obolibrary.org/obo/
 http://purl.obolibrary.org/obo/MRO_0002321,partial molecule,1098,9913,cattle,MHC class II,DQ,,,BoLA-DQB*014:02 protein complex,MRO_0002321,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002327,complete molecule,1099,9544,rhesus macaque,MHC class I,A,,,Mamu-A1*008:01 protein complex,MRO_0002327,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002328,partial molecule,1101,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*016:01 protein complex,MRO_0002328,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002329,partial molecule,1102,9913,cattle,MHC class II,DRB3,,,BoLA-DRB3*005:03 protein complex,MRO_0002329,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002330,partial molecule,1103,9913,cattle,MHC class II,DQ,,,BoLA-DQA*002:04 protein complex,MRO_0002330,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002331,partial molecule,1104,9913,cattle,MHC class II,DQ,,,BoLA-DQA*001:01 protein complex,MRO_0002331,http://purl.obolibrary.org/obo/
+http://purl.obolibrary.org/obo/MRO_0002332,complete molecule,1100,9606,human,non-classical MHC,MR1,,,human MR1 R9H mutant,MRO_0002332,http://purl.obolibrary.org/obo/
