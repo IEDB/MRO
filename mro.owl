@@ -12,8 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-09-17/mro.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-09-17</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mro/2020-09-18/mro.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-09-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -31660,7 +31660,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K43A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 K43A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 K43A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 K43A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37473,7 +37473,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H155A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db H155A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db H155A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db H155A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37494,7 +37494,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L114Q, F116Y, E119D</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db L114Q, F116Y, E119D mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db L114Q, F116Y, E119D mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db L114Q, F116Y, E119D mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37515,7 +37515,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q70H</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db Q70H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db Q70H mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db Q70H mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37534,7 +37534,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y159F</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db Y159F mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db Y159F mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Db Y159F mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37555,7 +37555,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R155Y, D156Y, R169H</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Dd R155Y, D156Y, R169H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Dd R155Y, D156Y, R169H mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Dd R155Y, D156Y, R169H mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37576,7 +37576,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I67F, R70Q, T71K</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAb I67F, R70Q, T71K mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAb I67F, R70Q, T71K mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAb I67F, R70Q, T71K mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37596,7 +37596,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H56P, S57D</obo:MRO_0001985>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H56P, S57D</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAg7 H56P, S57D mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAg7 H56P, S57D mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAg7 H56P, S57D mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37616,7 +37616,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H9V</obo:MRO_0001985>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H9V</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAk H9V mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAk H9V mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAk H9V mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37636,7 +37636,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V9H</obo:MRO_0001985>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V9H</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAu V9H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAu V9H mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IAu V9H mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37656,7 +37656,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E11Q, D66N</obo:MRO_0001985>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E11Q, D66N</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IEk alpha E11Q, D66N mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IEk alpha E11Q, D66N mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-IEk alpha E11Q, D66N mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37677,7 +37677,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D77S, K89A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb D77S, K89A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb D77S, K89A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb D77S, K89A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37698,7 +37698,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E152A, R155Y, L156Y</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E152A, R155Y, L156Y mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E152A, R155Y, L156Y mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E152A, R155Y, L156Y mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37719,7 +37719,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V9W</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb V9W mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb V9W mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb V9W mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37740,7 +37740,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y22F, M23I, E24S, D30N</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y22F, M23I, E24S, D30N mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y22F, M23I, E24S, D30N mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y22F, M23I, E24S, D30N mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37759,7 +37759,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y84A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y84A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y84A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y84A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37778,7 +37778,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y84C</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y84C mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y84C mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb Y84C mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37799,7 +37799,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D152A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kk D152A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kk D152A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kk D152A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37820,7 +37820,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A150P</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 A150P mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 A150P mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 A150P mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37841,7 +37841,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K66A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 K66A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 K66A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 K66A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37862,7 +37862,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K66A, E63Q</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 K66A, E63Q mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 K66A, E63Q mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 K66A, E63Q mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37883,7 +37883,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q155A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 Q155A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 Q155A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 Q155A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37904,7 +37904,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T163A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 T163A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 T163A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 T163A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37925,7 +37925,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W167A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 W167A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 W167A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 W167A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37947,7 +37947,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I66A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 B:I66A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 B:I66A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 B:I66A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37968,7 +37968,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N80I</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 N80I mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 N80I mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 N80I mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -37989,7 +37989,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D74Y, D77N</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 D74Y D77N mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 D74Y D77N mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 D74Y D77N mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38010,7 +38010,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L81A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 L81A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 L81A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 L81A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38031,7 +38031,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q65A, T69A, Q155A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q65A, T69A, Q155A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q65A, T69A, Q155A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q65A, T69A, Q155A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38052,7 +38052,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I80N</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*57:01 I80N mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*57:01 I80N mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*57:01 I80N mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38073,7 +38073,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I80T</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*57:01 I80T mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*57:01 I80T mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*57:01 I80T mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38094,7 +38094,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E69K</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA1*01:03/DPB1*02:12 E69K mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA1*01:03/DPB1*02:12 E69K mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPA1*01:03/DPB1*02:12 E69K mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38115,7 +38115,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E69K</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPB1*02:01 E69K mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPB1*02:01 E69K mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DPB1*02:01 E69K mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38137,7 +38137,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F54C</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01 F54C mutant/DRB1*01:01</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01 F54C mutant/DRB1*01:01</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01 F54C mutant/DRB1*01:01 protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38158,7 +38158,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C30S</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*01:01 C30S mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*01:01 C30S mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*01:01 C30S mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38179,7 +38179,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G86Y</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*01:01 G86Y mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*01:01 G86Y mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*01:01 G86Y mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38201,7 +38201,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D57A</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38223,7 +38223,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D57A, Y60H</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57A, Y60H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57A, Y60H mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57A, Y60H mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38245,7 +38245,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D57V</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57V mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57V mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57V mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38267,7 +38267,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D57V, Y60S</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57V, Y60S mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57V, Y60S mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 D57V, Y60S mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -38288,7 +38288,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q110N, K139T</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*04:01 Q110N, K139T mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*04:01 Q110N, K139T mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*04:01 Q110N, K139T mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -43637,7 +43637,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q74R</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*03:01 Q74R mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*03:01 Q74R mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:01/DRB1*03:01 Q74R mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -43702,7 +43702,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q74R</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:02/DRB1*03:01 Q74R mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:02/DRB1*03:01 Q74R mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRA*01:02/DRB1*03:01 Q74R mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -44474,7 +44474,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial molecule</obo:MRO_0001984>
         <obo:MRO_0001986 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N82A</obo:MRO_0001986>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 N82A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 N82A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DRB1*01:01 N82A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -45594,7 +45594,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R65A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 R65A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 R65A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 R65A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -45615,7 +45615,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A69G</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 A69G mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 A69G mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 A69G mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -45636,7 +45636,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E166A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 E166A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 E166A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-A*02:01 E166A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -45705,7 +45705,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q65A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q65A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q65A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q65A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -45726,7 +45726,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T69A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 T69A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 T69A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 T69A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -45747,7 +45747,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q155A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q155A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q155A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*35:08 Q155A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46577,7 +46577,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W167S</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLA-E*01801 W167S mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLA-E*01801 W167S mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLA-E*01801 W167S mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46618,7 +46618,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E63A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E63A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E63A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb E63A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46637,7 +46637,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K66A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb K66A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb K66A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb K66A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46656,7 +46656,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W167A</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb W167A mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb W167A mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2-Kb W167A mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46769,7 +46769,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C67S</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 C67S mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 C67S mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:05 C67S mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -46790,7 +46790,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C67S</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:09 C67S mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:09 C67S mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*27:09 C67S mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -47761,7 +47761,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y73H</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse CD1d Y73H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse CD1d Y73H mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse CD1d Y73H mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -47848,7 +47848,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E76C</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 E76C mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 E76C mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-B*08:01 E76C mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -52760,7 +52760,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:MRO_0001984 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete molecule</obo:MRO_0001984>
         <obo:MRO_0001985 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R9H</obo:MRO_0001985>
         <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 R9H mutant</obo:OBI_9991118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 R9H mutant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human MR1 R9H mutant protein complex</rdfs:label>
     </owl:Class>
     
 
@@ -53180,9 +53180,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/mro.owl">
         <dc:creator>John Sidney</dc:creator>
         <dc:creator>James A. Overton</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator>Alessandro Sette</dc:creator>
-        <dc:creator>Bjoern Peters</dc:creator>
         <dc:title>MHC Restriction Ontology</dc:title>
         <dc:creator>Jim Kaufman</dc:creator>
         <dc:creator>Rebecca L. Tallmadge</dc:creator>
