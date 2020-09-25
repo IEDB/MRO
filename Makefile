@@ -227,6 +227,10 @@ validate: mro.owl $(source_files) | build/robot.jar build/validate
 	--format html \
 	--output-dir build/validate
 
+.PRECIOUS: build/validation_errors.tsv
+build/validation_errors.tsv: src/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
+	python3 $< index.tsv iedb/iedb.tsv build $@
+
 .PRECIOUS: build/mhc_allele_restriction_errors.tsv
 build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py iedb/mhc_allele_restriction.tsv | build
 	python3 $^ $@
