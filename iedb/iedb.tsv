@@ -116,7 +116,7 @@ H2-IEu protein complex	119	IE	301187	301193
 mouse MHC class I protein complex with H2-k haplotype	120			
 mouse MHC class II protein complex with H2-k haplotype	121			
 H2-Kb protein complex	122	K	51919	240777
-H2-Kb Y22F, M23I, E24S, D30N mutant	123	K		
+H2-Kb Y22F, M23I, E24S, D30N mutant protein complex	123	K		
 H2-Kd protein complex	124	K	256539	240777
 H2-Kk protein complex	125	K	301184	240777
 H2-Ld protein complex	126	L	251683	240777
@@ -174,7 +174,7 @@ mouse MHC class II protein complex with H2-i haplotype	178
 mouse MHC class II protein complex with H2-i3 haplotype	179			
 H2-IA protein complex	180	IA		
 H2-IAb protein complex	181	IA	254615	301190
-H2-IAb I67F, R70Q, T71K mutant	182	IA		
+H2-IAb I67F, R70Q, T71K mutant protein complex	182	IA		
 H2-IAd protein complex	183	IA	251229	244885
 HLA-B*15:17 protein complex	184	B	300616	56585
 HLA-B*18:01 protein complex	185	B	300619	56585
@@ -481,7 +481,7 @@ HLA-DQB1*02:02 protein complex	515	DQ		300727
 BoLA-DRB3*012:02 protein complex	516	DRB3		300495
 BoLA-DRB3*014:01:01 protein complex	517	DRB3		300506
 BoLA-DRB3*015:01 protein complex	518	DRB3		300512
-H2-Db Q70H mutant	519	D		
+H2-Db Q70H mutant protein complex	519	D		
 HLA-DRB1*13:68 protein complex	520	DR		300826
 BoLA-DRB3*015:02 protein complex	521	DRB3		300496
 HLA-DPA1*01:03/DPB1*04:01 protein complex	522	DP	300693	300700
@@ -510,20 +510,20 @@ Mamu-B*065:02 protein complex	545	B	300472	56585
 HLA-DPB1*16:01 protein complex	547	DP		300708
 horse MHC class I protein complex	548			
 horse MHC class II protein complex	549			
-H2-Db L114Q, F116Y, E119D mutant	550	D		
+H2-Db L114Q, F116Y, E119D mutant protein complex	550	D		
 H2-IAf protein complex	551	IA		
-H2-Kk D152A mutant	552	K		
-H2-Kb E152A, R155Y, L156Y mutant	553	K		
+H2-Kk D152A mutant protein complex	552	K		
+H2-Kb E152A, R155Y, L156Y mutant protein complex	553	K		
 RT1-Aa protein complex	555	A		
 RT1-Ac protein complex	556	A		
 dog MHC class II protein complex	558			
 HLA protein complex with B41 serotype	561	B		
 HLA-DRB5*02:02 protein complex	562	DR		300810
-H2-Kb Y84A mutant	564	K		
-H2-Kb Y84C mutant	565	K		
+H2-Kb Y84A mutant protein complex	564	K		
+H2-Kb Y84C mutant protein complex	565	K		
 HLA-E*01:03 protein complex	566	E	300812	56585
-HLA-DRB1*04:01 Q110N, K139T mutant	567	DR		
-H2-Kb D77S, K89A mutant	569	K		
+HLA-DRB1*04:01 Q110N, K139T mutant protein complex	567	DR		
+H2-Kb D77S, K89A mutant protein complex	569	K		
 sheep MHC class I protein complex	570			
 HLA protein complex with A34 serotype	571	A		
 HLA protein complex with A74 serotype	572	A		
@@ -541,7 +541,7 @@ mouse MHC class II protein complex with H2-g7 haplotype	585
 HLA-DQB1*03:04 protein complex	586	DQ		300731
 HLA-DQB1*06:09 protein complex	587	DQ		300743
 BoLA protein complex with A11 serotype	588			
-H2-IAg7 H56P, S57D mutant	589	IA		
+H2-IAg7 H56P, S57D mutant protein complex	589	IA		
 HLA-A*02:17 protein complex	590	A	300567	56585
 HLA-DQA1*01:01/DQB1*05:03 protein complex	591	DQ	300714	300737
 H2-IAr protein complex	592	IA		
@@ -564,14 +564,14 @@ RT1-Da protein complex	611	D
 RT1-Dn protein complex	612	D		
 rat MHC class II protein complex with RT1-av1 haplotype	613			
 rat MHC class II protein complex with RT1-u haplotype	614			
-HLA-DPA1*01:03/DPB1*02:12 E69K mutant	615	DP	300693	
+HLA-DPA1*01:03/DPB1*02:12 E69K mutant protein complex	615	DP	300693	
 RT1-Du protein complex	616	D		
 Mamu-DPB1*01:01 protein complex	617	DP		300522
 HLA-DRA*01:01/DRB1*15:01 protein complex	618	DR	300744	300795
 RT1-D protein complex	620	D		
 H2-IEp protein complex	621	IE		
-H2-IAk H9V mutant	622	IA		
-H2-IAu V9H mutant	623	IA		
+H2-IAk H9V mutant protein complex	622	IA		
+H2-IAu V9H mutant protein complex	623	IA		
 H2-Q2 protein complex	624	Q2		
 H2-Ds protein complex	625	D		
 mouse MHC class I protein complex	626			
@@ -596,32 +596,32 @@ H2-Kwm7 protein complex	645	K	248908	240777
 HLA-DPA1*01:03/DPB1*04:02 protein complex	646	DP	300693	300701
 HLA-DPA1*02:01/DPB1*05:01 protein complex	647	DP	300694	300702
 HLA-DPA1*03:01/DPB1*04:02 protein complex	648	DP	300696	300701
-HLA-A*02:01 K66A mutant	651	A		
-HLA-DRB1*01:01 D57A mutant	652	DR		
-HLA-DRB1*01:01 D57A, Y60H mutant	653	DR		
-HLA-DRB1*01:01 D57V mutant	654	DR		
-HLA-DRB1*01:01 D57V, Y60S mutant	655	DR		
+HLA-A*02:01 K66A mutant protein complex	651	A		
+HLA-DRB1*01:01 D57A mutant protein complex	652	DR		
+HLA-DRB1*01:01 D57A, Y60H mutant protein complex	653	DR		
+HLA-DRB1*01:01 D57V mutant protein complex	654	DR		
+HLA-DRB1*01:01 D57V, Y60S mutant protein complex	655	DR		
 HLA-DPB1*14:01 protein complex	656	DP		300707
-HLA-A*02:01 K66A, E63Q mutant	657	A		
+HLA-A*02:01 K66A, E63Q mutant protein complex	657	A		
 HLA-DQA1*01:02/DQB1*03:01 protein complex	658	DQ	300715	300728
 HLA-DQA1*03:03/DQB1*03:01 protein complex	659	DQ	300721	300728
-H2-IEk alpha E11Q, D66N mutant	660	IE		
+H2-IEk alpha E11Q, D66N mutant protein complex	660	IE		
 HLA-DPA1*02:01/DPB1*09:01 protein complex	661	DP	300694	300704
-HLA-A*02:01 W167A mutant	662	A		
-HLA-A*02:01 Q155A mutant	664	A		
-HLA-A*02:01 T163A mutant	665	A		
+HLA-A*02:01 W167A mutant protein complex	662	A		
+HLA-A*02:01 Q155A mutant protein complex	664	A		
+HLA-A*02:01 T163A mutant protein complex	665	A		
 mouse CD1d protein complex	666	CD1	265494	240777
 chicken CD1-1 protein complex	667	B		
 cattle CD1b3 protein complex	668	CD1	300430	300493
 HLA protein complex with Cw1 serotype	675	C		
 HLA-A*02:20 protein complex	676	A	300569	56585
-HLA-DRA*01:01/DRB1*01:01 G86Y mutant	677	DR	300744	
-HLA-B*27:05 L81A mutant	679	B		
-HLA-B*27:05 D74Y D77N mutant	680	B		
+HLA-DRA*01:01/DRB1*01:01 G86Y mutant protein complex	677	DR	300744	
+HLA-B*27:05 L81A mutant protein complex	679	B		
+HLA-B*27:05 D74Y D77N mutant protein complex	680	B		
 chicken CD1-2 protein complex	681	B		
-HLA-B*35:08 Q65A, T69A, Q155A mutant	682	B		
-H2-Dd R155Y, D156Y, R169H mutant	686	D		
-H2-Kb V9W mutant	689	K		
+HLA-B*35:08 Q65A, T69A, Q155A mutant protein complex	682	B		
+H2-Dd R155Y, D156Y, R169H mutant protein complex	686	D		
+H2-Kb V9W mutant protein complex	689	K		
 SLA-1*04:01 protein complex	690	1	300438	300492
 HLA-B*41:01 protein complex	691	B	300645	56585
 HLA-B*41:03 protein complex	692	B	300647	56585
@@ -634,7 +634,7 @@ BoLA-3*002:01 protein complex	698	3	300481	300493
 BoLA-1*023:01 protein complex	699	1	300485	300493
 HLA-DRB1*08:18 protein complex	700	DR		300772
 SLA-1*15:02 protein complex	701	1		
-HLA-A*02:01 A150P mutant	703	A		
+HLA-A*02:01 A150P mutant protein complex	703	A		
 Patr-B*03:01 protein complex	704	B	300458	300490
 Patr-B*03:02 protein complex	705	B	300469	300490
 YF1w*7.1 protein complex	709	YF		
@@ -649,7 +649,7 @@ BoLA protein complex with A10 serotype	719
 BoLA protein complex with A18 serotype	720			
 HLA-DQA1*03:01/DQB1*02:01 protein complex	721	DQ	300719	300726
 HLA-DQA1*02:01/DQB1*03:03 protein complex	722	DQ	300718	300730
-HLA-B*08:01 B:I66A mutant	723	B		
+HLA-B*08:01 B:I66A mutant protein complex	723	B		
 chicken MHC class I protein complex with B4 haplotype	724			
 chicken MHC class I protein complex with B15 haplotype	725			
 chicken MHC class I protein complex with B19 haplotype	726			
@@ -669,10 +669,10 @@ BF2*0401 protein complex	743	BF2
 DLA-88*50801 protein complex	744	88		
 HLA-B*44:27 protein complex	745	B	300823	56585
 HLA-DRB1*15:04 protein complex	746	DR		300798
-HLA-DRA*01:01 F54C mutant/DRB1*01:01	747	DR		300746
+HLA-DRA*01:01 F54C mutant/DRB1*01:01 protein complex	747	DR		300746
 cattle CD1d protein complex	748	CD1	300431	300493
 HLA-DRB1*14:54 protein complex	750	DR		300828
-H2-Db H155A mutant	751	D		
+H2-Db H155A mutant protein complex	751	D		
 SLA-2*04:01 protein complex	752	2	300439	300492
 BF2*1201 protein complex	753	BF2		
 BF2*1501 protein complex	754	BF2		
@@ -685,7 +685,7 @@ HLA-DRA*01:01/DRB1*13:02 protein complex	760	DR	300744	300783
 HLA-DRA*01:01/DRB1*13:01 protein complex	761	DR	300744	300782
 HLA-DRA*01:01/DRB4*01:01 protein complex	762	DR	300744	300805
 HLA-DRA*01:01/DRB3*02:02 protein complex	763	DR	300744	300803
-H2-Db Y159F mutant	764	D		
+H2-Db Y159F mutant protein complex	764	D		
 HLA-B*15:25 protein complex	765	B	300617	56585
 mouse MR1 protein complex	766	MR1	301189	240777
 cattle MR1 protein complex	767	MR1	300432	300493
@@ -703,14 +703,14 @@ RT1-A2 protein complex	778	A2
 HLA-DRA*01:01/DRB1*14:54 protein complex	779	DR	300744	300828
 HLA-DRA*01:01/DRB1*09:01 protein complex	780	DR	300744	300774
 HLA-DRA*01:01/DRB3*01:01 protein complex	781	DR	300744	300801
-HLA-DRA*01:01/DRB1*01:01 C30S mutant	782	DR	300744	
+HLA-DRA*01:01/DRB1*01:01 C30S mutant protein complex	782	DR	300744	
 HLA-B*44:08 protein complex	783	B	300653	56585
 Mamu-B*029:01 protein complex	784	B	338362	
 human MR1 K43A mutant protein complex	785	MR1		
 HLA-A*32:05 protein complex	786	A	300816	56585
-HLA-B*57:01 I80T mutant	788	B		
+HLA-B*57:01 I80T mutant protein complex	788	B		
 BoLA-6*041:01 protein complex	790	6	300477	300493
-HLA-DPB1*02:01 E69K mutant	794	DP		
+HLA-DPB1*02:01 E69K mutant protein complex	794	DP		
 HLA-DPA1*02:02/DPB1*05:01 protein complex	795	DP	300695	300702
 chicken MHC class II protein complex with BF21 haplotype	796			
 chicken MHC class II protein complex with BF19 haplotype	797			
@@ -723,8 +723,8 @@ HLA-DQA1*05:01/DQB1*03:03 protein complex	803	DQ	300723	300730
 HLA-DQA1*05:01/DQB1*04:02 protein complex	804	DQ	300723	300734
 HLA-DQA1*06:01/DQB1*04:02 protein complex	805	DQ	300725	300734
 BF1 protein complex	814	BF1		
-HLA-B*57:01 I80N mutant	815	B		
-HLA-B*08:01 N80I mutant	816	B		
+HLA-B*57:01 I80N mutant protein complex	815	B		
+HLA-B*08:01 N80I mutant protein complex	816	B		
 HLA-B*13:01 protein complex	817	B	300604	56585
 HLA-DQB1*05:02 protein complex	818	DQ		300736
 Caja-E protein complex	819	E		
@@ -786,8 +786,8 @@ Mamu-B*008:01 protein complex	877	B
 HLA-B*39:24 protein complex	878	B		
 HLA-B*35:62 protein complex	879	B		
 HLA-DQA1*02:01/DQB1*03:02 protein complex	880	DQ		
-HLA-DRA*01:02/DRB1*03:01 Q74R mutant	881	DR		
-HLA-DRA*01:01/DRB1*03:01 Q74R mutant	882	DR		
+HLA-DRA*01:02/DRB1*03:01 Q74R mutant protein complex	881	DR		
+HLA-DRA*01:01/DRB1*03:01 Q74R mutant protein complex	882	DR		
 HLA-B*18:03 protein complex	883	B		
 SLA-3*02:02 protein complex	884	3		
 HLA-DRB1*15:06 protein complex	885	DR		
@@ -813,7 +813,7 @@ BoLA-DRB3*010:01 protein complex	904	DRB3	344097
 BoLA-DRB3*018:01 protein complex	905	DRB3	344098	
 Eqca-N*00601 protein complex	906	N	344099	
 HLA protein complex with Cw18 serotype	907	C		
-HLA-DRB1*01:01 N82A mutant	908	DR		
+HLA-DRB1*01:01 N82A mutant protein complex	908	DR		
 DLA-88*50101 protein complex	909	88		
 rat CD1d protein complex	910	CD1	352098	
 H2-Qa-1b protein complex	911	Q1	352115	
@@ -830,13 +830,13 @@ HLA-DPA1*01:03/DPB1*05:01 protein complex	921	DP	300693	300702
 HLA-DPA1*01:03/DPB1*08:01 protein complex	922	DP	300693	379499
 HLA-B*51:08 protein complex	923	B	380014	
 Anpl-UAA*01 protein complex	924	UAA	380015	
-HLA-A*02:01 R65A mutant	925	A		56585
-HLA-A*02:01 A69G mutant	926	A		56585
-HLA-A*02:01 E166A mutant	927	A		56585
+HLA-A*02:01 R65A mutant protein complex	925	A		56585
+HLA-A*02:01 A69G mutant protein complex	926	A		56585
+HLA-A*02:01 E166A mutant protein complex	927	A		56585
 H2-Qa-1a protein complex	928	Q1		
-HLA-B*35:08 Q65A mutant	929	B		56585
-HLA-B*35:08 T69A mutant	930	B		56585
-HLA-B*35:08 Q155A mutant	931	B		56585
+HLA-B*35:08 Q65A mutant protein complex	929	B		56585
+HLA-B*35:08 T69A mutant protein complex	930	B		56585
+HLA-B*35:08 Q155A mutant protein complex	931	B		56585
 HLA-C*17:01 protein complex	932	C	400878	56585
 SLA-2*05:02 protein complex	933	2		
 SLA-1*03:02 protein complex	934	1		
@@ -850,12 +850,12 @@ SLA-1*12:01 protein complex	941	1
 mouse CD1d1 protein complex	942	CD1		
 mouse CD1d2 protein complex	943	CD1		
 FLA-E*01801 protein complex	944	E		
-FLA-E*01801 W167S mutant	945	E		
-H2-Kb E63A mutant	946	K		
-H2-Kb K66A mutant	947	K		
-H2-Kb W167A mutant	948	K		
-HLA-B*27:05 C67S mutant	949	B		
-HLA-B*27:09 C67S mutant	950	B		
+FLA-E*01801 W167S mutant protein complex	945	E		
+H2-Kb E63A mutant protein complex	946	K		
+H2-Kb K66A mutant protein complex	947	K		
+H2-Kb W167A mutant protein complex	948	K		
+HLA-B*27:05 C67S mutant protein complex	949	B		
+HLA-B*27:09 C67S mutant protein complex	950	B		
 HLA-G*01:03 protein complex	951	G		56585
 HLA-G*01:04 protein complex	952	G		56585
 SLA-2*11:04 protein complex	953	2		
@@ -883,7 +883,7 @@ Mafa-DRB protein complex	974
 Papa-A protein complex	975			
 HLA-DQA1*01:03 protein complex	976	DQ	300716	
 HLA-DPA1*03:01 protein complex	977	DP	300696	
-HLA-B*08:01 E76C mutant	978	B		
+HLA-B*08:01 E76C mutant protein complex	978	B		
 HLA-C*03:02 protein complex	979	C		56585
 HLA-C*16:02 protein complex	980	C		56585
 HLA-B*48:03 protein complex	981	B		56585
@@ -1003,3 +1003,9 @@ BoLA-DQB*010:02:01 protein complex	1095	DQ		300501
 BoLA-DQB*012:01 protein complex	1096	DQ		300514
 BoLA-DQB*013:01 protein complex	1097	DQ		300508
 BoLA-DQB*014:02 protein complex	1098	DQ		300504
+Mamu-A1*008:01 protein complex	1099	A		
+human MR1 R9H mutant protein complex	1100	MR1		56585
+BoLA-DRB3*016:01 protein complex	1101	DRB3		
+BoLA-DRB3*005:03 protein complex	1102	DRB3		
+BoLA-DQA*002:04 protein complex	1103	DQ		
+BoLA-DQA*001:01 protein complex	1104	DQ		
