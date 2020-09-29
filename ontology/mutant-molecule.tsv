@@ -1,63 +1,64 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Mutant Of	Chain I Mutation	Chain II Mutation
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'is synthetic protein mutant of' some %	A has chain I mutation	A has chain II mutation
 					is-required; subclass-of|equivalent-to 'mutant MHC protein complex';	is-required (when %6 direct-subclass-of 'mutant MHC protein complex'); subclass-of organism;	is-required (when %6 not-equivalent-to 'mutant MHC protein complex' & %6 not-direct-subclass-of 'mutant MHC protein complex' ); subclass-of 'protein complex'; not-subclass-of 'mutant MHC protein complex';		
-FLA-E*01801 W167S mutant	FLA-E*01801 W167S mutant		complete molecule	subclass	mutant cat MHC class I protein complex		FLA-E*01801 protein complex	W167S	
-H2-Db H155A mutant	H2-Db H155A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	H155A	
-H2-Db L114Q, F116Y, E119D mutant	H2-Db L114Q, F116Y, E119D mutant	H2-Dbm13	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	L114Q, F116Y, E119D	
-H2-Db Q70H mutant	H2-Db Q70H mutant	H2-Dbm14	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	Q70H	
-H2-Db Y159F mutant	H2-Db Y159F mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	Y159F	
-H2-Dd R155Y, D156Y, R169H mutant	H2-Dd R155Y, D156Y, R169H mutant	H2-Ddm1	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Dd protein complex	R155Y, D156Y, R169H	
-H2-IAb I67F, R70Q, T71K mutant	H2-IAb I67F, R70Q, T71K mutant	H2-IAbm12	complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAb protein complex	I67F, R70Q, T71K	
-H2-IAg7 H56P, S57D mutant	H2-IAg7 H56P, S57D mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAg7 protein complex	H56P, S57D	H56P, S57D
-H2-IAk H9V mutant	H2-IAk H9V mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAk protein complex	H9V	H9V
-H2-IAu V9H mutant	H2-IAu V9H mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAu protein complex	V9H	V9H
-H2-IEk alpha E11Q, D66N mutant	H2-IEk alpha E11Q, D66N mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IEk protein complex	E11Q, D66N	E11Q, D66N
-H2-Kb D77S, K89A mutant	H2-Kb D77S, K89A mutant	H2-Kbm3	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	D77S, K89A	
-H2-Kb E63A mutant	H2-Kb E63A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	E63A	
-H2-Kb E152A, R155Y, L156Y mutant	H2-Kb E152A, R155Y, L156Y mutant	H2-Kbm1	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	E152A, R155Y, L156Y	
-H2-Kb K66A mutant	H2-Kb K66A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	K66A	
-H2-Kb V9W mutant	H2-Kb V9W mutant	H2-Kbw9	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	V9W	
-H2-Kb W167A mutant	H2-Kb W167A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	W167A	
-H2-Kb Y22F, M23I, E24S, D30N mutant	H2-Kb Y22F, M23I, E24S, D30N mutant	H2-Kbm8	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	Y22F, M23I, E24S, D30N	
-H2-Kb Y84A mutant	H2-Kb Y84A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	Y84A	
-H2-Kb Y84C mutant	H2-Kb Y84C mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	Y84C	
-H2-Kk D152A mutant	H2-Kk D152A mutant	H2-Kkm1	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kk protein complex	D152A	
-HLA-A*02:01 A69G mutant	HLA-A*02:01 A69G mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	A69G	
-HLA-A*02:01 A150P mutant	HLA-A*02:01 A150P mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	A150P	
-HLA-A*02:01 E166A mutant	HLA-A*02:01 E166A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	E166A	
-HLA-A*02:01 K66A mutant	HLA-A*02:01 K66A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	K66A	
-HLA-A*02:01 K66A, E63Q mutant	HLA-A*02:01 K66A, E63Q mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	K66A, E63Q	
-HLA-A*02:01 Q155A mutant	HLA-A*02:01 Q155A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	Q155A	
-HLA-A*02:01 R65A mutant	HLA-A*02:01 R65A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	R65A	
-HLA-A*02:01 T163A mutant	HLA-A*02:01 T163A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	T163A	
-HLA-A*02:01 W167A mutant	HLA-A*02:01 W167A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	W167A	
-HLA-B*08:01 B:I66A mutant	HLA-B*08:01 B:I66A mutant	HLA-B*8 I66A mutant	complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*08:01 protein complex	I66A	
-HLA-B*08:01 E76C mutant	HLA-B*08:01 E76C mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*08:01 protein complex	E76C	
-HLA-B*08:01 N80I mutant	HLA-B*08:01 N80I mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*08:01 protein complex	N80I	
-HLA-B*27:05 C67S mutant	HLA-B*27:05 C67S mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:05 protein complex	C67S	
-HLA-B*27:05 D74Y D77N mutant	HLA-B*27:05 D74Y D77N mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:05 protein complex	D74Y, D77N	
-HLA-B*27:05 L81A mutant	HLA-B*27:05 L81A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:05 protein complex	L81A	
-HLA-B*27:09 C67S mutant	HLA-B*27:09 C67S mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:09 protein complex	C67S	
-HLA-B*35:08 Q65A mutant	HLA-B*35:08 Q65A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	Q65A	
-HLA-B*35:08 Q65A, T69A, Q155A mutant	HLA-B*35:08 Q65A, T69A, Q155A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	Q65A, T69A, Q155A	
-HLA-B*35:08 Q155A mutant	HLA-B*35:08 Q155A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	Q155A	
-HLA-B*35:08 T69A mutant	HLA-B*35:08 T69A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	T69A	
-HLA-B*57:01 I80N mutant	HLA-B*57:01 I80N mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*57:01 protein complex	I80N	
-HLA-B*57:01 I80T mutant	HLA-B*57:01 I80T mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*57:01 protein complex	I80T	
-HLA-DPA1*01:03/DPB1*02:12 E69K mutant	HLA-DPA1*01:03/DPB1*02:12 E69K mutant		complete molecule	subclass	mutant human MHC class II protein complex		HLA-DPA1*01:03/DPB1*02:12 protein complex		E69K
-HLA-DPB1*02:01 E69K mutant	HLA-DPB1*02:01 E69K mutant		partial molecule	subclass	mutant human MHC class II protein complex		HLA-DPB1*02:01 protein complex		E69K
-HLA-DRA*01:01 F54C mutant/DRB1*01:01	HLA-DRA*01:01 F54C mutant/DRB1*01:01	HLA-DRA1*0101 F54C mutant/DRB1*0101	complete molecule	subclass	mutant human MHC class II protein complex		HLA-DRA*01:01/DRB1*01:01 protein complex	F54C	
-HLA-DRA*01:01/DRB1*01:01 C30S mutant	HLA-DRA*01:01/DRB1*01:01 C30S mutant		complete molecule	subclass	mutant human MHC class II protein complex		HLA-DRA*01:01/DRB1*01:01 protein complex		C30S
-HLA-DRA*01:01/DRB1*01:01 G86Y mutant	HLA-DRA*01:01/DRB1*01:01 G86Y mutant		complete molecule	subclass	mutant human MHC class II protein complex		HLA-DRA*01:01/DRB1*01:01 protein complex		G86Y
-HLA-DRA*01:01/DRB1*03:01 Q74R mutant	HLA-DRA*01:01/DRB1*03:01 Q74R mutant	HLA-DRA1*0101/DRB1*0301 Q74R mutant	complete molecule	subclass	mutant human MHC class II protein complex	human	HLA-DRA*01:01/DRB1*03:01 protein complex		Q74R
-HLA-DRA*01:02/DRB1*03:01 Q74R mutant	HLA-DRA*01:02/DRB1*03:01 Q74R mutant	HLA-DRA1*0102/DRB1*0301 Q74R mutant	complete molecule	subclass	mutant human MHC class II protein complex	human	HLA-DRA*01:02/DRB1*03:01 protein complex		Q74R
-HLA-DRB1*01:01 D57A mutant	HLA-DRB1*01:01 D57A mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57A
-HLA-DRB1*01:01 D57A, Y60H mutant	HLA-DRB1*01:01 D57A, Y60H mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57A, Y60H
-HLA-DRB1*01:01 D57V mutant	HLA-DRB1*01:01 D57V mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V
-HLA-DRB1*01:01 D57V, Y60S mutant	HLA-DRB1*01:01 D57V, Y60S mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V, Y60S
-HLA-DRB1*01:01 N82A mutant	HLA-DRB1*01:01 N82A mutant	HLA-DRB1*0101 N82A mutant	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		N82A
-HLA-DRB1*04:01 Q110N, K139T mutant	HLA-DRB1*04:01 Q110N, K139T mutant		partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*04:01 protein complex		Q110N, K139T
+FLA-E*01801 W167S mutant protein complex	FLA-E*01801 W167S mutant		complete molecule	subclass	mutant cat MHC class I protein complex		FLA-E*01801 protein complex	W167S	
+H2-Db H155A mutant protein complex	H2-Db H155A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	H155A	
+H2-Db L114Q, F116Y, E119D mutant protein complex	H2-Db L114Q, F116Y, E119D mutant	H2-Dbm13	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	L114Q, F116Y, E119D	
+H2-Db Q70H mutant protein complex	H2-Db Q70H mutant	H2-Dbm14	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	Q70H	
+H2-Db Y159F mutant protein complex	H2-Db Y159F mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Db protein complex	Y159F	
+H2-Dd R155Y, D156Y, R169H mutant protein complex	H2-Dd R155Y, D156Y, R169H mutant	H2-Ddm1	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Dd protein complex	R155Y, D156Y, R169H	
+H2-IAb I67F, R70Q, T71K mutant protein complex	H2-IAb I67F, R70Q, T71K mutant	H2-IAbm12	complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAb protein complex	I67F, R70Q, T71K	
+H2-IAg7 H56P, S57D mutant protein complex	H2-IAg7 H56P, S57D mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAg7 protein complex	H56P, S57D	H56P, S57D
+H2-IAk H9V mutant protein complex	H2-IAk H9V mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAk protein complex	H9V	H9V
+H2-IAu V9H mutant protein complex	H2-IAu V9H mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IAu protein complex	V9H	V9H
+H2-IEk alpha E11Q, D66N mutant protein complex	H2-IEk alpha E11Q, D66N mutant		complete molecule	subclass	mutant mouse MHC class II protein complex		H2-IEk protein complex	E11Q, D66N	E11Q, D66N
+H2-Kb D77S, K89A mutant protein complex	H2-Kb D77S, K89A mutant	H2-Kbm3	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	D77S, K89A	
+H2-Kb E63A mutant protein complex	H2-Kb E63A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	E63A	
+H2-Kb E152A, R155Y, L156Y mutant protein complex	H2-Kb E152A, R155Y, L156Y mutant	H2-Kbm1	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	E152A, R155Y, L156Y	
+H2-Kb K66A mutant protein complex	H2-Kb K66A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	K66A	
+H2-Kb V9W mutant protein complex	H2-Kb V9W mutant	H2-Kbw9	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	V9W	
+H2-Kb W167A mutant protein complex	H2-Kb W167A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	W167A	
+H2-Kb Y22F, M23I, E24S, D30N mutant protein complex	H2-Kb Y22F, M23I, E24S, D30N mutant	H2-Kbm8	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	Y22F, M23I, E24S, D30N	
+H2-Kb Y84A mutant protein complex	H2-Kb Y84A mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	Y84A	
+H2-Kb Y84C mutant protein complex	H2-Kb Y84C mutant		complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kb protein complex	Y84C	
+H2-Kk D152A mutant protein complex	H2-Kk D152A mutant	H2-Kkm1	complete molecule	subclass	mutant mouse MHC class I protein complex		H2-Kk protein complex	D152A	
+HLA-A*02:01 A69G mutant protein complex	HLA-A*02:01 A69G mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	A69G	
+HLA-A*02:01 A150P mutant protein complex	HLA-A*02:01 A150P mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	A150P	
+HLA-A*02:01 E166A mutant protein complex	HLA-A*02:01 E166A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	E166A	
+HLA-A*02:01 K66A mutant protein complex	HLA-A*02:01 K66A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	K66A	
+HLA-A*02:01 K66A, E63Q mutant protein complex	HLA-A*02:01 K66A, E63Q mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	K66A, E63Q	
+HLA-A*02:01 Q155A mutant protein complex	HLA-A*02:01 Q155A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	Q155A	
+HLA-A*02:01 R65A mutant protein complex	HLA-A*02:01 R65A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	R65A	
+HLA-A*02:01 T163A mutant protein complex	HLA-A*02:01 T163A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	T163A	
+HLA-A*02:01 W167A mutant protein complex	HLA-A*02:01 W167A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-A*02:01 protein complex	W167A	
+HLA-B*08:01 B:I66A mutant protein complex	HLA-B*08:01 B:I66A mutant	HLA-B*8 I66A mutant	complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*08:01 protein complex	I66A	
+HLA-B*08:01 E76C mutant protein complex	HLA-B*08:01 E76C mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*08:01 protein complex	E76C	
+HLA-B*08:01 N80I mutant protein complex	HLA-B*08:01 N80I mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*08:01 protein complex	N80I	
+HLA-B*27:05 C67S mutant protein complex	HLA-B*27:05 C67S mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:05 protein complex	C67S	
+HLA-B*27:05 D74Y D77N mutant protein complex	HLA-B*27:05 D74Y D77N mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:05 protein complex	D74Y, D77N	
+HLA-B*27:05 L81A mutant protein complex	HLA-B*27:05 L81A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:05 protein complex	L81A	
+HLA-B*27:09 C67S mutant protein complex	HLA-B*27:09 C67S mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*27:09 protein complex	C67S	
+HLA-B*35:08 Q65A mutant protein complex	HLA-B*35:08 Q65A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	Q65A	
+HLA-B*35:08 Q65A, T69A, Q155A mutant protein complex	HLA-B*35:08 Q65A, T69A, Q155A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	Q65A, T69A, Q155A	
+HLA-B*35:08 Q155A mutant protein complex	HLA-B*35:08 Q155A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	Q155A	
+HLA-B*35:08 T69A mutant protein complex	HLA-B*35:08 T69A mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*35:08 protein complex	T69A	
+HLA-B*57:01 I80N mutant protein complex	HLA-B*57:01 I80N mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*57:01 protein complex	I80N	
+HLA-B*57:01 I80T mutant protein complex	HLA-B*57:01 I80T mutant		complete molecule	subclass	mutant human MHC class I protein complex		HLA-B*57:01 protein complex	I80T	
+HLA-DPA1*01:03/DPB1*02:12 E69K mutant protein complex	HLA-DPA1*01:03/DPB1*02:12 E69K mutant		complete molecule	subclass	mutant human MHC class II protein complex		HLA-DPA1*01:03/DPB1*02:12 protein complex		E69K
+HLA-DPB1*02:01 E69K mutant protein complex	HLA-DPB1*02:01 E69K mutant		partial molecule	subclass	mutant human MHC class II protein complex		HLA-DPB1*02:01 protein complex		E69K
+HLA-DRA*01:01 F54C mutant/DRB1*01:01 protein complex	HLA-DRA*01:01 F54C mutant/DRB1*01:01	HLA-DRA1*0101 F54C mutant/DRB1*0101	complete molecule	subclass	mutant human MHC class II protein complex		HLA-DRA*01:01/DRB1*01:01 protein complex	F54C	
+HLA-DRA*01:01/DRB1*01:01 C30S mutant protein complex	HLA-DRA*01:01/DRB1*01:01 C30S mutant		complete molecule	subclass	mutant human MHC class II protein complex		HLA-DRA*01:01/DRB1*01:01 protein complex		C30S
+HLA-DRA*01:01/DRB1*01:01 G86Y mutant protein complex	HLA-DRA*01:01/DRB1*01:01 G86Y mutant		complete molecule	subclass	mutant human MHC class II protein complex		HLA-DRA*01:01/DRB1*01:01 protein complex		G86Y
+HLA-DRA*01:01/DRB1*03:01 Q74R mutant protein complex	HLA-DRA*01:01/DRB1*03:01 Q74R mutant	HLA-DRA1*0101/DRB1*0301 Q74R mutant	complete molecule	subclass	mutant human MHC class II protein complex	human	HLA-DRA*01:01/DRB1*03:01 protein complex		Q74R
+HLA-DRA*01:02/DRB1*03:01 Q74R mutant protein complex	HLA-DRA*01:02/DRB1*03:01 Q74R mutant	HLA-DRA1*0102/DRB1*0301 Q74R mutant	complete molecule	subclass	mutant human MHC class II protein complex	human	HLA-DRA*01:02/DRB1*03:01 protein complex		Q74R
+HLA-DRB1*01:01 D57A mutant protein complex	HLA-DRB1*01:01 D57A mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57A
+HLA-DRB1*01:01 D57A, Y60H mutant protein complex	HLA-DRB1*01:01 D57A, Y60H mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57A, Y60H
+HLA-DRB1*01:01 D57V mutant protein complex	HLA-DRB1*01:01 D57V mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V
+HLA-DRB1*01:01 D57V, Y60S mutant protein complex	HLA-DRB1*01:01 D57V, Y60S mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V, Y60S
+HLA-DRB1*01:01 N82A mutant protein complex	HLA-DRB1*01:01 N82A mutant	HLA-DRB1*0101 N82A mutant	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		N82A
+HLA-DRB1*04:01 Q110N, K139T mutant protein complex	HLA-DRB1*04:01 Q110N, K139T mutant		partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*04:01 protein complex		Q110N, K139T
 human MR1 K43A mutant protein complex	human MR1 K43A mutant	HLA-MR1 K43A mutant|hMR1 K43A mutant	complete molecule	subclass	mutant human non-classical MHC protein complex		human MR1 protein complex	K43A	
+human MR1 R9H mutant protein complex	human MR1 R9H mutant	HLA-MR1 R9H mutant|hMR1 R9H mutant	complete molecule	subclass	mutant human non-classical MHC protein complex		human MR1 protein complex	R9H	
 mouse CD1d Y73H mutant protein complex	mouse CD1d Y73H mutant		complete molecule	subclass	mutant mouse non-classical MHC protein complex		mouse CD1d protein complex	Y73H	
 mutant MHC class I protein complex	class I		class	subclass	mutant MHC protein complex				
 mutant MHC class II protein complex	class II		class	subclass	mutant MHC protein complex				
