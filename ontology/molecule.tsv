@@ -1,6 +1,5 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
-					is-required; subclass-of 'protein complex';	is-required (when %6 not-equivalent-to 'MHC protein complex'); subclass-of organism;	subclass-of ('gene product of' some 'genetic locus');	subclass-of|equivalent-to ('Beta-2-microglobulin' or ('gene product of' some 'genetic locus'));	subclass-of haplotype;	subclass-of serotype;
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
 BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		

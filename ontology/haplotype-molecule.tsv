@@ -1,6 +1,5 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	With Haplotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'haplotype member of' some %
-					is-required; subclass-of 'protein complex';	is-required; subclass-of organism;	is-required; subclass-of haplotype;
 cattle MHC protein complex with DH7A haplotype	DH7A		haplotype	equivalent	MHC protein complex	cattle	DH7A haplotype
 cattle MHC protein complex with DH8A haplotype	DH8A		haplotype	equivalent	MHC protein complex	cattle	DH8A haplotype
 cattle MHC protein complex with DH22B haplotype	DH22B		haplotype	equivalent	MHC protein complex	cattle	DH22B haplotype
