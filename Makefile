@@ -87,6 +87,11 @@ update-tsv-files:
 sort:
 	python3 src/sort.py $(source_files)
 
+# Check for whitespace during update-tsv step
+.PRECIOUS: build/whitespace.tsv
+build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
+	python3 $^ $@
+
 
 ### Sequences
 
@@ -207,40 +212,33 @@ build/mro-base.owl: mro.owl | build/robot.jar
 	--axioms external \
 	--output $@
 
+# Run a series of standard OBO checks
 .PRECIOUS: build/report.csv
 build/report.csv: build/mro-base.owl | build/robot.jar
 	$(ROBOT) report --input $< --print 10 --output $@
 
+# Run a series of MRO-specific queries as checks
 .PHONY: verify
 verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	$(ROBOT) verify --input $< \
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
 
-# Validate a relaxed/reduced version of MRO
-.PHONY: validate
-validate: mro.owl $(source_files) | build/robot.jar build/validate
-	$(ROBOT) relax --input $< \
-	reduce remove --axioms equivalent \
-	validate $(foreach i,$(source_files),--table $(i)) \
-	--skip-row 2 \
-	--format html \
-	--output-dir build/validate
-
+# Validate the contents of the templates
 .PRECIOUS: build/validation_errors.tsv
 build/validation_errors.tsv: src/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
 	python3 $< index.tsv iedb/iedb.tsv build $@
 
+# Validate the MHC-allele restriction tablee
 .PRECIOUS: build/mhc_allele_restriction_errors.tsv
 build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py iedb/mhc_allele_restriction.tsv | build
 	python3 $^ $@
 
-.PRECIOUS: build/whitespace.tsv
-build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
-	python3 $^ $@
-
 .PHONY: test
-test: build/report.csv verify validate build/mhc_allele_restriction_errors.tsv
+test: build/validation_errors.tsv
+test: build/report.csv
+test: verify
+test: build/mhc_allele_restriction_errors.tsv
 
 .PHONY: pytest
 pytest:
