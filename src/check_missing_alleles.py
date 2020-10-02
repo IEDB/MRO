@@ -29,6 +29,14 @@ EXCLUDED_GENES = {
     "TAP2",
     "U",
     "H",
+    "DRB8",
+    "DRB9",
+    "DRB7",
+    "DRB6",
+    "DPB2",
+    "DPA2",
+    "DQA2",
+    "DRB2"
 }
 
 
@@ -84,6 +92,7 @@ def update_chain_sequence():
     # Find differences between IMGT and MRO alleles
     imgt_alleles = set(imgt_dict.keys())
     missing_alleles = imgt_alleles.difference(mro_alleles)
+    missing_alleles = {x for x in missing_alleles if x.split("*")[0] not in EXCLUDED_GENES}
 
     missing_allele_rows = set()
     for allele in missing_alleles:
@@ -133,10 +142,18 @@ def update_chain(missing_alleles):
                     allele = label.split(" ")[0][4:]
                     mro_chains.add(allele)
 
+    exclude_parents = {'DQA1', 'DQB1', 'DPA1', 'DPB1'}
     new_genes = missing_genes.difference(mro_genes)
+    new_genes = {x for x in new_genes if x.split("*")[0] not in EXCLUDED_GENES}
+    new_genes = {x for x in new_genes if x.split("*")[0] not in exclude_parents}
+
+
     new_gene_tups = set()
     for gene in new_genes:
         if gene not in EXCLUDED_GENES:
+            if gene == "DQA1" or gene == "DQB1" or gene == "DPA1" or gene == "DPB1":
+                print(gene)
+                continue
             label = f"HLA-{gene} chain"
             synonyms = ""
             class_type = "equivalent"
@@ -153,7 +170,16 @@ def update_chain(missing_alleles):
             synonyms = ""
             class_type = "subclass"
             # This removes the specific allele # (generic chain)
-            parent = f"HLA-{allele.split('*')[0]} chain"
+            if gene == "DQA1":
+                parent = f"HLA-DQA chain"
+            elif gene == "DQB1":
+                parent = f"HLA-DQB chain"
+            elif gene == "DPA1":
+                parent = f"HLA-DPA chain"
+            elif gene == "DPB1":
+                parent = f"HLA-DPB chain"
+            else:
+                parent = f"HLA-{allele.split('*')[0]} chain"
             gene = ""
             new_chain_tups.add((label, synonyms, class_type, parent, gene))
 
@@ -182,12 +208,16 @@ def update_locus(missing_genes):
         for row in rows:
             locus = row["Label"]
             if "HLA" in locus:
-                mro_loci.add(locus.split(" ")[0][4:])
+                if "DQA" not in locus or "DQB" not in locus:
+                    mro_loci.add(locus.split(" ")[0][4:])
 
+    exclude_parents = {'DQA1', 'DQB1', 'DPA1', 'DPB1'}
     new_loci_rows = set()
     new_loci = missing_genes.difference(mro_loci)
+    new_loci = {x for x in new_loci if x.split("*")[0] not in exclude_parents}
+
     for locus in new_loci:
-        if locus not in EXCLUDED_GENES:
+        if locus not in EXCLUDED_GENES and "DQ" not in locus and "DP" not in locus:
             # Fast and dirty way to check if gene is classI, classII
             mhc_class = ""
             for prefix in class_I:
@@ -304,12 +334,12 @@ def create_classII_pairing(allele):
         A string that has a pairing of alpha and beta chain (i.e. DRBA/DRB1*01:02)
     """
     pairing = {
-        "DQA1": "DQB1",
+        "DQA1": "DQB",
         "DRA": ["DRB1", "DRB2", "DRB3", "DRB4", "DRB5", "DRB6", "DRB7", "DRB8", "DRB9"],
-        "DPA1": "DPB1",
+        "DPA1": "DPB",
     }
     pairing_rev = {
-        "DQB1": "DQA1",
+        "DQB1": "DQA",
         "DRB1": "DRA",
         "DRB2": "DRA",
         "DRB3": "DRA",
@@ -319,7 +349,7 @@ def create_classII_pairing(allele):
         "DRB7": "DRA",
         "DRB8": "DRA",
         "DRB9": "DRA",
-        "DPB1": "DPA1",
+        "DPB1": "DPA",
     }
     gene = allele.split("*")[0]
     if gene in pairing:
@@ -400,6 +430,40 @@ def create_classII_prot(missing_chainII):
 
     return new_classII_molecules
 
+def create_non_classical_prot(missing_nonclass):
+    """Creates entries for non-classical MHC molecules
+
+    Returns:
+        A list of new entries for molecule.tsv
+    """
+    new_classI_molecules = set()
+    with open(sys.argv[3], "a+") as fh:
+        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
+        for allele in missing_nonclass:
+            label = f"HLA-{allele} protein complex"
+            iedb_name = f"HLA-{allele}"
+            synonym = ""
+            restrict_lvl = "complete molecule"
+            class_type = "equivalent"
+            parent = "non-classical MHC protein complex"
+            taxon = "human"
+            alpha_chain = f"HLA-{allele} chain"
+            beta_chain = "Beta-2-microglobulin"
+            writer.writerow(
+                [
+                    label,
+                    iedb_name,
+                    synonym,
+                    restrict_lvl,
+                    class_type,
+                    parent,
+                    taxon,
+                    alpha_chain,
+                    beta_chain,
+                ]
+            )
+            new_classI_molecules.add(f"HLA-{allele} protein complex")
+    return new_classI_molecules
 
 def update_molecules(missing_alleles):
     """Adds new entries to molecules.tsv
@@ -407,7 +471,7 @@ def update_molecules(missing_alleles):
     Returns:
         A list of entries to be added to index.tsv
     """
-    class_I_genes = ["A", "B", "C", "E", "F", "G"]
+    class_I_genes = ["A", "B", "C"]
     class_II_genes = [
         "DRA",
         "DRB1",
@@ -424,15 +488,19 @@ def update_molecules(missing_alleles):
         "DPA1",
         "DPB1",
     ]
+    non_classical_genes = ['E', 'F', 'G']
 
     classI_imgt_alleles = set()
     classII_imgt_alleles = set()
+    non_classical_imgt = set()
     for allele in missing_alleles:
         gene = allele.split("*")[0]
         if gene in class_I_genes:
             classI_imgt_alleles.add(allele)
         if gene in class_II_genes:
             classII_imgt_alleles.add(allele)
+        if gene in non_classical_genes:
+            non_classical_imgt.add(allele)
 
     mro_alleles = set()
     with open(sys.argv[3]) as fh:
@@ -448,12 +516,15 @@ def update_molecules(missing_alleles):
 
     missing_classI = classI_imgt_alleles.difference(mro_alleles)
     missing_classII = classII_imgt_alleles.difference(mro_alleles)
+    missing_nonclass = non_classical_imgt.difference(mro_alleles)
 
     new_molecules = set()
     for x in list(create_classI_prot(missing_classI)):
         new_molecules.add(x)
     for y in list(create_classII_prot(missing_classII)):
         new_molecules.add(y)
+    for z in list(create_non_classical_prot(missing_nonclass)):
+        new_molecules.add(z)
 
     return new_molecules
 

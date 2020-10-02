@@ -44,27 +44,15 @@ HLA-B locus		subclass	human MHC class I locus
 HLA-BTN3A locus		subclass	human non-classical MHC locus	
 HLA-C locus		subclass	human MHC class I locus	
 HLA-CD1 locus		subclass	human non-classical MHC locus	
-HLA-DPA1 locus		subclass	human MHC class II locus
-HLA-DPA2 locus		subclass	human MHC class II locus
 HLA-DPA locus		subclass	human MHC class II locus	
-HLA-DPB1 locus		subclass	human MHC class II locus
-HLA-DPB2 locus		subclass	human MHC class II locus
 HLA-DPB locus		subclass	human MHC class II locus	
-HLA-DQA1 locus		subclass	human MHC class II locus
-HLA-DQA2 locus		subclass	human MHC class II locus
 HLA-DQA locus		subclass	human MHC class II locus	
-HLA-DQB1 locus		subclass	human MHC class II locus
 HLA-DQB locus		subclass	human MHC class II locus	
 HLA-DRA locus		subclass	human MHC class II locus	
 HLA-DRB1 locus		subclass	HLA-DRB locus	
-HLA-DRB2 locus		subclass	human MHC class II locus
 HLA-DRB3 locus		subclass	HLA-DRB locus	
 HLA-DRB4 locus		subclass	HLA-DRB locus	
 HLA-DRB5 locus		subclass	HLA-DRB locus	
-HLA-DRB6 locus		subclass	human MHC class II locus
-HLA-DRB7 locus		subclass	human MHC class II locus
-HLA-DRB8 locus		subclass	human MHC class II locus
-HLA-DRB9 locus		subclass	human MHC class II locus
 HLA-DRB locus		subclass	human MHC class II locus	
 HLA-E locus		subclass	human non-classical MHC locus	
 HLA-F locus		subclass	human non-classical MHC locus	
