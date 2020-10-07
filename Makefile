@@ -85,7 +85,7 @@ update-tsv-files:
 # Sort TSV files by first column
 .PHONY: sort
 sort:
-	python3 src/sort.py $(source_files)
+	python3 src/sort.py index.tsv $(source_files)
 
 # Check for whitespace during update-tsv step
 .PRECIOUS: build/whitespace.tsv
