@@ -35774,4 +35774,6 @@ MRO:0035770	HLA-C*06:226 protein complex	owl:Class
 MRO:0035771	HLA-B*13:85 protein complex	owl:Class	
 MRO:0035772	HLA-B*53:35 protein complex	owl:Class	
 MRO:0035773	HLA-B*40:04 protein complex	owl:Class	
-MRO:0035774	HLA-A*34:08 protein complex	owl:Class		
+MRO:0035774	HLA-A*34:08 protein complex	owl:Class	
+MRO:0035775	HLA-DRA*01:01 protein complex	owl:Class	
+MRO:0035776	HLA-DRA*01:02 protein complex	owl:Class	
