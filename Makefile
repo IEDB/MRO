@@ -388,7 +388,8 @@ build/release-notes.txt: | build
 	| sed "s/^/* /" >> $@
 
 # Release using GitHub CLI
-# GITHUB_TOKEN env variable must be set!
+# GITHUB_TOKEN env variable must be set to a PAT with "repo" permissions
+# https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token
 .PHONY: release
 release: mro.owl iedb.zip build/release-notes.txt
 	gh release create v$(TODAY) mro.owl iedb.zip \
