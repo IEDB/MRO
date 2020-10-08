@@ -10,6 +10,8 @@ junk/
 lib/
 mro-import.owl
 mro.xlsx
+mro.owl
+iedb.zip
 reference/
 src/.cache/
 src/__pycache__/

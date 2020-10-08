@@ -360,7 +360,7 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
         # Validate taxon
         for row in reader:
             taxon = row["In Taxon"]
-            if taxon.strip == "":
+            if taxon and taxon.strip() == "":
                 taxon = None
 
             if taxon and taxon not in external_labels:
@@ -435,10 +435,10 @@ def validate_halpotype(template_dir, labels, external_labels, allow_missing):
         # Validate "In Taxon" values
         for row in reader:
             parent = row["Parent"]
-            if parent.strip() == "":
+            if parent and parent.strip() == "":
                 parent = None
             taxon = row["In Taxon"]
-            if taxon.strip() == "":
+            if taxon and taxon.strip() == "":
                 taxon = None
 
             if parent == "MHC haplotype" and not taxon:
@@ -1093,7 +1093,9 @@ def main():
         reader = csv.DictReader(f, delimiter="\t")
         next(reader)
         for row in reader:
-            labels.append(row["Label"])
+            l = row["Label"]
+            if l and l.strip() != "":
+                labels.append(l)
 
     # Get imported term labels
     ext_labels = []
@@ -1101,7 +1103,9 @@ def main():
         reader = csv.DictReader(f, delimiter="\t")
         next(reader)
         for row in reader:
-            ext_labels.append(row["Label"])
+            l = row["Label"]
+            if l and l.strip() != "":
+                ext_labels.append(l)
 
     errors = []
 

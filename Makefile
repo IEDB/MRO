@@ -182,7 +182,7 @@ update-tsv-files:
 # Sort TSV files by first column
 .PHONY: sort
 sort:
-	python3 src/sort.py $(source_files)
+	python3 src/sort.py index.tsv $(source_files)
 
 # Check for whitespace during update-tsv step
 .PRECIOUS: build/whitespace.tsv
@@ -204,19 +204,29 @@ build/mhc.fasta: | build
 update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
 
+build/hla_prot.fasta: | build
+	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta
+
+build/AlleleList.txt: | build
+	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
+
+.PHONY: update-alleles
+update-alleles: src/check_missing_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
+	python3 $^
 
 ### OWL Files
 
-mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
+mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) merge \
-	--input mro-import.owl \
+	--input $< \
 	template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
 	$(templates) \
 	--merge-before \
-	reason --reasoner HermiT \
+	reason \
+	--reasoner ELK \
 	--remove-redundant-subclass-axioms false \
 	annotate \
 	--ontology-iri "$(OBO)/mro.owl" \
@@ -225,7 +235,7 @@ mro.owl: mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/r
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
+build/mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
 	$(ROBOT) merge \
 	--input $(LIB)/eco.owl \
 	--input $(LIB)/obi.owl \
@@ -242,6 +252,7 @@ mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl 
 	--lower-terms $< \
 	--output $@
 
+
 # fetch ontology dependencies
 $(LIB)/%:
 	mkdir -p $(LIB)
@@ -253,11 +264,14 @@ $(LIB)/%:
 # This includes an extended OWL file
 # and tables for the IEDB database and Finders.
 
-iedb:
-	mkdir -p $@
+IEDB_TARGETS := build/mro-iedb.owl \
+                build/mhc_allele_restriction.tsv \
+                build/ALLELE_FINDER_NAMES.csv \
+                build/ALLELE_FINDER_SEARCH.csv \
+                build/ALLELE_FINDER_TREE.csv
 
 # extended version for IEDB use
-iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
+build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
 	$(ROBOT) template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--input $< \
@@ -266,26 +280,26 @@ iedb/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar 
 	--merge-before \
 	--output $@
 
-build/mhc_allele_restriction.csv: iedb/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
+build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
-iedb/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
+build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
 	python3 $^ > $@
 
-iedb/ALLELE_FINDER_NAMES.csv: iedb/mro-iedb.owl src/names.rq | build/robot.jar iedb
+build/ALLELE_FINDER_NAMES.csv: build/mro-iedb.owl src/names.rq | build/robot.jar iedb
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-iedb/ALLELE_FINDER_SEARCH.csv: iedb/mro-iedb.owl src/search.rq | build/robot.jar iedb
+build/ALLELE_FINDER_SEARCH.csv: build/mro-iedb.owl src/search.rq | build/robot.jar iedb
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: iedb/mro-iedb.owl src/parents.rq | build/robot.jar
+build/parents.csv: build/mro-iedb.owl src/parents.rq | build/robot.jar
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
-iedb/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
+build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@
 
 build/tree.json: src/tree.py build/parents.csv | build
@@ -294,12 +308,11 @@ build/tree.json: src/tree.py build/parents.csv | build
 build/full_tree.json: src/tree.py build/full_tree.csv | build
 	python3 $^ --mode JSON > $@
 
-IEDB_TARGETS := iedb/mro-iedb.owl iedb/mhc_allele_restriction.tsv iedb/ALLELE_FINDER_NAMES.csv iedb/ALLELE_FINDER_SEARCH.csv iedb/ALLELE_FINDER_TREE.csv
 .PHONY: update-iedb
 update-iedb: $(IEDB_TARGETS)
 
 
-### Testing
+### Testing & verification
 
 VERIFY_QUERIES = $(wildcard src/verify/*.rq)
 
@@ -316,17 +329,16 @@ build/report.csv: build/mro-base.owl | build/robot.jar
 
 # Run a series of MRO-specific queries as checks
 .PHONY: verify
-verify: iedb/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
+verify: build/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 	$(ROBOT) verify --input $< \
 	--queries $(VERIFY_QUERIES) \
 	--output-dir build
 
 # Validate the MHC-allele restriction table
 .PRECIOUS: build/mhc_allele_restriction_errors.tsv
-build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py iedb/mhc_allele_restriction.tsv | build
+build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py build/mhc_allele_restriction.tsv | build
 	python3 $^ $@
 
-# General testing
 .PHONY: test
 test: build/validation_errors_strict.tsv
 test: build/report.csv
@@ -353,8 +365,14 @@ prepare:
 .PHONY: clean
 clean:
 	rm -rf build
-	rm -f mro.owl mro-import.owl
-	rm -f $(IEDB_TARGETS)
+	rm -f iedb.zip
+	rm -f mro.owl.gz
+
+# Release files
+iedb.zip: $(IEDB_TARGETS)
+	zip -rj $@ $^
+
+release: iedb.zip mro.owl
 
 .PHONY: all
-all: update-iedb
+all: clean release
