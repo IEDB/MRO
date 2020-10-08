@@ -9,6 +9,12 @@ ID=$(urlp --query --query_field=id "${URL}")
 PROJECT=$(urlp --query --query_field=project-name "${URL}")
 BRANCH=$(urlp --query --query_field=branch-name "${URL}")
 
+# Check that the sqlite database exists
+if ! [[ -s build/mro.db ]]; then
+	rm build/mro.db > /dev/null 2>&1
+	make build/mro.db > /dev/null 2>&1
+fi
+
 if [[ ${ID} ]]; then
 	python3 -m gizmos.tree build/mro.db ${ID}
 else
