@@ -46,6 +46,7 @@ SHELL := bash
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
 ROBOT := java -jar build/robot.jar
+TODAY := $(shell date +%Y-%m-%d)
 
 tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
@@ -230,8 +231,8 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--remove-redundant-subclass-axioms false \
 	annotate \
 	--ontology-iri "$(OBO)/mro.owl" \
-	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro.owl" \
-	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
+	--version-iri "$(OBO)/mro/$(TODAY)/mro.owl" \
+	--annotation owl:versionInfo "$(TODAY)" \
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
@@ -368,11 +369,28 @@ clean:
 	rm -f iedb.zip
 	rm -f mro.owl.gz
 
-# Release files
+.PHONY: all
+all: clean test
+
+
+### Release
+
+# IEDB products
 iedb.zip: $(IEDB_TARGETS)
 	zip -rj $@ $^
 
-release: iedb.zip mro.owl
+# Provide all commits since last tag (excluding merges)
+.PHONY: build/release-notes.txt
+build/release-notes.txt: | build
+	rm -f $@
+	echo "New in this release:" >> $@
+	git log $$(git describe --tags --abbrev=0)..HEAD --no-merges --oneline \
+	| sed "s/^/* /" >> $@
 
-.PHONY: all
-all: clean release
+# Release using GitHub CLI
+# GITHUB_TOKEN env variable must be set!
+.PHONY: release
+release: mro.owl iedb.zip build/release-notes.txt
+	gh release create v$(TODAY) mro.owl iedb.zip \
+	-t "$(TODAY) Release" \
+	-F build/release-notes.txt
