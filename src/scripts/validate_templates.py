@@ -1,14 +1,38 @@
 import csv
 import re
-import sys
 
 from argparse import ArgumentParser
 
 
 err_id = 0
+new_term_msg = "use a label defined in index OR ignore this message if this is a new term"
 
 
-def check_labels(table_name, reader, label_source, valid_labels, regex=None):
+def a1_to_idx(a1):
+    """Convert an A1 cell label to row & column indexes. Adapted from gspread.utils."""
+    m = re.compile(r"([A-Za-z]+)([1-9]\d*)").match(a1)
+    if m:
+        column_label = m.group(1).upper()
+        row = int(m.group(2))
+
+        col = 0
+        for i, c in enumerate(reversed(column_label)):
+            col += (ord(c) - 64) * (26 ** i)
+    else:
+        raise Exception(f"ERROR: Unable to parse cell label '{a1}'")
+
+    return row, col
+
+
+def check_labels(
+    table_name,
+    reader,
+    label_source,
+    valid_labels,
+    regex=None,
+    missing_level="error",
+    missing_instructions=None,
+):
     """Check that the labels used in a table are all present in a set of valid labels. If provided,
     also match the labels to a regex pattern. Return all labels from the table and a set of errors,
     if any."""
@@ -17,6 +41,10 @@ def check_labels(table_name, reader, label_source, valid_labels, regex=None):
     row_idx = 3
     headers = reader.fieldnames
     labels = []
+
+    if not missing_instructions:
+        missing_instructions = f"use a label defined in {label_source}"
+
     for row in reader:
         label = row["Label"]
         labels.append(label)
@@ -27,11 +55,11 @@ def check_labels(table_name, reader, label_source, valid_labels, regex=None):
                     "ID": err_id,
                     "table": table_name,
                     "cell": idx_to_a1(row_idx, headers.index("Label") + 1),
-                    "level": "error",
+                    "level": missing_level,
                     "rule ID": "unknown_label",
                     "rule name": "unknown label",
                     "value": label,
-                    "instructions": f"use a label defined in {label_source}",
+                    "instructions": missing_instructions,
                 }
             )
         if regex and not re.match(regex, label):
@@ -132,6 +160,7 @@ def check_restriction_level(table_name, reader, valid_levels):
                     + ", ".join(valid_levels),
                 }
             )
+        row_idx += 1
     return errors
 
 
@@ -150,7 +179,33 @@ def idx_to_a1(row, col):
     return f"{column_label}{row}"
 
 
-def validate_chain(template_dir, labels, genetic_locus_labels):
+def create_message(errors):
+    """"""
+    table_errors = {}
+    for err in errors:
+        table_name = err["table"]
+        loc = err["cell"]
+        row, col = a1_to_idx(loc)
+        if table_name in table_errors:
+            locs = table_errors[table_name]
+        else:
+            locs = set()
+        locs.add(row)
+        table_errors[table_name] = locs
+
+    msg = []
+    for table, locs in table_errors.items():
+        word = "line"
+        if len(locs) > 1:
+            word = "lines"
+        locs = [str(x) for x in list(locs)]
+        rows = ", ".join(locs)
+        msg.append(f"- '{table}' {word} {rows}")
+
+    return "\n".join(msg)
+
+
+def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
     """Validate chain.tsv. This checks that:
     - All labels are present in index and end with 'chain'
     - All terms have a parent that is present in this sheet OR is 'protein'
@@ -167,9 +222,20 @@ def validate_chain(template_dir, labels, genetic_locus_labels):
 
         # Get the labels for all chains
         # and validate that those labels end with "chain" and are present in index
-        chain_labels, label_errors = check_labels(
-            table_name, reader, "index", labels, regex=r"^.+ chain$"
-        )
+        if allow_missing:
+            chain_labels, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ chain$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            chain_labels, label_errors = check_labels(
+                table_name, reader, "index", labels, regex=r"^.+ chain$"
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -243,7 +309,7 @@ def validate_chain_sequence(template_dir, chain_labels):
     return errors
 
 
-def validate_genetic_locus(template_dir, labels, external_labels):
+def validate_genetic_locus(template_dir, labels, external_labels, allow_missing):
     """Validate genetic-locus.tsv. This checks that:
     - All labels are present in index.tsv and end with 'locus'
     - All terms have parents that are present in this sheet OR is 'MHC locus'
@@ -260,9 +326,20 @@ def validate_genetic_locus(template_dir, labels, external_labels):
 
         # Get the labels for all genetic loci
         # and validate that those labels end with "locus" and are present in index
-        genetic_locus_labels, label_errors = check_labels(
-            table_name, reader, "index", labels, regex=r"^.+ locus$"
-        )
+        if allow_missing:
+            genetic_locus_labels, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ locus$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            genetic_locus_labels, label_errors = check_labels(
+                table_name, reader, "index", labels, regex=r"^.+ locus$"
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -271,9 +348,7 @@ def validate_genetic_locus(template_dir, labels, external_labels):
         next(reader)
 
         # Validate parents
-        parent_errors = check_fields(
-            table_name, reader, genetic_locus_labels, top_term="MHC locus"
-        )
+        parent_errors = check_fields(table_name, reader, genetic_locus_labels, top_term="MHC locus")
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -303,11 +378,12 @@ def validate_genetic_locus(template_dir, labels, external_labels):
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
 
     return genetic_locus_labels, errors
 
 
-def validate_halpotype(template_dir, labels, external_labels):
+def validate_halpotype(template_dir, labels, external_labels, allow_missing):
     """Validate haplotype.tsv. This checks that:
     - All labels are present in index.tsv and end with 'haplotype'
     - All terms have a parent that is present in this sheet OR is 'MHC haplotype'
@@ -326,9 +402,20 @@ def validate_halpotype(template_dir, labels, external_labels):
 
         # Get the labels for all haplotypes
         # and validate that those labels end with "haplotype" and are present in index
-        haplotype_labels, label_errors = check_labels(
-            table_name, reader, "index", labels, regex=r"^.+ haplotype$"
-        )
+        if allow_missing:
+            haplotype_labels, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ haplotype$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            haplotype_labels, label_errors = check_labels(
+                table_name, reader, "index", labels, regex=r"^.+ haplotype$"
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -336,9 +423,7 @@ def validate_halpotype(template_dir, labels, external_labels):
         next(reader)
         next(reader)
 
-        parent_errors = check_fields(
-            table_name, reader, haplotype_labels, top_term="MHC haplotype"
-        )
+        parent_errors = check_fields(table_name, reader, haplotype_labels, top_term="MHC haplotype")
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -385,11 +470,12 @@ def validate_halpotype(template_dir, labels, external_labels):
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
     return haplotype_labels, errors
 
 
 def validate_haplotype_molecule(
-    template_dir, labels, molecule_labels, haplotype_labels, external_labels
+    template_dir, labels, molecule_labels, haplotype_labels, external_labels, allow_missing
 ):
     """Validate haplotype-molecule.tsv. This checks that:
     - All labels are present in index.tsv and end with 'with X haplotype' or 'with haplotype'
@@ -408,13 +494,24 @@ def validate_haplotype_molecule(
         next(reader)
 
         # Get any labels not defined in index
-        _, label_errors = check_labels(
-            table_name,
-            reader,
-            "index",
-            labels,
-            regex=r"^.+ (with haplotype|with [^ ]+ haplotype)$",
-        )
+        if allow_missing:
+            _, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ (with haplotype|with [^ ]+ haplotype)$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            _, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ (with haplotype|with [^ ]+ haplotype)$",
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -424,11 +521,7 @@ def validate_haplotype_molecule(
 
         # Validate parents (from molecule table)
         parent_errors = check_fields(
-            table_name,
-            reader,
-            molecule_labels,
-            top_term="MHC protein complex",
-            source="molecule",
+            table_name, reader, molecule_labels, top_term="MHC protein complex", source="molecule",
         )
         errors.extend(parent_errors)
 
@@ -498,16 +591,27 @@ def validate_haplotype_molecule(
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
     return errors
 
 
-def validate_iedb_labels(iedb_path, labels):
+def validate_iedb_labels(iedb_path, labels, allow_missing):
     """Validate iedb.tsv. This checks that all labels are present in index.tsv. Return a set of
     errors, if any."""
     with open(iedb_path, "r") as f:
         reader = csv.DictReader(f, delimiter="\t")
         next(reader)
-        _, errors = check_labels("iedb", reader, "index", labels)
+        if allow_missing:
+            _, errors = check_labels(
+                "iedb",
+                reader,
+                "index",
+                labels,
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            _, errors = check_labels("iedb", reader, "index", labels)
     return errors
 
 
@@ -518,6 +622,7 @@ def validate_molecule(
     external_labels,
     haplotype_labels,
     serotype_labels,
+    allow_missing,
 ):
     """Validate molecule.tsv. This checks that:
     - All labels are present in index.tsv and end with 'protein complex'
@@ -541,9 +646,20 @@ def validate_molecule(
 
         # Get the labels for all genetic loci
         # and validate that those labels end with "locus" and are present in index
-        molecule_labels, label_errors = check_labels(
-            "molecule", reader, "index", labels, regex=r"^.+ protein complex$"
-        )
+        if allow_missing:
+            molecule_labels, label_errors = check_labels(
+                "molecule",
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ protein complex$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            molecule_labels, label_errors = check_labels(
+                "molecule", reader, "index", labels, regex=r"^.+ protein complex$"
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -629,14 +745,7 @@ def validate_molecule(
 
         # Validate restriction levels
         res_level_errors = check_restriction_level(
-            table_name,
-            reader,
-            [
-                "class",
-                "locus",
-                "complete molecule",
-                "partial molecule",
-            ],
+            table_name, reader, ["class", "locus", "complete molecule", "partial molecule",],
         )
         errors.extend(res_level_errors)
 
@@ -684,11 +793,12 @@ def validate_molecule(
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
 
     return molecule_labels, errors
 
 
-def validate_mutant_molecule(template_dir, labels, external_labels, molecule_labels):
+def validate_mutant_molecule(template_dir, labels, external_labels, molecule_labels, allow_missing):
     """Validate mutant-molecule.tsv. This checks that:
     - All labels are present in index.tsv and end with 'protein complex'
     - All terms have parents that are present in this sheet OR is 'mutant MHC protein complex'
@@ -706,9 +816,20 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
         next(reader)
 
         # Get any labels not defined in index
-        mutant_molecule_labels, label_errors = check_labels(
-            table_name, reader, "index", labels, regex=r"^.+ protein complex$"
-        )
+        if allow_missing:
+            mutant_molecule_labels, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ protein complex$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            mutant_molecule_labels, label_errors = check_labels(
+                table_name, reader, "index", labels, regex=r"^.+ protein complex$"
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -718,10 +839,7 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
 
         # Validate parents
         parent_errors = check_fields(
-            table_name,
-            reader,
-            mutant_molecule_labels,
-            top_term="mutant MHC protein complex",
+            table_name, reader, mutant_molecule_labels, top_term="mutant MHC protein complex",
         )
         errors.extend(parent_errors)
 
@@ -779,10 +897,11 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
     return errors
 
 
-def validate_serotype(template_dir, labels, external_labels):
+def validate_serotype(template_dir, labels, external_labels, allow_missing):
     """Validate serotype.tsv. This checks that:
     - All labels are present in index.tsv and end with 'serotype'
     - All terms have parents that are present in this sheet OR is 'MHC serotype'
@@ -800,9 +919,20 @@ def validate_serotype(template_dir, labels, external_labels):
 
         # Get the labels for all serotypes
         # and validate that those labels end with "serotype" and are present in index
-        serotype_labels, label_errors = check_labels(
-            table_name, reader, "index", labels, regex=r"^.+ serotype$"
-        )
+        if allow_missing:
+            serotype_labels, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ serotype$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            serotype_labels, label_errors = check_labels(
+                table_name, reader, "index", labels, regex=r"^.+ serotype$"
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -811,9 +941,7 @@ def validate_serotype(template_dir, labels, external_labels):
         next(reader)
 
         # Validate parents
-        parent_errors = check_fields(
-            table_name, reader, serotype_labels, top_term="MHC serotype"
-        )
+        parent_errors = check_fields(table_name, reader, serotype_labels, top_term="MHC serotype")
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -843,11 +971,12 @@ def validate_serotype(template_dir, labels, external_labels):
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
     return serotype_labels, errors
 
 
 def validate_serotype_molecule(
-    template_dir, labels, external_labels, molecule_labels, serotype_labels
+    template_dir, labels, external_labels, molecule_labels, serotype_labels, allow_missing
 ):
     """Validate serotype-molecule.tsv. This checks that:
     - All labels are present in index.tsv and end with 'with X serotype' or 'with serotype'
@@ -865,13 +994,24 @@ def validate_serotype_molecule(
         headers = reader.fieldnames
         next(reader)
 
-        _, label_errors = check_labels(
-            table_name,
-            reader,
-            "index",
-            labels,
-            regex=r"^.+ (with serotype|with [^ ]+ serotype)$",
-        )
+        if allow_missing:
+            _, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ (with serotype|with [^ ]+ serotype)$",
+                missing_level="info",
+                missing_instructions=new_term_msg,
+            )
+        else:
+            _, label_errors = check_labels(
+                table_name,
+                reader,
+                "index",
+                labels,
+                regex=r"^.+ (with serotype|with [^ ]+ serotype)$",
+            )
         errors.extend(label_errors)
 
         # Reset file to beginning
@@ -881,11 +1021,7 @@ def validate_serotype_molecule(
 
         # Validate parents (from molecule)
         parent_errors = check_fields(
-            table_name,
-            reader,
-            molecule_labels,
-            top_term="MHC protein complex",
-            source="molecule",
+            table_name, reader, molecule_labels, top_term="MHC protein complex", source="molecule",
         )
         errors.extend(parent_errors)
 
@@ -895,11 +1031,7 @@ def validate_serotype_molecule(
         next(reader)
 
         with_serotype_errors = check_fields(
-            table_name,
-            reader,
-            serotype_labels,
-            field_name="With Serotype",
-            source="serotype",
+            table_name, reader, serotype_labels, field_name="With Serotype", source="serotype",
         )
         errors.extend(with_serotype_errors)
 
@@ -939,6 +1071,7 @@ def validate_serotype_molecule(
                         "replace it with a taxon from 'external'",
                     }
                 )
+            row_idx += 1
     return errors
 
 
@@ -948,9 +1081,11 @@ def main():
     p.add_argument("iedb")
     p.add_argument("template_dir")
     p.add_argument("err_output")
+    p.add_argument("-a", "--allow-missing", action="store_true")
     args = p.parse_args()
 
     template_dir = args.template_dir
+    allow_missing = args.allow_missing
 
     # Get MRO labels defined in the index
     labels = []
@@ -975,17 +1110,17 @@ def main():
     errors = []
 
     # Validate the IEDB table
-    iedb_errors = validate_iedb_labels(args.iedb, labels)
+    iedb_errors = validate_iedb_labels(args.iedb, labels, allow_missing)
     errors.extend(iedb_errors)
 
     # Validate genetic-locus
     genetic_locus_labels, genetic_locus_errors = validate_genetic_locus(
-        template_dir, labels, ext_labels
+        template_dir, labels, ext_labels, allow_missing
     )
 
     # Validate chain
     chain_labels, chain_errors = validate_chain(
-        template_dir, labels, genetic_locus_labels
+        template_dir, labels, genetic_locus_labels, allow_missing
     )
 
     # Validate chain-sequence
@@ -993,12 +1128,12 @@ def main():
 
     # Vaildate haplotype
     haplotype_labels, haplotype_errors = validate_halpotype(
-        template_dir, labels, ext_labels
+        template_dir, labels, ext_labels, allow_missing
     )
 
     # Validate serotype
     serotype_labels, serotype_errors = validate_serotype(
-        template_dir, labels, ext_labels
+        template_dir, labels, ext_labels, allow_missing
     )
 
     # Validate molecule
@@ -1009,21 +1144,22 @@ def main():
         ext_labels,
         haplotype_labels,
         serotype_labels,
+        allow_missing,
     )
 
     # Validate mutant-molecule
     mutant_molecule_errors = validate_mutant_molecule(
-        template_dir, labels, ext_labels, molecule_labels
+        template_dir, labels, ext_labels, molecule_labels, allow_missing
     )
 
     # Validate haplotype-moleculee
     haplotype_molecule_errors = validate_haplotype_molecule(
-        template_dir, labels, molecule_labels, haplotype_labels, ext_labels
+        template_dir, labels, molecule_labels, haplotype_labels, ext_labels, allow_missing
     )
 
     # Validate serotype-molecule
     serotype_molecule_errors = validate_serotype_molecule(
-        template_dir, labels, ext_labels, molecule_labels, serotype_labels
+        template_dir, labels, ext_labels, molecule_labels, serotype_labels, allow_missing
     )
 
     # Add errors in tabel order
@@ -1058,8 +1194,15 @@ def main():
         writer.writerows(errors)
 
     if errors:
-        print(f"ERROR: Validation failed with {err_id} error(s)")
-        sys.exit(1)
+        msg = create_message(errors)
+        print(
+            "\n-------------------------------------------------------\n"
+            f"ERROR: Validation completed with {err_id} message(s) at:"
+            f"\n{msg}\n"
+            "---------------------------------------------------------\n"
+        )
+    else:
+        print("\nValidation passed!\n")
 
 
 if __name__ == "__main__":
