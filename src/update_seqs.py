@@ -40,7 +40,7 @@ def main():
         elif line.startswith('>MHC|DLA'):
           accession = line[5:13]
         elif line.startswith('>IPD-MHC'):
-          accession = line[9:18]
+          accession = line.split(" ")[0][9:]
         else:
           print("Bad accession:", line)
       else:

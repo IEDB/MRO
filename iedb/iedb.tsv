@@ -1011,3 +1011,13 @@ BoLA-DQA*002:04 protein complex	1103	DQ
 BoLA-DQA*001:01 protein complex	1104	DQ		
 HLA-DRA*01:01 protein complex	1105	DR	300744	
 HLA-DRA*01:02 protein complex	1106	DR	300745	
+SLA-1*08:01 protein complex	1107	1		
+SLA-2*02:02 protein complex	1108	2		
+SLA-3*05:02 protein complex	1109	3		
+SLA-DRB1*02:01 protein complex	1110	DR		
+SLA-DRB1*10:01 protein complex	1111	DR		
+SLA-DRB1*06:01 protein complex	1112	DR		
+SLA-DRB1*04:02 protein complex	1113	DR		
+SLA-DRB1*06:02 protein complex	1114	DR		
+SLA-DR protein complex	1115	DR		
+SLA-3 protein complex	1116	3		
