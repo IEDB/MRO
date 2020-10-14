@@ -17454,6 +17454,7 @@ SLA-1 protein complex	SLA-1		locus	equivalent	MHC class I protein complex	pig	SL
 SLA-1*03:02 protein complex	SLA-1*03:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*03:02 chain	Beta-2-microglobulin		
 SLA-1*04:01 protein complex	SLA-1*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*04:01 chain	Beta-2-microglobulin		
 SLA-1*07:02 protein complex	SLA-1*07:02	SLA-1*0702, SLA-1*07ce08	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:02 chain	Beta-2-microglobulin		
+SLA-1*08:01 protein complex	SLA-1*08:01	SLA-1*0801	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:01 chain	Beta-2-microglobulin		
 SLA-1*08:09 protein complex	SLA-1*08:09	SLA-1*0809	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:09 chain	Beta-2-microglobulin		
 SLA-1*11:01 protein complex	SLA-1*11:01	SLA-1*1101	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:01 chain	Beta-2-microglobulin		
 SLA-1*11:10 protein complex	SLA-1*11:10	SLA-1*1110	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:10 chain	Beta-2-microglobulin		
@@ -17464,12 +17465,21 @@ SLA-1*15:02 protein complex	SLA-1*15:02		complete molecule	equivalent	MHC class 
 SLA-1*20:01 protein complex	SLA-1*20:01	SLA-1*2001	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*20:01 chain	Beta-2-microglobulin		
 SLA-2 protein complex	SLA-2		locus	equivalent	MHC class I protein complex	pig	SLA-2 chain	Beta-2-microglobulin		
 SLA-2*01:06 protein complex	SLA-2*01:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*01:06 chain	Beta-2-microglobulin		
+SLA-2*02:02 protein complex	SLA-2*02:02	SLA-2*0202	complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*02:02 chain	Beta-2-microglobulin		
 SLA-2*04:01 protein complex	SLA-2*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:01 chain	Beta-2-microglobulin		
 SLA-2*04:02 protein complex	SLA-2*04:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:02 chain	Beta-2-microglobulin		
 SLA-2*05:02 protein complex	SLA-2*05:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:02 chain	Beta-2-microglobulin		
 SLA-2*11:04 protein complex	SLA-2*11:04	Topigs|SLA-1*es22	complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:04 chain	Beta-2-microglobulin		
+SLA-3 protein complex	SLA-3		locus	equivalent	MHC class I protein complex	pig	SLA-3 chain	Beta-2-microglobulin		
 SLA-3*02:02 protein complex	SLA-3*02:02	SLA-3*hs0202	complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*02:02 chain	Beta-2-microglobulin		
 SLA-3*04:01 protein complex	SLA-3*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:01 chain	Beta-2-microglobulin		
+SLA-3*05:02 protein complex	SLA-3*05:02	SLA-3*0502	complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:02 chain	Beta-2-microglobulin		
+SLA-DR protein complex	SLA-DR		locus	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB chain		
+SLA-DRB1*02:01 protein complex	SLA-DRB1*02:01	SLA-DRB1*0201	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:01 chain		
+SLA-DRB1*04:02 protein complex	SLA-DRB1*04:02	SLA-DRB1*0402	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:02 chain		
+SLA-DRB1*06:01 protein complex	SLA-DRB1*06:01	SLA-DRB1*0601	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:01 chain		
+SLA-DRB1*06:02 protein complex	SLA-DRB1*06:02	SLA-DRB1*0602	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:02 chain		
+SLA-DRB1*10:01 protein complex	SLA-DRB1*10:01	SLA-DRB1*1001	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:01 chain		
 Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G chain	Beta-2-microglobulin		
 Xela-UAAg protein complex	Xela-UAAg		locus	equivalent	MHC class I protein complex	clawed frog	Xela-UAAg chain	Beta-2-microglobulin		
 YF1w*7.1 protein complex	YF1w*7.1	YF1*7.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	YF1w*7.1 chain		YF1 haplotype	

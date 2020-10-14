@@ -95,6 +95,8 @@ RT1-D beta locus		subclass	rat MHC class II locus
 SLA-1 locus		subclass	pig MHC class I locus	
 SLA-2 locus		subclass	pig MHC class I locus	
 SLA-3 locus		subclass	pig MHC class I locus	
+SLA-DRA locus		subclass	pig MHC class II locus	
+SLA-DRB locus		subclass	pig MHC class II locus	
 Saoe-G locus		subclass	cotton-top tamarin MHC class I locus	
 Xela-UAAg locus		subclass	clawed frog MHC class I locus	
 black flying fox MHC class I locus		subclass	MHC class I locus	black flying fox
