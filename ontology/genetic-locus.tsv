@@ -1,8 +1,5 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-				
-				
-				
 Anpl-UAA locus		subclass	duck MHC class I locus	
 BF1 locus		subclass	chicken MHC class I locus	
 BF2 locus		subclass	chicken MHC class I locus	
