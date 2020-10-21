@@ -2,16 +2,6 @@ Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Cha
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
-BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
-BF1*0201 protein complex	BF1*0201		complete molecule	equivalent	MHC class I protein complex	chicken	BF1*0201 chain	Beta-2-microglobulin		
-BF2 protein complex	BF2		locus	equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		
-BF2*0201 protein complex	BF2*0201		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*0201 chain	Beta-2-microglobulin	B2 haplotype	
-BF2*0401 protein complex	BF2*0401		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*0401 chain	Beta-2-microglobulin	B4 haplotype	
-BF2*1201 protein complex	BF2*1201		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1201 chain	Beta-2-microglobulin	B12 haplotype	
-BF2*1301 protein complex	BF2*1301		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1301 chain	Beta-2-microglobulin	B13 haplotype	
-BF2*1401 protein complex	BF2*1401		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1401 chain	Beta-2-microglobulin	B14 haplotype	
-BF2*1501 protein complex	BF2*1501		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1501 chain	Beta-2-microglobulin	B15 haplotype	
-BF2*2101 protein complex	BF2*2101		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*2101 chain	Beta-2-microglobulin	B21 haplotype	
 BoLA-1 protein complex	BoLA-1		locus	equivalent	MHC class I protein complex	cattle	BoLA-1 chain	Beta-2-microglobulin		
 BoLA-1*019:01 protein complex	BoLA-1*019:01	4221.1|AH12-A|BoLA-1*01901	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*019:01 chain	Beta-2-microglobulin		
 BoLA-1*021:01 protein complex	BoLA-1*021:01	N*02101|BoLA-1*02101	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*021:01 chain	Beta-2-microglobulin		BoLA-A31 serotype
@@ -87,6 +77,16 @@ Eqca-N*00601 protein complex	Eqca-N*00601	MHC I 1 14 allele, 7-6	complete molecu
 Eqca-N*00602 protein complex	Eqca-N*00602	A1*7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00602 chain	Beta-2-microglobulin	A1 haplotype	
 FLA-E protein complex	FLA-E		locus	equivalent	MHC class I protein complex	cat	FLA-E chain	Beta-2-microglobulin		
 FLA-E*01801 protein complex	FLA-E*01801	FLA-B*n06	complete molecule	equivalent	MHC class I protein complex	cat	FLA-E*01801 chain	Beta-2-microglobulin		
+Gaga-BF1 protein complex	Gaga-BF1	BF1	locus	equivalent	MHC class I protein complex	chicken	Gaga-BF1 chain	Beta-2-microglobulin		
+Gaga-BF1*002:01 protein complex	Gaga-BF1*002:01	BF1*0201|BF1*002:01|BFCC9b|BFCC9-2	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF1*002:01 chain	Beta-2-microglobulin		
+Gaga-BF2 protein complex	Gaga-BF2	BF2	locus	equivalent	MHC class I protein complex	chicken	Gaga-BF2 chain	Beta-2-microglobulin		
+Gaga-BF2*002:01 protein complex	Gaga-BF2*002:01	BF2*0201|BF2*002:01|BFIV2|BFCC9a|BFCC9-1	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*002:01 chain	Beta-2-microglobulin	B2 haplotype	
+Gaga-BF2*004:01 protein complex	Gaga-BF2*004:01	BF2*0401|BF2*1301|BF2*004:01	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*004:01 chain	Beta-2-microglobulin	B4 haplotype	
+Gaga-BF2*012:01 protein complex	Gaga-BF2*012:01	BF2*1201|BF2*012:01|B12|BF1*1201	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*012:01 chain	Beta-2-microglobulin	B12 haplotype	
+Gaga-BF2*014:01 protein complex	Gaga-BF2*014:01	BF2*1401|BF2*014:01|BFCC12a|BFCC17	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*014:01 chain	Beta-2-microglobulin	B14 haplotype	
+Gaga-BF2*015:01 protein complex	Gaga-BF2*015:01	BF2*1501|BF2*015:01|BFIV15	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*015:01 chain	Beta-2-microglobulin	B15 haplotype	
+Gaga-BF2*021:01 protein complex	Gaga-BF2*021:01	BF2*2101|BF2*021:01|BFIV21|BF2*131|BF2*W1|BFCC2a|BFCC15-1	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*021:01 chain	Beta-2-microglobulin	B21 haplotype	
+Gaga-BF2*1301 protein complex	Gaga-BF2*1301		complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*1301 chain	Beta-2-microglobulin	B13 haplotype	
 Gogo-B protein complex	Gogo-B		locus	equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
 Gogo-B*0101 protein complex	Gogo-B*0101		complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*0101 chain	Beta-2-microglobulin		
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		

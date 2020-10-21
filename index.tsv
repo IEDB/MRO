@@ -14,10 +14,10 @@ MRO:0000010	MHC protein complex with haplotype	owl:Class
 MRO:0000011	MHC protein complex with serotype	owl:Class	
 MRO:0000012	mutant MHC protein complex	owl:Class	
 MRO:0000013	HLA-DR protein complex	owl:Class	
-MRO:0000014	BF-B locus	owl:Class	
-MRO:0000015	BF1 locus	owl:Class	
-MRO:0000016	BF2 locus	owl:Class	
-MRO:0000017	BF-YF locus	owl:Class	
+MRO:0000014	Gaga-BF-B locus	owl:Class	
+MRO:0000015	Gaga-BF1 locus	owl:Class	
+MRO:0000016	Gaga-BF2 locus	owl:Class	
+MRO:0000017	Gaga-BF-YF locus	owl:Class	
 MRO:0000018	BoLA-1 locus	owl:Class	
 MRO:0000019	BoLA-2 locus	owl:Class	
 MRO:0000020	BoLA-3 locus	owl:Class	
@@ -342,17 +342,17 @@ MRO:0000338	chimpanzee MHC class II serotype	owl:Class
 MRO:0000339	human MHC class I serotype	owl:Class	
 MRO:0000340	human MHC class II serotype	owl:Class	
 MRO:0000341	rhesus macaque MHC class II serotype	owl:Class	
-MRO:0000342	BF-B chain	owl:Class	
-MRO:0000343	BF1 chain	owl:Class	
-MRO:0000344	BF2 chain	owl:Class	
-MRO:0000345	BF-YF chain	owl:Class	
-MRO:0000346	BF1*0201 chain	owl:Class	
-MRO:0000347	BF2*0201 chain	owl:Class	
-MRO:0000348	BF2*0401 chain	owl:Class	
-MRO:0000349	BF2*1201 chain	owl:Class	
-MRO:0000350	BF2*1401 chain	owl:Class	
-MRO:0000351	BF2*1501 chain	owl:Class	
-MRO:0000352	BF2*2101 chain	owl:Class	
+MRO:0000342	Gaga-BF-B chain	owl:Class	
+MRO:0000343	Gaga-BF1 chain	owl:Class	
+MRO:0000344	Gaga-BF2 chain	owl:Class	
+MRO:0000345	Gaga-BF-YF chain	owl:Class	
+MRO:0000346	Gaga-BF1*002:01 chain	owl:Class	
+MRO:0000347	Gaga-BF2*002:01 chain	owl:Class	
+MRO:0000348	Gaga-BF2*004:01 chain	owl:Class	
+MRO:0000349	Gaga-BF2*012:01 chain	owl:Class	
+MRO:0000350	Gaga-BF2*014:01 chain	owl:Class	
+MRO:0000351	Gaga-BF2*015:01 chain	owl:Class	
+MRO:0000352	Gaga-BF2*021:01 chain	owl:Class	
 MRO:0000353	BoLA-1 chain	owl:Class	
 MRO:0000354	BoLA-1*021:01 chain	owl:Class	
 MRO:0000355	BoLA-1*023:01 chain	owl:Class	
@@ -912,15 +912,15 @@ MRO:0000908	rhesus macaque MHC class I chain	owl:Class
 MRO:0000909	rhesus macaque MHC class II chain	owl:Class	
 MRO:0000910	sheep MHC class I chain	owl:Class	
 MRO:0000911	sheep MHC class II chain	owl:Class	
-MRO:0000912	BF1 protein complex	owl:Class	
-MRO:0000913	BF2 protein complex	owl:Class	
-MRO:0000914	BF1*0201 protein complex	owl:Class	
-MRO:0000915	BF2*0201 protein complex	owl:Class	
-MRO:0000916	BF2*0401 protein complex	owl:Class	
-MRO:0000917	BF2*1201 protein complex	owl:Class	
-MRO:0000918	BF2*1401 protein complex	owl:Class	
-MRO:0000919	BF2*1501 protein complex	owl:Class	
-MRO:0000920	BF2*2101 protein complex	owl:Class	
+MRO:0000912	Gaga-BF1 protein complex	owl:Class	
+MRO:0000913	Gaga-BF2 protein complex	owl:Class	
+MRO:0000914	Gaga-BF1*002:01 protein complex	owl:Class	
+MRO:0000915	Gaga-BF2*002:01 protein complex	owl:Class	
+MRO:0000916	Gaga-BF2*004:01 protein complex	owl:Class	
+MRO:0000917	Gaga-BF2*012:01 protein complex	owl:Class	
+MRO:0000918	Gaga-BF2*014:01 protein complex	owl:Class	
+MRO:0000919	Gaga-BF2*015:01 protein complex	owl:Class	
+MRO:0000920	Gaga-BF2*021:01 protein complex	owl:Class	
 MRO:0000921	BoLA-1 protein complex	owl:Class	
 MRO:0000922	BoLA-1*021:01 protein complex	owl:Class	
 MRO:0000923	BoLA-1*023:01 protein complex	owl:Class	
@@ -1871,8 +1871,8 @@ MRO:0001867	horse MHC class I protein complex with W11 haplotype	owl:Class
 MRO:0001868	rat MHC protein complex with RT1-c haplotype	owl:Class	
 MRO:0001869	rat MHC protein complex with RT1-l haplotype	owl:Class	
 MRO:0001870	B13 haplotype	owl:Class	
-MRO:0001871	BF2*1301 chain	owl:Class	
-MRO:0001872	BF2*1301 protein complex	owl:Class	
+MRO:0001871	Gaga-BF2*1301 chain	owl:Class	
+MRO:0001872	Gaga-BF2*1301 protein complex	owl:Class	
 MRO:0001873	BoLA-1*019:01 chain	owl:Class	
 MRO:0001874	BoLA-1*019:01 protein complex	owl:Class	
 MRO:0001875	BoLA-2*008:01 chain	owl:Class	
