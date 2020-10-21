@@ -56,9 +56,7 @@ def main():
   # Update sequences from FASTAs by matching accession
   for row in rows:
     if len(row) > 2 and row[3] in seqs:
-      cur_seq = row[4]
-      if not cur_seq or cur_seq.strip() == "":
-        row[4] = seqs[row[3]]
+      row[4] = seqs[row[3]]
 
   # Overwrite chain-sequence.tsv
   with open(args.filename, 'w') as f:
