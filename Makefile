@@ -215,6 +215,10 @@ build/AlleleList.txt: | build
 update-alleles: src/check_missing_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
 	python3 $^
 
+.PHONY: update-cow-alleles
+update-cow-alleles: src/update_cow_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta
+	python3 $^
+
 ### OWL Files
 
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
