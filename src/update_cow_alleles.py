@@ -64,6 +64,7 @@ def update_chains(curr_loci, ipd_seqs, allele_map):
     new_alleles = {x for x in new_alleles if x[-1] != "N"}
     try:
         new_alleles.remove("BoLA-DRB3*045:01")
+        new_alleles.remove("BoLA-DQB*010:05")
         new_alleles.remove("BoLA-DQB*10:05")
     except:
         "These alleles are not being removed"
