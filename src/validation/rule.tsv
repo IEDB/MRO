@@ -1,0 +1,9 @@
+when table	when column	when condition	then table	then column	then condition	level	description	note
+chain	Parent	in("protein")	chain	Gene	under(genetic-locus.Parent, "genetic locus")	ERROR	
+external	Label	not in("owl:Thing")	external	Source Ontology	not blank	ERROR	
+genetic-locus	Parent	under(genetic-locus.Parent, "MHC locus", direct=True)	genetic-locus	In Taxon	under(external.Parent, "organism")	ERROR	
+haplotype	Parent	in("MHC haplotype")	haplotype	In Taxon	under(external.Parent, "organism")	ERROR	
+molecule	Parent	not in("MHC protein complex")	molecule	In Taxon	under(external.Parent, "organism")	ERROR	
+mutant-molecule	Parent	under(mutant-molecule.Parent, "mutant MHC protein complex", direct=True)	mutant-molecule	In Taxon	under(external.Parent, "organism")	ERROR	
+mutant-molecule	Parent	not in("mutant MHC protein complex") or under(mutant-molecule.Parent, "mutant MHC protein complex", direct=True)	mutant-molecule	Mutant Of	under(molecule.Parent, "protein complex")	ERROR	
+serotype-molecule	Parent	not in("MHC protein complex") or under(serotype.Parent, "MHC serotype", direct=True)	serotype-molecule	In Taxon	under(external.Parent, "organism")	ERROR	
