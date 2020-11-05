@@ -135,13 +135,17 @@ apply_%: build/validation_%.tsv | .cogs
 .PHONY: validate_tables
 validate_tables:
 	cogs fetch && cogs pull
+	cogs clear all
 	make apply_errors
+	make apply_valve
 	cogs push
 
 .PHONY: validate_tables_strict
 validate_tables_strict:
 	cogs fetch && cogs pull
+	cogs clear all
 	make apply_errors_strict
+	make apply_valve
 	cogs push
 
 ### Processing
