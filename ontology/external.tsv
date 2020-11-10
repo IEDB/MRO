@@ -29,4 +29,4 @@ PR:000004580	Beta-2-microglobulin	Beta-2-microglobulin		subclass	protein		A prot
 REO:0000079	genetic locus	genetic locus		subclass	genetic entity		a nucleic acid sequence region that is part of a genome and represents a specified location or region on a chromosome or other genomic element.			http://purl.obolibrary.org/obo/reo.owl
 SO:0000355	haplotype_block	haplotype_block		subclass	genetic entity		A region of the genome which is co-inherited as the result of the lack of historic recombination within it.			http://purl.obolibrary.org/obo/so.owl
 SO:0001024	haplotype	haplotype		subclass	genetic entity		A haplotype is one of a set of coexisting sequence variants of a haplotype block.			http://purl.obolibrary.org/obo/so.owl
-owl:Thing	owl:Thing
+owl:Thing	owl:Thing									
