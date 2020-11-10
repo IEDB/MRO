@@ -3,7 +3,8 @@ import os
 import sys
 from subprocess import Popen, PIPE
 
-def get_cow_sequences():    
+def get_cow_sequences():
+    """Gets cow sequences from IPD-MHC database"""
     # Create a dictionary mapping the IMGT accession to protein sequence
     seqs = {}
     allele_names = {}
@@ -33,6 +34,7 @@ def get_cow_sequences():
     return seqs, allele_names
 
 def get_current_loci():
+    """Simple method to get current BoLA loci in MRO"""
     mro_loci = set()
     with open(sys.argv[4]) as fh:
         rows = csv.DictReader(fh, delimiter="\t")
@@ -203,6 +205,7 @@ def create_classII_prot(missing_chainII):
     return new_classII_molecules
 
 def update_molecules(missing_alleles):
+    """Builds and updates BoLA molecules"""
     class_I_genes = ["1", "2", "3", "4", "6"]
     class_II_genes = ["DRA", "DRB3", "DRB6", "DQA", "DQB"]
 
@@ -269,9 +272,32 @@ def update_index(missing_alleles, missing_molecules):
         for tup in new_tups:
             writer.writerow(tup)
 
+def update_IEDB_tab(missing_molecules):
+    """Increments IEDB IDs and adds new molecules"""
+    # Get current IEDB sheet
+    with open(sys.argv[7]) as fh:
+        rows = list(csv.DictReader(fh, delimiter="\t"))
+        final_row = rows[-1]
+        curr_iedb_id = int(final_row["IEDB ID"])
+
+    # Write out results
+    with open(sys.argv[7], "a+") as outfile:
+        writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
+        for molecule in missing_molecules:
+            locus = molecule.split("-")[1].split("*")[0]
+            curr_iedb_id += 1
+            # Specific to cow alleles, either DQ, DRB3 or whatever locus is
+            if "DQ" in locus:
+                tup = (molecule, curr_iedb_id, "DQ", "", "")
+            elif "DRB3" in locus:
+                tup = (molecule, curr_iedb_id, "DRB3", "", "")
+            else:
+                tup = (molecule, curr_iedb_id, locus, "", "")
+            writer.writerow(tup)
 
 ipd_seqs, allele_map = get_cow_sequences()
 curr_loci = get_current_loci()
 missing_alleles = update_chains(curr_loci, ipd_seqs, allele_map)
 missing_molecules = update_molecules(missing_alleles)
 update_index(missing_alleles, missing_molecules)
+update_IEDB_tab(missing_molecules)

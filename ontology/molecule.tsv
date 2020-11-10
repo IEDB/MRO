@@ -2,16 +2,6 @@ Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Cha
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
-BF1 protein complex	BF1		locus	equivalent	MHC class I protein complex	chicken	BF1 chain	Beta-2-microglobulin		
-BF1*0201 protein complex	BF1*0201		complete molecule	equivalent	MHC class I protein complex	chicken	BF1*0201 chain	Beta-2-microglobulin		
-BF2 protein complex	BF2		locus	equivalent	MHC class I protein complex	chicken	BF2 chain	Beta-2-microglobulin		
-BF2*0201 protein complex	BF2*0201		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*0201 chain	Beta-2-microglobulin	B2 haplotype	
-BF2*0401 protein complex	BF2*0401		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*0401 chain	Beta-2-microglobulin	B4 haplotype	
-BF2*1201 protein complex	BF2*1201		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1201 chain	Beta-2-microglobulin	B12 haplotype	
-BF2*1301 protein complex	BF2*1301		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1301 chain	Beta-2-microglobulin	B13 haplotype	
-BF2*1401 protein complex	BF2*1401		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1401 chain	Beta-2-microglobulin	B14 haplotype	
-BF2*1501 protein complex	BF2*1501		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*1501 chain	Beta-2-microglobulin	B15 haplotype	
-BF2*2101 protein complex	BF2*2101		complete molecule	equivalent	MHC class I protein complex	chicken	BF2*2101 chain	Beta-2-microglobulin	B21 haplotype	
 BoLA-1 protein complex	BoLA-1		locus	equivalent	MHC class I protein complex	cattle	BoLA-1 chain	Beta-2-microglobulin		
 BoLA-1*019:01 protein complex	BoLA-1*019:01	4221.1|AH12-A|BoLA-1*01901	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*019:01 chain	Beta-2-microglobulin		
 BoLA-1*021:01 protein complex	BoLA-1*021:01	N*02101|BoLA-1*02101	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*021:01 chain	Beta-2-microglobulin		BoLA-A31 serotype
@@ -87,6 +77,16 @@ Eqca-N*00601 protein complex	Eqca-N*00601	MHC I 1 14 allele, 7-6	complete molecu
 Eqca-N*00602 protein complex	Eqca-N*00602	A1*7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00602 chain	Beta-2-microglobulin	A1 haplotype	
 FLA-E protein complex	FLA-E		locus	equivalent	MHC class I protein complex	cat	FLA-E chain	Beta-2-microglobulin		
 FLA-E*01801 protein complex	FLA-E*01801	FLA-B*n06	complete molecule	equivalent	MHC class I protein complex	cat	FLA-E*01801 chain	Beta-2-microglobulin		
+Gaga-BF1 protein complex	Gaga-BF1	BF1	locus	equivalent	MHC class I protein complex	chicken	Gaga-BF1 chain	Beta-2-microglobulin		
+Gaga-BF1*002:01 protein complex	Gaga-BF1*002:01	BF1*0201|BF1*002:01|BFCC9b|BFCC9-2	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF1*002:01 chain	Beta-2-microglobulin		
+Gaga-BF2 protein complex	Gaga-BF2	BF2	locus	equivalent	MHC class I protein complex	chicken	Gaga-BF2 chain	Beta-2-microglobulin		
+Gaga-BF2*002:01 protein complex	Gaga-BF2*002:01	BF2*0201|BF2*002:01|BFIV2|BFCC9a|BFCC9-1	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*002:01 chain	Beta-2-microglobulin	B2 haplotype	
+Gaga-BF2*004:01 protein complex	Gaga-BF2*004:01	BF2*0401|BF2*1301|BF2*004:01	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*004:01 chain	Beta-2-microglobulin	B4 haplotype	
+Gaga-BF2*012:01 protein complex	Gaga-BF2*012:01	BF2*1201|BF2*012:01|B12|BF1*1201	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*012:01 chain	Beta-2-microglobulin	B12 haplotype	
+Gaga-BF2*014:01 protein complex	Gaga-BF2*014:01	BF2*1401|BF2*014:01|BFCC12a|BFCC17	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*014:01 chain	Beta-2-microglobulin	B14 haplotype	
+Gaga-BF2*015:01 protein complex	Gaga-BF2*015:01	BF2*1501|BF2*015:01|BFIV15	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*015:01 chain	Beta-2-microglobulin	B15 haplotype	
+Gaga-BF2*021:01 protein complex	Gaga-BF2*021:01	BF2*2101|BF2*021:01|BFIV21|BF2*131|BF2*W1|BFCC2a|BFCC15-1	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*021:01 chain	Beta-2-microglobulin	B21 haplotype	
+Gaga-BF2*1301 protein complex	Gaga-BF2*1301		complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*1301 chain	Beta-2-microglobulin	B13 haplotype	
 Gogo-B protein complex	Gogo-B		locus	equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
 Gogo-B*0101 protein complex	Gogo-B*0101		complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*0101 chain	Beta-2-microglobulin		
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
@@ -17554,609 +17554,609 @@ rhesus macaque MR1 protein complex	rhesus macaque MR1		complete molecule	equival
 rhesus macaque non-classical MHC protein complex	rhesus macaque		class	equivalent	non-classical MHC protein complex	rhesus macaque				
 sheep MHC class I protein complex	sheep		class	equivalent	MHC class I protein complex	sheep				
 sheep MHC class II protein complex	sheep		class	equivalent	MHC class II protein complex	sheep				
-BoLA-1*009:01 protein complex	BoLA-1*009:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*009:01 chain	Beta-2-microglobulin
-BoLA-1*007:01:01:01 protein complex	BoLA-1*007:01:01:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*007:01:01:01 chain	Beta-2-microglobulin
-BoLA-2*056:01 protein complex	BoLA-2*056:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*056:01 chain	Beta-2-microglobulin
-BoLA-3*051:01 protein complex	BoLA-3*051:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*051:01 chain	Beta-2-microglobulin
-BoLA-2*062:01 protein complex	BoLA-2*062:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*062:01 chain	Beta-2-microglobulin
-BoLA-2*018:02 protein complex	BoLA-2*018:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*018:02 chain	Beta-2-microglobulin
-BoLA-1*067:01 protein complex	BoLA-1*067:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*067:01 chain	Beta-2-microglobulin
-BoLA-3*001:02 protein complex	BoLA-3*001:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:02 chain	Beta-2-microglobulin
-BoLA-2*088:01 protein complex	BoLA-2*088:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*088:01 chain	Beta-2-microglobulin
-BoLA-3*004:02 protein complex	BoLA-3*004:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:02 chain	Beta-2-microglobulin
-BoLA-2*026:04 protein complex	BoLA-2*026:04		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:04 chain	Beta-2-microglobulin
-BoLA-3*078:01 protein complex	BoLA-3*078:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*078:01 chain	Beta-2-microglobulin
-BoLA-3*004:03 protein complex	BoLA-3*004:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:03 chain	Beta-2-microglobulin
-BoLA-1*074:01 protein complex	BoLA-1*074:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*074:01 chain	Beta-2-microglobulin
-BoLA-3*068:01 protein complex	BoLA-3*068:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*068:01 chain	Beta-2-microglobulin
-BoLA-3*058:01 protein complex	BoLA-3*058:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*058:01 chain	Beta-2-microglobulin
-BoLA-3*010:01 protein complex	BoLA-3*010:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*010:01 chain	Beta-2-microglobulin
-BoLA-3*073:01 protein complex	BoLA-3*073:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*073:01 chain	Beta-2-microglobulin
-BoLA-2*030:01 protein complex	BoLA-2*030:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*030:01 chain	Beta-2-microglobulin
-BoLA-4*094:01 protein complex	BoLA-4*094:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*094:01 chain	Beta-2-microglobulin
-BoLA-3*065:01 protein complex	BoLA-3*065:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*065:01 chain	Beta-2-microglobulin
-BoLA-3*036:01 protein complex	BoLA-3*036:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*036:01 chain	Beta-2-microglobulin
-BoLA-3*011:01 protein complex	BoLA-3*011:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*011:01 chain	Beta-2-microglobulin
-BoLA-6*015:01 protein complex	BoLA-6*015:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*015:01 chain	Beta-2-microglobulin
-BoLA-2*006:02 protein complex	BoLA-2*006:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*006:02 chain	Beta-2-microglobulin
-BoLA-2*006:03 protein complex	BoLA-2*006:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*006:03 chain	Beta-2-microglobulin
-BoLA-3*035:01 protein complex	BoLA-3*035:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*035:01 chain	Beta-2-microglobulin
-BoLA-3*050:01 protein complex	BoLA-3*050:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*050:01 chain	Beta-2-microglobulin
-BoLA-4*024:01:01:02 protein complex	BoLA-4*024:01:01:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:01:01:02 chain	Beta-2-microglobulin
-BoLA-2*026:01 protein complex	BoLA-2*026:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:01 chain	Beta-2-microglobulin
-BoLA-1*029:01 protein complex	BoLA-1*029:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*029:01 chain	Beta-2-microglobulin
-BoLA-3*080:01 protein complex	BoLA-3*080:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*080:01 chain	Beta-2-microglobulin
 BoLA-1*061:01 protein complex	BoLA-1*061:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*061:01 chain	Beta-2-microglobulin
-BoLA-3*004:01 protein complex	BoLA-3*004:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:01 chain	Beta-2-microglobulin
-BoLA-6*015:02 protein complex	BoLA-6*015:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*015:02 chain	Beta-2-microglobulin
-BoLA-4*077:01 protein complex	BoLA-4*077:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*077:01 chain	Beta-2-microglobulin
-BoLA-3*017:03 protein complex	BoLA-3*017:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*017:03 chain	Beta-2-microglobulin
-BoLA-2*016:02 protein complex	BoLA-2*016:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*016:02 chain	Beta-2-microglobulin
-BoLA-4*095:01 protein complex	BoLA-4*095:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*095:01 chain	Beta-2-microglobulin
-BoLA-3*053:01 protein complex	BoLA-3*053:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*053:01 chain	Beta-2-microglobulin
-BoLA-2*060:01 protein complex	BoLA-2*060:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*060:01 chain	Beta-2-microglobulin
-BoLA-1*009:02 protein complex	BoLA-1*009:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*009:02 chain	Beta-2-microglobulin
-BoLA-2*006:01 protein complex	BoLA-2*006:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*006:01 chain	Beta-2-microglobulin
-BoLA-3*087:01 protein complex	BoLA-3*087:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*087:01 chain	Beta-2-microglobulin
-BoLA-2*026:03 protein complex	BoLA-2*026:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:03 chain	Beta-2-microglobulin
-BoLA-1*031:02 protein complex	BoLA-1*031:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*031:02 chain	Beta-2-microglobulin
-BoLA-2*057:01 protein complex	BoLA-2*057:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*057:01 chain	Beta-2-microglobulin
-BoLA-3*027:01 protein complex	BoLA-3*027:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*027:01 chain	Beta-2-microglobulin
-BoLA-2*085:01 protein complex	BoLA-2*085:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*085:01 chain	Beta-2-microglobulin
-BoLA-4*063:01 protein complex	BoLA-4*063:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*063:01 chain	Beta-2-microglobulin
-BoLA-6*092:01 protein complex	BoLA-6*092:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*092:01 chain	Beta-2-microglobulin
-BoLA-2*045:02 protein complex	BoLA-2*045:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*045:02 chain	Beta-2-microglobulin
-BoLA-2*045:01 protein complex	BoLA-2*045:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*045:01 chain	Beta-2-microglobulin
-BoLA-6*093:01 protein complex	BoLA-6*093:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*093:01 chain	Beta-2-microglobulin
-BoLA-6*034:01 protein complex	BoLA-6*034:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*034:01 chain	Beta-2-microglobulin
-BoLA-2*048:01 protein complex	BoLA-2*048:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*048:01 chain	Beta-2-microglobulin
-BoLA-1*031:01 protein complex	BoLA-1*031:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*031:01 chain	Beta-2-microglobulin
-BoLA-3*052:01 protein complex	BoLA-3*052:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*052:01 chain	Beta-2-microglobulin
-BoLA-2*055:01 protein complex	BoLA-2*055:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*055:01 chain	Beta-2-microglobulin
-BoLA-2*047:01 protein complex	BoLA-2*047:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*047:01 chain	Beta-2-microglobulin
-BoLA-2*075:01 protein complex	BoLA-2*075:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*075:01 chain	Beta-2-microglobulin
-BoLA-3*066:02 protein complex	BoLA-3*066:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*066:02 chain	Beta-2-microglobulin
-BoLA-2*026:02 protein complex	BoLA-2*026:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:02 chain	Beta-2-microglobulin
-BoLA-3*078:02 protein complex	BoLA-3*078:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*078:02 chain	Beta-2-microglobulin
-BoLA-2*070:01 protein complex	BoLA-2*070:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*070:01 chain	Beta-2-microglobulin
-BoLA-2*025:01 protein complex	BoLA-2*025:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*025:01 chain	Beta-2-microglobulin
-BoLA-2*016:01 protein complex	BoLA-2*016:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*016:01 chain	Beta-2-microglobulin
-BoLA-3*081:01 protein complex	BoLA-3*081:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*081:01 chain	Beta-2-microglobulin
-BoLA-3*059:01 protein complex	BoLA-3*059:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*059:01 chain	Beta-2-microglobulin
-BoLA-6*090:01 protein complex	BoLA-6*090:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*090:01 chain	Beta-2-microglobulin
-BoLA-3*038:01 protein complex	BoLA-3*038:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*038:01 chain	Beta-2-microglobulin
-BoLA-6*014:02 protein complex	BoLA-6*014:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*014:02 chain	Beta-2-microglobulin
-BoLA-6*091:01 protein complex	BoLA-6*091:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*091:01 chain	Beta-2-microglobulin
-BoLA-2*008:03 protein complex	BoLA-2*008:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*008:03 chain	Beta-2-microglobulin
-BoLA-2*044:01 protein complex	BoLA-2*044:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*044:01 chain	Beta-2-microglobulin
-BoLA-2*071:01 protein complex	BoLA-2*071:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*071:01 chain	Beta-2-microglobulin
-BoLA-3*001:03 protein complex	BoLA-3*001:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:03 chain	Beta-2-microglobulin
-BoLA-4*076:01 protein complex	BoLA-4*076:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*076:01 chain	Beta-2-microglobulin
-BoLA-2*089:01 protein complex	BoLA-2*089:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*089:01 chain	Beta-2-microglobulin
-BoLA-4*076:02 protein complex	BoLA-4*076:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*076:02 chain	Beta-2-microglobulin
-BoLA-2*032:02 protein complex	BoLA-2*032:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*032:02 chain	Beta-2-microglobulin
-BoLA-2*069:01 protein complex	BoLA-2*069:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*069:01 chain	Beta-2-microglobulin
-BoLA-1*028:01 protein complex	BoLA-1*028:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*028:01 chain	Beta-2-microglobulin
-BoLA-3*066:03 protein complex	BoLA-3*066:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*066:03 chain	Beta-2-microglobulin
-BoLA-2*096:01 protein complex	BoLA-2*096:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*096:01 chain	Beta-2-microglobulin
-BoLA-3*027:02 protein complex	BoLA-3*027:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*027:02 chain	Beta-2-microglobulin
-BoLA-1*042:01 protein complex	BoLA-1*042:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*042:01 chain	Beta-2-microglobulin
-BoLA-3*010:02 protein complex	BoLA-3*010:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*010:02 chain	Beta-2-microglobulin
-BoLA-3*083:01 protein complex	BoLA-3*083:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*083:01 chain	Beta-2-microglobulin
-BoLA-2*046:01 protein complex	BoLA-2*046:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*046:01 chain	Beta-2-microglobulin
-BoLA-3*004:04 protein complex	BoLA-3*004:04		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:04 chain	Beta-2-microglobulin
-BoLA-2*005:01 protein complex	BoLA-2*005:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*005:01 chain	Beta-2-microglobulin
-BoLA-1*097:01 protein complex	BoLA-1*097:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*097:01 chain	Beta-2-microglobulin
-BoLA-3*037:01 protein complex	BoLA-3*037:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*037:01 chain	Beta-2-microglobulin
-BoLA-3*082:01 protein complex	BoLA-3*082:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*082:01 chain	Beta-2-microglobulin
-BoLA-3*066:01 protein complex	BoLA-3*066:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*066:01 chain	Beta-2-microglobulin
-BoLA-2*043:01 protein complex	BoLA-2*043:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*043:01 chain	Beta-2-microglobulin
-BoLA-3*050:02 protein complex	BoLA-3*050:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*050:02 chain	Beta-2-microglobulin
-BoLA-3*017:01 protein complex	BoLA-3*017:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*017:01 chain	Beta-2-microglobulin
+BoLA-3*050:01 protein complex	BoLA-3*050:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*050:01 chain	Beta-2-microglobulin
 BoLA-3*017:02 protein complex	BoLA-3*017:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*017:02 chain	Beta-2-microglobulin
-BoLA-2*044:02 protein complex	BoLA-2*044:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*044:02 chain	Beta-2-microglobulin
+BoLA-6*015:01 protein complex	BoLA-6*015:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*015:01 chain	Beta-2-microglobulin
+BoLA-3*017:03 protein complex	BoLA-3*017:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*017:03 chain	Beta-2-microglobulin
 BoLA-6*092:02 protein complex	BoLA-6*092:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*092:02 chain	Beta-2-microglobulin
-BoLA-2*054:01 protein complex	BoLA-2*054:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*054:01 chain	Beta-2-microglobulin
-BoLA-2*060:02 protein complex	BoLA-2*060:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*060:02 chain	Beta-2-microglobulin
-BoLA-1*020:01 protein complex	BoLA-1*020:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*020:01 chain	Beta-2-microglobulin
-BoLA-2*079:01 protein complex	BoLA-2*079:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*079:01 chain	Beta-2-microglobulin
-BoLA-2*016:03 protein complex	BoLA-2*016:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*016:03 chain	Beta-2-microglobulin
-BoLA-6*040:01 protein complex	BoLA-6*040:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*040:01 chain	Beta-2-microglobulin
-BoLA-6*014:01 protein complex	BoLA-6*014:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*014:01 chain	Beta-2-microglobulin
-BoLA-4*024:02 protein complex	BoLA-4*024:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:02 chain	Beta-2-microglobulin
-BoLA-2*071:02 protein complex	BoLA-2*071:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*071:02 chain	Beta-2-microglobulin
-BoLA-1*049:01 protein complex	BoLA-1*049:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*049:01 chain	Beta-2-microglobulin
-BoLA-1*007:01:01:02 protein complex	BoLA-1*007:01:01:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*007:01:01:02 chain	Beta-2-microglobulin
+BoLA-2*044:02 protein complex	BoLA-2*044:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*044:02 chain	Beta-2-microglobulin
 BoLA-2*008:02 protein complex	BoLA-2*008:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*008:02 chain	Beta-2-microglobulin
-BoLA-DRB3*155:01 protein complex	BoLA-DRB3*155:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*155:01 chain
-BoLA-DRB3*101:01 protein complex	BoLA-DRB3*101:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*101:01 chain
-BoLA-DRB3*081:02 protein complex	BoLA-DRB3*081:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*081:02 chain
-BoLA-DRB3*024:08 protein complex	BoLA-DRB3*024:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:08 chain
-BoLA-DQB*006:01 protein complex	BoLA-DQB*006:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*006:01 chain
-BoLA-DRB3*150:01 protein complex	BoLA-DRB3*150:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*150:01 chain
-BoLA-DQB*025:02 protein complex	BoLA-DQB*025:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*025:02 chain
-BoLA-DRB3*043:01 protein complex	BoLA-DRB3*043:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:01 chain
-BoLA-DRB3*040:02 protein complex	BoLA-DRB3*040:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*040:02 chain
-BoLA-DQA*020:01 protein complex	BoLA-DQA*020:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*020:01 chain	BoLA-DQB chain
-BoLA-DQA*027:04 protein complex	BoLA-DQA*027:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:04 chain	BoLA-DQB chain
-BoLA-DRB3*027:19 protein complex	BoLA-DRB3*027:19		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:19 chain
-BoLA-DRB3*078:01 protein complex	BoLA-DRB3*078:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*078:01 chain
-BoLA-DRB3*015:04 protein complex	BoLA-DRB3*015:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:04 chain
-BoLA-DRB3*024:25 protein complex	BoLA-DRB3*024:25		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:25 chain
-BoLA-DRB3*024:32 protein complex	BoLA-DRB3*024:32		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:32 chain
-BoLA-DQB*022:01 protein complex	BoLA-DQB*022:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*022:01 chain
-BoLA-DRB3*064:02 protein complex	BoLA-DRB3*064:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*064:02 chain
-BoLA-DRB3*020:01:01 protein complex	BoLA-DRB3*020:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:01:01 chain
-BoLA-DRB3*007:02 protein complex	BoLA-DRB3*007:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:02 chain
-BoLA-DRB3*009:04 protein complex	BoLA-DRB3*009:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:04 chain
-BoLA-DRB3*024:13 protein complex	BoLA-DRB3*024:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:13 chain
-BoLA-DQA*022:02:02 protein complex	BoLA-DQA*022:02:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:02 chain	BoLA-DQB chain
-BoLA-DRB3*044:01 protein complex	BoLA-DRB3*044:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*044:01 chain
-BoLA-DRB3*160:01 protein complex	BoLA-DRB3*160:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*160:01 chain
-BoLA-DRB3*007:03 protein complex	BoLA-DRB3*007:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:03 chain
-BoLA-DQB*033:02 protein complex	BoLA-DQB*033:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*033:02 chain
-BoLA-DQB*010:06 protein complex	BoLA-DQB*010:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:06 chain
-BoLA-DRB3*003:03 protein complex	BoLA-DRB3*003:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*003:03 chain
-BoLA-DRB3*010:05 protein complex	BoLA-DRB3*010:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:05 chain
-BoLA-DRB3*020:12 protein complex	BoLA-DRB3*020:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:12 chain
-BoLA-DRB3*071:01 protein complex	BoLA-DRB3*071:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*071:01 chain
-BoLA-DRB3*022:05 protein complex	BoLA-DRB3*022:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:05 chain
-BoLA-DRB3*020:04 protein complex	BoLA-DRB3*020:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:04 chain
-BoLA-DRB3*099:01 protein complex	BoLA-DRB3*099:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*099:01 chain
-BoLA-DRB3*040:01 protein complex	BoLA-DRB3*040:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*040:01 chain
-BoLA-DRB3*007:04 protein complex	BoLA-DRB3*007:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:04 chain
-BoLA-DQB*019:02 protein complex	BoLA-DQB*019:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*019:02 chain
-BoLA-DRB3*048:01 protein complex	BoLA-DRB3*048:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*048:01 chain
-BoLA-DRB3*027:02 protein complex	BoLA-DRB3*027:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:02 chain
-BoLA-DRB3*022:04 protein complex	BoLA-DRB3*022:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:04 chain
-BoLA-DRB3*027:08 protein complex	BoLA-DRB3*027:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:08 chain
-BoLA-DRB3*087:04 protein complex	BoLA-DRB3*087:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:04 chain
-BoLA-DRB3*092:01 protein complex	BoLA-DRB3*092:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*092:01 chain
-BoLA-DQA*003:02 protein complex	BoLA-DQA*003:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*003:02 chain	BoLA-DQB chain
-BoLA-DRB3*041:01 protein complex	BoLA-DRB3*041:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*041:01 chain
-BoLA-DRB3*112:02 protein complex	BoLA-DRB3*112:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*112:02 chain
-BoLA-DRB3*151:01 protein complex	BoLA-DRB3*151:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*151:01 chain
-BoLA-DQB*001:04 protein complex	BoLA-DQB*001:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:04 chain
-BoLA-DRB3*074:01 protein complex	BoLA-DRB3*074:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*074:01 chain
-BoLA-DRB3*152:01 protein complex	BoLA-DRB3*152:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*152:01 chain
-BoLA-DRB3*027:01 protein complex	BoLA-DRB3*027:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:01 chain
-BoLA-DRB3*161:01 protein complex	BoLA-DRB3*161:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*161:01 chain
-BoLA-DRB3*004:02 protein complex	BoLA-DRB3*004:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*004:02 chain
-BoLA-DQA*022:04 protein complex	BoLA-DQA*022:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:04 chain	BoLA-DQB chain
-BoLA-DRB3*063:01 protein complex	BoLA-DRB3*063:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*063:01 chain
-BoLA-DQA*027:01:01 protein complex	BoLA-DQA*027:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:01:01 chain	BoLA-DQB chain
-BoLA-DRB3*114:01 protein complex	BoLA-DRB3*114:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*114:01 chain
-BoLA-DQB*004:04 protein complex	BoLA-DQB*004:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:04 chain
-BoLA-DQB*007:01 protein complex	BoLA-DQB*007:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*007:01 chain
-BoLA-DRB3*107:01 protein complex	BoLA-DRB3*107:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*107:01 chain
-BoLA-DQA*022:05 protein complex	BoLA-DQA*022:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:05 chain	BoLA-DQB chain
-BoLA-DRB3*024:27 protein complex	BoLA-DRB3*024:27		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:27 chain
-BoLA-DRB3*014:02 protein complex	BoLA-DRB3*014:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:02 chain
-BoLA-DRB3*162:01 protein complex	BoLA-DRB3*162:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*162:01 chain
-BoLA-DRB3*068:01 protein complex	BoLA-DRB3*068:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*068:01 chain
-BoLA-DQB*018:08 protein complex	BoLA-DQB*018:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:08 chain
-BoLA-DRB3*004:01 protein complex	BoLA-DRB3*004:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*004:01 chain
-BoLA-DQB*018:10 protein complex	BoLA-DQB*018:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:10 chain
-BoLA-DQB*024:01 protein complex	BoLA-DQB*024:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*024:01 chain
-BoLA-DRB3*014:01:02 protein complex	BoLA-DRB3*014:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:01:02 chain
-BoLA-DRB3*131:01 protein complex	BoLA-DRB3*131:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*131:01 chain
-BoLA-DRB3*021:02 protein complex	BoLA-DRB3*021:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*021:02 chain
-BoLA-DQA*012:02:01 protein complex	BoLA-DQA*012:02:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:02:01 chain	BoLA-DQB chain
-BoLA-DQB*029:03 protein complex	BoLA-DQB*029:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*029:03 chain
-BoLA-DRB3*100:02 protein complex	BoLA-DRB3*100:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:02 chain
-BoLA-DRB3*132:01 protein complex	BoLA-DRB3*132:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*132:01 chain
-BoLA-DRB3*024:24 protein complex	BoLA-DRB3*024:24		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:24 chain
-BoLA-DRB3*066:01 protein complex	BoLA-DRB3*066:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*066:01 chain
-BoLA-DRB3*134:01 protein complex	BoLA-DRB3*134:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*134:01 chain
-BoLA-DRB3*024:10 protein complex	BoLA-DRB3*024:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:10 chain
-BoLA-DQB*036:02 protein complex	BoLA-DQB*036:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*036:02 chain
-BoLA-DRB3*072:01 protein complex	BoLA-DRB3*072:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*072:01 chain
-BoLA-DRB3*028:03 protein complex	BoLA-DRB3*028:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:03 chain
-BoLA-DRB3*024:05 protein complex	BoLA-DRB3*024:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:05 chain
-BoLA-DRB3*088:01 protein complex	BoLA-DRB3*088:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*088:01 chain
-BoLA-DRB3*029:01 protein complex	BoLA-DRB3*029:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*029:01 chain
-BoLA-DRB3*027:10 protein complex	BoLA-DRB3*027:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:10 chain
-BoLA-DRB3*093:01 protein complex	BoLA-DRB3*093:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*093:01 chain
-BoLA-DQB*010:01 protein complex	BoLA-DQB*010:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:01 chain
-BoLA-DRB3*020:05 protein complex	BoLA-DRB3*020:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:05 chain
-BoLA-DRB3*051:01 protein complex	BoLA-DRB3*051:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*051:01 chain
-BoLA-DRB3*032:03 protein complex	BoLA-DRB3*032:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:03 chain
-BoLA-DRB3*022:07 protein complex	BoLA-DRB3*022:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:07 chain
-BoLA-DRB3*013:04 protein complex	BoLA-DRB3*013:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:04 chain
-BoLA-DQA*027:03 protein complex	BoLA-DQA*027:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:03 chain	BoLA-DQB chain
-BoLA-DRB3*090:02 protein complex	BoLA-DRB3*090:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:02 chain
-BoLA-DRB3*042:01 protein complex	BoLA-DRB3*042:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*042:01 chain
-BoLA-DRB3*050:01 protein complex	BoLA-DRB3*050:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*050:01 chain
-BoLA-DRB3*123:01 protein complex	BoLA-DRB3*123:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*123:01 chain
-BoLA-DRB3*048:02 protein complex	BoLA-DRB3*048:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*048:02 chain
-BoLA-DRB3*077:02 protein complex	BoLA-DRB3*077:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*077:02 chain
-BoLA-DRB3*024:30 protein complex	BoLA-DRB3*024:30		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:30 chain
-BoLA-DQA*034:01 protein complex	BoLA-DQA*034:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*034:01 chain	BoLA-DQB chain
-BoLA-DRB3*009:03 protein complex	BoLA-DRB3*009:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:03 chain
-BoLA-DQA*012:05 protein complex	BoLA-DQA*012:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:05 chain	BoLA-DQB chain
-BoLA-DRB3*027:18 protein complex	BoLA-DRB3*027:18		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:18 chain
-BoLA-DRB3*100:07 protein complex	BoLA-DRB3*100:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:07 chain
-BoLA-DQB*026:01 protein complex	BoLA-DQB*026:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*026:01 chain
-BoLA-DRB3*038:01 protein complex	BoLA-DRB3*038:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*038:01 chain
-BoLA-DRB3*094:01 protein complex	BoLA-DRB3*094:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*094:01 chain
-BoLA-DRB3*136:01 protein complex	BoLA-DRB3*136:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*136:01 chain
-BoLA-DRB3*024:03 protein complex	BoLA-DRB3*024:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:03 chain
-BoLA-DRB3*027:05 protein complex	BoLA-DRB3*027:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:05 chain
-BoLA-DRB3*027:14 protein complex	BoLA-DRB3*027:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:14 chain
-BoLA-DRB3*022:08 protein complex	BoLA-DRB3*022:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:08 chain
-BoLA-DQA*029:01 protein complex	BoLA-DQA*029:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*029:01 chain	BoLA-DQB chain
-BoLA-DQB*001:02 protein complex	BoLA-DQB*001:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:02 chain
-BoLA-DQB*009:02 protein complex	BoLA-DQB*009:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*009:02 chain
-BoLA-DQA*021:01 protein complex	BoLA-DQA*021:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*021:01 chain	BoLA-DQB chain
-BoLA-DRB3*112:01 protein complex	BoLA-DRB3*112:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*112:01 chain
-BoLA-DRB3*109:01 protein complex	BoLA-DRB3*109:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*109:01 chain
-BoLA-DRB3*118:01 protein complex	BoLA-DRB3*118:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*118:01 chain
-BoLA-DQB*028:01 protein complex	BoLA-DQB*028:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*028:01 chain
-BoLA-DQA*002:05 protein complex	BoLA-DQA*002:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:05 chain	BoLA-DQB chain
-BoLA-DQB*017:01 protein complex	BoLA-DQB*017:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*017:01 chain
-BoLA-DRB3*157:01 protein complex	BoLA-DRB3*157:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*157:01 chain
-BoLA-DRB3*075:02 protein complex	BoLA-DRB3*075:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*075:02 chain
-BoLA-DRB3*024:11 protein complex	BoLA-DRB3*024:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:11 chain
-BoLA-DQA*025:02 protein complex	BoLA-DQA*025:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*025:02 chain	BoLA-DQB chain
-BoLA-DRB3*023:01 protein complex	BoLA-DRB3*023:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*023:01 chain
-BoLA-DQB*018:09 protein complex	BoLA-DQB*018:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:09 chain
-BoLA-DRB3*027:13 protein complex	BoLA-DRB3*027:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:13 chain
-BoLA-DQA*001:03 protein complex	BoLA-DQA*001:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:03 chain	BoLA-DQB chain
-BoLA-DQA*008:02 protein complex	BoLA-DQA*008:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*008:02 chain	BoLA-DQB chain
-BoLA-DRB3*133:01 protein complex	BoLA-DRB3*133:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*133:01 chain
-BoLA-DRB3*104:01 protein complex	BoLA-DRB3*104:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*104:01 chain
-BoLA-DRB3*065:01 protein complex	BoLA-DRB3*065:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*065:01 chain
-BoLA-DRB3*039:01 protein complex	BoLA-DRB3*039:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*039:01 chain
-BoLA-DRB3*096:01 protein complex	BoLA-DRB3*096:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*096:01 chain
-BoLA-DRB3*032:01 protein complex	BoLA-DRB3*032:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:01 chain
-BoLA-DQA*028:01 protein complex	BoLA-DQA*028:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*028:01 chain	BoLA-DQB chain
-BoLA-DRB3*106:01 protein complex	BoLA-DRB3*106:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*106:01 chain
-BoLA-DQA*002:01 protein complex	BoLA-DQA*002:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:01 chain	BoLA-DQB chain
-BoLA-DRB3*015:05 protein complex	BoLA-DRB3*015:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:05 chain
-BoLA-DRB3*010:04 protein complex	BoLA-DRB3*010:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:04 chain
-BoLA-DRB3*031:01 protein complex	BoLA-DRB3*031:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:01 chain
-BoLA-DRB3*029:02 protein complex	BoLA-DRB3*029:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*029:02 chain
-BoLA-DRB3*083:01 protein complex	BoLA-DRB3*083:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*083:01 chain
-BoLA-DQB*002:01 protein complex	BoLA-DQB*002:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*002:01 chain
-BoLA-DRB3*019:03 protein complex	BoLA-DRB3*019:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:03 chain
-BoLA-DRB3*091:01 protein complex	BoLA-DRB3*091:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*091:01 chain
-BoLA-DRB3*049:01 protein complex	BoLA-DRB3*049:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*049:01 chain
-BoLA-DRB3*020:08 protein complex	BoLA-DRB3*020:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:08 chain
-BoLA-DRB3*047:01 protein complex	BoLA-DRB3*047:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*047:01 chain
-BoLA-DQB*018:06 protein complex	BoLA-DQB*018:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:06 chain
-BoLA-DRB3*143:01 protein complex	BoLA-DRB3*143:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*143:01 chain
-BoLA-DQA*026:03 protein complex	BoLA-DQA*026:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*026:03 chain	BoLA-DQB chain
-BoLA-DRB3*138:01 protein complex	BoLA-DRB3*138:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*138:01 chain
+BoLA-3*027:02 protein complex	BoLA-3*027:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*027:02 chain	Beta-2-microglobulin
+BoLA-2*055:01 protein complex	BoLA-2*055:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*055:01 chain	Beta-2-microglobulin
+BoLA-2*026:01 protein complex	BoLA-2*026:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:01 chain	Beta-2-microglobulin
+BoLA-3*037:01 protein complex	BoLA-3*037:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*037:01 chain	Beta-2-microglobulin
+BoLA-2*006:01 protein complex	BoLA-2*006:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*006:01 chain	Beta-2-microglobulin
+BoLA-6*093:01 protein complex	BoLA-6*093:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*093:01 chain	Beta-2-microglobulin
+BoLA-6*040:01 protein complex	BoLA-6*040:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*040:01 chain	Beta-2-microglobulin
+BoLA-1*029:01 protein complex	BoLA-1*029:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*029:01 chain	Beta-2-microglobulin
+BoLA-3*036:01 protein complex	BoLA-3*036:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*036:01 chain	Beta-2-microglobulin
+BoLA-2*006:02 protein complex	BoLA-2*006:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*006:02 chain	Beta-2-microglobulin
+BoLA-2*096:01 protein complex	BoLA-2*096:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*096:01 chain	Beta-2-microglobulin
+BoLA-1*028:01 protein complex	BoLA-1*028:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*028:01 chain	Beta-2-microglobulin
+BoLA-2*045:01 protein complex	BoLA-2*045:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*045:01 chain	Beta-2-microglobulin
+BoLA-2*043:01 protein complex	BoLA-2*043:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*043:01 chain	Beta-2-microglobulin
+BoLA-3*083:01 protein complex	BoLA-3*083:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*083:01 chain	Beta-2-microglobulin
+BoLA-3*004:01 protein complex	BoLA-3*004:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:01 chain	Beta-2-microglobulin
+BoLA-2*032:02 protein complex	BoLA-2*032:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*032:02 chain	Beta-2-microglobulin
+BoLA-2*075:01 protein complex	BoLA-2*075:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*075:01 chain	Beta-2-microglobulin
+BoLA-3*081:01 protein complex	BoLA-3*081:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*081:01 chain	Beta-2-microglobulin
+BoLA-3*065:01 protein complex	BoLA-3*065:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*065:01 chain	Beta-2-microglobulin
+BoLA-6*015:02 protein complex	BoLA-6*015:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*015:02 chain	Beta-2-microglobulin
+BoLA-6*092:01 protein complex	BoLA-6*092:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*092:01 chain	Beta-2-microglobulin
+BoLA-3*001:02 protein complex	BoLA-3*001:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:02 chain	Beta-2-microglobulin
+BoLA-1*007:01:01:02 protein complex	BoLA-1*007:01:01:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*007:01:01:02 chain	Beta-2-microglobulin
+BoLA-3*066:01 protein complex	BoLA-3*066:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*066:01 chain	Beta-2-microglobulin
+BoLA-1*097:01 protein complex	BoLA-1*097:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*097:01 chain	Beta-2-microglobulin
+BoLA-4*024:01:01:02 protein complex	BoLA-4*024:01:01:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:01:01:02 chain	Beta-2-microglobulin
+BoLA-2*026:04 protein complex	BoLA-2*026:04		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:04 chain	Beta-2-microglobulin
+BoLA-2*056:01 protein complex	BoLA-2*056:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*056:01 chain	Beta-2-microglobulin
+BoLA-3*073:01 protein complex	BoLA-3*073:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*073:01 chain	Beta-2-microglobulin
+BoLA-1*031:01 protein complex	BoLA-1*031:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*031:01 chain	Beta-2-microglobulin
+BoLA-1*009:02 protein complex	BoLA-1*009:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*009:02 chain	Beta-2-microglobulin
+BoLA-4*095:01 protein complex	BoLA-4*095:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*095:01 chain	Beta-2-microglobulin
+BoLA-2*030:01 protein complex	BoLA-2*030:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*030:01 chain	Beta-2-microglobulin
+BoLA-3*078:02 protein complex	BoLA-3*078:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*078:02 chain	Beta-2-microglobulin
+BoLA-3*004:02 protein complex	BoLA-3*004:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:02 chain	Beta-2-microglobulin
+BoLA-2*070:01 protein complex	BoLA-2*070:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*070:01 chain	Beta-2-microglobulin
+BoLA-3*068:01 protein complex	BoLA-3*068:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*068:01 chain	Beta-2-microglobulin
+BoLA-2*044:01 protein complex	BoLA-2*044:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*044:01 chain	Beta-2-microglobulin
+BoLA-3*010:01 protein complex	BoLA-3*010:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*010:01 chain	Beta-2-microglobulin
+BoLA-6*014:02 protein complex	BoLA-6*014:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*014:02 chain	Beta-2-microglobulin
+BoLA-3*027:01 protein complex	BoLA-3*027:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*027:01 chain	Beta-2-microglobulin
+BoLA-1*067:01 protein complex	BoLA-1*067:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*067:01 chain	Beta-2-microglobulin
+BoLA-2*085:01 protein complex	BoLA-2*085:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*085:01 chain	Beta-2-microglobulin
+BoLA-3*038:01 protein complex	BoLA-3*038:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*038:01 chain	Beta-2-microglobulin
+BoLA-4*024:02 protein complex	BoLA-4*024:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:02 chain	Beta-2-microglobulin
+BoLA-2*057:01 protein complex	BoLA-2*057:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*057:01 chain	Beta-2-microglobulin
+BoLA-2*062:01 protein complex	BoLA-2*062:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*062:01 chain	Beta-2-microglobulin
+BoLA-2*079:01 protein complex	BoLA-2*079:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*079:01 chain	Beta-2-microglobulin
+BoLA-2*069:01 protein complex	BoLA-2*069:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*069:01 chain	Beta-2-microglobulin
+BoLA-1*009:01 protein complex	BoLA-1*009:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*009:01 chain	Beta-2-microglobulin
+BoLA-2*071:01 protein complex	BoLA-2*071:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*071:01 chain	Beta-2-microglobulin
+BoLA-4*077:01 protein complex	BoLA-4*077:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*077:01 chain	Beta-2-microglobulin
+BoLA-3*035:01 protein complex	BoLA-3*035:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*035:01 chain	Beta-2-microglobulin
+BoLA-3*017:01 protein complex	BoLA-3*017:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*017:01 chain	Beta-2-microglobulin
+BoLA-3*058:01 protein complex	BoLA-3*058:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*058:01 chain	Beta-2-microglobulin
+BoLA-2*026:03 protein complex	BoLA-2*026:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:03 chain	Beta-2-microglobulin
+BoLA-3*087:01 protein complex	BoLA-3*087:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*087:01 chain	Beta-2-microglobulin
+BoLA-3*011:01 protein complex	BoLA-3*011:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*011:01 chain	Beta-2-microglobulin
+BoLA-2*008:03 protein complex	BoLA-2*008:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*008:03 chain	Beta-2-microglobulin
+BoLA-1*042:01 protein complex	BoLA-1*042:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*042:01 chain	Beta-2-microglobulin
+BoLA-2*018:02 protein complex	BoLA-2*018:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*018:02 chain	Beta-2-microglobulin
+BoLA-3*004:03 protein complex	BoLA-3*004:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:03 chain	Beta-2-microglobulin
+BoLA-3*004:04 protein complex	BoLA-3*004:04		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*004:04 chain	Beta-2-microglobulin
+BoLA-2*060:02 protein complex	BoLA-2*060:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*060:02 chain	Beta-2-microglobulin
+BoLA-2*071:02 protein complex	BoLA-2*071:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*071:02 chain	Beta-2-microglobulin
+BoLA-3*010:02 protein complex	BoLA-3*010:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*010:02 chain	Beta-2-microglobulin
+BoLA-2*045:02 protein complex	BoLA-2*045:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*045:02 chain	Beta-2-microglobulin
+BoLA-4*076:01 protein complex	BoLA-4*076:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*076:01 chain	Beta-2-microglobulin
+BoLA-1*074:01 protein complex	BoLA-1*074:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*074:01 chain	Beta-2-microglobulin
+BoLA-3*080:01 protein complex	BoLA-3*080:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*080:01 chain	Beta-2-microglobulin
+BoLA-6*091:01 protein complex	BoLA-6*091:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*091:01 chain	Beta-2-microglobulin
+BoLA-1*031:02 protein complex	BoLA-1*031:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*031:02 chain	Beta-2-microglobulin
+BoLA-3*066:02 protein complex	BoLA-3*066:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*066:02 chain	Beta-2-microglobulin
+BoLA-2*060:01 protein complex	BoLA-2*060:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*060:01 chain	Beta-2-microglobulin
+BoLA-4*076:02 protein complex	BoLA-4*076:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*076:02 chain	Beta-2-microglobulin
+BoLA-2*005:01 protein complex	BoLA-2*005:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*005:01 chain	Beta-2-microglobulin
+BoLA-3*052:01 protein complex	BoLA-3*052:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*052:01 chain	Beta-2-microglobulin
+BoLA-3*078:01 protein complex	BoLA-3*078:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*078:01 chain	Beta-2-microglobulin
+BoLA-3*051:01 protein complex	BoLA-3*051:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*051:01 chain	Beta-2-microglobulin
+BoLA-2*025:01 protein complex	BoLA-2*025:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*025:01 chain	Beta-2-microglobulin
+BoLA-6*034:01 protein complex	BoLA-6*034:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*034:01 chain	Beta-2-microglobulin
+BoLA-1*049:01 protein complex	BoLA-1*049:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*049:01 chain	Beta-2-microglobulin
+BoLA-6*090:01 protein complex	BoLA-6*090:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*090:01 chain	Beta-2-microglobulin
+BoLA-2*048:01 protein complex	BoLA-2*048:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*048:01 chain	Beta-2-microglobulin
+BoLA-1*020:01 protein complex	BoLA-1*020:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*020:01 chain	Beta-2-microglobulin
+BoLA-2*016:02 protein complex	BoLA-2*016:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*016:02 chain	Beta-2-microglobulin
+BoLA-2*026:02 protein complex	BoLA-2*026:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*026:02 chain	Beta-2-microglobulin
+BoLA-2*088:01 protein complex	BoLA-2*088:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*088:01 chain	Beta-2-microglobulin
+BoLA-3*050:02 protein complex	BoLA-3*050:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*050:02 chain	Beta-2-microglobulin
+BoLA-1*007:01:01:01 protein complex	BoLA-1*007:01:01:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*007:01:01:01 chain	Beta-2-microglobulin
+BoLA-2*016:01 protein complex	BoLA-2*016:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*016:01 chain	Beta-2-microglobulin
+BoLA-4*094:01 protein complex	BoLA-4*094:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*094:01 chain	Beta-2-microglobulin
+BoLA-2*054:01 protein complex	BoLA-2*054:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*054:01 chain	Beta-2-microglobulin
+BoLA-6*014:01 protein complex	BoLA-6*014:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-6*014:01 chain	Beta-2-microglobulin
+BoLA-2*016:03 protein complex	BoLA-2*016:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*016:03 chain	Beta-2-microglobulin
+BoLA-4*063:01 protein complex	BoLA-4*063:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*063:01 chain	Beta-2-microglobulin
+BoLA-3*059:01 protein complex	BoLA-3*059:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*059:01 chain	Beta-2-microglobulin
+BoLA-2*046:01 protein complex	BoLA-2*046:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*046:01 chain	Beta-2-microglobulin
+BoLA-3*082:01 protein complex	BoLA-3*082:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*082:01 chain	Beta-2-microglobulin
+BoLA-2*089:01 protein complex	BoLA-2*089:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*089:01 chain	Beta-2-microglobulin
+BoLA-3*066:03 protein complex	BoLA-3*066:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*066:03 chain	Beta-2-microglobulin
+BoLA-2*047:01 protein complex	BoLA-2*047:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*047:01 chain	Beta-2-microglobulin
+BoLA-3*001:03 protein complex	BoLA-3*001:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:03 chain	Beta-2-microglobulin
+BoLA-3*053:01 protein complex	BoLA-3*053:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*053:01 chain	Beta-2-microglobulin
+BoLA-2*006:03 protein complex	BoLA-2*006:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*006:03 chain	Beta-2-microglobulin
 BoLA-DRB3*121:02 protein complex	BoLA-DRB3*121:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*121:02 chain
-BoLA-DRB3*145:01 protein complex	BoLA-DRB3*145:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*145:01 chain
-BoLA-DQA*026:01 protein complex	BoLA-DQA*026:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*026:01 chain	BoLA-DQB chain
-BoLA-DQA*001:05 protein complex	BoLA-DQA*001:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:05 chain	BoLA-DQB chain
-BoLA-DRB3*019:04 protein complex	BoLA-DRB3*019:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:04 chain
-BoLA-DQA*022:03:02 protein complex	BoLA-DQA*022:03:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03:02 chain	BoLA-DQB chain
-BoLA-DRB3*014:04 protein complex	BoLA-DRB3*014:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:04 chain
-BoLA-DQA*022:07 protein complex	BoLA-DQA*022:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:07 chain	BoLA-DQB chain
-BoLA-DQA*022:03:01 protein complex	BoLA-DQA*022:03:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03:01 chain	BoLA-DQB chain
-BoLA-DQB*039:01 protein complex	BoLA-DQB*039:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*039:01 chain
-BoLA-DRB3*156:01 protein complex	BoLA-DRB3*156:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*156:01 chain
-BoLA-DQB*008:02 protein complex	BoLA-DQB*008:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*008:02 chain
-BoLA-DRB3*009:02 protein complex	BoLA-DRB3*009:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:02 chain
-BoLA-DRB3*020:09 protein complex	BoLA-DRB3*020:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:09 chain
-BoLA-DRB3*090:01 protein complex	BoLA-DRB3*090:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:01 chain
-BoLA-DQA*001:04 protein complex	BoLA-DQA*001:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:04 chain	BoLA-DQB chain
-BoLA-DRB3*022:12 protein complex	BoLA-DRB3*022:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:12 chain
-BoLA-DQB*010:09 protein complex	BoLA-DQB*010:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:09 chain
-BoLA-DQA*030:01 protein complex	BoLA-DQA*030:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*030:01 chain	BoLA-DQB chain
-BoLA-DQB*029:02 protein complex	BoLA-DQB*029:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*029:02 chain
-BoLA-DRB3*027:06 protein complex	BoLA-DRB3*027:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:06 chain
-BoLA-DQA*022:02:03 protein complex	BoLA-DQA*022:02:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:03 chain	BoLA-DQB chain
-BoLA-DRB3*005:01 protein complex	BoLA-DRB3*005:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:01 chain
-BoLA-DRB3*024:16 protein complex	BoLA-DRB3*024:16		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:16 chain
-BoLA-DRB3*005:02 protein complex	BoLA-DRB3*005:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:02 chain
-BoLA-DQB*004:05 protein complex	BoLA-DQB*004:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:05 chain
-BoLA-DRB3*024:07 protein complex	BoLA-DRB3*024:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:07 chain
-BoLA-DQA*004:01 protein complex	BoLA-DQA*004:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*004:01 chain	BoLA-DQB chain
-BoLA-DRB3*001:03 protein complex	BoLA-DRB3*001:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*001:03 chain
-BoLA-DRB3*069:01 protein complex	BoLA-DRB3*069:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*069:01 chain
-BoLA-DRB3*013:01 protein complex	BoLA-DRB3*013:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:01 chain
-BoLA-DRB3*114:02 protein complex	BoLA-DRB3*114:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*114:02 chain
-BoLA-DRB3*127:01 protein complex	BoLA-DRB3*127:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*127:01 chain
-BoLA-DRB3*022:02 protein complex	BoLA-DRB3*022:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:02 chain
-BoLA-DRB3*031:02 protein complex	BoLA-DRB3*031:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:02 chain
-BoLA-DRB3*018:04 protein complex	BoLA-DRB3*018:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*018:04 chain
-BoLA-DRB3*004:03 protein complex	BoLA-DRB3*004:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*004:03 chain
-BoLA-DRB3*097:02 protein complex	BoLA-DRB3*097:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:02 chain
-BoLA-DQA*027:01:02 protein complex	BoLA-DQA*027:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:01:02 chain	BoLA-DQB chain
-BoLA-DRB3*102:01 protein complex	BoLA-DRB3*102:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*102:01 chain
-BoLA-DRB3*022:15 protein complex	BoLA-DRB3*022:15		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:15 chain
-BoLA-DQA*012:02:02 protein complex	BoLA-DQA*012:02:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:02:02 chain	BoLA-DQB chain
-BoLA-DRB3*129:01 protein complex	BoLA-DRB3*129:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*129:01 chain
-BoLA-DRB3*022:11 protein complex	BoLA-DRB3*022:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:11 chain
-BoLA-DRB3*087:03 protein complex	BoLA-DRB3*087:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:03 chain
-BoLA-DRB3*100:06 protein complex	BoLA-DRB3*100:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:06 chain
-BoLA-DQB*004:03 protein complex	BoLA-DQB*004:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:03 chain
-BoLA-DRB3*018:03 protein complex	BoLA-DRB3*018:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*018:03 chain
-BoLA-DQB*040:01 protein complex	BoLA-DQB*040:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*040:01 chain
-BoLA-DRB3*095:01 protein complex	BoLA-DRB3*095:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*095:01 chain
-BoLA-DRB3*024:20 protein complex	BoLA-DRB3*024:20		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:20 chain
-BoLA-DQB*031:01 protein complex	BoLA-DQB*031:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*031:01 chain
-BoLA-DQB*016:01 protein complex	BoLA-DQB*016:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*016:01 chain
-BoLA-DRB3*035:01 protein complex	BoLA-DRB3*035:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*035:01 chain
-BoLA-DQB*018:04:02 protein complex	BoLA-DQB*018:04:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:04:02 chain
-BoLA-DRB3*008:02 protein complex	BoLA-DRB3*008:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*008:02 chain
-BoLA-DRB3*108:01 protein complex	BoLA-DRB3*108:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*108:01 chain
-BoLA-DRB3*110:01 protein complex	BoLA-DRB3*110:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*110:01 chain
-BoLA-DRB3*125:01 protein complex	BoLA-DRB3*125:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*125:01 chain
-BoLA-DQA*033:01 protein complex	BoLA-DQA*033:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*033:01 chain	BoLA-DQB chain
-BoLA-DRB3*130:01 protein complex	BoLA-DRB3*130:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*130:01 chain
-BoLA-DQA*035:01 protein complex	BoLA-DQA*035:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*035:01 chain	BoLA-DQB chain
-BoLA-DRB3*024:14 protein complex	BoLA-DRB3*024:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:14 chain
-BoLA-DRB3*030:02 protein complex	BoLA-DRB3*030:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*030:02 chain
-BoLA-DRB3*122:01 protein complex	BoLA-DRB3*122:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*122:01 chain
-BoLA-DQB*014:05 protein complex	BoLA-DQB*014:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:05 chain
-BoLA-DRB3*085:02 protein complex	BoLA-DRB3*085:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*085:02 chain
-BoLA-DQB*034:01 protein complex	BoLA-DQB*034:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*034:01 chain
-BoLA-DRB3*147:01 protein complex	BoLA-DRB3*147:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*147:01 chain
-BoLA-DRB3*046:01:01 protein complex	BoLA-DRB3*046:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*046:01:01 chain
-BoLA-DRB3*019:01 protein complex	BoLA-DRB3*019:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:01 chain
-BoLA-DQA*002:06 protein complex	BoLA-DQA*002:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:06 chain	BoLA-DQB chain
-BoLA-DQB*020:01 protein complex	BoLA-DQB*020:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*020:01 chain
-BoLA-DRB3*154:02 protein complex	BoLA-DRB3*154:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*154:02 chain
-BoLA-DQB*018:11 protein complex	BoLA-DQB*018:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:11 chain
-BoLA-DQA*008:03 protein complex	BoLA-DQA*008:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*008:03 chain	BoLA-DQB chain
-BoLA-DRB3*020:01:02 protein complex	BoLA-DRB3*020:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:01:02 chain
-BoLA-DRB3*022:03 protein complex	BoLA-DRB3*022:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:03 chain
-BoLA-DRB3*099:02 protein complex	BoLA-DRB3*099:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*099:02 chain
-BoLA-DRB3*088:02 protein complex	BoLA-DRB3*088:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*088:02 chain
-BoLA-DQB*001:01 protein complex	BoLA-DQB*001:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:01 chain
-BoLA-DRB3*028:01 protein complex	BoLA-DRB3*028:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:01 chain
-BoLA-DRB3*112:03 protein complex	BoLA-DRB3*112:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*112:03 chain
-BoLA-DQB*018:02 protein complex	BoLA-DQB*018:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:02 chain
-BoLA-DRB3*013:02 protein complex	BoLA-DRB3*013:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:02 chain
-BoLA-DRB3*017:02 protein complex	BoLA-DRB3*017:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*017:02 chain
-BoLA-DRB3*027:17 protein complex	BoLA-DRB3*027:17		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:17 chain
-BoLA-DQA*027:02 protein complex	BoLA-DQA*027:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:02 chain	BoLA-DQB chain
-BoLA-DRB3*016:02 protein complex	BoLA-DRB3*016:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*016:02 chain
-BoLA-DRB3*148:01 protein complex	BoLA-DRB3*148:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*148:01 chain
-BoLA-DQB*018:07 protein complex	BoLA-DQB*018:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:07 chain
-BoLA-DQA*013:02 protein complex	BoLA-DQA*013:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*013:02 chain	BoLA-DQB chain
-BoLA-DRB3*022:09 protein complex	BoLA-DRB3*022:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:09 chain
-BoLA-DQA*012:06 protein complex	BoLA-DQA*012:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:06 chain	BoLA-DQB chain
-BoLA-DRB3*163:01 protein complex	BoLA-DRB3*163:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*163:01 chain
-BoLA-DRB3*025:01:01 protein complex	BoLA-DRB3*025:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*025:01:01 chain
-BoLA-DRB3*011:04 protein complex	BoLA-DRB3*011:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:04 chain
-BoLA-DRB3*005:06 protein complex	BoLA-DRB3*005:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:06 chain
-BoLA-DRB3*107:02 protein complex	BoLA-DRB3*107:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*107:02 chain
-BoLA-DQB*013:02 protein complex	BoLA-DQB*013:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*013:02 chain
-BoLA-DQB*038:01 protein complex	BoLA-DQB*038:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*038:01 chain
-BoLA-DQA*012:03 protein complex	BoLA-DQA*012:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:03 chain	BoLA-DQB chain
-BoLA-DRB3*031:03 protein complex	BoLA-DRB3*031:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:03 chain
-BoLA-DRB3*100:01 protein complex	BoLA-DRB3*100:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:01 chain
-BoLA-DRB3*077:01 protein complex	BoLA-DRB3*077:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*077:01 chain
-BoLA-DRB3*113:01 protein complex	BoLA-DRB3*113:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*113:01 chain
-BoLA-DQA*023:01 protein complex	BoLA-DQA*023:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*023:01 chain	BoLA-DQB chain
-BoLA-DRB3*098:01 protein complex	BoLA-DRB3*098:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*098:01 chain
-BoLA-DQA*011:01 protein complex	BoLA-DQA*011:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*011:01 chain	BoLA-DQB chain
-BoLA-DRB3*126:01 protein complex	BoLA-DRB3*126:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*126:01 chain
-BoLA-DRB3*007:06 protein complex	BoLA-DRB3*007:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:06 chain
-BoLA-DRB3*075:03 protein complex	BoLA-DRB3*075:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*075:03 chain
-BoLA-DRB3*011:05 protein complex	BoLA-DRB3*011:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:05 chain
-BoLA-DQB*005:01 protein complex	BoLA-DQB*005:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*005:01 chain
-BoLA-DRB3*158:01 protein complex	BoLA-DRB3*158:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*158:01 chain
-BoLA-DQA*010:03 protein complex	BoLA-DQA*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:03 chain	BoLA-DQB chain
-BoLA-DRB3*024:02 protein complex	BoLA-DRB3*024:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:02 chain
-BoLA-DRB3*086:04 protein complex	BoLA-DRB3*086:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:04 chain
-BoLA-DRB3*011:06 protein complex	BoLA-DRB3*011:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:06 chain
-BoLA-DRB3*013:03 protein complex	BoLA-DRB3*013:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:03 chain
-BoLA-DRB3*070:01 protein complex	BoLA-DRB3*070:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*070:01 chain
-BoLA-DRB3*032:02 protein complex	BoLA-DRB3*032:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:02 chain
-BoLA-DQB*017:02 protein complex	BoLA-DQB*017:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*017:02 chain
-BoLA-DRB3*064:03 protein complex	BoLA-DRB3*064:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*064:03 chain
-BoLA-DRB3*086:03 protein complex	BoLA-DRB3*086:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:03 chain
-BoLA-DRB3*025:01:02 protein complex	BoLA-DRB3*025:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*025:01:02 chain
-BoLA-DQA*014:01 protein complex	BoLA-DQA*014:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*014:01 chain	BoLA-DQB chain
-BoLA-DQB*018:04 protein complex	BoLA-DQB*018:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:04 chain
-BoLA-DRB3*144:01 protein complex	BoLA-DRB3*144:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*144:01 chain
-BoLA-DRB3*024:04 protein complex	BoLA-DRB3*024:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:04 chain
-BoLA-DRB3*087:01 protein complex	BoLA-DRB3*087:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:01 chain
-BoLA-DRB3*027:12 protein complex	BoLA-DRB3*027:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:12 chain
-BoLA-DQB*027:02 protein complex	BoLA-DQB*027:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*027:02 chain
-BoLA-DRB3*008:01 protein complex	BoLA-DRB3*008:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*008:01 chain
-BoLA-DRB3*116:01 protein complex	BoLA-DRB3*116:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*116:01 chain
-BoLA-DRB3*024:22 protein complex	BoLA-DRB3*024:22		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:22 chain
-BoLA-DRB3*121:01 protein complex	BoLA-DRB3*121:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*121:01 chain
-BoLA-DRB3*107:03 protein complex	BoLA-DRB3*107:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*107:03 chain
-BoLA-DRB3*090:05 protein complex	BoLA-DRB3*090:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:05 chain
-BoLA-DQA*012:04 protein complex	BoLA-DQA*012:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:04 chain	BoLA-DQB chain
-BoLA-DRB3*034:01 protein complex	BoLA-DRB3*034:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*034:01 chain
-BoLA-DQB*018:12 protein complex	BoLA-DQB*018:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:12 chain
-BoLA-DQB*011:01 protein complex	BoLA-DQB*011:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*011:01 chain
-BoLA-DRB3*050:01:01 protein complex	BoLA-DRB3*050:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*050:01:01 chain
-BoLA-DRB3*010:03 protein complex	BoLA-DRB3*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:03 chain
-BoLA-DRB3*064:01 protein complex	BoLA-DRB3*064:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*064:01 chain
-BoLA-DQB*035:01 protein complex	BoLA-DQB*035:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*035:01 chain
-BoLA-DRB3*062:01 protein complex	BoLA-DRB3*062:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*062:01 chain
-BoLA-DRB3*024:18 protein complex	BoLA-DRB3*024:18		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:18 chain
-BoLA-DRB3*100:04 protein complex	BoLA-DRB3*100:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:04 chain
-BoLA-DRB3*103:01 protein complex	BoLA-DRB3*103:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*103:01 chain
-BoLA-DRB3*005:04 protein complex	BoLA-DRB3*005:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:04 chain
-BoLA-DRB3*011:03 protein complex	BoLA-DRB3*011:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:03 chain
-BoLA-DQB*001:03 protein complex	BoLA-DQB*001:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:03 chain
-BoLA-DRB3*017:03 protein complex	BoLA-DRB3*017:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*017:03 chain
-BoLA-DRB3*030:22 protein complex	BoLA-DRB3*030:22		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*030:22 chain
-BoLA-DRB3*111:01 protein complex	BoLA-DRB3*111:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*111:01 chain
-BoLA-DRB3*003:01 protein complex	BoLA-DRB3*003:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*003:01 chain
-BoLA-DRB3*085:01 protein complex	BoLA-DRB3*085:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*085:01 chain
-BoLA-DRB3*028:02 protein complex	BoLA-DRB3*028:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:02 chain
-BoLA-DQB*030:01 protein complex	BoLA-DQB*030:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*030:01 chain
-BoLA-DRB3*116:02 protein complex	BoLA-DRB3*116:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*116:02 chain
-BoLA-DQA*022:08 protein complex	BoLA-DQA*022:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:08 chain	BoLA-DQB chain
-BoLA-DRB3*028:06 protein complex	BoLA-DRB3*028:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:06 chain
-BoLA-DQB*001:05 protein complex	BoLA-DQB*001:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:05 chain
-BoLA-DQA*002:08 protein complex	BoLA-DQA*002:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:08 chain	BoLA-DQB chain
-BoLA-DRB3*002:02 protein complex	BoLA-DRB3*002:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*002:02 chain
-BoLA-DQB*014:03 protein complex	BoLA-DQB*014:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:03 chain
-BoLA-DRB3*022:01 protein complex	BoLA-DRB3*022:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:01 chain
-BoLA-DRB3*090:03 protein complex	BoLA-DRB3*090:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:03 chain
-BoLA-DQA*032:01 protein complex	BoLA-DQA*032:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*032:01 chain	BoLA-DQB chain
-BoLA-DRB3*115:01 protein complex	BoLA-DRB3*115:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*115:01 chain
-BoLA-DRB3*119:01 protein complex	BoLA-DRB3*119:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*119:01 chain
-BoLA-DRB3*009:01 protein complex	BoLA-DRB3*009:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:01 chain
-BoLA-DRB3*027:15 protein complex	BoLA-DRB3*027:15		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:15 chain
-BoLA-DQB*008:01 protein complex	BoLA-DQB*008:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*008:01 chain
-BoLA-DRB3*020:03 protein complex	BoLA-DRB3*020:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:03 chain
-BoLA-DQA*022:09 protein complex	BoLA-DQA*022:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:09 chain	BoLA-DQB chain
-BoLA-DRB3*032:04 protein complex	BoLA-DRB3*032:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:04 chain
-BoLA-DRB3*135:01 protein complex	BoLA-DRB3*135:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*135:01 chain
-BoLA-DRB3*024:26 protein complex	BoLA-DRB3*024:26		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:26 chain
 BoLA-DQB*032:01 protein complex	BoLA-DQB*032:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*032:01 chain
-BoLA-DQB*029:01 protein complex	BoLA-DQB*029:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*029:01 chain
-BoLA-DRB3*010:02 protein complex	BoLA-DRB3*010:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:02 chain
-BoLA-DRB3*034:02 protein complex	BoLA-DRB3*034:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*034:02 chain
-BoLA-DRB3*022:13 protein complex	BoLA-DRB3*022:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:13 chain
-BoLA-DQB*015:01 protein complex	BoLA-DQB*015:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*015:01 chain
-BoLA-DRB3*027:21 protein complex	BoLA-DRB3*027:21		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:21 chain
-BoLA-DQB*005:02 protein complex	BoLA-DQB*005:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*005:02 chain
-BoLA-DRB3*057:02 protein complex	BoLA-DRB3*057:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*057:02 chain
-BoLA-DRB3*082:01 protein complex	BoLA-DRB3*082:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*082:01 chain
-BoLA-DRB3*090:04 protein complex	BoLA-DRB3*090:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:04 chain
-BoLA-DRB3*076:01 protein complex	BoLA-DRB3*076:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*076:01 chain
-BoLA-DQB*003:03 protein complex	BoLA-DQB*003:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*003:03 chain
-BoLA-DRB3*120:01 protein complex	BoLA-DRB3*120:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*120:01 chain
-BoLA-DRB3*028:04 protein complex	BoLA-DRB3*028:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:04 chain
-BoLA-DQB*025:01 protein complex	BoLA-DQB*025:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*025:01 chain
-BoLA-DRB3*097:01 protein complex	BoLA-DRB3*097:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:01 chain
-BoLA-DRB3*020:10 protein complex	BoLA-DRB3*020:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:10 chain
-BoLA-DQB*018:01 protein complex	BoLA-DQB*018:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:01 chain
-BoLA-DRB3*080:01 protein complex	BoLA-DRB3*080:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*080:01 chain
-BoLA-DQB*001:06 protein complex	BoLA-DQB*001:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:06 chain
-BoLA-DQA*002:03 protein complex	BoLA-DQA*002:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:03 chain	BoLA-DQB chain
-BoLA-DQB*009:03 protein complex	BoLA-DQB*009:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*009:03 chain
-BoLA-DRB3*097:06 protein complex	BoLA-DRB3*097:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:06 chain
-BoLA-DRB3*159:01 protein complex	BoLA-DRB3*159:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*159:01 chain
-BoLA-DRB3*142:01 protein complex	BoLA-DRB3*142:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*142:01 chain
-BoLA-DRB3*075:01 protein complex	BoLA-DRB3*075:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*075:01 chain
-BoLA-DRB3*028:05 protein complex	BoLA-DRB3*028:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:05 chain
-BoLA-DRB3*026:01 protein complex	BoLA-DRB3*026:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*026:01 chain
-BoLA-DRB3*141:01 protein complex	BoLA-DRB3*141:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*141:01 chain
-BoLA-DRB3*007:05 protein complex	BoLA-DRB3*007:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:05 chain
-BoLA-DQA*022:03:03 protein complex	BoLA-DQA*022:03:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03:03 chain	BoLA-DQB chain
-BoLA-DQB*014:01 protein complex	BoLA-DQB*014:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:01 chain
-BoLA-DRB3*079:01 protein complex	BoLA-DRB3*079:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*079:01 chain
-BoLA-DRB3*086:02 protein complex	BoLA-DRB3*086:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:02 chain
-BoLA-DRB3*117:01 protein complex	BoLA-DRB3*117:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*117:01 chain
-BoLA-DRB3*021:01 protein complex	BoLA-DRB3*021:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*021:01 chain
-BoLA-DRB3*100:03 protein complex	BoLA-DRB3*100:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:03 chain
-BoLA-DRB3*027:07 protein complex	BoLA-DRB3*027:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:07 chain
-BoLA-DRB3*105:01 protein complex	BoLA-DRB3*105:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*105:01 chain
-BoLA-DRB3*060:01 protein complex	BoLA-DRB3*060:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*060:01 chain
-BoLA-DQA*002:07 protein complex	BoLA-DQA*002:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:07 chain	BoLA-DQB chain
-BoLA-DQB*042:01 protein complex	BoLA-DQB*042:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*042:01 chain
-BoLA-DQB*033:01 protein complex	BoLA-DQB*033:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*033:01 chain
-BoLA-DRB3*081:03 protein complex	BoLA-DRB3*081:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*081:03 chain
-BoLA-DQA*031:01 protein complex	BoLA-DQA*031:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*031:01 chain	BoLA-DQB chain
-BoLA-DRB3*097:04 protein complex	BoLA-DRB3*097:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:04 chain
-BoLA-DRB3*025:02 protein complex	BoLA-DRB3*025:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*025:02 chain
-BoLA-DRB3*027:04 protein complex	BoLA-DRB3*027:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:04 chain
-BoLA-DRB3*014:03 protein complex	BoLA-DRB3*014:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:03 chain
-BoLA-DRB3*024:31 protein complex	BoLA-DRB3*024:31		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:31 chain
-BoLA-DQA*010:01:02 protein complex	BoLA-DQA*010:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:01:02 chain	BoLA-DQB chain
-BoLA-DQB*010:03 protein complex	BoLA-DQB*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:03 chain
-BoLA-DRB3*024:29 protein complex	BoLA-DRB3*024:29		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:29 chain
-BoLA-DRB3*100:05 protein complex	BoLA-DRB3*100:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:05 chain
-BoLA-DRB3*153:01 protein complex	BoLA-DRB3*153:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*153:01 chain
-BoLA-DRB3*027:20 protein complex	BoLA-DRB3*027:20		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:20 chain
-BoLA-DQB*010:08 protein complex	BoLA-DQB*010:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:08 chain
-BoLA-DRB3*019:02 protein complex	BoLA-DRB3*019:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:02 chain
-BoLA-DRB3*024:19 protein complex	BoLA-DRB3*024:19		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:19 chain
-BoLA-DRB3*027:09 protein complex	BoLA-DRB3*027:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:09 chain
-BoLA-DQA*001:02 protein complex	BoLA-DQA*001:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:02 chain	BoLA-DQB chain
-BoLA-DQA*001:06 protein complex	BoLA-DQA*001:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:06 chain	BoLA-DQB chain
-BoLA-DQB*036:01 protein complex	BoLA-DQB*036:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*036:01 chain
-BoLA-DRB3*015:03 protein complex	BoLA-DRB3*015:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:03 chain
-BoLA-DQB*004:01 protein complex	BoLA-DQB*004:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:01 chain
-BoLA-DRB3*057:01 protein complex	BoLA-DRB3*057:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*057:01 chain
-BoLA-DRB3*043:02 protein complex	BoLA-DRB3*043:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:02 chain
-BoLA-DRB3*154:01 protein complex	BoLA-DRB3*154:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*154:01 chain
-BoLA-DRB3*022:14 protein complex	BoLA-DRB3*022:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:14 chain
-BoLA-DRB3*024:12 protein complex	BoLA-DRB3*024:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:12 chain
-BoLA-DRB3*139:01 protein complex	BoLA-DRB3*139:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*139:01 chain
-BoLA-DQA*008:01 protein complex	BoLA-DQA*008:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*008:01 chain	BoLA-DQB chain
-BoLA-DRB3*105:02 protein complex	BoLA-DRB3*105:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*105:02 chain
-BoLA-DRB3*081:01 protein complex	BoLA-DRB3*081:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*081:01 chain
-BoLA-DQA*024:01 protein complex	BoLA-DQA*024:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*024:01 chain	BoLA-DQB chain
-BoLA-DRB3*146:01 protein complex	BoLA-DRB3*146:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*146:01 chain
-BoLA-DQB*041:01 protein complex	BoLA-DQB*041:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*041:01 chain
-BoLA-DRB3*086:01 protein complex	BoLA-DRB3*086:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:01 chain
-BoLA-DRB3*018:02 protein complex	BoLA-DRB3*018:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*018:02 chain
-BoLA-DRB3*006:01 protein complex	BoLA-DRB3*006:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*006:01 chain
-BoLA-DRB3*140:01 protein complex	BoLA-DRB3*140:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*140:01 chain
-BoLA-DRB3*124:01 protein complex	BoLA-DRB3*124:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*124:01 chain
-BoLA-DRB3*015:06 protein complex	BoLA-DRB3*015:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:06 chain
-BoLA-DRB3*089:01 protein complex	BoLA-DRB3*089:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*089:01 chain
-BoLA-DQB*016:02 protein complex	BoLA-DQB*016:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*016:02 chain
-BoLA-DRB3*024:23 protein complex	BoLA-DRB3*024:23		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:23 chain
-BoLA-DRB3*003:02:01 protein complex	BoLA-DRB3*003:02:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*003:02:01 chain
-BoLA-DRB3*059:01 protein complex	BoLA-DRB3*059:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*059:01 chain
-BoLA-DRB3*005:05 protein complex	BoLA-DRB3*005:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:05 chain
-BoLA-DQB*003:01 protein complex	BoLA-DQB*003:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*003:01 chain
-BoLA-DRB3*033:01 protein complex	BoLA-DRB3*033:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*033:01 chain
-BoLA-DRB3*036:01 protein complex	BoLA-DRB3*036:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*036:01 chain
-BoLA-DRB3*012:03 protein complex	BoLA-DRB3*012:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*012:03 chain
-BoLA-DQB*018:05 protein complex	BoLA-DQB*018:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:05 chain
-BoLA-DRB3*031:04 protein complex	BoLA-DRB3*031:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:04 chain
-BoLA-DQB*014:04 protein complex	BoLA-DQB*014:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:04 chain
-BoLA-DRB3*084:01 protein complex	BoLA-DRB3*084:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*084:01 chain
-BoLA-DQA*013:01 protein complex	BoLA-DQA*013:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*013:01 chain	BoLA-DQB chain
-BoLA-DRB3*037:01 protein complex	BoLA-DRB3*037:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*037:01 chain
-BoLA-DQB*018:03 protein complex	BoLA-DQB*018:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:03 chain
-BoLA-DRB3*149:01 protein complex	BoLA-DRB3*149:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*149:01 chain
-BoLA-DRB3*058:01 protein complex	BoLA-DRB3*058:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*058:01 chain
-BoLA-DQA*026:02 protein complex	BoLA-DQA*026:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*026:02 chain	BoLA-DQB chain
-BoLA-DRB3*100:08 protein complex	BoLA-DRB3*100:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:08 chain
-BoLA-DRB3*067:01 protein complex	BoLA-DRB3*067:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*067:01 chain
-BoLA-DRB3*137:01 protein complex	BoLA-DRB3*137:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*137:01 chain
-BoLA-DQA*020:02 protein complex	BoLA-DQA*020:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*020:02 chain	BoLA-DQB chain
-BoLA-DQB*020:02 protein complex	BoLA-DQB*020:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*020:02 chain
-BoLA-DRB3*020:13 protein complex	BoLA-DRB3*020:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:13 chain
-BoLA-DQB*003:02 protein complex	BoLA-DQB*003:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*003:02 chain
-BoLA-DRB3*024:15 protein complex	BoLA-DRB3*024:15		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:15 chain
-BoLA-DRB3*017:01 protein complex	BoLA-DRB3*017:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*017:01 chain
-BoLA-DRB3*020:14 protein complex	BoLA-DRB3*020:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:14 chain
-BoLA-DQB*037:01 protein complex	BoLA-DQB*037:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*037:01 chain
-BoLA-DRB3*024:21 protein complex	BoLA-DRB3*024:21		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:21 chain
-BoLA-DQA*010:04 protein complex	BoLA-DQA*010:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:04 chain	BoLA-DQB chain
-BoLA-DRB3*022:10 protein complex	BoLA-DRB3*022:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:10 chain
-BoLA-DRB3*024:09 protein complex	BoLA-DRB3*024:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:09 chain
-BoLA-DQA*028:02 protein complex	BoLA-DQA*028:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*028:02 chain	BoLA-DQB chain
-BoLA-DRB3*020:02:01 protein complex	BoLA-DRB3*020:02:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:02:01 chain
-BoLA-DQA*012:01:02 protein complex	BoLA-DQA*012:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:02 chain	BoLA-DQB chain
+BoLA-DRB3*022:02 protein complex	BoLA-DRB3*022:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:02 chain
+BoLA-DRB3*157:01 protein complex	BoLA-DRB3*157:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*157:01 chain
+BoLA-DRB3*148:01 protein complex	BoLA-DRB3*148:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*148:01 chain
+BoLA-DRB3*051:01 protein complex	BoLA-DRB3*051:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*051:01 chain
+BoLA-DRB3*069:01 protein complex	BoLA-DRB3*069:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*069:01 chain
+BoLA-DRB3*113:01 protein complex	BoLA-DRB3*113:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*113:01 chain
 BoLA-DQB*019:01 protein complex	BoLA-DQB*019:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*019:01 chain
-BoLA-DQA*021:02 protein complex	BoLA-DQA*021:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*021:02 chain	BoLA-DQB chain
-BoLA-DQB*027:01 protein complex	BoLA-DQB*027:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*027:01 chain
-BoLA-DRB3*094:03 protein complex	BoLA-DRB3*094:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*094:03 chain
-BoLA-DRB3*128:01 protein complex	BoLA-DRB3*128:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*128:01 chain
-BoLA-DRB3*034:03 protein complex	BoLA-DRB3*034:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*034:03 chain
-BoLA-DRB3*027:11 protein complex	BoLA-DRB3*027:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:11 chain
-BoLA-DQA*020:03 protein complex	BoLA-DQA*020:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*020:03 chain	BoLA-DQB chain
-BoLA-DRB3*097:05 protein complex	BoLA-DRB3*097:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:05 chain
-BoLA-DRB3*005:07 protein complex	BoLA-DRB3*005:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:07 chain
-BoLA-DRB3*094:02 protein complex	BoLA-DRB3*094:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*094:02 chain
-BoLA-DRB3*027:16 protein complex	BoLA-DRB3*027:16		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:16 chain
-BoLA-DRB3*105:03 protein complex	BoLA-DRB3*105:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*105:03 chain
-BoLA-DRB3*087:02 protein complex	BoLA-DRB3*087:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:02 chain
+BoLA-DRB3*039:01 protein complex	BoLA-DRB3*039:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*039:01 chain
+BoLA-DQB*020:02 protein complex	BoLA-DQB*020:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*020:02 chain
+BoLA-DRB3*010:02 protein complex	BoLA-DRB3*010:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:02 chain
+BoLA-DRB3*064:03 protein complex	BoLA-DRB3*064:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*064:03 chain
+BoLA-DQB*014:01 protein complex	BoLA-DQB*014:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:01 chain
+BoLA-DRB3*024:10 protein complex	BoLA-DRB3*024:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:10 chain
+BoLA-DRB3*027:07 protein complex	BoLA-DRB3*027:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:07 chain
+BoLA-DRB3*117:01 protein complex	BoLA-DRB3*117:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*117:01 chain
+BoLA-DRB3*135:01 protein complex	BoLA-DRB3*135:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*135:01 chain
+BoLA-DRB3*102:01 protein complex	BoLA-DRB3*102:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*102:01 chain
+BoLA-DRB3*114:01 protein complex	BoLA-DRB3*114:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*114:01 chain
+BoLA-DQA*014:01 protein complex	BoLA-DQA*014:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*014:01 chain	BoLA-DQB chain
+BoLA-DQB*018:07 protein complex	BoLA-DQB*018:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:07 chain
+BoLA-DRB3*137:01 protein complex	BoLA-DRB3*137:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*137:01 chain
+BoLA-DRB3*007:03 protein complex	BoLA-DRB3*007:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:03 chain
+BoLA-DRB3*020:01:02 protein complex	BoLA-DRB3*020:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:01:02 chain
+BoLA-DQB*011:01 protein complex	BoLA-DQB*011:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*011:01 chain
+BoLA-DQB*018:08 protein complex	BoLA-DQB*018:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:08 chain
+BoLA-DRB3*020:04 protein complex	BoLA-DRB3*020:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:04 chain
+BoLA-DRB3*100:03 protein complex	BoLA-DRB3*100:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:03 chain
+BoLA-DRB3*093:01 protein complex	BoLA-DRB3*093:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*093:01 chain
+BoLA-DRB3*024:04 protein complex	BoLA-DRB3*024:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:04 chain
+BoLA-DRB3*058:01 protein complex	BoLA-DRB3*058:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*058:01 chain
+BoLA-DRB3*022:01 protein complex	BoLA-DRB3*022:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:01 chain
+BoLA-DRB3*015:06 protein complex	BoLA-DRB3*015:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:06 chain
+BoLA-DQA*022:09 protein complex	BoLA-DQA*022:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:09 chain	BoLA-DQB chain
+BoLA-DRB3*022:15 protein complex	BoLA-DRB3*022:15		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:15 chain
+BoLA-DQB*001:02 protein complex	BoLA-DQB*001:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:02 chain
+BoLA-DRB3*059:01 protein complex	BoLA-DRB3*059:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*059:01 chain
+BoLA-DQA*020:02 protein complex	BoLA-DQA*020:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*020:02 chain	BoLA-DQB chain
 BoLA-DQA*010:02 protein complex	BoLA-DQA*010:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:02 chain	BoLA-DQB chain
-BoLA-DRB3*043:03 protein complex	BoLA-DRB3*043:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:03 chain
-BoLA-DRB3*024:17 protein complex	BoLA-DRB3*024:17		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:17 chain
-BoLA-DRB3*116:03 protein complex	BoLA-DRB3*116:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*116:03 chain
-BoLA-DRB3*073:01 protein complex	BoLA-DRB3*073:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*073:01 chain
-BoLA-DQB*023:01 protein complex	BoLA-DQB*023:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*023:01 chain
-BoLA-DQB*021:01 protein complex	BoLA-DQB*021:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*021:01 chain
-BoLA-DRB3*024:01 protein complex	BoLA-DRB3*024:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:01 chain
+BoLA-DRB3*022:03 protein complex	BoLA-DRB3*022:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:03 chain
+BoLA-DRB3*154:02 protein complex	BoLA-DRB3*154:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*154:02 chain
 BoLA-DRB3*011:02 protein complex	BoLA-DRB3*011:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:02 chain
-BoLA-DRB3*022:06 protein complex	BoLA-DRB3*022:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:06 chain
-BoLA-DRB3*024:28 protein complex	BoLA-DRB3*024:28		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:28 chain
-BoLA-DQA*025:01:01 protein complex	BoLA-DQA*025:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*025:01:01 chain	BoLA-DQB chain
-BoLA-DRB3*020:11 protein complex	BoLA-DRB3*020:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:11 chain
-BoLA-DQA*025:01:02 protein complex	BoLA-DQA*025:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*025:01:02 chain	BoLA-DQB chain
+BoLA-DRB3*021:02 protein complex	BoLA-DRB3*021:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*021:02 chain
+BoLA-DQA*022:03:02 protein complex	BoLA-DQA*022:03:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03:02 chain	BoLA-DQB chain
 BoLA-DRB3*097:03 protein complex	BoLA-DRB3*097:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:03 chain
+BoLA-DQA*034:01 protein complex	BoLA-DQA*034:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*034:01 chain	BoLA-DQB chain
+BoLA-DRB3*020:14 protein complex	BoLA-DRB3*020:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:14 chain
+BoLA-DRB3*015:03 protein complex	BoLA-DRB3*015:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:03 chain
+BoLA-DQB*001:03 protein complex	BoLA-DQB*001:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:03 chain
+BoLA-DQA*028:02 protein complex	BoLA-DQA*028:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*028:02 chain	BoLA-DQB chain
+BoLA-DQB*018:12 protein complex	BoLA-DQB*018:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:12 chain
+BoLA-DRB3*020:01:01 protein complex	BoLA-DRB3*020:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:01:01 chain
+BoLA-DRB3*076:01 protein complex	BoLA-DRB3*076:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*076:01 chain
+BoLA-DQB*024:01 protein complex	BoLA-DQB*024:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*024:01 chain
+BoLA-DQB*014:03 protein complex	BoLA-DQB*014:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:03 chain
+BoLA-DRB3*022:11 protein complex	BoLA-DRB3*022:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:11 chain
+BoLA-DRB3*082:01 protein complex	BoLA-DRB3*082:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*082:01 chain
+BoLA-DRB3*024:05 protein complex	BoLA-DRB3*024:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:05 chain
+BoLA-DRB3*100:01 protein complex	BoLA-DRB3*100:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:01 chain
+BoLA-DRB3*024:13 protein complex	BoLA-DRB3*024:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:13 chain
+BoLA-DRB3*118:01 protein complex	BoLA-DRB3*118:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*118:01 chain
+BoLA-DRB3*124:01 protein complex	BoLA-DRB3*124:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*124:01 chain
+BoLA-DRB3*046:01:01 protein complex	BoLA-DRB3*046:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*046:01:01 chain
+BoLA-DRB3*130:01 protein complex	BoLA-DRB3*130:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*130:01 chain
+BoLA-DRB3*007:04 protein complex	BoLA-DRB3*007:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:04 chain
+BoLA-DRB3*006:01 protein complex	BoLA-DRB3*006:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*006:01 chain
+BoLA-DQA*022:03:03 protein complex	BoLA-DQA*022:03:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03:03 chain	BoLA-DQB chain
+BoLA-DRB3*016:02 protein complex	BoLA-DRB3*016:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*016:02 chain
+BoLA-DRB3*090:04 protein complex	BoLA-DRB3*090:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:04 chain
+BoLA-DRB3*147:01 protein complex	BoLA-DRB3*147:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*147:01 chain
+BoLA-DRB3*005:01 protein complex	BoLA-DRB3*005:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:01 chain
+BoLA-DRB3*144:01 protein complex	BoLA-DRB3*144:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*144:01 chain
+BoLA-DQB*042:01 protein complex	BoLA-DQB*042:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*042:01 chain
+BoLA-DRB3*007:05 protein complex	BoLA-DRB3*007:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:05 chain
+BoLA-DRB3*143:01 protein complex	BoLA-DRB3*143:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*143:01 chain
+BoLA-DQB*014:05 protein complex	BoLA-DQB*014:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:05 chain
+BoLA-DRB3*075:03 protein complex	BoLA-DRB3*075:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*075:03 chain
+BoLA-DQA*011:01 protein complex	BoLA-DQA*011:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*011:01 chain	BoLA-DQB chain
+BoLA-DQA*012:04 protein complex	BoLA-DQA*012:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:04 chain	BoLA-DQB chain
+BoLA-DQB*002:01 protein complex	BoLA-DQB*002:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*002:01 chain
+BoLA-DRB3*074:01 protein complex	BoLA-DRB3*074:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*074:01 chain
+BoLA-DRB3*151:01 protein complex	BoLA-DRB3*151:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*151:01 chain
+BoLA-DQB*041:01 protein complex	BoLA-DQB*041:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*041:01 chain
+BoLA-DQB*020:01 protein complex	BoLA-DQB*020:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*020:01 chain
+BoLA-DQB*040:01 protein complex	BoLA-DQB*040:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*040:01 chain
+BoLA-DRB3*092:01 protein complex	BoLA-DRB3*092:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*092:01 chain
+BoLA-DQB*030:01 protein complex	BoLA-DQB*030:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*030:01 chain
+BoLA-DQB*006:01 protein complex	BoLA-DQB*006:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*006:01 chain
+BoLA-DQA*002:07 protein complex	BoLA-DQA*002:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:07 chain	BoLA-DQB chain
+BoLA-DQA*013:01 protein complex	BoLA-DQA*013:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*013:01 chain	BoLA-DQB chain
+BoLA-DRB3*014:01:02 protein complex	BoLA-DRB3*014:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:01:02 chain
+BoLA-DRB3*018:02 protein complex	BoLA-DRB3*018:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*018:02 chain
+BoLA-DRB3*091:01 protein complex	BoLA-DRB3*091:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*091:01 chain
+BoLA-DRB3*122:01 protein complex	BoLA-DRB3*122:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*122:01 chain
+BoLA-DQB*036:01 protein complex	BoLA-DQB*036:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*036:01 chain
+BoLA-DRB3*014:04 protein complex	BoLA-DRB3*014:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:04 chain
+BoLA-DRB3*088:01 protein complex	BoLA-DRB3*088:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*088:01 chain
+BoLA-DQA*004:01 protein complex	BoLA-DQA*004:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*004:01 chain	BoLA-DQB chain
+BoLA-DQA*029:01 protein complex	BoLA-DQA*029:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*029:01 chain	BoLA-DQB chain
+BoLA-DRB3*048:02 protein complex	BoLA-DRB3*048:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*048:02 chain
+BoLA-DRB3*049:01 protein complex	BoLA-DRB3*049:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*049:01 chain
+BoLA-DRB3*162:01 protein complex	BoLA-DRB3*162:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*162:01 chain
+BoLA-DQB*005:02 protein complex	BoLA-DQB*005:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*005:02 chain
+BoLA-DQB*001:04 protein complex	BoLA-DQB*001:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:04 chain
+BoLA-DRB3*027:04 protein complex	BoLA-DRB3*027:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:04 chain
+BoLA-DQB*004:05 protein complex	BoLA-DQB*004:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:05 chain
+BoLA-DRB3*024:29 protein complex	BoLA-DRB3*024:29		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:29 chain
+BoLA-DRB3*139:01 protein complex	BoLA-DRB3*139:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*139:01 chain
+BoLA-DRB3*022:13 protein complex	BoLA-DRB3*022:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:13 chain
+BoLA-DQA*025:01:01 protein complex	BoLA-DQA*025:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*025:01:01 chain	BoLA-DQB chain
+BoLA-DRB3*010:04 protein complex	BoLA-DRB3*010:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:04 chain
+BoLA-DRB3*031:02 protein complex	BoLA-DRB3*031:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:02 chain
+BoLA-DRB3*011:03 protein complex	BoLA-DRB3*011:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:03 chain
+BoLA-DRB3*028:03 protein complex	BoLA-DRB3*028:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:03 chain
+BoLA-DQB*001:01 protein complex	BoLA-DQB*001:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:01 chain
+BoLA-DQB*009:03 protein complex	BoLA-DQB*009:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*009:03 chain
+BoLA-DRB3*026:01 protein complex	BoLA-DRB3*026:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*026:01 chain
+BoLA-DRB3*100:07 protein complex	BoLA-DRB3*100:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:07 chain
+BoLA-DRB3*031:03 protein complex	BoLA-DRB3*031:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:03 chain
+BoLA-DRB3*087:04 protein complex	BoLA-DRB3*087:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:04 chain
+BoLA-DQB*033:01 protein complex	BoLA-DQB*033:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*033:01 chain
+BoLA-DQB*008:01 protein complex	BoLA-DQB*008:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*008:01 chain
+BoLA-DRB3*018:03 protein complex	BoLA-DRB3*018:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*018:03 chain
+BoLA-DRB3*012:03 protein complex	BoLA-DRB3*012:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*012:03 chain
+BoLA-DRB3*028:04 protein complex	BoLA-DRB3*028:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:04 chain
+BoLA-DQB*010:09 protein complex	BoLA-DQB*010:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:09 chain
+BoLA-DQB*003:03 protein complex	BoLA-DQB*003:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*003:03 chain
+BoLA-DRB3*021:01 protein complex	BoLA-DRB3*021:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*021:01 chain
+BoLA-DQA*002:01 protein complex	BoLA-DQA*002:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:01 chain	BoLA-DQB chain
+BoLA-DRB3*101:01 protein complex	BoLA-DRB3*101:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*101:01 chain
+BoLA-DRB3*011:05 protein complex	BoLA-DRB3*011:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:05 chain
+BoLA-DQB*029:01 protein complex	BoLA-DQB*029:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*029:01 chain
+BoLA-DRB3*025:02 protein complex	BoLA-DRB3*025:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*025:02 chain
+BoLA-DRB3*068:01 protein complex	BoLA-DRB3*068:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*068:01 chain
+BoLA-DRB3*127:01 protein complex	BoLA-DRB3*127:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*127:01 chain
+BoLA-DRB3*037:01 protein complex	BoLA-DRB3*037:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*037:01 chain
+BoLA-DQA*022:02:03 protein complex	BoLA-DQA*022:02:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:03 chain	BoLA-DQB chain
+BoLA-DRB3*022:05 protein complex	BoLA-DRB3*022:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:05 chain
+BoLA-DRB3*108:01 protein complex	BoLA-DRB3*108:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*108:01 chain
+BoLA-DRB3*019:03 protein complex	BoLA-DRB3*019:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:03 chain
+BoLA-DRB3*024:22 protein complex	BoLA-DRB3*024:22		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:22 chain
+BoLA-DRB3*154:01 protein complex	BoLA-DRB3*154:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*154:01 chain
+BoLA-DRB3*161:01 protein complex	BoLA-DRB3*161:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*161:01 chain
+BoLA-DRB3*155:01 protein complex	BoLA-DRB3*155:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*155:01 chain
+BoLA-DRB3*050:01 protein complex	BoLA-DRB3*050:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*050:01 chain
+BoLA-DRB3*114:02 protein complex	BoLA-DRB3*114:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*114:02 chain
+BoLA-DRB3*163:01 protein complex	BoLA-DRB3*163:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*163:01 chain
+BoLA-DRB3*022:12 protein complex	BoLA-DRB3*022:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:12 chain
+BoLA-DRB3*089:01 protein complex	BoLA-DRB3*089:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*089:01 chain
+BoLA-DRB3*032:03 protein complex	BoLA-DRB3*032:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:03 chain
+BoLA-DRB3*004:01 protein complex	BoLA-DRB3*004:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*004:01 chain
+BoLA-DRB3*027:20 protein complex	BoLA-DRB3*027:20		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:20 chain
+BoLA-DRB3*022:09 protein complex	BoLA-DRB3*022:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:09 chain
+BoLA-DRB3*088:02 protein complex	BoLA-DRB3*088:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*088:02 chain
+BoLA-DRB3*005:07 protein complex	BoLA-DRB3*005:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:07 chain
+BoLA-DQB*025:01 protein complex	BoLA-DQB*025:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*025:01 chain
+BoLA-DRB3*020:11 protein complex	BoLA-DRB3*020:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:11 chain
+BoLA-DRB3*084:01 protein complex	BoLA-DRB3*084:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*084:01 chain
+BoLA-DRB3*138:01 protein complex	BoLA-DRB3*138:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*138:01 chain
+BoLA-DQA*020:03 protein complex	BoLA-DQA*020:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*020:03 chain	BoLA-DQB chain
+BoLA-DRB3*020:12 protein complex	BoLA-DRB3*020:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:12 chain
+BoLA-DRB3*126:01 protein complex	BoLA-DRB3*126:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*126:01 chain
+BoLA-DRB3*017:02 protein complex	BoLA-DRB3*017:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*017:02 chain
+BoLA-DRB3*004:02 protein complex	BoLA-DRB3*004:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*004:02 chain
+BoLA-DQA*022:03:01 protein complex	BoLA-DQA*022:03:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03:01 chain	BoLA-DQB chain
+BoLA-DRB3*083:01 protein complex	BoLA-DRB3*083:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*083:01 chain
+BoLA-DQB*010:06 protein complex	BoLA-DQB*010:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:06 chain
+BoLA-DRB3*027:08 protein complex	BoLA-DRB3*027:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:08 chain
+BoLA-DRB3*005:02 protein complex	BoLA-DRB3*005:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:02 chain
+BoLA-DRB3*087:03 protein complex	BoLA-DRB3*087:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:03 chain
+BoLA-DQB*016:01 protein complex	BoLA-DQB*016:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*016:01 chain
+BoLA-DRB3*024:23 protein complex	BoLA-DRB3*024:23		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:23 chain
+BoLA-DRB3*105:03 protein complex	BoLA-DRB3*105:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*105:03 chain
+BoLA-DQA*012:02:01 protein complex	BoLA-DQA*012:02:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:02:01 chain	BoLA-DQB chain
+BoLA-DRB3*013:02 protein complex	BoLA-DRB3*013:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:02 chain
+BoLA-DRB3*103:01 protein complex	BoLA-DRB3*103:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*103:01 chain
+BoLA-DRB3*107:01 protein complex	BoLA-DRB3*107:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*107:01 chain
+BoLA-DRB3*070:01 protein complex	BoLA-DRB3*070:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*070:01 chain
+BoLA-DRB3*095:01 protein complex	BoLA-DRB3*095:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*095:01 chain
+BoLA-DRB3*150:01 protein complex	BoLA-DRB3*150:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*150:01 chain
+BoLA-DRB3*010:03 protein complex	BoLA-DRB3*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:03 chain
+BoLA-DRB3*030:22 protein complex	BoLA-DRB3*030:22		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*030:22 chain
+BoLA-DRB3*024:25 protein complex	BoLA-DRB3*024:25		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:25 chain
+BoLA-DQB*018:02 protein complex	BoLA-DQB*018:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:02 chain
+BoLA-DRB3*029:01 protein complex	BoLA-DRB3*029:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*029:01 chain
+BoLA-DRB3*065:01 protein complex	BoLA-DRB3*065:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*065:01 chain
+BoLA-DQA*013:02 protein complex	BoLA-DQA*013:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*013:02 chain	BoLA-DQB chain
+BoLA-DRB3*085:02 protein complex	BoLA-DRB3*085:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*085:02 chain
+BoLA-DRB3*105:02 protein complex	BoLA-DRB3*105:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*105:02 chain
+BoLA-DQA*022:07 protein complex	BoLA-DQA*022:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:07 chain	BoLA-DQB chain
+BoLA-DRB3*097:05 protein complex	BoLA-DRB3*097:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:05 chain
+BoLA-DRB3*097:06 protein complex	BoLA-DRB3*097:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:06 chain
+BoLA-DRB3*028:06 protein complex	BoLA-DRB3*028:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:06 chain
+BoLA-DRB3*033:01 protein complex	BoLA-DRB3*033:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*033:01 chain
+BoLA-DQA*008:01 protein complex	BoLA-DQA*008:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*008:01 chain	BoLA-DQB chain
+BoLA-DRB3*071:01 protein complex	BoLA-DRB3*071:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*071:01 chain
+BoLA-DRB3*015:04 protein complex	BoLA-DRB3*015:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:04 chain
+BoLA-DRB3*066:01 protein complex	BoLA-DRB3*066:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*066:01 chain
+BoLA-DRB3*116:01 protein complex	BoLA-DRB3*116:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*116:01 chain
+BoLA-DRB3*024:20 protein complex	BoLA-DRB3*024:20		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:20 chain
+BoLA-DRB3*043:03 protein complex	BoLA-DRB3*043:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:03 chain
+BoLA-DRB3*104:01 protein complex	BoLA-DRB3*104:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*104:01 chain
+BoLA-DQA*023:01 protein complex	BoLA-DQA*023:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*023:01 chain	BoLA-DQB chain
+BoLA-DRB3*086:02 protein complex	BoLA-DRB3*086:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:02 chain
+BoLA-DRB3*028:02 protein complex	BoLA-DRB3*028:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:02 chain
+BoLA-DQA*022:08 protein complex	BoLA-DQA*022:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:08 chain	BoLA-DQB chain
+BoLA-DRB3*087:01 protein complex	BoLA-DRB3*087:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:01 chain
+BoLA-DQA*032:01 protein complex	BoLA-DQA*032:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*032:01 chain	BoLA-DQB chain
+BoLA-DQB*028:01 protein complex	BoLA-DQB*028:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*028:01 chain
+BoLA-DRB3*129:01 protein complex	BoLA-DRB3*129:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*129:01 chain
+BoLA-DRB3*096:01 protein complex	BoLA-DRB3*096:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*096:01 chain
+BoLA-DRB3*027:12 protein complex	BoLA-DRB3*027:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:12 chain
+BoLA-DRB3*024:27 protein complex	BoLA-DRB3*024:27		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:27 chain
+BoLA-DRB3*009:01 protein complex	BoLA-DRB3*009:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:01 chain
+BoLA-DRB3*022:14 protein complex	BoLA-DRB3*022:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:14 chain
+BoLA-DQB*016:02 protein complex	BoLA-DQB*016:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*016:02 chain
 BoLA-DRB3*061:01 protein complex	BoLA-DRB3*061:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*061:01 chain
+BoLA-DQB*038:01 protein complex	BoLA-DQB*038:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*038:01 chain
+BoLA-DRB3*019:01 protein complex	BoLA-DRB3*019:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:01 chain
+BoLA-DRB3*027:21 protein complex	BoLA-DRB3*027:21		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:21 chain
+BoLA-DQB*029:03 protein complex	BoLA-DQB*029:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*029:03 chain
+BoLA-DRB3*025:01:02 protein complex	BoLA-DRB3*025:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*025:01:02 chain
+BoLA-DRB3*032:04 protein complex	BoLA-DRB3*032:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:04 chain
+BoLA-DQA*008:02 protein complex	BoLA-DQA*008:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*008:02 chain	BoLA-DQB chain
+BoLA-DQA*027:04 protein complex	BoLA-DQA*027:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:04 chain	BoLA-DQB chain
+BoLA-DRB3*027:09 protein complex	BoLA-DRB3*027:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:09 chain
+BoLA-DRB3*028:01 protein complex	BoLA-DRB3*028:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:01 chain
+BoLA-DQB*039:01 protein complex	BoLA-DQB*039:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*039:01 chain
+BoLA-DRB3*038:01 protein complex	BoLA-DRB3*038:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*038:01 chain
+BoLA-DRB3*020:09 protein complex	BoLA-DRB3*020:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:09 chain
+BoLA-DRB3*081:01 protein complex	BoLA-DRB3*081:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*081:01 chain
+BoLA-DRB3*099:02 protein complex	BoLA-DRB3*099:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*099:02 chain
+BoLA-DQA*001:06 protein complex	BoLA-DQA*001:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:06 chain	BoLA-DQB chain
+BoLA-DRB3*110:01 protein complex	BoLA-DRB3*110:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*110:01 chain
+BoLA-DRB3*159:01 protein complex	BoLA-DRB3*159:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*159:01 chain
+BoLA-DRB3*042:01 protein complex	BoLA-DRB3*042:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*042:01 chain
+BoLA-DRB3*075:02 protein complex	BoLA-DRB3*075:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*075:02 chain
+BoLA-DQB*034:01 protein complex	BoLA-DQB*034:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*034:01 chain
+BoLA-DRB3*081:03 protein complex	BoLA-DRB3*081:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*081:03 chain
+BoLA-DRB3*153:01 protein complex	BoLA-DRB3*153:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*153:01 chain
+BoLA-DRB3*133:01 protein complex	BoLA-DRB3*133:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*133:01 chain
+BoLA-DRB3*050:01:01 protein complex	BoLA-DRB3*050:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*050:01:01 chain
+BoLA-DRB3*020:13 protein complex	BoLA-DRB3*020:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:13 chain
+BoLA-DRB3*027:17 protein complex	BoLA-DRB3*027:17		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:17 chain
+BoLA-DRB3*027:01 protein complex	BoLA-DRB3*027:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:01 chain
+BoLA-DRB3*017:03 protein complex	BoLA-DRB3*017:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*017:03 chain
+BoLA-DRB3*022:06 protein complex	BoLA-DRB3*022:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:06 chain
+BoLA-DRB3*024:24 protein complex	BoLA-DRB3*024:24		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:24 chain
+BoLA-DRB3*004:03 protein complex	BoLA-DRB3*004:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*004:03 chain
+BoLA-DRB3*128:01 protein complex	BoLA-DRB3*128:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*128:01 chain
+BoLA-DRB3*160:01 protein complex	BoLA-DRB3*160:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*160:01 chain
+BoLA-DRB3*106:01 protein complex	BoLA-DRB3*106:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*106:01 chain
+BoLA-DQB*018:01 protein complex	BoLA-DQB*018:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:01 chain
+BoLA-DQA*012:02:02 protein complex	BoLA-DQA*012:02:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:02:02 chain	BoLA-DQB chain
+BoLA-DQB*027:01 protein complex	BoLA-DQB*027:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*027:01 chain
+BoLA-DQA*001:05 protein complex	BoLA-DQA*001:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:05 chain	BoLA-DQB chain
+BoLA-DQB*013:02 protein complex	BoLA-DQB*013:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*013:02 chain
+BoLA-DRB3*040:02 protein complex	BoLA-DRB3*040:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*040:02 chain
+BoLA-DRB3*072:01 protein complex	BoLA-DRB3*072:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*072:01 chain
+BoLA-DRB3*090:05 protein complex	BoLA-DRB3*090:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:05 chain
+BoLA-DRB3*024:03 protein complex	BoLA-DRB3*024:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:03 chain
+BoLA-DQA*031:01 protein complex	BoLA-DQA*031:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*031:01 chain	BoLA-DQB chain
+BoLA-DQA*002:05 protein complex	BoLA-DQA*002:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:05 chain	BoLA-DQB chain
+BoLA-DRB3*081:02 protein complex	BoLA-DRB3*081:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*081:02 chain
+BoLA-DRB3*036:01 protein complex	BoLA-DRB3*036:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*036:01 chain
+BoLA-DRB3*031:01 protein complex	BoLA-DRB3*031:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:01 chain
+BoLA-DQB*004:01 protein complex	BoLA-DQB*004:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:01 chain
+BoLA-DRB3*024:14 protein complex	BoLA-DRB3*024:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:14 chain
+BoLA-DQA*025:01:02 protein complex	BoLA-DQA*025:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*025:01:02 chain	BoLA-DQB chain
+BoLA-DQB*009:02 protein complex	BoLA-DQB*009:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*009:02 chain
+BoLA-DQA*012:03 protein complex	BoLA-DQA*012:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:03 chain	BoLA-DQB chain
+BoLA-DQB*001:05 protein complex	BoLA-DQB*001:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:05 chain
+BoLA-DQA*025:02 protein complex	BoLA-DQA*025:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*025:02 chain	BoLA-DQB chain
+BoLA-DRB3*063:01 protein complex	BoLA-DRB3*063:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*063:01 chain
+BoLA-DRB3*027:02 protein complex	BoLA-DRB3*027:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:02 chain
+BoLA-DQA*012:05 protein complex	BoLA-DQA*012:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:05 chain	BoLA-DQB chain
+BoLA-DRB3*100:06 protein complex	BoLA-DRB3*100:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:06 chain
+BoLA-DRB3*005:04 protein complex	BoLA-DRB3*005:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:04 chain
+BoLA-DQA*030:01 protein complex	BoLA-DQA*030:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*030:01 chain	BoLA-DQB chain
+BoLA-DRB3*027:10 protein complex	BoLA-DRB3*027:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:10 chain
+BoLA-DRB3*005:06 protein complex	BoLA-DRB3*005:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:06 chain
+BoLA-DQA*022:04 protein complex	BoLA-DQA*022:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:04 chain	BoLA-DQB chain
+BoLA-DQB*005:01 protein complex	BoLA-DQB*005:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*005:01 chain
+BoLA-DRB3*087:02 protein complex	BoLA-DRB3*087:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*087:02 chain
+BoLA-DQB*017:02 protein complex	BoLA-DQB*017:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*017:02 chain
+BoLA-DRB3*024:02 protein complex	BoLA-DRB3*024:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:02 chain
+BoLA-DRB3*047:01 protein complex	BoLA-DRB3*047:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*047:01 chain
+BoLA-DRB3*112:03 protein complex	BoLA-DRB3*112:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*112:03 chain
+BoLA-DRB3*086:04 protein complex	BoLA-DRB3*086:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:04 chain
+BoLA-DQB*001:06 protein complex	BoLA-DQB*001:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*001:06 chain
+BoLA-DQA*003:02 protein complex	BoLA-DQA*003:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*003:02 chain	BoLA-DQB chain
+BoLA-DQB*033:02 protein complex	BoLA-DQB*033:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*033:02 chain
+BoLA-DRB3*011:06 protein complex	BoLA-DRB3*011:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:06 chain
+BoLA-DRB3*024:31 protein complex	BoLA-DRB3*024:31		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:31 chain
+BoLA-DQB*003:01 protein complex	BoLA-DQB*003:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*003:01 chain
+BoLA-DQA*027:01:02 protein complex	BoLA-DQA*027:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:01:02 chain	BoLA-DQB chain
+BoLA-DQB*026:01 protein complex	BoLA-DQB*026:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*026:01 chain
+BoLA-DRB3*024:08 protein complex	BoLA-DRB3*024:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:08 chain
+BoLA-DQB*015:01 protein complex	BoLA-DQB*015:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*015:01 chain
+BoLA-DRB3*136:01 protein complex	BoLA-DRB3*136:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*136:01 chain
+BoLA-DRB3*024:21 protein complex	BoLA-DRB3*024:21		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:21 chain
+BoLA-DRB3*043:02 protein complex	BoLA-DRB3*043:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:02 chain
+BoLA-DRB3*086:01 protein complex	BoLA-DRB3*086:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:01 chain
+BoLA-DRB3*040:01 protein complex	BoLA-DRB3*040:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*040:01 chain
+BoLA-DRB3*019:04 protein complex	BoLA-DRB3*019:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:04 chain
+BoLA-DRB3*014:02 protein complex	BoLA-DRB3*014:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:02 chain
+BoLA-DRB3*029:02 protein complex	BoLA-DRB3*029:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*029:02 chain
+BoLA-DRB3*022:08 protein complex	BoLA-DRB3*022:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:08 chain
+BoLA-DRB3*041:01 protein complex	BoLA-DRB3*041:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*041:01 chain
+BoLA-DRB3*048:01 protein complex	BoLA-DRB3*048:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*048:01 chain
+BoLA-DRB3*024:11 protein complex	BoLA-DRB3*024:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:11 chain
+BoLA-DQA*021:01 protein complex	BoLA-DQA*021:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*021:01 chain	BoLA-DQB chain
+BoLA-DRB3*035:01 protein complex	BoLA-DRB3*035:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*035:01 chain
+BoLA-DRB3*086:03 protein complex	BoLA-DRB3*086:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*086:03 chain
+BoLA-DRB3*005:05 protein complex	BoLA-DRB3*005:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*005:05 chain
+BoLA-DRB3*017:01 protein complex	BoLA-DRB3*017:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*017:01 chain
+BoLA-DRB3*100:04 protein complex	BoLA-DRB3*100:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:04 chain
+BoLA-DQB*031:01 protein complex	BoLA-DQB*031:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*031:01 chain
+BoLA-DRB3*024:19 protein complex	BoLA-DRB3*024:19		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:19 chain
+BoLA-DQB*007:01 protein complex	BoLA-DQB*007:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*007:01 chain
+BoLA-DRB3*034:03 protein complex	BoLA-DRB3*034:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*034:03 chain
+BoLA-DQB*018:06 protein complex	BoLA-DQB*018:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:06 chain
+BoLA-DRB3*079:01 protein complex	BoLA-DRB3*079:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*079:01 chain
+BoLA-DRB3*132:01 protein complex	BoLA-DRB3*132:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*132:01 chain
+BoLA-DQB*035:01 protein complex	BoLA-DQB*035:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*035:01 chain
+BoLA-DRB3*009:04 protein complex	BoLA-DRB3*009:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:04 chain
+BoLA-DRB3*032:02 protein complex	BoLA-DRB3*032:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:02 chain
+BoLA-DRB3*149:01 protein complex	BoLA-DRB3*149:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*149:01 chain
+BoLA-DQA*026:02 protein complex	BoLA-DQA*026:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*026:02 chain	BoLA-DQB chain
+BoLA-DRB3*152:01 protein complex	BoLA-DRB3*152:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*152:01 chain
+BoLA-DQB*014:04 protein complex	BoLA-DQB*014:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*014:04 chain
+BoLA-DRB3*097:01 protein complex	BoLA-DRB3*097:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:01 chain
+BoLA-DRB3*011:04 protein complex	BoLA-DRB3*011:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*011:04 chain
+BoLA-DRB3*057:01 protein complex	BoLA-DRB3*057:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*057:01 chain
+BoLA-DQB*018:11 protein complex	BoLA-DQB*018:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:11 chain
+BoLA-DRB3*027:11 protein complex	BoLA-DRB3*027:11		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:11 chain
+BoLA-DRB3*028:05 protein complex	BoLA-DRB3*028:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*028:05 chain
+BoLA-DRB3*080:01 protein complex	BoLA-DRB3*080:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*080:01 chain
+BoLA-DRB3*125:01 protein complex	BoLA-DRB3*125:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*125:01 chain
+BoLA-DRB3*002:02 protein complex	BoLA-DRB3*002:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*002:02 chain
+BoLA-DRB3*032:01 protein complex	BoLA-DRB3*032:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*032:01 chain
+BoLA-DRB3*013:04 protein complex	BoLA-DRB3*013:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:04 chain
+BoLA-DRB3*119:01 protein complex	BoLA-DRB3*119:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*119:01 chain
+BoLA-DRB3*077:02 protein complex	BoLA-DRB3*077:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*077:02 chain
+BoLA-DRB3*025:01:01 protein complex	BoLA-DRB3*025:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*025:01:01 chain
+BoLA-DRB3*145:01 protein complex	BoLA-DRB3*145:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*145:01 chain
+BoLA-DRB3*094:02 protein complex	BoLA-DRB3*094:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*094:02 chain
+BoLA-DRB3*020:02:01 protein complex	BoLA-DRB3*020:02:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:02:01 chain
+BoLA-DQB*003:02 protein complex	BoLA-DQB*003:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*003:02 chain
+BoLA-DQB*017:01 protein complex	BoLA-DQB*017:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*017:01 chain
+BoLA-DRB3*022:04 protein complex	BoLA-DRB3*022:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:04 chain
+BoLA-DRB3*105:01 protein complex	BoLA-DRB3*105:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*105:01 chain
+BoLA-DRB3*013:01 protein complex	BoLA-DRB3*013:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:01 chain
+BoLA-DRB3*097:04 protein complex	BoLA-DRB3*097:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:04 chain
+BoLA-DRB3*085:01 protein complex	BoLA-DRB3*085:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*085:01 chain
+BoLA-DQB*004:03 protein complex	BoLA-DQB*004:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:03 chain
+BoLA-DRB3*064:02 protein complex	BoLA-DRB3*064:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*064:02 chain
+BoLA-DRB3*024:18 protein complex	BoLA-DRB3*024:18		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:18 chain
+BoLA-DQB*021:01 protein complex	BoLA-DQB*021:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*021:01 chain
+BoLA-DRB3*007:06 protein complex	BoLA-DRB3*007:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:06 chain
+BoLA-DQA*010:03 protein complex	BoLA-DQA*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:03 chain	BoLA-DQB chain
+BoLA-DQB*010:01 protein complex	BoLA-DQB*010:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:01 chain
+BoLA-DRB3*019:02 protein complex	BoLA-DRB3*019:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*019:02 chain
+BoLA-DRB3*134:01 protein complex	BoLA-DRB3*134:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*134:01 chain
+BoLA-DRB3*120:01 protein complex	BoLA-DRB3*120:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*120:01 chain
+BoLA-DRB3*156:01 protein complex	BoLA-DRB3*156:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*156:01 chain
+BoLA-DRB3*023:01 protein complex	BoLA-DRB3*023:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*023:01 chain
+BoLA-DRB3*116:02 protein complex	BoLA-DRB3*116:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*116:02 chain
+BoLA-DRB3*062:01 protein complex	BoLA-DRB3*062:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*062:01 chain
+BoLA-DRB3*090:02 protein complex	BoLA-DRB3*090:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:02 chain
+BoLA-DRB3*097:02 protein complex	BoLA-DRB3*097:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*097:02 chain
+BoLA-DQA*010:04 protein complex	BoLA-DQA*010:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:04 chain	BoLA-DQB chain
+BoLA-DRB3*018:04 protein complex	BoLA-DRB3*018:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*018:04 chain
+BoLA-DQA*021:02 protein complex	BoLA-DQA*021:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*021:02 chain	BoLA-DQB chain
+BoLA-DQA*002:08 protein complex	BoLA-DQA*002:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:08 chain	BoLA-DQB chain
+BoLA-DRB3*027:16 protein complex	BoLA-DRB3*027:16		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:16 chain
+BoLA-DRB3*043:01 protein complex	BoLA-DRB3*043:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:01 chain
+BoLA-DQB*029:02 protein complex	BoLA-DQB*029:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*029:02 chain
+BoLA-DRB3*003:03 protein complex	BoLA-DRB3*003:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*003:03 chain
+BoLA-DRB3*098:01 protein complex	BoLA-DRB3*098:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*098:01 chain
+BoLA-DRB3*024:16 protein complex	BoLA-DRB3*024:16		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:16 chain
+BoLA-DQA*028:01 protein complex	BoLA-DQA*028:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*028:01 chain	BoLA-DQB chain
+BoLA-DRB3*003:01 protein complex	BoLA-DRB3*003:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*003:01 chain
+BoLA-DQB*018:09 protein complex	BoLA-DQB*018:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:09 chain
+BoLA-DRB3*090:01 protein complex	BoLA-DRB3*090:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:01 chain
+BoLA-DRB3*121:01 protein complex	BoLA-DRB3*121:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*121:01 chain
+BoLA-DRB3*109:01 protein complex	BoLA-DRB3*109:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*109:01 chain
+BoLA-DQA*002:03 protein complex	BoLA-DQA*002:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:03 chain	BoLA-DQB chain
+BoLA-DRB3*009:02 protein complex	BoLA-DRB3*009:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:02 chain
+BoLA-DRB3*027:13 protein complex	BoLA-DRB3*027:13		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:13 chain
+BoLA-DQB*025:02 protein complex	BoLA-DQB*025:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*025:02 chain
+BoLA-DRB3*131:01 protein complex	BoLA-DRB3*131:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*131:01 chain
+BoLA-DRB3*024:28 protein complex	BoLA-DRB3*024:28		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:28 chain
+BoLA-DRB3*064:01 protein complex	BoLA-DRB3*064:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*064:01 chain
+BoLA-DRB3*015:05 protein complex	BoLA-DRB3*015:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*015:05 chain
+BoLA-DRB3*020:08 protein complex	BoLA-DRB3*020:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:08 chain
+BoLA-DQA*033:01 protein complex	BoLA-DQA*033:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*033:01 chain	BoLA-DQB chain
+BoLA-DQA*001:03 protein complex	BoLA-DQA*001:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:03 chain	BoLA-DQB chain
+BoLA-DQA*026:03 protein complex	BoLA-DQA*026:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*026:03 chain	BoLA-DQB chain
+BoLA-DRB3*024:32 protein complex	BoLA-DRB3*024:32		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:32 chain
+BoLA-DRB3*116:03 protein complex	BoLA-DRB3*116:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*116:03 chain
+BoLA-DRB3*142:01 protein complex	BoLA-DRB3*142:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*142:01 chain
+BoLA-DQA*012:06 protein complex	BoLA-DQA*012:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:06 chain	BoLA-DQB chain
+BoLA-DQA*026:01 protein complex	BoLA-DQA*026:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*026:01 chain	BoLA-DQB chain
+BoLA-DRB3*010:05 protein complex	BoLA-DRB3*010:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*010:05 chain
+BoLA-DQA*012:01:02 protein complex	BoLA-DQA*012:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:02 chain	BoLA-DQB chain
+BoLA-DQB*023:01 protein complex	BoLA-DQB*023:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*023:01 chain
+BoLA-DRB3*034:02 protein complex	BoLA-DRB3*034:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*034:02 chain
+BoLA-DRB3*094:03 protein complex	BoLA-DRB3*094:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*094:03 chain
+BoLA-DRB3*107:02 protein complex	BoLA-DRB3*107:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*107:02 chain
+BoLA-DQA*020:01 protein complex	BoLA-DQA*020:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*020:01 chain	BoLA-DQB chain
+BoLA-DQB*022:01 protein complex	BoLA-DQB*022:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*022:01 chain
+BoLA-DRB3*031:04 protein complex	BoLA-DRB3*031:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*031:04 chain
+BoLA-DRB3*024:09 protein complex	BoLA-DRB3*024:09		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:09 chain
+BoLA-DRB3*027:18 protein complex	BoLA-DRB3*027:18		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:18 chain
+BoLA-DQA*010:01:02 protein complex	BoLA-DQA*010:01:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:01:02 chain	BoLA-DQB chain
+BoLA-DQA*022:05 protein complex	BoLA-DQA*022:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:05 chain	BoLA-DQB chain
+BoLA-DQA*024:01 protein complex	BoLA-DQA*024:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*024:01 chain	BoLA-DQB chain
+BoLA-DRB3*024:07 protein complex	BoLA-DRB3*024:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:07 chain
+BoLA-DRB3*009:03 protein complex	BoLA-DRB3*009:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*009:03 chain
+BoLA-DRB3*060:01 protein complex	BoLA-DRB3*060:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*060:01 chain
+BoLA-DQB*036:02 protein complex	BoLA-DQB*036:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*036:02 chain
+BoLA-DRB3*024:26 protein complex	BoLA-DRB3*024:26		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:26 chain
+BoLA-DRB3*140:01 protein complex	BoLA-DRB3*140:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*140:01 chain
+BoLA-DRB3*027:14 protein complex	BoLA-DRB3*027:14		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:14 chain
+BoLA-DRB3*003:02:01 protein complex	BoLA-DRB3*003:02:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*003:02:01 chain
+BoLA-DQB*037:01 protein complex	BoLA-DQB*037:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*037:01 chain
+BoLA-DRB3*099:01 protein complex	BoLA-DRB3*099:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*099:01 chain
+BoLA-DRB3*024:15 protein complex	BoLA-DRB3*024:15		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:15 chain
+BoLA-DQA*027:01:01 protein complex	BoLA-DQA*027:01:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:01:01 chain	BoLA-DQB chain
+BoLA-DRB3*090:03 protein complex	BoLA-DRB3*090:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*090:03 chain
+BoLA-DQB*018:05 protein complex	BoLA-DQB*018:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:05 chain
+BoLA-DQA*035:01 protein complex	BoLA-DQA*035:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*035:01 chain	BoLA-DQB chain
+BoLA-DQB*027:02 protein complex	BoLA-DQB*027:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*027:02 chain
+BoLA-DQA*001:02 protein complex	BoLA-DQA*001:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:02 chain	BoLA-DQB chain
+BoLA-DRB3*075:01 protein complex	BoLA-DRB3*075:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*075:01 chain
+BoLA-DRB3*094:01 protein complex	BoLA-DRB3*094:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*094:01 chain
+BoLA-DRB3*078:01 protein complex	BoLA-DRB3*078:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*078:01 chain
+BoLA-DRB3*020:03 protein complex	BoLA-DRB3*020:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:03 chain
+BoLA-DRB3*112:02 protein complex	BoLA-DRB3*112:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*112:02 chain
+BoLA-DRB3*100:02 protein complex	BoLA-DRB3*100:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:02 chain
+BoLA-DQB*010:08 protein complex	BoLA-DQB*010:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:08 chain
+BoLA-DQA*001:04 protein complex	BoLA-DQA*001:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*001:04 chain	BoLA-DQB chain
+BoLA-DQA*022:02:02 protein complex	BoLA-DQA*022:02:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:02 chain	BoLA-DQB chain
+BoLA-DRB3*014:03 protein complex	BoLA-DRB3*014:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*014:03 chain
+BoLA-DRB3*027:19 protein complex	BoLA-DRB3*027:19		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:19 chain
+BoLA-DQB*018:04 protein complex	BoLA-DQB*018:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:04 chain
+BoLA-DRB3*027:05 protein complex	BoLA-DRB3*027:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:05 chain
+BoLA-DRB3*044:01 protein complex	BoLA-DRB3*044:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*044:01 chain
+BoLA-DRB3*158:01 protein complex	BoLA-DRB3*158:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*158:01 chain
+BoLA-DRB3*107:03 protein complex	BoLA-DRB3*107:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*107:03 chain
+BoLA-DRB3*007:02 protein complex	BoLA-DRB3*007:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*007:02 chain
+BoLA-DQA*008:03 protein complex	BoLA-DQA*008:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*008:03 chain	BoLA-DQB chain
+BoLA-DQB*019:02 protein complex	BoLA-DQB*019:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*019:02 chain
+BoLA-DRB3*013:03 protein complex	BoLA-DRB3*013:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*013:03 chain
+BoLA-DRB3*024:01 protein complex	BoLA-DRB3*024:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:01 chain
+BoLA-DRB3*077:01 protein complex	BoLA-DRB3*077:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*077:01 chain
+BoLA-DRB3*141:01 protein complex	BoLA-DRB3*141:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*141:01 chain
+BoLA-DRB3*008:01 protein complex	BoLA-DRB3*008:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*008:01 chain
+BoLA-DRB3*100:05 protein complex	BoLA-DRB3*100:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:05 chain
+BoLA-DQB*018:04:02 protein complex	BoLA-DQB*018:04:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:04:02 chain
+BoLA-DRB3*001:03 protein complex	BoLA-DRB3*001:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*001:03 chain
+BoLA-DRB3*067:01 protein complex	BoLA-DRB3*067:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*067:01 chain
+BoLA-DQB*004:04 protein complex	BoLA-DQB*004:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*004:04 chain
+BoLA-DQB*008:02 protein complex	BoLA-DQB*008:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*008:02 chain
+BoLA-DRB3*022:10 protein complex	BoLA-DRB3*022:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:10 chain
+BoLA-DRB3*027:06 protein complex	BoLA-DRB3*027:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:06 chain
+BoLA-DQA*027:02 protein complex	BoLA-DQA*027:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:02 chain	BoLA-DQB chain
+BoLA-DRB3*146:01 protein complex	BoLA-DRB3*146:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*146:01 chain
+BoLA-DRB3*115:01 protein complex	BoLA-DRB3*115:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*115:01 chain
+BoLA-DRB3*020:10 protein complex	BoLA-DRB3*020:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:10 chain
+BoLA-DQB*010:03 protein complex	BoLA-DQB*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*010:03 chain
+BoLA-DRB3*024:12 protein complex	BoLA-DRB3*024:12		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:12 chain
+BoLA-DRB3*030:02 protein complex	BoLA-DRB3*030:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*030:02 chain
+BoLA-DQB*018:10 protein complex	BoLA-DQB*018:10		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:10 chain
+BoLA-DRB3*111:01 protein complex	BoLA-DRB3*111:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*111:01 chain
+BoLA-DRB3*100:08 protein complex	BoLA-DRB3*100:08		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*100:08 chain
+BoLA-DRB3*024:30 protein complex	BoLA-DRB3*024:30		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:30 chain
+BoLA-DRB3*034:01 protein complex	BoLA-DRB3*034:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*034:01 chain
+BoLA-DRB3*020:05 protein complex	BoLA-DRB3*020:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:05 chain
+BoLA-DRB3*123:01 protein complex	BoLA-DRB3*123:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*123:01 chain
+BoLA-DRB3*027:15 protein complex	BoLA-DRB3*027:15		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:15 chain
+BoLA-DRB3*073:01 protein complex	BoLA-DRB3*073:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*073:01 chain
+BoLA-DRB3*024:17 protein complex	BoLA-DRB3*024:17		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*024:17 chain
+BoLA-DRB3*057:02 protein complex	BoLA-DRB3*057:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*057:02 chain
+BoLA-DRB3*008:02 protein complex	BoLA-DRB3*008:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*008:02 chain
+BoLA-DQA*002:06 protein complex	BoLA-DQA*002:06		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*002:06 chain	BoLA-DQB chain
+BoLA-DRB3*112:01 protein complex	BoLA-DRB3*112:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*112:01 chain
+BoLA-DQA*027:03 protein complex	BoLA-DQA*027:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*027:03 chain	BoLA-DQB chain
+BoLA-DRB3*022:07 protein complex	BoLA-DRB3*022:07		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*022:07 chain
+BoLA-DQB*018:03 protein complex	BoLA-DQB*018:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA chain	BoLA-DQB*018:03 chain
