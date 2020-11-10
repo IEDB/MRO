@@ -115,9 +115,7 @@ build/validation_errors.tsv: src/scripts/validate_templates.py index.tsv iedb/ie
 build/validation_errors_strict.tsv: src/scripts/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
 	python3 $< index.tsv iedb/iedb.tsv build $@
 
-VALVE_CONFIG_MASTER := $(foreach f,$(shell ls src/validation),src/validation/$(f))
-VALVE_CONFIG := $(foreach f,$(shell ls src/validation),build/valve/$(f))
-VALVE_TABLES := $(foreach f,$(shell ls ontology | grep .tsv),build/valve/$(f))
+VALVE_CONFIG := $(foreach f,$(shell ls src/validation),src/validation/$(f))
 
 $(VALVE_CONFIG): $(VALVE_CONFIG_MASTER) | build/valve
 	cp src/validation/* build/valve
@@ -125,8 +123,8 @@ $(VALVE_CONFIG): $(VALVE_CONFIG_MASTER) | build/valve
 build/valve/%.tsv: ontology/%.tsv | build/valve
 	cp $< $@
 
-build/validation_valve.tsv: $(VALVE_CONFIG) $(VALVE_TABLES)
-	valve -D build/valve -o $@ -r 3
+build/validation_valve.tsv: $(VALVE_CONFIG) $(source_files)
+	valve src/validation ontology -o $@ -r 3
 
 apply_%: build/validation_%.tsv | .cogs
 	cogs clear all
