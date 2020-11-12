@@ -17742,7 +17742,7 @@ HLA-G*01:20 protein complex	17834	G
 HLA-G*01:22 protein complex	17835	G		
 HLA-G*01:23 protein complex	17836	G		
 HLA-G*01:24 protein complex	17837	G		
-BoLA-DQA*010:02 protein complex	17838	DQ		
+Mamu-E*02:11 protein complex	17838	E		
 BoLA-DRB3*081:01 protein complex	17839	DRB3		
 BoLA-DQB*032:01 protein complex	17840	DQ		
 BoLA-DRB3*064:03 protein complex	17841	DRB3		
@@ -18348,4 +18348,4 @@ BoLA-2*055:01 protein complex	18440	2
 BoLA-DRB3*090:01 protein complex	18441	DRB3		
 BoLA-DRB3*016:02 protein complex	18442	DRB3		
 BoLA-DQB*005:01 protein complex	18443	DQ		
-Mamu-E*02:11 protein complex	18444	E		
+BoLA-DQA*010:02 protein complex	18444	DQ		
