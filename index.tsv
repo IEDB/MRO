@@ -939,7 +939,7 @@ MRO:0000935	BoLA-DQA*002:02 protein complex	owl:Class
 MRO:0000936	BoLA-DQA*003:01 protein complex	owl:Class	
 MRO:0000937	BoLA-DQA*003:01/DQB*004:02 protein complex	owl:Class	
 MRO:0000938	BoLA-DQA*010:01:01/DQB*010:02:01 protein complex	owl:Class	
-MRO:0000939	BoLA-DQA*012:01:01/DQB*10051 protein complex	owl:Class	
+MRO:0000939	BoLA-DQA*012:01:01/DQB*10:05 protein complex	owl:Class	
 MRO:0000940	BoLA-DQA*022:01/DQB*012:01 protein complex	owl:Class	
 MRO:0000941	BoLA-DQA*022:02:01/DQB*009:01 protein complex	owl:Class	
 MRO:0000942	BoLA-DQA*022:02:01/DQB*013:01 protein complex	owl:Class	
@@ -958,7 +958,7 @@ MRO:0000954	BoLA-DRB3*015:02 protein complex	owl:Class
 MRO:0000955	BoLA-DRB3*020:02 protein complex	owl:Class	
 MRO:0000956	BoLA-DRB3*027:03 protein complex	owl:Class	
 MRO:0000957	BoLA-DRB3*030:01 protein complex	owl:Class	
-MRO:0000958	BoLA-DRB3*4501 protein complex	owl:Class	
+MRO:0000958	BoLA-DRB3*045:01 protein complex	owl:Class	
 MRO:0000959	DLA-88 protein complex	owl:Class	
 MRO:0000960	DLA-88*50801 protein complex	owl:Class	
 MRO:0000961	ELA-N protein complex	owl:Class	
@@ -35799,3 +35799,5 @@ MRO:0035795	SLA-DRA chain	owl:Class
 MRO:0035796	SLA-DRA locus	owl:Class	
 MRO:0035797	SLA-DR protein complex	owl:Class	
 MRO:0035798	SLA-3 protein complex	owl:Class	
+MRO:0035799	Mamu-E*02:11 chain	owl:Class	
+MRO:0035800	Mamu-E*02:11 protein complex	owl:Class	

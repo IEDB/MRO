@@ -145,7 +145,7 @@ BoLA-DQA*003:01 protein complex	148	DQ	300436
 BoLA-DR protein complex	149	DR		
 BoLA-DRB3*001:01 protein complex	150	DRB3		300497
 BoLA-DRB3*030:01 protein complex	151	DRB3		300498
-BoLA-DRB3*4501 protein complex	152	DRB3		300505
+BoLA-DRB3*045:01 protein complex	152	DRB3		300505
 human CD1a protein complex	153	CD1	300486	56585
 human CD1b protein complex	154	CD1	300488	56585
 human CD1c protein complex	155	CD1	300489	56585
@@ -489,7 +489,7 @@ HLA-DPA1*02:01/DPB1*01:01 protein complex	523	DP	300694	300697
 HLA-DQA1*05:05/DQB1*03:01 protein complex	524	DQ	300724	300728
 BoLA-DQA*003:01/DQB*004:02 protein complex	525	DQ	300436	300499
 BoLA-DQA*010:01:01/DQB*010:02:01 protein complex	526	DQ	300437	300501
-BoLA-DQA*012:01:01/DQB*10051 protein complex	527	DQ	300482	300491
+BoLA-DQA*012:01:01/DQB*10:05 protein complex	527	DQ	300482	300491
 BoLA-DQA*022:01/DQB*012:01 protein complex	528	DQ	300483	300514
 BoLA-DQA*2206/DQB*014:02 protein complex	529	DQ		300504
 BoLA-DQA*2206/DQB*013:01 protein complex	530	DQ		300508
@@ -17742,3 +17742,4 @@ HLA-G*01:20 protein complex	17834	G
 HLA-G*01:22 protein complex	17835	G		
 HLA-G*01:23 protein complex	17836	G		
 HLA-G*01:24 protein complex	17837	G		
+Mamu-E*02:11 protein complex	17838	E		
