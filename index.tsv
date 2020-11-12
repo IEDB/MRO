@@ -35799,1217 +35799,1218 @@ MRO:0035795	SLA-DRA chain	owl:Class
 MRO:0035796	SLA-DRA locus	owl:Class	
 MRO:0035797	SLA-DR protein complex	owl:Class	
 MRO:0035798	SLA-3 protein complex	owl:Class	
-MRO:0035799	BoLA-DRB3*121:02 chain	owl:Class
-MRO:0035800	BoLA-DQB*032:01 chain	owl:Class
-MRO:0035801	BoLA-DRB3*022:02 chain	owl:Class
-MRO:0035802	BoLA-DRB3*157:01 chain	owl:Class
-MRO:0035803	BoLA-3*050:01 chain	owl:Class
-MRO:0035804	BoLA-DRB3*148:01 chain	owl:Class
-MRO:0035805	BoLA-DRB3*051:01 chain	owl:Class
-MRO:0035806	BoLA-DRB3*069:01 chain	owl:Class
-MRO:0035807	BoLA-DRB3*113:01 chain	owl:Class
-MRO:0035808	BoLA-DQB*019:01 chain	owl:Class
-MRO:0035809	BoLA-DRB3*039:01 chain	owl:Class
-MRO:0035810	BoLA-DQB*020:02 chain	owl:Class
-MRO:0035811	BoLA-DRB3*010:02 chain	owl:Class
-MRO:0035812	BoLA-DRB3*064:03 chain	owl:Class
-MRO:0035813	BoLA-DQB*014:01 chain	owl:Class
-MRO:0035814	BoLA-6*092:02 chain	owl:Class
-MRO:0035815	BoLA-2*008:02 chain	owl:Class
-MRO:0035816	BoLA-DRB3*024:10 chain	owl:Class
-MRO:0035817	BoLA-DRB3*027:07 chain	owl:Class
-MRO:0035818	BoLA-DRB3*117:01 chain	owl:Class
-MRO:0035819	BoLA-3*037:01 chain	owl:Class
-MRO:0035820	BoLA-DRB3*135:01 chain	owl:Class
-MRO:0035821	BoLA-DRB3*102:01 chain	owl:Class
-MRO:0035822	BoLA-2*006:01 chain	owl:Class
-MRO:0035823	BoLA-DRB3*114:01 chain	owl:Class
-MRO:0035824	BoLA-6*093:01 chain	owl:Class
-MRO:0035825	BoLA-DQA*014:01 chain	owl:Class
-MRO:0035826	BoLA-DQB*018:07 chain	owl:Class
-MRO:0035827	BoLA-DRB3*137:01 chain	owl:Class
-MRO:0035828	BoLA-DRB3*007:03 chain	owl:Class
-MRO:0035829	BoLA-1*028:01 chain	owl:Class
-MRO:0035830	BoLA-2*045:01 chain	owl:Class
-MRO:0035831	BoLA-DRB3*020:01:02 chain	owl:Class
-MRO:0035832	BoLA-DQB*011:01 chain	owl:Class
-MRO:0035833	BoLA-DQB*018:08 chain	owl:Class
-MRO:0035834	BoLA-DRB3*020:04 chain	owl:Class
-MRO:0035835	BoLA-2*075:01 chain	owl:Class
-MRO:0035836	BoLA-DRB3*100:03 chain	owl:Class
-MRO:0035837	BoLA-DRB3*093:01 chain	owl:Class
-MRO:0035838	BoLA-DRB3*024:04 chain	owl:Class
-MRO:0035839	BoLA-DRB3*058:01 chain	owl:Class
-MRO:0035840	BoLA-DRB3*022:01 chain	owl:Class
-MRO:0035841	BoLA-DRB3*015:06 chain	owl:Class
-MRO:0035842	BoLA-DQA*022:09 chain	owl:Class
-MRO:0035843	BoLA-DRB3*022:15 chain	owl:Class
-MRO:0035844	BoLA-DQB*001:02 chain	owl:Class
-MRO:0035845	BoLA-3*001:02 chain	owl:Class
-MRO:0035846	BoLA-DQA*020:02 chain	owl:Class
-MRO:0035847	BoLA-DRB3*059:01 chain	owl:Class
-MRO:0035848	BoLA-DQA*010:02 chain	owl:Class
-MRO:0035849	BoLA-DRB3*022:03 chain	owl:Class
-MRO:0035850	BoLA-DRB3*154:02 chain	owl:Class
-MRO:0035851	BoLA-DRB3*011:02 chain	owl:Class
-MRO:0035852	BoLA-DRB3*021:02 chain	owl:Class
-MRO:0035853	BoLA-DQA*022:03:02 chain	owl:Class
-MRO:0035854	BoLA-DRB3*097:03 chain	owl:Class
-MRO:0035855	BoLA-DQA*034:01 chain	owl:Class
-MRO:0035856	BoLA-DRB3*020:14 chain	owl:Class
-MRO:0035857	BoLA-DRB3*015:03 chain	owl:Class
-MRO:0035858	BoLA-DQB*001:03 chain	owl:Class
-MRO:0035859	BoLA-DQA*028:02 chain	owl:Class
-MRO:0035860	BoLA-DQB*018:12 chain	owl:Class
-MRO:0035861	BoLA-DRB3*020:01:01 chain	owl:Class
-MRO:0035862	BoLA-DRB3*076:01 chain	owl:Class
-MRO:0035863	BoLA-DQB*024:01 chain	owl:Class
-MRO:0035864	BoLA-1*009:02 chain	owl:Class
-MRO:0035865	BoLA-2*030:01 chain	owl:Class
-MRO:0035866	BoLA-DQB*014:03 chain	owl:Class
-MRO:0035867	BoLA-DRB3*022:11 chain	owl:Class
-MRO:0035868	BoLA-DRB3*082:01 chain	owl:Class
-MRO:0035869	BoLA-3*004:02 chain	owl:Class
-MRO:0035870	BoLA-2*070:01 chain	owl:Class
-MRO:0035871	BoLA-3*068:01 chain	owl:Class
-MRO:0035872	BoLA-DRB3*024:05 chain	owl:Class
-MRO:0035873	BoLA-DRB3*100:01 chain	owl:Class
-MRO:0035874	BoLA-DRB3*024:13 chain	owl:Class
-MRO:0035875	BoLA-DRB3*118:01 chain	owl:Class
-MRO:0035876	BoLA-DRB3*124:01 chain	owl:Class
-MRO:0035877	BoLA-DRB3*046:01:01 chain	owl:Class
-MRO:0035878	BoLA-DRB3*130:01 chain	owl:Class
-MRO:0035879	BoLA-DRB3*007:04 chain	owl:Class
-MRO:0035880	BoLA-DRB3*006:01 chain	owl:Class
-MRO:0035881	BoLA-DQA*022:03:03 chain	owl:Class
-MRO:0035882	BoLA-DRB3*016:02 chain	owl:Class
-MRO:0035883	BoLA-DRB3*090:04 chain	owl:Class
-MRO:0035884	BoLA-DRB3*147:01 chain	owl:Class
-MRO:0035885	BoLA-DRB3*005:01 chain	owl:Class
-MRO:0035886	BoLA-3*038:01 chain	owl:Class
-MRO:0035887	BoLA-DQB*042:01 chain	owl:Class
-MRO:0035888	BoLA-DRB3*144:01 chain	owl:Class
-MRO:0035889	BoLA-2*057:01 chain	owl:Class
-MRO:0035890	BoLA-DRB3*007:05 chain	owl:Class
-MRO:0035891	BoLA-DRB3*143:01 chain	owl:Class
-MRO:0035892	BoLA-1*009:01 chain	owl:Class
-MRO:0035893	BoLA-2*071:01 chain	owl:Class
-MRO:0035894	BoLA-DQB*014:05 chain	owl:Class
-MRO:0035895	BoLA-DRB3*075:03 chain	owl:Class
-MRO:0035896	BoLA-DQA*011:01 chain	owl:Class
-MRO:0035897	BoLA-DQA*012:04 chain	owl:Class
-MRO:0035898	BoLA-3*058:01 chain	owl:Class
-MRO:0035899	BoLA-DQB*002:01 chain	owl:Class
-MRO:0035900	BoLA-2*026:03 chain	owl:Class
-MRO:0035901	BoLA-DRB3*074:01 chain	owl:Class
-MRO:0035902	BoLA-DQB*041:01 chain	owl:Class
-MRO:0035903	BoLA-DRB3*151:01 chain	owl:Class
-MRO:0035904	BoLA-DQB*020:01 chain	owl:Class
-MRO:0035905	BoLA-DQB*040:01 chain	owl:Class
-MRO:0035906	BoLA-1*042:01 chain	owl:Class
-MRO:0035907	BoLA-2*008:03 chain	owl:Class
-MRO:0035908	BoLA-DRB3*092:01 chain	owl:Class
-MRO:0035909	BoLA-DQB*030:01 chain	owl:Class
-MRO:0035910	BoLA-2*060:02 chain	owl:Class
-MRO:0035911	BoLA-3*004:04 chain	owl:Class
-MRO:0035912	BoLA-DQB*006:01 chain	owl:Class
-MRO:0035913	BoLA-DQA*002:07 chain	owl:Class
-MRO:0035914	BoLA-4*076:01 chain	owl:Class
-MRO:0035915	BoLA-DQA*013:01 chain	owl:Class
-MRO:0035916	BoLA-DRB3*014:01:02 chain	owl:Class
-MRO:0035917	BoLA-DRB3*018:02 chain	owl:Class
-MRO:0035918	BoLA-3*066:02 chain	owl:Class
-MRO:0035919	BoLA-DRB3*091:01 chain	owl:Class
-MRO:0035920	BoLA-DRB3*122:01 chain	owl:Class
-MRO:0035921	BoLA-DQB*036:01 chain	owl:Class
-MRO:0035922	BoLA-2*060:01 chain	owl:Class
-MRO:0035923	BoLA-DRB3*014:04 chain	owl:Class
-MRO:0035924	BoLA-DRB3*088:01 chain	owl:Class
-MRO:0035925	BoLA-DQA*004:01 chain	owl:Class
-MRO:0035926	BoLA-6*034:01 chain	owl:Class
-MRO:0035927	BoLA-DRB3*048:02 chain	owl:Class
-MRO:0035928	BoLA-DRB3*049:01 chain	owl:Class
-MRO:0035929	BoLA-DQA*029:01 chain	owl:Class
-MRO:0035930	BoLA-DQB*005:02 chain	owl:Class
-MRO:0035931	BoLA-DRB3*162:01 chain	owl:Class
-MRO:0035932	BoLA-DQB*001:04 chain	owl:Class
-MRO:0035933	BoLA-DRB3*027:04 chain	owl:Class
-MRO:0035934	BoLA-DQB*004:05 chain	owl:Class
-MRO:0035935	BoLA-DRB3*024:29 chain	owl:Class
-MRO:0035936	BoLA-DRB3*139:01 chain	owl:Class
-MRO:0035937	BoLA-DRB3*022:13 chain	owl:Class
-MRO:0035938	BoLA-DQA*025:01:01 chain	owl:Class
-MRO:0035939	BoLA-DRB3*010:04 chain	owl:Class
-MRO:0035940	BoLA-3*050:02 chain	owl:Class
-MRO:0035941	BoLA-2*016:01 chain	owl:Class
-MRO:0035942	BoLA-DRB3*031:02 chain	owl:Class
-MRO:0035943	BoLA-DRB3*011:03 chain	owl:Class
-MRO:0035944	BoLA-DRB3*028:03 chain	owl:Class
-MRO:0035945	BoLA-DQB*001:01 chain	owl:Class
-MRO:0035946	BoLA-DQB*009:03 chain	owl:Class
-MRO:0035947	BoLA-DRB3*026:01 chain	owl:Class
-MRO:0035948	BoLA-DRB3*100:07 chain	owl:Class
-MRO:0035949	BoLA-DRB3*031:03 chain	owl:Class
-MRO:0035950	BoLA-DRB3*087:04 chain	owl:Class
-MRO:0035951	BoLA-DQB*033:01 chain	owl:Class
-MRO:0035952	BoLA-DQB*008:01 chain	owl:Class
-MRO:0035953	BoLA-DRB3*018:03 chain	owl:Class
-MRO:0035954	BoLA-DRB3*012:03 chain	owl:Class
-MRO:0035955	BoLA-DRB3*028:04 chain	owl:Class
-MRO:0035956	BoLA-1*061:01 chain	owl:Class
-MRO:0035957	BoLA-DQB*010:09 chain	owl:Class
-MRO:0035958	BoLA-DQB*003:03 chain	owl:Class
-MRO:0035959	BoLA-DRB3*021:01 chain	owl:Class
-MRO:0035960	BoLA-DQA*002:01 chain	owl:Class
-MRO:0035961	BoLA-DRB3*101:01 chain	owl:Class
-MRO:0035962	BoLA-DRB3*011:05 chain	owl:Class
-MRO:0035963	BoLA-DQB*029:01 chain	owl:Class
-MRO:0035964	BoLA-3*017:02 chain	owl:Class
-MRO:0035965	BoLA-6*015:01 chain	owl:Class
-MRO:0035966	BoLA-DRB3*025:02 chain	owl:Class
-MRO:0035967	BoLA-DRB3*068:01 chain	owl:Class
-MRO:0035968	BoLA-2*044:02 chain	owl:Class
-MRO:0035969	BoLA-3*027:02 chain	owl:Class
-MRO:0035970	BoLA-DRB3*127:01 chain	owl:Class
-MRO:0035971	BoLA-DRB3*037:01 chain	owl:Class
-MRO:0035972	BoLA-DQA*022:02:03 chain	owl:Class
-MRO:0035973	BoLA-DRB3*022:05 chain	owl:Class
-MRO:0035974	BoLA-DRB3*108:01 chain	owl:Class
-MRO:0035975	BoLA-DRB3*019:03 chain	owl:Class
-MRO:0035976	BoLA-DRB3*024:22 chain	owl:Class
-MRO:0035977	BoLA-DRB3*154:01 chain	owl:Class
-MRO:0035978	BoLA-DRB3*161:01 chain	owl:Class
-MRO:0035979	BoLA-DRB3*155:01 chain	owl:Class
-MRO:0035980	BoLA-DRB3*050:01 chain	owl:Class
-MRO:0035981	BoLA-DRB3*114:02 chain	owl:Class
-MRO:0035982	BoLA-2*096:01 chain	owl:Class
-MRO:0035983	BoLA-DRB3*163:01 chain	owl:Class
-MRO:0035984	BoLA-DRB3*022:12 chain	owl:Class
-MRO:0035985	BoLA-DRB3*089:01 chain	owl:Class
-MRO:0035986	BoLA-DRB3*032:03 chain	owl:Class
-MRO:0035987	BoLA-DRB3*004:01 chain	owl:Class
-MRO:0035988	BoLA-DRB3*027:20 chain	owl:Class
-MRO:0035989	BoLA-DRB3*022:09 chain	owl:Class
-MRO:0035990	BoLA-DRB3*088:02 chain	owl:Class
-MRO:0035991	BoLA-DRB3*005:07 chain	owl:Class
-MRO:0035992	BoLA-DQB*025:01 chain	owl:Class
-MRO:0035993	BoLA-DRB3*020:11 chain	owl:Class
-MRO:0035994	BoLA-DRB3*084:01 chain	owl:Class
-MRO:0035995	BoLA-DRB3*138:01 chain	owl:Class
-MRO:0035996	BoLA-6*015:02 chain	owl:Class
-MRO:0035997	BoLA-DQA*020:03 chain	owl:Class
-MRO:0035998	BoLA-DRB3*020:12 chain	owl:Class
-MRO:0035999	BoLA-DRB3*126:01 chain	owl:Class
-MRO:0036000	BoLA-DRB3*017:02 chain	owl:Class
-MRO:0036001	BoLA-6*092:01 chain	owl:Class
-MRO:0036002	BoLA-1*007:01:01:02 chain	owl:Class
-MRO:0036003	BoLA-DRB3*004:02 chain	owl:Class
-MRO:0036004	BoLA-DQA*022:03:01 chain	owl:Class
-MRO:0036005	BoLA-DRB3*083:01 chain	owl:Class
-MRO:0036006	BoLA-DQB*010:06 chain	owl:Class
-MRO:0036007	BoLA-DRB3*027:08 chain	owl:Class
-MRO:0036008	BoLA-DRB3*005:02 chain	owl:Class
-MRO:0036009	BoLA-DRB3*087:03 chain	owl:Class
-MRO:0036010	BoLA-3*073:01 chain	owl:Class
-MRO:0036011	BoLA-DQB*016:01 chain	owl:Class
-MRO:0036012	BoLA-DRB3*024:23 chain	owl:Class
-MRO:0036013	BoLA-DRB3*105:03 chain	owl:Class
-MRO:0036014	BoLA-DQA*012:02:01 chain	owl:Class
-MRO:0036015	BoLA-DRB3*013:02 chain	owl:Class
-MRO:0036016	BoLA-DRB3*103:01 chain	owl:Class
-MRO:0036017	BoLA-DRB3*107:01 chain	owl:Class
-MRO:0036018	BoLA-DRB3*070:01 chain	owl:Class
-MRO:0036019	BoLA-DRB3*095:01 chain	owl:Class
-MRO:0036020	BoLA-DRB3*150:01 chain	owl:Class
-MRO:0036021	BoLA-DRB3*010:03 chain	owl:Class
-MRO:0036022	BoLA-4*095:01 chain	owl:Class
-MRO:0036023	BoLA-DRB3*030:22 chain	owl:Class
-MRO:0036024	BoLA-DRB3*024:25 chain	owl:Class
-MRO:0036025	BoLA-DQB*018:02 chain	owl:Class
-MRO:0036026	BoLA-DRB3*029:01 chain	owl:Class
-MRO:0036027	BoLA-DRB3*065:01 chain	owl:Class
-MRO:0036028	BoLA-DQA*013:02 chain	owl:Class
-MRO:0036029	BoLA-DRB3*085:02 chain	owl:Class
-MRO:0036030	BoLA-DRB3*105:02 chain	owl:Class
-MRO:0036031	BoLA-DQA*022:07 chain	owl:Class
-MRO:0036032	BoLA-6*014:02 chain	owl:Class
-MRO:0036033	BoLA-DRB3*097:05 chain	owl:Class
-MRO:0036034	BoLA-DRB3*097:06 chain	owl:Class
-MRO:0036035	BoLA-DRB3*028:06 chain	owl:Class
-MRO:0036036	BoLA-DRB3*033:01 chain	owl:Class
-MRO:0036037	BoLA-DQA*008:01 chain	owl:Class
-MRO:0036038	BoLA-DRB3*071:01 chain	owl:Class
-MRO:0036039	BoLA-DRB3*015:04 chain	owl:Class
-MRO:0036040	BoLA-1*067:01 chain	owl:Class
-MRO:0036041	BoLA-DRB3*066:01 chain	owl:Class
-MRO:0036042	BoLA-4*024:02 chain	owl:Class
-MRO:0036043	BoLA-2*062:01 chain	owl:Class
-MRO:0036044	BoLA-3*035:01 chain	owl:Class
-MRO:0036045	BoLA-DRB3*116:01 chain	owl:Class
-MRO:0036046	BoLA-DRB3*024:20 chain	owl:Class
-MRO:0036047	BoLA-DRB3*043:03 chain	owl:Class
-MRO:0036048	BoLA-DRB3*104:01 chain	owl:Class
-MRO:0036049	BoLA-2*018:02 chain	owl:Class
-MRO:0036050	BoLA-DQA*023:01 chain	owl:Class
-MRO:0036051	BoLA-DRB3*086:02 chain	owl:Class
-MRO:0036052	BoLA-DRB3*028:02 chain	owl:Class
-MRO:0036053	BoLA-DQA*022:08 chain	owl:Class
-MRO:0036054	BoLA-DRB3*087:01 chain	owl:Class
-MRO:0036055	BoLA-DQA*032:01 chain	owl:Class
-MRO:0036056	BoLA-DQB*028:01 chain	owl:Class
-MRO:0036057	BoLA-1*074:01 chain	owl:Class
-MRO:0036058	BoLA-DRB3*129:01 chain	owl:Class
-MRO:0036059	BoLA-DRB3*096:01 chain	owl:Class
-MRO:0036060	BoLA-DRB3*027:12 chain	owl:Class
-MRO:0036061	BoLA-DRB3*024:27 chain	owl:Class
-MRO:0036062	BoLA-DRB3*009:01 chain	owl:Class
-MRO:0036063	BoLA-2*005:01 chain	owl:Class
-MRO:0036064	BoLA-3*052:01 chain	owl:Class
-MRO:0036065	BoLA-DRB3*022:14 chain	owl:Class
-MRO:0036066	BoLA-DQB*016:02 chain	owl:Class
-MRO:0036067	BoLA-2*025:01 chain	owl:Class
-MRO:0036068	BoLA-DRB3*061:01 chain	owl:Class
-MRO:0036069	BoLA-DQB*038:01 chain	owl:Class
-MRO:0036070	BoLA-DRB3*019:01 chain	owl:Class
-MRO:0036071	BoLA-DRB3*027:21 chain	owl:Class
-MRO:0036072	BoLA-DQB*029:03 chain	owl:Class
-MRO:0036073	BoLA-DRB3*025:01:02 chain	owl:Class
-MRO:0036074	BoLA-6*090:01 chain	owl:Class
-MRO:0036075	BoLA-DRB3*032:04 chain	owl:Class
-MRO:0036076	BoLA-DQA*008:02 chain	owl:Class
-MRO:0036077	BoLA-DQA*027:04 chain	owl:Class
-MRO:0036078	BoLA-1*020:01 chain	owl:Class
-MRO:0036079	BoLA-2*026:02 chain	owl:Class
-MRO:0036080	BoLA-DRB3*027:09 chain	owl:Class
-MRO:0036081	BoLA-DRB3*028:01 chain	owl:Class
-MRO:0036082	BoLA-DQB*039:01 chain	owl:Class
-MRO:0036083	BoLA-1*007:01:01:01 chain	owl:Class
-MRO:0036084	BoLA-DRB3*038:01 chain	owl:Class
-MRO:0036085	BoLA-DRB3*020:09 chain	owl:Class
-MRO:0036086	BoLA-DRB3*081:01 chain	owl:Class
-MRO:0036087	BoLA-DRB3*099:02 chain	owl:Class
-MRO:0036088	BoLA-6*014:01 chain	owl:Class
-MRO:0036089	BoLA-DQA*001:06 chain	owl:Class
-MRO:0036090	BoLA-2*016:03 chain	owl:Class
-MRO:0036091	BoLA-4*063:01 chain	owl:Class
-MRO:0036092	BoLA-3*059:01 chain	owl:Class
-MRO:0036093	BoLA-DRB3*110:01 chain	owl:Class
-MRO:0036094	BoLA-3*082:01 chain	owl:Class
-MRO:0036095	BoLA-DRB3*159:01 chain	owl:Class
-MRO:0036096	BoLA-2*047:01 chain	owl:Class
-MRO:0036097	BoLA-DRB3*042:01 chain	owl:Class
-MRO:0036098	BoLA-DRB3*075:02 chain	owl:Class
-MRO:0036099	BoLA-DQB*034:01 chain	owl:Class
-MRO:0036100	BoLA-DRB3*081:03 chain	owl:Class
-MRO:0036101	BoLA-DRB3*050:01:01 chain	owl:Class
-MRO:0036102	BoLA-DRB3*133:01 chain	owl:Class
-MRO:0036103	BoLA-DRB3*020:13 chain	owl:Class
-MRO:0036104	BoLA-DRB3*027:17 chain	owl:Class
-MRO:0036105	BoLA-DRB3*153:01 chain	owl:Class
-MRO:0036106	BoLA-DRB3*027:01 chain	owl:Class
-MRO:0036107	BoLA-DRB3*017:03 chain	owl:Class
-MRO:0036108	BoLA-DRB3*022:06 chain	owl:Class
-MRO:0036109	BoLA-DRB3*024:24 chain	owl:Class
-MRO:0036110	BoLA-DRB3*004:03 chain	owl:Class
-MRO:0036111	BoLA-DRB3*128:01 chain	owl:Class
-MRO:0036112	BoLA-DRB3*160:01 chain	owl:Class
-MRO:0036113	BoLA-DRB3*106:01 chain	owl:Class
-MRO:0036114	BoLA-DQB*018:01 chain	owl:Class
-MRO:0036115	BoLA-3*017:03 chain	owl:Class
-MRO:0036116	BoLA-DQA*012:02:02 chain	owl:Class
-MRO:0036117	BoLA-DQB*027:01 chain	owl:Class
-MRO:0036118	BoLA-DQA*001:05 chain	owl:Class
-MRO:0036119	BoLA-DQB*013:02 chain	owl:Class
-MRO:0036120	BoLA-DRB3*040:02 chain	owl:Class
-MRO:0036121	BoLA-DRB3*072:01 chain	owl:Class
-MRO:0036122	BoLA-DRB3*090:05 chain	owl:Class
-MRO:0036123	BoLA-DRB3*024:03 chain	owl:Class
-MRO:0036124	BoLA-DQA*031:01 chain	owl:Class
-MRO:0036125	BoLA-DQA*002:05 chain	owl:Class
-MRO:0036126	BoLA-2*055:01 chain	owl:Class
-MRO:0036127	BoLA-DRB3*081:02 chain	owl:Class
-MRO:0036128	BoLA-DRB3*036:01 chain	owl:Class
-MRO:0036129	BoLA-DRB3*031:01 chain	owl:Class
-MRO:0036130	BoLA-DQB*004:01 chain	owl:Class
-MRO:0036131	BoLA-DRB3*024:14 chain	owl:Class
-MRO:0036132	BoLA-DQA*025:01:02 chain	owl:Class
-MRO:0036133	BoLA-1*029:01 chain	owl:Class
-MRO:0036134	BoLA-DQB*009:02 chain	owl:Class
-MRO:0036135	BoLA-DQA*012:03 chain	owl:Class
-MRO:0036136	BoLA-3*036:01 chain	owl:Class
-MRO:0036137	BoLA-DQB*001:05 chain	owl:Class
-MRO:0036138	BoLA-DQA*025:02 chain	owl:Class
-MRO:0036139	BoLA-DRB3*063:01 chain	owl:Class
-MRO:0036140	BoLA-DRB3*027:02 chain	owl:Class
-MRO:0036141	BoLA-DQA*012:05 chain	owl:Class
-MRO:0036142	BoLA-DRB3*100:06 chain	owl:Class
-MRO:0036143	BoLA-DRB3*005:04 chain	owl:Class
-MRO:0036144	BoLA-DQA*030:01 chain	owl:Class
-MRO:0036145	BoLA-DRB3*027:10 chain	owl:Class
-MRO:0036146	BoLA-2*043:01 chain	owl:Class
-MRO:0036147	BoLA-DRB3*005:06 chain	owl:Class
-MRO:0036148	BoLA-DQA*022:04 chain	owl:Class
-MRO:0036149	BoLA-3*083:01 chain	owl:Class
-MRO:0036150	BoLA-DQB*005:01 chain	owl:Class
-MRO:0036151	BoLA-DRB3*087:02 chain	owl:Class
-MRO:0036152	BoLA-DQB*017:02 chain	owl:Class
-MRO:0036153	BoLA-DRB3*024:02 chain	owl:Class
-MRO:0036154	BoLA-DRB3*047:01 chain	owl:Class
-MRO:0036155	BoLA-3*004:01 chain	owl:Class
-MRO:0036156	BoLA-DRB3*112:03 chain	owl:Class
-MRO:0036157	BoLA-DRB3*086:04 chain	owl:Class
-MRO:0036158	BoLA-3*081:01 chain	owl:Class
-MRO:0036159	BoLA-DQB*001:06 chain	owl:Class
-MRO:0036160	BoLA-DQA*003:02 chain	owl:Class
-MRO:0036161	BoLA-DQB*033:02 chain	owl:Class
-MRO:0036162	BoLA-DRB3*011:06 chain	owl:Class
-MRO:0036163	BoLA-DRB3*024:31 chain	owl:Class
-MRO:0036164	BoLA-DQB*003:01 chain	owl:Class
-MRO:0036165	BoLA-DQA*027:01:02 chain	owl:Class
-MRO:0036166	BoLA-DQB*026:01 chain	owl:Class
-MRO:0036167	BoLA-DRB3*024:08 chain	owl:Class
-MRO:0036168	BoLA-DQB*015:01 chain	owl:Class
-MRO:0036169	BoLA-DRB3*136:01 chain	owl:Class
-MRO:0036170	BoLA-2*026:04 chain	owl:Class
-MRO:0036171	BoLA-DRB3*024:21 chain	owl:Class
-MRO:0036172	BoLA-DRB3*043:02 chain	owl:Class
-MRO:0036173	BoLA-DRB3*086:01 chain	owl:Class
-MRO:0036174	BoLA-DRB3*040:01 chain	owl:Class
-MRO:0036175	BoLA-DRB3*019:04 chain	owl:Class
-MRO:0036176	BoLA-DRB3*014:02 chain	owl:Class
-MRO:0036177	BoLA-1*031:01 chain	owl:Class
-MRO:0036178	BoLA-DRB3*029:02 chain	owl:Class
-MRO:0036179	BoLA-DRB3*022:08 chain	owl:Class
-MRO:0036180	BoLA-DRB3*041:01 chain	owl:Class
-MRO:0036181	BoLA-DRB3*048:01 chain	owl:Class
-MRO:0036182	BoLA-DRB3*024:11 chain	owl:Class
-MRO:0036183	BoLA-DQA*021:01 chain	owl:Class
-MRO:0036184	BoLA-DRB3*035:01 chain	owl:Class
-MRO:0036185	BoLA-DRB3*086:03 chain	owl:Class
-MRO:0036186	BoLA-DRB3*005:05 chain	owl:Class
-MRO:0036187	BoLA-DRB3*017:01 chain	owl:Class
-MRO:0036188	BoLA-DRB3*100:04 chain	owl:Class
-MRO:0036189	BoLA-DQB*031:01 chain	owl:Class
-MRO:0036190	BoLA-DRB3*024:19 chain	owl:Class
-MRO:0036191	BoLA-DQB*007:01 chain	owl:Class
-MRO:0036192	BoLA-DRB3*034:03 chain	owl:Class
-MRO:0036193	BoLA-DQB*018:06 chain	owl:Class
-MRO:0036194	BoLA-DRB3*079:01 chain	owl:Class
-MRO:0036195	BoLA-DRB3*132:01 chain	owl:Class
-MRO:0036196	BoLA-DQB*035:01 chain	owl:Class
-MRO:0036197	BoLA-2*085:01 chain	owl:Class
-MRO:0036198	BoLA-DRB3*009:04 chain	owl:Class
-MRO:0036199	BoLA-2*079:01 chain	owl:Class
-MRO:0036200	BoLA-DRB3*032:02 chain	owl:Class
-MRO:0036201	BoLA-2*069:01 chain	owl:Class
-MRO:0036202	BoLA-DRB3*149:01 chain	owl:Class
-MRO:0036203	BoLA-DQA*026:02 chain	owl:Class
-MRO:0036204	BoLA-DRB3*152:01 chain	owl:Class
-MRO:0036205	BoLA-DQB*014:04 chain	owl:Class
-MRO:0036206	BoLA-DRB3*097:01 chain	owl:Class
-MRO:0036207	BoLA-DRB3*011:04 chain	owl:Class
-MRO:0036208	BoLA-DRB3*057:01 chain	owl:Class
-MRO:0036209	BoLA-DQB*018:11 chain	owl:Class
-MRO:0036210	BoLA-2*071:02 chain	owl:Class
-MRO:0036211	BoLA-DRB3*027:11 chain	owl:Class
-MRO:0036212	BoLA-DRB3*028:05 chain	owl:Class
-MRO:0036213	BoLA-DRB3*080:01 chain	owl:Class
-MRO:0036214	BoLA-DRB3*125:01 chain	owl:Class
-MRO:0036215	BoLA-DRB3*002:02 chain	owl:Class
-MRO:0036216	BoLA-DRB3*032:01 chain	owl:Class
-MRO:0036217	BoLA-DRB3*013:04 chain	owl:Class
-MRO:0036218	BoLA-DRB3*119:01 chain	owl:Class
-MRO:0036219	BoLA-DRB3*077:02 chain	owl:Class
-MRO:0036220	BoLA-6*091:01 chain	owl:Class
-MRO:0036221	BoLA-DRB3*025:01:01 chain	owl:Class
-MRO:0036222	BoLA-DRB3*145:01 chain	owl:Class
-MRO:0036223	BoLA-3*051:01 chain	owl:Class
-MRO:0036224	BoLA-DRB3*094:02 chain	owl:Class
-MRO:0036225	BoLA-DRB3*020:02:01 chain	owl:Class
-MRO:0036226	BoLA-DQB*003:02 chain	owl:Class
-MRO:0036227	BoLA-DQB*017:01 chain	owl:Class
-MRO:0036228	BoLA-DRB3*022:04 chain	owl:Class
-MRO:0036229	BoLA-DRB3*105:01 chain	owl:Class
-MRO:0036230	BoLA-DRB3*013:01 chain	owl:Class
-MRO:0036231	BoLA-DRB3*097:04 chain	owl:Class
-MRO:0036232	BoLA-DRB3*085:01 chain	owl:Class
-MRO:0036233	BoLA-2*048:01 chain	owl:Class
-MRO:0036234	BoLA-DQB*004:03 chain	owl:Class
-MRO:0036235	BoLA-2*016:02 chain	owl:Class
-MRO:0036236	BoLA-2*088:01 chain	owl:Class
-MRO:0036237	BoLA-DRB3*064:02 chain	owl:Class
-MRO:0036238	BoLA-DRB3*024:18 chain	owl:Class
-MRO:0036239	BoLA-4*094:01 chain	owl:Class
-MRO:0036240	BoLA-DQB*021:01 chain	owl:Class
-MRO:0036241	BoLA-DRB3*007:06 chain	owl:Class
-MRO:0036242	BoLA-DQA*010:03 chain	owl:Class
-MRO:0036243	BoLA-DQB*010:01 chain	owl:Class
-MRO:0036244	BoLA-DRB3*019:02 chain	owl:Class
-MRO:0036245	BoLA-DRB3*134:01 chain	owl:Class
-MRO:0036246	BoLA-DRB3*120:01 chain	owl:Class
-MRO:0036247	BoLA-2*046:01 chain	owl:Class
-MRO:0036248	BoLA-2*089:01 chain	owl:Class
-MRO:0036249	BoLA-DRB3*156:01 chain	owl:Class
-MRO:0036250	BoLA-DRB3*023:01 chain	owl:Class
-MRO:0036251	BoLA-DRB3*116:02 chain	owl:Class
-MRO:0036252	BoLA-DRB3*062:01 chain	owl:Class
-MRO:0036253	BoLA-3*001:03 chain	owl:Class
-MRO:0036254	BoLA-DRB3*090:02 chain	owl:Class
-MRO:0036255	BoLA-DRB3*097:02 chain	owl:Class
-MRO:0036256	BoLA-DQA*010:04 chain	owl:Class
-MRO:0036257	BoLA-DRB3*018:04 chain	owl:Class
-MRO:0036258	BoLA-DQA*021:02 chain	owl:Class
-MRO:0036259	BoLA-DQA*002:08 chain	owl:Class
-MRO:0036260	BoLA-DRB3*027:16 chain	owl:Class
-MRO:0036261	BoLA-DRB3*043:01 chain	owl:Class
-MRO:0036262	BoLA-DQB*029:02 chain	owl:Class
-MRO:0036263	BoLA-DRB3*003:03 chain	owl:Class
-MRO:0036264	BoLA-DRB3*098:01 chain	owl:Class
-MRO:0036265	BoLA-DRB3*024:16 chain	owl:Class
-MRO:0036266	BoLA-DQA*028:01 chain	owl:Class
-MRO:0036267	BoLA-DRB3*003:01 chain	owl:Class
-MRO:0036268	BoLA-DQB*018:09 chain	owl:Class
-MRO:0036269	BoLA-DRB3*090:01 chain	owl:Class
-MRO:0036270	BoLA-DRB3*121:01 chain	owl:Class
-MRO:0036271	BoLA-DRB3*109:01 chain	owl:Class
-MRO:0036272	BoLA-DQA*002:03 chain	owl:Class
-MRO:0036273	BoLA-DRB3*009:02 chain	owl:Class
-MRO:0036274	BoLA-DRB3*027:13 chain	owl:Class
-MRO:0036275	BoLA-2*026:01 chain	owl:Class
-MRO:0036276	BoLA-DQB*025:02 chain	owl:Class
-MRO:0036277	BoLA-DRB3*131:01 chain	owl:Class
-MRO:0036278	BoLA-DRB3*024:28 chain	owl:Class
-MRO:0036279	BoLA-DRB3*064:01 chain	owl:Class
-MRO:0036280	BoLA-DRB3*015:05 chain	owl:Class
-MRO:0036281	BoLA-6*040:01 chain	owl:Class
-MRO:0036282	BoLA-DRB3*020:08 chain	owl:Class
-MRO:0036283	BoLA-DQA*033:01 chain	owl:Class
-MRO:0036284	BoLA-2*006:02 chain	owl:Class
-MRO:0036285	BoLA-DQA*001:03 chain	owl:Class
-MRO:0036286	BoLA-DQA*026:03 chain	owl:Class
-MRO:0036287	BoLA-DRB3*024:32 chain	owl:Class
-MRO:0036288	BoLA-DRB3*116:03 chain	owl:Class
-MRO:0036289	BoLA-DRB3*142:01 chain	owl:Class
-MRO:0036290	BoLA-DQA*012:06 chain	owl:Class
-MRO:0036291	BoLA-DQA*026:01 chain	owl:Class
-MRO:0036292	BoLA-DRB3*010:05 chain	owl:Class
-MRO:0036293	BoLA-DQA*012:01:02 chain	owl:Class
-MRO:0036294	BoLA-DQB*023:01 chain	owl:Class
-MRO:0036295	BoLA-DRB3*034:02 chain	owl:Class
-MRO:0036296	BoLA-DRB3*094:03 chain	owl:Class
-MRO:0036297	BoLA-DRB3*107:02 chain	owl:Class
-MRO:0036298	BoLA-DQA*020:01 chain	owl:Class
-MRO:0036299	BoLA-2*032:02 chain	owl:Class
-MRO:0036300	BoLA-3*065:01 chain	owl:Class
-MRO:0036301	BoLA-DQB*022:01 chain	owl:Class
-MRO:0036302	BoLA-DRB3*031:04 chain	owl:Class
-MRO:0036303	BoLA-DRB3*024:09 chain	owl:Class
-MRO:0036304	BoLA-DRB3*027:18 chain	owl:Class
-MRO:0036305	BoLA-DQA*010:01:02 chain	owl:Class
-MRO:0036306	BoLA-DQA*022:05 chain	owl:Class
-MRO:0036307	BoLA-DQA*024:01 chain	owl:Class
-MRO:0036308	BoLA-DRB3*024:07 chain	owl:Class
-MRO:0036309	BoLA-DRB3*009:03 chain	owl:Class
-MRO:0036310	BoLA-3*066:01 chain	owl:Class
-MRO:0036311	BoLA-1*097:01 chain	owl:Class
-MRO:0036312	BoLA-DRB3*060:01 chain	owl:Class
-MRO:0036313	BoLA-DQB*036:02 chain	owl:Class
-MRO:0036314	BoLA-4*024:01:01:02 chain	owl:Class
-MRO:0036315	BoLA-DRB3*024:26 chain	owl:Class
-MRO:0036316	BoLA-2*056:01 chain	owl:Class
-MRO:0036317	BoLA-DRB3*140:01 chain	owl:Class
-MRO:0036318	BoLA-DRB3*027:14 chain	owl:Class
-MRO:0036319	BoLA-DRB3*003:02:01 chain	owl:Class
-MRO:0036320	BoLA-DQB*037:01 chain	owl:Class
-MRO:0036321	BoLA-DRB3*099:01 chain	owl:Class
-MRO:0036322	BoLA-DRB3*024:15 chain	owl:Class
-MRO:0036323	BoLA-DQA*027:01:01 chain	owl:Class
-MRO:0036324	BoLA-DRB3*090:03 chain	owl:Class
-MRO:0036325	BoLA-3*078:02 chain	owl:Class
-MRO:0036326	BoLA-DQB*018:05 chain	owl:Class
-MRO:0036327	BoLA-DQA*035:01 chain	owl:Class
-MRO:0036328	BoLA-DQB*027:02 chain	owl:Class
-MRO:0036329	BoLA-DQA*001:02 chain	owl:Class
-MRO:0036330	BoLA-2*044:01 chain	owl:Class
-MRO:0036331	BoLA-DRB3*075:01 chain	owl:Class
-MRO:0036332	BoLA-DRB3*094:01 chain	owl:Class
-MRO:0036333	BoLA-DRB3*078:01 chain	owl:Class
-MRO:0036334	BoLA-DRB3*020:03 chain	owl:Class
-MRO:0036335	BoLA-3*010:01 chain	owl:Class
-MRO:0036336	BoLA-DRB3*112:02 chain	owl:Class
-MRO:0036337	BoLA-DRB3*100:02 chain	owl:Class
-MRO:0036338	BoLA-DQB*010:08 chain	owl:Class
-MRO:0036339	BoLA-DQA*001:04 chain	owl:Class
-MRO:0036340	BoLA-DQA*022:02:02 chain	owl:Class
-MRO:0036341	BoLA-3*027:01 chain	owl:Class
-MRO:0036342	BoLA-DRB3*014:03 chain	owl:Class
-MRO:0036343	BoLA-DRB3*027:19 chain	owl:Class
-MRO:0036344	BoLA-DQB*018:04 chain	owl:Class
-MRO:0036345	BoLA-DRB3*027:05 chain	owl:Class
-MRO:0036346	BoLA-DRB3*044:01 chain	owl:Class
-MRO:0036347	BoLA-DRB3*158:01 chain	owl:Class
-MRO:0036348	BoLA-4*077:01 chain	owl:Class
-MRO:0036349	BoLA-DRB3*107:03 chain	owl:Class
-MRO:0036350	BoLA-DRB3*007:02 chain	owl:Class
-MRO:0036351	BoLA-DQA*008:03 chain	owl:Class
-MRO:0036352	BoLA-3*017:01 chain	owl:Class
-MRO:0036353	BoLA-DQB*019:02 chain	owl:Class
-MRO:0036354	BoLA-DRB3*013:03 chain	owl:Class
-MRO:0036355	BoLA-3*087:01 chain	owl:Class
-MRO:0036356	BoLA-DRB3*024:01 chain	owl:Class
-MRO:0036357	BoLA-3*011:01 chain	owl:Class
-MRO:0036358	BoLA-DRB3*077:01 chain	owl:Class
-MRO:0036359	BoLA-3*004:03 chain	owl:Class
-MRO:0036360	BoLA-3*010:02 chain	owl:Class
-MRO:0036361	BoLA-2*045:02 chain	owl:Class
-MRO:0036362	BoLA-DRB3*141:01 chain	owl:Class
-MRO:0036363	BoLA-DRB3*008:01 chain	owl:Class
-MRO:0036364	BoLA-DRB3*100:05 chain	owl:Class
-MRO:0036365	BoLA-3*080:01 chain	owl:Class
-MRO:0036366	BoLA-1*031:02 chain	owl:Class
-MRO:0036367	BoLA-DQB*018:04:02 chain	owl:Class
-MRO:0036368	BoLA-DRB3*001:03 chain	owl:Class
-MRO:0036369	BoLA-DRB3*067:01 chain	owl:Class
-MRO:0036370	BoLA-4*076:02 chain	owl:Class
-MRO:0036371	BoLA-DQB*004:04 chain	owl:Class
-MRO:0036372	BoLA-3*078:01 chain	owl:Class
-MRO:0036373	BoLA-DQB*008:02 chain	owl:Class
-MRO:0036374	BoLA-DRB3*022:10 chain	owl:Class
-MRO:0036375	BoLA-DRB3*027:06 chain	owl:Class
-MRO:0036376	BoLA-DQA*027:02 chain	owl:Class
-MRO:0036377	BoLA-1*049:01 chain	owl:Class
-MRO:0036378	BoLA-DRB3*146:01 chain	owl:Class
-MRO:0036379	BoLA-DRB3*115:01 chain	owl:Class
-MRO:0036380	BoLA-DRB3*020:10 chain	owl:Class
-MRO:0036381	BoLA-DQB*010:03 chain	owl:Class
-MRO:0036382	BoLA-DRB3*024:12 chain	owl:Class
-MRO:0036383	BoLA-DRB3*030:02 chain	owl:Class
-MRO:0036384	BoLA-DQB*018:10 chain	owl:Class
-MRO:0036385	BoLA-DRB3*111:01 chain	owl:Class
-MRO:0036386	BoLA-DRB3*100:08 chain	owl:Class
-MRO:0036387	BoLA-DRB3*024:30 chain	owl:Class
-MRO:0036388	BoLA-DRB3*034:01 chain	owl:Class
-MRO:0036389	BoLA-2*054:01 chain	owl:Class
-MRO:0036390	BoLA-DRB3*020:05 chain	owl:Class
-MRO:0036391	BoLA-DRB3*123:01 chain	owl:Class
-MRO:0036392	BoLA-DRB3*027:15 chain	owl:Class
-MRO:0036393	BoLA-DRB3*073:01 chain	owl:Class
-MRO:0036394	BoLA-DRB3*024:17 chain	owl:Class
-MRO:0036395	BoLA-DRB3*057:02 chain	owl:Class
-MRO:0036396	BoLA-3*066:03 chain	owl:Class
-MRO:0036397	BoLA-DRB3*008:02 chain	owl:Class
-MRO:0036398	BoLA-DQA*002:06 chain	owl:Class
-MRO:0036399	BoLA-DRB3*112:01 chain	owl:Class
-MRO:0036400	BoLA-DQA*027:03 chain	owl:Class
-MRO:0036401	BoLA-DRB3*022:07 chain	owl:Class
-MRO:0036402	BoLA-3*053:01 chain	owl:Class
-MRO:0036403	BoLA-DQB*018:03 chain	owl:Class
-MRO:0036404	BoLA-2*006:03 chain	owl:Class
-MRO:0036405	BoLA-DQA*010:02 protein complex	owl:Class
-MRO:0036406	BoLA-DRB3*081:01 protein complex	owl:Class
-MRO:0036407	BoLA-DQB*032:01 protein complex	owl:Class
-MRO:0036408	BoLA-DRB3*064:03 protein complex	owl:Class
-MRO:0036409	BoLA-DQA*027:04 protein complex	owl:Class
-MRO:0036410	BoLA-2*057:01 protein complex	owl:Class
-MRO:0036411	BoLA-1*061:01 protein complex	owl:Class
-MRO:0036412	BoLA-DQB*004:05 protein complex	owl:Class
-MRO:0036413	BoLA-DRB3*027:07 protein complex	owl:Class
-MRO:0036414	BoLA-DRB3*005:01 protein complex	owl:Class
-MRO:0036415	BoLA-DQA*022:08 protein complex	owl:Class
-MRO:0036416	BoLA-2*056:01 protein complex	owl:Class
-MRO:0036417	BoLA-DRB3*124:01 protein complex	owl:Class
-MRO:0036418	BoLA-DRB3*017:02 protein complex	owl:Class
-MRO:0036419	BoLA-DRB3*149:01 protein complex	owl:Class
-MRO:0036420	BoLA-DRB3*114:02 protein complex	owl:Class
-MRO:0036421	BoLA-DRB3*019:04 protein complex	owl:Class
-MRO:0036422	BoLA-DRB3*105:03 protein complex	owl:Class
-MRO:0036423	BoLA-DRB3*024:15 protein complex	owl:Class
-MRO:0036424	BoLA-3*059:01 protein complex	owl:Class
-MRO:0036425	BoLA-3*027:02 protein complex	owl:Class
-MRO:0036426	BoLA-DRB3*024:13 protein complex	owl:Class
-MRO:0036427	BoLA-DQA*012:05 protein complex	owl:Class
-MRO:0036428	BoLA-DQB*023:01 protein complex	owl:Class
-MRO:0036429	BoLA-DQB*018:07 protein complex	owl:Class
-MRO:0036430	BoLA-DQA*022:02:03 protein complex	owl:Class
-MRO:0036431	BoLA-DRB3*005:02 protein complex	owl:Class
-MRO:0036432	BoLA-3*052:01 protein complex	owl:Class
-MRO:0036433	BoLA-DQA*013:02 protein complex	owl:Class
-MRO:0036434	BoLA-DRB3*136:01 protein complex	owl:Class
-MRO:0036435	BoLA-DRB3*002:02 protein complex	owl:Class
-MRO:0036436	BoLA-2*043:01 protein complex	owl:Class
-MRO:0036437	BoLA-DQB*018:01 protein complex	owl:Class
-MRO:0036438	BoLA-DRB3*024:30 protein complex	owl:Class
-MRO:0036439	BoLA-DRB3*131:01 protein complex	owl:Class
-MRO:0036440	BoLA-DRB3*032:04 protein complex	owl:Class
-MRO:0036441	BoLA-3*087:01 protein complex	owl:Class
-MRO:0036442	BoLA-DRB3*075:01 protein complex	owl:Class
-MRO:0036443	BoLA-DRB3*024:28 protein complex	owl:Class
-MRO:0036444	BoLA-DRB3*048:01 protein complex	owl:Class
-MRO:0036445	BoLA-DRB3*090:03 protein complex	owl:Class
-MRO:0036446	BoLA-DQB*010:03 protein complex	owl:Class
-MRO:0036447	BoLA-DRB3*019:01 protein complex	owl:Class
-MRO:0036448	BoLA-3*073:01 protein complex	owl:Class
-MRO:0036449	BoLA-DRB3*034:02 protein complex	owl:Class
-MRO:0036450	BoLA-DQB*003:03 protein complex	owl:Class
-MRO:0036451	BoLA-DRB3*017:01 protein complex	owl:Class
-MRO:0036452	BoLA-2*069:01 protein complex	owl:Class
-MRO:0036453	BoLA-DRB3*007:02 protein complex	owl:Class
-MRO:0036454	BoLA-DQB*034:01 protein complex	owl:Class
-MRO:0036455	BoLA-DRB3*114:01 protein complex	owl:Class
-MRO:0036456	BoLA-DRB3*072:01 protein complex	owl:Class
-MRO:0036457	BoLA-DQB*001:05 protein complex	owl:Class
-MRO:0036458	BoLA-DRB3*022:06 protein complex	owl:Class
-MRO:0036459	BoLA-DQB*018:02 protein complex	owl:Class
-MRO:0036460	BoLA-DRB3*086:02 protein complex	owl:Class
-MRO:0036461	BoLA-DRB3*027:21 protein complex	owl:Class
-MRO:0036462	BoLA-DRB3*024:25 protein complex	owl:Class
-MRO:0036463	BoLA-DQA*008:01 protein complex	owl:Class
-MRO:0036464	BoLA-DRB3*116:03 protein complex	owl:Class
-MRO:0036465	BoLA-DRB3*024:19 protein complex	owl:Class
-MRO:0036466	BoLA-DRB3*051:01 protein complex	owl:Class
-MRO:0036467	BoLA-DRB3*116:02 protein complex	owl:Class
-MRO:0036468	BoLA-DRB3*014:03 protein complex	owl:Class
-MRO:0036469	BoLA-DQA*008:03 protein complex	owl:Class
-MRO:0036470	BoLA-DRB3*157:01 protein complex	owl:Class
-MRO:0036471	BoLA-DQB*019:02 protein complex	owl:Class
-MRO:0036472	BoLA-DRB3*015:03 protein complex	owl:Class
-MRO:0036473	BoLA-DQA*020:03 protein complex	owl:Class
-MRO:0036474	BoLA-DRB3*078:01 protein complex	owl:Class
-MRO:0036475	BoLA-DQB*001:06 protein complex	owl:Class
-MRO:0036476	BoLA-DRB3*096:01 protein complex	owl:Class
-MRO:0036477	BoLA-DRB3*020:03 protein complex	owl:Class
-MRO:0036478	BoLA-DRB3*117:01 protein complex	owl:Class
-MRO:0036479	BoLA-DRB3*065:01 protein complex	owl:Class
-MRO:0036480	BoLA-2*071:02 protein complex	owl:Class
-MRO:0036481	BoLA-DRB3*048:02 protein complex	owl:Class
-MRO:0036482	BoLA-DRB3*058:01 protein complex	owl:Class
-MRO:0036483	BoLA-DRB3*069:01 protein complex	owl:Class
-MRO:0036484	BoLA-2*026:04 protein complex	owl:Class
-MRO:0036485	BoLA-DRB3*024:21 protein complex	owl:Class
-MRO:0036486	BoLA-2*044:01 protein complex	owl:Class
-MRO:0036487	BoLA-DRB3*020:05 protein complex	owl:Class
-MRO:0036488	BoLA-3*080:01 protein complex	owl:Class
-MRO:0036489	BoLA-6*092:02 protein complex	owl:Class
-MRO:0036490	BoLA-DQB*028:01 protein complex	owl:Class
-MRO:0036491	BoLA-DQA*012:02:01 protein complex	owl:Class
-MRO:0036492	BoLA-DRB3*005:06 protein complex	owl:Class
-MRO:0036493	BoLA-DRB3*005:07 protein complex	owl:Class
-MRO:0036494	BoLA-6*090:01 protein complex	owl:Class
-MRO:0036495	BoLA-DQB*019:01 protein complex	owl:Class
-MRO:0036496	BoLA-DQA*025:01:02 protein complex	owl:Class
-MRO:0036497	BoLA-DQB*025:02 protein complex	owl:Class
-MRO:0036498	BoLA-DQB*024:01 protein complex	owl:Class
-MRO:0036499	BoLA-DRB3*022:10 protein complex	owl:Class
-MRO:0036500	BoLA-DRB3*033:01 protein complex	owl:Class
-MRO:0036501	BoLA-DRB3*106:01 protein complex	owl:Class
-MRO:0036502	BoLA-DRB3*026:01 protein complex	owl:Class
-MRO:0036503	BoLA-1*031:01 protein complex	owl:Class
-MRO:0036504	BoLA-DRB3*148:01 protein complex	owl:Class
-MRO:0036505	BoLA-DRB3*137:01 protein complex	owl:Class
-MRO:0036506	BoLA-DRB3*038:01 protein complex	owl:Class
-MRO:0036507	BoLA-DQB*001:01 protein complex	owl:Class
-MRO:0036508	BoLA-2*006:01 protein complex	owl:Class
-MRO:0036509	BoLA-DRB3*027:14 protein complex	owl:Class
-MRO:0036510	BoLA-DRB3*100:06 protein complex	owl:Class
-MRO:0036511	BoLA-DRB3*014:01:02 protein complex	owl:Class
-MRO:0036512	BoLA-DRB3*028:03 protein complex	owl:Class
-MRO:0036513	BoLA-2*045:02 protein complex	owl:Class
-MRO:0036514	BoLA-DQB*001:03 protein complex	owl:Class
-MRO:0036515	BoLA-DQB*035:01 protein complex	owl:Class
-MRO:0036516	BoLA-DRB3*122:01 protein complex	owl:Class
-MRO:0036517	BoLA-DRB3*024:09 protein complex	owl:Class
-MRO:0036518	BoLA-DRB3*029:02 protein complex	owl:Class
-MRO:0036519	BoLA-DRB3*022:08 protein complex	owl:Class
-MRO:0036520	BoLA-DRB3*059:01 protein complex	owl:Class
-MRO:0036521	BoLA-DRB3*024:03 protein complex	owl:Class
-MRO:0036522	BoLA-DRB3*070:01 protein complex	owl:Class
-MRO:0036523	BoLA-DQA*034:01 protein complex	owl:Class
-MRO:0036524	BoLA-DRB3*064:01 protein complex	owl:Class
-MRO:0036525	BoLA-DRB3*154:02 protein complex	owl:Class
-MRO:0036526	BoLA-DQB*018:04:02 protein complex	owl:Class
-MRO:0036527	BoLA-DRB3*010:04 protein complex	owl:Class
-MRO:0036528	BoLA-DRB3*097:02 protein complex	owl:Class
-MRO:0036529	BoLA-DQB*006:01 protein complex	owl:Class
-MRO:0036530	BoLA-DRB3*088:01 protein complex	owl:Class
-MRO:0036531	BoLA-DRB3*031:01 protein complex	owl:Class
-MRO:0036532	BoLA-DRB3*057:01 protein complex	owl:Class
-MRO:0036533	BoLA-DRB3*009:01 protein complex	owl:Class
-MRO:0036534	BoLA-DRB3*086:01 protein complex	owl:Class
-MRO:0036535	BoLA-DRB3*003:01 protein complex	owl:Class
-MRO:0036536	BoLA-2*045:01 protein complex	owl:Class
-MRO:0036537	BoLA-DQB*016:01 protein complex	owl:Class
-MRO:0036538	BoLA-DRB3*147:01 protein complex	owl:Class
-MRO:0036539	BoLA-DRB3*018:03 protein complex	owl:Class
-MRO:0036540	BoLA-DRB3*108:01 protein complex	owl:Class
-MRO:0036541	BoLA-DRB3*007:03 protein complex	owl:Class
-MRO:0036542	BoLA-3*078:02 protein complex	owl:Class
-MRO:0036543	BoLA-DRB3*125:01 protein complex	owl:Class
-MRO:0036544	BoLA-DRB3*011:02 protein complex	owl:Class
-MRO:0036545	BoLA-3*017:02 protein complex	owl:Class
-MRO:0036546	BoLA-DQB*018:05 protein complex	owl:Class
-MRO:0036547	BoLA-DRB3*153:01 protein complex	owl:Class
-MRO:0036548	BoLA-DQB*038:01 protein complex	owl:Class
-MRO:0036549	BoLA-DRB3*112:01 protein complex	owl:Class
-MRO:0036550	BoLA-DQB*018:12 protein complex	owl:Class
-MRO:0036551	BoLA-DRB3*081:02 protein complex	owl:Class
-MRO:0036552	BoLA-DRB3*094:01 protein complex	owl:Class
-MRO:0036553	BoLA-DRB3*027:08 protein complex	owl:Class
-MRO:0036554	BoLA-DRB3*120:01 protein complex	owl:Class
-MRO:0036555	BoLA-DRB3*028:06 protein complex	owl:Class
-MRO:0036556	BoLA-DQB*018:08 protein complex	owl:Class
-MRO:0036557	BoLA-DQB*042:01 protein complex	owl:Class
-MRO:0036558	BoLA-DRB3*024:16 protein complex	owl:Class
-MRO:0036559	BoLA-DRB3*043:01 protein complex	owl:Class
-MRO:0036560	BoLA-DRB3*024:20 protein complex	owl:Class
-MRO:0036561	BoLA-DQA*002:01 protein complex	owl:Class
-MRO:0036562	BoLA-DRB3*020:13 protein complex	owl:Class
-MRO:0036563	BoLA-DRB3*027:18 protein complex	owl:Class
-MRO:0036564	BoLA-DRB3*107:03 protein complex	owl:Class
-MRO:0036565	BoLA-DRB3*047:01 protein complex	owl:Class
-MRO:0036566	BoLA-DRB3*003:02:01 protein complex	owl:Class
-MRO:0036567	BoLA-DRB3*138:01 protein complex	owl:Class
-MRO:0036568	BoLA-DRB3*104:01 protein complex	owl:Class
-MRO:0036569	BoLA-DQA*031:01 protein complex	owl:Class
-MRO:0036570	BoLA-DRB3*027:10 protein complex	owl:Class
-MRO:0036571	BoLA-DQB*027:01 protein complex	owl:Class
-MRO:0036572	BoLA-DRB3*025:02 protein complex	owl:Class
-MRO:0036573	BoLA-DRB3*024:22 protein complex	owl:Class
-MRO:0036574	BoLA-DQA*026:03 protein complex	owl:Class
-MRO:0036575	BoLA-DRB3*107:02 protein complex	owl:Class
-MRO:0036576	BoLA-2*025:01 protein complex	owl:Class
-MRO:0036577	BoLA-2*006:03 protein complex	owl:Class
-MRO:0036578	BoLA-2*046:01 protein complex	owl:Class
-MRO:0036579	BoLA-DRB3*100:07 protein complex	owl:Class
-MRO:0036580	BoLA-DQA*032:01 protein complex	owl:Class
-MRO:0036581	BoLA-DRB3*022:15 protein complex	owl:Class
-MRO:0036582	BoLA-DRB3*074:01 protein complex	owl:Class
-MRO:0036583	BoLA-DRB3*022:09 protein complex	owl:Class
-MRO:0036584	BoLA-DQB*018:10 protein complex	owl:Class
-MRO:0036585	BoLA-6*014:02 protein complex	owl:Class
-MRO:0036586	BoLA-DRB3*093:01 protein complex	owl:Class
-MRO:0036587	BoLA-DRB3*128:01 protein complex	owl:Class
-MRO:0036588	BoLA-1*042:01 protein complex	owl:Class
-MRO:0036589	BoLA-DQA*012:04 protein complex	owl:Class
-MRO:0036590	BoLA-2*044:02 protein complex	owl:Class
-MRO:0036591	BoLA-DRB3*151:01 protein complex	owl:Class
-MRO:0036592	BoLA-DRB3*042:01 protein complex	owl:Class
-MRO:0036593	BoLA-DRB3*009:03 protein complex	owl:Class
-MRO:0036594	BoLA-DQA*022:03:02 protein complex	owl:Class
-MRO:0036595	BoLA-DRB3*027:04 protein complex	owl:Class
-MRO:0036596	BoLA-DRB3*024:11 protein complex	owl:Class
-MRO:0036597	BoLA-DRB3*097:04 protein complex	owl:Class
-MRO:0036598	BoLA-DRB3*001:03 protein complex	owl:Class
-MRO:0036599	BoLA-DQB*013:02 protein complex	owl:Class
-MRO:0036600	BoLA-DRB3*024:07 protein complex	owl:Class
-MRO:0036601	BoLA-DRB3*021:02 protein complex	owl:Class
-MRO:0036602	BoLA-DQA*012:02:02 protein complex	owl:Class
-MRO:0036603	BoLA-DRB3*024:24 protein complex	owl:Class
-MRO:0036604	BoLA-DQA*002:07 protein complex	owl:Class
-MRO:0036605	BoLA-DRB3*102:01 protein complex	owl:Class
-MRO:0036606	BoLA-DQB*014:04 protein complex	owl:Class
-MRO:0036607	BoLA-DRB3*027:20 protein complex	owl:Class
-MRO:0036608	BoLA-DQA*002:06 protein complex	owl:Class
-MRO:0036609	BoLA-DRB3*077:02 protein complex	owl:Class
-MRO:0036610	BoLA-DQA*022:07 protein complex	owl:Class
-MRO:0036611	BoLA-DRB3*022:05 protein complex	owl:Class
-MRO:0036612	BoLA-DRB3*097:06 protein complex	owl:Class
-MRO:0036613	BoLA-DRB3*019:02 protein complex	owl:Class
-MRO:0036614	BoLA-DRB3*132:01 protein complex	owl:Class
-MRO:0036615	BoLA-2*054:01 protein complex	owl:Class
-MRO:0036616	BoLA-DQB*005:02 protein complex	owl:Class
-MRO:0036617	BoLA-DRB3*098:01 protein complex	owl:Class
-MRO:0036618	BoLA-DQA*028:01 protein complex	owl:Class
-MRO:0036619	BoLA-DRB3*088:02 protein complex	owl:Class
-MRO:0036620	BoLA-3*053:01 protein complex	owl:Class
-MRO:0036621	BoLA-DRB3*029:01 protein complex	owl:Class
-MRO:0036622	BoLA-DQA*025:02 protein complex	owl:Class
-MRO:0036623	BoLA-DRB3*094:03 protein complex	owl:Class
-MRO:0036624	BoLA-DRB3*105:02 protein complex	owl:Class
-MRO:0036625	BoLA-DRB3*030:22 protein complex	owl:Class
-MRO:0036626	BoLA-DRB3*075:02 protein complex	owl:Class
-MRO:0036627	BoLA-DRB3*090:05 protein complex	owl:Class
-MRO:0036628	BoLA-1*009:02 protein complex	owl:Class
-MRO:0036629	BoLA-DRB3*112:03 protein complex	owl:Class
-MRO:0036630	BoLA-DRB3*020:01:02 protein complex	owl:Class
-MRO:0036631	BoLA-DRB3*100:01 protein complex	owl:Class
-MRO:0036632	BoLA-DRB3*154:01 protein complex	owl:Class
-MRO:0036633	BoLA-DRB3*105:01 protein complex	owl:Class
-MRO:0036634	BoLA-DRB3*015:05 protein complex	owl:Class
-MRO:0036635	BoLA-DRB3*011:03 protein complex	owl:Class
-MRO:0036636	BoLA-DRB3*145:01 protein complex	owl:Class
-MRO:0036637	BoLA-DRB3*073:01 protein complex	owl:Class
-MRO:0036638	BoLA-DRB3*076:01 protein complex	owl:Class
-MRO:0036639	BoLA-DRB3*024:23 protein complex	owl:Class
-MRO:0036640	BoLA-DQA*001:06 protein complex	owl:Class
-MRO:0036641	BoLA-DRB3*031:02 protein complex	owl:Class
-MRO:0036642	BoLA-3*035:01 protein complex	owl:Class
-MRO:0036643	BoLA-3*004:01 protein complex	owl:Class
-MRO:0036644	BoLA-DQA*012:03 protein complex	owl:Class
-MRO:0036645	BoLA-DRB3*004:02 protein complex	owl:Class
-MRO:0036646	BoLA-DQB*008:02 protein complex	owl:Class
-MRO:0036647	BoLA-3*082:01 protein complex	owl:Class
-MRO:0036648	BoLA-3*004:04 protein complex	owl:Class
-MRO:0036649	BoLA-2*026:01 protein complex	owl:Class
-MRO:0036650	BoLA-2*079:01 protein complex	owl:Class
-MRO:0036651	BoLA-DQA*022:05 protein complex	owl:Class
-MRO:0036652	BoLA-6*091:01 protein complex	owl:Class
-MRO:0036653	BoLA-DQB*018:11 protein complex	owl:Class
-MRO:0036654	BoLA-DRB3*099:01 protein complex	owl:Class
-MRO:0036655	BoLA-DRB3*115:01 protein complex	owl:Class
-MRO:0036656	BoLA-4*063:01 protein complex	owl:Class
-MRO:0036657	BoLA-DRB3*013:04 protein complex	owl:Class
-MRO:0036658	BoLA-DRB3*023:01 protein complex	owl:Class
-MRO:0036659	BoLA-DRB3*007:05 protein complex	owl:Class
-MRO:0036660	BoLA-DRB3*160:01 protein complex	owl:Class
-MRO:0036661	BoLA-DRB3*027:12 protein complex	owl:Class
-MRO:0036662	BoLA-2*048:01 protein complex	owl:Class
-MRO:0036663	BoLA-2*060:02 protein complex	owl:Class
-MRO:0036664	BoLA-DRB3*017:03 protein complex	owl:Class
-MRO:0036665	BoLA-DRB3*024:14 protein complex	owl:Class
-MRO:0036666	BoLA-1*097:01 protein complex	owl:Class
-MRO:0036667	BoLA-DRB3*163:01 protein complex	owl:Class
-MRO:0036668	BoLA-DRB3*086:03 protein complex	owl:Class
-MRO:0036669	BoLA-DRB3*119:01 protein complex	owl:Class
-MRO:0036670	BoLA-DQB*040:01 protein complex	owl:Class
-MRO:0036671	BoLA-DQB*025:01 protein complex	owl:Class
-MRO:0036672	BoLA-DQB*029:01 protein complex	owl:Class
-MRO:0036673	BoLA-3*065:01 protein complex	owl:Class
-MRO:0036674	BoLA-DQA*022:09 protein complex	owl:Class
-MRO:0036675	BoLA-DRB3*063:01 protein complex	owl:Class
-MRO:0036676	BoLA-DRB3*142:01 protein complex	owl:Class
-MRO:0036677	BoLA-DRB3*113:01 protein complex	owl:Class
-MRO:0036678	BoLA-DRB3*075:03 protein complex	owl:Class
-MRO:0036679	BoLA-DQA*002:05 protein complex	owl:Class
-MRO:0036680	BoLA-DRB3*035:01 protein complex	owl:Class
-MRO:0036681	BoLA-3*011:01 protein complex	owl:Class
-MRO:0036682	BoLA-3*066:02 protein complex	owl:Class
-MRO:0036683	BoLA-DQA*002:08 protein complex	owl:Class
-MRO:0036684	BoLA-DRB3*024:27 protein complex	owl:Class
-MRO:0036685	BoLA-DQA*026:02 protein complex	owl:Class
-MRO:0036686	BoLA-6*034:01 protein complex	owl:Class
-MRO:0036687	BoLA-DRB3*140:01 protein complex	owl:Class
-MRO:0036688	BoLA-DRB3*139:01 protein complex	owl:Class
-MRO:0036689	BoLA-DRB3*024:02 protein complex	owl:Class
-MRO:0036690	BoLA-DRB3*034:03 protein complex	owl:Class
-MRO:0036691	BoLA-DRB3*130:01 protein complex	owl:Class
-MRO:0036692	BoLA-DRB3*027:09 protein complex	owl:Class
-MRO:0036693	BoLA-DRB3*024:29 protein complex	owl:Class
-MRO:0036694	BoLA-DQA*002:03 protein complex	owl:Class
-MRO:0036695	BoLA-DQB*036:01 protein complex	owl:Class
-MRO:0036696	BoLA-DRB3*040:02 protein complex	owl:Class
-MRO:0036697	BoLA-DRB3*101:01 protein complex	owl:Class
-MRO:0036698	BoLA-1*029:01 protein complex	owl:Class
-MRO:0036699	BoLA-1*020:01 protein complex	owl:Class
-MRO:0036700	BoLA-DQA*027:02 protein complex	owl:Class
-MRO:0036701	BoLA-DQB*018:04 protein complex	owl:Class
-MRO:0036702	BoLA-DRB3*010:02 protein complex	owl:Class
-MRO:0036703	BoLA-DRB3*022:03 protein complex	owl:Class
-MRO:0036704	BoLA-DRB3*022:01 protein complex	owl:Class
-MRO:0036705	BoLA-DRB3*020:09 protein complex	owl:Class
-MRO:0036706	BoLA-DRB3*022:02 protein complex	owl:Class
-MRO:0036707	BoLA-2*026:02 protein complex	owl:Class
-MRO:0036708	BoLA-6*040:01 protein complex	owl:Class
-MRO:0036709	BoLA-2*071:01 protein complex	owl:Class
-MRO:0036710	BoLA-DRB3*004:01 protein complex	owl:Class
-MRO:0036711	BoLA-DRB3*087:04 protein complex	owl:Class
-MRO:0036712	BoLA-DRB3*025:01:01 protein complex	owl:Class
-MRO:0036713	BoLA-DRB3*027:05 protein complex	owl:Class
-MRO:0036714	BoLA-DQA*021:02 protein complex	owl:Class
-MRO:0036715	BoLA-DQB*001:04 protein complex	owl:Class
-MRO:0036716	BoLA-DRB3*121:02 protein complex	owl:Class
-MRO:0036717	BoLA-DRB3*103:01 protein complex	owl:Class
-MRO:0036718	BoLA-DRB3*014:02 protein complex	owl:Class
-MRO:0036719	BoLA-DRB3*144:01 protein complex	owl:Class
-MRO:0036720	BoLA-DQA*003:02 protein complex	owl:Class
-MRO:0036721	BoLA-DRB3*020:11 protein complex	owl:Class
-MRO:0036722	BoLA-DRB3*082:01 protein complex	owl:Class
-MRO:0036723	BoLA-DRB3*007:04 protein complex	owl:Class
-MRO:0036724	BoLA-DRB3*021:01 protein complex	owl:Class
-MRO:0036725	BoLA-DRB3*158:01 protein complex	owl:Class
-MRO:0036726	BoLA-2*026:03 protein complex	owl:Class
-MRO:0036727	BoLA-DQB*010:09 protein complex	owl:Class
-MRO:0036728	BoLA-DRB3*018:04 protein complex	owl:Class
-MRO:0036729	BoLA-2*088:01 protein complex	owl:Class
-MRO:0036730	BoLA-6*014:01 protein complex	owl:Class
-MRO:0036731	BoLA-DQA*011:01 protein complex	owl:Class
-MRO:0036732	BoLA-3*036:01 protein complex	owl:Class
-MRO:0036733	BoLA-DRB3*083:01 protein complex	owl:Class
-MRO:0036734	BoLA-DRB3*019:03 protein complex	owl:Class
-MRO:0036735	BoLA-DRB3*024:08 protein complex	owl:Class
-MRO:0036736	BoLA-2*075:01 protein complex	owl:Class
-MRO:0036737	BoLA-3*068:01 protein complex	owl:Class
-MRO:0036738	BoLA-DRB3*064:02 protein complex	owl:Class
-MRO:0036739	BoLA-DRB3*003:03 protein complex	owl:Class
-MRO:0036740	BoLA-DRB3*141:01 protein complex	owl:Class
-MRO:0036741	BoLA-DRB3*004:03 protein complex	owl:Class
-MRO:0036742	BoLA-DRB3*020:14 protein complex	owl:Class
-MRO:0036743	BoLA-DRB3*028:04 protein complex	owl:Class
-MRO:0036744	BoLA-1*028:01 protein complex	owl:Class
-MRO:0036745	BoLA-DQA*026:01 protein complex	owl:Class
-MRO:0036746	BoLA-DQA*029:01 protein complex	owl:Class
-MRO:0036747	BoLA-DRB3*150:01 protein complex	owl:Class
-MRO:0036748	BoLA-3*083:01 protein complex	owl:Class
-MRO:0036749	BoLA-DQA*020:02 protein complex	owl:Class
-MRO:0036750	BoLA-DRB3*060:01 protein complex	owl:Class
-MRO:0036751	BoLA-DRB3*068:01 protein complex	owl:Class
-MRO:0036752	BoLA-3*051:01 protein complex	owl:Class
-MRO:0036753	BoLA-DRB3*014:04 protein complex	owl:Class
-MRO:0036754	BoLA-DRB3*089:01 protein complex	owl:Class
-MRO:0036755	BoLA-DRB3*097:05 protein complex	owl:Class
-MRO:0036756	BoLA-DRB3*085:01 protein complex	owl:Class
-MRO:0036757	BoLA-DRB3*024:32 protein complex	owl:Class
-MRO:0036758	BoLA-DRB3*027:06 protein complex	owl:Class
-MRO:0036759	BoLA-DQA*001:03 protein complex	owl:Class
-MRO:0036760	BoLA-DQB*031:01 protein complex	owl:Class
-MRO:0036761	BoLA-DQA*001:04 protein complex	owl:Class
-MRO:0036762	BoLA-DRB3*066:01 protein complex	owl:Class
-MRO:0036763	BoLA-1*007:01:01:01 protein complex	owl:Class
-MRO:0036764	BoLA-DRB3*043:03 protein complex	owl:Class
-MRO:0036765	BoLA-3*066:03 protein complex	owl:Class
-MRO:0036766	BoLA-DQA*012:01:02 protein complex	owl:Class
-MRO:0036767	BoLA-DQA*022:03:03 protein complex	owl:Class
-MRO:0036768	BoLA-3*001:03 protein complex	owl:Class
-MRO:0036769	BoLA-DQB*018:06 protein complex	owl:Class
-MRO:0036770	BoLA-DRB3*087:01 protein complex	owl:Class
-MRO:0036771	BoLA-DRB3*116:01 protein complex	owl:Class
-MRO:0036772	BoLA-DQA*013:01 protein complex	owl:Class
-MRO:0036773	BoLA-3*037:01 protein complex	owl:Class
-MRO:0036774	BoLA-DRB3*013:01 protein complex	owl:Class
-MRO:0036775	BoLA-DRB3*022:04 protein complex	owl:Class
-MRO:0036776	BoLA-DRB3*031:03 protein complex	owl:Class
-MRO:0036777	BoLA-DQB*001:02 protein complex	owl:Class
-MRO:0036778	BoLA-DRB3*028:01 protein complex	owl:Class
-MRO:0036779	BoLA-DQB*010:08 protein complex	owl:Class
-MRO:0036780	BoLA-DRB3*127:01 protein complex	owl:Class
-MRO:0036781	BoLA-DRB3*008:02 protein complex	owl:Class
-MRO:0036782	BoLA-DRB3*097:03 protein complex	owl:Class
-MRO:0036783	BoLA-DQA*022:04 protein complex	owl:Class
-MRO:0036784	BoLA-6*015:01 protein complex	owl:Class
-MRO:0036785	BoLA-DRB3*024:12 protein complex	owl:Class
-MRO:0036786	BoLA-DQA*021:01 protein complex	owl:Class
-MRO:0036787	BoLA-DRB3*015:04 protein complex	owl:Class
-MRO:0036788	BoLA-DRB3*110:01 protein complex	owl:Class
-MRO:0036789	BoLA-3*017:03 protein complex	owl:Class
-MRO:0036790	BoLA-1*031:02 protein complex	owl:Class
-MRO:0036791	BoLA-1*074:01 protein complex	owl:Class
-MRO:0036792	BoLA-DRB3*118:01 protein complex	owl:Class
-MRO:0036793	BoLA-DRB3*039:01 protein complex	owl:Class
-MRO:0036794	BoLA-3*017:01 protein complex	owl:Class
-MRO:0036795	BoLA-DQB*018:03 protein complex	owl:Class
-MRO:0036796	BoLA-2*062:01 protein complex	owl:Class
-MRO:0036797	BoLA-DQB*033:01 protein complex	owl:Class
-MRO:0036798	BoLA-DQB*020:02 protein complex	owl:Class
-MRO:0036799	BoLA-4*024:01:01:02 protein complex	owl:Class
-MRO:0036800	BoLA-DRB3*081:03 protein complex	owl:Class
-MRO:0036801	BoLA-DQA*030:01 protein complex	owl:Class
-MRO:0036802	BoLA-2*016:02 protein complex	owl:Class
-MRO:0036803	BoLA-DRB3*092:01 protein complex	owl:Class
-MRO:0036804	BoLA-DRB3*013:02 protein complex	owl:Class
-MRO:0036805	BoLA-3*010:02 protein complex	owl:Class
-MRO:0036806	BoLA-DQB*014:05 protein complex	owl:Class
-MRO:0036807	BoLA-3*050:02 protein complex	owl:Class
-MRO:0036808	BoLA-DQA*025:01:01 protein complex	owl:Class
-MRO:0036809	BoLA-DQB*017:01 protein complex	owl:Class
-MRO:0036810	BoLA-DRB3*161:01 protein complex	owl:Class
-MRO:0036811	BoLA-DRB3*032:03 protein complex	owl:Class
-MRO:0036812	BoLA-DQB*014:03 protein complex	owl:Class
-MRO:0036813	BoLA-DRB3*020:12 protein complex	owl:Class
-MRO:0036814	BoLA-2*006:02 protein complex	owl:Class
-MRO:0036815	BoLA-DRB3*099:02 protein complex	owl:Class
-MRO:0036816	BoLA-DRB3*134:01 protein complex	owl:Class
-MRO:0036817	BoLA-DQA*022:02:02 protein complex	owl:Class
-MRO:0036818	BoLA-DRB3*100:05 protein complex	owl:Class
-MRO:0036819	BoLA-DQA*027:03 protein complex	owl:Class
-MRO:0036820	BoLA-1*007:01:01:02 protein complex	owl:Class
-MRO:0036821	BoLA-DRB3*090:02 protein complex	owl:Class
-MRO:0036822	BoLA-DRB3*028:02 protein complex	owl:Class
-MRO:0036823	BoLA-DQB*008:01 protein complex	owl:Class
-MRO:0036824	BoLA-DRB3*027:15 protein complex	owl:Class
-MRO:0036825	BoLA-DRB3*009:02 protein complex	owl:Class
-MRO:0036826	BoLA-DRB3*087:03 protein complex	owl:Class
-MRO:0036827	BoLA-DQB*029:02 protein complex	owl:Class
-MRO:0036828	BoLA-DRB3*095:01 protein complex	owl:Class
-MRO:0036829	BoLA-2*070:01 protein complex	owl:Class
-MRO:0036830	BoLA-DRB3*090:04 protein complex	owl:Class
-MRO:0036831	BoLA-1*049:01 protein complex	owl:Class
-MRO:0036832	BoLA-DRB3*024:17 protein complex	owl:Class
-MRO:0036833	BoLA-DRB3*011:06 protein complex	owl:Class
-MRO:0036834	BoLA-DQA*001:02 protein complex	owl:Class
-MRO:0036835	BoLA-6*093:01 protein complex	owl:Class
-MRO:0036836	BoLA-DRB3*062:01 protein complex	owl:Class
-MRO:0036837	BoLA-DQB*027:02 protein complex	owl:Class
-MRO:0036838	BoLA-DRB3*027:17 protein complex	owl:Class
-MRO:0036839	BoLA-DRB3*011:04 protein complex	owl:Class
-MRO:0036840	BoLA-2*085:01 protein complex	owl:Class
-MRO:0036841	BoLA-DRB3*046:01:01 protein complex	owl:Class
-MRO:0036842	BoLA-DQB*020:01 protein complex	owl:Class
-MRO:0036843	BoLA-DRB3*024:18 protein complex	owl:Class
-MRO:0036844	BoLA-3*001:02 protein complex	owl:Class
-MRO:0036845	BoLA-DQB*002:01 protein complex	owl:Class
-MRO:0036846	BoLA-DRB3*043:02 protein complex	owl:Class
-MRO:0036847	BoLA-2*047:01 protein complex	owl:Class
-MRO:0036848	BoLA-DQB*041:01 protein complex	owl:Class
-MRO:0036849	BoLA-4*095:01 protein complex	owl:Class
-MRO:0036850	BoLA-DQB*010:06 protein complex	owl:Class
-MRO:0036851	BoLA-DRB3*100:03 protein complex	owl:Class
-MRO:0036852	BoLA-DRB3*020:01:01 protein complex	owl:Class
-MRO:0036853	BoLA-2*032:02 protein complex	owl:Class
-MRO:0036854	BoLA-DRB3*011:05 protein complex	owl:Class
-MRO:0036855	BoLA-DRB3*027:19 protein complex	owl:Class
-MRO:0036856	BoLA-DRB3*022:14 protein complex	owl:Class
-MRO:0036857	BoLA-DRB3*008:01 protein complex	owl:Class
-MRO:0036858	BoLA-DQA*035:01 protein complex	owl:Class
-MRO:0036859	BoLA-DRB3*020:10 protein complex	owl:Class
-MRO:0036860	BoLA-2*005:01 protein complex	owl:Class
-MRO:0036861	BoLA-4*076:02 protein complex	owl:Class
-MRO:0036862	BoLA-DRB3*112:02 protein complex	owl:Class
-MRO:0036863	BoLA-DRB3*025:01:02 protein complex	owl:Class
-MRO:0036864	BoLA-3*038:01 protein complex	owl:Class
-MRO:0036865	BoLA-DRB3*107:01 protein complex	owl:Class
-MRO:0036866	BoLA-DQB*011:01 protein complex	owl:Class
-MRO:0036867	BoLA-DRB3*022:13 protein complex	owl:Class
-MRO:0036868	BoLA-DRB3*080:01 protein complex	owl:Class
-MRO:0036869	BoLA-DRB3*057:02 protein complex	owl:Class
-MRO:0036870	BoLA-DQB*010:01 protein complex	owl:Class
-MRO:0036871	BoLA-3*004:02 protein complex	owl:Class
-MRO:0036872	BoLA-DQB*018:09 protein complex	owl:Class
-MRO:0036873	BoLA-DRB3*044:01 protein complex	owl:Class
-MRO:0036874	BoLA-DQB*004:03 protein complex	owl:Class
-MRO:0036875	BoLA-DQB*026:01 protein complex	owl:Class
-MRO:0036876	BoLA-DQB*029:03 protein complex	owl:Class
-MRO:0036877	BoLA-DRB3*123:01 protein complex	owl:Class
-MRO:0036878	BoLA-DRB3*020:04 protein complex	owl:Class
-MRO:0036879	BoLA-DQB*015:01 protein complex	owl:Class
-MRO:0036880	BoLA-DQB*003:02 protein complex	owl:Class
-MRO:0036881	BoLA-DRB3*135:01 protein complex	owl:Class
-MRO:0036882	BoLA-DRB3*071:01 protein complex	owl:Class
-MRO:0036883	BoLA-DRB3*094:02 protein complex	owl:Class
-MRO:0036884	BoLA-DRB3*155:01 protein complex	owl:Class
-MRO:0036885	BoLA-DRB3*085:02 protein complex	owl:Class
-MRO:0036886	BoLA-DQA*023:01 protein complex	owl:Class
-MRO:0036887	BoLA-DRB3*034:01 protein complex	owl:Class
-MRO:0036888	BoLA-DQB*009:02 protein complex	owl:Class
-MRO:0036889	BoLA-DRB3*005:04 protein complex	owl:Class
-MRO:0036890	BoLA-DRB3*087:02 protein complex	owl:Class
-MRO:0036891	BoLA-DRB3*022:07 protein complex	owl:Class
-MRO:0036892	BoLA-DQB*033:02 protein complex	owl:Class
-MRO:0036893	BoLA-3*078:01 protein complex	owl:Class
-MRO:0036894	BoLA-DRB3*126:01 protein complex	owl:Class
-MRO:0036895	BoLA-2*016:01 protein complex	owl:Class
-MRO:0036896	BoLA-DQA*010:01:02 protein complex	owl:Class
-MRO:0036897	BoLA-DRB3*133:01 protein complex	owl:Class
-MRO:0036898	BoLA-DQA*022:03:01 protein complex	owl:Class
-MRO:0036899	BoLA-DRB3*028:05 protein complex	owl:Class
-MRO:0036900	BoLA-4*024:02 protein complex	owl:Class
-MRO:0036901	BoLA-2*008:03 protein complex	owl:Class
-MRO:0036902	BoLA-DRB3*032:01 protein complex	owl:Class
-MRO:0036903	BoLA-DRB3*027:13 protein complex	owl:Class
-MRO:0036904	BoLA-DQB*021:01 protein complex	owl:Class
-MRO:0036905	BoLA-DQB*030:01 protein complex	owl:Class
-MRO:0036906	BoLA-DQA*027:01:02 protein complex	owl:Class
-MRO:0036907	BoLA-DRB3*097:01 protein complex	owl:Class
-MRO:0036908	BoLA-DRB3*100:02 protein complex	owl:Class
-MRO:0036909	BoLA-DRB3*005:05 protein complex	owl:Class
-MRO:0036910	BoLA-4*077:01 protein complex	owl:Class
-MRO:0036911	BoLA-DQA*014:01 protein complex	owl:Class
-MRO:0036912	BoLA-DQA*008:02 protein complex	owl:Class
-MRO:0036913	BoLA-DRB3*121:01 protein complex	owl:Class
-MRO:0036914	BoLA-DQA*010:04 protein complex	owl:Class
-MRO:0036915	BoLA-DRB3*049:01 protein complex	owl:Class
-MRO:0036916	BoLA-DQB*037:01 protein complex	owl:Class
-MRO:0036917	BoLA-2*016:03 protein complex	owl:Class
-MRO:0036918	BoLA-DRB3*091:01 protein complex	owl:Class
-MRO:0036919	BoLA-DRB3*100:04 protein complex	owl:Class
-MRO:0036920	BoLA-DQA*024:01 protein complex	owl:Class
-MRO:0036921	BoLA-3*027:01 protein complex	owl:Class
-MRO:0036922	BoLA-DRB3*027:01 protein complex	owl:Class
-MRO:0036923	BoLA-DRB3*022:12 protein complex	owl:Class
-MRO:0036924	BoLA-DRB3*037:01 protein complex	owl:Class
-MRO:0036925	BoLA-DRB3*024:10 protein complex	owl:Class
-MRO:0036926	BoLA-DRB3*013:03 protein complex	owl:Class
-MRO:0036927	BoLA-DQB*036:02 protein complex	owl:Class
-MRO:0036928	BoLA-DRB3*010:03 protein complex	owl:Class
-MRO:0036929	BoLA-DRB3*077:01 protein complex	owl:Class
-MRO:0036930	BoLA-DRB3*061:01 protein complex	owl:Class
-MRO:0036931	BoLA-DRB3*010:05 protein complex	owl:Class
-MRO:0036932	BoLA-3*058:01 protein complex	owl:Class
-MRO:0036933	BoLA-DRB3*024:26 protein complex	owl:Class
-MRO:0036934	BoLA-DRB3*024:31 protein complex	owl:Class
-MRO:0036935	BoLA-DRB3*050:01:01 protein complex	owl:Class
-MRO:0036936	BoLA-DQA*020:01 protein complex	owl:Class
-MRO:0036937	BoLA-DQA*012:06 protein complex	owl:Class
-MRO:0036938	BoLA-DQB*039:01 protein complex	owl:Class
-MRO:0036939	BoLA-DRB3*018:02 protein complex	owl:Class
-MRO:0036940	BoLA-DRB3*079:01 protein complex	owl:Class
-MRO:0036941	BoLA-DQB*004:04 protein complex	owl:Class
-MRO:0036942	BoLA-3*066:01 protein complex	owl:Class
-MRO:0036943	BoLA-DRB3*024:04 protein complex	owl:Class
-MRO:0036944	BoLA-DQA*001:05 protein complex	owl:Class
-MRO:0036945	BoLA-DRB3*030:02 protein complex	owl:Class
-MRO:0036946	BoLA-DRB3*022:11 protein complex	owl:Class
-MRO:0036947	BoLA-DRB3*162:01 protein complex	owl:Class
-MRO:0036948	BoLA-DQB*016:02 protein complex	owl:Class
-MRO:0036949	BoLA-DRB3*036:01 protein complex	owl:Class
-MRO:0036950	BoLA-DRB3*009:04 protein complex	owl:Class
-MRO:0036951	BoLA-6*092:01 protein complex	owl:Class
-MRO:0036952	BoLA-DRB3*015:06 protein complex	owl:Class
-MRO:0036953	BoLA-DRB3*006:01 protein complex	owl:Class
-MRO:0036954	BoLA-DRB3*012:03 protein complex	owl:Class
-MRO:0036955	BoLA-DQA*033:01 protein complex	owl:Class
-MRO:0036956	BoLA-2*018:02 protein complex	owl:Class
-MRO:0036957	BoLA-DRB3*050:01 protein complex	owl:Class
-MRO:0036958	BoLA-DRB3*152:01 protein complex	owl:Class
-MRO:0036959	BoLA-2*060:01 protein complex	owl:Class
-MRO:0036960	BoLA-DQB*009:03 protein complex	owl:Class
-MRO:0036961	BoLA-DRB3*027:11 protein complex	owl:Class
-MRO:0036962	BoLA-4*094:01 protein complex	owl:Class
-MRO:0036963	BoLA-DQB*014:01 protein complex	owl:Class
-MRO:0036964	BoLA-DRB3*020:08 protein complex	owl:Class
-MRO:0036965	BoLA-6*015:02 protein complex	owl:Class
-MRO:0036966	BoLA-DRB3*007:06 protein complex	owl:Class
-MRO:0036967	BoLA-2*030:01 protein complex	owl:Class
-MRO:0036968	BoLA-DQA*028:02 protein complex	owl:Class
-MRO:0036969	BoLA-3*004:03 protein complex	owl:Class
-MRO:0036970	BoLA-DRB3*027:16 protein complex	owl:Class
-MRO:0036971	BoLA-DRB3*146:01 protein complex	owl:Class
-MRO:0036972	BoLA-DQB*022:01 protein complex	owl:Class
-MRO:0036973	BoLA-DRB3*024:01 protein complex	owl:Class
-MRO:0036974	BoLA-3*010:01 protein complex	owl:Class
-MRO:0036975	BoLA-DRB3*041:01 protein complex	owl:Class
-MRO:0036976	BoLA-DRB3*100:08 protein complex	owl:Class
-MRO:0036977	BoLA-DQB*004:01 protein complex	owl:Class
-MRO:0036978	BoLA-DRB3*156:01 protein complex	owl:Class
-MRO:0036979	BoLA-DRB3*040:01 protein complex	owl:Class
-MRO:0036980	BoLA-DRB3*032:02 protein complex	owl:Class
-MRO:0036981	BoLA-DRB3*129:01 protein complex	owl:Class
-MRO:0036982	BoLA-2*008:02 protein complex	owl:Class
-MRO:0036983	BoLA-DRB3*031:04 protein complex	owl:Class
-MRO:0036984	BoLA-DQA*027:01:01 protein complex	owl:Class
-MRO:0036985	BoLA-3*081:01 protein complex	owl:Class
-MRO:0036986	BoLA-1*067:01 protein complex	owl:Class
-MRO:0036987	BoLA-DRB3*027:02 protein complex	owl:Class
-MRO:0036988	BoLA-DRB3*109:01 protein complex	owl:Class
-MRO:0036989	BoLA-2*089:01 protein complex	owl:Class
-MRO:0036990	BoLA-DRB3*067:01 protein complex	owl:Class
-MRO:0036991	BoLA-2*096:01 protein complex	owl:Class
-MRO:0036992	BoLA-DRB3*143:01 protein complex	owl:Class
-MRO:0036993	BoLA-DRB3*086:04 protein complex	owl:Class
-MRO:0036994	BoLA-DRB3*024:05 protein complex	owl:Class
-MRO:0036995	BoLA-DQA*010:03 protein complex	owl:Class
-MRO:0036996	BoLA-1*009:01 protein complex	owl:Class
-MRO:0036997	BoLA-DQA*004:01 protein complex	owl:Class
-MRO:0036998	BoLA-DQB*017:02 protein complex	owl:Class
-MRO:0036999	BoLA-DRB3*020:02:01 protein complex	owl:Class
-MRO:0037000	BoLA-DQB*003:01 protein complex	owl:Class
-MRO:0037001	BoLA-DRB3*111:01 protein complex	owl:Class
-MRO:0037002	BoLA-DRB3*084:01 protein complex	owl:Class
-MRO:0037003	BoLA-3*050:01 protein complex	owl:Class
-MRO:0037004	BoLA-DRB3*159:01 protein complex	owl:Class
-MRO:0037005	BoLA-4*076:01 protein complex	owl:Class
-MRO:0037006	BoLA-DQB*007:01 protein complex	owl:Class
-MRO:0037007	BoLA-2*055:01 protein complex	owl:Class
-MRO:0037008	BoLA-DRB3*090:01 protein complex	owl:Class
-MRO:0037009	BoLA-DRB3*016:02 protein complex	owl:Class
-MRO:0037010	BoLA-DQB*005:01 protein complex	owl:Class
+MRO:0035799	BoLA-DRB3*121:02 chain	owl:Class	
+MRO:0035800	BoLA-DQB*032:01 chain	owl:Class	
+MRO:0035801	BoLA-DRB3*022:02 chain	owl:Class	
+MRO:0035802	BoLA-DRB3*157:01 chain	owl:Class	
+MRO:0035803	BoLA-3*050:01 chain	owl:Class	
+MRO:0035804	BoLA-DRB3*148:01 chain	owl:Class	
+MRO:0035805	BoLA-DRB3*051:01 chain	owl:Class	
+MRO:0035806	BoLA-DRB3*069:01 chain	owl:Class	
+MRO:0035807	BoLA-DRB3*113:01 chain	owl:Class	
+MRO:0035808	BoLA-DQB*019:01 chain	owl:Class	
+MRO:0035809	BoLA-DRB3*039:01 chain	owl:Class	
+MRO:0035810	BoLA-DQB*020:02 chain	owl:Class	
+MRO:0035811	BoLA-DRB3*010:02 chain	owl:Class	
+MRO:0035812	BoLA-DRB3*064:03 chain	owl:Class	
+MRO:0035813	BoLA-DQB*014:01 chain	owl:Class	
+MRO:0035814	BoLA-6*092:02 chain	owl:Class	
+MRO:0035815	BoLA-2*008:02 chain	owl:Class	
+MRO:0035816	BoLA-DRB3*024:10 chain	owl:Class	
+MRO:0035817	BoLA-DRB3*027:07 chain	owl:Class	
+MRO:0035818	BoLA-DRB3*117:01 chain	owl:Class	
+MRO:0035819	BoLA-3*037:01 chain	owl:Class	
+MRO:0035820	BoLA-DRB3*135:01 chain	owl:Class	
+MRO:0035821	BoLA-DRB3*102:01 chain	owl:Class	
+MRO:0035822	BoLA-2*006:01 chain	owl:Class	
+MRO:0035823	BoLA-DRB3*114:01 chain	owl:Class	
+MRO:0035824	BoLA-6*093:01 chain	owl:Class	
+MRO:0035825	BoLA-DQA*014:01 chain	owl:Class	
+MRO:0035826	BoLA-DQB*018:07 chain	owl:Class	
+MRO:0035827	BoLA-DRB3*137:01 chain	owl:Class	
+MRO:0035828	BoLA-DRB3*007:03 chain	owl:Class	
+MRO:0035829	BoLA-1*028:01 chain	owl:Class	
+MRO:0035830	BoLA-2*045:01 chain	owl:Class	
+MRO:0035831	BoLA-DRB3*020:01:02 chain	owl:Class	
+MRO:0035832	BoLA-DQB*011:01 chain	owl:Class	
+MRO:0035833	BoLA-DQB*018:08 chain	owl:Class	
+MRO:0035834	BoLA-DRB3*020:04 chain	owl:Class	
+MRO:0035835	BoLA-2*075:01 chain	owl:Class	
+MRO:0035836	BoLA-DRB3*100:03 chain	owl:Class	
+MRO:0035837	BoLA-DRB3*093:01 chain	owl:Class	
+MRO:0035838	BoLA-DRB3*024:04 chain	owl:Class	
+MRO:0035839	BoLA-DRB3*058:01 chain	owl:Class	
+MRO:0035840	BoLA-DRB3*022:01 chain	owl:Class	
+MRO:0035841	BoLA-DRB3*015:06 chain	owl:Class	
+MRO:0035842	BoLA-DQA*022:09 chain	owl:Class	
+MRO:0035843	BoLA-DRB3*022:15 chain	owl:Class	
+MRO:0035844	BoLA-DQB*001:02 chain	owl:Class	
+MRO:0035845	BoLA-3*001:02 chain	owl:Class	
+MRO:0035846	BoLA-DQA*020:02 chain	owl:Class	
+MRO:0035847	BoLA-DRB3*059:01 chain	owl:Class	
+MRO:0035848	BoLA-DQA*010:02 chain	owl:Class	
+MRO:0035849	BoLA-DRB3*022:03 chain	owl:Class	
+MRO:0035850	BoLA-DRB3*154:02 chain	owl:Class	
+MRO:0035851	BoLA-DRB3*011:02 chain	owl:Class	
+MRO:0035852	BoLA-DRB3*021:02 chain	owl:Class	
+MRO:0035853	BoLA-DQA*022:03:02 chain	owl:Class	
+MRO:0035854	BoLA-DRB3*097:03 chain	owl:Class	
+MRO:0035855	BoLA-DQA*034:01 chain	owl:Class	
+MRO:0035856	BoLA-DRB3*020:14 chain	owl:Class	
+MRO:0035857	BoLA-DRB3*015:03 chain	owl:Class	
+MRO:0035858	BoLA-DQB*001:03 chain	owl:Class	
+MRO:0035859	BoLA-DQA*028:02 chain	owl:Class	
+MRO:0035860	BoLA-DQB*018:12 chain	owl:Class	
+MRO:0035861	BoLA-DRB3*020:01:01 chain	owl:Class	
+MRO:0035862	BoLA-DRB3*076:01 chain	owl:Class	
+MRO:0035863	BoLA-DQB*024:01 chain	owl:Class	
+MRO:0035864	BoLA-1*009:02 chain	owl:Class	
+MRO:0035865	BoLA-2*030:01 chain	owl:Class	
+MRO:0035866	BoLA-DQB*014:03 chain	owl:Class	
+MRO:0035867	BoLA-DRB3*022:11 chain	owl:Class	
+MRO:0035868	BoLA-DRB3*082:01 chain	owl:Class	
+MRO:0035869	BoLA-3*004:02 chain	owl:Class	
+MRO:0035870	BoLA-2*070:01 chain	owl:Class	
+MRO:0035871	BoLA-3*068:01 chain	owl:Class	
+MRO:0035872	BoLA-DRB3*024:05 chain	owl:Class	
+MRO:0035873	BoLA-DRB3*100:01 chain	owl:Class	
+MRO:0035874	BoLA-DRB3*024:13 chain	owl:Class	
+MRO:0035875	BoLA-DRB3*118:01 chain	owl:Class	
+MRO:0035876	BoLA-DRB3*124:01 chain	owl:Class	
+MRO:0035877	BoLA-DRB3*046:01:01 chain	owl:Class	
+MRO:0035878	BoLA-DRB3*130:01 chain	owl:Class	
+MRO:0035879	BoLA-DRB3*007:04 chain	owl:Class	
+MRO:0035880	BoLA-DRB3*006:01 chain	owl:Class	
+MRO:0035881	BoLA-DQA*022:03:03 chain	owl:Class	
+MRO:0035882	BoLA-DRB3*016:02 chain	owl:Class	
+MRO:0035883	BoLA-DRB3*090:04 chain	owl:Class	
+MRO:0035884	BoLA-DRB3*147:01 chain	owl:Class	
+MRO:0035885	BoLA-DRB3*005:01 chain	owl:Class	
+MRO:0035886	BoLA-3*038:01 chain	owl:Class	
+MRO:0035887	BoLA-DQB*042:01 chain	owl:Class	
+MRO:0035888	BoLA-DRB3*144:01 chain	owl:Class	
+MRO:0035889	BoLA-2*057:01 chain	owl:Class	
+MRO:0035890	BoLA-DRB3*007:05 chain	owl:Class	
+MRO:0035891	BoLA-DRB3*143:01 chain	owl:Class	
+MRO:0035892	BoLA-1*009:01 chain	owl:Class	
+MRO:0035893	BoLA-2*071:01 chain	owl:Class	
+MRO:0035894	BoLA-DQB*014:05 chain	owl:Class	
+MRO:0035895	BoLA-DRB3*075:03 chain	owl:Class	
+MRO:0035896	BoLA-DQA*011:01 chain	owl:Class	
+MRO:0035897	BoLA-DQA*012:04 chain	owl:Class	
+MRO:0035898	BoLA-3*058:01 chain	owl:Class	
+MRO:0035899	BoLA-DQB*002:01 chain	owl:Class	
+MRO:0035900	BoLA-2*026:03 chain	owl:Class	
+MRO:0035901	BoLA-DRB3*074:01 chain	owl:Class	
+MRO:0035902	BoLA-DQB*041:01 chain	owl:Class	
+MRO:0035903	BoLA-DRB3*151:01 chain	owl:Class	
+MRO:0035904	BoLA-DQB*020:01 chain	owl:Class	
+MRO:0035905	BoLA-DQB*040:01 chain	owl:Class	
+MRO:0035906	BoLA-1*042:01 chain	owl:Class	
+MRO:0035907	BoLA-2*008:03 chain	owl:Class	
+MRO:0035908	BoLA-DRB3*092:01 chain	owl:Class	
+MRO:0035909	BoLA-DQB*030:01 chain	owl:Class	
+MRO:0035910	BoLA-2*060:02 chain	owl:Class	
+MRO:0035911	BoLA-3*004:04 chain	owl:Class	
+MRO:0035912	BoLA-DQB*006:01 chain	owl:Class	
+MRO:0035913	BoLA-DQA*002:07 chain	owl:Class	
+MRO:0035914	BoLA-4*076:01 chain	owl:Class	
+MRO:0035915	BoLA-DQA*013:01 chain	owl:Class	
+MRO:0035916	BoLA-DRB3*014:01:02 chain	owl:Class	
+MRO:0035917	BoLA-DRB3*018:02 chain	owl:Class	
+MRO:0035918	BoLA-3*066:02 chain	owl:Class	
+MRO:0035919	BoLA-DRB3*091:01 chain	owl:Class	
+MRO:0035920	BoLA-DRB3*122:01 chain	owl:Class	
+MRO:0035921	BoLA-DQB*036:01 chain	owl:Class	
+MRO:0035922	BoLA-2*060:01 chain	owl:Class	
+MRO:0035923	BoLA-DRB3*014:04 chain	owl:Class	
+MRO:0035924	BoLA-DRB3*088:01 chain	owl:Class	
+MRO:0035925	BoLA-DQA*004:01 chain	owl:Class	
+MRO:0035926	BoLA-6*034:01 chain	owl:Class	
+MRO:0035927	BoLA-DRB3*048:02 chain	owl:Class	
+MRO:0035928	BoLA-DRB3*049:01 chain	owl:Class	
+MRO:0035929	BoLA-DQA*029:01 chain	owl:Class	
+MRO:0035930	BoLA-DQB*005:02 chain	owl:Class	
+MRO:0035931	BoLA-DRB3*162:01 chain	owl:Class	
+MRO:0035932	BoLA-DQB*001:04 chain	owl:Class	
+MRO:0035933	BoLA-DRB3*027:04 chain	owl:Class	
+MRO:0035934	BoLA-DQB*004:05 chain	owl:Class	
+MRO:0035935	BoLA-DRB3*024:29 chain	owl:Class	
+MRO:0035936	BoLA-DRB3*139:01 chain	owl:Class	
+MRO:0035937	BoLA-DRB3*022:13 chain	owl:Class	
+MRO:0035938	BoLA-DQA*025:01:01 chain	owl:Class	
+MRO:0035939	BoLA-DRB3*010:04 chain	owl:Class	
+MRO:0035940	BoLA-3*050:02 chain	owl:Class	
+MRO:0035941	BoLA-2*016:01 chain	owl:Class	
+MRO:0035942	BoLA-DRB3*031:02 chain	owl:Class	
+MRO:0035943	BoLA-DRB3*011:03 chain	owl:Class	
+MRO:0035944	BoLA-DRB3*028:03 chain	owl:Class	
+MRO:0035945	BoLA-DQB*001:01 chain	owl:Class	
+MRO:0035946	BoLA-DQB*009:03 chain	owl:Class	
+MRO:0035947	BoLA-DRB3*026:01 chain	owl:Class	
+MRO:0035948	BoLA-DRB3*100:07 chain	owl:Class	
+MRO:0035949	BoLA-DRB3*031:03 chain	owl:Class	
+MRO:0035950	BoLA-DRB3*087:04 chain	owl:Class	
+MRO:0035951	BoLA-DQB*033:01 chain	owl:Class	
+MRO:0035952	BoLA-DQB*008:01 chain	owl:Class	
+MRO:0035953	BoLA-DRB3*018:03 chain	owl:Class	
+MRO:0035954	BoLA-DRB3*012:03 chain	owl:Class	
+MRO:0035955	BoLA-DRB3*028:04 chain	owl:Class	
+MRO:0035956	BoLA-1*061:01 chain	owl:Class	
+MRO:0035957	BoLA-DQB*010:09 chain	owl:Class	
+MRO:0035958	BoLA-DQB*003:03 chain	owl:Class	
+MRO:0035959	BoLA-DRB3*021:01 chain	owl:Class	
+MRO:0035960	BoLA-DQA*002:01 chain	owl:Class	
+MRO:0035961	BoLA-DRB3*101:01 chain	owl:Class	
+MRO:0035962	BoLA-DRB3*011:05 chain	owl:Class	
+MRO:0035963	BoLA-DQB*029:01 chain	owl:Class	
+MRO:0035964	BoLA-3*017:02 chain	owl:Class	
+MRO:0035965	BoLA-6*015:01 chain	owl:Class	
+MRO:0035966	BoLA-DRB3*025:02 chain	owl:Class	
+MRO:0035967	BoLA-DRB3*068:01 chain	owl:Class	
+MRO:0035968	BoLA-2*044:02 chain	owl:Class	
+MRO:0035969	BoLA-3*027:02 chain	owl:Class	
+MRO:0035970	BoLA-DRB3*127:01 chain	owl:Class	
+MRO:0035971	BoLA-DRB3*037:01 chain	owl:Class	
+MRO:0035972	BoLA-DQA*022:02:03 chain	owl:Class	
+MRO:0035973	BoLA-DRB3*022:05 chain	owl:Class	
+MRO:0035974	BoLA-DRB3*108:01 chain	owl:Class	
+MRO:0035975	BoLA-DRB3*019:03 chain	owl:Class	
+MRO:0035976	BoLA-DRB3*024:22 chain	owl:Class	
+MRO:0035977	BoLA-DRB3*154:01 chain	owl:Class	
+MRO:0035978	BoLA-DRB3*161:01 chain	owl:Class	
+MRO:0035979	BoLA-DRB3*155:01 chain	owl:Class	
+MRO:0035980	BoLA-DRB3*050:01 chain	owl:Class	
+MRO:0035981	BoLA-DRB3*114:02 chain	owl:Class	
+MRO:0035982	BoLA-2*096:01 chain	owl:Class	
+MRO:0035983	BoLA-DRB3*163:01 chain	owl:Class	
+MRO:0035984	BoLA-DRB3*022:12 chain	owl:Class	
+MRO:0035985	BoLA-DRB3*089:01 chain	owl:Class	
+MRO:0035986	BoLA-DRB3*032:03 chain	owl:Class	
+MRO:0035987	BoLA-DRB3*004:01 chain	owl:Class	
+MRO:0035988	BoLA-DRB3*027:20 chain	owl:Class	
+MRO:0035989	BoLA-DRB3*022:09 chain	owl:Class	
+MRO:0035990	BoLA-DRB3*088:02 chain	owl:Class	
+MRO:0035991	BoLA-DRB3*005:07 chain	owl:Class	
+MRO:0035992	BoLA-DQB*025:01 chain	owl:Class	
+MRO:0035993	BoLA-DRB3*020:11 chain	owl:Class	
+MRO:0035994	BoLA-DRB3*084:01 chain	owl:Class	
+MRO:0035995	BoLA-DRB3*138:01 chain	owl:Class	
+MRO:0035996	BoLA-6*015:02 chain	owl:Class	
+MRO:0035997	BoLA-DQA*020:03 chain	owl:Class	
+MRO:0035998	BoLA-DRB3*020:12 chain	owl:Class	
+MRO:0035999	BoLA-DRB3*126:01 chain	owl:Class	
+MRO:0036000	BoLA-DRB3*017:02 chain	owl:Class	
+MRO:0036001	BoLA-6*092:01 chain	owl:Class	
+MRO:0036002	BoLA-1*007:01:01:02 chain	owl:Class	
+MRO:0036003	BoLA-DRB3*004:02 chain	owl:Class	
+MRO:0036004	BoLA-DQA*022:03:01 chain	owl:Class	
+MRO:0036005	BoLA-DRB3*083:01 chain	owl:Class	
+MRO:0036006	BoLA-DQB*010:06 chain	owl:Class	
+MRO:0036007	BoLA-DRB3*027:08 chain	owl:Class	
+MRO:0036008	BoLA-DRB3*005:02 chain	owl:Class	
+MRO:0036009	BoLA-DRB3*087:03 chain	owl:Class	
+MRO:0036010	BoLA-3*073:01 chain	owl:Class	
+MRO:0036011	BoLA-DQB*016:01 chain	owl:Class	
+MRO:0036012	BoLA-DRB3*024:23 chain	owl:Class	
+MRO:0036013	BoLA-DRB3*105:03 chain	owl:Class	
+MRO:0036014	BoLA-DQA*012:02:01 chain	owl:Class	
+MRO:0036015	BoLA-DRB3*013:02 chain	owl:Class	
+MRO:0036016	BoLA-DRB3*103:01 chain	owl:Class	
+MRO:0036017	BoLA-DRB3*107:01 chain	owl:Class	
+MRO:0036018	BoLA-DRB3*070:01 chain	owl:Class	
+MRO:0036019	BoLA-DRB3*095:01 chain	owl:Class	
+MRO:0036020	BoLA-DRB3*150:01 chain	owl:Class	
+MRO:0036021	BoLA-DRB3*010:03 chain	owl:Class	
+MRO:0036022	BoLA-4*095:01 chain	owl:Class	
+MRO:0036023	BoLA-DRB3*030:22 chain	owl:Class	
+MRO:0036024	BoLA-DRB3*024:25 chain	owl:Class	
+MRO:0036025	BoLA-DQB*018:02 chain	owl:Class	
+MRO:0036026	BoLA-DRB3*029:01 chain	owl:Class	
+MRO:0036027	BoLA-DRB3*065:01 chain	owl:Class	
+MRO:0036028	BoLA-DQA*013:02 chain	owl:Class	
+MRO:0036029	BoLA-DRB3*085:02 chain	owl:Class	
+MRO:0036030	BoLA-DRB3*105:02 chain	owl:Class	
+MRO:0036031	BoLA-DQA*022:07 chain	owl:Class	
+MRO:0036032	BoLA-6*014:02 chain	owl:Class	
+MRO:0036033	BoLA-DRB3*097:05 chain	owl:Class	
+MRO:0036034	BoLA-DRB3*097:06 chain	owl:Class	
+MRO:0036035	BoLA-DRB3*028:06 chain	owl:Class	
+MRO:0036036	BoLA-DRB3*033:01 chain	owl:Class	
+MRO:0036037	BoLA-DQA*008:01 chain	owl:Class	
+MRO:0036038	BoLA-DRB3*071:01 chain	owl:Class	
+MRO:0036039	BoLA-DRB3*015:04 chain	owl:Class	
+MRO:0036040	BoLA-1*067:01 chain	owl:Class	
+MRO:0036041	BoLA-DRB3*066:01 chain	owl:Class	
+MRO:0036042	BoLA-4*024:02 chain	owl:Class	
+MRO:0036043	BoLA-2*062:01 chain	owl:Class	
+MRO:0036044	BoLA-3*035:01 chain	owl:Class	
+MRO:0036045	BoLA-DRB3*116:01 chain	owl:Class	
+MRO:0036046	BoLA-DRB3*024:20 chain	owl:Class	
+MRO:0036047	BoLA-DRB3*043:03 chain	owl:Class	
+MRO:0036048	BoLA-DRB3*104:01 chain	owl:Class	
+MRO:0036049	BoLA-2*018:02 chain	owl:Class	
+MRO:0036050	BoLA-DQA*023:01 chain	owl:Class	
+MRO:0036051	BoLA-DRB3*086:02 chain	owl:Class	
+MRO:0036052	BoLA-DRB3*028:02 chain	owl:Class	
+MRO:0036053	BoLA-DQA*022:08 chain	owl:Class	
+MRO:0036054	BoLA-DRB3*087:01 chain	owl:Class	
+MRO:0036055	BoLA-DQA*032:01 chain	owl:Class	
+MRO:0036056	BoLA-DQB*028:01 chain	owl:Class	
+MRO:0036057	BoLA-1*074:01 chain	owl:Class	
+MRO:0036058	BoLA-DRB3*129:01 chain	owl:Class	
+MRO:0036059	BoLA-DRB3*096:01 chain	owl:Class	
+MRO:0036060	BoLA-DRB3*027:12 chain	owl:Class	
+MRO:0036061	BoLA-DRB3*024:27 chain	owl:Class	
+MRO:0036062	BoLA-DRB3*009:01 chain	owl:Class	
+MRO:0036063	BoLA-2*005:01 chain	owl:Class	
+MRO:0036064	BoLA-3*052:01 chain	owl:Class	
+MRO:0036065	BoLA-DRB3*022:14 chain	owl:Class	
+MRO:0036066	BoLA-DQB*016:02 chain	owl:Class	
+MRO:0036067	BoLA-2*025:01 chain	owl:Class	
+MRO:0036068	BoLA-DRB3*061:01 chain	owl:Class	
+MRO:0036069	BoLA-DQB*038:01 chain	owl:Class	
+MRO:0036070	BoLA-DRB3*019:01 chain	owl:Class	
+MRO:0036071	BoLA-DRB3*027:21 chain	owl:Class	
+MRO:0036072	BoLA-DQB*029:03 chain	owl:Class	
+MRO:0036073	BoLA-DRB3*025:01:02 chain	owl:Class	
+MRO:0036074	BoLA-6*090:01 chain	owl:Class	
+MRO:0036075	BoLA-DRB3*032:04 chain	owl:Class	
+MRO:0036076	BoLA-DQA*008:02 chain	owl:Class	
+MRO:0036077	BoLA-DQA*027:04 chain	owl:Class	
+MRO:0036078	BoLA-1*020:01 chain	owl:Class	
+MRO:0036079	BoLA-2*026:02 chain	owl:Class	
+MRO:0036080	BoLA-DRB3*027:09 chain	owl:Class	
+MRO:0036081	BoLA-DRB3*028:01 chain	owl:Class	
+MRO:0036082	BoLA-DQB*039:01 chain	owl:Class	
+MRO:0036083	BoLA-1*007:01:01:01 chain	owl:Class	
+MRO:0036084	BoLA-DRB3*038:01 chain	owl:Class	
+MRO:0036085	BoLA-DRB3*020:09 chain	owl:Class	
+MRO:0036086	BoLA-DRB3*081:01 chain	owl:Class	
+MRO:0036087	BoLA-DRB3*099:02 chain	owl:Class	
+MRO:0036088	BoLA-6*014:01 chain	owl:Class	
+MRO:0036089	BoLA-DQA*001:06 chain	owl:Class	
+MRO:0036090	BoLA-2*016:03 chain	owl:Class	
+MRO:0036091	BoLA-4*063:01 chain	owl:Class	
+MRO:0036092	BoLA-3*059:01 chain	owl:Class	
+MRO:0036093	BoLA-DRB3*110:01 chain	owl:Class	
+MRO:0036094	BoLA-3*082:01 chain	owl:Class	
+MRO:0036095	BoLA-DRB3*159:01 chain	owl:Class	
+MRO:0036096	BoLA-2*047:01 chain	owl:Class	
+MRO:0036097	BoLA-DRB3*042:01 chain	owl:Class	
+MRO:0036098	BoLA-DRB3*075:02 chain	owl:Class	
+MRO:0036099	BoLA-DQB*034:01 chain	owl:Class	
+MRO:0036100	BoLA-DRB3*081:03 chain	owl:Class	
+MRO:0036101	BoLA-DRB3*050:01:01 chain	owl:Class	
+MRO:0036102	BoLA-DRB3*133:01 chain	owl:Class	
+MRO:0036103	BoLA-DRB3*020:13 chain	owl:Class	
+MRO:0036104	BoLA-DRB3*027:17 chain	owl:Class	
+MRO:0036105	BoLA-DRB3*153:01 chain	owl:Class	
+MRO:0036106	BoLA-DRB3*027:01 chain	owl:Class	
+MRO:0036107	BoLA-DRB3*017:03 chain	owl:Class	
+MRO:0036108	BoLA-DRB3*022:06 chain	owl:Class	
+MRO:0036109	BoLA-DRB3*024:24 chain	owl:Class	
+MRO:0036110	BoLA-DRB3*004:03 chain	owl:Class	
+MRO:0036111	BoLA-DRB3*128:01 chain	owl:Class	
+MRO:0036112	BoLA-DRB3*160:01 chain	owl:Class	
+MRO:0036113	BoLA-DRB3*106:01 chain	owl:Class	
+MRO:0036114	BoLA-DQB*018:01 chain	owl:Class	
+MRO:0036115	BoLA-3*017:03 chain	owl:Class	
+MRO:0036116	BoLA-DQA*012:02:02 chain	owl:Class	
+MRO:0036117	BoLA-DQB*027:01 chain	owl:Class	
+MRO:0036118	BoLA-DQA*001:05 chain	owl:Class	
+MRO:0036119	BoLA-DQB*013:02 chain	owl:Class	
+MRO:0036120	BoLA-DRB3*040:02 chain	owl:Class	
+MRO:0036121	BoLA-DRB3*072:01 chain	owl:Class	
+MRO:0036122	BoLA-DRB3*090:05 chain	owl:Class	
+MRO:0036123	BoLA-DRB3*024:03 chain	owl:Class	
+MRO:0036124	BoLA-DQA*031:01 chain	owl:Class	
+MRO:0036125	BoLA-DQA*002:05 chain	owl:Class	
+MRO:0036126	BoLA-2*055:01 chain	owl:Class	
+MRO:0036127	BoLA-DRB3*081:02 chain	owl:Class	
+MRO:0036128	BoLA-DRB3*036:01 chain	owl:Class	
+MRO:0036129	BoLA-DRB3*031:01 chain	owl:Class	
+MRO:0036130	BoLA-DQB*004:01 chain	owl:Class	
+MRO:0036131	BoLA-DRB3*024:14 chain	owl:Class	
+MRO:0036132	BoLA-DQA*025:01:02 chain	owl:Class	
+MRO:0036133	BoLA-1*029:01 chain	owl:Class	
+MRO:0036134	BoLA-DQB*009:02 chain	owl:Class	
+MRO:0036135	BoLA-DQA*012:03 chain	owl:Class	
+MRO:0036136	BoLA-3*036:01 chain	owl:Class	
+MRO:0036137	BoLA-DQB*001:05 chain	owl:Class	
+MRO:0036138	BoLA-DQA*025:02 chain	owl:Class	
+MRO:0036139	BoLA-DRB3*063:01 chain	owl:Class	
+MRO:0036140	BoLA-DRB3*027:02 chain	owl:Class	
+MRO:0036141	BoLA-DQA*012:05 chain	owl:Class	
+MRO:0036142	BoLA-DRB3*100:06 chain	owl:Class	
+MRO:0036143	BoLA-DRB3*005:04 chain	owl:Class	
+MRO:0036144	BoLA-DQA*030:01 chain	owl:Class	
+MRO:0036145	BoLA-DRB3*027:10 chain	owl:Class	
+MRO:0036146	BoLA-2*043:01 chain	owl:Class	
+MRO:0036147	BoLA-DRB3*005:06 chain	owl:Class	
+MRO:0036148	BoLA-DQA*022:04 chain	owl:Class	
+MRO:0036149	BoLA-3*083:01 chain	owl:Class	
+MRO:0036150	BoLA-DQB*005:01 chain	owl:Class	
+MRO:0036151	BoLA-DRB3*087:02 chain	owl:Class	
+MRO:0036152	BoLA-DQB*017:02 chain	owl:Class	
+MRO:0036153	BoLA-DRB3*024:02 chain	owl:Class	
+MRO:0036154	BoLA-DRB3*047:01 chain	owl:Class	
+MRO:0036155	BoLA-3*004:01 chain	owl:Class	
+MRO:0036156	BoLA-DRB3*112:03 chain	owl:Class	
+MRO:0036157	BoLA-DRB3*086:04 chain	owl:Class	
+MRO:0036158	BoLA-3*081:01 chain	owl:Class	
+MRO:0036159	BoLA-DQB*001:06 chain	owl:Class	
+MRO:0036160	BoLA-DQA*003:02 chain	owl:Class	
+MRO:0036161	BoLA-DQB*033:02 chain	owl:Class	
+MRO:0036162	BoLA-DRB3*011:06 chain	owl:Class	
+MRO:0036163	BoLA-DRB3*024:31 chain	owl:Class	
+MRO:0036164	BoLA-DQB*003:01 chain	owl:Class	
+MRO:0036165	BoLA-DQA*027:01:02 chain	owl:Class	
+MRO:0036166	BoLA-DQB*026:01 chain	owl:Class	
+MRO:0036167	BoLA-DRB3*024:08 chain	owl:Class	
+MRO:0036168	BoLA-DQB*015:01 chain	owl:Class	
+MRO:0036169	BoLA-DRB3*136:01 chain	owl:Class	
+MRO:0036170	BoLA-2*026:04 chain	owl:Class	
+MRO:0036171	BoLA-DRB3*024:21 chain	owl:Class	
+MRO:0036172	BoLA-DRB3*043:02 chain	owl:Class	
+MRO:0036173	BoLA-DRB3*086:01 chain	owl:Class	
+MRO:0036174	BoLA-DRB3*040:01 chain	owl:Class	
+MRO:0036175	BoLA-DRB3*019:04 chain	owl:Class	
+MRO:0036176	BoLA-DRB3*014:02 chain	owl:Class	
+MRO:0036177	BoLA-1*031:01 chain	owl:Class	
+MRO:0036178	BoLA-DRB3*029:02 chain	owl:Class	
+MRO:0036179	BoLA-DRB3*022:08 chain	owl:Class	
+MRO:0036180	BoLA-DRB3*041:01 chain	owl:Class	
+MRO:0036181	BoLA-DRB3*048:01 chain	owl:Class	
+MRO:0036182	BoLA-DRB3*024:11 chain	owl:Class	
+MRO:0036183	BoLA-DQA*021:01 chain	owl:Class	
+MRO:0036184	BoLA-DRB3*035:01 chain	owl:Class	
+MRO:0036185	BoLA-DRB3*086:03 chain	owl:Class	
+MRO:0036186	BoLA-DRB3*005:05 chain	owl:Class	
+MRO:0036187	BoLA-DRB3*017:01 chain	owl:Class	
+MRO:0036188	BoLA-DRB3*100:04 chain	owl:Class	
+MRO:0036189	BoLA-DQB*031:01 chain	owl:Class	
+MRO:0036190	BoLA-DRB3*024:19 chain	owl:Class	
+MRO:0036191	BoLA-DQB*007:01 chain	owl:Class	
+MRO:0036192	BoLA-DRB3*034:03 chain	owl:Class	
+MRO:0036193	BoLA-DQB*018:06 chain	owl:Class	
+MRO:0036194	BoLA-DRB3*079:01 chain	owl:Class	
+MRO:0036195	BoLA-DRB3*132:01 chain	owl:Class	
+MRO:0036196	BoLA-DQB*035:01 chain	owl:Class	
+MRO:0036197	BoLA-2*085:01 chain	owl:Class	
+MRO:0036198	BoLA-DRB3*009:04 chain	owl:Class	
+MRO:0036199	BoLA-2*079:01 chain	owl:Class	
+MRO:0036200	BoLA-DRB3*032:02 chain	owl:Class	
+MRO:0036201	BoLA-2*069:01 chain	owl:Class	
+MRO:0036202	BoLA-DRB3*149:01 chain	owl:Class	
+MRO:0036203	BoLA-DQA*026:02 chain	owl:Class	
+MRO:0036204	BoLA-DRB3*152:01 chain	owl:Class	
+MRO:0036205	BoLA-DQB*014:04 chain	owl:Class	
+MRO:0036206	BoLA-DRB3*097:01 chain	owl:Class	
+MRO:0036207	BoLA-DRB3*011:04 chain	owl:Class	
+MRO:0036208	BoLA-DRB3*057:01 chain	owl:Class	
+MRO:0036209	BoLA-DQB*018:11 chain	owl:Class	
+MRO:0036210	BoLA-2*071:02 chain	owl:Class	
+MRO:0036211	BoLA-DRB3*027:11 chain	owl:Class	
+MRO:0036212	BoLA-DRB3*028:05 chain	owl:Class	
+MRO:0036213	BoLA-DRB3*080:01 chain	owl:Class	
+MRO:0036214	BoLA-DRB3*125:01 chain	owl:Class	
+MRO:0036215	BoLA-DRB3*002:02 chain	owl:Class	
+MRO:0036216	BoLA-DRB3*032:01 chain	owl:Class	
+MRO:0036217	BoLA-DRB3*013:04 chain	owl:Class	
+MRO:0036218	BoLA-DRB3*119:01 chain	owl:Class	
+MRO:0036219	BoLA-DRB3*077:02 chain	owl:Class	
+MRO:0036220	BoLA-6*091:01 chain	owl:Class	
+MRO:0036221	BoLA-DRB3*025:01:01 chain	owl:Class	
+MRO:0036222	BoLA-DRB3*145:01 chain	owl:Class	
+MRO:0036223	BoLA-3*051:01 chain	owl:Class	
+MRO:0036224	BoLA-DRB3*094:02 chain	owl:Class	
+MRO:0036225	BoLA-DRB3*020:02:01 chain	owl:Class	
+MRO:0036226	BoLA-DQB*003:02 chain	owl:Class	
+MRO:0036227	BoLA-DQB*017:01 chain	owl:Class	
+MRO:0036228	BoLA-DRB3*022:04 chain	owl:Class	
+MRO:0036229	BoLA-DRB3*105:01 chain	owl:Class	
+MRO:0036230	BoLA-DRB3*013:01 chain	owl:Class	
+MRO:0036231	BoLA-DRB3*097:04 chain	owl:Class	
+MRO:0036232	BoLA-DRB3*085:01 chain	owl:Class	
+MRO:0036233	BoLA-2*048:01 chain	owl:Class	
+MRO:0036234	BoLA-DQB*004:03 chain	owl:Class	
+MRO:0036235	BoLA-2*016:02 chain	owl:Class	
+MRO:0036236	BoLA-2*088:01 chain	owl:Class	
+MRO:0036237	BoLA-DRB3*064:02 chain	owl:Class	
+MRO:0036238	BoLA-DRB3*024:18 chain	owl:Class	
+MRO:0036239	BoLA-4*094:01 chain	owl:Class	
+MRO:0036240	BoLA-DQB*021:01 chain	owl:Class	
+MRO:0036241	BoLA-DRB3*007:06 chain	owl:Class	
+MRO:0036242	BoLA-DQA*010:03 chain	owl:Class	
+MRO:0036243	BoLA-DQB*010:01 chain	owl:Class	
+MRO:0036244	BoLA-DRB3*019:02 chain	owl:Class	
+MRO:0036245	BoLA-DRB3*134:01 chain	owl:Class	
+MRO:0036246	BoLA-DRB3*120:01 chain	owl:Class	
+MRO:0036247	BoLA-2*046:01 chain	owl:Class	
+MRO:0036248	BoLA-2*089:01 chain	owl:Class	
+MRO:0036249	BoLA-DRB3*156:01 chain	owl:Class	
+MRO:0036250	BoLA-DRB3*023:01 chain	owl:Class	
+MRO:0036251	BoLA-DRB3*116:02 chain	owl:Class	
+MRO:0036252	BoLA-DRB3*062:01 chain	owl:Class	
+MRO:0036253	BoLA-3*001:03 chain	owl:Class	
+MRO:0036254	BoLA-DRB3*090:02 chain	owl:Class	
+MRO:0036255	BoLA-DRB3*097:02 chain	owl:Class	
+MRO:0036256	BoLA-DQA*010:04 chain	owl:Class	
+MRO:0036257	BoLA-DRB3*018:04 chain	owl:Class	
+MRO:0036258	BoLA-DQA*021:02 chain	owl:Class	
+MRO:0036259	BoLA-DQA*002:08 chain	owl:Class	
+MRO:0036260	BoLA-DRB3*027:16 chain	owl:Class	
+MRO:0036261	BoLA-DRB3*043:01 chain	owl:Class	
+MRO:0036262	BoLA-DQB*029:02 chain	owl:Class	
+MRO:0036263	BoLA-DRB3*003:03 chain	owl:Class	
+MRO:0036264	BoLA-DRB3*098:01 chain	owl:Class	
+MRO:0036265	BoLA-DRB3*024:16 chain	owl:Class	
+MRO:0036266	BoLA-DQA*028:01 chain	owl:Class	
+MRO:0036267	BoLA-DRB3*003:01 chain	owl:Class	
+MRO:0036268	BoLA-DQB*018:09 chain	owl:Class	
+MRO:0036269	BoLA-DRB3*090:01 chain	owl:Class	
+MRO:0036270	BoLA-DRB3*121:01 chain	owl:Class	
+MRO:0036271	BoLA-DRB3*109:01 chain	owl:Class	
+MRO:0036272	BoLA-DQA*002:03 chain	owl:Class	
+MRO:0036273	BoLA-DRB3*009:02 chain	owl:Class	
+MRO:0036274	BoLA-DRB3*027:13 chain	owl:Class	
+MRO:0036275	BoLA-2*026:01 chain	owl:Class	
+MRO:0036276	BoLA-DQB*025:02 chain	owl:Class	
+MRO:0036277	BoLA-DRB3*131:01 chain	owl:Class	
+MRO:0036278	BoLA-DRB3*024:28 chain	owl:Class	
+MRO:0036279	BoLA-DRB3*064:01 chain	owl:Class	
+MRO:0036280	BoLA-DRB3*015:05 chain	owl:Class	
+MRO:0036281	BoLA-6*040:01 chain	owl:Class	
+MRO:0036282	BoLA-DRB3*020:08 chain	owl:Class	
+MRO:0036283	BoLA-DQA*033:01 chain	owl:Class	
+MRO:0036284	BoLA-2*006:02 chain	owl:Class	
+MRO:0036285	BoLA-DQA*001:03 chain	owl:Class	
+MRO:0036286	BoLA-DQA*026:03 chain	owl:Class	
+MRO:0036287	BoLA-DRB3*024:32 chain	owl:Class	
+MRO:0036288	BoLA-DRB3*116:03 chain	owl:Class	
+MRO:0036289	BoLA-DRB3*142:01 chain	owl:Class	
+MRO:0036290	BoLA-DQA*012:06 chain	owl:Class	
+MRO:0036291	BoLA-DQA*026:01 chain	owl:Class	
+MRO:0036292	BoLA-DRB3*010:05 chain	owl:Class	
+MRO:0036293	BoLA-DQA*012:01:02 chain	owl:Class	
+MRO:0036294	BoLA-DQB*023:01 chain	owl:Class	
+MRO:0036295	BoLA-DRB3*034:02 chain	owl:Class	
+MRO:0036296	BoLA-DRB3*094:03 chain	owl:Class	
+MRO:0036297	BoLA-DRB3*107:02 chain	owl:Class	
+MRO:0036298	BoLA-DQA*020:01 chain	owl:Class	
+MRO:0036299	BoLA-2*032:02 chain	owl:Class	
+MRO:0036300	BoLA-3*065:01 chain	owl:Class	
+MRO:0036301	BoLA-DQB*022:01 chain	owl:Class	
+MRO:0036302	BoLA-DRB3*031:04 chain	owl:Class	
+MRO:0036303	BoLA-DRB3*024:09 chain	owl:Class	
+MRO:0036304	BoLA-DRB3*027:18 chain	owl:Class	
+MRO:0036305	BoLA-DQA*010:01:02 chain	owl:Class	
+MRO:0036306	BoLA-DQA*022:05 chain	owl:Class	
+MRO:0036307	BoLA-DQA*024:01 chain	owl:Class	
+MRO:0036308	BoLA-DRB3*024:07 chain	owl:Class	
+MRO:0036309	BoLA-DRB3*009:03 chain	owl:Class	
+MRO:0036310	BoLA-3*066:01 chain	owl:Class	
+MRO:0036311	BoLA-1*097:01 chain	owl:Class	
+MRO:0036312	BoLA-DRB3*060:01 chain	owl:Class	
+MRO:0036313	BoLA-DQB*036:02 chain	owl:Class	
+MRO:0036314	BoLA-4*024:01:01:02 chain	owl:Class	
+MRO:0036315	BoLA-DRB3*024:26 chain	owl:Class	
+MRO:0036316	BoLA-2*056:01 chain	owl:Class	
+MRO:0036317	BoLA-DRB3*140:01 chain	owl:Class	
+MRO:0036318	BoLA-DRB3*027:14 chain	owl:Class	
+MRO:0036319	BoLA-DRB3*003:02:01 chain	owl:Class	
+MRO:0036320	BoLA-DQB*037:01 chain	owl:Class	
+MRO:0036321	BoLA-DRB3*099:01 chain	owl:Class	
+MRO:0036322	BoLA-DRB3*024:15 chain	owl:Class	
+MRO:0036323	BoLA-DQA*027:01:01 chain	owl:Class	
+MRO:0036324	BoLA-DRB3*090:03 chain	owl:Class	
+MRO:0036325	BoLA-3*078:02 chain	owl:Class	
+MRO:0036326	BoLA-DQB*018:05 chain	owl:Class	
+MRO:0036327	BoLA-DQA*035:01 chain	owl:Class	
+MRO:0036328	BoLA-DQB*027:02 chain	owl:Class	
+MRO:0036329	BoLA-DQA*001:02 chain	owl:Class	
+MRO:0036330	BoLA-2*044:01 chain	owl:Class	
+MRO:0036331	BoLA-DRB3*075:01 chain	owl:Class	
+MRO:0036332	BoLA-DRB3*094:01 chain	owl:Class	
+MRO:0036333	BoLA-DRB3*078:01 chain	owl:Class	
+MRO:0036334	BoLA-DRB3*020:03 chain	owl:Class	
+MRO:0036335	BoLA-3*010:01 chain	owl:Class	
+MRO:0036336	BoLA-DRB3*112:02 chain	owl:Class	
+MRO:0036337	BoLA-DRB3*100:02 chain	owl:Class	
+MRO:0036338	BoLA-DQB*010:08 chain	owl:Class	
+MRO:0036339	BoLA-DQA*001:04 chain	owl:Class	
+MRO:0036340	BoLA-DQA*022:02:02 chain	owl:Class	
+MRO:0036341	BoLA-3*027:01 chain	owl:Class	
+MRO:0036342	BoLA-DRB3*014:03 chain	owl:Class	
+MRO:0036343	BoLA-DRB3*027:19 chain	owl:Class	
+MRO:0036344	BoLA-DQB*018:04 chain	owl:Class	
+MRO:0036345	BoLA-DRB3*027:05 chain	owl:Class	
+MRO:0036346	BoLA-DRB3*044:01 chain	owl:Class	
+MRO:0036347	BoLA-DRB3*158:01 chain	owl:Class	
+MRO:0036348	BoLA-4*077:01 chain	owl:Class	
+MRO:0036349	BoLA-DRB3*107:03 chain	owl:Class	
+MRO:0036350	BoLA-DRB3*007:02 chain	owl:Class	
+MRO:0036351	BoLA-DQA*008:03 chain	owl:Class	
+MRO:0036352	BoLA-3*017:01 chain	owl:Class	
+MRO:0036353	BoLA-DQB*019:02 chain	owl:Class	
+MRO:0036354	BoLA-DRB3*013:03 chain	owl:Class	
+MRO:0036355	BoLA-3*087:01 chain	owl:Class	
+MRO:0036356	BoLA-DRB3*024:01 chain	owl:Class	
+MRO:0036357	BoLA-3*011:01 chain	owl:Class	
+MRO:0036358	BoLA-DRB3*077:01 chain	owl:Class	
+MRO:0036359	BoLA-3*004:03 chain	owl:Class	
+MRO:0036360	BoLA-3*010:02 chain	owl:Class	
+MRO:0036361	BoLA-2*045:02 chain	owl:Class	
+MRO:0036362	BoLA-DRB3*141:01 chain	owl:Class	
+MRO:0036363	BoLA-DRB3*008:01 chain	owl:Class	
+MRO:0036364	BoLA-DRB3*100:05 chain	owl:Class	
+MRO:0036365	BoLA-3*080:01 chain	owl:Class	
+MRO:0036366	BoLA-1*031:02 chain	owl:Class	
+MRO:0036367	BoLA-DQB*018:04:02 chain	owl:Class	
+MRO:0036368	BoLA-DRB3*001:03 chain	owl:Class	
+MRO:0036369	BoLA-DRB3*067:01 chain	owl:Class	
+MRO:0036370	BoLA-4*076:02 chain	owl:Class	
+MRO:0036371	BoLA-DQB*004:04 chain	owl:Class	
+MRO:0036372	BoLA-3*078:01 chain	owl:Class	
+MRO:0036373	BoLA-DQB*008:02 chain	owl:Class	
+MRO:0036374	BoLA-DRB3*022:10 chain	owl:Class	
+MRO:0036375	BoLA-DRB3*027:06 chain	owl:Class	
+MRO:0036376	BoLA-DQA*027:02 chain	owl:Class	
+MRO:0036377	BoLA-1*049:01 chain	owl:Class	
+MRO:0036378	BoLA-DRB3*146:01 chain	owl:Class	
+MRO:0036379	BoLA-DRB3*115:01 chain	owl:Class	
+MRO:0036380	BoLA-DRB3*020:10 chain	owl:Class	
+MRO:0036381	BoLA-DQB*010:03 chain	owl:Class	
+MRO:0036382	BoLA-DRB3*024:12 chain	owl:Class	
+MRO:0036383	BoLA-DRB3*030:02 chain	owl:Class	
+MRO:0036384	BoLA-DQB*018:10 chain	owl:Class	
+MRO:0036385	BoLA-DRB3*111:01 chain	owl:Class	
+MRO:0036386	BoLA-DRB3*100:08 chain	owl:Class	
+MRO:0036387	BoLA-DRB3*024:30 chain	owl:Class	
+MRO:0036388	BoLA-DRB3*034:01 chain	owl:Class	
+MRO:0036389	BoLA-2*054:01 chain	owl:Class	
+MRO:0036390	BoLA-DRB3*020:05 chain	owl:Class	
+MRO:0036391	BoLA-DRB3*123:01 chain	owl:Class	
+MRO:0036392	BoLA-DRB3*027:15 chain	owl:Class	
+MRO:0036393	BoLA-DRB3*073:01 chain	owl:Class	
+MRO:0036394	BoLA-DRB3*024:17 chain	owl:Class	
+MRO:0036395	BoLA-DRB3*057:02 chain	owl:Class	
+MRO:0036396	BoLA-3*066:03 chain	owl:Class	
+MRO:0036397	BoLA-DRB3*008:02 chain	owl:Class	
+MRO:0036398	BoLA-DQA*002:06 chain	owl:Class	
+MRO:0036399	BoLA-DRB3*112:01 chain	owl:Class	
+MRO:0036400	BoLA-DQA*027:03 chain	owl:Class	
+MRO:0036401	BoLA-DRB3*022:07 chain	owl:Class	
+MRO:0036402	BoLA-3*053:01 chain	owl:Class	
+MRO:0036403	BoLA-DQB*018:03 chain	owl:Class	
+MRO:0036404	BoLA-2*006:03 chain	owl:Class	
+MRO:0036405	BoLA-DQA*010:02 protein complex	owl:Class	
+MRO:0036406	BoLA-DRB3*081:01 protein complex	owl:Class	
+MRO:0036407	BoLA-DQB*032:01 protein complex	owl:Class	
+MRO:0036408	BoLA-DRB3*064:03 protein complex	owl:Class	
+MRO:0036409	BoLA-DQA*027:04 protein complex	owl:Class	
+MRO:0036410	BoLA-2*057:01 protein complex	owl:Class	
+MRO:0036411	BoLA-1*061:01 protein complex	owl:Class	
+MRO:0036412	BoLA-DQB*004:05 protein complex	owl:Class	
+MRO:0036413	BoLA-DRB3*027:07 protein complex	owl:Class	
+MRO:0036414	BoLA-DRB3*005:01 protein complex	owl:Class	
+MRO:0036415	BoLA-DQA*022:08 protein complex	owl:Class	
+MRO:0036416	BoLA-2*056:01 protein complex	owl:Class	
+MRO:0036417	BoLA-DRB3*124:01 protein complex	owl:Class	
+MRO:0036418	BoLA-DRB3*017:02 protein complex	owl:Class	
+MRO:0036419	BoLA-DRB3*149:01 protein complex	owl:Class	
+MRO:0036420	BoLA-DRB3*114:02 protein complex	owl:Class	
+MRO:0036421	BoLA-DRB3*019:04 protein complex	owl:Class	
+MRO:0036422	BoLA-DRB3*105:03 protein complex	owl:Class	
+MRO:0036423	BoLA-DRB3*024:15 protein complex	owl:Class	
+MRO:0036424	BoLA-3*059:01 protein complex	owl:Class	
+MRO:0036425	BoLA-3*027:02 protein complex	owl:Class	
+MRO:0036426	BoLA-DRB3*024:13 protein complex	owl:Class	
+MRO:0036427	BoLA-DQA*012:05 protein complex	owl:Class	
+MRO:0036428	BoLA-DQB*023:01 protein complex	owl:Class	
+MRO:0036429	BoLA-DQB*018:07 protein complex	owl:Class	
+MRO:0036430	BoLA-DQA*022:02:03 protein complex	owl:Class	
+MRO:0036431	BoLA-DRB3*005:02 protein complex	owl:Class	
+MRO:0036432	BoLA-3*052:01 protein complex	owl:Class	
+MRO:0036433	BoLA-DQA*013:02 protein complex	owl:Class	
+MRO:0036434	BoLA-DRB3*136:01 protein complex	owl:Class	
+MRO:0036435	BoLA-DRB3*002:02 protein complex	owl:Class	
+MRO:0036436	BoLA-2*043:01 protein complex	owl:Class	
+MRO:0036437	BoLA-DQB*018:01 protein complex	owl:Class	
+MRO:0036438	BoLA-DRB3*024:30 protein complex	owl:Class	
+MRO:0036439	BoLA-DRB3*131:01 protein complex	owl:Class	
+MRO:0036440	BoLA-DRB3*032:04 protein complex	owl:Class	
+MRO:0036441	BoLA-3*087:01 protein complex	owl:Class	
+MRO:0036442	BoLA-DRB3*075:01 protein complex	owl:Class	
+MRO:0036443	BoLA-DRB3*024:28 protein complex	owl:Class	
+MRO:0036444	BoLA-DRB3*048:01 protein complex	owl:Class	
+MRO:0036445	BoLA-DRB3*090:03 protein complex	owl:Class	
+MRO:0036446	BoLA-DQB*010:03 protein complex	owl:Class	
+MRO:0036447	BoLA-DRB3*019:01 protein complex	owl:Class	
+MRO:0036448	BoLA-3*073:01 protein complex	owl:Class	
+MRO:0036449	BoLA-DRB3*034:02 protein complex	owl:Class	
+MRO:0036450	BoLA-DQB*003:03 protein complex	owl:Class	
+MRO:0036451	BoLA-DRB3*017:01 protein complex	owl:Class	
+MRO:0036452	BoLA-2*069:01 protein complex	owl:Class	
+MRO:0036453	BoLA-DRB3*007:02 protein complex	owl:Class	
+MRO:0036454	BoLA-DQB*034:01 protein complex	owl:Class	
+MRO:0036455	BoLA-DRB3*114:01 protein complex	owl:Class	
+MRO:0036456	BoLA-DRB3*072:01 protein complex	owl:Class	
+MRO:0036457	BoLA-DQB*001:05 protein complex	owl:Class	
+MRO:0036458	BoLA-DRB3*022:06 protein complex	owl:Class	
+MRO:0036459	BoLA-DQB*018:02 protein complex	owl:Class	
+MRO:0036460	BoLA-DRB3*086:02 protein complex	owl:Class	
+MRO:0036461	BoLA-DRB3*027:21 protein complex	owl:Class	
+MRO:0036462	BoLA-DRB3*024:25 protein complex	owl:Class	
+MRO:0036463	BoLA-DQA*008:01 protein complex	owl:Class	
+MRO:0036464	BoLA-DRB3*116:03 protein complex	owl:Class	
+MRO:0036465	BoLA-DRB3*024:19 protein complex	owl:Class	
+MRO:0036466	BoLA-DRB3*051:01 protein complex	owl:Class	
+MRO:0036467	BoLA-DRB3*116:02 protein complex	owl:Class	
+MRO:0036468	BoLA-DRB3*014:03 protein complex	owl:Class	
+MRO:0036469	BoLA-DQA*008:03 protein complex	owl:Class	
+MRO:0036470	BoLA-DRB3*157:01 protein complex	owl:Class	
+MRO:0036471	BoLA-DQB*019:02 protein complex	owl:Class	
+MRO:0036472	BoLA-DRB3*015:03 protein complex	owl:Class	
+MRO:0036473	BoLA-DQA*020:03 protein complex	owl:Class	
+MRO:0036474	BoLA-DRB3*078:01 protein complex	owl:Class	
+MRO:0036475	BoLA-DQB*001:06 protein complex	owl:Class	
+MRO:0036476	BoLA-DRB3*096:01 protein complex	owl:Class	
+MRO:0036477	BoLA-DRB3*020:03 protein complex	owl:Class	
+MRO:0036478	BoLA-DRB3*117:01 protein complex	owl:Class	
+MRO:0036479	BoLA-DRB3*065:01 protein complex	owl:Class	
+MRO:0036480	BoLA-2*071:02 protein complex	owl:Class	
+MRO:0036481	BoLA-DRB3*048:02 protein complex	owl:Class	
+MRO:0036482	BoLA-DRB3*058:01 protein complex	owl:Class	
+MRO:0036483	BoLA-DRB3*069:01 protein complex	owl:Class	
+MRO:0036484	BoLA-2*026:04 protein complex	owl:Class	
+MRO:0036485	BoLA-DRB3*024:21 protein complex	owl:Class	
+MRO:0036486	BoLA-2*044:01 protein complex	owl:Class	
+MRO:0036487	BoLA-DRB3*020:05 protein complex	owl:Class	
+MRO:0036488	BoLA-3*080:01 protein complex	owl:Class	
+MRO:0036489	BoLA-6*092:02 protein complex	owl:Class	
+MRO:0036490	BoLA-DQB*028:01 protein complex	owl:Class	
+MRO:0036491	BoLA-DQA*012:02:01 protein complex	owl:Class	
+MRO:0036492	BoLA-DRB3*005:06 protein complex	owl:Class	
+MRO:0036493	BoLA-DRB3*005:07 protein complex	owl:Class	
+MRO:0036494	BoLA-6*090:01 protein complex	owl:Class	
+MRO:0036495	BoLA-DQB*019:01 protein complex	owl:Class	
+MRO:0036496	BoLA-DQA*025:01:02 protein complex	owl:Class	
+MRO:0036497	BoLA-DQB*025:02 protein complex	owl:Class	
+MRO:0036498	BoLA-DQB*024:01 protein complex	owl:Class	
+MRO:0036499	BoLA-DRB3*022:10 protein complex	owl:Class	
+MRO:0036500	BoLA-DRB3*033:01 protein complex	owl:Class	
+MRO:0036501	BoLA-DRB3*106:01 protein complex	owl:Class	
+MRO:0036502	BoLA-DRB3*026:01 protein complex	owl:Class	
+MRO:0036503	BoLA-1*031:01 protein complex	owl:Class	
+MRO:0036504	BoLA-DRB3*148:01 protein complex	owl:Class	
+MRO:0036505	BoLA-DRB3*137:01 protein complex	owl:Class	
+MRO:0036506	BoLA-DRB3*038:01 protein complex	owl:Class	
+MRO:0036507	BoLA-DQB*001:01 protein complex	owl:Class	
+MRO:0036508	BoLA-2*006:01 protein complex	owl:Class	
+MRO:0036509	BoLA-DRB3*027:14 protein complex	owl:Class	
+MRO:0036510	BoLA-DRB3*100:06 protein complex	owl:Class	
+MRO:0036511	BoLA-DRB3*014:01:02 protein complex	owl:Class	
+MRO:0036512	BoLA-DRB3*028:03 protein complex	owl:Class	
+MRO:0036513	BoLA-2*045:02 protein complex	owl:Class	
+MRO:0036514	BoLA-DQB*001:03 protein complex	owl:Class	
+MRO:0036515	BoLA-DQB*035:01 protein complex	owl:Class	
+MRO:0036516	BoLA-DRB3*122:01 protein complex	owl:Class	
+MRO:0036517	BoLA-DRB3*024:09 protein complex	owl:Class	
+MRO:0036518	BoLA-DRB3*029:02 protein complex	owl:Class	
+MRO:0036519	BoLA-DRB3*022:08 protein complex	owl:Class	
+MRO:0036520	BoLA-DRB3*059:01 protein complex	owl:Class	
+MRO:0036521	BoLA-DRB3*024:03 protein complex	owl:Class	
+MRO:0036522	BoLA-DRB3*070:01 protein complex	owl:Class	
+MRO:0036523	BoLA-DQA*034:01 protein complex	owl:Class	
+MRO:0036524	BoLA-DRB3*064:01 protein complex	owl:Class	
+MRO:0036525	BoLA-DRB3*154:02 protein complex	owl:Class	
+MRO:0036526	BoLA-DQB*018:04:02 protein complex	owl:Class	
+MRO:0036527	BoLA-DRB3*010:04 protein complex	owl:Class	
+MRO:0036528	BoLA-DRB3*097:02 protein complex	owl:Class	
+MRO:0036529	BoLA-DQB*006:01 protein complex	owl:Class	
+MRO:0036530	BoLA-DRB3*088:01 protein complex	owl:Class	
+MRO:0036531	BoLA-DRB3*031:01 protein complex	owl:Class	
+MRO:0036532	BoLA-DRB3*057:01 protein complex	owl:Class	
+MRO:0036533	BoLA-DRB3*009:01 protein complex	owl:Class	
+MRO:0036534	BoLA-DRB3*086:01 protein complex	owl:Class	
+MRO:0036535	BoLA-DRB3*003:01 protein complex	owl:Class	
+MRO:0036536	BoLA-2*045:01 protein complex	owl:Class	
+MRO:0036537	BoLA-DQB*016:01 protein complex	owl:Class	
+MRO:0036538	BoLA-DRB3*147:01 protein complex	owl:Class	
+MRO:0036539	BoLA-DRB3*018:03 protein complex	owl:Class	
+MRO:0036540	BoLA-DRB3*108:01 protein complex	owl:Class	
+MRO:0036541	BoLA-DRB3*007:03 protein complex	owl:Class	
+MRO:0036542	BoLA-3*078:02 protein complex	owl:Class	
+MRO:0036543	BoLA-DRB3*125:01 protein complex	owl:Class	
+MRO:0036544	BoLA-DRB3*011:02 protein complex	owl:Class	
+MRO:0036545	BoLA-3*017:02 protein complex	owl:Class	
+MRO:0036546	BoLA-DQB*018:05 protein complex	owl:Class	
+MRO:0036547	BoLA-DRB3*153:01 protein complex	owl:Class	
+MRO:0036548	BoLA-DQB*038:01 protein complex	owl:Class	
+MRO:0036549	BoLA-DRB3*112:01 protein complex	owl:Class	
+MRO:0036550	BoLA-DQB*018:12 protein complex	owl:Class	
+MRO:0036551	BoLA-DRB3*081:02 protein complex	owl:Class	
+MRO:0036552	BoLA-DRB3*094:01 protein complex	owl:Class	
+MRO:0036553	BoLA-DRB3*027:08 protein complex	owl:Class	
+MRO:0036554	BoLA-DRB3*120:01 protein complex	owl:Class	
+MRO:0036555	BoLA-DRB3*028:06 protein complex	owl:Class	
+MRO:0036556	BoLA-DQB*018:08 protein complex	owl:Class	
+MRO:0036557	BoLA-DQB*042:01 protein complex	owl:Class	
+MRO:0036558	BoLA-DRB3*024:16 protein complex	owl:Class	
+MRO:0036559	BoLA-DRB3*043:01 protein complex	owl:Class	
+MRO:0036560	BoLA-DRB3*024:20 protein complex	owl:Class	
+MRO:0036561	BoLA-DQA*002:01 protein complex	owl:Class	
+MRO:0036562	BoLA-DRB3*020:13 protein complex	owl:Class	
+MRO:0036563	BoLA-DRB3*027:18 protein complex	owl:Class	
+MRO:0036564	BoLA-DRB3*107:03 protein complex	owl:Class	
+MRO:0036565	BoLA-DRB3*047:01 protein complex	owl:Class	
+MRO:0036566	BoLA-DRB3*003:02:01 protein complex	owl:Class	
+MRO:0036567	BoLA-DRB3*138:01 protein complex	owl:Class	
+MRO:0036568	BoLA-DRB3*104:01 protein complex	owl:Class	
+MRO:0036569	BoLA-DQA*031:01 protein complex	owl:Class	
+MRO:0036570	BoLA-DRB3*027:10 protein complex	owl:Class	
+MRO:0036571	BoLA-DQB*027:01 protein complex	owl:Class	
+MRO:0036572	BoLA-DRB3*025:02 protein complex	owl:Class	
+MRO:0036573	BoLA-DRB3*024:22 protein complex	owl:Class	
+MRO:0036574	BoLA-DQA*026:03 protein complex	owl:Class	
+MRO:0036575	BoLA-DRB3*107:02 protein complex	owl:Class	
+MRO:0036576	BoLA-2*025:01 protein complex	owl:Class	
+MRO:0036577	BoLA-2*006:03 protein complex	owl:Class	
+MRO:0036578	BoLA-2*046:01 protein complex	owl:Class	
+MRO:0036579	BoLA-DRB3*100:07 protein complex	owl:Class	
+MRO:0036580	BoLA-DQA*032:01 protein complex	owl:Class	
+MRO:0036581	BoLA-DRB3*022:15 protein complex	owl:Class	
+MRO:0036582	BoLA-DRB3*074:01 protein complex	owl:Class	
+MRO:0036583	BoLA-DRB3*022:09 protein complex	owl:Class	
+MRO:0036584	BoLA-DQB*018:10 protein complex	owl:Class	
+MRO:0036585	BoLA-6*014:02 protein complex	owl:Class	
+MRO:0036586	BoLA-DRB3*093:01 protein complex	owl:Class	
+MRO:0036587	BoLA-DRB3*128:01 protein complex	owl:Class	
+MRO:0036588	BoLA-1*042:01 protein complex	owl:Class	
+MRO:0036589	BoLA-DQA*012:04 protein complex	owl:Class	
+MRO:0036590	BoLA-2*044:02 protein complex	owl:Class	
+MRO:0036591	BoLA-DRB3*151:01 protein complex	owl:Class	
+MRO:0036592	BoLA-DRB3*042:01 protein complex	owl:Class	
+MRO:0036593	BoLA-DRB3*009:03 protein complex	owl:Class	
+MRO:0036594	BoLA-DQA*022:03:02 protein complex	owl:Class	
+MRO:0036595	BoLA-DRB3*027:04 protein complex	owl:Class	
+MRO:0036596	BoLA-DRB3*024:11 protein complex	owl:Class	
+MRO:0036597	BoLA-DRB3*097:04 protein complex	owl:Class	
+MRO:0036598	BoLA-DRB3*001:03 protein complex	owl:Class	
+MRO:0036599	BoLA-DQB*013:02 protein complex	owl:Class	
+MRO:0036600	BoLA-DRB3*024:07 protein complex	owl:Class	
+MRO:0036601	BoLA-DRB3*021:02 protein complex	owl:Class	
+MRO:0036602	BoLA-DQA*012:02:02 protein complex	owl:Class	
+MRO:0036603	BoLA-DRB3*024:24 protein complex	owl:Class	
+MRO:0036604	BoLA-DQA*002:07 protein complex	owl:Class	
+MRO:0036605	BoLA-DRB3*102:01 protein complex	owl:Class	
+MRO:0036606	BoLA-DQB*014:04 protein complex	owl:Class	
+MRO:0036607	BoLA-DRB3*027:20 protein complex	owl:Class	
+MRO:0036608	BoLA-DQA*002:06 protein complex	owl:Class	
+MRO:0036609	BoLA-DRB3*077:02 protein complex	owl:Class	
+MRO:0036610	BoLA-DQA*022:07 protein complex	owl:Class	
+MRO:0036611	BoLA-DRB3*022:05 protein complex	owl:Class	
+MRO:0036612	BoLA-DRB3*097:06 protein complex	owl:Class	
+MRO:0036613	BoLA-DRB3*019:02 protein complex	owl:Class	
+MRO:0036614	BoLA-DRB3*132:01 protein complex	owl:Class	
+MRO:0036615	BoLA-2*054:01 protein complex	owl:Class	
+MRO:0036616	BoLA-DQB*005:02 protein complex	owl:Class	
+MRO:0036617	BoLA-DRB3*098:01 protein complex	owl:Class	
+MRO:0036618	BoLA-DQA*028:01 protein complex	owl:Class	
+MRO:0036619	BoLA-DRB3*088:02 protein complex	owl:Class	
+MRO:0036620	BoLA-3*053:01 protein complex	owl:Class	
+MRO:0036621	BoLA-DRB3*029:01 protein complex	owl:Class	
+MRO:0036622	BoLA-DQA*025:02 protein complex	owl:Class	
+MRO:0036623	BoLA-DRB3*094:03 protein complex	owl:Class	
+MRO:0036624	BoLA-DRB3*105:02 protein complex	owl:Class	
+MRO:0036625	BoLA-DRB3*030:22 protein complex	owl:Class	
+MRO:0036626	BoLA-DRB3*075:02 protein complex	owl:Class	
+MRO:0036627	BoLA-DRB3*090:05 protein complex	owl:Class	
+MRO:0036628	BoLA-1*009:02 protein complex	owl:Class	
+MRO:0036629	BoLA-DRB3*112:03 protein complex	owl:Class	
+MRO:0036630	BoLA-DRB3*020:01:02 protein complex	owl:Class	
+MRO:0036631	BoLA-DRB3*100:01 protein complex	owl:Class	
+MRO:0036632	BoLA-DRB3*154:01 protein complex	owl:Class	
+MRO:0036633	BoLA-DRB3*105:01 protein complex	owl:Class	
+MRO:0036634	BoLA-DRB3*015:05 protein complex	owl:Class	
+MRO:0036635	BoLA-DRB3*011:03 protein complex	owl:Class	
+MRO:0036636	BoLA-DRB3*145:01 protein complex	owl:Class	
+MRO:0036637	BoLA-DRB3*073:01 protein complex	owl:Class	
+MRO:0036638	BoLA-DRB3*076:01 protein complex	owl:Class	
+MRO:0036639	BoLA-DRB3*024:23 protein complex	owl:Class	
+MRO:0036640	BoLA-DQA*001:06 protein complex	owl:Class	
+MRO:0036641	BoLA-DRB3*031:02 protein complex	owl:Class	
+MRO:0036642	BoLA-3*035:01 protein complex	owl:Class	
+MRO:0036643	BoLA-3*004:01 protein complex	owl:Class	
+MRO:0036644	BoLA-DQA*012:03 protein complex	owl:Class	
+MRO:0036645	BoLA-DRB3*004:02 protein complex	owl:Class	
+MRO:0036646	BoLA-DQB*008:02 protein complex	owl:Class	
+MRO:0036647	BoLA-3*082:01 protein complex	owl:Class	
+MRO:0036648	BoLA-3*004:04 protein complex	owl:Class	
+MRO:0036649	BoLA-2*026:01 protein complex	owl:Class	
+MRO:0036650	BoLA-2*079:01 protein complex	owl:Class	
+MRO:0036651	BoLA-DQA*022:05 protein complex	owl:Class	
+MRO:0036652	BoLA-6*091:01 protein complex	owl:Class	
+MRO:0036653	BoLA-DQB*018:11 protein complex	owl:Class	
+MRO:0036654	BoLA-DRB3*099:01 protein complex	owl:Class	
+MRO:0036655	BoLA-DRB3*115:01 protein complex	owl:Class	
+MRO:0036656	BoLA-4*063:01 protein complex	owl:Class	
+MRO:0036657	BoLA-DRB3*013:04 protein complex	owl:Class	
+MRO:0036658	BoLA-DRB3*023:01 protein complex	owl:Class	
+MRO:0036659	BoLA-DRB3*007:05 protein complex	owl:Class	
+MRO:0036660	BoLA-DRB3*160:01 protein complex	owl:Class	
+MRO:0036661	BoLA-DRB3*027:12 protein complex	owl:Class	
+MRO:0036662	BoLA-2*048:01 protein complex	owl:Class	
+MRO:0036663	BoLA-2*060:02 protein complex	owl:Class	
+MRO:0036664	BoLA-DRB3*017:03 protein complex	owl:Class	
+MRO:0036665	BoLA-DRB3*024:14 protein complex	owl:Class	
+MRO:0036666	BoLA-1*097:01 protein complex	owl:Class	
+MRO:0036667	BoLA-DRB3*163:01 protein complex	owl:Class	
+MRO:0036668	BoLA-DRB3*086:03 protein complex	owl:Class	
+MRO:0036669	BoLA-DRB3*119:01 protein complex	owl:Class	
+MRO:0036670	BoLA-DQB*040:01 protein complex	owl:Class	
+MRO:0036671	BoLA-DQB*025:01 protein complex	owl:Class	
+MRO:0036672	BoLA-DQB*029:01 protein complex	owl:Class	
+MRO:0036673	BoLA-3*065:01 protein complex	owl:Class	
+MRO:0036674	BoLA-DQA*022:09 protein complex	owl:Class	
+MRO:0036675	BoLA-DRB3*063:01 protein complex	owl:Class	
+MRO:0036676	BoLA-DRB3*142:01 protein complex	owl:Class	
+MRO:0036677	BoLA-DRB3*113:01 protein complex	owl:Class	
+MRO:0036678	BoLA-DRB3*075:03 protein complex	owl:Class	
+MRO:0036679	BoLA-DQA*002:05 protein complex	owl:Class	
+MRO:0036680	BoLA-DRB3*035:01 protein complex	owl:Class	
+MRO:0036681	BoLA-3*011:01 protein complex	owl:Class	
+MRO:0036682	BoLA-3*066:02 protein complex	owl:Class	
+MRO:0036683	BoLA-DQA*002:08 protein complex	owl:Class	
+MRO:0036684	BoLA-DRB3*024:27 protein complex	owl:Class	
+MRO:0036685	BoLA-DQA*026:02 protein complex	owl:Class	
+MRO:0036686	BoLA-6*034:01 protein complex	owl:Class	
+MRO:0036687	BoLA-DRB3*140:01 protein complex	owl:Class	
+MRO:0036688	BoLA-DRB3*139:01 protein complex	owl:Class	
+MRO:0036689	BoLA-DRB3*024:02 protein complex	owl:Class	
+MRO:0036690	BoLA-DRB3*034:03 protein complex	owl:Class	
+MRO:0036691	BoLA-DRB3*130:01 protein complex	owl:Class	
+MRO:0036692	BoLA-DRB3*027:09 protein complex	owl:Class	
+MRO:0036693	BoLA-DRB3*024:29 protein complex	owl:Class	
+MRO:0036694	BoLA-DQA*002:03 protein complex	owl:Class	
+MRO:0036695	BoLA-DQB*036:01 protein complex	owl:Class	
+MRO:0036696	BoLA-DRB3*040:02 protein complex	owl:Class	
+MRO:0036697	BoLA-DRB3*101:01 protein complex	owl:Class	
+MRO:0036698	BoLA-1*029:01 protein complex	owl:Class	
+MRO:0036699	BoLA-1*020:01 protein complex	owl:Class	
+MRO:0036700	BoLA-DQA*027:02 protein complex	owl:Class	
+MRO:0036701	BoLA-DQB*018:04 protein complex	owl:Class	
+MRO:0036702	BoLA-DRB3*010:02 protein complex	owl:Class	
+MRO:0036703	BoLA-DRB3*022:03 protein complex	owl:Class	
+MRO:0036704	BoLA-DRB3*022:01 protein complex	owl:Class	
+MRO:0036705	BoLA-DRB3*020:09 protein complex	owl:Class	
+MRO:0036706	BoLA-DRB3*022:02 protein complex	owl:Class	
+MRO:0036707	BoLA-2*026:02 protein complex	owl:Class	
+MRO:0036708	BoLA-6*040:01 protein complex	owl:Class	
+MRO:0036709	BoLA-2*071:01 protein complex	owl:Class	
+MRO:0036710	BoLA-DRB3*004:01 protein complex	owl:Class	
+MRO:0036711	BoLA-DRB3*087:04 protein complex	owl:Class	
+MRO:0036712	BoLA-DRB3*025:01:01 protein complex	owl:Class	
+MRO:0036713	BoLA-DRB3*027:05 protein complex	owl:Class	
+MRO:0036714	BoLA-DQA*021:02 protein complex	owl:Class	
+MRO:0036715	BoLA-DQB*001:04 protein complex	owl:Class	
+MRO:0036716	BoLA-DRB3*121:02 protein complex	owl:Class	
+MRO:0036717	BoLA-DRB3*103:01 protein complex	owl:Class	
+MRO:0036718	BoLA-DRB3*014:02 protein complex	owl:Class	
+MRO:0036719	BoLA-DRB3*144:01 protein complex	owl:Class	
+MRO:0036720	BoLA-DQA*003:02 protein complex	owl:Class	
+MRO:0036721	BoLA-DRB3*020:11 protein complex	owl:Class	
+MRO:0036722	BoLA-DRB3*082:01 protein complex	owl:Class	
+MRO:0036723	BoLA-DRB3*007:04 protein complex	owl:Class	
+MRO:0036724	BoLA-DRB3*021:01 protein complex	owl:Class	
+MRO:0036725	BoLA-DRB3*158:01 protein complex	owl:Class	
+MRO:0036726	BoLA-2*026:03 protein complex	owl:Class	
+MRO:0036727	BoLA-DQB*010:09 protein complex	owl:Class	
+MRO:0036728	BoLA-DRB3*018:04 protein complex	owl:Class	
+MRO:0036729	BoLA-2*088:01 protein complex	owl:Class	
+MRO:0036730	BoLA-6*014:01 protein complex	owl:Class	
+MRO:0036731	BoLA-DQA*011:01 protein complex	owl:Class	
+MRO:0036732	BoLA-3*036:01 protein complex	owl:Class	
+MRO:0036733	BoLA-DRB3*083:01 protein complex	owl:Class	
+MRO:0036734	BoLA-DRB3*019:03 protein complex	owl:Class	
+MRO:0036735	BoLA-DRB3*024:08 protein complex	owl:Class	
+MRO:0036736	BoLA-2*075:01 protein complex	owl:Class	
+MRO:0036737	BoLA-3*068:01 protein complex	owl:Class	
+MRO:0036738	BoLA-DRB3*064:02 protein complex	owl:Class	
+MRO:0036739	BoLA-DRB3*003:03 protein complex	owl:Class	
+MRO:0036740	BoLA-DRB3*141:01 protein complex	owl:Class	
+MRO:0036741	BoLA-DRB3*004:03 protein complex	owl:Class	
+MRO:0036742	BoLA-DRB3*020:14 protein complex	owl:Class	
+MRO:0036743	BoLA-DRB3*028:04 protein complex	owl:Class	
+MRO:0036744	BoLA-1*028:01 protein complex	owl:Class	
+MRO:0036745	BoLA-DQA*026:01 protein complex	owl:Class	
+MRO:0036746	BoLA-DQA*029:01 protein complex	owl:Class	
+MRO:0036747	BoLA-DRB3*150:01 protein complex	owl:Class	
+MRO:0036748	BoLA-3*083:01 protein complex	owl:Class	
+MRO:0036749	BoLA-DQA*020:02 protein complex	owl:Class	
+MRO:0036750	BoLA-DRB3*060:01 protein complex	owl:Class	
+MRO:0036751	BoLA-DRB3*068:01 protein complex	owl:Class	
+MRO:0036752	BoLA-3*051:01 protein complex	owl:Class	
+MRO:0036753	BoLA-DRB3*014:04 protein complex	owl:Class	
+MRO:0036754	BoLA-DRB3*089:01 protein complex	owl:Class	
+MRO:0036755	BoLA-DRB3*097:05 protein complex	owl:Class	
+MRO:0036756	BoLA-DRB3*085:01 protein complex	owl:Class	
+MRO:0036757	BoLA-DRB3*024:32 protein complex	owl:Class	
+MRO:0036758	BoLA-DRB3*027:06 protein complex	owl:Class	
+MRO:0036759	BoLA-DQA*001:03 protein complex	owl:Class	
+MRO:0036760	BoLA-DQB*031:01 protein complex	owl:Class	
+MRO:0036761	BoLA-DQA*001:04 protein complex	owl:Class	
+MRO:0036762	BoLA-DRB3*066:01 protein complex	owl:Class	
+MRO:0036763	BoLA-1*007:01:01:01 protein complex	owl:Class	
+MRO:0036764	BoLA-DRB3*043:03 protein complex	owl:Class	
+MRO:0036765	BoLA-3*066:03 protein complex	owl:Class	
+MRO:0036766	BoLA-DQA*012:01:02 protein complex	owl:Class	
+MRO:0036767	BoLA-DQA*022:03:03 protein complex	owl:Class	
+MRO:0036768	BoLA-3*001:03 protein complex	owl:Class	
+MRO:0036769	BoLA-DQB*018:06 protein complex	owl:Class	
+MRO:0036770	BoLA-DRB3*087:01 protein complex	owl:Class	
+MRO:0036771	BoLA-DRB3*116:01 protein complex	owl:Class	
+MRO:0036772	BoLA-DQA*013:01 protein complex	owl:Class	
+MRO:0036773	BoLA-3*037:01 protein complex	owl:Class	
+MRO:0036774	BoLA-DRB3*013:01 protein complex	owl:Class	
+MRO:0036775	BoLA-DRB3*022:04 protein complex	owl:Class	
+MRO:0036776	BoLA-DRB3*031:03 protein complex	owl:Class	
+MRO:0036777	BoLA-DQB*001:02 protein complex	owl:Class	
+MRO:0036778	BoLA-DRB3*028:01 protein complex	owl:Class	
+MRO:0036779	BoLA-DQB*010:08 protein complex	owl:Class	
+MRO:0036780	BoLA-DRB3*127:01 protein complex	owl:Class	
+MRO:0036781	BoLA-DRB3*008:02 protein complex	owl:Class	
+MRO:0036782	BoLA-DRB3*097:03 protein complex	owl:Class	
+MRO:0036783	BoLA-DQA*022:04 protein complex	owl:Class	
+MRO:0036784	BoLA-6*015:01 protein complex	owl:Class	
+MRO:0036785	BoLA-DRB3*024:12 protein complex	owl:Class	
+MRO:0036786	BoLA-DQA*021:01 protein complex	owl:Class	
+MRO:0036787	BoLA-DRB3*015:04 protein complex	owl:Class	
+MRO:0036788	BoLA-DRB3*110:01 protein complex	owl:Class	
+MRO:0036789	BoLA-3*017:03 protein complex	owl:Class	
+MRO:0036790	BoLA-1*031:02 protein complex	owl:Class	
+MRO:0036791	BoLA-1*074:01 protein complex	owl:Class	
+MRO:0036792	BoLA-DRB3*118:01 protein complex	owl:Class	
+MRO:0036793	BoLA-DRB3*039:01 protein complex	owl:Class	
+MRO:0036794	BoLA-3*017:01 protein complex	owl:Class	
+MRO:0036795	BoLA-DQB*018:03 protein complex	owl:Class	
+MRO:0036796	BoLA-2*062:01 protein complex	owl:Class	
+MRO:0036797	BoLA-DQB*033:01 protein complex	owl:Class	
+MRO:0036798	BoLA-DQB*020:02 protein complex	owl:Class	
+MRO:0036799	BoLA-4*024:01:01:02 protein complex	owl:Class	
+MRO:0036800	BoLA-DRB3*081:03 protein complex	owl:Class	
+MRO:0036801	BoLA-DQA*030:01 protein complex	owl:Class	
+MRO:0036802	BoLA-2*016:02 protein complex	owl:Class	
+MRO:0036803	BoLA-DRB3*092:01 protein complex	owl:Class	
+MRO:0036804	BoLA-DRB3*013:02 protein complex	owl:Class	
+MRO:0036805	BoLA-3*010:02 protein complex	owl:Class	
+MRO:0036806	BoLA-DQB*014:05 protein complex	owl:Class	
+MRO:0036807	BoLA-3*050:02 protein complex	owl:Class	
+MRO:0036808	BoLA-DQA*025:01:01 protein complex	owl:Class	
+MRO:0036809	BoLA-DQB*017:01 protein complex	owl:Class	
+MRO:0036810	BoLA-DRB3*161:01 protein complex	owl:Class	
+MRO:0036811	BoLA-DRB3*032:03 protein complex	owl:Class	
+MRO:0036812	BoLA-DQB*014:03 protein complex	owl:Class	
+MRO:0036813	BoLA-DRB3*020:12 protein complex	owl:Class	
+MRO:0036814	BoLA-2*006:02 protein complex	owl:Class	
+MRO:0036815	BoLA-DRB3*099:02 protein complex	owl:Class	
+MRO:0036816	BoLA-DRB3*134:01 protein complex	owl:Class	
+MRO:0036817	BoLA-DQA*022:02:02 protein complex	owl:Class	
+MRO:0036818	BoLA-DRB3*100:05 protein complex	owl:Class	
+MRO:0036819	BoLA-DQA*027:03 protein complex	owl:Class	
+MRO:0036820	BoLA-1*007:01:01:02 protein complex	owl:Class	
+MRO:0036821	BoLA-DRB3*090:02 protein complex	owl:Class	
+MRO:0036822	BoLA-DRB3*028:02 protein complex	owl:Class	
+MRO:0036823	BoLA-DQB*008:01 protein complex	owl:Class	
+MRO:0036824	BoLA-DRB3*027:15 protein complex	owl:Class	
+MRO:0036825	BoLA-DRB3*009:02 protein complex	owl:Class	
+MRO:0036826	BoLA-DRB3*087:03 protein complex	owl:Class	
+MRO:0036827	BoLA-DQB*029:02 protein complex	owl:Class	
+MRO:0036828	BoLA-DRB3*095:01 protein complex	owl:Class	
+MRO:0036829	BoLA-2*070:01 protein complex	owl:Class	
+MRO:0036830	BoLA-DRB3*090:04 protein complex	owl:Class	
+MRO:0036831	BoLA-1*049:01 protein complex	owl:Class	
+MRO:0036832	BoLA-DRB3*024:17 protein complex	owl:Class	
+MRO:0036833	BoLA-DRB3*011:06 protein complex	owl:Class	
+MRO:0036834	BoLA-DQA*001:02 protein complex	owl:Class	
+MRO:0036835	BoLA-6*093:01 protein complex	owl:Class	
+MRO:0036836	BoLA-DRB3*062:01 protein complex	owl:Class	
+MRO:0036837	BoLA-DQB*027:02 protein complex	owl:Class	
+MRO:0036838	BoLA-DRB3*027:17 protein complex	owl:Class	
+MRO:0036839	BoLA-DRB3*011:04 protein complex	owl:Class	
+MRO:0036840	BoLA-2*085:01 protein complex	owl:Class	
+MRO:0036841	BoLA-DRB3*046:01:01 protein complex	owl:Class	
+MRO:0036842	BoLA-DQB*020:01 protein complex	owl:Class	
+MRO:0036843	BoLA-DRB3*024:18 protein complex	owl:Class	
+MRO:0036844	BoLA-3*001:02 protein complex	owl:Class	
+MRO:0036845	BoLA-DQB*002:01 protein complex	owl:Class	
+MRO:0036846	BoLA-DRB3*043:02 protein complex	owl:Class	
+MRO:0036847	BoLA-2*047:01 protein complex	owl:Class	
+MRO:0036848	BoLA-DQB*041:01 protein complex	owl:Class	
+MRO:0036849	BoLA-4*095:01 protein complex	owl:Class	
+MRO:0036850	BoLA-DQB*010:06 protein complex	owl:Class	
+MRO:0036851	BoLA-DRB3*100:03 protein complex	owl:Class	
+MRO:0036852	BoLA-DRB3*020:01:01 protein complex	owl:Class	
+MRO:0036853	BoLA-2*032:02 protein complex	owl:Class	
+MRO:0036854	BoLA-DRB3*011:05 protein complex	owl:Class	
+MRO:0036855	BoLA-DRB3*027:19 protein complex	owl:Class	
+MRO:0036856	BoLA-DRB3*022:14 protein complex	owl:Class	
+MRO:0036857	BoLA-DRB3*008:01 protein complex	owl:Class	
+MRO:0036858	BoLA-DQA*035:01 protein complex	owl:Class	
+MRO:0036859	BoLA-DRB3*020:10 protein complex	owl:Class	
+MRO:0036860	BoLA-2*005:01 protein complex	owl:Class	
+MRO:0036861	BoLA-4*076:02 protein complex	owl:Class	
+MRO:0036862	BoLA-DRB3*112:02 protein complex	owl:Class	
+MRO:0036863	BoLA-DRB3*025:01:02 protein complex	owl:Class	
+MRO:0036864	BoLA-3*038:01 protein complex	owl:Class	
+MRO:0036865	BoLA-DRB3*107:01 protein complex	owl:Class	
+MRO:0036866	BoLA-DQB*011:01 protein complex	owl:Class	
+MRO:0036867	BoLA-DRB3*022:13 protein complex	owl:Class	
+MRO:0036868	BoLA-DRB3*080:01 protein complex	owl:Class	
+MRO:0036869	BoLA-DRB3*057:02 protein complex	owl:Class	
+MRO:0036870	BoLA-DQB*010:01 protein complex	owl:Class	
+MRO:0036871	BoLA-3*004:02 protein complex	owl:Class	
+MRO:0036872	BoLA-DQB*018:09 protein complex	owl:Class	
+MRO:0036873	BoLA-DRB3*044:01 protein complex	owl:Class	
+MRO:0036874	BoLA-DQB*004:03 protein complex	owl:Class	
+MRO:0036875	BoLA-DQB*026:01 protein complex	owl:Class	
+MRO:0036876	BoLA-DQB*029:03 protein complex	owl:Class	
+MRO:0036877	BoLA-DRB3*123:01 protein complex	owl:Class	
+MRO:0036878	BoLA-DRB3*020:04 protein complex	owl:Class	
+MRO:0036879	BoLA-DQB*015:01 protein complex	owl:Class	
+MRO:0036880	BoLA-DQB*003:02 protein complex	owl:Class	
+MRO:0036881	BoLA-DRB3*135:01 protein complex	owl:Class	
+MRO:0036882	BoLA-DRB3*071:01 protein complex	owl:Class	
+MRO:0036883	BoLA-DRB3*094:02 protein complex	owl:Class	
+MRO:0036884	BoLA-DRB3*155:01 protein complex	owl:Class	
+MRO:0036885	BoLA-DRB3*085:02 protein complex	owl:Class	
+MRO:0036886	BoLA-DQA*023:01 protein complex	owl:Class	
+MRO:0036887	BoLA-DRB3*034:01 protein complex	owl:Class	
+MRO:0036888	BoLA-DQB*009:02 protein complex	owl:Class	
+MRO:0036889	BoLA-DRB3*005:04 protein complex	owl:Class	
+MRO:0036890	BoLA-DRB3*087:02 protein complex	owl:Class	
+MRO:0036891	BoLA-DRB3*022:07 protein complex	owl:Class	
+MRO:0036892	BoLA-DQB*033:02 protein complex	owl:Class	
+MRO:0036893	BoLA-3*078:01 protein complex	owl:Class	
+MRO:0036894	BoLA-DRB3*126:01 protein complex	owl:Class	
+MRO:0036895	BoLA-2*016:01 protein complex	owl:Class	
+MRO:0036896	BoLA-DQA*010:01:02 protein complex	owl:Class	
+MRO:0036897	BoLA-DRB3*133:01 protein complex	owl:Class	
+MRO:0036898	BoLA-DQA*022:03:01 protein complex	owl:Class	
+MRO:0036899	BoLA-DRB3*028:05 protein complex	owl:Class	
+MRO:0036900	BoLA-4*024:02 protein complex	owl:Class	
+MRO:0036901	BoLA-2*008:03 protein complex	owl:Class	
+MRO:0036902	BoLA-DRB3*032:01 protein complex	owl:Class	
+MRO:0036903	BoLA-DRB3*027:13 protein complex	owl:Class	
+MRO:0036904	BoLA-DQB*021:01 protein complex	owl:Class	
+MRO:0036905	BoLA-DQB*030:01 protein complex	owl:Class	
+MRO:0036906	BoLA-DQA*027:01:02 protein complex	owl:Class	
+MRO:0036907	BoLA-DRB3*097:01 protein complex	owl:Class	
+MRO:0036908	BoLA-DRB3*100:02 protein complex	owl:Class	
+MRO:0036909	BoLA-DRB3*005:05 protein complex	owl:Class	
+MRO:0036910	BoLA-4*077:01 protein complex	owl:Class	
+MRO:0036911	BoLA-DQA*014:01 protein complex	owl:Class	
+MRO:0036912	BoLA-DQA*008:02 protein complex	owl:Class	
+MRO:0036913	BoLA-DRB3*121:01 protein complex	owl:Class	
+MRO:0036914	BoLA-DQA*010:04 protein complex	owl:Class	
+MRO:0036915	BoLA-DRB3*049:01 protein complex	owl:Class	
+MRO:0036916	BoLA-DQB*037:01 protein complex	owl:Class	
+MRO:0036917	BoLA-2*016:03 protein complex	owl:Class	
+MRO:0036918	BoLA-DRB3*091:01 protein complex	owl:Class	
+MRO:0036919	BoLA-DRB3*100:04 protein complex	owl:Class	
+MRO:0036920	BoLA-DQA*024:01 protein complex	owl:Class	
+MRO:0036921	BoLA-3*027:01 protein complex	owl:Class	
+MRO:0036922	BoLA-DRB3*027:01 protein complex	owl:Class	
+MRO:0036923	BoLA-DRB3*022:12 protein complex	owl:Class	
+MRO:0036924	BoLA-DRB3*037:01 protein complex	owl:Class	
+MRO:0036925	BoLA-DRB3*024:10 protein complex	owl:Class	
+MRO:0036926	BoLA-DRB3*013:03 protein complex	owl:Class	
+MRO:0036927	BoLA-DQB*036:02 protein complex	owl:Class	
+MRO:0036928	BoLA-DRB3*010:03 protein complex	owl:Class	
+MRO:0036929	BoLA-DRB3*077:01 protein complex	owl:Class	
+MRO:0036930	BoLA-DRB3*061:01 protein complex	owl:Class	
+MRO:0036931	BoLA-DRB3*010:05 protein complex	owl:Class	
+MRO:0036932	BoLA-3*058:01 protein complex	owl:Class	
+MRO:0036933	BoLA-DRB3*024:26 protein complex	owl:Class	
+MRO:0036934	BoLA-DRB3*024:31 protein complex	owl:Class	
+MRO:0036935	BoLA-DRB3*050:01:01 protein complex	owl:Class	
+MRO:0036936	BoLA-DQA*020:01 protein complex	owl:Class	
+MRO:0036937	BoLA-DQA*012:06 protein complex	owl:Class	
+MRO:0036938	BoLA-DQB*039:01 protein complex	owl:Class	
+MRO:0036939	BoLA-DRB3*018:02 protein complex	owl:Class	
+MRO:0036940	BoLA-DRB3*079:01 protein complex	owl:Class	
+MRO:0036941	BoLA-DQB*004:04 protein complex	owl:Class	
+MRO:0036942	BoLA-3*066:01 protein complex	owl:Class	
+MRO:0036943	BoLA-DRB3*024:04 protein complex	owl:Class	
+MRO:0036944	BoLA-DQA*001:05 protein complex	owl:Class	
+MRO:0036945	BoLA-DRB3*030:02 protein complex	owl:Class	
+MRO:0036946	BoLA-DRB3*022:11 protein complex	owl:Class	
+MRO:0036947	BoLA-DRB3*162:01 protein complex	owl:Class	
+MRO:0036948	BoLA-DQB*016:02 protein complex	owl:Class	
+MRO:0036949	BoLA-DRB3*036:01 protein complex	owl:Class	
+MRO:0036950	BoLA-DRB3*009:04 protein complex	owl:Class	
+MRO:0036951	BoLA-6*092:01 protein complex	owl:Class	
+MRO:0036952	BoLA-DRB3*015:06 protein complex	owl:Class	
+MRO:0036953	BoLA-DRB3*006:01 protein complex	owl:Class	
+MRO:0036954	BoLA-DRB3*012:03 protein complex	owl:Class	
+MRO:0036955	BoLA-DQA*033:01 protein complex	owl:Class	
+MRO:0036956	BoLA-2*018:02 protein complex	owl:Class	
+MRO:0036957	BoLA-DRB3*050:01 protein complex	owl:Class	
+MRO:0036958	BoLA-DRB3*152:01 protein complex	owl:Class	
+MRO:0036959	BoLA-2*060:01 protein complex	owl:Class	
+MRO:0036960	BoLA-DQB*009:03 protein complex	owl:Class	
+MRO:0036961	BoLA-DRB3*027:11 protein complex	owl:Class	
+MRO:0036962	BoLA-4*094:01 protein complex	owl:Class	
+MRO:0036963	BoLA-DQB*014:01 protein complex	owl:Class	
+MRO:0036964	BoLA-DRB3*020:08 protein complex	owl:Class	
+MRO:0036965	BoLA-6*015:02 protein complex	owl:Class	
+MRO:0036966	BoLA-DRB3*007:06 protein complex	owl:Class	
+MRO:0036967	BoLA-2*030:01 protein complex	owl:Class	
+MRO:0036968	BoLA-DQA*028:02 protein complex	owl:Class	
+MRO:0036969	BoLA-3*004:03 protein complex	owl:Class	
+MRO:0036970	BoLA-DRB3*027:16 protein complex	owl:Class	
+MRO:0036971	BoLA-DRB3*146:01 protein complex	owl:Class	
+MRO:0036972	BoLA-DQB*022:01 protein complex	owl:Class	
+MRO:0036973	BoLA-DRB3*024:01 protein complex	owl:Class	
+MRO:0036974	BoLA-3*010:01 protein complex	owl:Class	
+MRO:0036975	BoLA-DRB3*041:01 protein complex	owl:Class	
+MRO:0036976	BoLA-DRB3*100:08 protein complex	owl:Class	
+MRO:0036977	BoLA-DQB*004:01 protein complex	owl:Class	
+MRO:0036978	BoLA-DRB3*156:01 protein complex	owl:Class	
+MRO:0036979	BoLA-DRB3*040:01 protein complex	owl:Class	
+MRO:0036980	BoLA-DRB3*032:02 protein complex	owl:Class	
+MRO:0036981	BoLA-DRB3*129:01 protein complex	owl:Class	
+MRO:0036982	BoLA-2*008:02 protein complex	owl:Class	
+MRO:0036983	BoLA-DRB3*031:04 protein complex	owl:Class	
+MRO:0036984	BoLA-DQA*027:01:01 protein complex	owl:Class	
+MRO:0036985	BoLA-3*081:01 protein complex	owl:Class	
+MRO:0036986	BoLA-1*067:01 protein complex	owl:Class	
+MRO:0036987	BoLA-DRB3*027:02 protein complex	owl:Class	
+MRO:0036988	BoLA-DRB3*109:01 protein complex	owl:Class	
+MRO:0036989	BoLA-2*089:01 protein complex	owl:Class	
+MRO:0036990	BoLA-DRB3*067:01 protein complex	owl:Class	
+MRO:0036991	BoLA-2*096:01 protein complex	owl:Class	
+MRO:0036992	BoLA-DRB3*143:01 protein complex	owl:Class	
+MRO:0036993	BoLA-DRB3*086:04 protein complex	owl:Class	
+MRO:0036994	BoLA-DRB3*024:05 protein complex	owl:Class	
+MRO:0036995	BoLA-DQA*010:03 protein complex	owl:Class	
+MRO:0036996	BoLA-1*009:01 protein complex	owl:Class	
+MRO:0036997	BoLA-DQA*004:01 protein complex	owl:Class	
+MRO:0036998	BoLA-DQB*017:02 protein complex	owl:Class	
+MRO:0036999	BoLA-DRB3*020:02:01 protein complex	owl:Class	
+MRO:0037000	BoLA-DQB*003:01 protein complex	owl:Class	
+MRO:0037001	BoLA-DRB3*111:01 protein complex	owl:Class	
+MRO:0037002	BoLA-DRB3*084:01 protein complex	owl:Class	
+MRO:0037003	BoLA-3*050:01 protein complex	owl:Class	
+MRO:0037004	BoLA-DRB3*159:01 protein complex	owl:Class	
+MRO:0037005	BoLA-4*076:01 protein complex	owl:Class	
+MRO:0037006	BoLA-DQB*007:01 protein complex	owl:Class	
+MRO:0037007	BoLA-2*055:01 protein complex	owl:Class	
+MRO:0037008	BoLA-DRB3*090:01 protein complex	owl:Class	
+MRO:0037009	BoLA-DRB3*016:02 protein complex	owl:Class	
+MRO:0037010	BoLA-DQB*005:01 protein complex	owl:Class	
 MRO:0037011	Mamu-E*02:11 chain	owl:Class	
 MRO:0037012	Mamu-E*02:11 protein complex	owl:Class	
+MRO:0037013	BoLA-4 protein complex	owl:Class	
