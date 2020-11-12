@@ -28,7 +28,7 @@ BoLA-DQA*003:01/DQB*004:02 protein complex	BoLA-DQA*003:01/DQB*004:02	BoLA-DQA*0
 BoLA-DQA*010:01:01 protein complex	BoLA-DQA*010:01:01	BoLA-DQA*10011	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:01:01 chain	BoLA-DQB chain		
 BoLA-DQA*010:01:01/DQB*010:02:01 protein complex	BoLA-DQA*010:01:01/DQB*010:02:01	BoLA-DQA*10011/DQB*10021	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:01:01 chain	BoLA-DQB*010:02:01 chain		
 BoLA-DQA*012:01:01 protein complex	BoLA-DQA*012:01:01	BoLA-DQA*12011	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:01 chain	BoLA-DQB chain		
-BoLA-DQA*012:01:01/DQB*10051 protein complex	BoLA-DQA*012:01:01/DQB*10051		complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:01 chain	BoLA-DQB*10051 chain		
+BoLA-DQA*012:01:01/DQB*10:05 protein complex	BoLA-DQA*012:01:01/DQB*10051		complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:01 chain	BoLA-DQB*10051 chain		
 BoLA-DQA*022:01 protein complex	BoLA-DQA*022:01	BoLA-DQA*2201	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:01 chain	BoLA-DQB chain		
 BoLA-DQA*022:01/DQB*012:01 protein complex	BoLA-DQA*022:01/DQB*012:01	BoLA-DQA*2201/DQB*1201	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:01 chain	BoLA-DQB*012:01 chain		
 BoLA-DQA*022:02:01 protein complex	BoLA-DQA*022:02:01	BoLA-DQA*2202	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:01 chain	BoLA-DQB chain		
@@ -60,7 +60,7 @@ BoLA-DRB3*018:01 protein complex	BoLA-DRB3*018:01	DRB08|BoLA-DRB3*1801	partial m
 BoLA-DRB3*020:02 protein complex	BoLA-DRB3*020:02	BoLA-DRB3*2002	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*020:02 chain		
 BoLA-DRB3*027:03 protein complex	BoLA-DRB3*027:03	BoLA-DRB3*2703	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*027:03 chain		
 BoLA-DRB3*030:01 protein complex	BoLA-DRB3*030:01	BoLA-DRB3*3001	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*030:01 chain		
-BoLA-DRB3*4501 protein complex	BoLA-DRB3*4501		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*4501 chain		
+BoLA-DRB3*045:01 protein complex	BoLA-DRB3*4501		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*4501 chain		
 BoLA-DRB6 protein complex	BoLA-DRB6		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB6 chain		
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
@@ -17385,6 +17385,7 @@ Mamu-DRB*W6:02 protein complex	Mamu-DRB*W6:02	Mamu-DRB6*0102	partial molecule	eq
 Mamu-DRB*w2:01 protein complex	Mamu-DRB*w2:01	Mamu-DRBW2*0101	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*w2:01 chain		
 Mamu-E protein complex	Mamu-E		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E chain	Beta-2-microglobulin		
 Mamu-E*02:04 protein complex	Mamu-E*02:04		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:04 chain	Beta-2-microglobulin		
+Mamu-E*02:11 protein complex	Mamu-E*02:11	Mamu-E*0111	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:11 chain	Beta-2-microglobulin		
 Mamu-MR1 protein complex	Mamu-MR1		complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	Mamu-MR1 chain	Beta-2-microglobulin		
 Papa-A protein complex	Papa-A		locus	equivalent	MHC class I protein complex	bonobo	Papa-A chain	Beta-2-microglobulin		
 Papa-A*06:01 protein complex	Papa-A*06:01	Papa-A06	complete molecule	equivalent	MHC class I protein complex	bonobo	Papa-A*06:01 chain	Beta-2-microglobulin		
