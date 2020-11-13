@@ -1,5 +1,5 @@
 Label	Synonyms	Class Type	Parent	Gene	Expression
-LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %	C 'has expression evidence' some %
+LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %	AI 'has expression evidence' some %
 Anpl-UAA chain		equivalent	protein	Anpl-UAA locus	
 Anpl-UAA*01 chain		subclass	Anpl-UAA chain		
 BoLA-1 chain		equivalent	protein	BoLA-1 locus	
