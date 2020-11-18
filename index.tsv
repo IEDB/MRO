@@ -35801,3 +35801,9 @@ MRO:0035797	SLA-DR protein complex	owl:Class
 MRO:0035798	SLA-3 protein complex	owl:Class	
 MRO:0037011	Mamu-E*02:11 chain	owl:Class	
 MRO:0037012	Mamu-E*02:11 protein complex	owl:Class	
+MRO:0037013	has expression evidence	owl:AnnotationProperty	
+MRO:0037014	MHC chain expression evidence	owl:Class	
+MRO:0037015	evidence of MHC chain expression questionable	owl:Class	
+MRO:0037016	evidence of MHC chain expression not observed	owl:Class	
+MRO:0037017	evidence of MHC chain expression observed	owl:Class	
+MRO:0037018	evidence of MHC chain expression observed in >1% of the population	owl:Class	
