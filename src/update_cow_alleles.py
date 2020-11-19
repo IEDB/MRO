@@ -26,6 +26,7 @@ def get_cow_sequences():
                 if line.startswith(">IPD-MHC:BoLA") and "BoLA" in line.split(" ")[1]:
                     accession = line.split(" ")[0][9:]
                     allele = line.split(" ")[1]
+                    allele = (":").join(allele.split(":")[:2])
             else:
                 seq += line.strip()
         seqs[accession] = seq
@@ -57,7 +58,9 @@ def update_chains(curr_loci, ipd_seqs, allele_map):
         rows = csv.DictReader(fh, delimiter="\t")
         for row in rows:
             if "BoLA" in row["Label"]:
-                mro_alleles.add(row["Label"].split(" ")[0])
+                allele = row["Label"].split(" ")[0]
+                allele = (":").join(allele.split(":")[:2])
+                mro_alleles.add(allele)
 
     # Find differences between IMGT and MRO alleles
     imgt_alleles = set(allele_map.keys())
@@ -86,7 +89,7 @@ def update_chains(curr_loci, ipd_seqs, allele_map):
             synonyms = ""
             class_type = "subclass"
             parent = f"{gene} chain"
-            missing_chain_rows.add((label, synonyms, class_type, parent, ""))
+            missing_chain_rows.add((label, synonyms, class_type, parent, "", ""))
         except Exception:
             print(f"Allele {allele} has no sequence in IPD")
 
