@@ -294,7 +294,7 @@ build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar
 build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
-build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
+build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
 build/ALLELE_FINDER_NAMES.csv: build/mro-iedb.owl src/names.rq | build/robot.jar iedb
