@@ -201,9 +201,15 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	wget -O $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
+# update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
+
+# refresh-seqs will overwrite existing seqs with new seqs
+.PHONY: add-seqs
+add-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+	python3 $^ -o
 
 build/hla_prot.fasta: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta
