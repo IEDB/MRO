@@ -24,8 +24,6 @@ def main():
       default=False)
   args = parser.parse_args()
 
-  print(args.overwrite)
-
   # Read one or more FASTA files into a dictionary
   seqs = {}
   for fasta in args.fasta:
