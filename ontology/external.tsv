@@ -3,6 +3,7 @@ ID	A rdfs:label	A IAO:0000111	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A I
 ECO:0000000	evidence	evidence		subclass	information content entity					http://purl.obolibrary.org/obo/eco.owl
 GO:0042611	MHC protein complex	MHC protein complex	MHC molecule	equivalent	protein complex	('has part' some (protein and ('gene product of' some 'MHC locus')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO		http://purl.obolibrary.org/obo/go.owl
 GO:0043234	protein complex	protein complex	MHC	subclass	material entity					http://purl.obolibrary.org/obo/go.owl
+NCBITaxon:7959	grass carp	Ctenopharyngodon idella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:8355	clawed frog	Xenopus laevis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:8839	duck	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9031	chicken	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
@@ -16,6 +17,7 @@ NCBITaxon:9597	bonobo	Pan paniscus		subclass	organism					http://purl.obolibrary
 NCBITaxon:9598	chimpanzee	Pan troglodytes		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9606	human	Homo sapiens		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9615	dog	Canis lupus familiaris		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
+NCBITaxon:9646	giant panda	Ailuropoda melanoleuca		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9685	cat	Felis catus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9796	horse	Equus caballus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl
 NCBITaxon:9823	pig	Sus scrofa		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl

@@ -40,7 +40,9 @@ organisms = {
   'crab-eating macaque': 'crab-eating macaque (Macaca fascicularis)',
   'dog': 'dog (Canis lupus familiaris)',
   'duck': 'duck (Anas platyrhynchos)',
+  'giant panda': 'giant panda (Ailuropoda melanoleuca)',
   'gorilla': 'gorilla (Gorilla gorilla)',
+  'grass carp': 'grass carp (Ctenopharyngodon idella)',
   'horse': 'horse (Equus caballus)',
   'human': 'human (Homo sapiens)',
   'marmoset': 'marmoset (Callithrix jacchus)',
@@ -54,6 +56,7 @@ organisms = {
 }
 codes = {
   '1': 'organism',
+  '7959': 'Ctid',
   '8355': 'clawed frog',
   '8839': 'duck',
   '9031': 'chicken',
@@ -66,6 +69,7 @@ codes = {
   '9598': 'Patr',
   '9606': 'HLA',
   '9615': 'DLA',
+  '9646': 'Aime',
   '9685': 'FLA',
   '9796': 'ELA',
   '9823': 'SLA',
