@@ -201,9 +201,15 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	wget -O $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
+# update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
+
+# refresh-seqs will overwrite existing seqs with new seqs
+.PHONY: refresh-seqs
+refresh-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+	python3 $^ -o
 
 build/hla_prot.fasta: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta
@@ -288,7 +294,7 @@ build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar
 build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
 
-build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv | iedb
+build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
 build/ALLELE_FINDER_NAMES.csv: build/mro-iedb.owl src/names.rq | build/robot.jar iedb

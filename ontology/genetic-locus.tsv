@@ -1,5 +1,6 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
+Aime-128 locus		subclass	giant panda MHC class I locus	
 Anpl-UAA locus		subclass	duck MHC class I locus	
 BoLA-1 locus		subclass	cattle MHC class I locus	
 BoLA-2 locus		subclass	cattle MHC class I locus	
@@ -16,6 +17,7 @@ BoLA-DRB locus		subclass	cattle MHC class II locus
 BoLA-MR1 locus		subclass	cattle non-classical MHC locus	
 Caja-E locus		subclass	marmoset MHC class I locus	
 Caja-G locus		subclass	marmoset MHC class I locus	
+Ctid-UAA locus		subclass	grass carp MHC class I locus	
 DLA-88 locus		subclass	dog MHC class I locus	
 ELA-1 locus		subclass	horse MHC class I locus	
 ELA-16 locus		subclass	horse MHC class I locus	
@@ -122,8 +124,12 @@ crab-eating macaque MHC class II locus		subclass	MHC class II locus	crab-eating 
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
 duck MHC class I locus		subclass	MHC class I locus	duck
+giant panda MHC class I locus		subclass	MHC class I locus	giant panda
+giant panda MHC class II locus		subclass	MHC class II locus	giant panda
 gorilla MHC class I locus		subclass	MHC class I locus	gorilla
 gorilla MHC class II locus		subclass	MHC class II locus	gorilla
+grass carp MHC class I locus		subclass	MHC class I locus	grass carp
+grass carp MHC class II locus		subclass	MHC class II locus	grass carp
 horse MHC class I locus		subclass	MHC class I locus	horse
 horse MHC class II locus		subclass	MHC class II locus	horse
 human MHC class I locus		subclass	MHC class I locus	human
