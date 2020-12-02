@@ -17953,6 +17953,8 @@ HLA-G*01:23 protein complex	HLA-G*01:23		complete molecule	equivalent	non-classi
 HLA-G*01:24 protein complex	HLA-G*01:24		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:24 chain	Beta-2-microglobulin		
 MHC class I protein complex	class I		class	subclass	MHC protein complex					
 MHC class II protein complex	class II		class	subclass	MHC protein complex					
+Mafa-A1 protein complex	Mafa-A1		locus	equivalent	MHC class I protein complex	crab-eating macaque	Mafa-A1 chain	Beta-2-microglobulin		
+Mafa-A1*063:01 protein complex	Mafa-A1*063:01		complete molecule	equivalent	MHC class I protein complex	crab-eating macaque	Mafa-A1*063:01 chain	Beta-2-microglobulin		
 Mafa-DQB1*18:01 protein complex	Mafa-DQB1*1801		partial molecule	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DQA chain	Mafa-DQB1*18:01 chain		
 Mafa-DQB protein complex	Mafa-DQB		locus	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DQA chain	Mafa-DQB chain		
 Mafa-DRB protein complex	Mafa-DRB		locus	equivalent	MHC class II protein complex	crab-eating macaque	Mafa-DRA chain	Mafa-DRB chain		
@@ -18122,6 +18124,7 @@ clawed frog MHC class II protein complex	clawed frog		class	equivalent	MHC class
 cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
 cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
 cotton-top tamarin MHC class II protein complex	cotton-top tamarin		class	equivalent	MHC class II protein complex	cotton-top tamarin				
+crab-eating macaque MHC class I protein complex	crab-eating macaque		class	equivalent	MHC class I protein complex	crab-eating macaque				
 crab-eating macaque MHC class II protein complex	crab-eating macaque		class	equivalent	MHC class II protein complex	crab-eating macaque				
 dog MHC class I protein complex	dog		class	equivalent	MHC class I protein complex	dog				
 dog MHC class II protein complex	dog		class	equivalent	MHC class II protein complex	dog				

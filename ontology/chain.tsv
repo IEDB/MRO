@@ -17865,6 +17865,8 @@ HLA-G*01:24 chain		subclass	HLA-G chain
 HLA-MR1 chain		equivalent	protein	HLA-MR1 locus	
 MHC class I chain		equivalent	protein	MHC class I locus	
 MHC class II chain		equivalent	protein	MHC class II locus	
+Mafa-A1 chain		equivalent	protein	Mafa-A1 locus	
+Mafa-A1*063:01 chain		subclass	Mafa-A1 chain		
 Mafa-DQA chain		equivalent	protein	Mafa-DQA locus	
 Mafa-DQB1*18:01 chain		subclass	Mafa-DQB chain		
 Mafa-DQB chain		equivalent	protein	Mafa-DQB locus	
@@ -18051,6 +18053,7 @@ chimpanzee non-classical MHC chain		equivalent	protein	chimpanzee non-classical 
 clawed frog MHC class I chain		equivalent	protein	clawed frog MHC class I locus	
 cotton-top tamarin MHC class I chain		equivalent	protein	cotton-top tamarin MHC class I locus	
 cotton-top tamarin MHC class II chain		equivalent	protein	cotton-top tamarin MHC class II locus	
+crab-eating macaque MHC class I chain		equivalent	protein	crab-eating macaque MHC class I locus	
 crab-eating macaque MHC class II chain		equivalent	protein	crab-eating macaque MHC class II locus	
 dog MHC class I chain		equivalent	protein	dog MHC class I locus	
 dog MHC class II chain		equivalent	protein	dog MHC class II locus	

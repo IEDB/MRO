@@ -62,6 +62,7 @@ HLA-G locus		subclass	human non-classical MHC locus
 HLA-MR1 locus		subclass	human non-classical MHC locus	
 MHC class I locus		subclass	MHC locus	
 MHC class II locus		subclass	MHC locus	
+Mafa-A1 locus		subclass	crab-eating macaque MHC class I locus	
 Mafa-DQA locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DQB locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DRA locus		subclass	crab-eating macaque MHC class II locus	
@@ -120,6 +121,7 @@ clawed frog MHC class I locus		subclass	MHC class I locus	clawed frog
 clawed frog MHC class II locus		subclass	MHC class II locus	clawed frog
 cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
 cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
+crab-eating macaque MHC class I locus		subclass	MHC class I locus	crab-eating macaque
 crab-eating macaque MHC class II locus		subclass	MHC class II locus	crab-eating macaque
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog

@@ -37040,3 +37040,11 @@ MRO:0037036	giant panda MHC class I protein complex	owl:Class
 MRO:0037037	giant panda MHC class II protein complex	owl:Class	
 MRO:0037038	grass carp MHC class I protein complex	owl:Class	
 MRO:0037039	grass carp MHC class II protein complex	owl:Class	
+MRO:0037040	Mafa-A1 locus	owl:Class	
+MRO:0037041	crab-eating macaque MHC class I locus	owl:Class	
+MRO:0037042	Mafa-A1 chain	owl:Class	
+MRO:0037043	Mafa-A1*063:01 chain	owl:Class	
+MRO:0037044	crab-eating macaque MHC class I chain	owl:Class	
+MRO:0037045	Mafa-A1*063:01 protein complex	owl:Class	
+MRO:0037046	Mafa-A1 protein complex	owl:Class	
+MRO:0037047	crab-eating macaque MHC class I protein complex	owl:Class	
