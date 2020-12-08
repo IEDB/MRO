@@ -291,9 +291,6 @@ PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:99
 build/%-import.ttl: build/%.db build/%.txt
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(foreach P,$(PREDICATES), -p $(P)) > $@
 
-build/%-import.owl: build/%-import-structure.owl build/%-import-annotations.ttl | build/robot.jar
-	$(ROBOT) merge --input $< --input $(word 2,$^) --output $@
-
 ### Generate files for IEDB
 #
 # This includes an extended OWL file
