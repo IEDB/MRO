@@ -1,9 +1,6 @@
 # Biology
 GO:0008150  # biological process
 OBI:1110057 # MHC:epitope complex binding to TCR
-REO:0000079 # genetic locus
-SO:0001024  # haplotype
-SO:0000355  # haplotype_block
 
 # Information
 IAO:0000030 # information content entity
@@ -19,7 +16,7 @@ OBI:1110037 # T cell epitope recognition assay
 
 # Material
 BFO:0000040 # material entity
-GO:0043234  # protein complex
+GO:0032991 # protein-containing complex
 PR:000000001 # protein
 OBI:1110001 # epitope
 OBI:0100026 # organism
@@ -40,7 +37,9 @@ RO:0002162  # in taxon
 RO:0002204  # gene product of
 
 # Annotation Properties
+IAO:0000111 # editor preferred term
 IAO:0000115 # definition
 IAO:0000119 # definition source
 IAO:0000112 # example of usage
+IAO:0000412 # imported from
 OBI:9991118 # IEDB alternative term
