@@ -3,6 +3,7 @@ LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %	AI 'has ex
 Aime-128 chain		equivalent	protein	Aime-128 locus	
 Anpl-UAA chain		equivalent	protein	Anpl-UAA locus	
 Anpl-UAA*01 chain		subclass	Anpl-UAA chain		
+Beta-2-microglobulin chain		equivalent	protein	Beta-2-microglobulin locus	
 BoLA-1 chain		equivalent	protein	BoLA-1 locus	
 BoLA-1*007:01 chain		subclass	BoLA-1 chain		
 BoLA-1*009:01 chain		subclass	BoLA-1 chain		
@@ -18062,6 +18063,9 @@ giant panda MHC class I chain		equivalent	protein	giant panda MHC class I locus
 giant panda MHC class II chain		equivalent	protein	giant panda MHC class II locus	
 gorilla MHC class I chain		equivalent	protein	gorilla MHC class I locus	
 gorilla MHC class II chain		equivalent	protein	gorilla MHC class II locus	
+grass carp Beta-2-microglobulin chain		equivalent	protein	grass carp Beta-2-microglobulin locus	
+grass carp Beta-2-microglobulin-1-II chain		subclass	grass carp Beta-2-microglobulin chain		
+grass carp Beta-2-microglobulin-2 chain		subclass	grass carp Beta-2-microglobulin chain		
 grass carp MHC class I chain		equivalent	protein	grass carp MHC class I locus	
 grass carp MHC class II chain		equivalent	protein	grass carp MHC class II locus	
 horse MHC class I chain		equivalent	protein	horse MHC class I locus	
