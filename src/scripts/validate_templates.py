@@ -263,10 +263,6 @@ def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
             # Don't use check_fields because it is only required when parent == protein
             parent = row["Parent"]
             gene = row["Gene"]
-            if gene == "Beta-2-microglobulin locus" and row["Label"] == "Beta-2-microglobulin chain":
-                # exclude b2m from gene check
-                row_idx += 1
-                continue
             if not gene or gene.strip == "":
                 if parent == "protein":
                     err_id += 1
