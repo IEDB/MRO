@@ -655,7 +655,8 @@ BoLA-DRB3*163:01 protein complex	BoLA-DRB3*163:01		partial molecule	equivalent	M
 BoLA-DRB6 protein complex	BoLA-DRB6		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB6 chain		
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
-Ctid-UAA protein complex	Ctid-UAA		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	Beta-2-microglobulin		
+Ctid-UAA b2m-1-II protein complex	Ctid-UAA		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
+Ctid-UAA b2m-2 protein complex	Ctid-UAA		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-2 chain		
 DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	DLA-88 chain	Beta-2-microglobulin		
 DLA-88*03401 protein complex	DLA-88*03401		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*03401 chain	Beta-2-microglobulin		
 DLA-88*50101 protein complex	DLA-88*50101		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50101 chain	Beta-2-microglobulin		
