@@ -177,7 +177,7 @@ update-tsv-files:
 	python3 src/xlsx2tsv.py mro.xlsx index > index.tsv
 	python3 src/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
 	python3 src/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
-	$(foreach t,$(tables),python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
+	$(foreach t,$(tables) rejected,python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
 	python3 src/sort.py $(source_files)
 
 # Sort TSV files by first column
