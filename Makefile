@@ -166,7 +166,7 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv
+mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files build/whitespace.tsv
@@ -177,7 +177,7 @@ update-tsv-files:
 	python3 src/xlsx2tsv.py mro.xlsx index > index.tsv
 	python3 src/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
 	python3 src/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
-	$(foreach t,$(tables),python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
+	$(foreach t,$(tables) rejected,python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
 	python3 src/sort.py $(source_files)
 
 # Sort TSV files by first column
