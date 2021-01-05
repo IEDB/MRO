@@ -1,5 +1,5 @@
 prefix	base
-		
+	
 BFO	http://purl.obolibrary.org/obo/BFO_
 ECO	http://purl.obolibrary.org/obo/ECO_
 GO	http://purl.obolibrary.org/obo/GO_

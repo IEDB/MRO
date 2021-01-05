@@ -124,7 +124,7 @@ build/valve/%.tsv: ontology/%.tsv | build/valve
 	cp $< $@
 
 build/validation_valve.tsv: $(VALVE_CONFIG) $(source_files)
-	valve src/validation ontology -o $@ -r 3
+	valve src/validation ontology -o $@ -r 3 || true
 
 apply_%: build/validation_%.tsv | .cogs
 	cogs clear all
