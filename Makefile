@@ -56,7 +56,7 @@ templates = $(foreach i,$(build_files),--template $(i))
 
 ### Set Up
 
-build build/validate:
+build build/validate build/valve:
 	mkdir -p $@
 
 # We use the official development version of ROBOT for most things.
@@ -115,6 +115,17 @@ build/validation_errors.tsv: src/scripts/validate_templates.py index.tsv iedb/ie
 build/validation_errors_strict.tsv: src/scripts/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
 	python3 $< index.tsv iedb/iedb.tsv build $@
 
+VALVE_CONFIG := $(foreach f,$(shell ls src/validation),src/validation/$(f))
+
+$(VALVE_CONFIG): $(VALVE_CONFIG_MASTER) | build/valve
+	cp src/validation/* build/valve
+
+build/valve/%.tsv: ontology/%.tsv | build/valve
+	cp $< $@
+
+build/validation_valve.tsv: $(VALVE_CONFIG) $(source_files)
+	valve src/validation ontology -o $@ -r 3 || true
+
 apply_%: build/validation_%.tsv | .cogs
 	cogs clear all
 	cogs apply $<
@@ -122,13 +133,17 @@ apply_%: build/validation_%.tsv | .cogs
 .PHONY: validate_tables
 validate_tables:
 	cogs fetch && cogs pull
+	cogs clear all
 	make apply_errors
+	make apply_valve
 	cogs push
 
 .PHONY: validate_tables_strict
 validate_tables_strict:
 	cogs fetch && cogs pull
+	cogs clear all
 	make apply_errors_strict
+	make apply_valve
 	cogs push
 
 ### Processing
