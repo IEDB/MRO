@@ -62,7 +62,7 @@ build build/validate:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/accept-tdb/lastSuccessfulBuild/artifact/bin/robot.jar
 
 # Download rdftab based on operating system
 
@@ -291,24 +291,43 @@ build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar
 	--merge-before \
 	--output $@
 
+build/.mro-tdb: build/mro-iedb.owl
+	$(ROBOT) query --input $< \
+	--create-tdb true \
+	--tdb-directory $@
+
 build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@
 
 build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
-build/ALLELE_FINDER_NAMES.csv: build/mro-iedb.owl src/names.rq | build/robot.jar iedb
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
+build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/names.rq | build/robot.jar iedb
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@.tmp \
+	--format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/ALLELE_FINDER_SEARCH.csv: build/mro-iedb.owl src/search.rq | build/robot.jar iedb
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
+build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/search.rq | build/robot.jar iedb
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@.tmp \
+	--format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: build/mro-iedb.owl src/parents.rq | build/robot.jar
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
+build/parents.csv: build/.mro-tdb src/parents.rq | build/robot.jar
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@
 
 build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@
