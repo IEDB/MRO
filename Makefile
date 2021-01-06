@@ -296,7 +296,7 @@ build/.mro-tdb: build/mro-iedb.owl
 	--create-tdb true \
 	--tdb-directory $@
 
-build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
+build/mhc_allele_restriction.csv: build/.mro-tdb src/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
