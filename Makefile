@@ -228,9 +228,8 @@ update-cow-alleles: src/update_cow_alleles.py ontology/chain-sequence.tsv ontolo
 ### OWL Files
 
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) merge \
+	$(ROBOT) template \
 	--input $< \
-	template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
