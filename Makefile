@@ -62,7 +62,7 @@ build build/validate:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/accept-tdb/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
 
 # Download rdftab based on operating system
 
@@ -228,9 +228,8 @@ update-cow-alleles: src/update_cow_alleles.py ontology/chain-sequence.tsv ontolo
 ### OWL Files
 
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) merge \
+	$(ROBOT) template \
 	--input $< \
-	template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
@@ -246,29 +245,50 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-build/mro-import.owl: ontology/import.txt $(LIB)/ro.owl $(LIB)/obi.owl $(LIB)/eco.owl | build/robot.jar
+build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl ontology/import.txt | build/robot.jar
 	$(ROBOT) merge \
-	--input $(LIB)/eco.owl \
-	--input $(LIB)/obi.owl \
-	--input $(LIB)/ro.owl \
+	--input build/eco-import.ttl \
+	--input build/obi-import.ttl \
+	--input build/ro-import.ttl \
+	--input build/iao-import.ttl \
 	extract \
 	--method MIREOT \
-	--prefix "REO: $(OBO)/REO_" \
 	--upper-term "GO:0008150" \
 	--upper-term "IAO:0000030" \
 	--upper-term "OBI:1110128" \
 	--upper-term "ECO:0000000" \
 	--upper-term "BFO:0000040" \
 	--upper-term "PR:000000001" \
-	--lower-terms $< \
+	--lower-terms $(word 5,$^) \
 	--output $@
-
 
 # fetch ontology dependencies
 $(LIB)/%:
 	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
+UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
+
+# OBI IAO:0000115 has mulitples so get the definiton from here
+# we could also just add this to index.tsv
+build/%.txt: ontology/import.txt | build
+	sed -n '/$(call UC,$(notdir $(basename $@)))/p' $< > $@
+
+# RO:0000056 isn't in RO?
+# we could also just add this to index.tsv
+build/obi.txt: ontology/import.txt | build
+	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' > $@
+	echo "RO:0000056" >> $@
+
+build/%.db: src/scripts/prefixes.sql $(LIB)/%.owl | build/rdftab
+	rm -rf $@
+	sqlite3 $@ < $<
+	./build/rdftab $@ < $(word 2,$^)
+
+PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:9991118 rdfs:label
+
+build/%-import.ttl: build/%.db build/%.txt
+	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(foreach P,$(PREDICATES), -p $(P)) > $@
 
 ### Generate files for IEDB
 #
