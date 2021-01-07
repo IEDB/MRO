@@ -62,7 +62,7 @@ build build/validate:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/accept-tdb/lastSuccessfulBuild/artifact/bin/robot.jar
 
 # Download rdftab based on operating system
 
@@ -166,7 +166,7 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv
+mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files build/whitespace.tsv
@@ -177,7 +177,7 @@ update-tsv-files:
 	python3 src/xlsx2tsv.py mro.xlsx index > index.tsv
 	python3 src/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
 	python3 src/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
-	$(foreach t,$(tables),python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
+	$(foreach t,$(tables) rejected,python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
 	python3 src/sort.py $(source_files)
 
 # Sort TSV files by first column
@@ -311,24 +311,43 @@ build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar
 	--merge-before \
 	--output $@
 
-build/mhc_allele_restriction.csv: build/mro-iedb.owl src/mhc_allele_restriction.rq | build/robot.jar
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
+build/.mro-tdb: build/mro-iedb.owl
+	$(ROBOT) query --input $< \
+	--create-tdb true \
+	--tdb-directory $@
+
+build/mhc_allele_restriction.csv: build/.mro-tdb src/mhc_allele_restriction.rq | build/robot.jar
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@
 
 build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
-build/ALLELE_FINDER_NAMES.csv: build/mro-iedb.owl src/names.rq | build/robot.jar iedb
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
+build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/names.rq | build/robot.jar iedb
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@.tmp \
+	--format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/ALLELE_FINDER_SEARCH.csv: build/mro-iedb.owl src/search.rq | build/robot.jar iedb
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@.tmp --format csv
+build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/search.rq | build/robot.jar iedb
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@.tmp \
+	--format csv
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: build/mro-iedb.owl src/parents.rq | build/robot.jar
-	$(ROBOT) query --input $(word 1,$^) --select $(word 2,$^) $@
+build/parents.csv: build/.mro-tdb src/parents.rq | build/robot.jar
+	$(ROBOT) query \
+	--tdb-directory $< \
+	--keep-tdb-mappings true \
+	--select $(word 2,$^) $@
 
 build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@

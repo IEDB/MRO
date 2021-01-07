@@ -37013,7 +37013,7 @@ MRO:0037009	HLA-C*12:139 chain	owl:Class
 MRO:0037010	HLA-B*07:44 chain	owl:Class	
 MRO:0037011	HLA-C*03:23 chain	owl:Class	
 MRO:0037012	Aime-128 protein complex	owl:Class	
-MRO:0037013	Ctid-UAA protein complex	owl:Class	
+MRO:0037013	Ctid-UAA b2m-1-II protein complex	owl:Class	
 MRO:0037014	HLA-A*01:159 protein complex	owl:Class	
 MRO:0037015	HLA-A*01:281 protein complex	owl:Class	
 MRO:0037016	HLA-A*02:437 protein complex	owl:Class	
@@ -37048,3 +37048,10 @@ MRO:0037044	crab-eating macaque MHC class I chain	owl:Class
 MRO:0037045	Mafa-A1*063:01 protein complex	owl:Class	
 MRO:0037046	Mafa-A1 protein complex	owl:Class	
 MRO:0037047	crab-eating macaque MHC class I protein complex	owl:Class	
+MRO:0037048	grass carp Beta-2-microglobulin locus	owl:Class	
+MRO:0037049	Beta-2-microglobulin locus	owl:Class	
+MRO:0037050	grass carp Beta-2-microglobulin-1-II chain	owl:Class	
+MRO:0037051	grass carp Beta-2-microglobulin-2 chain	owl:Class	
+MRO:0037052	grass carp Beta-2-microglobulin chain	owl:Class	
+MRO:0037053	Ctid-UAA b2m-2 protein complex	owl:Class	
+			

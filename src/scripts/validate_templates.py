@@ -85,7 +85,7 @@ def check_fields(
     reader,
     valid_labels,
     field_name="Parent",
-    top_term=None,
+    top_terms=None,
     source=None,
     required=True,
 ):
@@ -93,6 +93,8 @@ def check_fields(
     labels. If required, validate that this field value is filled in for all rows. Return a set of
     errors, if any."""
     global err_id
+    if not top_terms:
+        top_terms = []
     errors = []
     row_idx = 3
     headers = reader.fieldnames
@@ -119,7 +121,7 @@ def check_fields(
                     "instructions": f"add a '{field_name}' term",
                 }
             )
-        if value and value != top_term and value not in valid_labels:
+        if value and value not in top_terms and value not in valid_labels:
             err_id += 1
             errors.append(
                 {
@@ -213,6 +215,7 @@ def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
 
     Return all the labels from this sheet and a set of errors, if any."""
     global err_id
+    # Add b2m locus (lives in core but can be used as gene only for b2m)
     table_name = "chain"
     errors = []
     with open(f"{template_dir}/{table_name}.tsv", "r") as f:
@@ -244,7 +247,7 @@ def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
         next(reader)
 
         # Validate parents
-        parent_errors = check_fields(table_name, reader, chain_labels, top_term="protein")
+        parent_errors = check_fields(table_name, reader, chain_labels, top_terms=["protein"])
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -348,7 +351,7 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
         next(reader)
 
         # Validate parents
-        parent_errors = check_fields(table_name, reader, genetic_locus_labels, top_term="MHC locus")
+        parent_errors = check_fields(table_name, reader, genetic_locus_labels, top_terms=["Beta-2-microglobulin locus", "MHC locus"])
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -423,7 +426,7 @@ def validate_halpotype(template_dir, labels, external_labels, allow_missing):
         next(reader)
         next(reader)
 
-        parent_errors = check_fields(table_name, reader, haplotype_labels, top_term="MHC haplotype")
+        parent_errors = check_fields(table_name, reader, haplotype_labels, top_terms=["MHC haplotype"])
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -521,7 +524,7 @@ def validate_haplotype_molecule(
 
         # Validate parents (from molecule table)
         parent_errors = check_fields(
-            table_name, reader, molecule_labels, top_term="MHC protein complex", source="molecule",
+            table_name, reader, molecule_labels, top_terms=["MHC protein complex"], source="molecule",
         )
         errors.extend(parent_errors)
 
@@ -535,7 +538,7 @@ def validate_haplotype_molecule(
             table_name,
             reader,
             haplotype_labels,
-            top_term="MHC haplotype",
+            top_terms=["MHC haplotype"],
             field_name="With Haplotype",
             source="haplotype",
         )
@@ -669,7 +672,7 @@ def validate_molecule(
 
         # Validate parents
         parent_errors = check_fields(
-            table_name, reader, molecule_labels, top_term="MHC protein complex"
+            table_name, reader, molecule_labels, top_terms=["MHC protein complex"]
         )
         errors.extend(parent_errors)
 
@@ -700,7 +703,7 @@ def validate_molecule(
             reader,
             chain_labels,
             field_name="Beta Chain",
-            top_term="Beta-2-microglobulin",
+            top_terms=["Beta-2-microglobulin"],
             source="chain",
             required=False,
         )
@@ -839,7 +842,7 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
 
         # Validate parents
         parent_errors = check_fields(
-            table_name, reader, mutant_molecule_labels, top_term="mutant MHC protein complex",
+            table_name, reader, mutant_molecule_labels, top_terms=["mutant MHC protein complex"],
         )
         errors.extend(parent_errors)
 
@@ -941,7 +944,7 @@ def validate_serotype(template_dir, labels, external_labels, allow_missing):
         next(reader)
 
         # Validate parents
-        parent_errors = check_fields(table_name, reader, serotype_labels, top_term="MHC serotype")
+        parent_errors = check_fields(table_name, reader, serotype_labels, top_terms=["MHC serotype"])
         errors.extend(parent_errors)
 
         # Reset file to beginning
@@ -1021,7 +1024,7 @@ def validate_serotype_molecule(
 
         # Validate parents (from molecule)
         parent_errors = check_fields(
-            table_name, reader, molecule_labels, top_term="MHC protein complex", source="molecule",
+            table_name, reader, molecule_labels, top_terms=["MHC protein complex"], source="molecule",
         )
         errors.extend(parent_errors)
 
@@ -1162,7 +1165,7 @@ def main():
         template_dir, labels, ext_labels, molecule_labels, serotype_labels, allow_missing
     )
 
-    # Add errors in tabel order
+    # Add errors in table order
     errors.extend(chain_errors)
     errors.extend(chain_sequence_errors)
     errors.extend(genetic_locus_errors)

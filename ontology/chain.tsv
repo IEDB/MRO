@@ -18062,6 +18062,9 @@ giant panda MHC class I chain		equivalent	protein	giant panda MHC class I locus
 giant panda MHC class II chain		equivalent	protein	giant panda MHC class II locus	
 gorilla MHC class I chain		equivalent	protein	gorilla MHC class I locus	
 gorilla MHC class II chain		equivalent	protein	gorilla MHC class II locus	
+grass carp Beta-2-microglobulin chain		equivalent	protein	grass carp Beta-2-microglobulin locus	
+grass carp Beta-2-microglobulin-1-II chain		subclass	grass carp Beta-2-microglobulin chain		
+grass carp Beta-2-microglobulin-2 chain		subclass	grass carp Beta-2-microglobulin chain		
 grass carp MHC class I chain		equivalent	protein	grass carp MHC class I locus	
 grass carp MHC class II chain		equivalent	protein	grass carp MHC class II locus	
 horse MHC class I chain		equivalent	protein	horse MHC class I locus	
