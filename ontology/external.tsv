@@ -1,8 +1,7 @@
 ID	Label	Editor Preferred Term	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of Usage	Source Ontology	Species Code
 ID	A rdfs:label	A IAO:0000111	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112	AI IAO:0000412	
 ECO:0000000	evidence	evidence		subclass	information content entity					http://purl.obolibrary.org/obo/eco.owl	
-GO:0042611	MHC protein complex	MHC protein complex	MHC molecule	equivalent	protein complex	('has part' some (protein and ('gene product of' some 'MHC locus')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO		http://purl.obolibrary.org/obo/go.owl	
-GO:0043234	protein complex	protein complex	MHC	subclass	material entity					http://purl.obolibrary.org/obo/go.owl	
+GO:0042611	MHC protein complex	MHC protein complex	MHC molecule	equivalent	protein-containing complex	('has part' some (protein and ('gene product of' some 'MHC locus')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO		http://purl.obolibrary.org/obo/go.owl	
 NCBITaxon:7959	grass carp	Ctenopharyngodon idella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ctid
 NCBITaxon:8355	clawed frog	Xenopus laevis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Xela
 NCBITaxon:8839	duck	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Anpl
