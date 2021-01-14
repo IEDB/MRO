@@ -367,7 +367,7 @@ Mamu protein complex with DR4 serotype	389	DR
 Mamu protein complex with DR6 serotype	390	DR		
 Mamu protein complex with DR7A serotype	391	DR		
 Mamu protein complex with DR8 serotype	392	DR		
-Mamu-DRB*w2:01 protein complex	394	DR		300503
+Mamu-DRB*W002:01 protein complex	394	DR		300503
 Mamu-DRB1*04:06 protein complex	395	DR		300517
 Papa-A*06:01 protein complex	396	A		
 Patr-A*01:01 protein complex	397	A	300445	300490
@@ -778,7 +778,7 @@ Eqca-1*00101 protein complex	869	1
 Mamu-DPB1*07:01 protein complex	870	DP		
 HLA-DPA1*01:03/DPB1*20:01 protein complex	871	DP		
 HLA-DPA1*01:03/DPB1*14:01 protein complex	872	DP		
-Mamu-DRB*W6:02 protein complex	873	DR		
+Mamu-DRB*W006:02 protein complex	873	DR		
 BoLA-1*019:01 protein complex	874	1		
 BoLA-2*008:01 protein complex	875	2		
 BoLA-4*024:01:01:01 protein complex	876	4		
@@ -800,7 +800,7 @@ Mamu-A1*007:01 protein complex	891	A	338360
 Mamu-B*098 protein complex	892	B		
 HLA-DPA1*01:03/DPB1*06:01 protein complex	893	DP		
 HLA-DPA1*02:01/DPB1*14:01 protein complex	894	DP		
-Mamu-A2*01:02:01 protein complex	895	A		
+Mamu-A2*01:02 protein complex	895	A		
 Mamu-A7*01:03 protein complex	896	A		
 Mamu-B*039:01 protein complex	897	B		
 Mamu-B*066:01 protein complex	898	B		

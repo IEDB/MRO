@@ -17967,7 +17967,7 @@ Mamu-A1*008:01 protein complex	Mamu-A1*008:01		complete molecule	equivalent	MHC 
 Mamu-A1*011:01 protein complex	Mamu-A1*011:01	Mamu-A*11|MHCI-A*11	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*011:01 chain	Beta-2-microglobulin		
 Mamu-A1*022:02 protein complex	Mamu-A1*022:02	Mamu-A*08|Mamu-Ch_A*08	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*022:02 chain	Beta-2-microglobulin		
 Mamu-A1*065:01 protein complex	Mamu-A1*065:01		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A1*065:01 chain	Beta-2-microglobulin		
-Mamu-A2*01:02:01 protein complex	Mamu-A2*01:02:01	Mamu-Ch_A*12	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A2*01:02:01 chain	Beta-2-microglobulin		
+Mamu-A2*01:02 protein complex	Mamu-A2*01:02	Mamu-Ch_A*12	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A2*01:02 chain	Beta-2-microglobulin		
 Mamu-A7*01:03 protein complex	Mamu-A7*01:03	Mamu-A7*0101	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A7*01:03 chain	Beta-2-microglobulin		
 Mamu-A protein complex	Mamu-A		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-A chain	Beta-2-microglobulin		
 Mamu-B protein complex	Mamu-B		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-B chain	Beta-2-microglobulin		
@@ -17994,8 +17994,8 @@ Mamu-DRB1*03:03 protein complex	Mamu-DRB1*03:03		partial molecule	equivalent	MHC
 Mamu-DRB1*03:06 protein complex	Mamu-DRB1*03:06		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:06 chain		
 Mamu-DRB1*03:08 protein complex	Mamu-DRB1*03:08		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*03:08 chain		
 Mamu-DRB1*04:06 protein complex	Mamu-DRB1*04:06		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB1*04:06 chain		
-Mamu-DRB*W6:02 protein complex	Mamu-DRB*W6:02	Mamu-DRB6*0102	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*W6:02 chain		
-Mamu-DRB*w2:01 protein complex	Mamu-DRB*w2:01	Mamu-DRBW2*0101	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*w2:01 chain		
+Mamu-DRB*W002:01 protein complex	Mamu-DRB*W002:01	Mamu-DRBW2*0101	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*W002:01 chain		
+Mamu-DRB*W006:02 protein complex	Mamu-DRB*W006:02	Mamu-DRB6*0102	partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DRA chain	Mamu-DRB*W006:02 chain		
 Mamu-E protein complex	Mamu-E		locus	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E chain	Beta-2-microglobulin		
 Mamu-E*02:04 protein complex	Mamu-E*02:04		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:04 chain	Beta-2-microglobulin		
 Mamu-E*02:11 protein complex	Mamu-E*02:11	Mamu-E*0111	complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:11 chain	Beta-2-microglobulin		

@@ -17880,7 +17880,7 @@ Mamu-A1*008:01 chain		subclass	Mamu-A chain
 Mamu-A1*011:01 chain		subclass	Mamu-A chain		
 Mamu-A1*022:02 chain		subclass	Mamu-A chain		
 Mamu-A1*065:01 chain		subclass	Mamu-A chain		
-Mamu-A2*01:02:01 chain		subclass	Mamu-A chain		
+Mamu-A2*01:02 chain		subclass	Mamu-A chain		
 Mamu-A7*01:03 chain		subclass	Mamu-A chain		
 Mamu-A chain		equivalent	protein	Mamu-A locus	
 Mamu-B chain		equivalent	protein	Mamu-B locus	
@@ -17909,8 +17909,8 @@ Mamu-DRB1*03:06 chain		subclass	Mamu-DRB chain
 Mamu-DRB1*03:08 chain		subclass	Mamu-DRB chain		
 Mamu-DRB1*04:06 chain		subclass	Mamu-DRB chain		
 Mamu-DRB chain		equivalent	protein	Mamu-DRB locus	
-Mamu-DRB*W6:02 chain		subclass	Mamu-DRB chain		
-Mamu-DRB*w2:01 chain		subclass	Mamu-DRB chain		
+Mamu-DRB*W002:01 chain		subclass	Mamu-DRB chain		
+Mamu-DRB*W006:02 chain		subclass	Mamu-DRB chain		
 Mamu-E chain		equivalent	protein	Mamu-E locus	
 Mamu-E*02:04 chain		subclass	Mamu-E chain		
 Mamu-E*02:11 chain		subclass	Mamu-E chain		
