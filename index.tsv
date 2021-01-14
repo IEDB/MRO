@@ -795,7 +795,7 @@ MRO:0000791	Mamu-DPB chain	owl:Class
 MRO:0000792	Mamu-DPB1*01:01 chain	owl:Class	
 MRO:0000793	Mamu-DRA chain	owl:Class	
 MRO:0000794	Mamu-DRB chain	owl:Class	
-MRO:0000795	Mamu-DRB*w2:01 chain	owl:Class	
+MRO:0000795	Mamu-DRB*W002:01 chain	owl:Class	
 MRO:0000796	Mamu-DRB1*03:03 chain	owl:Class	
 MRO:0000797	Mamu-DRB1*03:06 chain	owl:Class	
 MRO:0000798	Mamu-DRB1*03:08 chain	owl:Class	
@@ -1373,7 +1373,7 @@ MRO:0001369	Mamu-B*017:04 protein complex	owl:Class
 MRO:0001370	Mamu-DP protein complex	owl:Class	
 MRO:0001371	Mamu-DPB1*01:01 protein complex	owl:Class	
 MRO:0001372	Mamu-DR protein complex	owl:Class	
-MRO:0001373	Mamu-DRB*w2:01 protein complex	owl:Class	
+MRO:0001373	Mamu-DRB*W002:01 protein complex	owl:Class	
 MRO:0001374	Mamu-DRB1*03:03 protein complex	owl:Class	
 MRO:0001375	Mamu-DRB1*03:06 protein complex	owl:Class	
 MRO:0001376	Mamu-DRB1*03:08 protein complex	owl:Class	
@@ -1951,8 +1951,8 @@ MRO:0001947	HLA-DRB1*15:06 chain	owl:Class
 MRO:0001948	HLA-DRB1*15:06 protein complex	owl:Class	
 MRO:0001949	Mamu-A1*007:01 chain	owl:Class	
 MRO:0001950	Mamu-A1*007:01 protein complex	owl:Class	
-MRO:0001951	Mamu-A2*01:02:01 chain	owl:Class	
-MRO:0001952	Mamu-A2*01:02:01 protein complex	owl:Class	
+MRO:0001951	Mamu-A2*01:02 chain	owl:Class	
+MRO:0001952	Mamu-A2*01:02 protein complex	owl:Class	
 MRO:0001953	Mamu-A7*01:03 chain	owl:Class	
 MRO:0001954	Mamu-A7*01:03 protein complex	owl:Class	
 MRO:0001955	Mamu-B*008:01 chain	owl:Class	
@@ -1971,8 +1971,8 @@ MRO:0001967	Mamu-B*098 chain	owl:Class
 MRO:0001968	Mamu-B*098 protein complex	owl:Class	
 MRO:0001969	Mamu-DPB1*07:01 chain	owl:Class	
 MRO:0001970	Mamu-DPB1*07:01 protein complex	owl:Class	
-MRO:0001971	Mamu-DRB*W6:02 chain	owl:Class	
-MRO:0001972	Mamu-DRB*W6:02 protein complex	owl:Class	
+MRO:0001971	Mamu-DRB*W006:02 chain	owl:Class	
+MRO:0001972	Mamu-DRB*W006:02 protein complex	owl:Class	
 MRO:0001973	SLA-3 chain	owl:Class	
 MRO:0001974	SLA-3 locus	owl:Class	
 MRO:0001975	SLA-3*02:02 chain	owl:Class	
