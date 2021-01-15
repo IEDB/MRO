@@ -489,7 +489,7 @@ HLA-DPA1*02:01/DPB1*01:01 protein complex	523	DP	300694	300697
 HLA-DQA1*05:05/DQB1*03:01 protein complex	524	DQ	300724	300728
 BoLA-DQA*003:01/DQB*004:02 protein complex	525	DQ	300436	300499
 BoLA-DQA*010:01:01/DQB*010:02:01 protein complex	526	DQ	300437	300501
-BoLA-DQA*012:01:01/DQB*10:05 protein complex	527	DQ	300482	300491
+BoLA-DQA*012:01/DQB*010:05 protein complex	527	DQ	300482	300491
 BoLA-DQA*022:01/DQB*012:01 protein complex	528	DQ	300483	300514
 BoLA-DQA*2206/DQB*014:02 protein complex	529	DQ		300504
 BoLA-DQA*2206/DQB*013:01 protein complex	530	DQ		300508
@@ -654,8 +654,8 @@ chicken MHC class I protein complex with B4 haplotype	724
 chicken MHC class I protein complex with B15 haplotype	725			
 chicken MHC class I protein complex with B19 haplotype	726			
 Eqca-N*00602 protein complex	727	N		
-BoLA-DQA*022:02:01/DQB*013:01 protein complex	728	DQ	300475	300508
-BoLA-DQA*022:02:01/DQB*009:01 protein complex	729	DQ	300475	300500
+BoLA-DQA*022:02/DQB*013:01 protein complex	728	DQ	300475	300508
+BoLA-DQA*022:02/DQB*009:01 protein complex	729	DQ	300475	300500
 HLA-DRB1*08:04 protein complex	734	DR		300771
 HLA-DQB1*03:19 protein complex	735	DQ		300829
 HLA-DRB1*04:11 protein complex	736	DR		300765
@@ -781,7 +781,7 @@ HLA-DPA1*01:03/DPB1*14:01 protein complex	872	DP
 Mamu-DRB*W006:02 protein complex	873	DR		
 BoLA-1*019:01 protein complex	874	1		
 BoLA-2*008:01 protein complex	875	2		
-BoLA-4*024:01:01:01 protein complex	876	4		
+BoLA-4*024:01 protein complex	876	4		
 Mamu-B*008:01 protein complex	877	B		
 HLA-B*39:24 protein complex	878	B		
 HLA-B*35:62 protein complex	879	B		
@@ -987,16 +987,16 @@ HLA-DPB1*15:01 protein complex	1079	DP
 HLA-DQA1*04:01 protein complex	1080	DQ		
 HLA-C*07:06 protein complex	1081	C		56585
 HLA-B*07:05 protein complex	1082	B		56585
-HLA-DPA1*02:01/ DPB1*13:01 protein complex	1083	DP	300694	300706
+HLA-DPA1*02:01/DPB1*13:01 protein complex	1083	DP	300694	300706
 HLA-DPA1*02:01/DPB1*10:01 protein complex	1084	DP	300694	
 rabbit MHC class I protein complex	1085			
 rabbit MHC class II protein complex	1086			
 RLA-A protein complex	1087	A		
 RLA-A*01 protein complex	1088	A		
 BoLA-DQA*010:01:01 protein complex	1089	DQ	300437	
-BoLA-DQA*012:01:01 protein complex	1090	DQ	300482	
+BoLA-DQA*012:01 protein complex	1090	DQ	300482	
 BoLA-DQA*022:01 protein complex	1091	DQ	300483	
-BoLA-DQA*022:02:01 protein complex	1092	DQ	300475	
+BoLA-DQA*022:02 protein complex	1092	DQ	300475	
 BoLA-DQB*004:02 protein complex	1093	DQ		300499
 BoLA-DQB*009:01 protein complex	1094	DQ		300500
 BoLA-DQB*010:02:01 protein complex	1095	DQ		300501

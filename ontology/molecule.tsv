@@ -69,7 +69,7 @@ BoLA-2*088:01 protein complex	BoLA-2*088:01		complete molecule	equivalent	MHC cl
 BoLA-2*089:01 protein complex	BoLA-2*089:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*089:01 chain	Beta-2-microglobulin		
 BoLA-2*096:01 protein complex	BoLA-2*096:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-2*096:01 chain	Beta-2-microglobulin		
 BoLA-3 protein complex	BoLA-3		locus	equivalent	MHC class I protein complex	cattle	BoLA-3 chain	Beta-2-microglobulin		
-BoLA-3*001:01 protein complex	BoLA-3*001:01	N*00101|BoLA-3*00101	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:01 chain	Beta-2-microglobulin		BoLA-A10 serotype
+BoLA-3*001:01 protein complex	BoLA-3*001:01	N*00101|BoLA-3*00101|BoLA-AW10	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:01 chain	Beta-2-microglobulin		BoLA-A10 serotype
 BoLA-3*001:02 protein complex	BoLA-3*001:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:02 chain	Beta-2-microglobulin		
 BoLA-3*001:03 protein complex	BoLA-3*001:03		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*001:03 chain	Beta-2-microglobulin		
 BoLA-3*002:01 protein complex	BoLA-3*002:01	N*00201|BoLA-3*00201	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*002:01 chain	Beta-2-microglobulin		BoLA-A10 serotype
@@ -110,7 +110,7 @@ BoLA-3*082:01 protein complex	BoLA-3*082:01		complete molecule	equivalent	MHC cl
 BoLA-3*083:01 protein complex	BoLA-3*083:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*083:01 chain	Beta-2-microglobulin		
 BoLA-3*087:01 protein complex	BoLA-3*087:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-3*087:01 chain	Beta-2-microglobulin		
 BoLA-4 protein complex	BoLA-4		locus	equivalent	MHC class I protein complex	cattle	BoLA-4 chain	Beta-2-microglobulin		
-BoLA-4*024:01:01:01 protein complex	BoLA-4*024:01:01:01	D18.1|BoLA-4*02401	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:01:01:01 chain	Beta-2-microglobulin		
+BoLA-4*024:01 protein complex	BoLA-4*024:01	D18.1|BoLA-4*02401	complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:01 chain	Beta-2-microglobulin		
 BoLA-4*024:02 protein complex	BoLA-4*024:02		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*024:02 chain	Beta-2-microglobulin		
 BoLA-4*063:01 protein complex	BoLA-4*063:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*063:01 chain	Beta-2-microglobulin		
 BoLA-4*076:01 protein complex	BoLA-4*076:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-4*076:01 chain	Beta-2-microglobulin		
@@ -161,8 +161,8 @@ BoLA-DQA*010:02 protein complex	BoLA-DQA*010:02		partial molecule	equivalent	MHC
 BoLA-DQA*010:03 protein complex	BoLA-DQA*010:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:03 chain	BoLA-DQB chain		
 BoLA-DQA*010:04 protein complex	BoLA-DQA*010:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*010:04 chain	BoLA-DQB chain		
 BoLA-DQA*011:01 protein complex	BoLA-DQA*011:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*011:01 chain	BoLA-DQB chain		
-BoLA-DQA*012:01:01 protein complex	BoLA-DQA*012:01:01	BoLA-DQA*12011	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:01 chain	BoLA-DQB chain		
-BoLA-DQA*012:01:01/DQB*10:05 protein complex	BoLA-DQA*012:01:01/DQB*10051		complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01:01 chain	BoLA-DQB*10051 chain		
+BoLA-DQA*012:01 protein complex	BoLA-DQA*012:01	BoLA-DQA*12011	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01 chain	BoLA-DQB chain		
+BoLA-DQA*012:01/DQB*010:05 protein complex	BoLA-DQA*012:01/DQB*010:05		complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:01 chain	BoLA-DQB*010:05 chain		
 BoLA-DQA*012:02 protein complex	BoLA-DQA*012:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:02 chain	BoLA-DQB chain		
 BoLA-DQA*012:03 protein complex	BoLA-DQA*012:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:03 chain	BoLA-DQB chain		
 BoLA-DQA*012:04 protein complex	BoLA-DQA*012:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*012:04 chain	BoLA-DQB chain		
@@ -178,9 +178,9 @@ BoLA-DQA*021:01 protein complex	BoLA-DQA*021:01		partial molecule	equivalent	MHC
 BoLA-DQA*021:02 protein complex	BoLA-DQA*021:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*021:02 chain	BoLA-DQB chain		
 BoLA-DQA*022:01 protein complex	BoLA-DQA*022:01	BoLA-DQA*2201	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:01 chain	BoLA-DQB chain		
 BoLA-DQA*022:01/DQB*012:01 protein complex	BoLA-DQA*022:01/DQB*012:01	BoLA-DQA*2201/DQB*1201	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:01 chain	BoLA-DQB*012:01 chain		
-BoLA-DQA*022:02:01 protein complex	BoLA-DQA*022:02:01	BoLA-DQA*2202	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:01 chain	BoLA-DQB chain		
-BoLA-DQA*022:02:01/DQB*009:01 protein complex	BoLA-DQA*022:02:01/DQB*009:01	BoLA-DQA*2202/DQB*0901	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:01 chain	BoLA-DQB*009:01 chain		
-BoLA-DQA*022:02:01/DQB*013:01 protein complex	BoLA-DQA*022:02:01/DQB*013:01	BoLA-DQA*2202/DQB*1301	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02:01 chain	BoLA-DQB*013:01 chain		
+BoLA-DQA*022:02 protein complex	BoLA-DQA*022:02	BoLA-DQA*2202	partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02 chain	BoLA-DQB chain		
+BoLA-DQA*022:02/DQB*009:01 protein complex	BoLA-DQA*022:02/DQB*009:01	BoLA-DQA*2202/DQB*0901	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02 chain	BoLA-DQB*009:01 chain		
+BoLA-DQA*022:02/DQB*013:01 protein complex	BoLA-DQA*022:02/DQB*013:01	BoLA-DQA*2202/DQB*1301	complete molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:02 chain	BoLA-DQB*013:01 chain		
 BoLA-DQA*022:03 protein complex	BoLA-DQA*022:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:03 chain	BoLA-DQB chain		
 BoLA-DQA*022:04 protein complex	BoLA-DQA*022:04		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:04 chain	BoLA-DQB chain		
 BoLA-DQA*022:05 protein complex	BoLA-DQA*022:05		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DQA*022:05 chain	BoLA-DQB chain		
@@ -491,7 +491,7 @@ BoLA-DRB3*043:01 protein complex	BoLA-DRB3*043:01		partial molecule	equivalent	M
 BoLA-DRB3*043:02 protein complex	BoLA-DRB3*043:02		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:02 chain		
 BoLA-DRB3*043:03 protein complex	BoLA-DRB3*043:03		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*043:03 chain		
 BoLA-DRB3*044:01 protein complex	BoLA-DRB3*044:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*044:01 chain		
-BoLA-DRB3*045:01 protein complex	BoLA-DRB3*4501		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*4501 chain		
+BoLA-DRB3*045:01 protein complex	BoLA-DRB3*045:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*045:01 chain		
 BoLA-DRB3*046:01 protein complex	BoLA-DRB3*046:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*046:01 chain		
 BoLA-DRB3*047:01 protein complex	BoLA-DRB3*047:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*047:01 chain		
 BoLA-DRB3*048:01 protein complex	BoLA-DRB3*048:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*048:01 chain		
@@ -12903,7 +12903,6 @@ HLA-DPA1*01:31 protein complex	HLA-DPA1*01:31		partial molecule	equivalent	MHC c
 HLA-DPA1*01:33 protein complex	HLA-DPA1*01:33		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:33 chain	HLA-DPB chain		
 HLA-DPA1*01:34 protein complex	HLA-DPA1*01:34		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:34 chain	HLA-DPB chain		
 HLA-DPA1*02:01 protein complex	HLA-DPA1*02:01	HLA-DPA1*020101	partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB chain		
-HLA-DPA1*02:01/ DPB1*13:01 protein complex	HLA-DPA1*02:01/ DPB1*13:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*13:01 chain		HLA-DP1 serotype
 HLA-DPA1*02:01/DPB1*01:01 protein complex	HLA-DPA1*02:01/DPB1*01:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*01:01 chain		HLA-DP1 serotype
 HLA-DPA1*02:01/DPB1*02:01 protein complex	HLA-DPA1*02:01/DPB1*02:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*02:01 chain		
 HLA-DPA1*02:01/DPB1*03:01 protein complex	HLA-DPA1*02:01/DPB1*03:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*03:01 chain		
@@ -12911,6 +12910,7 @@ HLA-DPA1*02:01/DPB1*04:01 protein complex	HLA-DPA1*02:01/DPB1*04:01		complete mo
 HLA-DPA1*02:01/DPB1*05:01 protein complex	HLA-DPA1*02:01/DPB1*05:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*05:01 chain		HLA-DP5 serotype
 HLA-DPA1*02:01/DPB1*09:01 protein complex	HLA-DPA1*02:01/DPB1*09:01	HLA-DPw9	complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*09:01 chain		HLA-DP9 serotype
 HLA-DPA1*02:01/DPB1*10:01 protein complex	HLA-DPA1*02:01/DPB1*10:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*10:01 chain		
+HLA-DPA1*02:01/DPB1*13:01 protein complex	HLA-DPA1*02:01/DPB1*13:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*13:01 chain		HLA-DP1 serotype
 HLA-DPA1*02:01/DPB1*14:01 protein complex	HLA-DPA1*02:01/DPB1*14:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*14:01 chain		
 HLA-DPA1*02:01/DPB1*17:01 protein complex	HLA-DPA1*02:01/DPB1*17:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:01 chain	HLA-DPB1*17:01 chain		
 HLA-DPA1*02:02 protein complex	HLA-DPA1*02:02		partial molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*02:02 chain	HLA-DPB chain		
