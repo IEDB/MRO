@@ -404,11 +404,11 @@ MRO:0000400	BoLA-MR1 chain	owl:Class
 MRO:0000401	Caja-E chain	owl:Class	
 MRO:0000402	Caja-G chain	owl:Class	
 MRO:0000403	DLA-88 chain	owl:Class	
-MRO:0000404	DLA-88*50801 chain	owl:Class	
+MRO:0000404	DLA-88*508:01 chain	owl:Class	
 MRO:0000405	ELA-N chain	owl:Class	
 MRO:0000406	Eqca-N*00602 chain	owl:Class	
 MRO:0000407	Gogo-B chain	owl:Class	
-MRO:0000408	Gogo-B*0101 chain	owl:Class	
+MRO:0000408	Gogo-B*01:01 chain	owl:Class	
 MRO:0000409	obsolete H2-CD1 chain	owl:Class	true
 MRO:0000410	H2-D chain	owl:Class	
 MRO:0000411	H2-Db chain	owl:Class	
@@ -960,11 +960,11 @@ MRO:0000956	BoLA-DRB3*027:03 protein complex	owl:Class
 MRO:0000957	BoLA-DRB3*030:01 protein complex	owl:Class	
 MRO:0000958	BoLA-DRB3*045:01 protein complex	owl:Class	
 MRO:0000959	DLA-88 protein complex	owl:Class	
-MRO:0000960	DLA-88*50801 protein complex	owl:Class	
+MRO:0000960	DLA-88*508:01 protein complex	owl:Class	
 MRO:0000961	ELA-N protein complex	owl:Class	
 MRO:0000962	Eqca-N*00602 protein complex	owl:Class	
 MRO:0000963	Gogo-B protein complex	owl:Class	
-MRO:0000964	Gogo-B*0101 protein complex	owl:Class	
+MRO:0000964	Gogo-B*01:01 protein complex	owl:Class	
 MRO:0000965	H2-D protein complex	owl:Class	
 MRO:0000966	H2-Db protein complex	owl:Class	
 MRO:0000967	H2-Dd protein complex	owl:Class	
@@ -1892,14 +1892,14 @@ MRO:0001888	ELA-1 chain	owl:Class
 MRO:0001889	ELA-1 locus	owl:Class	
 MRO:0001890	ELA-16 chain	owl:Class	
 MRO:0001891	ELA-16 locus	owl:Class	
-MRO:0001892	Eqca-1*00101 chain	owl:Class	
-MRO:0001893	Eqca-1*00101 protein complex	owl:Class	
-MRO:0001894	Eqca-1*00201 chain	owl:Class	
-MRO:0001895	Eqca-1*00201 protein complex	owl:Class	
-MRO:0001896	Eqca-16*00101 chain	owl:Class	
-MRO:0001897	Eqca-16*00101 protein complex	owl:Class	
-MRO:0001898	Eqca-N*00101 chain	owl:Class	
-MRO:0001899	Eqca-N*00101 protein complex	owl:Class	
+MRO:0001892	Eqca-1*001:01 chain	owl:Class	
+MRO:0001893	Eqca-1*001:01 protein complex	owl:Class	
+MRO:0001894	Eqca-1*002:01 chain	owl:Class	
+MRO:0001895	Eqca-1*002:01 protein complex	owl:Class	
+MRO:0001896	Eqca-16*001:01 chain	owl:Class	
+MRO:0001897	Eqca-16*001:01 protein complex	owl:Class	
+MRO:0001898	Eqca-N*001:01 chain	owl:Class	
+MRO:0001899	Eqca-N*001:01 protein complex	owl:Class	
 MRO:0001900	HLA protein complex with A18 serotype	owl:Class	
 MRO:0001901	HLA protein complex with B64 serotype	owl:Class	
 MRO:0001902	HLA-A*01:03 chain	owl:Class	
@@ -1979,16 +1979,16 @@ MRO:0001975	SLA-3*02:02 chain	owl:Class
 MRO:0001976	SLA-3*02:02 protein complex	owl:Class	
 MRO:0001977	SLA-3*04:01 chain	owl:Class	
 MRO:0001978	SLA-3*04:01 protein complex	owl:Class	
-MRO:0001979	Eqca-N*00601 chain	owl:Class	
-MRO:0001980	Eqca-N*00601 protein complex	owl:Class	
+MRO:0001979	Eqca-N*006:01 chain	owl:Class	
+MRO:0001980	Eqca-N*006:01 protein complex	owl:Class	
 MRO:0001981	HLA-Cw18 serotype	owl:Class	
 MRO:0001982	HLA protein complex with Cw18 serotype	owl:Class	
 MRO:0001983	HLA-DRB1*01:01 N82A mutant protein complex	owl:Class	
 MRO:0001984	has MHC restriction level	owl:AnnotationProperty	
 MRO:0001985	has chain I mutation	owl:AnnotationProperty	
 MRO:0001986	has chain II mutation	owl:AnnotationProperty	
-MRO:0001987	DLA-88*50101 chain	owl:Class	
-MRO:0001988	DLA-88*50101 protein complex	owl:Class	
+MRO:0001987	DLA-88*501:01 chain	owl:Class	
+MRO:0001988	DLA-88*501:01 protein complex	owl:Class	
 MRO:0001989	rat non-classical MHC locus	owl:Class	
 MRO:0001990	rat CD1 locus	owl:Class	
 MRO:0001991	rat non-classical MHC chain	owl:Class	
@@ -2113,8 +2113,8 @@ MRO:0002109	Mamu-MR1 locus	owl:Class
 MRO:0002110	rhesus macaque non-classical MHC chain	owl:Class	
 MRO:0002111	Mamu-MR1 chain	owl:Class	
 MRO:0002112	Mamu-MR1 protein complex	owl:Class	
-MRO:0002113	DLA-88*03401 chain	owl:Class	
-MRO:0002114	DLA-88*03401 protein complex	owl:Class	
+MRO:0002113	DLA-88*034:01 chain	owl:Class	
+MRO:0002114	DLA-88*034:01 protein complex	owl:Class	
 MRO:0002115	rhesus macaque non-classical MHC protein complex	owl:Class	
 MRO:0002116	rhesus macaque MR1 chain	owl:Class	
 MRO:0002117	rhesus macaque MR1 protein complex	owl:Class	
@@ -37054,3 +37054,5 @@ MRO:0037050	grass carp Beta-2-microglobulin-1-II chain	owl:Class
 MRO:0037051	grass carp Beta-2-microglobulin-2 chain	owl:Class	
 MRO:0037052	grass carp Beta-2-microglobulin chain	owl:Class	
 MRO:0037053	Ctid-UAA b2m-2 protein complex	owl:Class	
+MRO:0037054	Anpl-UAA*SD protein complex	owl:Class	
+MRO:0037055	Anpl-UAA*SD chain	owl:Class	
