@@ -157,7 +157,7 @@ horse MHC class I protein complex with A5 haplotype	160
 horse MHC class I protein complex with A6 haplotype	161			
 horse MHC class I protein complex with A9 haplotype	162			
 horse MHC class I protein complex with W11 haplotype	163			
-Gogo-B*0101 protein complex	164	B		
+Gogo-B*01:01 protein complex	164	B		
 mouse MHC class I protein complex with H2-a haplotype	165			
 mouse MHC class II protein complex with H2-a haplotype	166			
 mouse MHC class I protein complex with H2-b haplotype	167			
@@ -666,7 +666,7 @@ HLA-DRA*01:02/DRB1*13:01 protein complex	740	DR	300745	300782
 HLA-DRA*01:02/DRB3*01:01 protein complex	741	DR	300745	300801
 HLA-DRA*01:02/DRB3*02:02 protein complex	742	DR	300745	300803
 Gaga-BF2*004:01 protein complex	743	BF2		
-DLA-88*50801 protein complex	744	88		
+DLA-88*508:01 protein complex	744	88		
 HLA-B*44:27 protein complex	745	B	300823	56585
 HLA-DRB1*15:04 protein complex	746	DR		300798
 HLA-DRA*01:01 F54C mutant/DRB1*01:01 protein complex	747	DR		300746
@@ -774,7 +774,7 @@ HLA-C*12:04 protein complex	865	C
 HLA-B*15:18 protein complex	866	B		
 HLA-B*50:02 protein complex	867	B		
 HLA-A*01:03 protein complex	868	A		
-Eqca-1*00101 protein complex	869	1		
+Eqca-1*001:01 protein complex	869	1		
 Mamu-DPB1*07:01 protein complex	870	DP		
 HLA-DPA1*01:03/DPB1*20:01 protein complex	871	DP		
 HLA-DPA1*01:03/DPB1*14:01 protein complex	872	DP		
@@ -792,9 +792,9 @@ HLA-B*18:03 protein complex	883	B
 SLA-3*02:02 protein complex	884	3		
 HLA-DRB1*15:06 protein complex	885	DR		
 HLA-A*66:02 protein complex	886	A		
-Eqca-1*00201 protein complex	887	1		
-Eqca-16*00101 protein complex	888	16		
-Eqca-N*00101 protein complex	889	N		
+Eqca-1*002:01 protein complex	887	1		
+Eqca-16*001:01 protein complex	888	16		
+Eqca-N*001:01 protein complex	889	N		
 HLA-B*14:01 protein complex	890	B		
 Mamu-A1*007:01 protein complex	891	A	338360	
 Mamu-B*098 protein complex	892	B		
@@ -811,10 +811,10 @@ SLA-3*04:01 protein complex	902	3
 HLA-A*30:14L protein complex	903	A		
 BoLA-DRB3*010:01 protein complex	904	DRB3	344097	
 BoLA-DRB3*018:01 protein complex	905	DRB3	344098	
-Eqca-N*00601 protein complex	906	N	344099	
+Eqca-N*006:01 protein complex	906	N	344099	
 HLA protein complex with Cw18 serotype	907	C		
 HLA-DRB1*01:01 N82A mutant protein complex	908	DR		
-DLA-88*50101 protein complex	909	88		
+DLA-88*501:01 protein complex	909	88		
 rat CD1d protein complex	910	CD1	352098	
 H2-Qa-1b protein complex	911	Q1	352115	
 HLA-DPA1*01:03/DPB1*02:12 protein complex	912	DP		
@@ -864,7 +864,7 @@ Mamu-E*02:04 protein complex	955	E
 SLA-2 protein complex	956	2		
 HLA-B*44:09 protein complex	957	B		56585
 rhesus macaque MR1 protein complex	958	MR1		
-DLA-88*03401 protein complex	959	88		
+DLA-88*034:01 protein complex	959	88		
 HLA-C*08:03 protein complex	960	C		
 HLA-F*01:01 protein complex	961	F		56585
 Ptal-N*01:01 protein complex	962	N		
@@ -18339,3 +18339,4 @@ Mafa-A1 protein complex	18431	A1
 crab-eating macaque MHC class I protein complex	18432			
 crab-eating macaque MHC class II protein complex	18433			
 Ctid-UAA b2m-2 protein complex	18434			
+Anpl-UAA*SD protein complex	18435	UAA		

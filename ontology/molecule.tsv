@@ -3,6 +3,7 @@ LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE
 Aime-128 protein complex	Aime-128		locus	equivalent	MHC class I protein complex	giant panda	Aime-128 chain	Beta-2-microglobulin		
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
+Anpl-UAA*SD protein complex	Anpl-UAA*SD		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*SD chain	Beta-2-microglobulin		
 BoLA-1 protein complex	BoLA-1		locus	equivalent	MHC class I protein complex	cattle	BoLA-1 chain	Beta-2-microglobulin		
 BoLA-1*007:01 protein complex	BoLA-1*007:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*007:01 chain	Beta-2-microglobulin		
 BoLA-1*009:01 protein complex	BoLA-1*009:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*009:01 chain	Beta-2-microglobulin		
@@ -658,15 +659,15 @@ Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marm
 Ctid-UAA b2m-1-II protein complex	Ctid-UAA b2m-1-II		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
 Ctid-UAA b2m-2 protein complex	Ctid-UAA b2m-2		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-2 chain		
 DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	DLA-88 chain	Beta-2-microglobulin		
-DLA-88*03401 protein complex	DLA-88*03401		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*03401 chain	Beta-2-microglobulin		
-DLA-88*50101 protein complex	DLA-88*50101		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50101 chain	Beta-2-microglobulin		
-DLA-88*50801 protein complex	DLA-88*50801	dla88-21	complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*50801 chain	Beta-2-microglobulin		
+DLA-88*034:01 protein complex	DLA-88*034:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*034:01 chain	Beta-2-microglobulin		
+DLA-88*501:01 protein complex	DLA-88*501:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*501:01 chain	Beta-2-microglobulin		
+DLA-88*508:01 protein complex	DLA-88*508:01	dla88-21	complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*508:01 chain	Beta-2-microglobulin		
 ELA-N protein complex	ELA-N		locus	equivalent	MHC class I protein complex	horse	ELA-N chain	Beta-2-microglobulin		
-Eqca-1*00101 protein complex	Eqca-1*00101	ELA-A3.1	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*00101 chain	Beta-2-microglobulin	A3 haplotype	
-Eqca-1*00201 protein complex	Eqca-1*00201		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*00201 chain	Beta-2-microglobulin		
-Eqca-16*00101 protein complex	Eqca-16*00101		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-16*00101 chain	Beta-2-microglobulin		
-Eqca-N*00101 protein complex	Eqca-N*00101		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00101 chain	Beta-2-microglobulin		
-Eqca-N*00601 protein complex	Eqca-N*00601	MHC I 1 14 allele, 7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00601 chain	Beta-2-microglobulin		
+Eqca-1*001:01 protein complex	Eqca-1*001:01	ELA-A3.1	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*001:01 chain	Beta-2-microglobulin	A3 haplotype	
+Eqca-1*002:01 protein complex	Eqca-1*002:01		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*002:01 chain	Beta-2-microglobulin		
+Eqca-16*001:01 protein complex	Eqca-16*001:01		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-16*001:01 chain	Beta-2-microglobulin		
+Eqca-N*001:01 protein complex	Eqca-N*001:01		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*001:01 chain	Beta-2-microglobulin		
+Eqca-N*006:01 protein complex	Eqca-N*006:01	MHC I 1 14 allele, 7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*006:01 chain	Beta-2-microglobulin		
 Eqca-N*00602 protein complex	Eqca-N*00602	A1*7-6	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-N*00602 chain	Beta-2-microglobulin	A1 haplotype	
 FLA-E protein complex	FLA-E		locus	equivalent	MHC class I protein complex	cat	FLA-E chain	Beta-2-microglobulin		
 FLA-E*01801 protein complex	FLA-E*01801	FLA-B*n06	complete molecule	equivalent	MHC class I protein complex	cat	FLA-E*01801 chain	Beta-2-microglobulin		
@@ -681,7 +682,7 @@ Gaga-BF2*015:01 protein complex	Gaga-BF2*015:01	BF2*1501|BF2*015:01|BFIV15	compl
 Gaga-BF2*021:01 protein complex	Gaga-BF2*021:01	BF2*2101|BF2*021:01|BFIV21|BF2*131|BF2*W1|BFCC2a|BFCC15-1	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*021:01 chain	Beta-2-microglobulin	B21 haplotype	
 Gaga-BF2*1301 protein complex	Gaga-BF2*1301		complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*1301 chain	Beta-2-microglobulin	B13 haplotype	
 Gogo-B protein complex	Gogo-B		locus	equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
-Gogo-B*0101 protein complex	Gogo-B*0101		complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*0101 chain	Beta-2-microglobulin		
+Gogo-B*01:01 protein complex	Gogo-B*01:01		complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*01:01 chain	Beta-2-microglobulin		
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
 H2-Db protein complex	H2-Db		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
 H2-Dd protein complex	H2-Dd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	

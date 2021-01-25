@@ -3,6 +3,7 @@ LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %	AI 'has ex
 Aime-128 chain		equivalent	protein	Aime-128 locus	
 Anpl-UAA chain		equivalent	protein	Anpl-UAA locus	
 Anpl-UAA*01 chain		subclass	Anpl-UAA chain		
+Anpl-UAA*SD chain		subclass	Anpl-UAA chain		
 BoLA-1 chain		equivalent	protein	BoLA-1 locus	
 BoLA-1*007:01 chain		subclass	BoLA-1 chain		
 BoLA-1*009:01 chain		subclass	BoLA-1 chain		
@@ -655,17 +656,17 @@ Caja-E chain		equivalent	protein	Caja-E locus
 Caja-G chain		equivalent	protein	Caja-G locus	
 Ctid-UAA chain		equivalent	protein	Ctid-UAA locus	
 DLA-88 chain		equivalent	protein	DLA-88 locus	
-DLA-88*03401 chain		subclass	DLA-88 chain		
-DLA-88*50101 chain		subclass	DLA-88 chain		
-DLA-88*50801 chain		subclass	DLA-88 chain		
+DLA-88*034:01 chain		subclass	DLA-88 chain		
+DLA-88*501:01 chain		subclass	DLA-88 chain		
+DLA-88*508:01 chain		subclass	DLA-88 chain		
 ELA-1 chain		equivalent	protein	ELA-1 locus	
 ELA-16 chain		equivalent	protein	ELA-16 locus	
 ELA-N chain		equivalent	protein	ELA-N locus	
-Eqca-1*00101 chain		subclass	ELA-1 chain		
-Eqca-1*00201 chain		subclass	ELA-1 chain		
-Eqca-16*00101 chain		subclass	ELA-16 chain		
-Eqca-N*00101 chain		subclass	ELA-N chain		
-Eqca-N*00601 chain		subclass	ELA-N chain		
+Eqca-1*001:01 chain		subclass	ELA-1 chain		
+Eqca-1*002:01 chain		subclass	ELA-1 chain		
+Eqca-16*001:01 chain		subclass	ELA-16 chain		
+Eqca-N*001:01 chain		subclass	ELA-N chain		
+Eqca-N*006:01 chain		subclass	ELA-N chain		
 Eqca-N*00602 chain		subclass	ELA-N chain		
 FLA-E chain		equivalent	protein	FLA-E locus	
 FLA-E*01801 chain		subclass	FLA-E chain		
@@ -682,7 +683,7 @@ Gaga-BF2*1301 chain		subclass	Gaga-BF2 chain
 Gaga-BF-B chain		equivalent	protein	Gaga-BF-B locus	
 Gaga-BF-YF chain		equivalent	protein	Gaga-BF-YF locus	
 Gogo-B chain		equivalent	protein	Gogo-B locus	
-Gogo-B*0101 chain		subclass	Gogo-B chain		
+Gogo-B*01:01 chain		subclass	Gogo-B chain		
 H2-D chain		equivalent	protein	H2-D locus	
 H2-Db chain		subclass	H2-D chain		
 H2-Dd chain		subclass	H2-D chain		
