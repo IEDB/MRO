@@ -62,7 +62,7 @@ build build/validate:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://build.obolibrary.io/job/ontodev/job/robot/job/master/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.8.0/robot.jar
 
 # Download rdftab based on operating system
 
