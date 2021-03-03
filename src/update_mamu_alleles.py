@@ -68,7 +68,6 @@ def update_chains(curr_loci, ipd_seqs, allele_map):
     missing_alleles = imgt_alleles.difference(mro_alleles)
     new_alleles = {x for x in missing_alleles if x.split("*")[0] in curr_loci or any(loci in x.split("*")[0] for loci in varied_loci) and "DMA" not in x.split("*")[0]}
     new_alleles = {x for x in new_alleles if x[-1] != "N"}
-    print(new_alleles)
 
     missing_chain_seq_rows = set()
     missing_chain_rows = set()
@@ -156,11 +155,14 @@ def create_classII_pairing(allele):
         A string that has a pairing of alpha and beta chain (i.e. DRBA/DRB1*01:02)
     """
     pairing = {
-        "Mamu-DPA": "Mamu-DPB",
-        "Mamu-DRA": "Mamu-DRB"
+        "Mamu-DPA1": "Mamu-DPB",
+        "Mamu-DRA": "Mamu-DRB",
+        "Mamu-DQA1": "Mamu-DQB"
     }
     pairing_rev = {
-        "Mamu-DPB": "Mamu-DPA",
+        "Mamu-DQB1": "Mamu-DQA",
+        "Mamu-DPB1": "Mamu-DPA",
+        "Mamu-DPB2": "Mamu-DPA",
         "Mamu-DRB": "Mamu-DRA",
         "Mamu-DRB1": "Mamu-DRA",
         "Mamu-DRB3": "Mamu-DRA",
@@ -221,8 +223,8 @@ def create_classII_prot(missing_chainII):
 
 def update_molecules(missing_alleles):
     """Builds and updates Mamu molecules"""
-    class_I_genes = ["A", "B", "E"]
-    class_II_genes = ["DPA", "DPB", "DRA", "DRB", "DRB1", "DRB3", "DRB4", "DRB5", "DRB6"]
+    class_I_genes = ["A", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "AG", "B", "E"]
+    class_II_genes = ["DPA1", "DPB1", "DRA", "DRB", "DRB1", "DRB3", "DRB4", "DRB5", "DRB6", "DQA1", "DQB1", "DPB2"]
 
     mro_proteins = set()
     with open(sys.argv[3]) as fh:
