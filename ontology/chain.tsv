@@ -17900,6 +17900,7 @@ Mamu-B*083:01 chain		subclass	Mamu-B chain
 Mamu-B*087:01 chain		subclass	Mamu-B chain		
 Mamu-B*090:01 chain		subclass	Mamu-B chain		
 Mamu-B*098 chain		subclass	Mamu-B chain		
+Mamu-CD1 chain		equivalent	protein	Mamu-CD1 locus	
 Mamu-DPA chain		equivalent	protein	Mamu-DPA locus	
 Mamu-DPB1*01:01 chain		subclass	Mamu-DPB chain		
 Mamu-DPB1*07:01 chain		subclass	Mamu-DPB chain		
@@ -18097,6 +18098,8 @@ rat CD1d chain		subclass	rat CD1 chain
 rat MHC class I chain		equivalent	protein	rat MHC class I locus	
 rat MHC class II chain		equivalent	protein	rat MHC class II locus	
 rat non-classical MHC chain		equivalent	protein	rat non-classical MHC locus	
+rhesus macaque CD1b chain		subclass	Mamu-CD1 chain		
+rhesus macaque CD1c chain		subclass	Mamu-CD1 chain		
 rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I locus	
 rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus	
 rhesus macaque MR1 chain		subclass	Mamu-MR1 chain		

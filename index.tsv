@@ -37056,3 +37056,9 @@ MRO:0037052	grass carp Beta-2-microglobulin chain	owl:Class
 MRO:0037053	Ctid-UAA b2m-2 protein complex	owl:Class	
 MRO:0037054	Anpl-UAA*SD protein complex	owl:Class	
 MRO:0037055	Anpl-UAA*SD chain	owl:Class	
+MRO:0037056	Mamu-CD1 locus	owl:Class	
+MRO:0037057	rhesus macaque CD1b chain	owl:Class	
+MRO:0037058	rhesus macaque CD1c chain	owl:Class	
+MRO:0037059	Mamu-CD1 chain	owl:Class	
+MRO:0037060	rhesus macaque CD1b protein complex	owl:Class	
+MRO:0037061	rhesus macaque CD1c protein complex	owl:Class	
