@@ -18166,6 +18166,8 @@ rat CD1d protein complex	rat CD1d	rCD1d	complete molecule	equivalent	non-classic
 rat MHC class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
 rat MHC class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
 rat non-classical MHC protein complex	rat		class	equivalent	non-classical MHC protein complex	rat				
+rhesus macaque CD1b protein complex	rhesus macaque CD1b	Mamu CD1b	complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	rhesus macaque CD1b chain	Beta-2-microglobulin		
+rhesus macaque CD1c protein complex	rhesus macaque CD1c	Mamu CD1c	complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	rhesus macaque CD1c chain	Beta-2-microglobulin		
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
