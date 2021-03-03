@@ -37056,3 +37056,2037 @@ MRO:0037052	grass carp Beta-2-microglobulin chain	owl:Class
 MRO:0037053	Ctid-UAA b2m-2 protein complex	owl:Class	
 MRO:0037054	Anpl-UAA*SD protein complex	owl:Class	
 MRO:0037055	Anpl-UAA*SD chain	owl:Class	
+MRO:0037056	Mamu-DQA locus	owl:Class	
+MRO:0037057	Mamu-DQB locus	owl:Class	
+MRO:0037058	Mamu-DQA chain	owl:Class	
+MRO:0037059	Mamu-DQB chain	owl:Class	
+MRO:0037060	Mamu-B*012:01 chain	owl:Class
+MRO:0037061	Mamu-B*098:12 chain	owl:Class
+MRO:0037062	Mamu-B*065:08 chain	owl:Class
+MRO:0037063	Mamu-B*045:01 chain	owl:Class
+MRO:0037064	Mamu-A1*052:02 chain	owl:Class
+MRO:0037065	Mamu-DPA1*07:06 chain	owl:Class
+MRO:0037066	Mamu-B*028:01 chain	owl:Class
+MRO:0037067	Mamu-B*057:05 chain	owl:Class
+MRO:0037068	Mamu-B*072:11 chain	owl:Class
+MRO:0037069	Mamu-DRB4*01:03 chain	owl:Class
+MRO:0037070	Mamu-A6*01:07 chain	owl:Class
+MRO:0037071	Mamu-DRB1*04:11 chain	owl:Class
+MRO:0037072	Mamu-B*046:03 chain	owl:Class
+MRO:0037073	Mamu-A1*003:03 chain	owl:Class
+MRO:0037074	Mamu-B*013:01 chain	owl:Class
+MRO:0037075	Mamu-DPB2*01:01 chain	owl:Class
+MRO:0037076	Mamu-A3*13:09 chain	owl:Class
+MRO:0037077	Mamu-A1*121:01 chain	owl:Class
+MRO:0037078	Mamu-B*051:15 chain	owl:Class
+MRO:0037079	Mamu-B*045:11 chain	owl:Class
+MRO:0037080	Mamu-B*022:01 chain	owl:Class
+MRO:0037081	Mamu-DQA1*26:06 chain	owl:Class
+MRO:0037082	Mamu-DRB6*01:24 chain	owl:Class
+MRO:0037083	Mamu-DPA1*04:01 chain	owl:Class
+MRO:0037084	Mamu-DPB1*15:01 chain	owl:Class
+MRO:0037085	Mamu-DQB1*18:01 chain	owl:Class
+MRO:0037086	Mamu-DRB3*04:14 chain	owl:Class
+MRO:0037087	Mamu-DPA1*02:16 chain	owl:Class
+MRO:0037088	Mamu-DRB*W025:03 chain	owl:Class
+MRO:0037089	Mamu-DRB*W003:14 chain	owl:Class
+MRO:0037090	Mamu-E*02:05 chain	owl:Class
+MRO:0037091	Mamu-B*015:04 chain	owl:Class
+MRO:0037092	Mamu-B*031:03 chain	owl:Class
+MRO:0037093	Mamu-DRB1*03:19 chain	owl:Class
+MRO:0037094	Mamu-A1*032:01 chain	owl:Class
+MRO:0037095	Mamu-DQB1*06:07 chain	owl:Class
+MRO:0037096	Mamu-B*046:06 chain	owl:Class
+MRO:0037097	Mamu-A2*05:13 chain	owl:Class
+MRO:0037098	Mamu-A1*004:02 chain	owl:Class
+MRO:0037099	Mamu-B*188:01 chain	owl:Class
+MRO:0037100	Mamu-A4*14:04 chain	owl:Class
+MRO:0037101	Mamu-DRB*W027:04 chain	owl:Class
+MRO:0037102	Mamu-B*063:03 chain	owl:Class
+MRO:0037103	Mamu-DQA1*01:06 chain	owl:Class
+MRO:0037104	Mamu-DRB1*07:04 chain	owl:Class
+MRO:0037105	Mamu-B*046:08 chain	owl:Class
+MRO:0037106	Mamu-DRB1*04:05 chain	owl:Class
+MRO:0037107	Mamu-B*098:11 chain	owl:Class
+MRO:0037108	Mamu-A1*022:04 chain	owl:Class
+MRO:0037109	Mamu-DRB1*03:23 chain	owl:Class
+MRO:0037110	Mamu-B*092:02 chain	owl:Class
+MRO:0037111	Mamu-DQB1*06:10 chain	owl:Class
+MRO:0037112	Mamu-A1*085:03 chain	owl:Class
+MRO:0037113	Mamu-DQB1*27:01 chain	owl:Class
+MRO:0037114	Mamu-B*001:05 chain	owl:Class
+MRO:0037115	Mamu-A3*13:12 chain	owl:Class
+MRO:0037116	Mamu-B*054:01 chain	owl:Class
+MRO:0037117	Mamu-DQA1*05:07 chain	owl:Class
+MRO:0037118	Mamu-B*021:03 chain	owl:Class
+MRO:0037119	Mamu-DQA1*23:02 chain	owl:Class
+MRO:0037120	Mamu-DPB1*07:03 chain	owl:Class
+MRO:0037121	Mamu-DQB1*06:19 chain	owl:Class
+MRO:0037122	Mamu-A1*119:01 chain	owl:Class
+MRO:0037123	Mamu-DQB1*06:21 chain	owl:Class
+MRO:0037124	Mamu-DRB*W007:03 chain	owl:Class
+MRO:0037125	Mamu-B*011:03 chain	owl:Class
+MRO:0037126	Mamu-DRB*W025:04 chain	owl:Class
+MRO:0037127	Mamu-B*083:02 chain	owl:Class
+MRO:0037128	Mamu-B*073:02 chain	owl:Class
+MRO:0037129	Mamu-A1*003:08 chain	owl:Class
+MRO:0037130	Mamu-B*056:03 chain	owl:Class
+MRO:0037131	Mamu-B*007:04 chain	owl:Class
+MRO:0037132	Mamu-B*032:01 chain	owl:Class
+MRO:0037133	Mamu-DPA1*09:01 chain	owl:Class
+MRO:0037134	Mamu-E*02:10 chain	owl:Class
+MRO:0037135	Mamu-A1*043:05 chain	owl:Class
+MRO:0037136	Mamu-A1*049:05 chain	owl:Class
+MRO:0037137	Mamu-DRB*W031:02 chain	owl:Class
+MRO:0037138	Mamu-A1*123:02 chain	owl:Class
+MRO:0037139	Mamu-A1*003:16 chain	owl:Class
+MRO:0037140	Mamu-A1*053:02 chain	owl:Class
+MRO:0037141	Mamu-B*039:03 chain	owl:Class
+MRO:0037142	Mamu-DRB*W027:08 chain	owl:Class
+MRO:0037143	Mamu-DRB*W027:06 chain	owl:Class
+MRO:0037144	Mamu-B*007:08 chain	owl:Class
+MRO:0037145	Mamu-DRA*01:07 chain	owl:Class
+MRO:0037146	Mamu-A2*05:44 chain	owl:Class
+MRO:0037147	Mamu-A2*05:55 chain	owl:Class
+MRO:0037148	Mamu-DRB*W003:02 chain	owl:Class
+MRO:0037149	Mamu-DRB6*01:10 chain	owl:Class
+MRO:0037150	Mamu-B*045:07 chain	owl:Class
+MRO:0037151	Mamu-B*051:24 chain	owl:Class
+MRO:0037152	Mamu-DQB1*27:04 chain	owl:Class
+MRO:0037153	Mamu-B*046:07 chain	owl:Class
+MRO:0037154	Mamu-DQB1*26:04 chain	owl:Class
+MRO:0037155	Mamu-DPB1*17:01 chain	owl:Class
+MRO:0037156	Mamu-DPB1*02:01 chain	owl:Class
+MRO:0037157	Mamu-DRB*W026:04 chain	owl:Class
+MRO:0037158	Mamu-B*149:01 chain	owl:Class
+MRO:0037159	Mamu-DRB1*04:21 chain	owl:Class
+MRO:0037160	Mamu-B*082:08 chain	owl:Class
+MRO:0037161	Mamu-DQA1*24:09 chain	owl:Class
+MRO:0037162	Mamu-B*001:04 chain	owl:Class
+MRO:0037163	Mamu-B*109:03 chain	owl:Class
+MRO:0037164	Mamu-A1*007:06 chain	owl:Class
+MRO:0037165	Mamu-B*044:08 chain	owl:Class
+MRO:0037166	Mamu-A1*011:04 chain	owl:Class
+MRO:0037167	Mamu-DQA1*26:03 chain	owl:Class
+MRO:0037168	Mamu-A1*022:03 chain	owl:Class
+MRO:0037169	Mamu-DPA1*07:04 chain	owl:Class
+MRO:0037170	Mamu-DRB1*04:08 chain	owl:Class
+MRO:0037171	Mamu-E*02:12 chain	owl:Class
+MRO:0037172	Mamu-A1*003:12 chain	owl:Class
+MRO:0037173	Mamu-B*030:06 chain	owl:Class
+MRO:0037174	Mamu-A4*14:08 chain	owl:Class
+MRO:0037175	Mamu-DRB1*03:12 chain	owl:Class
+MRO:0037176	Mamu-DRB1*03:15 chain	owl:Class
+MRO:0037177	Mamu-B*070:02 chain	owl:Class
+MRO:0037178	Mamu-A3*13:06 chain	owl:Class
+MRO:0037179	Mamu-B*046:02 chain	owl:Class
+MRO:0037180	Mamu-B*082:03 chain	owl:Class
+MRO:0037181	Mamu-A1*004:06 chain	owl:Class
+MRO:0037182	Mamu-DRB*W025:06 chain	owl:Class
+MRO:0037183	Mamu-DQB1*06:15 chain	owl:Class
+MRO:0037184	Mamu-B*201:01 chain	owl:Class
+MRO:0037185	Mamu-A4*14:16 chain	owl:Class
+MRO:0037186	Mamu-B*071:01 chain	owl:Class
+MRO:0037187	Mamu-DQB1*17:13 chain	owl:Class
+MRO:0037188	Mamu-AG*01:01 chain	owl:Class
+MRO:0037189	Mamu-A2*05:25 chain	owl:Class
+MRO:0037190	Mamu-DRB1*04:15 chain	owl:Class
+MRO:0037191	Mamu-B*155:01 chain	owl:Class
+MRO:0037192	Mamu-DPB1*01:03 chain	owl:Class
+MRO:0037193	Mamu-A1*040:01 chain	owl:Class
+MRO:0037194	Mamu-B*134:03 chain	owl:Class
+MRO:0037195	Mamu-A3*13:08 chain	owl:Class
+MRO:0037196	Mamu-B*117:02 chain	owl:Class
+MRO:0037197	Mamu-DRB*W025:12 chain	owl:Class
+MRO:0037198	Mamu-A1*018:06 chain	owl:Class
+MRO:0037199	Mamu-A1*040:04 chain	owl:Class
+MRO:0037200	Mamu-AG*03:04 chain	owl:Class
+MRO:0037201	Mamu-B*048:04 chain	owl:Class
+MRO:0037202	Mamu-DQA1*26:07 chain	owl:Class
+MRO:0037203	Mamu-A1*019:07 chain	owl:Class
+MRO:0037204	Mamu-AG*03:02 chain	owl:Class
+MRO:0037205	Mamu-A2*05:36 chain	owl:Class
+MRO:0037206	Mamu-A1*019:05 chain	owl:Class
+MRO:0037207	Mamu-DRB6*05:01 chain	owl:Class
+MRO:0037208	Mamu-DPB1*11:01 chain	owl:Class
+MRO:0037209	Mamu-DRB6*01:08 chain	owl:Class
+MRO:0037210	Mamu-A4*03:02 chain	owl:Class
+MRO:0037211	Mamu-B*041:02 chain	owl:Class
+MRO:0037212	Mamu-B*060:06 chain	owl:Class
+MRO:0037213	Mamu-DPA1*06:03 chain	owl:Class
+MRO:0037214	Mamu-DPA1*08:03 chain	owl:Class
+MRO:0037215	Mamu-DRB*W003:04 chain	owl:Class
+MRO:0037216	Mamu-A1*105:02 chain	owl:Class
+MRO:0037217	Mamu-A4*14:05 chain	owl:Class
+MRO:0037218	Mamu-DPA1*07:09 chain	owl:Class
+MRO:0037219	Mamu-B*030:03 chain	owl:Class
+MRO:0037220	Mamu-A1*018:02 chain	owl:Class
+MRO:0037221	Mamu-B*045:05 chain	owl:Class
+MRO:0037222	Mamu-B*156:01 chain	owl:Class
+MRO:0037223	Mamu-DRB*W040:02 chain	owl:Class
+MRO:0037224	Mamu-B*150:02 chain	owl:Class
+MRO:0037225	Mamu-DQB1*27:02 chain	owl:Class
+MRO:0037226	Mamu-B*072:08 chain	owl:Class
+MRO:0037227	Mamu-DPA1*07:08 chain	owl:Class
+MRO:0037228	Mamu-B*076:04 chain	owl:Class
+MRO:0037229	Mamu-B*180:01 chain	owl:Class
+MRO:0037230	Mamu-B*036:02 chain	owl:Class
+MRO:0037231	Mamu-DQB1*18:25 chain	owl:Class
+MRO:0037232	Mamu-DRB*W027:09 chain	owl:Class
+MRO:0037233	Mamu-B*038:01 chain	owl:Class
+MRO:0037234	Mamu-B*060:11 chain	owl:Class
+MRO:0037235	Mamu-A1*043:06 chain	owl:Class
+MRO:0037236	Mamu-DRB*W020:03 chain	owl:Class
+MRO:0037237	Mamu-B*001:03 chain	owl:Class
+MRO:0037238	Mamu-B*095:03 chain	owl:Class
+MRO:0037239	Mamu-B*090:03 chain	owl:Class
+MRO:0037240	Mamu-B*098:02 chain	owl:Class
+MRO:0037241	Mamu-A1*010:03 chain	owl:Class
+MRO:0037242	Mamu-DRB6*01:23 chain	owl:Class
+MRO:0037243	Mamu-DPA1*02:21 chain	owl:Class
+MRO:0037244	Mamu-DPB1*01:11 chain	owl:Class
+MRO:0037245	Mamu-B*051:20 chain	owl:Class
+MRO:0037246	Mamu-B*074:03Sp chain	owl:Class
+MRO:0037247	Mamu-B*051:13 chain	owl:Class
+MRO:0037248	Mamu-B*013:04 chain	owl:Class
+MRO:0037249	Mamu-A5*30:06 chain	owl:Class
+MRO:0037250	Mamu-DRA*01:06 chain	owl:Class
+MRO:0037251	Mamu-B*006:02 chain	owl:Class
+MRO:0037252	Mamu-A1*004:05 chain	owl:Class
+MRO:0037253	Mamu-DQA1*24:03 chain	owl:Class
+MRO:0037254	Mamu-DRB*W006:03 chain	owl:Class
+MRO:0037255	Mamu-A1*123:04 chain	owl:Class
+MRO:0037256	Mamu-A1*019:03 chain	owl:Class
+MRO:0037257	Mamu-B*075:01 chain	owl:Class
+MRO:0037258	Mamu-DPB1*01:10 chain	owl:Class
+MRO:0037259	Mamu-B*001:08 chain	owl:Class
+MRO:0037260	Mamu-B*007:10 chain	owl:Class
+MRO:0037261	Mamu-DPA1*04:05 chain	owl:Class
+MRO:0037262	Mamu-B*116:01 chain	owl:Class
+MRO:0037263	Mamu-B*114:01 chain	owl:Class
+MRO:0037264	Mamu-A2*05:10 chain	owl:Class
+MRO:0037265	Mamu-A1*019:08 chain	owl:Class
+MRO:0037266	Mamu-B*060:02 chain	owl:Class
+MRO:0037267	Mamu-DQA1*01:05 chain	owl:Class
+MRO:0037268	Mamu-DQB1*26:08 chain	owl:Class
+MRO:0037269	Mamu-B*027:02 chain	owl:Class
+MRO:0037270	Mamu-DRB*W069:02 chain	owl:Class
+MRO:0037271	Mamu-B*054:04 chain	owl:Class
+MRO:0037272	Mamu-DPA1*04:02 chain	owl:Class
+MRO:0037273	Mamu-B*088:03 chain	owl:Class
+MRO:0037274	Mamu-A1*043:02 chain	owl:Class
+MRO:0037275	Mamu-DQA1*24:08 chain	owl:Class
+MRO:0037276	Mamu-DRB6*01:22 chain	owl:Class
+MRO:0037277	Mamu-DQB1*18:27 chain	owl:Class
+MRO:0037278	Mamu-B*101:05 chain	owl:Class
+MRO:0037279	Mamu-DPA1*02:10 chain	owl:Class
+MRO:0037280	Mamu-DQB1*06:05 chain	owl:Class
+MRO:0037281	Mamu-B*007:05 chain	owl:Class
+MRO:0037282	Mamu-DRB6*01:14 chain	owl:Class
+MRO:0037283	Mamu-DPB1*19:06 chain	owl:Class
+MRO:0037284	Mamu-B*065:05 chain	owl:Class
+MRO:0037285	Mamu-DPB1*07:06 chain	owl:Class
+MRO:0037286	Mamu-A1*074:04 chain	owl:Class
+MRO:0037287	Mamu-A4*02:03 chain	owl:Class
+MRO:0037288	Mamu-B*162:01 chain	owl:Class
+MRO:0037289	Mamu-B*048:01 chain	owl:Class
+MRO:0037290	Mamu-DRB*W027:03 chain	owl:Class
+MRO:0037291	Mamu-B*204:02 chain	owl:Class
+MRO:0037292	Mamu-A1*003:09 chain	owl:Class
+MRO:0037293	Mamu-B*055:01 chain	owl:Class
+MRO:0037294	Mamu-B*056:09 chain	owl:Class
+MRO:0037295	Mamu-B*019:08 chain	owl:Class
+MRO:0037296	Mamu-B*006:01 chain	owl:Class
+MRO:0037297	Mamu-B*100:01 chain	owl:Class
+MRO:0037298	Mamu-B*082:09 chain	owl:Class
+MRO:0037299	Mamu-DRB5*03:09 chain	owl:Class
+MRO:0037300	Mamu-B*043:01 chain	owl:Class
+MRO:0037301	Mamu-B*098:10 chain	owl:Class
+MRO:0037302	Mamu-DPB1*05:02 chain	owl:Class
+MRO:0037303	Mamu-B*091:04 chain	owl:Class
+MRO:0037304	Mamu-A1*018:01 chain	owl:Class
+MRO:0037305	Mamu-DQA1*05:03 chain	owl:Class
+MRO:0037306	Mamu-A1*091:02 chain	owl:Class
+MRO:0037307	Mamu-A1*112:01 chain	owl:Class
+MRO:0037308	Mamu-A1*019:01 chain	owl:Class
+MRO:0037309	Mamu-A1*054:03 chain	owl:Class
+MRO:0037310	Mamu-A2*05:28 chain	owl:Class
+MRO:0037311	Mamu-B*034:01 chain	owl:Class
+MRO:0037312	Mamu-A6*01:06 chain	owl:Class
+MRO:0037313	Mamu-DRB1*03:17 chain	owl:Class
+MRO:0037314	Mamu-B*034:03 chain	owl:Class
+MRO:0037315	Mamu-A1*091:03 chain	owl:Class
+MRO:0037316	Mamu-B*098:09 chain	owl:Class
+MRO:0037317	Mamu-A1*065:05 chain	owl:Class
+MRO:0037318	Mamu-DRB*W004:01 chain	owl:Class
+MRO:0037319	Mamu-DRB1*03:18 chain	owl:Class
+MRO:0037320	Mamu-A1*004:04 chain	owl:Class
+MRO:0037321	Mamu-A1*019:02 chain	owl:Class
+MRO:0037322	Mamu-A5*30:02 chain	owl:Class
+MRO:0037323	Mamu-DQB1*18:18 chain	owl:Class
+MRO:0037324	Mamu-DRB3*04:01 chain	owl:Class
+MRO:0037325	Mamu-DRB5*03:07 chain	owl:Class
+MRO:0037326	Mamu-B*204:01 chain	owl:Class
+MRO:0037327	Mamu-DPA1*02:04 chain	owl:Class
+MRO:0037328	Mamu-A1*117:01 chain	owl:Class
+MRO:0037329	Mamu-B*019:04 chain	owl:Class
+MRO:0037330	Mamu-A1*056:03 chain	owl:Class
+MRO:0037331	Mamu-A1*003:04 chain	owl:Class
+MRO:0037332	Mamu-B*079:05 chain	owl:Class
+MRO:0037333	Mamu-DRB1*10:14 chain	owl:Class
+MRO:0037334	Mamu-DQA1*24:01 chain	owl:Class
+MRO:0037335	Mamu-B*098:06 chain	owl:Class
+MRO:0037336	Mamu-B*060:16 chain	owl:Class
+MRO:0037337	Mamu-A2*05:39 chain	owl:Class
+MRO:0037338	Mamu-B*085:03 chain	owl:Class
+MRO:0037339	Mamu-B*070:01 chain	owl:Class
+MRO:0037340	Mamu-B*014:01 chain	owl:Class
+MRO:0037341	Mamu-A1*008:02 chain	owl:Class
+MRO:0037342	Mamu-DRB*W040:01 chain	owl:Class
+MRO:0037343	Mamu-B*101:03 chain	owl:Class
+MRO:0037344	Mamu-B*145:01 chain	owl:Class
+MRO:0037345	Mamu-A1*027:01 chain	owl:Class
+MRO:0037346	Mamu-A4*01:01 chain	owl:Class
+MRO:0037347	Mamu-B*115:01 chain	owl:Class
+MRO:0037348	Mamu-B*054:03 chain	owl:Class
+MRO:0037349	Mamu-B*067:02 chain	owl:Class
+MRO:0037350	Mamu-A1*040:03 chain	owl:Class
+MRO:0037351	Mamu-DQA1*05:06 chain	owl:Class
+MRO:0037352	Mamu-DPA1*02:02 chain	owl:Class
+MRO:0037353	Mamu-A1*107:01 chain	owl:Class
+MRO:0037354	Mamu-DRB*W025:10 chain	owl:Class
+MRO:0037355	Mamu-B*056:08 chain	owl:Class
+MRO:0037356	Mamu-B*098:14 chain	owl:Class
+MRO:0037357	Mamu-B*075:03 chain	owl:Class
+MRO:0037358	Mamu-B*072:10 chain	owl:Class
+MRO:0037359	Mamu-E*02:08 chain	owl:Class
+MRO:0037360	Mamu-DQB1*06:18 chain	owl:Class
+MRO:0037361	Mamu-B*046:14 chain	owl:Class
+MRO:0037362	Mamu-A1*011:03 chain	owl:Class
+MRO:0037363	Mamu-A1*026:04 chain	owl:Class
+MRO:0037364	Mamu-B*041:01 chain	owl:Class
+MRO:0037365	Mamu-B*072:06 chain	owl:Class
+MRO:0037366	Mamu-DRB*W003:01 chain	owl:Class
+MRO:0037367	Mamu-DQB1*06:12 chain	owl:Class
+MRO:0037368	Mamu-A1*015:01 chain	owl:Class
+MRO:0037369	Mamu-DRB*W025:09 chain	owl:Class
+MRO:0037370	Mamu-A1*032:07 chain	owl:Class
+MRO:0037371	Mamu-B*187:02 chain	owl:Class
+MRO:0037372	Mamu-B*047:03 chain	owl:Class
+MRO:0037373	Mamu-B*106:01 chain	owl:Class
+MRO:0037374	Mamu-B*051:07 chain	owl:Class
+MRO:0037375	Mamu-A1*028:01 chain	owl:Class
+MRO:0037376	Mamu-B*076:02 chain	owl:Class
+MRO:0037377	Mamu-B*013:03 chain	owl:Class
+MRO:0037378	Mamu-A1*026:01 chain	owl:Class
+MRO:0037379	Mamu-DRA*01:02 chain	owl:Class
+MRO:0037380	Mamu-DRB1*03:14 chain	owl:Class
+MRO:0037381	Mamu-A1*028:05 chain	owl:Class
+MRO:0037382	Mamu-B*109:06 chain	owl:Class
+MRO:0037383	Mamu-DRB*W003:07 chain	owl:Class
+MRO:0037384	Mamu-B*082:04 chain	owl:Class
+MRO:0037385	Mamu-AG*02:01 chain	owl:Class
+MRO:0037386	Mamu-DRB*W004:02 chain	owl:Class
+MRO:0037387	Mamu-A3*13:10 chain	owl:Class
+MRO:0037388	Mamu-B*005:01 chain	owl:Class
+MRO:0037389	Mamu-A1*019:04 chain	owl:Class
+MRO:0037390	Mamu-B*072:01 chain	owl:Class
+MRO:0037391	Mamu-B*046:09 chain	owl:Class
+MRO:0037392	Mamu-B*091:05 chain	owl:Class
+MRO:0037393	Mamu-DRB3*04:16 chain	owl:Class
+MRO:0037394	Mamu-DQB1*16:03 chain	owl:Class
+MRO:0037395	Mamu-E*02:23 chain	owl:Class
+MRO:0037396	Mamu-DPA1*07:03 chain	owl:Class
+MRO:0037397	Mamu-DPB1*14:01 chain	owl:Class
+MRO:0037398	Mamu-A1*018:10 chain	owl:Class
+MRO:0037399	Mamu-DRB1*10:12 chain	owl:Class
+MRO:0037400	Mamu-DQA1*24:04 chain	owl:Class
+MRO:0037401	Mamu-A5*30:03 chain	owl:Class
+MRO:0037402	Mamu-A2*05:35 chain	owl:Class
+MRO:0037403	Mamu-A1*108:01 chain	owl:Class
+MRO:0037404	Mamu-DRB1*04:07 chain	owl:Class
+MRO:0037405	Mamu-A1*016:01 chain	owl:Class
+MRO:0037406	Mamu-A1*018:13 chain	owl:Class
+MRO:0037407	Mamu-B*001:06 chain	owl:Class
+MRO:0037408	Mamu-DQA1*24:05 chain	owl:Class
+MRO:0037409	Mamu-B*117:01 chain	owl:Class
+MRO:0037410	Mamu-DRB*W007:01 chain	owl:Class
+MRO:0037411	Mamu-B*162:02 chain	owl:Class
+MRO:0037412	Mamu-B*046:16 chain	owl:Class
+MRO:0037413	Mamu-B*060:08 chain	owl:Class
+MRO:0037414	Mamu-A4*02:04 chain	owl:Class
+MRO:0037415	Mamu-A1*001:05 chain	owl:Class
+MRO:0037416	Mamu-E*02:24 chain	owl:Class
+MRO:0037417	Mamu-B*034:02 chain	owl:Class
+MRO:0037418	Mamu-B*051:22 chain	owl:Class
+MRO:0037419	Mamu-B*105:01 chain	owl:Class
+MRO:0037420	Mamu-B*082:10 chain	owl:Class
+MRO:0037421	Mamu-B*046:10 chain	owl:Class
+MRO:0037422	Mamu-B*060:13 chain	owl:Class
+MRO:0037423	Mamu-A2*05:23 chain	owl:Class
+MRO:0037424	Mamu-B*069:09 chain	owl:Class
+MRO:0037425	Mamu-B*045:04 chain	owl:Class
+MRO:0037426	Mamu-DPA1*02:03 chain	owl:Class
+MRO:0037427	Mamu-B*060:10 chain	owl:Class
+MRO:0037428	Mamu-DRB5*03:02 chain	owl:Class
+MRO:0037429	Mamu-DPA1*02:14 chain	owl:Class
+MRO:0037430	Mamu-B*001:07 chain	owl:Class
+MRO:0037431	Mamu-DQB1*06:02 chain	owl:Class
+MRO:0037432	Mamu-DRB6*01:12 chain	owl:Class
+MRO:0037433	Mamu-B*051:12 chain	owl:Class
+MRO:0037434	Mamu-A1*022:06 chain	owl:Class
+MRO:0037435	Mamu-E*02:28 chain	owl:Class
+MRO:0037436	Mamu-B*068:02 chain	owl:Class
+MRO:0037437	Mamu-B*050:04 chain	owl:Class
+MRO:0037438	Mamu-B*072:07 chain	owl:Class
+MRO:0037439	Mamu-A1*028:03 chain	owl:Class
+MRO:0037440	Mamu-DPA1*07:05 chain	owl:Class
+MRO:0037441	Mamu-DPB1*22:01 chain	owl:Class
+MRO:0037442	Mamu-E*02:18 chain	owl:Class
+MRO:0037443	Mamu-AG*05:01 chain	owl:Class
+MRO:0037444	Mamu-DRB1*10:05 chain	owl:Class
+MRO:0037445	Mamu-DQB1*15:05 chain	owl:Class
+MRO:0037446	Mamu-DRB*W003:10 chain	owl:Class
+MRO:0037447	Mamu-A1*091:01 chain	owl:Class
+MRO:0037448	Mamu-DRB6*01:26 chain	owl:Class
+MRO:0037449	Mamu-DPB1*07:02 chain	owl:Class
+MRO:0037450	Mamu-A1*006:02 chain	owl:Class
+MRO:0037451	Mamu-A2*05:06 chain	owl:Class
+MRO:0037452	Mamu-A1*001:03 chain	owl:Class
+MRO:0037453	Mamu-A3*13:01 chain	owl:Class
+MRO:0037454	Mamu-A1*105:04 chain	owl:Class
+MRO:0037455	Mamu-DRB*W005:03 chain	owl:Class
+MRO:0037456	Mamu-B*068:01 chain	owl:Class
+MRO:0037457	Mamu-A2*05:32 chain	owl:Class
+MRO:0037458	Mamu-A1*109:01 chain	owl:Class
+MRO:0037459	Mamu-B*106:02 chain	owl:Class
+MRO:0037460	Mamu-A1*028:07 chain	owl:Class
+MRO:0037461	Mamu-A1*043:04 chain	owl:Class
+MRO:0037462	Mamu-B*065:06 chain	owl:Class
+MRO:0037463	Mamu-B*007:02 chain	owl:Class
+MRO:0037464	Mamu-DRB5*03:04 chain	owl:Class
+MRO:0037465	Mamu-DRB*W007:04 chain	owl:Class
+MRO:0037466	Mamu-E*02:29 chain	owl:Class
+MRO:0037467	Mamu-DPB1*15:03 chain	owl:Class
+MRO:0037468	Mamu-DRB1*04:12 chain	owl:Class
+MRO:0037469	Mamu-A1*065:02 chain	owl:Class
+MRO:0037470	Mamu-B*019:01 chain	owl:Class
+MRO:0037471	Mamu-B*091:03 chain	owl:Class
+MRO:0037472	Mamu-DPA1*08:02 chain	owl:Class
+MRO:0037473	Mamu-DRB1*03:21 chain	owl:Class
+MRO:0037474	Mamu-DRB3*04:10 chain	owl:Class
+MRO:0037475	Mamu-B*075:02 chain	owl:Class
+MRO:0037476	Mamu-B*116:02 chain	owl:Class
+MRO:0037477	Mamu-A2*05:46 chain	owl:Class
+MRO:0037478	Mamu-DRB*W003:12 chain	owl:Class
+MRO:0037479	Mamu-DQA1*24:02 chain	owl:Class
+MRO:0037480	Mamu-B*036:04 chain	owl:Class
+MRO:0037481	Mamu-DRB*W003:15 chain	owl:Class
+MRO:0037482	Mamu-B*072:04 chain	owl:Class
+MRO:0037483	Mamu-DRB*W025:08 chain	owl:Class
+MRO:0037484	Mamu-A1*110:01 chain	owl:Class
+MRO:0037485	Mamu-B*051:17 chain	owl:Class
+MRO:0037486	Mamu-DQB1*06:06 chain	owl:Class
+MRO:0037487	Mamu-B*134:06 chain	owl:Class
+MRO:0037488	Mamu-DRB*W020:02 chain	owl:Class
+MRO:0037489	Mamu-A3*13:03 chain	owl:Class
+MRO:0037490	Mamu-B*046:20 chain	owl:Class
+MRO:0037491	Mamu-A1*007:04 chain	owl:Class
+MRO:0037492	Mamu-B*187:01 chain	owl:Class
+MRO:0037493	Mamu-DPB1*08:02 chain	owl:Class
+MRO:0037494	Mamu-DRB1*03:20 chain	owl:Class
+MRO:0037495	Mamu-DQB1*27:05 chain	owl:Class
+MRO:0037496	Mamu-A2*24:01 chain	owl:Class
+MRO:0037497	Mamu-B*051:10 chain	owl:Class
+MRO:0037498	Mamu-DQB1*18:04 chain	owl:Class
+MRO:0037499	Mamu-B*189:01 chain	owl:Class
+MRO:0037500	Mamu-B*024:01 chain	owl:Class
+MRO:0037501	Mamu-B*048:05 chain	owl:Class
+MRO:0037502	Mamu-A1*004:03 chain	owl:Class
+MRO:0037503	Mamu-A1*018:09 chain	owl:Class
+MRO:0037504	Mamu-A1*003:02 chain	owl:Class
+MRO:0037505	Mamu-DRB*W004:03 chain	owl:Class
+MRO:0037506	Mamu-B*069:05 chain	owl:Class
+MRO:0037507	Mamu-DQB1*06:13 chain	owl:Class
+MRO:0037508	Mamu-A2*05:01 chain	owl:Class
+MRO:0037509	Mamu-DRB1*03:09 chain	owl:Class
+MRO:0037510	Mamu-A1*028:04 chain	owl:Class
+MRO:0037511	Mamu-A1*057:01 chain	owl:Class
+MRO:0037512	Mamu-DPB1*23:01 chain	owl:Class
+MRO:0037513	Mamu-B*109:05 chain	owl:Class
+MRO:0037514	Mamu-A4*14:10 chain	owl:Class
+MRO:0037515	Mamu-A2*05:29 chain	owl:Class
+MRO:0037516	Mamu-B*011:01 chain	owl:Class
+MRO:0037517	Mamu-B*098:05 chain	owl:Class
+MRO:0037518	Mamu-B*029:03 chain	owl:Class
+MRO:0037519	Mamu-DRB1*03:13 chain	owl:Class
+MRO:0037520	Mamu-DPA1*02:12 chain	owl:Class
+MRO:0037521	Mamu-B*051:11 chain	owl:Class
+MRO:0037522	Mamu-B*178:01 chain	owl:Class
+MRO:0037523	Mamu-DRB1*10:09 chain	owl:Class
+MRO:0037524	Mamu-B*044:01 chain	owl:Class
+MRO:0037525	Mamu-DRB*W003:05 chain	owl:Class
+MRO:0037526	Mamu-DQA1*23:01 chain	owl:Class
+MRO:0037527	Mamu-B*115:02 chain	owl:Class
+MRO:0037528	Mamu-DQB1*28:01 chain	owl:Class
+MRO:0037529	Mamu-B*063:01 chain	owl:Class
+MRO:0037530	Mamu-B*011:04 chain	owl:Class
+MRO:0037531	Mamu-DRB*W006:05 chain	owl:Class
+MRO:0037532	Mamu-A7*02:01 chain	owl:Class
+MRO:0037533	Mamu-B*018:02 chain	owl:Class
+MRO:0037534	Mamu-DRB*W004:07 chain	owl:Class
+MRO:0037535	Mamu-B*089:01 chain	owl:Class
+MRO:0037536	Mamu-DPB1*18:01 chain	owl:Class
+MRO:0037537	Mamu-DPB1*01:15 chain	owl:Class
+MRO:0037538	Mamu-A3*13:04 chain	owl:Class
+MRO:0037539	Mamu-DQA1*26:11 chain	owl:Class
+MRO:0037540	Mamu-AG*03:01 chain	owl:Class
+MRO:0037541	Mamu-A1*052:03 chain	owl:Class
+MRO:0037542	Mamu-B*021:01 chain	owl:Class
+MRO:0037543	Mamu-E*02:17 chain	owl:Class
+MRO:0037544	Mamu-DRB1*10:08 chain	owl:Class
+MRO:0037545	Mamu-B*051:16 chain	owl:Class
+MRO:0037546	Mamu-A1*074:01 chain	owl:Class
+MRO:0037547	Mamu-A1*052:01 chain	owl:Class
+MRO:0037548	Mamu-A1*056:02 chain	owl:Class
+MRO:0037549	Mamu-B*149:02 chain	owl:Class
+MRO:0037550	Mamu-B*030:04 chain	owl:Class
+MRO:0037551	Mamu-E*02:25 chain	owl:Class
+MRO:0037552	Mamu-B*142:01 chain	owl:Class
+MRO:0037553	Mamu-B*061:02 chain	owl:Class
+MRO:0037554	Mamu-DRB*W004:06 chain	owl:Class
+MRO:0037555	Mamu-DRB*W062:01 chain	owl:Class
+MRO:0037556	Mamu-A1*061:01 chain	owl:Class
+MRO:0037557	Mamu-A2*05:52 chain	owl:Class
+MRO:0037558	Mamu-B*142:02 chain	owl:Class
+MRO:0037559	Mamu-DQA1*01:08 chain	owl:Class
+MRO:0037560	Mamu-DPB1*08:01 chain	owl:Class
+MRO:0037561	Mamu-B*037:01 chain	owl:Class
+MRO:0037562	Mamu-B*068:03 chain	owl:Class
+MRO:0037563	Mamu-DQB1*26:03 chain	owl:Class
+MRO:0037564	Mamu-DRB1*04:04 chain	owl:Class
+MRO:0037565	Mamu-DQB1*18:14 chain	owl:Class
+MRO:0037566	Mamu-A1*010:01 chain	owl:Class
+MRO:0037567	Mamu-DRB*W006:11 chain	owl:Class
+MRO:0037568	Mamu-DPB1*07:08 chain	owl:Class
+MRO:0037569	Mamu-DRB*W002:02 chain	owl:Class
+MRO:0037570	Mamu-B*079:01 chain	owl:Class
+MRO:0037571	Mamu-DQB1*18:02 chain	owl:Class
+MRO:0037572	Mamu-DRB*W002:05 chain	owl:Class
+MRO:0037573	Mamu-A1*090:02 chain	owl:Class
+MRO:0037574	Mamu-B*151:02 chain	owl:Class
+MRO:0037575	Mamu-DRB1*10:13 chain	owl:Class
+MRO:0037576	Mamu-DQB1*15:03 chain	owl:Class
+MRO:0037577	Mamu-DPB1*07:07 chain	owl:Class
+MRO:0037578	Mamu-E*02:15 chain	owl:Class
+MRO:0037579	Mamu-DPA1*02:18 chain	owl:Class
+MRO:0037580	Mamu-B*057:06 chain	owl:Class
+MRO:0037581	Mamu-DRB1*10:04 chain	owl:Class
+MRO:0037582	Mamu-DRA*01:08 chain	owl:Class
+MRO:0037583	Mamu-DPA1*02:11 chain	owl:Class
+MRO:0037584	Mamu-B*016:02 chain	owl:Class
+MRO:0037585	Mamu-A1*090:01 chain	owl:Class
+MRO:0037586	Mamu-A4*03:01 chain	owl:Class
+MRO:0037587	Mamu-DPB1*03:03 chain	owl:Class
+MRO:0037588	Mamu-A2*05:09 chain	owl:Class
+MRO:0037589	Mamu-A1*057:02 chain	owl:Class
+MRO:0037590	Mamu-DRB1*10:16 chain	owl:Class
+MRO:0037591	Mamu-A1*019:10 chain	owl:Class
+MRO:0037592	Mamu-A4*14:09 chain	owl:Class
+MRO:0037593	Mamu-A1*012:01 chain	owl:Class
+MRO:0037594	Mamu-B*097:01 chain	owl:Class
+MRO:0037595	Mamu-A1*019:06 chain	owl:Class
+MRO:0037596	Mamu-DPA1*02:07 chain	owl:Class
+MRO:0037597	Mamu-B*134:01 chain	owl:Class
+MRO:0037598	Mamu-A2*05:17 chain	owl:Class
+MRO:0037599	Mamu-B*093:01 chain	owl:Class
+MRO:0037600	Mamu-B*090:02 chain	owl:Class
+MRO:0037601	Mamu-A1*085:04 chain	owl:Class
+MRO:0037602	Mamu-A1*007:07 chain	owl:Class
+MRO:0037603	Mamu-B*046:22 chain	owl:Class
+MRO:0037604	Mamu-DRB*W001:01 chain	owl:Class
+MRO:0037605	Mamu-B*050:03 chain	owl:Class
+MRO:0037606	Mamu-B*063:02 chain	owl:Class
+MRO:0037607	Mamu-A4*14:02 chain	owl:Class
+MRO:0037608	Mamu-DQB1*15:04 chain	owl:Class
+MRO:0037609	Mamu-B*044:04 chain	owl:Class
+MRO:0037610	Mamu-B*057:04 chain	owl:Class
+MRO:0037611	Mamu-B*101:01 chain	owl:Class
+MRO:0037612	Mamu-A4*02:05 chain	owl:Class
+MRO:0037613	Mamu-B*044:03 chain	owl:Class
+MRO:0037614	Mamu-E*02:07 chain	owl:Class
+MRO:0037615	Mamu-DRB*W006:06 chain	owl:Class
+MRO:0037616	Mamu-B*147:03 chain	owl:Class
+MRO:0037617	Mamu-A1*042:01 chain	owl:Class
+MRO:0037618	Mamu-A1*004:07 chain	owl:Class
+MRO:0037619	Mamu-B*063:05 chain	owl:Class
+MRO:0037620	Mamu-DQA1*26:01 chain	owl:Class
+MRO:0037621	Mamu-DQA1*24:10 chain	owl:Class
+MRO:0037622	Mamu-B*057:03 chain	owl:Class
+MRO:0037623	Mamu-E*02:22 chain	owl:Class
+MRO:0037624	Mamu-A1*007:02 chain	owl:Class
+MRO:0037625	Mamu-DRB1*04:18 chain	owl:Class
+MRO:0037626	Mamu-DPA1*02:15 chain	owl:Class
+MRO:0037627	Mamu-A1*092:01 chain	owl:Class
+MRO:0037628	Mamu-B*082:06 chain	owl:Class
+MRO:0037629	Mamu-A1*007:03 chain	owl:Class
+MRO:0037630	Mamu-DQB1*18:20 chain	owl:Class
+MRO:0037631	Mamu-B*030:02 chain	owl:Class
+MRO:0037632	Mamu-DRB*W040:03 chain	owl:Class
+MRO:0037633	Mamu-DQB1*16:02 chain	owl:Class
+MRO:0037634	Mamu-A2*05:40 chain	owl:Class
+MRO:0037635	Mamu-B*178:02 chain	owl:Class
+MRO:0037636	Mamu-DRB*W005:01 chain	owl:Class
+MRO:0037637	Mamu-DQB1*06:11 chain	owl:Class
+MRO:0037638	Mamu-A4*14:11 chain	owl:Class
+MRO:0037639	Mamu-DQA1*26:08 chain	owl:Class
+MRO:0037640	Mamu-DQB1*27:03 chain	owl:Class
+MRO:0037641	Mamu-DPA1*02:19 chain	owl:Class
+MRO:0037642	Mamu-B*039:04 chain	owl:Class
+MRO:0037643	Mamu-DQA1*24:06 chain	owl:Class
+MRO:0037644	Mamu-DRB1*04:03 chain	owl:Class
+MRO:0037645	Mamu-DPB1*01:13 chain	owl:Class
+MRO:0037646	Mamu-A1*008:04 chain	owl:Class
+MRO:0037647	Mamu-A7*01:02 chain	owl:Class
+MRO:0037648	Mamu-A6*01:02 chain	owl:Class
+MRO:0037649	Mamu-A2*05:38 chain	owl:Class
+MRO:0037650	Mamu-B*090:04 chain	owl:Class
+MRO:0037651	Mamu-A1*032:06 chain	owl:Class
+MRO:0037652	Mamu-A1*028:02 chain	owl:Class
+MRO:0037653	Mamu-DPB1*01:06 chain	owl:Class
+MRO:0037654	Mamu-B*076:01 chain	owl:Class
+MRO:0037655	Mamu-DRB1*03:24 chain	owl:Class
+MRO:0037656	Mamu-DRB1*10:10 chain	owl:Class
+MRO:0037657	Mamu-B*080:01 chain	owl:Class
+MRO:0037658	Mamu-A7*01:04 chain	owl:Class
+MRO:0037659	Mamu-DQA1*26:10 chain	owl:Class
+MRO:0037660	Mamu-A6*01:03 chain	owl:Class
+MRO:0037661	Mamu-B*061:05 chain	owl:Class
+MRO:0037662	Mamu-B*064:01 chain	owl:Class
+MRO:0037663	Mamu-B*086:03 chain	owl:Class
+MRO:0037664	Mamu-DPB2*01:02 chain	owl:Class
+MRO:0037665	Mamu-B*134:04 chain	owl:Class
+MRO:0037666	Mamu-E*02:20 chain	owl:Class
+MRO:0037667	Mamu-A6*01:08 chain	owl:Class
+MRO:0037668	Mamu-DRB5*03:10 chain	owl:Class
+MRO:0037669	Mamu-DPB1*07:04 chain	owl:Class
+MRO:0037670	Mamu-DRB*W025:05 chain	owl:Class
+MRO:0037671	Mamu-A3*13:02 chain	owl:Class
+MRO:0037672	Mamu-B*124:03 chain	owl:Class
+MRO:0037673	Mamu-DPA1*02:05 chain	owl:Class
+MRO:0037674	Mamu-A1*001:06 chain	owl:Class
+MRO:0037675	Mamu-DRB1*10:17 chain	owl:Class
+MRO:0037676	Mamu-DQB1*17:03 chain	owl:Class
+MRO:0037677	Mamu-A2*05:33 chain	owl:Class
+MRO:0037678	Mamu-B*117:03 chain	owl:Class
+MRO:0037679	Mamu-DPB1*21:02 chain	owl:Class
+MRO:0037680	Mamu-DRB*W003:13 chain	owl:Class
+MRO:0037681	Mamu-B*028:04 chain	owl:Class
+MRO:0037682	Mamu-DPA1*07:07 chain	owl:Class
+MRO:0037683	Mamu-E*02:13 chain	owl:Class
+MRO:0037684	Mamu-A2*05:30 chain	owl:Class
+MRO:0037685	Mamu-DRB*W003:08 chain	owl:Class
+MRO:0037686	Mamu-A1*092:02 chain	owl:Class
+MRO:0037687	Mamu-A1*122:01 chain	owl:Class
+MRO:0037688	Mamu-A1*049:01 chain	owl:Class
+MRO:0037689	Mamu-A2*05:04 chain	owl:Class
+MRO:0037690	Mamu-B*065:04 chain	owl:Class
+MRO:0037691	Mamu-A2*05:51 chain	owl:Class
+MRO:0037692	Mamu-DPB1*06:06 chain	owl:Class
+MRO:0037693	Mamu-DRB3*04:09 chain	owl:Class
+MRO:0037694	Mamu-DRB*W006:01 chain	owl:Class
+MRO:0037695	Mamu-B*019:03 chain	owl:Class
+MRO:0037696	Mamu-A2*05:03 chain	owl:Class
+MRO:0037697	Mamu-A1*040:05 chain	owl:Class
+MRO:0037698	Mamu-B*051:19 chain	owl:Class
+MRO:0037699	Mamu-DQB1*17:14 chain	owl:Class
+MRO:0037700	Mamu-B*057:02 chain	owl:Class
+MRO:0037701	Mamu-DRB1*07:01 chain	owl:Class
+MRO:0037702	Mamu-DQB1*06:26 chain	owl:Class
+MRO:0037703	Mamu-B*070:07 chain	owl:Class
+MRO:0037704	Mamu-A4*14:21 chain	owl:Class
+MRO:0037705	Mamu-DQB1*15:01 chain	owl:Class
+MRO:0037706	Mamu-B*065:03 chain	owl:Class
+MRO:0037707	Mamu-DRB4*01:01 chain	owl:Class
+MRO:0037708	Mamu-B*088:04 chain	owl:Class
+MRO:0037709	Mamu-DRB6*01:27 chain	owl:Class
+MRO:0037710	Mamu-B*060:03 chain	owl:Class
+MRO:0037711	Mamu-DRB1*03:04 chain	owl:Class
+MRO:0037712	Mamu-B*056:06 chain	owl:Class
+MRO:0037713	Mamu-B*058:02 chain	owl:Class
+MRO:0037714	Mamu-B*057:01 chain	owl:Class
+MRO:0037715	Mamu-B*007:09 chain	owl:Class
+MRO:0037716	Mamu-A1*048:01 chain	owl:Class
+MRO:0037717	Mamu-A1*010:04 chain	owl:Class
+MRO:0037718	Mamu-B*101:06 chain	owl:Class
+MRO:0037719	Mamu-A1*003:17 chain	owl:Class
+MRO:0037720	Mamu-DQA1*05:01 chain	owl:Class
+MRO:0037721	Mamu-DPB1*06:04 chain	owl:Class
+MRO:0037722	Mamu-A1*105:03 chain	owl:Class
+MRO:0037723	Mamu-B*022:02 chain	owl:Class
+MRO:0037724	Mamu-DPB2*01:03 chain	owl:Class
+MRO:0037725	Mamu-DQA1*05:02 chain	owl:Class
+MRO:0037726	Mamu-B*045:09 chain	owl:Class
+MRO:0037727	Mamu-DRB6*01:17 chain	owl:Class
+MRO:0037728	Mamu-A1*032:05 chain	owl:Class
+MRO:0037729	Mamu-B*071:02 chain	owl:Class
+MRO:0037730	Mamu-DPB1*06:02 chain	owl:Class
+MRO:0037731	Mamu-DQB1*18:24 chain	owl:Class
+MRO:0037732	Mamu-E*02:01 chain	owl:Class
+MRO:0037733	Mamu-B*051:21 chain	owl:Class
+MRO:0037734	Mamu-B*061:03 chain	owl:Class
+MRO:0037735	Mamu-B*134:05 chain	owl:Class
+MRO:0037736	Mamu-DPB1*21:03 chain	owl:Class
+MRO:0037737	Mamu-A1*022:01 chain	owl:Class
+MRO:0037738	Mamu-DPB1*01:07 chain	owl:Class
+MRO:0037739	Mamu-DRB1*07:02 chain	owl:Class
+MRO:0037740	Mamu-B*060:04 chain	owl:Class
+MRO:0037741	Mamu-A3*13:14 chain	owl:Class
+MRO:0037742	Mamu-A2*05:14 chain	owl:Class
+MRO:0037743	Mamu-DPA1*06:02 chain	owl:Class
+MRO:0037744	Mamu-B*007:01 chain	owl:Class
+MRO:0037745	Mamu-A4*01:03 chain	owl:Class
+MRO:0037746	Mamu-DRB5*03:05 chain	owl:Class
+MRO:0037747	Mamu-B*028:02 chain	owl:Class
+MRO:0037748	Mamu-DQA1*24:07 chain	owl:Class
+MRO:0037749	Mamu-B*060:12 chain	owl:Class
+MRO:0037750	Mamu-DQB1*06:20 chain	owl:Class
+MRO:0037751	Mamu-DRB1*03:07 chain	owl:Class
+MRO:0037752	Mamu-A1*040:02 chain	owl:Class
+MRO:0037753	Mamu-A1*032:03 chain	owl:Class
+MRO:0037754	Mamu-A6*01:09 chain	owl:Class
+MRO:0037755	Mamu-B*001:09 chain	owl:Class
+MRO:0037756	Mamu-A1*003:13 chain	owl:Class
+MRO:0037757	Mamu-DPB1*02:02 chain	owl:Class
+MRO:0037758	Mamu-B*046:12 chain	owl:Class
+MRO:0037759	Mamu-A1*019:09 chain	owl:Class
+MRO:0037760	Mamu-DRB*W001:02 chain	owl:Class
+MRO:0037761	Mamu-DPA1*04:04 chain	owl:Class
+MRO:0037762	Mamu-A1*003:18 chain	owl:Class
+MRO:0037763	Mamu-DQA1*01:07 chain	owl:Class
+MRO:0037764	Mamu-B*046:19 chain	owl:Class
+MRO:0037765	Mamu-A1*022:05 chain	owl:Class
+MRO:0037766	Mamu-A4*14:15 chain	owl:Class
+MRO:0037767	Mamu-A1*108:02 chain	owl:Class
+MRO:0037768	Mamu-B*023:01 chain	owl:Class
+MRO:0037769	Mamu-DRB*W037:01 chain	owl:Class
+MRO:0037770	Mamu-B*069:03 chain	owl:Class
+MRO:0037771	Mamu-DRB1*10:18 chain	owl:Class
+MRO:0037772	Mamu-A2*05:41 chain	owl:Class
+MRO:0037773	Mamu-B*098:03 chain	owl:Class
+MRO:0037774	Mamu-A1*065:03 chain	owl:Class
+MRO:0037775	Mamu-B*095:01 chain	owl:Class
+MRO:0037776	Mamu-B*036:01 chain	owl:Class
+MRO:0037777	Mamu-DRB6*01:18 chain	owl:Class
+MRO:0037778	Mamu-DPA1*11:01 chain	owl:Class
+MRO:0037779	Mamu-DRB1*03:11 chain	owl:Class
+MRO:0037780	Mamu-B*031:01 chain	owl:Class
+MRO:0037781	Mamu-A1*074:03 chain	owl:Class
+MRO:0037782	Mamu-DRB3*04:12 chain	owl:Class
+MRO:0037783	Mamu-DRB*W001:04 chain	owl:Class
+MRO:0037784	Mamu-DQB1*18:10 chain	owl:Class
+MRO:0037785	Mamu-B*035:01 chain	owl:Class
+MRO:0037786	Mamu-DRB6*01:29 chain	owl:Class
+MRO:0037787	Mamu-B*069:10 chain	owl:Class
+MRO:0037788	Mamu-DRB*W026:02 chain	owl:Class
+MRO:0037789	Mamu-B*046:21 chain	owl:Class
+MRO:0037790	Mamu-B*003:02 chain	owl:Class
+MRO:0037791	Mamu-DRB*W031:01 chain	owl:Class
+MRO:0037792	Mamu-B*002:02 chain	owl:Class
+MRO:0037793	Mamu-B*180:02 chain	owl:Class
+MRO:0037794	Mamu-A1*033:01 chain	owl:Class
+MRO:0037795	Mamu-DRA*01:05 chain	owl:Class
+MRO:0037796	Mamu-A4*01:02 chain	owl:Class
+MRO:0037797	Mamu-B*019:07 chain	owl:Class
+MRO:0037798	Mamu-B*051:18 chain	owl:Class
+MRO:0037799	Mamu-DRB3*04:13 chain	owl:Class
+MRO:0037800	Mamu-DRB1*10:02 chain	owl:Class
+MRO:0037801	Mamu-DRB1*07:03 chain	owl:Class
+MRO:0037802	Mamu-DRB*W102:01 chain	owl:Class
+MRO:0037803	Mamu-A4*14:23 chain	owl:Class
+MRO:0037804	Mamu-DPB1*19:01 chain	owl:Class
+MRO:0037805	Mamu-B*016:01 chain	owl:Class
+MRO:0037806	Mamu-A1*130:01 chain	owl:Class
+MRO:0037807	Mamu-DQA1*01:12 chain	owl:Class
+MRO:0037808	Mamu-B*002:01 chain	owl:Class
+MRO:0037809	Mamu-A2*01:04 chain	owl:Class
+MRO:0037810	Mamu-E*02:26 chain	owl:Class
+MRO:0037811	Mamu-DRB1*10:01 chain	owl:Class
+MRO:0037812	Mamu-A2*05:05 chain	owl:Class
+MRO:0037813	Mamu-E*02:14 chain	owl:Class
+MRO:0037814	Mamu-DRB*W001:05 chain	owl:Class
+MRO:0037815	Mamu-A1*085:01 chain	owl:Class
+MRO:0037816	Mamu-B*056:02 chain	owl:Class
+MRO:0037817	Mamu-DRB1*03:02 chain	owl:Class
+MRO:0037818	Mamu-DRB*W020:01 chain	owl:Class
+MRO:0037819	Mamu-B*028:03 chain	owl:Class
+MRO:0037820	Mamu-B*093:02 chain	owl:Class
+MRO:0037821	Mamu-DPA1*07:10 chain	owl:Class
+MRO:0037822	Mamu-A1*006:03 chain	owl:Class
+MRO:0037823	Mamu-DPA1*02:01 chain	owl:Class
+MRO:0037824	Mamu-DRB*W004:05 chain	owl:Class
+MRO:0037825	Mamu-DRB1*04:14 chain	owl:Class
+MRO:0037826	Mamu-B*147:02 chain	owl:Class
+MRO:0037827	Mamu-B*163:01 chain	owl:Class
+MRO:0037828	Mamu-DRB*W003:03 chain	owl:Class
+MRO:0037829	Mamu-E*02:06 chain	owl:Class
+MRO:0037830	Mamu-DRB*W026:03 chain	owl:Class
+MRO:0037831	Mamu-B*092:03 chain	owl:Class
+MRO:0037832	Mamu-B*045:06 chain	owl:Class
+MRO:0037833	Mamu-DRB*W025:11 chain	owl:Class
+MRO:0037834	Mamu-B*068:06 chain	owl:Class
+MRO:0037835	Mamu-DPB1*01:16 chain	owl:Class
+MRO:0037836	Mamu-B*044:05 chain	owl:Class
+MRO:0037837	Mamu-A1*043:07 chain	owl:Class
+MRO:0037838	Mamu-A4*14:03 chain	owl:Class
+MRO:0037839	Mamu-A1*001:04 chain	owl:Class
+MRO:0037840	Mamu-DQB1*24:01 chain	owl:Class
+MRO:0037841	Mamu-DRB6*01:11 chain	owl:Class
+MRO:0037842	Mamu-DQA1*01:04 chain	owl:Class
+MRO:0037843	Mamu-DRB*W004:08 chain	owl:Class
+MRO:0037844	Mamu-E*02:30 chain	owl:Class
+MRO:0037845	Mamu-DRB1*04:10 chain	owl:Class
+MRO:0037846	Mamu-B*099:01 chain	owl:Class
+MRO:0037847	Mamu-A1*123:01 chain	owl:Class
+MRO:0037848	Mamu-DQB1*06:25 chain	owl:Class
+MRO:0037849	Mamu-B*070:03 chain	owl:Class
+MRO:0037850	Mamu-DRA*01:03 chain	owl:Class
+MRO:0037851	Mamu-B*044:06 chain	owl:Class
+MRO:0037852	Mamu-DRB1*07:05 chain	owl:Class
+MRO:0037853	Mamu-DQA1*01:09 chain	owl:Class
+MRO:0037854	Mamu-B*037:02 chain	owl:Class
+MRO:0037855	Mamu-DRB*W006:07 chain	owl:Class
+MRO:0037856	Mamu-B*045:03 chain	owl:Class
+MRO:0037857	Mamu-B*167:01 chain	owl:Class
+MRO:0037858	Mamu-B*085:02 chain	owl:Class
+MRO:0037859	Mamu-DRB1*04:09 chain	owl:Class
+MRO:0037860	Mamu-DRB4*01:02 chain	owl:Class
+MRO:0037861	Mamu-A1*043:03 chain	owl:Class
+MRO:0037862	Mamu-A1*018:05 chain	owl:Class
+MRO:0037863	Mamu-E*02:03 chain	owl:Class
+MRO:0037864	Mamu-A1*081:01 chain	owl:Class
+MRO:0037865	Mamu-A1*010:02 chain	owl:Class
+MRO:0037866	Mamu-DRB4*01:04 chain	owl:Class
+MRO:0037867	Mamu-A2*05:18 chain	owl:Class
+MRO:0037868	Mamu-B*077:02 chain	owl:Class
+MRO:0037869	Mamu-B*053:02 chain	owl:Class
+MRO:0037870	Mamu-DRB1*04:16 chain	owl:Class
+MRO:0037871	Mamu-A2*05:15 chain	owl:Class
+MRO:0037872	Mamu-B*067:01 chain	owl:Class
+MRO:0037873	Mamu-DQB1*06:08 chain	owl:Class
+MRO:0037874	Mamu-DRB6*01:21 chain	owl:Class
+MRO:0037875	Mamu-B*045:08 chain	owl:Class
+MRO:0037876	Mamu-DRB3*04:02 chain	owl:Class
+MRO:0037877	Mamu-A1*007:08 chain	owl:Class
+MRO:0037878	Mamu-B*056:05 chain	owl:Class
+MRO:0037879	Mamu-DRB*W028:02 chain	owl:Class
+MRO:0037880	Mamu-B*065:07 chain	owl:Class
+MRO:0037881	Mamu-B*046:17 chain	owl:Class
+MRO:0037882	Mamu-B*091:06 chain	owl:Class
+MRO:0037883	Mamu-A6*01:04 chain	owl:Class
+MRO:0037884	Mamu-B*072:05 chain	owl:Class
+MRO:0037885	Mamu-B*084:01 chain	owl:Class
+MRO:0037886	Mamu-B*085:01 chain	owl:Class
+MRO:0037887	Mamu-A1*018:11 chain	owl:Class
+MRO:0037888	Mamu-B*052:01 chain	owl:Class
+MRO:0037889	Mamu-A4*14:12 chain	owl:Class
+MRO:0037890	Mamu-DPA1*04:03 chain	owl:Class
+MRO:0037891	Mamu-DRB*W021:02 chain	owl:Class
+MRO:0037892	Mamu-A1*003:15 chain	owl:Class
+MRO:0037893	Mamu-B*078:01 chain	owl:Class
+MRO:0037894	Mamu-A1*004:08 chain	owl:Class
+MRO:0037895	Mamu-B*081:02 chain	owl:Class
+MRO:0037896	Mamu-DRA*01:10 chain	owl:Class
+MRO:0037897	Mamu-B*030:07 chain	owl:Class
+MRO:0037898	Mamu-DQB1*26:06 chain	owl:Class
+MRO:0037899	Mamu-B*044:02 chain	owl:Class
+MRO:0037900	Mamu-A2*05:07 chain	owl:Class
+MRO:0037901	Mamu-DQB1*27:06 chain	owl:Class
+MRO:0037902	Mamu-DRB*W059:01 chain	owl:Class
+MRO:0037903	Mamu-B*098:04 chain	owl:Class
+MRO:0037904	Mamu-E*02:21 chain	owl:Class
+MRO:0037905	Mamu-DRB*W001:07 chain	owl:Class
+MRO:0037906	Mamu-B*048:03 chain	owl:Class
+MRO:0037907	Mamu-B*046:15 chain	owl:Class
+MRO:0037908	Mamu-B*034:04 chain	owl:Class
+MRO:0037909	Mamu-DRB*W001:06 chain	owl:Class
+MRO:0037910	Mamu-DRB3*04:07 chain	owl:Class
+MRO:0037911	Mamu-B*029:02 chain	owl:Class
+MRO:0037912	Mamu-A1*022:07 chain	owl:Class
+MRO:0037913	Mamu-DRB*W020:04 chain	owl:Class
+MRO:0037914	Mamu-A1*051:01 chain	owl:Class
+MRO:0037915	Mamu-A2*05:11 chain	owl:Class
+MRO:0037916	Mamu-B*137:01 chain	owl:Class
+MRO:0037917	Mamu-B*098:13 chain	owl:Class
+MRO:0037918	Mamu-DRA*01:09 chain	owl:Class
+MRO:0037919	Mamu-A1*018:12 chain	owl:Class
+MRO:0037920	Mamu-DRB*W005:02 chain	owl:Class
+MRO:0037921	Mamu-A1*060:01 chain	owl:Class
+MRO:0037922	Mamu-DRB1*03:30 chain	owl:Class
+MRO:0037923	Mamu-A1*002:02 chain	owl:Class
+MRO:0037924	Mamu-B*053:03 chain	owl:Class
+MRO:0037925	Mamu-DRB*W027:01 chain	owl:Class
+MRO:0037926	Mamu-A1*074:06 chain	owl:Class
+MRO:0037927	Mamu-A1*018:07 chain	owl:Class
+MRO:0037928	Mamu-B*037:03 chain	owl:Class
+MRO:0037929	Mamu-DPB1*07:05 chain	owl:Class
+MRO:0037930	Mamu-B*039:05 chain	owl:Class
+MRO:0037931	Mamu-DQB1*15:02 chain	owl:Class
+MRO:0037932	Mamu-DRB6*01:20 chain	owl:Class
+MRO:0037933	Mamu-B*082:05 chain	owl:Class
+MRO:0037934	Mamu-B*070:05 chain	owl:Class
+MRO:0037935	Mamu-A1*026:02 chain	owl:Class
+MRO:0037936	Mamu-A1*106:01 chain	owl:Class
+MRO:0037937	Mamu-B*019:05 chain	owl:Class
+MRO:0037938	Mamu-A2*05:49 chain	owl:Class
+MRO:0037939	Mamu-DRB*W068:01 chain	owl:Class
+MRO:0037940	Mamu-AG*03:03 chain	owl:Class
+MRO:0037941	Mamu-A1*118:01 chain	owl:Class
+MRO:0037942	Mamu-B*025:01 chain	owl:Class
+MRO:0037943	Mamu-B*098:07 chain	owl:Class
+MRO:0037944	Mamu-B*030:05 chain	owl:Class
+MRO:0037945	Mamu-B*017:03 chain	owl:Class
+MRO:0037946	Mamu-DPB1*19:02 chain	owl:Class
+MRO:0037947	Mamu-A2*24:04 chain	owl:Class
+MRO:0037948	Mamu-B*086:05 chain	owl:Class
+MRO:0037949	Mamu-B*061:04 chain	owl:Class
+MRO:0037950	Mamu-B*109:04 chain	owl:Class
+MRO:0037951	Mamu-B*051:05 chain	owl:Class
+MRO:0037952	Mamu-B*088:02 chain	owl:Class
+MRO:0037953	Mamu-B*193:01 chain	owl:Class
+MRO:0037954	Mamu-DPB1*03:02 chain	owl:Class
+MRO:0037955	Mamu-DQA1*01:11 chain	owl:Class
+MRO:0037956	Mamu-DPA1*02:13 chain	owl:Class
+MRO:0037957	Mamu-DQB1*06:23 chain	owl:Class
+MRO:0037958	Mamu-DRB*W025:02 chain	owl:Class
+MRO:0037959	Mamu-DPB1*01:02 chain	owl:Class
+MRO:0037960	Mamu-B*038:02 chain	owl:Class
+MRO:0037961	Mamu-DQB1*06:24 chain	owl:Class
+MRO:0037962	Mamu-A2*05:27 chain	owl:Class
+MRO:0037963	Mamu-B*069:04 chain	owl:Class
+MRO:0037964	Mamu-DRB*W025:01 chain	owl:Class
+MRO:0037965	Mamu-B*051:23 chain	owl:Class
+MRO:0037966	Mamu-A2*05:43 chain	owl:Class
+MRO:0037967	Mamu-B*069:06 chain	owl:Class
+MRO:0037968	Mamu-DRB*W006:04 chain	owl:Class
+MRO:0037969	Mamu-B*046:13 chain	owl:Class
+MRO:0037970	Mamu-DPB1*02:03 chain	owl:Class
+MRO:0037971	Mamu-B*051:08 chain	owl:Class
+MRO:0037972	Mamu-B*187:03 chain	owl:Class
+MRO:0037973	Mamu-B*142:04 chain	owl:Class
+MRO:0037974	Mamu-B*019:06 chain	owl:Class
+MRO:0037975	Mamu-A2*05:21 chain	owl:Class
+MRO:0037976	Mamu-A2*05:34 chain	owl:Class
+MRO:0037977	Mamu-A4*14:06 chain	owl:Class
+MRO:0037978	Mamu-DPA1*02:08 chain	owl:Class
+MRO:0037979	Mamu-DRB*W003:11 chain	owl:Class
+MRO:0037980	Mamu-A2*05:12 chain	owl:Class
+MRO:0037981	Mamu-A2*01:01 chain	owl:Class
+MRO:0037982	Mamu-DRB1*03:27 chain	owl:Class
+MRO:0037983	Mamu-B*069:02 chain	owl:Class
+MRO:0037984	Mamu-DRB5*03:08 chain	owl:Class
+MRO:0037985	Mamu-B*079:04 chain	owl:Class
+MRO:0037986	Mamu-DQB1*26:01 chain	owl:Class
+MRO:0037987	Mamu-DRB*W079:01 chain	owl:Class
+MRO:0037988	Mamu-A2*05:16 chain	owl:Class
+MRO:0037989	Mamu-A1*066:01 chain	owl:Class
+MRO:0037990	Mamu-E*02:16 chain	owl:Class
+MRO:0037991	Mamu-DPB1*19:03 chain	owl:Class
+MRO:0037992	Mamu-A1*032:02 chain	owl:Class
+MRO:0037993	Mamu-B*017:06 chain	owl:Class
+MRO:0037994	Mamu-B*089:02 chain	owl:Class
+MRO:0037995	Mamu-DPB1*01:05 chain	owl:Class
+MRO:0037996	Mamu-B*082:01 chain	owl:Class
+MRO:0037997	Mamu-DPB1*23:02 chain	owl:Class
+MRO:0037998	Mamu-DQB1*17:07 chain	owl:Class
+MRO:0037999	Mamu-B*021:04 chain	owl:Class
+MRO:0038000	Mamu-A4*14:14 chain	owl:Class
+MRO:0038001	Mamu-B*074:01 chain	owl:Class
+MRO:0038002	Mamu-B*061:01 chain	owl:Class
+MRO:0038003	Mamu-A2*05:20 chain	owl:Class
+MRO:0038004	Mamu-DRB*W059:02 chain	owl:Class
+MRO:0038005	Mamu-DPA1*06:01 chain	owl:Class
+MRO:0038006	Mamu-B*085:04 chain	owl:Class
+MRO:0038007	Mamu-E*02:19 chain	owl:Class
+MRO:0038008	Mamu-A1*028:08 chain	owl:Class
+MRO:0038009	Mamu-DQB1*16:01 chain	owl:Class
+MRO:0038010	Mamu-A1*050:01 chain	owl:Class
+MRO:0038011	Mamu-B*086:04 chain	owl:Class
+MRO:0038012	Mamu-B*069:07 chain	owl:Class
+MRO:0038013	Mamu-B*045:02 chain	owl:Class
+MRO:0038014	Mamu-B*049:01 chain	owl:Class
+MRO:0038015	Mamu-DRB6*01:19 chain	owl:Class
+MRO:0038016	Mamu-DRB3*04:03 chain	owl:Class
+MRO:0038017	Mamu-A6*01:05 chain	owl:Class
+MRO:0038018	Mamu-B*065:01 chain	owl:Class
+MRO:0038019	Mamu-B*060:07 chain	owl:Class
+MRO:0038020	Mamu-B*150:01 chain	owl:Class
+MRO:0038021	Mamu-A1*009:01 chain	owl:Class
+MRO:0038022	Mamu-DRB*W026:01 chain	owl:Class
+MRO:0038023	Mamu-DPB1*02:04 chain	owl:Class
+MRO:0038024	Mamu-DPB1*06:07 chain	owl:Class
+MRO:0038025	Mamu-DRB1*10:03 chain	owl:Class
+MRO:0038026	Mamu-A3*13:11 chain	owl:Class
+MRO:0038027	Mamu-B*098:08 chain	owl:Class
+MRO:0038028	Mamu-DQA1*26:05 chain	owl:Class
+MRO:0038029	Mamu-DRB*W069:01 chain	owl:Class
+MRO:0038030	Mamu-B*007:07 chain	owl:Class
+MRO:0038031	Mamu-B*164:01 chain	owl:Class
+MRO:0038032	Mamu-DQA1*23:03 chain	owl:Class
+MRO:0038033	Mamu-DRB1*10:06 chain	owl:Class
+MRO:0038034	Mamu-B*011:02 chain	owl:Class
+MRO:0038035	Mamu-DRB*W002:03 chain	owl:Class
+MRO:0038036	Mamu-B*046:11 chain	owl:Class
+MRO:0038037	Mamu-B*086:02 chain	owl:Class
+MRO:0038038	Mamu-DPA1*08:01 chain	owl:Class
+MRO:0038039	Mamu-A1*016:02 chain	owl:Class
+MRO:0038040	Mamu-DRB*W003:06 chain	owl:Class
+MRO:0038041	Mamu-DRB1*10:07 chain	owl:Class
+MRO:0038042	Mamu-A1*018:04 chain	owl:Class
+MRO:0038043	Mamu-B*047:02 chain	owl:Class
+MRO:0038044	Mamu-A1*056:04 chain	owl:Class
+MRO:0038045	Mamu-A6*01:01 chain	owl:Class
+MRO:0038046	Mamu-DQA1*26:02 chain	owl:Class
+MRO:0038047	Mamu-B*035:02 chain	owl:Class
+MRO:0038048	Mamu-E*02:09 chain	owl:Class
+MRO:0038049	Mamu-A1*043:01 chain	owl:Class
+MRO:0038050	Mamu-B*017:05 chain	owl:Class
+MRO:0038051	Mamu-A2*05:26 chain	owl:Class
+MRO:0038052	Mamu-A4*14:07 chain	owl:Class
+MRO:0038053	Mamu-B*042:01 chain	owl:Class
+MRO:0038054	Mamu-DRB*W001:03 chain	owl:Class
+MRO:0038055	Mamu-B*005:02 chain	owl:Class
+MRO:0038056	Mamu-A1*090:03 chain	owl:Class
+MRO:0038057	Mamu-A2*05:48 chain	owl:Class
+MRO:0038058	Mamu-A1*055:01 chain	owl:Class
+MRO:0038059	Mamu-B*051:06 chain	owl:Class
+MRO:0038060	Mamu-B*101:02 chain	owl:Class
+MRO:0038061	Mamu-DPB1*21:01 chain	owl:Class
+MRO:0038062	Mamu-DPB1*19:05 chain	owl:Class
+MRO:0038063	Mamu-A1*054:02 chain	owl:Class
+MRO:0038064	Mamu-A1*085:05 chain	owl:Class
+MRO:0038065	Mamu-DQB1*06:01 chain	owl:Class
+MRO:0038066	Mamu-B*180:03 chain	owl:Class
+MRO:0038067	Mamu-DPB1*16:01 chain	owl:Class
+MRO:0038068	Mamu-B*079:02 chain	owl:Class
+MRO:0038069	Mamu-DRB5*03:03 chain	owl:Class
+MRO:0038070	Mamu-DQA1*01:02 chain	owl:Class
+MRO:0038071	Mamu-DPB1*01:04 chain	owl:Class
+MRO:0038072	Mamu-DRB*W007:05 chain	owl:Class
+MRO:0038073	Mamu-DQB1*18:07 chain	owl:Class
+MRO:0038074	Mamu-B*060:09 chain	owl:Class
+MRO:0038075	Mamu-DRB*W021:03 chain	owl:Class
+MRO:0038076	Mamu-DPB1*04:01 chain	owl:Class
+MRO:0038077	Mamu-B*048:02 chain	owl:Class
+MRO:0038078	Mamu-A1*057:04 chain	owl:Class
+MRO:0038079	Mamu-B*146:01 chain	owl:Class
+MRO:0038080	Mamu-A1*003:14 chain	owl:Class
+MRO:0038081	Mamu-B*033:01 chain	owl:Class
+MRO:0038082	Mamu-DQB1*26:07 chain	owl:Class
+MRO:0038083	Mamu-B*051:09 chain	owl:Class
+MRO:0038084	Mamu-DPB1*01:17 chain	owl:Class
+MRO:0038085	Mamu-B*082:07 chain	owl:Class
+MRO:0038086	Mamu-B*076:03 chain	owl:Class
+MRO:0038087	Mamu-B*031:02 chain	owl:Class
+MRO:0038088	Mamu-B*068:05 chain	owl:Class
+MRO:0038089	Mamu-DRB6*01:15 chain	owl:Class
+MRO:0038090	Mamu-DPB1*01:14 chain	owl:Class
+MRO:0038091	Mamu-B*079:03 chain	owl:Class
+MRO:0038092	Mamu-DRB*W027:07 chain	owl:Class
+MRO:0038093	Mamu-B*060:18 chain	owl:Class
+MRO:0038094	Mamu-B*109:01 chain	owl:Class
+MRO:0038095	Mamu-B*066:03 chain	owl:Class
+MRO:0038096	Mamu-A2*24:02 chain	owl:Class
+MRO:0038097	Mamu-A1*025:01 chain	owl:Class
+MRO:0038098	Mamu-A1*120:01 chain	owl:Class
+MRO:0038099	Mamu-B*102:01 chain	owl:Class
+MRO:0038100	Mamu-DQB1*06:09 chain	owl:Class
+MRO:0038101	Mamu-B*069:01 chain	owl:Class
+MRO:0038102	Mamu-B*091:02 chain	owl:Class
+MRO:0038103	Mamu-DPB1*03:01 chain	owl:Class
+MRO:0038104	Mamu-A1*004:01 chain	owl:Class
+MRO:0038105	Mamu-B*018:01 chain	owl:Class
+MRO:0038106	Mamu-A1*123:03 chain	owl:Class
+MRO:0038107	Mamu-A2*05:31 chain	owl:Class
+MRO:0038108	Mamu-B*007:06 chain	owl:Class
+MRO:0038109	Mamu-DQA1*05:05 chain	owl:Class
+MRO:0038110	Mamu-A1*049:03 chain	owl:Class
+MRO:0038111	Mamu-A1*095:01 chain	owl:Class
+MRO:0038112	Mamu-B*015:02 chain	owl:Class
+MRO:0038113	Mamu-B*050:02 chain	owl:Class
+MRO:0038114	Mamu-DQB1*26:05 chain	owl:Class
+MRO:0038115	Mamu-B*056:01 chain	owl:Class
+MRO:0038116	Mamu-DRB1*03:10 chain	owl:Class
+MRO:0038117	Mamu-A2*01:03 chain	owl:Class
+MRO:0038118	Mamu-DPA1*02:06 chain	owl:Class
+MRO:0038119	Mamu-B*124:01 chain	owl:Class
+MRO:0038120	Mamu-A2*05:50 chain	owl:Class
+MRO:0038121	Mamu-B*068:08 chain	owl:Class
+MRO:0038122	Mamu-DRB*W025:07 chain	owl:Class
+MRO:0038123	Mamu-DRA*01:01 chain	owl:Class
+MRO:0038124	Mamu-B*092:01 chain	owl:Class
+MRO:0038125	Mamu-DQA1*05:04 chain	owl:Class
+MRO:0038126	Mamu-B*056:04 chain	owl:Class
+MRO:0038127	Mamu-A1*053:03 chain	owl:Class
+MRO:0038128	Mamu-DPA1*07:02 chain	owl:Class
+MRO:0038129	Mamu-B*047:05 chain	owl:Class
+MRO:0038130	Mamu-DRB*W006:08 chain	owl:Class
+MRO:0038131	Mamu-B*007:03 chain	owl:Class
+MRO:0038132	Mamu-DRB1*10:11 chain	owl:Class
+MRO:0038133	Mamu-A2*05:45 chain	owl:Class
+MRO:0038134	Mamu-A5*30:01 chain	owl:Class
+MRO:0038135	Mamu-DQB1*18:22 chain	owl:Class
+MRO:0038136	Mamu-B*101:04 chain	owl:Class
+MRO:0038137	Mamu-DRB*W053:01 chain	owl:Class
+MRO:0038138	Mamu-DPA1*10:01 chain	owl:Class
+MRO:0038139	Mamu-A1*059:01 chain	owl:Class
+MRO:0038140	Mamu-B*060:01 chain	owl:Class
+MRO:0038141	Mamu-DRB*W006:12 chain	owl:Class
+MRO:0038142	Mamu-B*039:02 chain	owl:Class
+MRO:0038143	Mamu-A1*041:01 chain	owl:Class
+MRO:0038144	Mamu-B*064:02 chain	owl:Class
+MRO:0038145	Mamu-B*047:01 chain	owl:Class
+MRO:0038146	Mamu-DRB*W021:04 chain	owl:Class
+MRO:0038147	Mamu-DRB1*03:25 chain	owl:Class
+MRO:0038148	Mamu-DRB1*03:22 chain	owl:Class
+MRO:0038149	Mamu-A1*003:06 chain	owl:Class
+MRO:0038150	Mamu-DPB1*24:01 chain	owl:Class
+MRO:0038151	Mamu-B*046:18 chain	owl:Class
+MRO:0038152	Mamu-A1*006:01 chain	owl:Class
+MRO:0038153	Mamu-DQA1*01:10 chain	owl:Class
+MRO:0038154	Mamu-B*046:01 chain	owl:Class
+MRO:0038155	Mamu-B*027:03 chain	owl:Class
+MRO:0038156	Mamu-DRB*W027:05 chain	owl:Class
+MRO:0038157	Mamu-A4*14:20 chain	owl:Class
+MRO:0038158	Mamu-B*051:01 chain	owl:Class
+MRO:0038159	Mamu-DRB*W004:04 chain	owl:Class
+MRO:0038160	Mamu-B*010:01 chain	owl:Class
+MRO:0038161	Mamu-DRB6*01:13 chain	owl:Class
+MRO:0038162	Mamu-DRB1*04:20 chain	owl:Class
+MRO:0038163	Mamu-DRB*W002:04 chain	owl:Class
+MRO:0038164	Mamu-E*02:27 chain	owl:Class
+MRO:0038165	Mamu-A1*008:05 chain	owl:Class
+MRO:0038166	Mamu-B*013:02 chain	owl:Class
+MRO:0038167	Mamu-A3*13:07 chain	owl:Class
+MRO:0038168	Mamu-B*030:01 chain	owl:Class
+MRO:0038169	Mamu-A7*01:01 chain	owl:Class
+MRO:0038170	Mamu-B*060:15 chain	owl:Class
+MRO:0038171	Mamu-DRB5*03:01 chain	owl:Class
+MRO:0038172	Mamu-A2*05:19 chain	owl:Class
+MRO:0038173	Mamu-B*002:03 chain	owl:Class
+MRO:0038174	Mamu-B*073:01 chain	owl:Class
+MRO:0038175	Mamu-DQB1*15:06 chain	owl:Class
+MRO:0038176	Mamu-B*075:04 chain	owl:Class
+MRO:0038177	Mamu-B*056:07 chain	owl:Class
+MRO:0038178	Mamu-A1*053:01 chain	owl:Class
+MRO:0038179	Mamu-DRB1*03:28 chain	owl:Class
+MRO:0038180	Mamu-B*110:01 chain	owl:Class
+MRO:0038181	Mamu-A1*057:06 chain	owl:Class
+MRO:0038182	Mamu-DPB1*15:02 chain	owl:Class
+MRO:0038183	Mamu-A1*105:01 chain	owl:Class
+MRO:0038184	Mamu-B*051:03 chain	owl:Class
+MRO:0038185	Mamu-B*142:03 chain	owl:Class
+MRO:0038186	Mamu-B*029:04 chain	owl:Class
+MRO:0038187	Mamu-A1*033:02 chain	owl:Class
+MRO:0038188	Mamu-B*021:02 chain	owl:Class
+MRO:0038189	Mamu-B*053:01 chain	owl:Class
+MRO:0038190	Mamu-DRB*W028:01 chain	owl:Class
+MRO:0038191	Mamu-B*091:01 chain	owl:Class
+MRO:0038192	Mamu-A1*056:01 chain	owl:Class
+MRO:0038193	Mamu-B*044:07 chain	owl:Class
+MRO:0038194	Mamu-B*077:01 chain	owl:Class
+MRO:0038195	Mamu-A1*011:02 chain	owl:Class
+MRO:0038196	Mamu-DPB1*19:04 chain	owl:Class
+MRO:0038197	Mamu-DRB*W007:02 chain	owl:Class
+MRO:0038198	Mamu-A1*025:02 chain	owl:Class
+MRO:0038199	Mamu-B*045:10 chain	owl:Class
+MRO:0038200	Mamu-B*041:03 chain	owl:Class
+MRO:0038201	Mamu-B*054:02 chain	owl:Class
+MRO:0038202	Mamu-B*015:05 chain	owl:Class
+MRO:0038203	Mamu-B*046:04 chain	owl:Class
+MRO:0038204	Mamu-A1*028:06 chain	owl:Class
+MRO:0038205	Mamu-B*015:01 chain	owl:Class
+MRO:0038206	Mamu-B*134:02 chain	owl:Class
+MRO:0038207	Mamu-B*060:05 chain	owl:Class
+MRO:0038208	Mamu-B*188:02 chain	owl:Class
+MRO:0038209	Mamu-A1*063:01 chain	owl:Class
+MRO:0038210	Mamu-DRB*W006:09 chain	owl:Class
+MRO:0038211	Mamu-B*063:04 chain	owl:Class
+MRO:0038212	Mamu-B*051:02 chain	owl:Class
+MRO:0038213	Mamu-A1*054:01 chain	owl:Class
+MRO:0038214	Mamu-B*077:03 chain	owl:Class
+MRO:0038215	Mamu-DQB1*18:03 chain	owl:Class
+MRO:0038216	Mamu-DPA1*04:06 chain	owl:Class
+MRO:0038217	Mamu-DRB1*04:17 chain	owl:Class
+MRO:0038218	Mamu-DRB*W027:02 chain	owl:Class
+MRO:0038219	Mamu-B*088:01 chain	owl:Class
+MRO:0038220	Mamu-DRB3*04:11 chain	owl:Class
+MRO:0038221	Mamu-A2*05:24 chain	owl:Class
+MRO:0038222	Mamu-DRB3*04:05 chain	owl:Class
+MRO:0038223	Mamu-B*109:02 chain	owl:Class
+MRO:0038224	Mamu-A2*24:03 chain	owl:Class
+MRO:0038225	Mamu-B*147:01 chain	owl:Class
+MRO:0038226	Mamu-DQB1*18:19 chain	owl:Class
+MRO:0038227	Mamu-A5*30:04 chain	owl:Class
+MRO:0038228	Mamu-DRB*W036:02 chain	owl:Class
+MRO:0038229	Mamu-A1*045:01 chain	owl:Class
+MRO:0038230	Mamu-A1*018:03 chain	owl:Class
+MRO:0038231	Mamu-A2*05:53 chain	owl:Class
+MRO:0038232	Mamu-B*001:02 chain	owl:Class
+MRO:0038233	Mamu-B*068:07 chain	owl:Class
+MRO:0038234	Mamu-DQB1*18:13 chain	owl:Class
+MRO:0038235	Mamu-B*094:01 chain	owl:Class
+MRO:0038236	Mamu-B*019:02 chain	owl:Class
+MRO:0038237	Mamu-A1*006:04 chain	owl:Class
+MRO:0038238	Mamu-DRB1*03:29 chain	owl:Class
+MRO:0038239	Mamu-DPB1*06:03 chain	owl:Class
+MRO:0038240	Mamu-A1*023:01 chain	owl:Class
+MRO:0038241	Mamu-B*151:03 chain	owl:Class
+MRO:0038242	Mamu-A1*026:03 chain	owl:Class
+MRO:0038243	Mamu-A1*074:05 chain	owl:Class
+MRO:0038244	Mamu-DQB1*17:11 chain	owl:Class
+MRO:0038245	Mamu-DQA1*26:09 chain	owl:Class
+MRO:0038246	Mamu-B*070:06 chain	owl:Class
+MRO:0038247	Mamu-B*034:05 chain	owl:Class
+MRO:0038248	Mamu-DRB*W021:05 chain	owl:Class
+MRO:0038249	Mamu-DPB1*05:01 chain	owl:Class
+MRO:0038250	Mamu-DRB*W036:01 chain	owl:Class
+MRO:0038251	Mamu-DRB6*01:16 chain	owl:Class
+MRO:0038252	Mamu-DQB1*18:12 chain	owl:Class
+MRO:0038253	Mamu-B*072:09 chain	owl:Class
+MRO:0038254	Mamu-DRB3*04:08 chain	owl:Class
+MRO:0038255	Mamu-B*074:03 chain	owl:Class
+MRO:0038256	Mamu-B*051:14 chain	owl:Class
+MRO:0038257	Mamu-DPA1*07:01 chain	owl:Class
+MRO:0038258	Mamu-DRB1*03:01 chain	owl:Class
+MRO:0038259	Mamu-A1*008:03 chain	owl:Class
+MRO:0038260	Mamu-B*074:04 chain	owl:Class
+MRO:0038261	Mamu-B*072:03 chain	owl:Class
+MRO:0038262	Mamu-DQB1*06:17 chain	owl:Class
+MRO:0038263	Mamu-A1*056:05 chain	owl:Class
+MRO:0038264	Mamu-A1*001:02 chain	owl:Class
+MRO:0038265	Mamu-A1*012:02 chain	owl:Class
+MRO:0038266	Mamu-DRB3*04:15 chain	owl:Class
+MRO:0038267	Mamu-A2*05:37 chain	owl:Class
+MRO:0038268	Mamu-B*086:06 chain	owl:Class
+MRO:0038269	Mamu-B*054:05 chain	owl:Class
+MRO:0038270	Mamu-A1*092:03 chain	owl:Class
+MRO:0038271	Mamu-B*081:01 chain	owl:Class
+MRO:0038272	Mamu-B*068:04 chain	owl:Class
+MRO:0038273	Mamu-B*151:01 chain	owl:Class
+MRO:0038274	Mamu-B*066:02 chain	owl:Class
+MRO:0038275	Mamu-A5*30:05 chain	owl:Class
+MRO:0038276	Mamu-A2*05:42 chain	owl:Class
+MRO:0038277	Mamu-DRB3*04:17 chain	owl:Class
+MRO:0038278	Mamu-A1*057:05 chain	owl:Class
+MRO:0038279	Mamu-A1*073:01 chain	owl:Class
+MRO:0038280	Mamu-A1*003:10 chain	owl:Class
+MRO:0038281	Mamu-A1*007:05 chain	owl:Class
+MRO:0038282	Mamu-DRB1*04:02 chain	owl:Class
+MRO:0038283	Mamu-DPB1*01:12 chain	owl:Class
+MRO:0038284	Mamu-DRB5*03:06 chain	owl:Class
+MRO:0038285	Mamu-A1*049:02 chain	owl:Class
+MRO:0038286	Mamu-A1*003:05 chain	owl:Class
+MRO:0038287	Mamu-B*060:14 chain	owl:Class
+MRO:0038288	Mamu-B*095:02 chain	owl:Class
+MRO:0038289	Mamu-A1*057:03 chain	owl:Class
+MRO:0038290	Mamu-DRB3*04:06 chain	owl:Class
+MRO:0038291	Mamu-B*036:03 chain	owl:Class
+MRO:0038292	Mamu-DRB3*04:04 chain	owl:Class
+MRO:0038293	Mamu-A1*111:01 chain	owl:Class
+MRO:0038294	Mamu-B*027:01 chain	owl:Class
+MRO:0038295	Mamu-DRB*W101:01 chain	owl:Class
+MRO:0038296	Mamu-A2*05:02 chain	owl:Class
+MRO:0038297	Mamu-B*072:02 chain	owl:Class
+MRO:0038298	Mamu-B*074:02 chain	owl:Class
+MRO:0038299	Mamu-E*02:02 chain	owl:Class
+MRO:0038300	Mamu-A2*05:22 chain	owl:Class
+MRO:0038301	Mamu-B*139:01 chain	owl:Class
+MRO:0038302	Mamu-A1*041:02 chain	owl:Class
+MRO:0038303	Mamu-DRA*02:01 chain	owl:Class
+MRO:0038304	Mamu-DRB1*03:05 chain	owl:Class
+MRO:0038305	Mamu-A3*13:05 chain	owl:Class
+MRO:0038306	Mamu-A3*13:13 chain	owl:Class
+MRO:0038307	Mamu-B*046:05 chain	owl:Class
+MRO:0038308	Mamu-DQB1*06:16 chain	owl:Class
+MRO:0038309	Mamu-A1*032:04 chain	owl:Class
+MRO:0038310	Mamu-B*047:04 chain	owl:Class
+MRO:0038311	Mamu-A1*074:02 chain	owl:Class
+MRO:0038312	Mamu-DPA1*02:09 chain	owl:Class
+MRO:0038313	Mamu-A1*023:02 chain	owl:Class
+MRO:0038314	Mamu-B*124:02 chain	owl:Class
+MRO:0038315	Mamu-B*061:06 chain	owl:Class
+MRO:0038316	Mamu-DRB*W021:01 chain	owl:Class
+MRO:0038317	Mamu-B*017:02 chain	owl:Class
+MRO:0038318	Mamu-B*017:01 chain	owl:Class
+MRO:0038319	Mamu-DRB1*03:26 chain	owl:Class
+MRO:0038320	Mamu-A4*02:02 chain	owl:Class
+MRO:0038321	Mamu-A1*003:11 chain	owl:Class
+MRO:0038322	Mamu-A1*003:07 chain	owl:Class
+MRO:0038323	Mamu-DQB1*06:14 chain	owl:Class
+MRO:0038324	Mamu-A1*003:19 chain	owl:Class
+MRO:0038325	Mamu-DQA1*26:04 chain	owl:Class
+MRO:0038326	Mamu-B*070:04 chain	owl:Class
+MRO:0038327	Mamu-B*082:02 chain	owl:Class
+MRO:0038328	Mamu-DQB1*06:22 chain	owl:Class
+MRO:0038329	Mamu-DRB*W003:09 chain	owl:Class
+MRO:0038330	Mamu-A1*003:01 chain	owl:Class
+MRO:0038331	Mamu-A1*018:08 chain	owl:Class
+MRO:0038332	Mamu-DPB1*01:09 chain	owl:Class
+MRO:0038333	Mamu-DRB*W006:10 chain	owl:Class
+MRO:0038334	Mamu-B*060:17 chain	owl:Class
+MRO:0038335	Mamu-B*082:11 chain	owl:Class
+MRO:0038336	Mamu-DRB*W006:13 chain	owl:Class
+MRO:0038337	Mamu-B*015:03 chain	owl:Class
+MRO:0038338	Mamu-B*098:01 chain	owl:Class
+MRO:0038339	Mamu-DRA*01:04 chain	owl:Class
+MRO:0038340	Mamu-AG*02:02 chain	owl:Class
+MRO:0038341	Mamu-DRB6*01:28 chain	owl:Class
+MRO:0038342	Mamu-B*017:07 chain	owl:Class
+MRO:0038343	Mamu-DQB1*26:02 chain	owl:Class
+MRO:0038344	Mamu-B*027:04 chain	owl:Class
+MRO:0038345	Mamu-A2*05:54 chain	owl:Class
+MRO:0038346	Mamu-DPA1*02:17 chain	owl:Class
+MRO:0038347	Mamu-B*075:05 chain	owl:Class
+MRO:0038348	Mamu-B*086:01 chain	owl:Class
+MRO:0038349	Mamu-B*036:05 chain	owl:Class
+MRO:0038350	Mamu-DPA1*02:20 chain	owl:Class
+MRO:0038351	Mamu-A1*049:04 chain	owl:Class
+MRO:0038352	Mamu-B*069:08 chain	owl:Class
+MRO:0038353	Mamu-B*062:01 chain	owl:Class
+MRO:0038354	Mamu-A1*065:04 chain	owl:Class
+MRO:0038355	Mamu-DRB1*10:15 chain	owl:Class
+MRO:0038356	Mamu-B*072:09 protein complex	owl:Class
+MRO:0038357	Mamu-B*069:02 protein complex	owl:Class
+MRO:0038358	Mamu-DRB1*04:16 protein complex	owl:Class
+MRO:0038359	Mamu-B*116:01 protein complex	owl:Class
+MRO:0038360	Mamu-DRB*W025:01 protein complex	owl:Class
+MRO:0038361	Mamu-B*030:01 protein complex	owl:Class
+MRO:0038362	Mamu-DRB4*01:04 protein complex	owl:Class
+MRO:0038363	Mamu-DRB1*04:15 protein complex	owl:Class
+MRO:0038364	Mamu-DRB*W027:05 protein complex	owl:Class
+MRO:0038365	Mamu-B*092:02 protein complex	owl:Class
+MRO:0038366	Mamu-B*065:07 protein complex	owl:Class
+MRO:0038367	Mamu-B*046:03 protein complex	owl:Class
+MRO:0038368	Mamu-DRA*01:05 protein complex	owl:Class
+MRO:0038369	Mamu-B*024:01 protein complex	owl:Class
+MRO:0038370	Mamu-B*151:01 protein complex	owl:Class
+MRO:0038371	Mamu-B*051:09 protein complex	owl:Class
+MRO:0038372	Mamu-B*068:03 protein complex	owl:Class
+MRO:0038373	Mamu-DRB1*04:21 protein complex	owl:Class
+MRO:0038374	Mamu-DRB4*01:03 protein complex	owl:Class
+MRO:0038375	Mamu-DRB1*10:13 protein complex	owl:Class
+MRO:0038376	Mamu-B*082:04 protein complex	owl:Class
+MRO:0038377	Mamu-B*045:01 protein complex	owl:Class
+MRO:0038378	Mamu-DRB*W026:01 protein complex	owl:Class
+MRO:0038379	Mamu-B*187:01 protein complex	owl:Class
+MRO:0038380	Mamu-DRB*W006:05 protein complex	owl:Class
+MRO:0038381	Mamu-E*02:05 protein complex	owl:Class
+MRO:0038382	Mamu-B*047:03 protein complex	owl:Class
+MRO:0038383	Mamu-B*093:01 protein complex	owl:Class
+MRO:0038384	Mamu-DRB6*01:20 protein complex	owl:Class
+MRO:0038385	Mamu-DRB6*05:01 protein complex	owl:Class
+MRO:0038386	Mamu-DRB1*03:01 protein complex	owl:Class
+MRO:0038387	Mamu-B*142:01 protein complex	owl:Class
+MRO:0038388	Mamu-B*098:07 protein complex	owl:Class
+MRO:0038389	Mamu-B*070:04 protein complex	owl:Class
+MRO:0038390	Mamu-B*051:13 protein complex	owl:Class
+MRO:0038391	Mamu-B*056:09 protein complex	owl:Class
+MRO:0038392	Mamu-B*105:01 protein complex	owl:Class
+MRO:0038393	Mamu-DRB3*04:07 protein complex	owl:Class
+MRO:0038394	Mamu-DRB*W059:01 protein complex	owl:Class
+MRO:0038395	Mamu-DRB3*04:16 protein complex	owl:Class
+MRO:0038396	Mamu-B*051:06 protein complex	owl:Class
+MRO:0038397	Mamu-B*064:02 protein complex	owl:Class
+MRO:0038398	Mamu-B*098:13 protein complex	owl:Class
+MRO:0038399	Mamu-DRB6*01:26 protein complex	owl:Class
+MRO:0038400	Mamu-B*060:02 protein complex	owl:Class
+MRO:0038401	Mamu-DRB1*04:14 protein complex	owl:Class
+MRO:0038402	Mamu-B*046:04 protein complex	owl:Class
+MRO:0038403	Mamu-B*015:02 protein complex	owl:Class
+MRO:0038404	Mamu-B*015:04 protein complex	owl:Class
+MRO:0038405	Mamu-B*007:02 protein complex	owl:Class
+MRO:0038406	Mamu-B*016:02 protein complex	owl:Class
+MRO:0038407	Mamu-B*027:02 protein complex	owl:Class
+MRO:0038408	Mamu-E*02:21 protein complex	owl:Class
+MRO:0038409	Mamu-B*082:11 protein complex	owl:Class
+MRO:0038410	Mamu-B*045:06 protein complex	owl:Class
+MRO:0038411	Mamu-DRA*01:09 protein complex	owl:Class
+MRO:0038412	Mamu-B*017:05 protein complex	owl:Class
+MRO:0038413	Mamu-B*034:04 protein complex	owl:Class
+MRO:0038414	Mamu-DRB1*10:01 protein complex	owl:Class
+MRO:0038415	Mamu-DRB*W027:01 protein complex	owl:Class
+MRO:0038416	Mamu-DRB*W004:06 protein complex	owl:Class
+MRO:0038417	Mamu-DRB1*10:09 protein complex	owl:Class
+MRO:0038418	Mamu-B*039:04 protein complex	owl:Class
+MRO:0038419	Mamu-B*049:01 protein complex	owl:Class
+MRO:0038420	Mamu-B*046:11 protein complex	owl:Class
+MRO:0038421	Mamu-DRB*W006:01 protein complex	owl:Class
+MRO:0038422	Mamu-B*124:03 protein complex	owl:Class
+MRO:0038423	Mamu-DRB*W027:09 protein complex	owl:Class
+MRO:0038424	Mamu-DRB*W027:04 protein complex	owl:Class
+MRO:0038425	Mamu-DRB*W006:03 protein complex	owl:Class
+MRO:0038426	Mamu-B*037:02 protein complex	owl:Class
+MRO:0038427	Mamu-B*046:17 protein complex	owl:Class
+MRO:0038428	Mamu-B*067:02 protein complex	owl:Class
+MRO:0038429	Mamu-B*046:08 protein complex	owl:Class
+MRO:0038430	Mamu-DRB1*03:19 protein complex	owl:Class
+MRO:0038431	Mamu-E*02:12 protein complex	owl:Class
+MRO:0038432	Mamu-B*151:02 protein complex	owl:Class
+MRO:0038433	Mamu-DRB*W020:03 protein complex	owl:Class
+MRO:0038434	Mamu-B*098:14 protein complex	owl:Class
+MRO:0038435	Mamu-B*056:02 protein complex	owl:Class
+MRO:0038436	Mamu-DRB6*01:15 protein complex	owl:Class
+MRO:0038437	Mamu-B*069:05 protein complex	owl:Class
+MRO:0038438	Mamu-B*078:01 protein complex	owl:Class
+MRO:0038439	Mamu-DRB1*03:18 protein complex	owl:Class
+MRO:0038440	Mamu-B*058:02 protein complex	owl:Class
+MRO:0038441	Mamu-B*019:02 protein complex	owl:Class
+MRO:0038442	Mamu-B*071:01 protein complex	owl:Class
+MRO:0038443	Mamu-DRB3*04:10 protein complex	owl:Class
+MRO:0038444	Mamu-B*029:03 protein complex	owl:Class
+MRO:0038445	Mamu-B*180:03 protein complex	owl:Class
+MRO:0038446	Mamu-DRB*W007:03 protein complex	owl:Class
+MRO:0038447	Mamu-B*046:13 protein complex	owl:Class
+MRO:0038448	Mamu-B*081:01 protein complex	owl:Class
+MRO:0038449	Mamu-B*031:01 protein complex	owl:Class
+MRO:0038450	Mamu-B*018:01 protein complex	owl:Class
+MRO:0038451	Mamu-DRB1*03:04 protein complex	owl:Class
+MRO:0038452	Mamu-B*086:06 protein complex	owl:Class
+MRO:0038453	Mamu-B*060:16 protein complex	owl:Class
+MRO:0038454	Mamu-DRB1*10:08 protein complex	owl:Class
+MRO:0038455	Mamu-B*091:03 protein complex	owl:Class
+MRO:0038456	Mamu-E*02:17 protein complex	owl:Class
+MRO:0038457	Mamu-DRB*W006:09 protein complex	owl:Class
+MRO:0038458	Mamu-B*050:03 protein complex	owl:Class
+MRO:0038459	Mamu-DRB6*01:14 protein complex	owl:Class
+MRO:0038460	Mamu-B*063:02 protein complex	owl:Class
+MRO:0038461	Mamu-B*124:02 protein complex	owl:Class
+MRO:0038462	Mamu-B*065:03 protein complex	owl:Class
+MRO:0038463	Mamu-DRB*W006:06 protein complex	owl:Class
+MRO:0038464	Mamu-B*124:01 protein complex	owl:Class
+MRO:0038465	Mamu-B*046:09 protein complex	owl:Class
+MRO:0038466	Mamu-B*043:01 protein complex	owl:Class
+MRO:0038467	Mamu-DRB*W007:04 protein complex	owl:Class
+MRO:0038468	Mamu-DRB*W003:14 protein complex	owl:Class
+MRO:0038469	Mamu-DRB*W001:05 protein complex	owl:Class
+MRO:0038470	Mamu-DRB1*04:20 protein complex	owl:Class
+MRO:0038471	Mamu-B*017:02 protein complex	owl:Class
+MRO:0038472	Mamu-B*082:08 protein complex	owl:Class
+MRO:0038473	Mamu-B*075:04 protein complex	owl:Class
+MRO:0038474	Mamu-B*155:01 protein complex	owl:Class
+MRO:0038475	Mamu-B*079:02 protein complex	owl:Class
+MRO:0038476	Mamu-B*056:06 protein complex	owl:Class
+MRO:0038477	Mamu-DRB1*04:05 protein complex	owl:Class
+MRO:0038478	Mamu-B*065:04 protein complex	owl:Class
+MRO:0038479	Mamu-E*02:14 protein complex	owl:Class
+MRO:0038480	Mamu-B*053:03 protein complex	owl:Class
+MRO:0038481	Mamu-B*017:01 protein complex	owl:Class
+MRO:0038482	Mamu-B*001:04 protein complex	owl:Class
+MRO:0038483	Mamu-B*145:01 protein complex	owl:Class
+MRO:0038484	Mamu-DRB*W006:04 protein complex	owl:Class
+MRO:0038485	Mamu-B*098:01 protein complex	owl:Class
+MRO:0038486	Mamu-B*072:01 protein complex	owl:Class
+MRO:0038487	Mamu-B*101:03 protein complex	owl:Class
+MRO:0038488	Mamu-DRB6*01:17 protein complex	owl:Class
+MRO:0038489	Mamu-B*086:03 protein complex	owl:Class
+MRO:0038490	Mamu-B*180:01 protein complex	owl:Class
+MRO:0038491	Mamu-B*091:04 protein complex	owl:Class
+MRO:0038492	Mamu-B*178:01 protein complex	owl:Class
+MRO:0038493	Mamu-B*007:04 protein complex	owl:Class
+MRO:0038494	Mamu-B*051:08 protein complex	owl:Class
+MRO:0038495	Mamu-DRB6*01:10 protein complex	owl:Class
+MRO:0038496	Mamu-B*109:04 protein complex	owl:Class
+MRO:0038497	Mamu-B*060:09 protein complex	owl:Class
+MRO:0038498	Mamu-DRB1*04:12 protein complex	owl:Class
+MRO:0038499	Mamu-B*051:07 protein complex	owl:Class
+MRO:0038500	Mamu-B*147:01 protein complex	owl:Class
+MRO:0038501	Mamu-DRB*W002:04 protein complex	owl:Class
+MRO:0038502	Mamu-DRB*W001:06 protein complex	owl:Class
+MRO:0038503	Mamu-B*030:05 protein complex	owl:Class
+MRO:0038504	Mamu-B*048:02 protein complex	owl:Class
+MRO:0038505	Mamu-DRB3*04:11 protein complex	owl:Class
+MRO:0038506	Mamu-B*045:03 protein complex	owl:Class
+MRO:0038507	Mamu-B*044:02 protein complex	owl:Class
+MRO:0038508	Mamu-B*066:03 protein complex	owl:Class
+MRO:0038509	Mamu-DRB1*10:17 protein complex	owl:Class
+MRO:0038510	Mamu-B*098:05 protein complex	owl:Class
+MRO:0038511	Mamu-B*101:02 protein complex	owl:Class
+MRO:0038512	Mamu-B*167:01 protein complex	owl:Class
+MRO:0038513	Mamu-DRB*W006:13 protein complex	owl:Class
+MRO:0038514	Mamu-B*075:01 protein complex	owl:Class
+MRO:0038515	Mamu-B*067:01 protein complex	owl:Class
+MRO:0038516	Mamu-B*086:01 protein complex	owl:Class
+MRO:0038517	Mamu-DRB5*03:06 protein complex	owl:Class
+MRO:0038518	Mamu-B*036:01 protein complex	owl:Class
+MRO:0038519	Mamu-DRB*W005:03 protein complex	owl:Class
+MRO:0038520	Mamu-DRB6*01:21 protein complex	owl:Class
+MRO:0038521	Mamu-B*051:11 protein complex	owl:Class
+MRO:0038522	Mamu-B*115:02 protein complex	owl:Class
+MRO:0038523	Mamu-B*028:01 protein complex	owl:Class
+MRO:0038524	Mamu-E*02:25 protein complex	owl:Class
+MRO:0038525	Mamu-B*101:01 protein complex	owl:Class
+MRO:0038526	Mamu-B*007:01 protein complex	owl:Class
+MRO:0038527	Mamu-B*001:06 protein complex	owl:Class
+MRO:0038528	Mamu-E*02:24 protein complex	owl:Class
+MRO:0038529	Mamu-B*048:04 protein complex	owl:Class
+MRO:0038530	Mamu-B*044:03 protein complex	owl:Class
+MRO:0038531	Mamu-B*116:02 protein complex	owl:Class
+MRO:0038532	Mamu-B*057:06 protein complex	owl:Class
+MRO:0038533	Mamu-B*003:02 protein complex	owl:Class
+MRO:0038534	Mamu-B*054:01 protein complex	owl:Class
+MRO:0038535	Mamu-DRB5*03:08 protein complex	owl:Class
+MRO:0038536	Mamu-DRB*W037:01 protein complex	owl:Class
+MRO:0038537	Mamu-B*001:05 protein complex	owl:Class
+MRO:0038538	Mamu-B*033:01 protein complex	owl:Class
+MRO:0038539	Mamu-B*021:03 protein complex	owl:Class
+MRO:0038540	Mamu-DRB1*10:10 protein complex	owl:Class
+MRO:0038541	Mamu-B*046:01 protein complex	owl:Class
+MRO:0038542	Mamu-DRB*W031:01 protein complex	owl:Class
+MRO:0038543	Mamu-DRB1*03:24 protein complex	owl:Class
+MRO:0038544	Mamu-E*02:03 protein complex	owl:Class
+MRO:0038545	Mamu-B*060:12 protein complex	owl:Class
+MRO:0038546	Mamu-B*069:10 protein complex	owl:Class
+MRO:0038547	Mamu-B*061:05 protein complex	owl:Class
+MRO:0038548	Mamu-B*070:02 protein complex	owl:Class
+MRO:0038549	Mamu-B*134:03 protein complex	owl:Class
+MRO:0038550	Mamu-B*030:04 protein complex	owl:Class
+MRO:0038551	Mamu-E*02:09 protein complex	owl:Class
+MRO:0038552	Mamu-B*054:02 protein complex	owl:Class
+MRO:0038553	Mamu-B*011:02 protein complex	owl:Class
+MRO:0038554	Mamu-B*046:22 protein complex	owl:Class
+MRO:0038555	Mamu-B*075:03 protein complex	owl:Class
+MRO:0038556	Mamu-B*089:01 protein complex	owl:Class
+MRO:0038557	Mamu-B*082:03 protein complex	owl:Class
+MRO:0038558	Mamu-B*021:04 protein complex	owl:Class
+MRO:0038559	Mamu-B*134:05 protein complex	owl:Class
+MRO:0038560	Mamu-B*073:01 protein complex	owl:Class
+MRO:0038561	Mamu-B*045:05 protein complex	owl:Class
+MRO:0038562	Mamu-DRB*W027:02 protein complex	owl:Class
+MRO:0038563	Mamu-DRB1*07:03 protein complex	owl:Class
+MRO:0038564	Mamu-B*051:15 protein complex	owl:Class
+MRO:0038565	Mamu-DRB6*01:19 protein complex	owl:Class
+MRO:0038566	Mamu-B*061:02 protein complex	owl:Class
+MRO:0038567	Mamu-DRB*W069:01 protein complex	owl:Class
+MRO:0038568	Mamu-B*046:16 protein complex	owl:Class
+MRO:0038569	Mamu-B*028:02 protein complex	owl:Class
+MRO:0038570	Mamu-E*02:26 protein complex	owl:Class
+MRO:0038571	Mamu-DRB*W025:07 protein complex	owl:Class
+MRO:0038572	Mamu-DRB1*03:17 protein complex	owl:Class
+MRO:0038573	Mamu-DRB6*01:08 protein complex	owl:Class
+MRO:0038574	Mamu-DRB1*04:09 protein complex	owl:Class
+MRO:0038575	Mamu-DRB*W003:12 protein complex	owl:Class
+MRO:0038576	Mamu-B*068:08 protein complex	owl:Class
+MRO:0038577	Mamu-DRB5*03:04 protein complex	owl:Class
+MRO:0038578	Mamu-DRB*W027:03 protein complex	owl:Class
+MRO:0038579	Mamu-B*013:02 protein complex	owl:Class
+MRO:0038580	Mamu-B*060:10 protein complex	owl:Class
+MRO:0038581	Mamu-B*151:03 protein complex	owl:Class
+MRO:0038582	Mamu-B*047:05 protein complex	owl:Class
+MRO:0038583	Mamu-DRB*W020:02 protein complex	owl:Class
+MRO:0038584	Mamu-B*056:03 protein complex	owl:Class
+MRO:0038585	Mamu-B*117:02 protein complex	owl:Class
+MRO:0038586	Mamu-DRB1*04:17 protein complex	owl:Class
+MRO:0038587	Mamu-B*098:09 protein complex	owl:Class
+MRO:0038588	Mamu-B*193:01 protein complex	owl:Class
+MRO:0038589	Mamu-B*204:01 protein complex	owl:Class
+MRO:0038590	Mamu-B*001:08 protein complex	owl:Class
+MRO:0038591	Mamu-B*002:02 protein complex	owl:Class
+MRO:0038592	Mamu-B*068:01 protein complex	owl:Class
+MRO:0038593	Mamu-DRB6*01:22 protein complex	owl:Class
+MRO:0038594	Mamu-DRB1*03:30 protein complex	owl:Class
+MRO:0038595	Mamu-DRB*W003:13 protein complex	owl:Class
+MRO:0038596	Mamu-B*074:02 protein complex	owl:Class
+MRO:0038597	Mamu-DRB*W028:01 protein complex	owl:Class
+MRO:0038598	Mamu-DRB1*03:07 protein complex	owl:Class
+MRO:0038599	Mamu-B*011:03 protein complex	owl:Class
+MRO:0038600	Mamu-E*02:02 protein complex	owl:Class
+MRO:0038601	Mamu-B*056:01 protein complex	owl:Class
+MRO:0038602	Mamu-DRB*W021:04 protein complex	owl:Class
+MRO:0038603	Mamu-B*068:02 protein complex	owl:Class
+MRO:0038604	Mamu-DRB1*10:06 protein complex	owl:Class
+MRO:0038605	Mamu-B*051:21 protein complex	owl:Class
+MRO:0038606	Mamu-B*072:08 protein complex	owl:Class
+MRO:0038607	Mamu-DRB1*04:11 protein complex	owl:Class
+MRO:0038608	Mamu-DRA*01:02 protein complex	owl:Class
+MRO:0038609	Mamu-DRB6*01:16 protein complex	owl:Class
+MRO:0038610	Mamu-B*110:01 protein complex	owl:Class
+MRO:0038611	Mamu-B*044:04 protein complex	owl:Class
+MRO:0038612	Mamu-B*046:02 protein complex	owl:Class
+MRO:0038613	Mamu-B*028:03 protein complex	owl:Class
+MRO:0038614	Mamu-DRB*W101:01 protein complex	owl:Class
+MRO:0038615	Mamu-B*006:02 protein complex	owl:Class
+MRO:0038616	Mamu-B*068:04 protein complex	owl:Class
+MRO:0038617	Mamu-B*063:03 protein complex	owl:Class
+MRO:0038618	Mamu-B*204:02 protein complex	owl:Class
+MRO:0038619	Mamu-B*054:03 protein complex	owl:Class
+MRO:0038620	Mamu-B*053:02 protein complex	owl:Class
+MRO:0038621	Mamu-B*079:03 protein complex	owl:Class
+MRO:0038622	Mamu-DRB*W003:10 protein complex	owl:Class
+MRO:0038623	Mamu-B*072:03 protein complex	owl:Class
+MRO:0038624	Mamu-B*057:02 protein complex	owl:Class
+MRO:0038625	Mamu-B*061:03 protein complex	owl:Class
+MRO:0038626	Mamu-B*149:01 protein complex	owl:Class
+MRO:0038627	Mamu-B*109:01 protein complex	owl:Class
+MRO:0038628	Mamu-B*035:02 protein complex	owl:Class
+MRO:0038629	Mamu-E*02:16 protein complex	owl:Class
+MRO:0038630	Mamu-B*061:01 protein complex	owl:Class
+MRO:0038631	Mamu-B*092:01 protein complex	owl:Class
+MRO:0038632	Mamu-B*002:01 protein complex	owl:Class
+MRO:0038633	Mamu-B*056:05 protein complex	owl:Class
+MRO:0038634	Mamu-DRB*W036:02 protein complex	owl:Class
+MRO:0038635	Mamu-DRB*W001:02 protein complex	owl:Class
+MRO:0038636	Mamu-DRA*01:01 protein complex	owl:Class
+MRO:0038637	Mamu-DRB1*03:20 protein complex	owl:Class
+MRO:0038638	Mamu-B*036:05 protein complex	owl:Class
+MRO:0038639	Mamu-B*050:02 protein complex	owl:Class
+MRO:0038640	Mamu-B*029:04 protein complex	owl:Class
+MRO:0038641	Mamu-B*082:01 protein complex	owl:Class
+MRO:0038642	Mamu-B*085:03 protein complex	owl:Class
+MRO:0038643	Mamu-DRB*W053:01 protein complex	owl:Class
+MRO:0038644	Mamu-B*038:01 protein complex	owl:Class
+MRO:0038645	Mamu-DRB1*07:02 protein complex	owl:Class
+MRO:0038646	Mamu-DRB*W003:06 protein complex	owl:Class
+MRO:0038647	Mamu-B*075:05 protein complex	owl:Class
+MRO:0038648	Mamu-B*064:01 protein complex	owl:Class
+MRO:0038649	Mamu-B*027:01 protein complex	owl:Class
+MRO:0038650	Mamu-E*02:01 protein complex	owl:Class
+MRO:0038651	Mamu-B*052:01 protein complex	owl:Class
+MRO:0038652	Mamu-B*094:01 protein complex	owl:Class
+MRO:0038653	Mamu-E*02:19 protein complex	owl:Class
+MRO:0038654	Mamu-DRB*W020:04 protein complex	owl:Class
+MRO:0038655	Mamu-DRB*W040:01 protein complex	owl:Class
+MRO:0038656	Mamu-B*088:03 protein complex	owl:Class
+MRO:0038657	Mamu-B*146:01 protein complex	owl:Class
+MRO:0038658	Mamu-B*106:01 protein complex	owl:Class
+MRO:0038659	Mamu-B*082:09 protein complex	owl:Class
+MRO:0038660	Mamu-DRB3*04:13 protein complex	owl:Class
+MRO:0038661	Mamu-B*142:04 protein complex	owl:Class
+MRO:0038662	Mamu-E*02:18 protein complex	owl:Class
+MRO:0038663	Mamu-DRB3*04:15 protein complex	owl:Class
+MRO:0038664	Mamu-B*045:10 protein complex	owl:Class
+MRO:0038665	Mamu-B*054:05 protein complex	owl:Class
+MRO:0038666	Mamu-B*051:10 protein complex	owl:Class
+MRO:0038667	Mamu-B*085:04 protein complex	owl:Class
+MRO:0038668	Mamu-B*109:03 protein complex	owl:Class
+MRO:0038669	Mamu-DRB1*03:15 protein complex	owl:Class
+MRO:0038670	Mamu-DRB1*03:10 protein complex	owl:Class
+MRO:0038671	Mamu-DRB*W002:02 protein complex	owl:Class
+MRO:0038672	Mamu-B*051:24 protein complex	owl:Class
+MRO:0038673	Mamu-E*02:15 protein complex	owl:Class
+MRO:0038674	Mamu-DRB*W004:01 protein complex	owl:Class
+MRO:0038675	Mamu-B*007:06 protein complex	owl:Class
+MRO:0038676	Mamu-E*02:08 protein complex	owl:Class
+MRO:0038677	Mamu-DRB*W003:04 protein complex	owl:Class
+MRO:0038678	Mamu-E*02:06 protein complex	owl:Class
+MRO:0038679	Mamu-DRB1*04:08 protein complex	owl:Class
+MRO:0038680	Mamu-B*142:03 protein complex	owl:Class
+MRO:0038681	Mamu-B*001:03 protein complex	owl:Class
+MRO:0038682	Mamu-B*085:02 protein complex	owl:Class
+MRO:0038683	Mamu-B*034:03 protein complex	owl:Class
+MRO:0038684	Mamu-B*060:08 protein complex	owl:Class
+MRO:0038685	Mamu-DRB*W021:01 protein complex	owl:Class
+MRO:0038686	Mamu-DRB1*03:02 protein complex	owl:Class
+MRO:0038687	Mamu-B*057:04 protein complex	owl:Class
+MRO:0038688	Mamu-B*095:02 protein complex	owl:Class
+MRO:0038689	Mamu-B*046:14 protein complex	owl:Class
+MRO:0038690	Mamu-DRB3*04:17 protein complex	owl:Class
+MRO:0038691	Mamu-DRB1*03:23 protein complex	owl:Class
+MRO:0038692	Mamu-DRB1*10:16 protein complex	owl:Class
+MRO:0038693	Mamu-B*036:03 protein complex	owl:Class
+MRO:0038694	Mamu-B*074:04 protein complex	owl:Class
+MRO:0038695	Mamu-B*057:03 protein complex	owl:Class
+MRO:0038696	Mamu-E*02:13 protein complex	owl:Class
+MRO:0038697	Mamu-B*068:05 protein complex	owl:Class
+MRO:0038698	Mamu-B*044:07 protein complex	owl:Class
+MRO:0038699	Mamu-DRB*W027:06 protein complex	owl:Class
+MRO:0038700	Mamu-B*134:02 protein complex	owl:Class
+MRO:0038701	Mamu-B*036:02 protein complex	owl:Class
+MRO:0038702	Mamu-DRB3*04:14 protein complex	owl:Class
+MRO:0038703	Mamu-DRB1*10:02 protein complex	owl:Class
+MRO:0038704	Mamu-DRB3*04:04 protein complex	owl:Class
+MRO:0038705	Mamu-B*039:03 protein complex	owl:Class
+MRO:0038706	Mamu-DRB1*10:12 protein complex	owl:Class
+MRO:0038707	Mamu-B*147:02 protein complex	owl:Class
+MRO:0038708	Mamu-DRB3*04:12 protein complex	owl:Class
+MRO:0038709	Mamu-DRB*W021:05 protein complex	owl:Class
+MRO:0038710	Mamu-B*044:05 protein complex	owl:Class
+MRO:0038711	Mamu-B*082:06 protein complex	owl:Class
+MRO:0038712	Mamu-DRB*W020:01 protein complex	owl:Class
+MRO:0038713	Mamu-B*017:03 protein complex	owl:Class
+MRO:0038714	Mamu-DRB*W003:09 protein complex	owl:Class
+MRO:0038715	Mamu-E*02:20 protein complex	owl:Class
+MRO:0038716	Mamu-DRB6*01:12 protein complex	owl:Class
+MRO:0038717	Mamu-B*060:01 protein complex	owl:Class
+MRO:0038718	Mamu-B*034:05 protein complex	owl:Class
+MRO:0038719	Mamu-B*007:09 protein complex	owl:Class
+MRO:0038720	Mamu-DRB*W040:03 protein complex	owl:Class
+MRO:0038721	Mamu-DRB*W026:04 protein complex	owl:Class
+MRO:0038722	Mamu-B*045:09 protein complex	owl:Class
+MRO:0038723	Mamu-B*011:04 protein complex	owl:Class
+MRO:0038724	Mamu-B*045:02 protein complex	owl:Class
+MRO:0038725	Mamu-B*044:08 protein complex	owl:Class
+MRO:0038726	Mamu-B*030:07 protein complex	owl:Class
+MRO:0038727	Mamu-DRB*W040:02 protein complex	owl:Class
+MRO:0038728	Mamu-DRB*W003:15 protein complex	owl:Class
+MRO:0038729	Mamu-B*050:04 protein complex	owl:Class
+MRO:0038730	Mamu-B*056:07 protein complex	owl:Class
+MRO:0038731	Mamu-B*090:02 protein complex	owl:Class
+MRO:0038732	Mamu-B*098:06 protein complex	owl:Class
+MRO:0038733	Mamu-DRB*W025:06 protein complex	owl:Class
+MRO:0038734	Mamu-DRB*W005:02 protein complex	owl:Class
+MRO:0038735	Mamu-B*054:04 protein complex	owl:Class
+MRO:0038736	Mamu-DRB3*04:01 protein complex	owl:Class
+MRO:0038737	Mamu-B*077:01 protein complex	owl:Class
+MRO:0038738	Mamu-DRB*W007:05 protein complex	owl:Class
+MRO:0038739	Mamu-B*072:11 protein complex	owl:Class
+MRO:0038740	Mamu-DRB1*03:11 protein complex	owl:Class
+MRO:0038741	Mamu-B*046:18 protein complex	owl:Class
+MRO:0038742	Mamu-B*082:02 protein complex	owl:Class
+MRO:0038743	Mamu-B*011:01 protein complex	owl:Class
+MRO:0038744	Mamu-B*095:01 protein complex	owl:Class
+MRO:0038745	Mamu-B*091:01 protein complex	owl:Class
+MRO:0038746	Mamu-B*022:01 protein complex	owl:Class
+MRO:0038747	Mamu-B*072:05 protein complex	owl:Class
+MRO:0038748	Mamu-B*047:01 protein complex	owl:Class
+MRO:0038749	Mamu-B*044:06 protein complex	owl:Class
+MRO:0038750	Mamu-B*048:01 protein complex	owl:Class
+MRO:0038751	Mamu-B*051:20 protein complex	owl:Class
+MRO:0038752	Mamu-B*088:04 protein complex	owl:Class
+MRO:0038753	Mamu-B*028:04 protein complex	owl:Class
+MRO:0038754	Mamu-B*044:01 protein complex	owl:Class
+MRO:0038755	Mamu-DRB1*07:04 protein complex	owl:Class
+MRO:0038756	Mamu-B*081:02 protein complex	owl:Class
+MRO:0038757	Mamu-DRB*W004:03 protein complex	owl:Class
+MRO:0038758	Mamu-DRB4*01:02 protein complex	owl:Class
+MRO:0038759	Mamu-B*074:03 protein complex	owl:Class
+MRO:0038760	Mamu-B*034:02 protein complex	owl:Class
+MRO:0038761	Mamu-B*016:01 protein complex	owl:Class
+MRO:0038762	Mamu-B*030:03 protein complex	owl:Class
+MRO:0038763	Mamu-B*090:04 protein complex	owl:Class
+MRO:0038764	Mamu-B*139:01 protein complex	owl:Class
+MRO:0038765	Mamu-B*056:04 protein complex	owl:Class
+MRO:0038766	Mamu-B*072:07 protein complex	owl:Class
+MRO:0038767	Mamu-DRB*W079:01 protein complex	owl:Class
+MRO:0038768	Mamu-DRA*01:08 protein complex	owl:Class
+MRO:0038769	Mamu-B*015:01 protein complex	owl:Class
+MRO:0038770	Mamu-DRB*W027:07 protein complex	owl:Class
+MRO:0038771	Mamu-B*060:11 protein complex	owl:Class
+MRO:0038772	Mamu-B*034:01 protein complex	owl:Class
+MRO:0038773	Mamu-E*02:29 protein complex	owl:Class
+MRO:0038774	Mamu-B*090:03 protein complex	owl:Class
+MRO:0038775	Mamu-B*051:18 protein complex	owl:Class
+MRO:0038776	Mamu-B*019:06 protein complex	owl:Class
+MRO:0038777	Mamu-B*150:01 protein complex	owl:Class
+MRO:0038778	Mamu-DRB6*01:18 protein complex	owl:Class
+MRO:0038779	Mamu-DRB*W004:08 protein complex	owl:Class
+MRO:0038780	Mamu-B*001:07 protein complex	owl:Class
+MRO:0038781	Mamu-B*187:02 protein complex	owl:Class
+MRO:0038782	Mamu-B*057:01 protein complex	owl:Class
+MRO:0038783	Mamu-E*02:10 protein complex	owl:Class
+MRO:0038784	Mamu-B*060:06 protein complex	owl:Class
+MRO:0038785	Mamu-B*046:05 protein complex	owl:Class
+MRO:0038786	Mamu-B*051:23 protein complex	owl:Class
+MRO:0038787	Mamu-DRB1*10:11 protein complex	owl:Class
+MRO:0038788	Mamu-DRB5*03:10 protein complex	owl:Class
+MRO:0038789	Mamu-B*068:06 protein complex	owl:Class
+MRO:0038790	Mamu-B*046:15 protein complex	owl:Class
+MRO:0038791	Mamu-DRB3*04:08 protein complex	owl:Class
+MRO:0038792	Mamu-B*077:03 protein complex	owl:Class
+MRO:0038793	Mamu-B*082:07 protein complex	owl:Class
+MRO:0038794	Mamu-B*180:02 protein complex	owl:Class
+MRO:0038795	Mamu-B*007:10 protein complex	owl:Class
+MRO:0038796	Mamu-B*005:01 protein complex	owl:Class
+MRO:0038797	Mamu-DRB*W102:01 protein complex	owl:Class
+MRO:0038798	Mamu-B*164:01 protein complex	owl:Class
+MRO:0038799	Mamu-B*070:05 protein complex	owl:Class
+MRO:0038800	Mamu-DRA*01:04 protein complex	owl:Class
+MRO:0038801	Mamu-DRB*W025:11 protein complex	owl:Class
+MRO:0038802	Mamu-B*063:05 protein complex	owl:Class
+MRO:0038803	Mamu-DRB*W004:07 protein complex	owl:Class
+MRO:0038804	Mamu-B*162:01 protein complex	owl:Class
+MRO:0038805	Mamu-DRB1*03:28 protein complex	owl:Class
+MRO:0038806	Mamu-E*02:07 protein complex	owl:Class
+MRO:0038807	Mamu-B*188:01 protein complex	owl:Class
+MRO:0038808	Mamu-B*015:03 protein complex	owl:Class
+MRO:0038809	Mamu-B*055:01 protein complex	owl:Class
+MRO:0038810	Mamu-B*077:02 protein complex	owl:Class
+MRO:0038811	Mamu-B*001:02 protein complex	owl:Class
+MRO:0038812	Mamu-DRB*W025:04 protein complex	owl:Class
+MRO:0038813	Mamu-B*073:02 protein complex	owl:Class
+MRO:0038814	Mamu-DRB1*10:07 protein complex	owl:Class
+MRO:0038815	Mamu-B*007:05 protein complex	owl:Class
+MRO:0038816	Mamu-DRB6*01:23 protein complex	owl:Class
+MRO:0038817	Mamu-B*006:01 protein complex	owl:Class
+MRO:0038818	Mamu-B*074:01 protein complex	owl:Class
+MRO:0038819	Mamu-B*189:01 protein complex	owl:Class
+MRO:0038820	Mamu-DRA*02:01 protein complex	owl:Class
+MRO:0038821	Mamu-B*031:02 protein complex	owl:Class
+MRO:0038822	Mamu-B*098:03 protein complex	owl:Class
+MRO:0038823	Mamu-B*115:01 protein complex	owl:Class
+MRO:0038824	Mamu-DRB*W069:02 protein complex	owl:Class
+MRO:0038825	Mamu-DRB*W003:11 protein complex	owl:Class
+MRO:0038826	Mamu-B*014:01 protein complex	owl:Class
+MRO:0038827	Mamu-B*027:04 protein complex	owl:Class
+MRO:0038828	Mamu-DRB5*03:03 protein complex	owl:Class
+MRO:0038829	Mamu-B*079:01 protein complex	owl:Class
+MRO:0038830	Mamu-DRB1*03:21 protein complex	owl:Class
+MRO:0038831	Mamu-DRB1*03:27 protein complex	owl:Class
+MRO:0038832	Mamu-B*098:11 protein complex	owl:Class
+MRO:0038833	Mamu-DRB1*10:05 protein complex	owl:Class
+MRO:0038834	Mamu-B*023:01 protein complex	owl:Class
+MRO:0038835	Mamu-B*065:05 protein complex	owl:Class
+MRO:0038836	Mamu-B*041:02 protein complex	owl:Class
+MRO:0038837	Mamu-B*178:02 protein complex	owl:Class
+MRO:0038838	Mamu-DRB4*01:01 protein complex	owl:Class
+MRO:0038839	Mamu-DRB*W003:02 protein complex	owl:Class
+MRO:0038840	Mamu-B*019:07 protein complex	owl:Class
+MRO:0038841	Mamu-DRB5*03:05 protein complex	owl:Class
+MRO:0038842	Mamu-B*142:02 protein complex	owl:Class
+MRO:0038843	Mamu-DRB1*03:09 protein complex	owl:Class
+MRO:0038844	Mamu-B*098:12 protein complex	owl:Class
+MRO:0038845	Mamu-B*015:05 protein complex	owl:Class
+MRO:0038846	Mamu-B*134:06 protein complex	owl:Class
+MRO:0038847	Mamu-B*088:01 protein complex	owl:Class
+MRO:0038848	Mamu-B*079:05 protein complex	owl:Class
+MRO:0038849	Mamu-B*095:03 protein complex	owl:Class
+MRO:0038850	Mamu-DRB3*04:06 protein complex	owl:Class
+MRO:0038851	Mamu-B*106:02 protein complex	owl:Class
+MRO:0038852	Mamu-DRB3*04:02 protein complex	owl:Class
+MRO:0038853	Mamu-B*013:01 protein complex	owl:Class
+MRO:0038854	Mamu-B*021:01 protein complex	owl:Class
+MRO:0038855	Mamu-B*048:03 protein complex	owl:Class
+MRO:0038856	Mamu-B*051:03 protein complex	owl:Class
+MRO:0038857	Mamu-DRB*W003:07 protein complex	owl:Class
+MRO:0038858	Mamu-B*100:01 protein complex	owl:Class
+MRO:0038859	Mamu-B*017:06 protein complex	owl:Class
+MRO:0038860	Mamu-B*076:01 protein complex	owl:Class
+MRO:0038861	Mamu-B*060:15 protein complex	owl:Class
+MRO:0038862	Mamu-B*051:22 protein complex	owl:Class
+MRO:0038863	Mamu-B*017:07 protein complex	owl:Class
+MRO:0038864	Mamu-DRB*W025:09 protein complex	owl:Class
+MRO:0038865	Mamu-B*032:01 protein complex	owl:Class
+MRO:0038866	Mamu-B*007:08 protein complex	owl:Class
+MRO:0038867	Mamu-B*162:02 protein complex	owl:Class
+MRO:0038868	Mamu-B*072:06 protein complex	owl:Class
+MRO:0038869	Mamu-DRB*W003:03 protein complex	owl:Class
+MRO:0038870	Mamu-DRB*W006:12 protein complex	owl:Class
+MRO:0038871	Mamu-B*019:01 protein complex	owl:Class
+MRO:0038872	Mamu-DRB1*03:12 protein complex	owl:Class
+MRO:0038873	Mamu-B*021:02 protein complex	owl:Class
+MRO:0038874	Mamu-B*056:08 protein complex	owl:Class
+MRO:0038875	Mamu-B*038:02 protein complex	owl:Class
+MRO:0038876	Mamu-B*092:03 protein complex	owl:Class
+MRO:0038877	Mamu-B*069:09 protein complex	owl:Class
+MRO:0038878	Mamu-B*036:04 protein complex	owl:Class
+MRO:0038879	Mamu-B*051:05 protein complex	owl:Class
+MRO:0038880	Mamu-DRB6*01:28 protein complex	owl:Class
+MRO:0038881	Mamu-B*007:03 protein complex	owl:Class
+MRO:0038882	Mamu-B*065:06 protein complex	owl:Class
+MRO:0038883	Mamu-DRB1*03:29 protein complex	owl:Class
+MRO:0038884	Mamu-B*187:03 protein complex	owl:Class
+MRO:0038885	Mamu-B*053:01 protein complex	owl:Class
+MRO:0038886	Mamu-B*069:06 protein complex	owl:Class
+MRO:0038887	Mamu-DRB*W025:03 protein complex	owl:Class
+MRO:0038888	Mamu-B*012:01 protein complex	owl:Class
+MRO:0038889	Mamu-B*060:05 protein complex	owl:Class
+MRO:0038890	Mamu-B*083:02 protein complex	owl:Class
+MRO:0038891	Mamu-B*030:02 protein complex	owl:Class
+MRO:0038892	Mamu-B*069:01 protein complex	owl:Class
+MRO:0038893	Mamu-B*188:02 protein complex	owl:Class
+MRO:0038894	Mamu-DRB3*04:09 protein complex	owl:Class
+MRO:0038895	Mamu-B*041:01 protein complex	owl:Class
+MRO:0038896	Mamu-B*117:03 protein complex	owl:Class
+MRO:0038897	Mamu-B*075:02 protein complex	owl:Class
+MRO:0038898	Mamu-DRB1*03:05 protein complex	owl:Class
+MRO:0038899	Mamu-B*114:01 protein complex	owl:Class
+MRO:0038900	Mamu-B*084:01 protein complex	owl:Class
+MRO:0038901	Mamu-B*101:05 protein complex	owl:Class
+MRO:0038902	Mamu-B*070:01 protein complex	owl:Class
+MRO:0038903	Mamu-B*072:10 protein complex	owl:Class
+MRO:0038904	Mamu-DRB6*01:24 protein complex	owl:Class
+MRO:0038905	Mamu-DRB1*07:01 protein complex	owl:Class
+MRO:0038906	Mamu-B*051:12 protein complex	owl:Class
+MRO:0038907	Mamu-B*027:03 protein complex	owl:Class
+MRO:0038908	Mamu-DRB5*03:01 protein complex	owl:Class
+MRO:0038909	Mamu-DRB*W007:02 protein complex	owl:Class
+MRO:0038910	Mamu-DRB5*03:07 protein complex	owl:Class
+MRO:0038911	Mamu-DRB*W004:05 protein complex	owl:Class
+MRO:0038912	Mamu-DRB*W028:02 protein complex	owl:Class
+MRO:0038913	Mamu-B*010:01 protein complex	owl:Class
+MRO:0038914	Mamu-B*063:04 protein complex	owl:Class
+MRO:0038915	Mamu-B*042:01 protein complex	owl:Class
+MRO:0038916	Mamu-DRB*W006:08 protein complex	owl:Class
+MRO:0038917	Mamu-B*065:01 protein complex	owl:Class
+MRO:0038918	Mamu-B*201:01 protein complex	owl:Class
+MRO:0038919	Mamu-B*051:16 protein complex	owl:Class
+MRO:0038920	Mamu-B*045:08 protein complex	owl:Class
+MRO:0038921	Mamu-B*062:01 protein complex	owl:Class
+MRO:0038922	Mamu-B*137:01 protein complex	owl:Class
+MRO:0038923	Mamu-DRB*W006:11 protein complex	owl:Class
+MRO:0038924	Mamu-B*019:03 protein complex	owl:Class
+MRO:0038925	Mamu-B*097:01 protein complex	owl:Class
+MRO:0038926	Mamu-DRB*W025:02 protein complex	owl:Class
+MRO:0038927	Mamu-DRB*W006:10 protein complex	owl:Class
+MRO:0038928	Mamu-B*099:01 protein complex	owl:Class
+MRO:0038929	Mamu-B*060:18 protein complex	owl:Class
+MRO:0038930	Mamu-B*134:01 protein complex	owl:Class
+MRO:0038931	Mamu-E*02:30 protein complex	owl:Class
+MRO:0038932	Mamu-B*134:04 protein complex	owl:Class
+MRO:0038933	Mamu-DRB*W021:03 protein complex	owl:Class
+MRO:0038934	Mamu-B*019:08 protein complex	owl:Class
+MRO:0038935	Mamu-B*018:02 protein complex	owl:Class
+MRO:0038936	Mamu-B*086:04 protein complex	owl:Class
+MRO:0038937	Mamu-DRB1*03:22 protein complex	owl:Class
+MRO:0038938	Mamu-B*066:02 protein complex	owl:Class
+MRO:0038939	Mamu-B*060:14 protein complex	owl:Class
+MRO:0038940	Mamu-DRB1*04:03 protein complex	owl:Class
+MRO:0038941	Mamu-DRB1*03:14 protein complex	owl:Class
+MRO:0038942	Mamu-DRB1*04:02 protein complex	owl:Class
+MRO:0038943	Mamu-DRB1*10:15 protein complex	owl:Class
+MRO:0038944	Mamu-B*047:02 protein complex	owl:Class
+MRO:0038945	Mamu-B*046:07 protein complex	owl:Class
+MRO:0038946	Mamu-B*030:06 protein complex	owl:Class
+MRO:0038947	Mamu-B*076:02 protein complex	owl:Class
+MRO:0038948	Mamu-B*060:04 protein complex	owl:Class
+MRO:0038949	Mamu-B*035:01 protein complex	owl:Class
+MRO:0038950	Mamu-B*076:04 protein complex	owl:Class
+MRO:0038951	Mamu-B*051:14 protein complex	owl:Class
+MRO:0038952	Mamu-B*068:07 protein complex	owl:Class
+MRO:0038953	Mamu-DRB*W031:02 protein complex	owl:Class
+MRO:0038954	Mamu-DRB*W025:10 protein complex	owl:Class
+MRO:0038955	Mamu-B*037:01 protein complex	owl:Class
+MRO:0038956	Mamu-DRB*W004:04 protein complex	owl:Class
+MRO:0038957	Mamu-B*074:03Sp protein complex	owl:Class
+MRO:0038958	Mamu-B*091:05 protein complex	owl:Class
+MRO:0038959	Mamu-B*102:01 protein complex	owl:Class
+MRO:0038960	Mamu-DRA*01:07 protein complex	owl:Class
+MRO:0038961	Mamu-DRB*W025:05 protein complex	owl:Class
+MRO:0038962	Mamu-B*019:05 protein complex	owl:Class
+MRO:0038963	Mamu-DRB*W005:01 protein complex	owl:Class
+MRO:0038964	Mamu-B*029:02 protein complex	owl:Class
+MRO:0038965	Mamu-B*085:01 protein complex	owl:Class
+MRO:0038966	Mamu-DRB*W062:01 protein complex	owl:Class
+MRO:0038967	Mamu-B*101:04 protein complex	owl:Class
+MRO:0038968	Mamu-B*069:07 protein complex	owl:Class
+MRO:0038969	Mamu-B*051:01 protein complex	owl:Class
+MRO:0038970	Mamu-B*061:04 protein complex	owl:Class
+MRO:0038971	Mamu-B*060:07 protein complex	owl:Class
+MRO:0038972	Mamu-DRB*W059:02 protein complex	owl:Class
+MRO:0038973	Mamu-DRB*W001:03 protein complex	owl:Class
+MRO:0038974	Mamu-DRB6*01:13 protein complex	owl:Class
+MRO:0038975	Mamu-B*046:21 protein complex	owl:Class
+MRO:0038976	Mamu-B*025:01 protein complex	owl:Class
+MRO:0038977	Mamu-B*046:19 protein complex	owl:Class
+MRO:0038978	Mamu-B*163:01 protein complex	owl:Class
+MRO:0038979	Mamu-DRA*01:06 protein complex	owl:Class
+MRO:0038980	Mamu-DRB1*04:07 protein complex	owl:Class
+MRO:0038981	Mamu-DRB6*01:29 protein complex	owl:Class
+MRO:0038982	Mamu-DRB*W026:02 protein complex	owl:Class
+MRO:0038983	Mamu-B*013:03 protein complex	owl:Class
+MRO:0038984	Mamu-B*109:05 protein complex	owl:Class
+MRO:0038985	Mamu-E*02:22 protein complex	owl:Class
+MRO:0038986	Mamu-DRB*W003:05 protein complex	owl:Class
+MRO:0038987	Mamu-DRB1*10:03 protein complex	owl:Class
+MRO:0038988	Mamu-B*069:04 protein complex	owl:Class
+MRO:0038989	Mamu-DRB1*10:14 protein complex	owl:Class
+MRO:0038990	Mamu-DRB1*03:26 protein complex	owl:Class
+MRO:0038991	Mamu-DRB*W002:03 protein complex	owl:Class
+MRO:0038992	Mamu-DRB1*03:25 protein complex	owl:Class
+MRO:0038993	Mamu-B*080:01 protein complex	owl:Class
+MRO:0038994	Mamu-DRB*W001:07 protein complex	owl:Class
+MRO:0038995	Mamu-DRB*W001:01 protein complex	owl:Class
+MRO:0038996	Mamu-DRB*W025:12 protein complex	owl:Class
+MRO:0038997	Mamu-B*098:04 protein complex	owl:Class
+MRO:0038998	Mamu-B*109:02 protein complex	owl:Class
+MRO:0038999	Mamu-B*069:03 protein complex	owl:Class
+MRO:0039000	Mamu-B*060:17 protein complex	owl:Class
+MRO:0039001	Mamu-B*072:04 protein complex	owl:Class
+MRO:0039002	Mamu-B*098:08 protein complex	owl:Class
+MRO:0039003	Mamu-B*046:10 protein complex	owl:Class
+MRO:0039004	Mamu-B*048:05 protein complex	owl:Class
+MRO:0039005	Mamu-B*117:01 protein complex	owl:Class
+MRO:0039006	Mamu-DRB3*04:05 protein complex	owl:Class
+MRO:0039007	Mamu-DRB5*03:02 protein complex	owl:Class
+MRO:0039008	Mamu-DRB6*01:11 protein complex	owl:Class
+MRO:0039009	Mamu-B*002:03 protein complex	owl:Class
+MRO:0039010	Mamu-B*088:02 protein complex	owl:Class
+MRO:0039011	Mamu-DRB1*04:18 protein complex	owl:Class
+MRO:0039012	Mamu-B*013:04 protein complex	owl:Class
+MRO:0039013	Mamu-B*079:04 protein complex	owl:Class
+MRO:0039014	Mamu-B*082:05 protein complex	owl:Class
+MRO:0039015	Mamu-DRB1*04:10 protein complex	owl:Class
+MRO:0039016	Mamu-B*082:10 protein complex	owl:Class
+MRO:0039017	Mamu-DRB1*07:05 protein complex	owl:Class
+MRO:0039018	Mamu-B*071:02 protein complex	owl:Class
+MRO:0039019	Mamu-DRB*W003:01 protein complex	owl:Class
+MRO:0039020	Mamu-B*089:02 protein complex	owl:Class
+MRO:0039021	Mamu-DRB1*10:18 protein complex	owl:Class
+MRO:0039022	Mamu-B*076:03 protein complex	owl:Class
+MRO:0039023	Mamu-B*051:02 protein complex	owl:Class
+MRO:0039024	Mamu-B*046:12 protein complex	owl:Class
+MRO:0039025	Mamu-DRB*W021:02 protein complex	owl:Class
+MRO:0039026	Mamu-DRB1*04:04 protein complex	owl:Class
+MRO:0039027	Mamu-B*041:03 protein complex	owl:Class
+MRO:0039028	Mamu-B*037:03 protein complex	owl:Class
+MRO:0039029	Mamu-DRB*W036:01 protein complex	owl:Class
+MRO:0039030	Mamu-B*005:02 protein complex	owl:Class
+MRO:0039031	Mamu-B*060:13 protein complex	owl:Class
+MRO:0039032	Mamu-B*065:08 protein complex	owl:Class
+MRO:0039033	Mamu-B*001:09 protein complex	owl:Class
+MRO:0039034	Mamu-DRB3*04:03 protein complex	owl:Class
+MRO:0039035	Mamu-B*057:05 protein complex	owl:Class
+MRO:0039036	Mamu-B*039:02 protein complex	owl:Class
+MRO:0039037	Mamu-E*02:27 protein complex	owl:Class
+MRO:0039038	Mamu-B*086:02 protein complex	owl:Class
+MRO:0039039	Mamu-B*072:02 protein complex	owl:Class
+MRO:0039040	Mamu-B*109:06 protein complex	owl:Class
+MRO:0039041	Mamu-DRB*W006:07 protein complex	owl:Class
+MRO:0039042	Mamu-B*091:02 protein complex	owl:Class
+MRO:0039043	Mamu-DRB1*03:13 protein complex	owl:Class
+MRO:0039044	Mamu-DRA*01:03 protein complex	owl:Class
+MRO:0039045	Mamu-B*045:11 protein complex	owl:Class
+MRO:0039046	Mamu-B*150:02 protein complex	owl:Class
+MRO:0039047	Mamu-DRA*01:10 protein complex	owl:Class
+MRO:0039048	Mamu-B*147:03 protein complex	owl:Class
+MRO:0039049	Mamu-DRB*W002:05 protein complex	owl:Class
+MRO:0039050	Mamu-B*070:06 protein complex	owl:Class
+MRO:0039051	Mamu-DRB*W068:01 protein complex	owl:Class
+MRO:0039052	Mamu-E*02:23 protein complex	owl:Class
+MRO:0039053	Mamu-B*091:06 protein complex	owl:Class
+MRO:0039054	Mamu-B*031:03 protein complex	owl:Class
+MRO:0039055	Mamu-B*039:05 protein complex	owl:Class
+MRO:0039056	Mamu-B*051:17 protein complex	owl:Class
+MRO:0039057	Mamu-B*086:05 protein complex	owl:Class
+MRO:0039058	Mamu-B*070:03 protein complex	owl:Class
+MRO:0039059	Mamu-B*098:10 protein complex	owl:Class
+MRO:0039060	Mamu-B*019:04 protein complex	owl:Class
+MRO:0039061	Mamu-B*022:02 protein complex	owl:Class
+MRO:0039062	Mamu-B*007:07 protein complex	owl:Class
+MRO:0039063	Mamu-B*101:06 protein complex	owl:Class
+MRO:0039064	Mamu-B*149:02 protein complex	owl:Class
+MRO:0039065	Mamu-B*093:02 protein complex	owl:Class
+MRO:0039066	Mamu-B*069:08 protein complex	owl:Class
+MRO:0039067	Mamu-DRB*W025:08 protein complex	owl:Class
+MRO:0039068	Mamu-DRB*W001:04 protein complex	owl:Class
+MRO:0039069	Mamu-E*02:28 protein complex	owl:Class
+MRO:0039070	Mamu-B*047:04 protein complex	owl:Class
+MRO:0039071	Mamu-DRB1*10:04 protein complex	owl:Class
+MRO:0039072	Mamu-DRB*W007:01 protein complex	owl:Class
+MRO:0039073	Mamu-B*070:07 protein complex	owl:Class
+MRO:0039074	Mamu-B*046:06 protein complex	owl:Class
+MRO:0039075	Mamu-B*045:07 protein complex	owl:Class
+MRO:0039076	Mamu-DRB*W027:08 protein complex	owl:Class
+MRO:0039077	Mamu-DRB*W026:03 protein complex	owl:Class
+MRO:0039078	Mamu-DRB*W004:02 protein complex	owl:Class
+MRO:0039079	Mamu-DRB6*01:27 protein complex	owl:Class
+MRO:0039080	Mamu-B*156:01 protein complex	owl:Class
+MRO:0039081	Mamu-B*051:19 protein complex	owl:Class
+MRO:0039082	Mamu-B*061:06 protein complex	owl:Class
+MRO:0039083	Mamu-DRB*W003:08 protein complex	owl:Class
+MRO:0039084	Mamu-B*060:03 protein complex	owl:Class
+MRO:0039085	Mamu-B*063:01 protein complex	owl:Class
+MRO:0039086	Mamu-B*046:20 protein complex	owl:Class
+MRO:0039087	Mamu-DRB5*03:09 protein complex	owl:Class
+MRO:0039088	Mamu-B*045:04 protein complex	owl:Class
+MRO:0039089	Mamu-B*098:02 protein complex	owl:Class

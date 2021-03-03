@@ -71,6 +71,8 @@ Mamu-A locus		subclass	rhesus macaque MHC class I locus
 Mamu-B locus		subclass	rhesus macaque MHC class I locus	
 Mamu-DPA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DPB locus		subclass	rhesus macaque MHC class II locus	
+Mamu-DQA locus		subclass	rhesus macaque MHC class II locus	
+Mamu-DQB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-E locus		subclass	rhesus macaque MHC class I locus	
