@@ -18240,6 +18240,7 @@ Mamu-B*002:01 chain		subclass	Mamu-B chain
 Mamu-B*002:02 chain		subclass	Mamu-B chain		
 Mamu-B*002:03 chain		subclass	Mamu-B chain		
 Mamu-B*003:01 chain		subclass	Mamu-B chain		
+Mamu-B*003:02 chain		subclass	Mamu-B chain		
 Mamu-B*004:01 chain		subclass	Mamu-B chain		
 Mamu-B*005:01 chain		subclass	Mamu-B chain		
 Mamu-B*005:02 chain		subclass	Mamu-B chain		
@@ -18865,7 +18866,7 @@ Mamu-DQA1*26:08 chain		subclass	Mamu-DQA chain
 Mamu-DQA1*26:09 chain		subclass	Mamu-DQA chain		
 Mamu-DQA1*26:10 chain		subclass	Mamu-DQA chain		
 Mamu-DQA1*26:11 chain		subclass	Mamu-DQA chain		
-Mamu-DQA chain		equivalent	protein	Mamu-DQA locus	Mamu-B*003:02 chain		subclass	Mamu-B chain		
+Mamu-DQA chain		equivalent	protein	Mamu-DQA locus		
 Mamu-DQB1*06:01 chain		subclass	Mamu-DQB chain		
 Mamu-DQB1*06:02 chain		subclass	Mamu-DQB chain		
 Mamu-DQB1*06:05 chain		subclass	Mamu-DQB chain		
