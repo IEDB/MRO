@@ -37065,7 +37065,8 @@ MRO:0037061	rhesus macaque CD1c protein complex	owl:Class
 MRO:0037062	Mamu-DQA locus	owl:Class	
 MRO:0037063	Mamu-DQB locus	owl:Class	
 MRO:0037064	Mamu-DQA chain	owl:Class	
-MRO:0037065	Mamu-DQB chain	owl:Class	MRO:0037066	Mamu-B*039:03 chain	owl:Class
+MRO:0037065	Mamu-DQB chain	owl:Class	
+MRO:0037066	Mamu-B*039:03 chain	owl:Class
 MRO:0037067	Mamu-DRA*01:08 chain	owl:Class
 MRO:0037068	Mamu-DPA1*02:12 chain	owl:Class
 MRO:0037069	Mamu-DPA1*02:21 chain	owl:Class
