@@ -247,12 +247,11 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-mro-base.owl: mro.owl | build/robot.jar
-	$(ROBOT) remove \
+mro-base.owl: mro.owl index.tsv $(build_files) | build/robot.jar
+	$(ROBOT) template \
 	--input $< \
-	--base-iri MRO \
-	--base-iri REO \
-	--axioms external \
+	--template index.tsv \
+	$(foreach i,$(filter-out build/external.tsv,$(build_files)),--template $(i)) \
 	annotate \
 	--ontology-iri "$(OBO)/mro/mro-base.owl" \
 	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro-base.owl" \
