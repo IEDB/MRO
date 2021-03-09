@@ -247,7 +247,7 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-mro-base.owl: mro.owl index.tsv $(build_files) | build/robot.jar
+mro-base.owl: mro.owl index.tsv $(build_files) ontology/metadata-base.ttl | build/robot.jar
 	$(ROBOT) template \
 	--input $< \
 	--template index.tsv \
@@ -256,7 +256,7 @@ mro-base.owl: mro.owl index.tsv $(build_files) | build/robot.jar
 	--ontology-iri "$(OBO)/mro/mro-base.owl" \
 	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro-base.owl" \
 	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
-	--annotation-file ontology/metadata.ttl \
+	--annotation-file ontology/metadata-base.ttl \
 	--output $@
 
 build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl ontology/import.txt | build/robot.jar
