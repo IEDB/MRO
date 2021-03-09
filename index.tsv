@@ -39658,3 +39658,523 @@ MRO:0039654	Mamu-B*057:04 protein complex	owl:Class
 MRO:0039655	Mamu-DQB1*17:11 protein complex	owl:Class
 MRO:0039656	Mamu-DRB*W021:04 protein complex	owl:Class
 MRO:0039657	Mamu-A1*004:08 protein complex	owl:Class
+MRO:0039658	Patr-DRB5*03:01 chain	owl:Class
+MRO:0039659	Patr-B*07:06 chain	owl:Class
+MRO:0039660	Patr-A*02:01 chain	owl:Class
+MRO:0039661	Patr-DRB1*02:03 chain	owl:Class
+MRO:0039662	Patr-DRB5*03:11 chain	owl:Class
+MRO:0039663	Patr-DPB1*01:18 chain	owl:Class
+MRO:0039664	Patr-C*17:01 chain	owl:Class
+MRO:0039665	Patr-B*22:06 chain	owl:Class
+MRO:0039666	Patr-DRB5*03:07 chain	owl:Class
+MRO:0039667	Patr-DRB5*03:04 chain	owl:Class
+MRO:0039668	Patr-A*08:02 chain	owl:Class
+MRO:0039669	Patr-DRB1*02:16 chain	owl:Class
+MRO:0039670	Patr-DQA1*05:02 chain	owl:Class
+MRO:0039671	Patr-DQA1*05:03 chain	owl:Class
+MRO:0039672	Patr-DRB1*03:04 chain	owl:Class
+MRO:0039673	Patr-DQB1*06:02 chain	owl:Class
+MRO:0039674	Patr-DPA1*01:06 chain	owl:Class
+MRO:0039675	Patr-B*10:01 chain	owl:Class
+MRO:0039676	Patr-B*19:02 chain	owl:Class
+MRO:0039677	Patr-A*13:01 chain	owl:Class
+MRO:0039678	Patr-DRB1*03:10 chain	owl:Class
+MRO:0039679	Patr-DQA1*20:01 chain	owl:Class
+MRO:0039680	Patr-DQB1*15:01 chain	owl:Class
+MRO:0039681	Patr-B*34:01 chain	owl:Class
+MRO:0039682	Patr-B*22:02 chain	owl:Class
+MRO:0039683	Patr-DPB1*03:03 chain	owl:Class
+MRO:0039684	Patr-DPB1*01:11 chain	owl:Class
+MRO:0039685	Patr-A*03:07 chain	owl:Class
+MRO:0039686	Patr-B*17:02 chain	owl:Class
+MRO:0039687	Patr-DPB1*01:04 chain	owl:Class
+MRO:0039688	Patr-B*23:05 chain	owl:Class
+MRO:0039689	Patr-C*09:04 chain	owl:Class
+MRO:0039690	Patr-DPB1*01:08 chain	owl:Class
+MRO:0039691	Patr-B*23:06 chain	owl:Class
+MRO:0039692	Patr-C*02:06 chain	owl:Class
+MRO:0039693	Patr-AL*01:03 chain	owl:Class
+MRO:0039694	Patr-DPA1*01:03 chain	owl:Class
+MRO:0039695	Patr-C*09:01 chain	owl:Class
+MRO:0039696	Patr-B*07:01 chain	owl:Class
+MRO:0039697	Patr-DRB1*02:02 chain	owl:Class
+MRO:0039698	Patr-A*22:01 chain	owl:Class
+MRO:0039699	Patr-B*20:02 chain	owl:Class
+MRO:0039700	Patr-DRB3*02:07 chain	owl:Class
+MRO:0039701	Patr-DQB1*03:03 chain	owl:Class
+MRO:0039702	Patr-B*22:07 chain	owl:Class
+MRO:0039703	Patr-B*22:08 chain	owl:Class
+MRO:0039704	Patr-C*13:01 chain	owl:Class
+MRO:0039705	Patr-DPA1*01:02 chain	owl:Class
+MRO:0039706	Patr-A*24:01 chain	owl:Class
+MRO:0039707	Patr-A*17:01 chain	owl:Class
+MRO:0039708	Patr-B*28:01 chain	owl:Class
+MRO:0039709	Patr-C*15:01 chain	owl:Class
+MRO:0039710	Patr-DPB1*01:05 chain	owl:Class
+MRO:0039711	Patr-DRB5*03:13 chain	owl:Class
+MRO:0039712	Patr-DPB1*03:04 chain	owl:Class
+MRO:0039713	Patr-DQB1*03:06 chain	owl:Class
+MRO:0039714	Patr-C*05:01 chain	owl:Class
+MRO:0039715	Patr-DQB1*03:02 chain	owl:Class
+MRO:0039716	Patr-C*09:02 chain	owl:Class
+MRO:0039717	Patr-DPB1*01:01 chain	owl:Class
+MRO:0039718	Patr-B*12:01 chain	owl:Class
+MRO:0039719	Patr-DPB1*01:16 chain	owl:Class
+MRO:0039720	Patr-DQA1*20:02 chain	owl:Class
+MRO:0039721	Patr-C*02:04 chain	owl:Class
+MRO:0039722	Patr-A*27:01 chain	owl:Class
+MRO:0039723	Patr-B*23:07 chain	owl:Class
+MRO:0039724	Patr-DQB1*15:03 chain	owl:Class
+MRO:0039725	Patr-C*03:04 chain	owl:Class
+MRO:0039726	Patr-B*05:02 chain	owl:Class
+MRO:0039727	Patr-DQB1*03:04 chain	owl:Class
+MRO:0039728	Patr-DQB1*06:01 chain	owl:Class
+MRO:0039729	Patr-B*22:03 chain	owl:Class
+MRO:0039730	Patr-DPA1*01:05 chain	owl:Class
+MRO:0039731	Patr-DQA1*20:04 chain	owl:Class
+MRO:0039732	Patr-DPB1*01:09 chain	owl:Class
+MRO:0039733	Patr-DRB3*01:03 chain	owl:Class
+MRO:0039734	Patr-DRB1*03:07 chain	owl:Class
+MRO:0039735	Patr-C*03:01 chain	owl:Class
+MRO:0039736	Patr-DRB5*01:02 chain	owl:Class
+MRO:0039737	Patr-DQB1*03:05 chain	owl:Class
+MRO:0039738	Patr-B*25:01 chain	owl:Class
+MRO:0039739	Patr-B*29:01 chain	owl:Class
+MRO:0039740	Patr-B*11:02 chain	owl:Class
+MRO:0039741	Patr-DRB3*07:05 chain	owl:Class
+MRO:0039742	Patr-DRB4*01:05 chain	owl:Class
+MRO:0039743	Patr-B*06:02 chain	owl:Class
+MRO:0039744	Patr-DPA1*01:04 chain	owl:Class
+MRO:0039745	Patr-AL*01:01 chain	owl:Class
+MRO:0039746	Patr-B*07:04 chain	owl:Class
+MRO:0039747	Patr-B*24:02 chain	owl:Class
+MRO:0039748	Patr-B*21:01 chain	owl:Class
+MRO:0039749	Patr-C*02:05 chain	owl:Class
+MRO:0039750	Patr-C*11:01 chain	owl:Class
+MRO:0039751	Patr-C*01:01 chain	owl:Class
+MRO:0039752	Patr-DQA1*05:01 chain	owl:Class
+MRO:0039753	Patr-B*28:02 chain	owl:Class
+MRO:0039754	Patr-B*19:01 chain	owl:Class
+MRO:0039755	Patr-DRB3*02:11 chain	owl:Class
+MRO:0039756	Patr-B*07:03 chain	owl:Class
+MRO:0039757	Patr-C*13:02 chain	owl:Class
+MRO:0039758	Patr-C*07:02 chain	owl:Class
+MRO:0039759	Patr-DRB3*07:02 chain	owl:Class
+MRO:0039760	Patr-C*02:01 chain	owl:Class
+MRO:0039761	Patr-B*36:01 chain	owl:Class
+MRO:0039762	Patr-C*07:01 chain	owl:Class
+MRO:0039763	Patr-C*03:05 chain	owl:Class
+MRO:0039764	Patr-DQA1*01:01 chain	owl:Class
+MRO:0039765	Patr-B*18:01 chain	owl:Class
+MRO:0039766	Patr-DPB1*03:05 chain	owl:Class
+MRO:0039767	Patr-B*39:01 chain	owl:Class
+MRO:0039768	Patr-DRB5*03:08 chain	owl:Class
+MRO:0039769	Patr-DRB1*03:01 chain	owl:Class
+MRO:0039770	Patr-DPB1*01:17 chain	owl:Class
+MRO:0039771	Patr-DPB1*03:02 chain	owl:Class
+MRO:0039772	Patr-DPA1*01:10 chain	owl:Class
+MRO:0039773	Patr-A*26:01 chain	owl:Class
+MRO:0039774	Patr-DRB1*03:16 chain	owl:Class
+MRO:0039775	Patr-A*21:01 chain	owl:Class
+MRO:0039776	Patr-B*06:01 chain	owl:Class
+MRO:0039777	Patr-B*40:01 chain	owl:Class
+MRO:0039778	Patr-C*16:01 chain	owl:Class
+MRO:0039779	Patr-B*08:01 chain	owl:Class
+MRO:0039780	Patr-C*02:02 chain	owl:Class
+MRO:0039781	Patr-DRB3*07:01 chain	owl:Class
+MRO:0039782	Patr-B*21:02 chain	owl:Class
+MRO:0039783	Patr-DPB1*02:01 chain	owl:Class
+MRO:0039784	Patr-DPB1*01:06 chain	owl:Class
+MRO:0039785	Patr-DRB3*02:14 chain	owl:Class
+MRO:0039786	Patr-C*04:02 chain	owl:Class
+MRO:0039787	Patr-DRB1*02:01 chain	owl:Class
+MRO:0039788	Patr-B*35:01 chain	owl:Class
+MRO:0039789	Patr-DPB1*01:12 chain	owl:Class
+MRO:0039790	Patr-A*03:04 chain	owl:Class
+MRO:0039791	Patr-B*07:02 chain	owl:Class
+MRO:0039792	Patr-C*13:04 chain	owl:Class
+MRO:0039793	Patr-DPB1*01:03 chain	owl:Class
+MRO:0039794	Patr-DRB*W008:01 chain	owl:Class
+MRO:0039795	Patr-B*06:03 chain	owl:Class
+MRO:0039796	Patr-B*38:01 chain	owl:Class
+MRO:0039797	Patr-B*40:02 chain	owl:Class
+MRO:0039798	Patr-B*38:02 chain	owl:Class
+MRO:0039799	Patr-C*03:06 chain	owl:Class
+MRO:0039800	Patr-B*33:01 chain	owl:Class
+MRO:0039801	Patr-A*17:03 chain	owl:Class
+MRO:0039802	Patr-A*09:02 chain	owl:Class
+MRO:0039803	Patr-DRA*01:04 chain	owl:Class
+MRO:0039804	Patr-DRB3*02:13 chain	owl:Class
+MRO:0039805	Patr-A*03:05 chain	owl:Class
+MRO:0039806	Patr-DPB1*02:02 chain	owl:Class
+MRO:0039807	Patr-DRB3*02:15 chain	owl:Class
+MRO:0039808	Patr-B*26:01 chain	owl:Class
+MRO:0039809	Patr-C*10:02 chain	owl:Class
+MRO:0039810	Patr-C*07:03 chain	owl:Class
+MRO:0039811	Patr-B*19:03 chain	owl:Class
+MRO:0039812	Patr-DRB1*03:02 chain	owl:Class
+MRO:0039813	Patr-DRB1*02:13 chain	owl:Class
+MRO:0039814	Patr-DRB3*02:09 chain	owl:Class
+MRO:0039815	Patr-B*27:01 chain	owl:Class
+MRO:0039816	Patr-B*22:05 chain	owl:Class
+MRO:0039817	Patr-B*22:04 chain	owl:Class
+MRO:0039818	Patr-A*17:04 chain	owl:Class
+MRO:0039819	Patr-DRB1*03:12 chain	owl:Class
+MRO:0039820	Patr-DRB4*01:07 chain	owl:Class
+MRO:0039821	Patr-DRB3*07:03 chain	owl:Class
+MRO:0039822	Patr-DPB1*01:19 chain	owl:Class
+MRO:0039823	Patr-A*12:01 chain	owl:Class
+MRO:0039824	Patr-A*08:03 chain	owl:Class
+MRO:0039825	Patr-A*04:04 chain	owl:Class
+MRO:0039826	Patr-DRB1*03:11 chain	owl:Class
+MRO:0039827	Patr-B*15:01 chain	owl:Class
+MRO:0039828	Patr-C*03:07 chain	owl:Class
+MRO:0039829	Patr-B*12:02 chain	owl:Class
+MRO:0039830	Patr-DRB5*01:03 chain	owl:Class
+MRO:0039831	Patr-DRB1*02:09 chain	owl:Class
+MRO:0039832	Patr-DRB3*02:10 chain	owl:Class
+MRO:0039833	Patr-DRB1*03:09 chain	owl:Class
+MRO:0039834	Patr-DRB5*03:06 chain	owl:Class
+MRO:0039835	Patr-A*18:01 chain	owl:Class
+MRO:0039836	Patr-AL*01:02 chain	owl:Class
+MRO:0039837	Patr-DRB1*02:08 chain	owl:Class
+MRO:0039838	Patr-DRB5*01:01 chain	owl:Class
+MRO:0039839	Patr-C*09:05 chain	owl:Class
+MRO:0039840	Patr-A*15:01 chain	owl:Class
+MRO:0039841	Patr-C*12:01 chain	owl:Class
+MRO:0039842	Patr-DPB1*01:13 chain	owl:Class
+MRO:0039843	Patr-A*03:03 chain	owl:Class
+MRO:0039844	Patr-A*10:01 chain	owl:Class
+MRO:0039845	Patr-DRB1*02:15 chain	owl:Class
+MRO:0039846	Patr-DRB1*02:07 chain	owl:Class
+MRO:0039847	Patr-DRB5*03:09 chain	owl:Class
+MRO:0039848	Patr-C*13:03 chain	owl:Class
+MRO:0039849	Patr-DPB1*01:02 chain	owl:Class
+MRO:0039850	Patr-DPA1*01:01 chain	owl:Class
+MRO:0039851	Patr-B*12:03 chain	owl:Class
+MRO:0039852	Patr-C*03:02 chain	owl:Class
+MRO:0039853	Patr-A*03:02 chain	owl:Class
+MRO:0039854	Patr-DPA1*01:08 chain	owl:Class
+MRO:0039855	Patr-DRB1*03:14 chain	owl:Class
+MRO:0039856	Patr-DPB1*01:15 chain	owl:Class
+MRO:0039857	Patr-B*23:03 chain	owl:Class
+MRO:0039858	Patr-DPA1*01:09 chain	owl:Class
+MRO:0039859	Patr-DPB1*03:01 chain	owl:Class
+MRO:0039860	Patr-A*08:01 chain	owl:Class
+MRO:0039861	Patr-DRB3*01:02 chain	owl:Class
+MRO:0039862	Patr-B*02:03 chain	owl:Class
+MRO:0039863	Patr-DRB3*02:01 chain	owl:Class
+MRO:0039864	Patr-DQB1*06:04 chain	owl:Class
+MRO:0039865	Patr-B*17:03 chain	owl:Class
+MRO:0039866	Patr-DQA1*20:03 chain	owl:Class
+MRO:0039867	Patr-B*11:01 chain	owl:Class
+MRO:0039868	Patr-DRB1*03:03 chain	owl:Class
+MRO:0039869	Patr-A*03:06 chain	owl:Class
+MRO:0039870	Patr-DRB1*03:13 chain	owl:Class
+MRO:0039871	Patr-C*09:03 chain	owl:Class
+MRO:0039872	Patr-A*17:02 chain	owl:Class
+MRO:0039873	Patr-DRB1*02:14 chain	owl:Class
+MRO:0039874	Patr-B*30:01 chain	owl:Class
+MRO:0039875	Patr-DRB7*01:01 chain	owl:Class
+MRO:0039876	Patr-DRB1*02:05 chain	owl:Class
+MRO:0039877	Patr-B*19:04 chain	owl:Class
+MRO:0039878	Patr-DRB1*07:02 chain	owl:Class
+MRO:0039879	Patr-DRB1*03:05 chain	owl:Class
+MRO:0039880	Patr-DQB2*01:03 chain	owl:Class
+MRO:0039881	Patr-B*08:02 chain	owl:Class
+MRO:0039882	Patr-DRB1*02:04 chain	owl:Class
+MRO:0039883	Patr-AL*01:04 chain	owl:Class
+MRO:0039884	Patr-DPB1*01:10 chain	owl:Class
+MRO:0039885	Patr-DRA*01:01 chain	owl:Class
+MRO:0039886	Patr-DRB3*07:04 chain	owl:Class
+MRO:0039887	Patr-DRA*01:03 chain	owl:Class
+MRO:0039888	Patr-B*30:02 chain	owl:Class
+MRO:0039889	Patr-C*15:02 chain	owl:Class
+MRO:0039890	Patr-B*04:02 chain	owl:Class
+MRO:0039891	Patr-A*15:03 chain	owl:Class
+MRO:0039892	Patr-DRB4*01:06 chain	owl:Class
+MRO:0039893	Patr-DPB1*01:07 chain	owl:Class
+MRO:0039894	Patr-DRB1*03:06 chain	owl:Class
+MRO:0039895	Patr-DRB1*02:10 chain	owl:Class
+MRO:0039896	Patr-C*08:01 chain	owl:Class
+MRO:0039897	Patr-DRB5*03:05 chain	owl:Class
+MRO:0039898	Patr-B*07:05 chain	owl:Class
+MRO:0039899	Patr-B*23:04 chain	owl:Class
+MRO:0039900	Patr-B*11:03 chain	owl:Class
+MRO:0039901	Patr-DRB5*03:14 chain	owl:Class
+MRO:0039902	Patr-DQA2*01:01 chain	owl:Class
+MRO:0039903	Patr-B*22:01 chain	owl:Class
+MRO:0039904	Patr-DQB1*06:07 chain	owl:Class
+MRO:0039905	Patr-DRB3*02:12 chain	owl:Class
+MRO:0039906	Patr-C*10:01 chain	owl:Class
+MRO:0039907	Patr-DRB5*03:12 chain	owl:Class
+MRO:0039908	Patr-B*11:04 chain	owl:Class
+MRO:0039909	Patr-A*16:01 chain	owl:Class
+MRO:0039910	Patr-C*17:02 chain	owl:Class
+MRO:0039911	Patr-DPA1*01:07 chain	owl:Class
+MRO:0039912	Patr-A*25:01 chain	owl:Class
+MRO:0039913	Patr-A*15:02 chain	owl:Class
+MRO:0039914	Patr-DPB1*01:14 chain	owl:Class
+MRO:0039915	Patr-DRB4*02:01 chain	owl:Class
+MRO:0039916	Patr-B*35:02 chain	owl:Class
+MRO:0039917	Patr-B*37:01 chain	owl:Class
+MRO:0039918	Patr-DRB1*03:06 protein complex	owl:Class
+MRO:0039919	Patr-C*03:01 protein complex	owl:Class
+MRO:0039920	Patr-B*11:01 protein complex	owl:Class
+MRO:0039921	Patr-C*13:03 protein complex	owl:Class
+MRO:0039922	Patr-DPA1*01:03 protein complex	owl:Class
+MRO:0039923	Patr-DRB1*03:10 protein complex	owl:Class
+MRO:0039924	Patr-B*07:05 protein complex	owl:Class
+MRO:0039925	Patr-DRB3*07:05 protein complex	owl:Class
+MRO:0039926	Patr-DRB3*07:01 protein complex	owl:Class
+MRO:0039927	Patr-DRB1*03:01 protein complex	owl:Class
+MRO:0039928	Patr-DRB3*02:09 protein complex	owl:Class
+MRO:0039929	Patr-DPB1*03:03 protein complex	owl:Class
+MRO:0039930	Patr-B*28:02 protein complex	owl:Class
+MRO:0039931	Patr-DPA1*01:06 protein complex	owl:Class
+MRO:0039932	Patr-C*15:01 protein complex	owl:Class
+MRO:0039933	Patr-DRA*01:01 protein complex	owl:Class
+MRO:0039934	Patr-DRB5*03:06 protein complex	owl:Class
+MRO:0039935	Patr-C*03:05 protein complex	owl:Class
+MRO:0039936	Patr-B*22:05 protein complex	owl:Class
+MRO:0039937	Patr-DRB5*03:04 protein complex	owl:Class
+MRO:0039938	Patr-DRB1*03:03 protein complex	owl:Class
+MRO:0039939	Patr-B*23:06 protein complex	owl:Class
+MRO:0039940	Patr-DRB4*02:01 protein complex	owl:Class
+MRO:0039941	Patr-AL*01:04 protein complex	owl:Class
+MRO:0039942	Patr-B*11:04 protein complex	owl:Class
+MRO:0039943	Patr-B*07:03 protein complex	owl:Class
+MRO:0039944	Patr-DRB3*02:15 protein complex	owl:Class
+MRO:0039945	Patr-DRB1*02:01 protein complex	owl:Class
+MRO:0039946	Patr-DRB1*03:14 protein complex	owl:Class
+MRO:0039947	Patr-B*24:02 protein complex	owl:Class
+MRO:0039948	Patr-A*27:01 protein complex	owl:Class
+MRO:0039949	Patr-B*06:03 protein complex	owl:Class
+MRO:0039950	Patr-B*08:02 protein complex	owl:Class
+MRO:0039951	Patr-DPA1*01:04 protein complex	owl:Class
+MRO:0039952	Patr-DRB3*02:10 protein complex	owl:Class
+MRO:0039953	Patr-B*22:08 protein complex	owl:Class
+MRO:0039954	Patr-B*06:02 protein complex	owl:Class
+MRO:0039955	Patr-A*15:03 protein complex	owl:Class
+MRO:0039956	Patr-B*23:07 protein complex	owl:Class
+MRO:0039957	Patr-A*26:01 protein complex	owl:Class
+MRO:0039958	Patr-A*09:02 protein complex	owl:Class
+MRO:0039959	Patr-B*38:02 protein complex	owl:Class
+MRO:0039960	Patr-B*19:03 protein complex	owl:Class
+MRO:0039961	Patr-C*15:02 protein complex	owl:Class
+MRO:0039962	Patr-B*19:01 protein complex	owl:Class
+MRO:0039963	Patr-B*08:01 protein complex	owl:Class
+MRO:0039964	Patr-A*03:04 protein complex	owl:Class
+MRO:0039965	Patr-DPB1*01:05 protein complex	owl:Class
+MRO:0039966	Patr-AL*01:01 protein complex	owl:Class
+MRO:0039967	Patr-C*08:01 protein complex	owl:Class
+MRO:0039968	Patr-DPB1*01:01 protein complex	owl:Class
+MRO:0039969	Patr-B*07:06 protein complex	owl:Class
+MRO:0039970	Patr-DQA1*05:01 protein complex	owl:Class
+MRO:0039971	Patr-DRB*W008:01 protein complex	owl:Class
+MRO:0039972	Patr-A*24:01 protein complex	owl:Class
+MRO:0039973	Patr-C*11:01 protein complex	owl:Class
+MRO:0039974	Patr-B*28:01 protein complex	owl:Class
+MRO:0039975	Patr-A*16:01 protein complex	owl:Class
+MRO:0039976	Patr-DPB1*01:06 protein complex	owl:Class
+MRO:0039977	Patr-DRB1*03:13 protein complex	owl:Class
+MRO:0039978	Patr-B*37:01 protein complex	owl:Class
+MRO:0039979	Patr-A*17:01 protein complex	owl:Class
+MRO:0039980	Patr-DQA1*20:02 protein complex	owl:Class
+MRO:0039981	Patr-C*03:07 protein complex	owl:Class
+MRO:0039982	Patr-DRB5*03:01 protein complex	owl:Class
+MRO:0039983	Patr-A*17:03 protein complex	owl:Class
+MRO:0039984	Patr-DQA1*05:02 protein complex	owl:Class
+MRO:0039985	Patr-DRB1*02:14 protein complex	owl:Class
+MRO:0039986	Patr-DPA1*01:09 protein complex	owl:Class
+MRO:0039987	Patr-B*11:02 protein complex	owl:Class
+MRO:0039988	Patr-DRB5*01:02 protein complex	owl:Class
+MRO:0039989	Patr-C*09:03 protein complex	owl:Class
+MRO:0039990	Patr-B*35:01 protein complex	owl:Class
+MRO:0039991	Patr-B*19:04 protein complex	owl:Class
+MRO:0039992	Patr-B*04:02 protein complex	owl:Class
+MRO:0039993	Patr-DPB1*01:12 protein complex	owl:Class
+MRO:0039994	Patr-DPB1*02:02 protein complex	owl:Class
+MRO:0039995	Patr-A*03:03 protein complex	owl:Class
+MRO:0039996	Patr-DPB1*01:10 protein complex	owl:Class
+MRO:0039997	Patr-DRB3*02:01 protein complex	owl:Class
+MRO:0039998	Patr-B*22:03 protein complex	owl:Class
+MRO:0039999	Patr-C*09:04 protein complex	owl:Class
+MRO:0040000	Patr-DQA1*20:03 protein complex	owl:Class
+MRO:0040001	Patr-B*30:02 protein complex	owl:Class
+MRO:0040002	Patr-C*02:04 protein complex	owl:Class
+MRO:0040003	Patr-DRB1*02:16 protein complex	owl:Class
+MRO:0040004	Patr-DPB1*03:05 protein complex	owl:Class
+MRO:0040005	Patr-DRB7*01:01 protein complex	owl:Class
+MRO:0040006	Patr-DRB1*07:02 protein complex	owl:Class
+MRO:0040007	Patr-C*03:06 protein complex	owl:Class
+MRO:0040008	Patr-C*07:02 protein complex	owl:Class
+MRO:0040009	Patr-DQB1*06:07 protein complex	owl:Class
+MRO:0040010	Patr-DRB5*03:14 protein complex	owl:Class
+MRO:0040011	Patr-C*09:05 protein complex	owl:Class
+MRO:0040012	Patr-A*22:01 protein complex	owl:Class
+MRO:0040013	Patr-C*03:02 protein complex	owl:Class
+MRO:0040014	Patr-A*15:02 protein complex	owl:Class
+MRO:0040015	Patr-C*02:01 protein complex	owl:Class
+MRO:0040016	Patr-DRB1*02:04 protein complex	owl:Class
+MRO:0040017	Patr-B*25:01 protein complex	owl:Class
+MRO:0040018	Patr-DQB1*03:03 protein complex	owl:Class
+MRO:0040019	Patr-DPA1*01:07 protein complex	owl:Class
+MRO:0040020	Patr-DRA*01:03 protein complex	owl:Class
+MRO:0040021	Patr-DRB1*03:16 protein complex	owl:Class
+MRO:0040022	Patr-DPB1*01:15 protein complex	owl:Class
+MRO:0040023	Patr-B*39:01 protein complex	owl:Class
+MRO:0040024	Patr-DRB1*02:15 protein complex	owl:Class
+MRO:0040025	Patr-A*08:01 protein complex	owl:Class
+MRO:0040026	Patr-DQB1*06:04 protein complex	owl:Class
+MRO:0040027	Patr-DPB1*01:04 protein complex	owl:Class
+MRO:0040028	Patr-DRB5*01:03 protein complex	owl:Class
+MRO:0040029	Patr-DRB3*07:03 protein complex	owl:Class
+MRO:0040030	Patr-DRB5*03:07 protein complex	owl:Class
+MRO:0040031	Patr-DRB5*03:13 protein complex	owl:Class
+MRO:0040032	Patr-C*13:01 protein complex	owl:Class
+MRO:0040033	Patr-DRB3*01:03 protein complex	owl:Class
+MRO:0040034	Patr-B*10:01 protein complex	owl:Class
+MRO:0040035	Patr-DQB1*06:01 protein complex	owl:Class
+MRO:0040036	Patr-DRB5*03:08 protein complex	owl:Class
+MRO:0040037	Patr-DPA1*01:01 protein complex	owl:Class
+MRO:0040038	Patr-DPB1*03:04 protein complex	owl:Class
+MRO:0040039	Patr-C*07:01 protein complex	owl:Class
+MRO:0040040	Patr-A*08:03 protein complex	owl:Class
+MRO:0040041	Patr-B*07:04 protein complex	owl:Class
+MRO:0040042	Patr-B*21:02 protein complex	owl:Class
+MRO:0040043	Patr-B*11:03 protein complex	owl:Class
+MRO:0040044	Patr-DRB3*07:02 protein complex	owl:Class
+MRO:0040045	Patr-C*02:06 protein complex	owl:Class
+MRO:0040046	Patr-DRB3*07:04 protein complex	owl:Class
+MRO:0040047	Patr-C*16:01 protein complex	owl:Class
+MRO:0040048	Patr-DRB3*02:12 protein complex	owl:Class
+MRO:0040049	Patr-B*22:07 protein complex	owl:Class
+MRO:0040050	Patr-A*10:01 protein complex	owl:Class
+MRO:0040051	Patr-B*27:01 protein complex	owl:Class
+MRO:0040052	Patr-DRB1*02:05 protein complex	owl:Class
+MRO:0040053	Patr-C*17:01 protein complex	owl:Class
+MRO:0040054	Patr-A*03:06 protein complex	owl:Class
+MRO:0040055	Patr-A*17:02 protein complex	owl:Class
+MRO:0040056	Patr-B*35:02 protein complex	owl:Class
+MRO:0040057	Patr-A*13:01 protein complex	owl:Class
+MRO:0040058	Patr-DPB1*01:19 protein complex	owl:Class
+MRO:0040059	Patr-DQA1*05:03 protein complex	owl:Class
+MRO:0040060	Patr-B*12:01 protein complex	owl:Class
+MRO:0040061	Patr-DRB3*02:14 protein complex	owl:Class
+MRO:0040062	Patr-DPB1*01:18 protein complex	owl:Class
+MRO:0040063	Patr-DQB1*03:04 protein complex	owl:Class
+MRO:0040064	Patr-C*02:02 protein complex	owl:Class
+MRO:0040065	Patr-C*03:04 protein complex	owl:Class
+MRO:0040066	Patr-B*12:02 protein complex	owl:Class
+MRO:0040067	Patr-B*40:01 protein complex	owl:Class
+MRO:0040068	Patr-B*29:01 protein complex	owl:Class
+MRO:0040069	Patr-B*19:02 protein complex	owl:Class
+MRO:0040070	Patr-B*06:01 protein complex	owl:Class
+MRO:0040071	Patr-A*25:01 protein complex	owl:Class
+MRO:0040072	Patr-DPA1*01:02 protein complex	owl:Class
+MRO:0040073	Patr-DQB1*03:06 protein complex	owl:Class
+MRO:0040074	Patr-DRB3*01:02 protein complex	owl:Class
+MRO:0040075	Patr-DRB1*03:07 protein complex	owl:Class
+MRO:0040076	Patr-B*17:02 protein complex	owl:Class
+MRO:0040077	Patr-C*13:02 protein complex	owl:Class
+MRO:0040078	Patr-A*12:01 protein complex	owl:Class
+MRO:0040079	Patr-DRB3*02:07 protein complex	owl:Class
+MRO:0040080	Patr-DRB3*02:13 protein complex	owl:Class
+MRO:0040081	Patr-DPB1*01:14 protein complex	owl:Class
+MRO:0040082	Patr-C*09:01 protein complex	owl:Class
+MRO:0040083	Patr-DRB1*02:03 protein complex	owl:Class
+MRO:0040084	Patr-DRB4*01:06 protein complex	owl:Class
+MRO:0040085	Patr-C*17:02 protein complex	owl:Class
+MRO:0040086	Patr-B*22:01 protein complex	owl:Class
+MRO:0040087	Patr-DRB1*03:12 protein complex	owl:Class
+MRO:0040088	Patr-A*17:04 protein complex	owl:Class
+MRO:0040089	Patr-A*03:02 protein complex	owl:Class
+MRO:0040090	Patr-DRB1*03:05 protein complex	owl:Class
+MRO:0040091	Patr-B*34:01 protein complex	owl:Class
+MRO:0040092	Patr-C*13:04 protein complex	owl:Class
+MRO:0040093	Patr-DRB5*03:12 protein complex	owl:Class
+MRO:0040094	Patr-C*07:03 protein complex	owl:Class
+MRO:0040095	Patr-DQA1*20:01 protein complex	owl:Class
+MRO:0040096	Patr-C*04:02 protein complex	owl:Class
+MRO:0040097	Patr-DRB1*02:10 protein complex	owl:Class
+MRO:0040098	Patr-DPA1*01:08 protein complex	owl:Class
+MRO:0040099	Patr-C*10:02 protein complex	owl:Class
+MRO:0040100	Patr-B*40:02 protein complex	owl:Class
+MRO:0040101	Patr-DRB1*03:02 protein complex	owl:Class
+MRO:0040102	Patr-DPB1*01:17 protein complex	owl:Class
+MRO:0040103	Patr-DPB1*03:01 protein complex	owl:Class
+MRO:0040104	Patr-A*03:07 protein complex	owl:Class
+MRO:0040105	Patr-AL*01:03 protein complex	owl:Class
+MRO:0040106	Patr-DPA1*01:05 protein complex	owl:Class
+MRO:0040107	Patr-DRB5*03:11 protein complex	owl:Class
+MRO:0040108	Patr-C*02:05 protein complex	owl:Class
+MRO:0040109	Patr-B*26:01 protein complex	owl:Class
+MRO:0040110	Patr-DPA1*01:10 protein complex	owl:Class
+MRO:0040111	Patr-DRB3*02:11 protein complex	owl:Class
+MRO:0040112	Patr-DQB1*03:05 protein complex	owl:Class
+MRO:0040113	Patr-DRB5*03:05 protein complex	owl:Class
+MRO:0040114	Patr-B*22:06 protein complex	owl:Class
+MRO:0040115	Patr-A*15:01 protein complex	owl:Class
+MRO:0040116	Patr-B*36:01 protein complex	owl:Class
+MRO:0040117	Patr-DQB1*15:01 protein complex	owl:Class
+MRO:0040118	Patr-B*30:01 protein complex	owl:Class
+MRO:0040119	Patr-DRB1*02:09 protein complex	owl:Class
+MRO:0040120	Patr-DQB1*06:02 protein complex	owl:Class
+MRO:0040121	Patr-DRB4*01:07 protein complex	owl:Class
+MRO:0040122	Patr-DQB1*15:03 protein complex	owl:Class
+MRO:0040123	Patr-DPB1*03:02 protein complex	owl:Class
+MRO:0040124	Patr-DRB1*02:02 protein complex	owl:Class
+MRO:0040125	Patr-B*05:02 protein complex	owl:Class
+MRO:0040126	Patr-DRA*01:04 protein complex	owl:Class
+MRO:0040127	Patr-C*10:01 protein complex	owl:Class
+MRO:0040128	Patr-C*12:01 protein complex	owl:Class
+MRO:0040129	Patr-C*05:01 protein complex	owl:Class
+MRO:0040130	Patr-DPB1*01:08 protein complex	owl:Class
+MRO:0040131	Patr-DPB1*02:01 protein complex	owl:Class
+MRO:0040132	Patr-A*02:01 protein complex	owl:Class
+MRO:0040133	Patr-B*07:01 protein complex	owl:Class
+MRO:0040134	Patr-C*09:02 protein complex	owl:Class
+MRO:0040135	Patr-DRB1*03:11 protein complex	owl:Class
+MRO:0040136	Patr-DPB1*01:02 protein complex	owl:Class
+MRO:0040137	Patr-DRB5*01:01 protein complex	owl:Class
+MRO:0040138	Patr-B*23:04 protein complex	owl:Class
+MRO:0040139	Patr-B*18:01 protein complex	owl:Class
+MRO:0040140	Patr-DRB5*03:09 protein complex	owl:Class
+MRO:0040141	Patr-B*23:03 protein complex	owl:Class
+MRO:0040142	Patr-A*03:05 protein complex	owl:Class
+MRO:0040143	Patr-DQA2*01:01 protein complex	owl:Class
+MRO:0040144	Patr-B*23:05 protein complex	owl:Class
+MRO:0040145	Patr-A*18:01 protein complex	owl:Class
+MRO:0040146	Patr-B*38:01 protein complex	owl:Class
+MRO:0040147	Patr-A*21:01 protein complex	owl:Class
+MRO:0040148	Patr-DPB1*01:16 protein complex	owl:Class
+MRO:0040149	Patr-DPB1*01:09 protein complex	owl:Class
+MRO:0040150	Patr-DRB1*02:13 protein complex	owl:Class
+MRO:0040151	Patr-DPB1*01:07 protein complex	owl:Class
+MRO:0040152	Patr-B*02:03 protein complex	owl:Class
+MRO:0040153	Patr-B*07:02 protein complex	owl:Class
+MRO:0040154	Patr-B*33:01 protein complex	owl:Class
+MRO:0040155	Patr-B*15:01 protein complex	owl:Class
+MRO:0040156	Patr-DRB1*03:04 protein complex	owl:Class
+MRO:0040157	Patr-A*08:02 protein complex	owl:Class
+MRO:0040158	Patr-DQA1*01:01 protein complex	owl:Class
+MRO:0040159	Patr-B*20:02 protein complex	owl:Class
+MRO:0040160	Patr-DRB1*03:09 protein complex	owl:Class
+MRO:0040161	Patr-C*01:01 protein complex	owl:Class
+MRO:0040162	Patr-A*04:04 protein complex	owl:Class
+MRO:0040163	Patr-B*22:04 protein complex	owl:Class
+MRO:0040164	Patr-B*12:03 protein complex	owl:Class
+MRO:0040165	Patr-DRB4*01:05 protein complex	owl:Class
+MRO:0040166	Patr-DPB1*01:03 protein complex	owl:Class
+MRO:0040167	Patr-DRB1*02:07 protein complex	owl:Class
+MRO:0040168	Patr-DQA1*20:04 protein complex	owl:Class
+MRO:0040169	Patr-DRB1*02:08 protein complex	owl:Class
+MRO:0040170	Patr-DQB1*03:02 protein complex	owl:Class
+MRO:0040171	Patr-AL*01:02 protein complex	owl:Class
+MRO:0040172	Patr-B*17:03 protein complex	owl:Class
+MRO:0040173	Patr-B*22:02 protein complex	owl:Class
+MRO:0040174	Patr-DPB1*01:11 protein complex	owl:Class
+MRO:0040175	Patr-B*21:01 protein complex	owl:Class
+MRO:0040176	Patr-DQB2*01:03 protein complex	owl:Class
+MRO:0040177	Patr-DPB1*01:13 protein complex	owl:Class

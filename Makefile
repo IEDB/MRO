@@ -229,6 +229,11 @@ update-cow-alleles: src/update_cow_alleles.py ontology/chain-sequence.tsv ontolo
 update-mamu-alleles: src/update_mamu_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
+.PHONY: update-patr-alleles
+update-patr-alleles: src/update_patr_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
+	python3 $^
+
+
 ### OWL Files
 
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
