@@ -2,7 +2,7 @@
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 
-<http://purl.obolibrary.org/obo/mro-base.owl>
+<http://purl.obolibrary.org/obo/mro/mro-base.owl>
   dc:title "MHC Restriction Ontology (Base Version)" ;
   dc:description "The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions. The base version contains all and only native axioms." ;
   dct:license <http://creativecommons.org/licenses/by/3.0/> .
