@@ -1,11 +1,7 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-			is-required; subclass-of 'genetic locus';	is-required (when %4 direct-subclass-of 'MHC locus'); subclass-of organism;
+Aime-128 locus		subclass	giant panda MHC class I locus	
 Anpl-UAA locus		subclass	duck MHC class I locus	
-BF1 locus		subclass	chicken MHC class I locus	
-BF2 locus		subclass	chicken MHC class I locus	
-BF-B locus		subclass	chicken non-classical MHC locus	
-BF-YF locus		subclass	chicken non-classical MHC locus	
 BoLA-1 locus		subclass	cattle MHC class I locus	
 BoLA-2 locus		subclass	cattle MHC class I locus	
 BoLA-3 locus		subclass	cattle MHC class I locus	
@@ -21,11 +17,16 @@ BoLA-DRB locus		subclass	cattle MHC class II locus
 BoLA-MR1 locus		subclass	cattle non-classical MHC locus	
 Caja-E locus		subclass	marmoset MHC class I locus	
 Caja-G locus		subclass	marmoset MHC class I locus	
+Ctid-UAA locus		subclass	grass carp MHC class I locus	
 DLA-88 locus		subclass	dog MHC class I locus	
 ELA-1 locus		subclass	horse MHC class I locus	
 ELA-16 locus		subclass	horse MHC class I locus	
 ELA-N locus		subclass	horse MHC class I locus	
 FLA-E locus		subclass	cat MHC class I locus	
+Gaga-BF1 locus		subclass	chicken MHC class I locus	
+Gaga-BF2 locus		subclass	chicken MHC class I locus	
+Gaga-BF-B locus		subclass	chicken non-classical MHC locus	
+Gaga-BF-YF locus		subclass	chicken non-classical MHC locus	
 Gogo-B locus		subclass	gorilla MHC class I locus	
 H2-D locus		subclass	mouse MHC class I locus	
 H2-IA alpha locus		subclass	mouse MHC class II locus	
@@ -61,14 +62,18 @@ HLA-G locus		subclass	human non-classical MHC locus
 HLA-MR1 locus		subclass	human non-classical MHC locus	
 MHC class I locus		subclass	MHC locus	
 MHC class II locus		subclass	MHC locus	
+Mafa-A1 locus		subclass	crab-eating macaque MHC class I locus	
 Mafa-DQA locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DQB locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DRA locus		subclass	crab-eating macaque MHC class II locus	
 Mafa-DRB locus		subclass	crab-eating macaque MHC class II locus	
 Mamu-A locus		subclass	rhesus macaque MHC class I locus	
 Mamu-B locus		subclass	rhesus macaque MHC class I locus	
+Mamu-CD1 locus		subclass	rhesus macaque non-classical MHC locus	
 Mamu-DPA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DPB locus		subclass	rhesus macaque MHC class II locus	
+Mamu-DQA locus		subclass	rhesus macaque MHC class II locus	
+Mamu-DQB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-E locus		subclass	rhesus macaque MHC class I locus	
@@ -96,6 +101,8 @@ RT1-D beta locus		subclass	rat MHC class II locus
 SLA-1 locus		subclass	pig MHC class I locus	
 SLA-2 locus		subclass	pig MHC class I locus	
 SLA-3 locus		subclass	pig MHC class I locus	
+SLA-DRA locus		subclass	pig MHC class II locus	
+SLA-DRB locus		subclass	pig MHC class II locus	
 Saoe-G locus		subclass	cotton-top tamarin MHC class I locus	
 Xela-UAAg locus		subclass	clawed frog MHC class I locus	
 black flying fox MHC class I locus		subclass	MHC class I locus	black flying fox
@@ -117,12 +124,18 @@ clawed frog MHC class I locus		subclass	MHC class I locus	clawed frog
 clawed frog MHC class II locus		subclass	MHC class II locus	clawed frog
 cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
 cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
+crab-eating macaque MHC class I locus		subclass	MHC class I locus	crab-eating macaque
 crab-eating macaque MHC class II locus		subclass	MHC class II locus	crab-eating macaque
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
 duck MHC class I locus		subclass	MHC class I locus	duck
+giant panda MHC class I locus		subclass	MHC class I locus	giant panda
+giant panda MHC class II locus		subclass	MHC class II locus	giant panda
 gorilla MHC class I locus		subclass	MHC class I locus	gorilla
 gorilla MHC class II locus		subclass	MHC class II locus	gorilla
+grass carp Beta-2-microglobulin locus		subclass	Beta-2-microglobulin locus	grass carp
+grass carp MHC class I locus		subclass	MHC class I locus	grass carp
+grass carp MHC class II locus		subclass	MHC class II locus	grass carp
 horse MHC class I locus		subclass	MHC class I locus	horse
 horse MHC class II locus		subclass	MHC class II locus	horse
 human MHC class I locus		subclass	MHC class I locus	human

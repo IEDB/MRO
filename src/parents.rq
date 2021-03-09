@@ -11,18 +11,18 @@ WHERE {
   {
     # Manually describe the top-level nodes.
     VALUES (?subject ?parent ?label ?sort) {
-      (obo:GO_0043234 ""             "MHC"                 "")
-      (obo:GO_0042611 obo:GO_0043234 "MHC molecule"        "1")
-      (MRO:0000010    obo:GO_0043234 "haplotype"           "2")
-      (MRO:0000011    obo:GO_0043234 "serotype"            "3")
-      (MRO:0000012    obo:GO_0043234 "mutant MHC molecule" "4")
+      (obo:GO_0032991 ""             "MHC"                 "")
+      (obo:GO_0042611 obo:GO_0032991 "MHC molecule"        "1")
+      (MRO:0000010    obo:GO_0032991 "haplotype"           "2")
+      (MRO:0000011    obo:GO_0032991 "serotype"            "3")
+      (MRO:0000012    obo:GO_0032991 "mutant MHC molecule" "4")
     }
   }
   UNION
   {
-    # Now match all descendants of 'protein complex'.
+    # Now match all descendants of 'protein-containing complex'.
     ?subject
-      rdfs:subClassOf+ obo:GO_0043234 ; # protein complex
+      rdfs:subClassOf+ obo:GO_0032991 ; # protein-containing complex
       rdfs:subClassOf ?parent ;
       obo:OBI_9991118 ?label .
     OPTIONAL {

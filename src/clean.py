@@ -26,72 +26,28 @@ parser = argparse.ArgumentParser(
 parser.add_argument('alleles',
     type=argparse.FileType('r'),
     help='read query result CSV')
+parser.add_argument('external',
+    type=argparse.FileType('r'),
+    help='read external template')
 args = parser.parse_args()
 
-organisms = {
-  'black flying fox': 'black flying fox (Pteropus alecto)',
-  'bonobo': 'bonobo (Pan paniscus)',
-  'cat': 'cat (Felis catus)',
-  'cattle': 'cattle (Bos taurus)',
-  'chicken': 'chicken (Gallus gallus)',
-  'chimpanzee': 'chimpanzee (Pan troglodytes)',
-  'clawed frog': 'clawed frog (Xenopus laevis)',
-  'cotton-top tamarin': 'cotton-top tamarin (Saguinus oedipus)',
-  'crab-eating macaque': 'crab-eating macaque (Macaca fascicularis)',
-  'dog': 'dog (Canis lupus familiaris)',
-  'duck': 'duck (Anas platyrhynchos)',
-  'gorilla': 'gorilla (Gorilla gorilla)',
-  'horse': 'horse (Equus caballus)',
-  'human': 'human (Homo sapiens)',
-  'marmoset': 'marmoset (Callithrix jacchus)',
-  'mouse': 'mouse (Mus musculus)',
-  'organism': 'organism (all species)',
-  'pig': 'pig (Sus scrofa)',
-  'rabbit': 'rabbit (Oryctolagus cuniculus)',
-  'rat': 'rat (Rattus norvegicus)',
-  'rhesus macaque': 'rhesus macaque (Macaca mulatta)',
-  'sheep': 'sheep (Ovis aries)'
-}
-codes = {
-  '1': 'organism',
-  '8355': 'clawed frog',
-  '8839': 'duck',
-  '9031': 'chicken',
-  '9483': 'marmoset',
-  '9490': 'Saoe',
-  '9544': 'Mamu',
-  '9541': 'Mafa',
-  '9593': 'Gogo',
-  '9597': 'Papa',
-  '9598': 'Patr',
-  '9606': 'HLA',
-  '9615': 'DLA',
-  '9685': 'FLA',
-  '9796': 'ELA',
-  '9823': 'SLA',
-  '9913': 'BoLA',
-  '9940': 'Ovar',
-  '9986': 'RLA',
-  '10090': 'H2',
-  '10116': 'rat'
-}
+# Create organism -> long name & organism ID -> code
+
+organisms = {}
+codes = {}
+ext = csv.DictReader(args.external, delimiter="\t")
+for row in ext:
+  if row["Parent"] != "organism":
+    continue
+  ncbi_id = row["ID"].split(":")[1]
+  organism_label = row["Label"]
+  scientific_label = row["Editor Preferred Term"]
+  organisms[organism_label] = f"{organism_label} ({scientific_label})"
+  codes[ncbi_id] = row["Species Code"]
 
 def clean_code(name):
-  return name.replace('BF-','') \
-             .replace('BoLA-','') \
-             .replace('Caja-','') \
-             .replace('DLA-','') \
-             .replace('ELA-','') \
-             .replace('Gogo-','') \
-             .replace('H2-','') \
-             .replace('HLA-','') \
-             .replace('Mamu-','') \
-             .replace('Papa-','') \
-             .replace('Patr-','') \
-             .replace('Saoe-','') \
-             .replace('SLA-','') \
-             .replace('RT1-','') \
-             .replace('RLA-', '')
+  for code in codes.values():
+    name = name.replace(f"{code}-", "")
 
 # Grab the first row and use those headers.
 

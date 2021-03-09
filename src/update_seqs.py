@@ -18,6 +18,10 @@ def main():
       type=argparse.FileType('r'),
       nargs='+',
       help='FASTA file(s) to read')
+  parser.add_argument('-o',
+      '--overwrite',
+      action='store_true',
+      default=False)
   args = parser.parse_args()
 
   # Read one or more FASTA files into a dictionary
@@ -40,7 +44,7 @@ def main():
         elif line.startswith('>MHC|DLA'):
           accession = line[5:13]
         elif line.startswith('>IPD-MHC'):
-          accession = line[9:18]
+          accession = line.split(" ")[0][9:]
         else:
           print("Bad accession:", line)
       else:
@@ -56,7 +60,8 @@ def main():
   # Update sequences from FASTAs by matching accession
   for row in rows:
     if len(row) > 2 and row[3] in seqs:
-      row[4] = seqs[row[3]]
+      if not row[4] or (row[4] and args.overwrite):
+        row[4] = seqs[row[3]]
 
   # Overwrite chain-sequence.tsv
   with open(args.filename, 'w') as f:

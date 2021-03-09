@@ -20,7 +20,7 @@ SELECT DISTINCT
   ?namespace
 WHERE {
   ?subject
-    rdfs:subClassOf* obo:GO_0043234 ;
+    rdfs:subClassOf* obo:GO_0032991 ;
     rdfs:label ?label .
   OPTIONAL {
     ?subject MRO:has-iedb-mhc-id ?mhc_allele_restriction_id ;
