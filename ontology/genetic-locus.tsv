@@ -99,6 +99,9 @@ RT1-B beta locus		subclass	rat MHC class II locus
 RT1-D alpha locus		subclass	rat MHC class II locus	
 RT1-D beta locus		subclass	rat MHC class II locus	
 SLA-1 locus		subclass	pig MHC class I locus	
+SLA-DQA locus		subclass	pig MHC class II locus	
+SLA-DQB locus		subclass	pig MHC class II locus	
+SLA-6 locus		subclass	pig MHC class I locus	
 SLA-2 locus		subclass	pig MHC class I locus	
 SLA-3 locus		subclass	pig MHC class I locus	
 SLA-DRA locus		subclass	pig MHC class II locus	
