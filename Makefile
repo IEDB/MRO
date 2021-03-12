@@ -55,11 +55,9 @@ templates = $(foreach i,$(build_files),--template $(i))
 
 
 ### Set Up
-ontology/G-group.tsv: build/hla.dat build/hla_nom_g.txt
-	python3 src/update_gene_alleles_seq.py
-	
-ontology/gene-alleles.tsv:build/hla.dat build/hla_nom_g.txt
-	python3 src/update_gene_alleles_seq.py
+.PHONY: G-groups
+G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
+	python3 src/update_gene_allele_seq.py > build/report_g_grp.tsv
 
 build build/validate:
 	mkdir -p $@
