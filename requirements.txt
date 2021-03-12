@@ -2,3 +2,4 @@ cerberus
 ontodev-cogs
 ontodev-gizmos==0.1.5
 openpyxl
+biopython==1.78

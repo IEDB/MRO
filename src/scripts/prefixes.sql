@@ -15,4 +15,7 @@ INSERT OR IGNORE INTO prefix VALUES
 ("REO",       "http://purl.obolibrary.org/obo/REO_"),
 ("rdf",       "http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
 ("rdfs",      "http://www.w3.org/2000/01/rdf-schema#"),
-("RO",        "http://purl.obolibrary.org/obo/RO_");
+("RO",        "http://purl.obolibrary.org/obo/RO_"),
+("HANCESTRO", "http://purl.obolibrary.org/obo/HANCESTRO_"),
+("NCIT",      "http://purl.obolibrary.org/obo/NCIT_"),
+("IDO",       "http://purl.obolibrary.org/obo/IDO_");

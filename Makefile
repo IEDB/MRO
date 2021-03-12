@@ -48,13 +48,18 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
 
 
 ### Set Up
+ontology/G-group.tsv: build/hla.dat build/hla_nom_g.txt
+	python3 src/update_gene_alleles_seq.py
+	
+ontology/gene-alleles.tsv:build/hla.dat build/hla_nom_g.txt
+	python3 src/update_gene_alleles_seq.py
 
 build build/validate:
 	mkdir -p $@
@@ -99,7 +104,7 @@ load: $(COGS_SHEETS)
 push: | .cogs
 	cogs push
 
-.PHONY: destroy 
+.PHONY: destroy
 destroy: | .cogs
 	cogs delete -f
 
@@ -201,6 +206,11 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	wget -O $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
+build/hla.dat: | build
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
+
+build/hla_nom_g.txt: | build
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/wmda/hla_nom_g.txt
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
@@ -226,7 +236,6 @@ update-cow-alleles: src/update_cow_alleles.py ontology/chain-sequence.tsv ontolo
 	python3 $^
 
 ### OWL Files
-
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) template \
 	--input $< \
@@ -245,12 +254,14 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl ontology/import.txt | build/robot.jar
+build/mro-import.owl: build/iceo-import.ttl build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl build/hancestro-import.ttl ontology/import.txt | build/robot.jar
 	$(ROBOT) merge \
 	--input build/eco-import.ttl \
 	--input build/obi-import.ttl \
 	--input build/ro-import.ttl \
 	--input build/iao-import.ttl \
+	--input build/hancestro-import.ttl
+	--input build/iceo-import.ttl
 	extract \
 	--method MIREOT \
 	--upper-term "GO:0008150" \
