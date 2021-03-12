@@ -40178,3 +40178,805 @@ MRO:0040174	Patr-DPB1*01:11 protein complex	owl:Class
 MRO:0040175	Patr-B*21:01 protein complex	owl:Class
 MRO:0040176	Patr-DQB2*01:03 protein complex	owl:Class
 MRO:0040177	Patr-DPB1*01:13 protein complex	owl:Class
+MRO:0040178	SLA-1*14:03 chain	owl:Class
+MRO:0040179	SLA-DRA*04:01 chain	owl:Class
+MRO:0040180	SLA-2*18:03 chain	owl:Class
+MRO:0040181	SLA-1*17:01 chain	owl:Class
+MRO:0040182	SLA-1*04:05 chain	owl:Class
+MRO:0040183	SLA-DRB1*10:02 chain	owl:Class
+MRO:0040184	SLA-DQB1*04:03 chain	owl:Class
+MRO:0040185	SLA-DRB1*02:10 chain	owl:Class
+MRO:0040186	SLA-DQA*02:02 chain	owl:Class
+MRO:0040187	SLA-DRB2*10:01 chain	owl:Class
+MRO:0040188	SLA-1*14:05 chain	owl:Class
+MRO:0040189	SLA-DQB1*01:04 chain	owl:Class
+MRO:0040190	SLA-DRA*02:01 chain	owl:Class
+MRO:0040191	SLA-DQB1*09:01 chain	owl:Class
+MRO:0040192	SLA-DRB1*11:09 chain	owl:Class
+MRO:0040193	SLA-1*08:12 chain	owl:Class
+MRO:0040194	SLA-DRB1*02:08 chain	owl:Class
+MRO:0040195	SLA-DRB2*08:01 chain	owl:Class
+MRO:0040196	SLA-DQB1*06:02 chain	owl:Class
+MRO:0040197	SLA-DRB1*11:04 chain	owl:Class
+MRO:0040198	SLA-1*08:11 chain	owl:Class
+MRO:0040199	SLA-DRB1*15:01 chain	owl:Class
+MRO:0040200	SLA-2*10:02 chain	owl:Class
+MRO:0040201	SLA-DRB1*14:04 chain	owl:Class
+MRO:0040202	SLA-DQB1*04:01 chain	owl:Class
+MRO:0040203	SLA-2*06:02 chain	owl:Class
+MRO:0040204	SLA-1*08:13 chain	owl:Class
+MRO:0040205	SLA-3*05:03 chain	owl:Class
+MRO:0040206	SLA-DQA*03:02 chain	owl:Class
+MRO:0040207	SLA-DQB1*04:02 chain	owl:Class
+MRO:0040208	SLA-DQB1*07:01 chain	owl:Class
+MRO:0040209	SLA-DRB1*13:02 chain	owl:Class
+MRO:0040210	SLA-3*03:08 chain	owl:Class
+MRO:0040211	SLA-2*12:01 chain	owl:Class
+MRO:0040212	SLA-3*05:01 chain	owl:Class
+MRO:0040213	SLA-DQA*01:05 chain	owl:Class
+MRO:0040214	SLA-DRB1*05:01 chain	owl:Class
+MRO:0040215	SLA-DQA*02:05 chain	owl:Class
+MRO:0040216	SLA-DRB1*11:05 chain	owl:Class
+MRO:0040217	SLA-DRB1*09:07 chain	owl:Class
+MRO:0040218	SLA-1*08:10 chain	owl:Class
+MRO:0040219	SLA-2*09:02 chain	owl:Class
+MRO:0040220	SLA-1*21:02 chain	owl:Class
+MRO:0040221	SLA-DQB1*08:06 chain	owl:Class
+MRO:0040222	SLA-1*08:07 chain	owl:Class
+MRO:0040223	SLA-6*02:01 chain	owl:Class
+MRO:0040224	SLA-DQA*02:01 chain	owl:Class
+MRO:0040225	SLA-2*02:04 chain	owl:Class
+MRO:0040226	SLA-2*04:09 chain	owl:Class
+MRO:0040227	SLA-6*07:01 chain	owl:Class
+MRO:0040228	SLA-DRB1*11:01 chain	owl:Class
+MRO:0040229	SLA-DRB2*03:01 chain	owl:Class
+MRO:0040230	SLA-DQA*01:01 chain	owl:Class
+MRO:0040231	SLA-DRB1*10:08 chain	owl:Class
+MRO:0040232	SLA-1*08:02 chain	owl:Class
+MRO:0040233	SLA-DQB1*01:03 chain	owl:Class
+MRO:0040234	SLA-DRB2*12:01 chain	owl:Class
+MRO:0040235	SLA-1*11:02 chain	owl:Class
+MRO:0040236	SLA-DRB1*07:03 chain	owl:Class
+MRO:0040237	SLA-DQB1*02:04 chain	owl:Class
+MRO:0040238	SLA-2*07:03 chain	owl:Class
+MRO:0040239	SLA-DQA*04:01 chain	owl:Class
+MRO:0040240	SLA-3*04:05 chain	owl:Class
+MRO:0040241	SLA-3*03:09 chain	owl:Class
+MRO:0040242	SLA-2*06:08 chain	owl:Class
+MRO:0040243	SLA-6*01:01 chain	owl:Class
+MRO:0040244	SLA-DRB4*01:01 chain	owl:Class
+MRO:0040245	SLA-2*05:05 chain	owl:Class
+MRO:0040246	SLA-1*01:01 chain	owl:Class
+MRO:0040247	SLA-DRB3*01:01 chain	owl:Class
+MRO:0040248	SLA-1*07:03 chain	owl:Class
+MRO:0040249	SLA-2*11:01 chain	owl:Class
+MRO:0040250	SLA-1*10:02 chain	owl:Class
+MRO:0040251	SLA-1*08:17 chain	owl:Class
+MRO:0040252	SLA-2*10:01 chain	owl:Class
+MRO:0040253	SLA-2*06:04 chain	owl:Class
+MRO:0040254	SLA-DQB1*02:11 chain	owl:Class
+MRO:0040255	SLA-2*05:01 chain	owl:Class
+MRO:0040256	SLA-2*03:01 chain	owl:Class
+MRO:0040257	SLA-2*02:01 chain	owl:Class
+MRO:0040258	SLA-DRB2*09:01 chain	owl:Class
+MRO:0040259	SLA-1*08:05 chain	owl:Class
+MRO:0040260	SLA-1*23:01 chain	owl:Class
+MRO:0040261	SLA-DQB1*05:03 chain	owl:Class
+MRO:0040262	SLA-DQB1*03:01 chain	owl:Class
+MRO:0040263	SLA-2*08:05 chain	owl:Class
+MRO:0040264	SLA-2*04:04 chain	owl:Class
+MRO:0040265	SLA-1*09:02 chain	owl:Class
+MRO:0040266	SLA-1*07:08 chain	owl:Class
+MRO:0040267	SLA-DRB1*14:01 chain	owl:Class
+MRO:0040268	SLA-2*05:04 chain	owl:Class
+MRO:0040269	SLA-DRB1*11:02 chain	owl:Class
+MRO:0040270	SLA-2*01:02 chain	owl:Class
+MRO:0040271	SLA-1*15:01 chain	owl:Class
+MRO:0040272	SLA-3*01:01 chain	owl:Class
+MRO:0040273	SLA-2*06:06 chain	owl:Class
+MRO:0040274	SLA-2*20:01 chain	owl:Class
+MRO:0040275	SLA-DRB1*04:05 chain	owl:Class
+MRO:0040276	SLA-DQB1*02:07 chain	owl:Class
+MRO:0040277	SLA-1*07:07 chain	owl:Class
+MRO:0040278	SLA-DRB2*07:01 chain	owl:Class
+MRO:0040279	SLA-DRB1*02:03 chain	owl:Class
+MRO:0040280	SLA-2*07:02 chain	owl:Class
+MRO:0040281	SLA-3*03:07 chain	owl:Class
+MRO:0040282	SLA-2*18:02 chain	owl:Class
+MRO:0040283	SLA-DQA*06:01 chain	owl:Class
+MRO:0040284	SLA-1*18:01 chain	owl:Class
+MRO:0040285	SLA-DRB3*03:01 chain	owl:Class
+MRO:0040286	SLA-DRB1*02:09 chain	owl:Class
+MRO:0040287	SLA-1*19:02 chain	owl:Class
+MRO:0040288	SLA-DRB2*02:01 chain	owl:Class
+MRO:0040289	SLA-1*15:03 chain	owl:Class
+MRO:0040290	SLA-DRB1*01:04 chain	owl:Class
+MRO:0040291	SLA-6*03:01 chain	owl:Class
+MRO:0040292	SLA-1*23:03 chain	owl:Class
+MRO:0040293	SLA-2*04:05 chain	owl:Class
+MRO:0040294	SLA-DRB1*02:02 chain	owl:Class
+MRO:0040295	SLA-1*11:04 chain	owl:Class
+MRO:0040296	SLA-2*05:06 chain	owl:Class
+MRO:0040297	SLA-DQB1*08:02 chain	owl:Class
+MRO:0040298	SLA-1*23:02 chain	owl:Class
+MRO:0040299	SLA-DRB1*04:11 chain	owl:Class
+MRO:0040300	SLA-DRB2*06:01 chain	owl:Class
+MRO:0040301	SLA-1*19:03 chain	owl:Class
+MRO:0040302	SLA-DRB1*06:03 chain	owl:Class
+MRO:0040303	SLA-1*05:01 chain	owl:Class
+MRO:0040304	SLA-1*11:08 chain	owl:Class
+MRO:0040305	SLA-3*05:08 chain	owl:Class
+MRO:0040306	SLA-DRB1*11:03 chain	owl:Class
+MRO:0040307	SLA-1*11:05 chain	owl:Class
+MRO:0040308	SLA-6*10:01 chain	owl:Class
+MRO:0040309	SLA-1*11:07 chain	owl:Class
+MRO:0040310	SLA-DQB1*02:08 chain	owl:Class
+MRO:0040311	SLA-DRB1*06:06 chain	owl:Class
+MRO:0040312	SLA-2*08:06 chain	owl:Class
+MRO:0040313	SLA-DRB1*12:01 chain	owl:Class
+MRO:0040314	SLA-1*16:02 chain	owl:Class
+MRO:0040315	SLA-DQB1*03:04 chain	owl:Class
+MRO:0040316	SLA-2*06:03 chain	owl:Class
+MRO:0040317	SLA-DRB1*11:08 chain	owl:Class
+MRO:0040318	SLA-2*10:06 chain	owl:Class
+MRO:0040319	SLA-DQA*03:03 chain	owl:Class
+MRO:0040320	SLA-DRB1*04:08 chain	owl:Class
+MRO:0040321	SLA-DQA*01:08 chain	owl:Class
+MRO:0040322	SLA-2*10:05 chain	owl:Class
+MRO:0040323	SLA-2*13:01 chain	owl:Class
+MRO:0040324	SLA-3*03:12 chain	owl:Class
+MRO:0040325	SLA-DQB1*01:02 chain	owl:Class
+MRO:0040326	SLA-DRB1*04:03 chain	owl:Class
+MRO:0040327	SLA-1*10:01 chain	owl:Class
+MRO:0040328	SLA-3*01:03 chain	owl:Class
+MRO:0040329	SLA-2*04:03 chain	owl:Class
+MRO:0040330	SLA-6*05:01 chain	owl:Class
+MRO:0040331	SLA-1*01:03 chain	owl:Class
+MRO:0040332	SLA-1*07:01 chain	owl:Class
+MRO:0040333	SLA-1*11:11 chain	owl:Class
+MRO:0040334	SLA-3*05:06 chain	owl:Class
+MRO:0040335	SLA-1*08:08 chain	owl:Class
+MRO:0040336	SLA-DRB1*01:02 chain	owl:Class
+MRO:0040337	SLA-DQB1*02:02 chain	owl:Class
+MRO:0040338	SLA-1*07:04 chain	owl:Class
+MRO:0040339	SLA-1*07:06 chain	owl:Class
+MRO:0040340	SLA-DRB2*05:01 chain	owl:Class
+MRO:0040341	SLA-2*08:04 chain	owl:Class
+MRO:0040342	SLA-1*11:06 chain	owl:Class
+MRO:0040343	SLA-DQA*04:03 chain	owl:Class
+MRO:0040344	SLA-DRB1*07:02 chain	owl:Class
+MRO:0040345	SLA-DQB1*05:02 chain	owl:Class
+MRO:0040346	SLA-DRB1*09:06 chain	owl:Class
+MRO:0040347	SLA-DRB1*01:03 chain	owl:Class
+MRO:0040348	SLA-DRB1*04:06 chain	owl:Class
+MRO:0040349	SLA-1*07:05 chain	owl:Class
+MRO:0040350	SLA-2*06:09 chain	owl:Class
+MRO:0040351	SLA-3*07:01 chain	owl:Class
+MRO:0040352	SLA-2*13:03 chain	owl:Class
+MRO:0040353	SLA-DRB1*04:01 chain	owl:Class
+MRO:0040354	SLA-DRB1*01:05 chain	owl:Class
+MRO:0040355	SLA-2*08:01 chain	owl:Class
+MRO:0040356	SLA-DRB3*02:01 chain	owl:Class
+MRO:0040357	SLA-2*06:13 chain	owl:Class
+MRO:0040358	SLA-3*03:10 chain	owl:Class
+MRO:0040359	SLA-1*06:02 chain	owl:Class
+MRO:0040360	SLA-DRB1*04:07 chain	owl:Class
+MRO:0040361	SLA-1*08:16 chain	owl:Class
+MRO:0040362	SLA-DQA*03:01 chain	owl:Class
+MRO:0040363	SLA-2*01:03 chain	owl:Class
+MRO:0040364	SLA-DQB1*08:01 chain	owl:Class
+MRO:0040365	SLA-2*05:03 chain	owl:Class
+MRO:0040366	SLA-DRB1*05:07 chain	owl:Class
+MRO:0040367	SLA-2*07:01 chain	owl:Class
+MRO:0040368	SLA-DQA*05:01 chain	owl:Class
+MRO:0040369	SLA-1*11:09 chain	owl:Class
+MRO:0040370	SLA-3*03:05 chain	owl:Class
+MRO:0040371	SLA-DRB2*01:01 chain	owl:Class
+MRO:0040372	SLA-1*08:14 chain	owl:Class
+MRO:0040373	SLA-2*04:06 chain	owl:Class
+MRO:0040374	SLA-DRB1*12:05 chain	owl:Class
+MRO:0040375	SLA-DQB1*02:12 chain	owl:Class
+MRO:0040376	SLA-DRB1*02:05 chain	owl:Class
+MRO:0040377	SLA-DQA*01:06 chain	owl:Class
+MRO:0040378	SLA-DRB1*08:05 chain	owl:Class
+MRO:0040379	SLA-DRA*02:02 chain	owl:Class
+MRO:0040380	SLA-2*08:07 chain	owl:Class
+MRO:0040381	SLA-3*05:07 chain	owl:Class
+MRO:0040382	SLA-DRB1*02:04 chain	owl:Class
+MRO:0040383	SLA-DRB1*10:07 chain	owl:Class
+MRO:0040384	SLA-3*03:02 chain	owl:Class
+MRO:0040385	SLA-DRB2*04:01 chain	owl:Class
+MRO:0040386	SLA-3*01:02 chain	owl:Class
+MRO:0040387	SLA-DQB1*04:05 chain	owl:Class
+MRO:0040388	SLA-DRB1*02:11 chain	owl:Class
+MRO:0040389	SLA-2*06:10 chain	owl:Class
+MRO:0040390	SLA-2*08:02 chain	owl:Class
+MRO:0040391	SLA-DQB1*03:02 chain	owl:Class
+MRO:0040392	SLA-2*05:07 chain	owl:Class
+MRO:0040393	SLA-1*17:02 chain	owl:Class
+MRO:0040394	SLA-DRB1*08:04 chain	owl:Class
+MRO:0040395	SLA-1*08:18 chain	owl:Class
+MRO:0040396	SLA-2*11:03 chain	owl:Class
+MRO:0040397	SLA-DRB1*16:02 chain	owl:Class
+MRO:0040398	SLA-DRB1*07:04 chain	owl:Class
+MRO:0040399	SLA-2*17:01 chain	owl:Class
+MRO:0040400	SLA-3*05:04 chain	owl:Class
+MRO:0040401	SLA-DRB1*05:05 chain	owl:Class
+MRO:0040402	SLA-3*04:08 chain	owl:Class
+MRO:0040403	SLA-2*19:01 chain	owl:Class
+MRO:0040404	SLA-1*02:03 chain	owl:Class
+MRO:0040405	SLA-2*04:08 chain	owl:Class
+MRO:0040406	SLA-2*06:15 chain	owl:Class
+MRO:0040407	SLA-2*06:16 chain	owl:Class
+MRO:0040408	SLA-2*02:05 chain	owl:Class
+MRO:0040409	SLA-1*04:02 chain	owl:Class
+MRO:0040410	SLA-2*15:01 chain	owl:Class
+MRO:0040411	SLA-6*04:01 chain	owl:Class
+MRO:0040412	SLA-DRB1*10:04 chain	owl:Class
+MRO:0040413	SLA-DRB1*10:03 chain	owl:Class
+MRO:0040414	SLA-DRB1*09:02 chain	owl:Class
+MRO:0040415	SLA-2*18:01 chain	owl:Class
+MRO:0040416	SLA-DRB1*09:04 chain	owl:Class
+MRO:0040417	SLA-2*13:02 chain	owl:Class
+MRO:0040418	SLA-3*03:03 chain	owl:Class
+MRO:0040419	SLA-DRB1*05:06 chain	owl:Class
+MRO:0040420	SLA-2*06:07 chain	owl:Class
+MRO:0040421	SLA-DRB1*01:01 chain	owl:Class
+MRO:0040422	SLA-1*16:01 chain	owl:Class
+MRO:0040423	SLA-DRB1*08:06 chain	owl:Class
+MRO:0040424	SLA-2*11:02 chain	owl:Class
+MRO:0040425	SLA-DQB1*08:04 chain	owl:Class
+MRO:0040426	SLA-DQB1*10:02 chain	owl:Class
+MRO:0040427	SLA-6*09:01 chain	owl:Class
+MRO:0040428	SLA-DRB1*10:06 chain	owl:Class
+MRO:0040429	SLA-1*11:03 chain	owl:Class
+MRO:0040430	SLA-DQB1*01:06 chain	owl:Class
+MRO:0040431	SLA-1*16:03 chain	owl:Class
+MRO:0040432	SLA-2*10:09 chain	owl:Class
+MRO:0040433	SLA-DRB1*08:03 chain	owl:Class
+MRO:0040434	SLA-DQB1*08:05 chain	owl:Class
+MRO:0040435	SLA-1*12:03 chain	owl:Class
+MRO:0040436	SLA-2*01:01 chain	owl:Class
+MRO:0040437	SLA-2*06:11 chain	owl:Class
+MRO:0040438	SLA-DRB1*13:01 chain	owl:Class
+MRO:0040439	SLA-2*16:02 chain	owl:Class
+MRO:0040440	SLA-2*03:03 chain	owl:Class
+MRO:0040441	SLA-DRB1*09:03 chain	owl:Class
+MRO:0040442	SLA-DRB1*14:03 chain	owl:Class
+MRO:0040443	SLA-DQB1*08:03 chain	owl:Class
+MRO:0040444	SLA-3*07:02 chain	owl:Class
+MRO:0040445	SLA-1*08:15 chain	owl:Class
+MRO:0040446	SLA-DRB1*12:03 chain	owl:Class
+MRO:0040447	SLA-1*02:01 chain	owl:Class
+MRO:0040448	SLA-DRB1*16:03 chain	owl:Class
+MRO:0040449	SLA-2*07:05 chain	owl:Class
+MRO:0040450	SLA-3*04:04 chain	owl:Class
+MRO:0040451	SLA-DRB1*05:02 chain	owl:Class
+MRO:0040452	SLA-2*06:14 chain	owl:Class
+MRO:0040453	SLA-DRB1*03:02 chain	owl:Class
+MRO:0040454	SLA-DQB1*10:01 chain	owl:Class
+MRO:0040455	SLA-1*02:02 chain	owl:Class
+MRO:0040456	SLA-DRB1*17:01 chain	owl:Class
+MRO:0040457	SLA-DRB1*16:01 chain	owl:Class
+MRO:0040458	SLA-DQB1*09:02 chain	owl:Class
+MRO:0040459	SLA-2*06:12 chain	owl:Class
+MRO:0040460	SLA-2*10:03 chain	owl:Class
+MRO:0040461	SLA-3*03:04 chain	owl:Class
+MRO:0040462	SLA-1*14:01 chain	owl:Class
+MRO:0040463	SLA-3*07:03 chain	owl:Class
+MRO:0040464	SLA-3*01:04 chain	owl:Class
+MRO:0040465	SLA-2*09:04 chain	owl:Class
+MRO:0040466	SLA-DRB1*08:01 chain	owl:Class
+MRO:0040467	SLA-DRB1*08:02 chain	owl:Class
+MRO:0040468	SLA-DQB1*02:05 chain	owl:Class
+MRO:0040469	SLA-1*23:04 chain	owl:Class
+MRO:0040470	SLA-DRB1*04:10 chain	owl:Class
+MRO:0040471	SLA-DRB1*05:03 chain	owl:Class
+MRO:0040472	SLA-DQB1*01:01 chain	owl:Class
+MRO:0040473	SLA-2*09:03 chain	owl:Class
+MRO:0040474	SLA-DQB1*05:04 chain	owl:Class
+MRO:0040475	SLA-1*13:02 chain	owl:Class
+MRO:0040476	SLA-2*06:05 chain	owl:Class
+MRO:0040477	SLA-DQA*02:06 chain	owl:Class
+MRO:0040478	SLA-DRB1*09:01 chain	owl:Class
+MRO:0040479	SLA-DQA*01:09 chain	owl:Class
+MRO:0040480	SLA-1*22:01 chain	owl:Class
+MRO:0040481	SLA-2*06:01 chain	owl:Class
+MRO:0040482	SLA-1*18:02 chain	owl:Class
+MRO:0040483	SLA-DQB1*05:01 chain	owl:Class
+MRO:0040484	SLA-DQB1*06:01 chain	owl:Class
+MRO:0040485	SLA-2*09:06 chain	owl:Class
+MRO:0040486	SLA-DRB1*04:09 chain	owl:Class
+MRO:0040487	SLA-DQA*02:04 chain	owl:Class
+MRO:0040488	SLA-2*16:03 chain	owl:Class
+MRO:0040489	SLA-DQB1*03:05 chain	owl:Class
+MRO:0040490	SLA-DQA*01:07 chain	owl:Class
+MRO:0040491	SLA-1*20:02 chain	owl:Class
+MRO:0040492	SLA-DRB1*02:06 chain	owl:Class
+MRO:0040493	SLA-3*03:11 chain	owl:Class
+MRO:0040494	SLA-DRA*02:03 chain	owl:Class
+MRO:0040495	SLA-DRB1*06:05 chain	owl:Class
+MRO:0040496	SLA-1*21:01 chain	owl:Class
+MRO:0040497	SLA-DQA*02:07 chain	owl:Class
+MRO:0040498	SLA-2*07:06 chain	owl:Class
+MRO:0040499	SLA-1*21:03 chain	owl:Class
+MRO:0040500	SLA-DQB1*02:03 chain	owl:Class
+MRO:0040501	SLA-1*14:04 chain	owl:Class
+MRO:0040502	SLA-1*08:04 chain	owl:Class
+MRO:0040503	SLA-3*05:05 chain	owl:Class
+MRO:0040504	SLA-6*08:01 chain	owl:Class
+MRO:0040505	SLA-DQB1*02:06 chain	owl:Class
+MRO:0040506	SLA-3*03:01 chain	owl:Class
+MRO:0040507	SLA-DRB1*12:02 chain	owl:Class
+MRO:0040508	SLA-DRB1*03:01 chain	owl:Class
+MRO:0040509	SLA-2*08:03 chain	owl:Class
+MRO:0040510	SLA-DRB1*05:04 chain	owl:Class
+MRO:0040511	SLA-3*08:01 chain	owl:Class
+MRO:0040512	SLA-2*02:03 chain	owl:Class
+MRO:0040513	SLA-DRB2*11:01 chain	owl:Class
+MRO:0040514	SLA-1*12:02 chain	owl:Class
+MRO:0040515	SLA-DQB1*06:03 chain	owl:Class
+MRO:0040516	SLA-1*06:01 chain	owl:Class
+MRO:0040517	SLA-2*05:08 chain	owl:Class
+MRO:0040518	SLA-3*06:02 chain	owl:Class
+MRO:0040519	SLA-DRB1*04:04 chain	owl:Class
+MRO:0040520	SLA-DRA*01:01 chain	owl:Class
+MRO:0040521	SLA-2*05:09 chain	owl:Class
+MRO:0040522	SLA-2*09:01 chain	owl:Class
+MRO:0040523	SLA-1*04:04 chain	owl:Class
+MRO:0040524	SLA-3*04:06 chain	owl:Class
+MRO:0040525	SLA-1*08:03 chain	owl:Class
+MRO:0040526	SLA-3*03:06 chain	owl:Class
+MRO:0040527	SLA-3*06:01 chain	owl:Class
+MRO:0040528	SLA-DRB1*06:04 chain	owl:Class
+MRO:0040529	SLA-DRB1*10:05 chain	owl:Class
+MRO:0040530	SLA-2*03:02 chain	owl:Class
+MRO:0040531	SLA-3*06:04 chain	owl:Class
+MRO:0040532	SLA-2*04:07 chain	owl:Class
+MRO:0040533	SLA-2*10:08 chain	owl:Class
+MRO:0040534	SLA-3*03:13 chain	owl:Class
+MRO:0040535	SLA-DQA*04:02 chain	owl:Class
+MRO:0040536	SLA-DQB1*02:09 chain	owl:Class
+MRO:0040537	SLA-DRA*03:01 chain	owl:Class
+MRO:0040538	SLA-DQB1*02:10 chain	owl:Class
+MRO:0040539	SLA-DRB1*11:07 chain	owl:Class
+MRO:0040540	SLA-DRB1*11:06 chain	owl:Class
+MRO:0040541	SLA-1*19:01 chain	owl:Class
+MRO:0040542	SLA-DQB1*07:02 chain	owl:Class
+MRO:0040543	SLA-DQA*01:03 chain	owl:Class
+MRO:0040544	SLA-DQA*02:03 chain	owl:Class
+MRO:0040545	SLA-2*10:07 chain	owl:Class
+MRO:0040546	SLA-DRB1*07:01 chain	owl:Class
+MRO:0040547	SLA-1*09:01 chain	owl:Class
+MRO:0040548	SLA-2*14:01 chain	owl:Class
+MRO:0040549	SLA-2*10:04 chain	owl:Class
+MRO:0040550	SLA-DQB1*01:05 chain	owl:Class
+MRO:0040551	SLA-DQB1*02:01 chain	owl:Class
+MRO:0040552	SLA-DRB1*02:07 chain	owl:Class
+MRO:0040553	SLA-DQB1*04:04 chain	owl:Class
+MRO:0040554	SLA-DQA*01:04 chain	owl:Class
+MRO:0040555	SLA-2*16:01 chain	owl:Class
+MRO:0040556	SLA-1*01:02 chain	owl:Class
+MRO:0040557	SLA-3*04:07 chain	owl:Class
+MRO:0040558	SLA-DRB3*05:01 chain	owl:Class
+MRO:0040559	SLA-2*11:05 chain	owl:Class
+MRO:0040560	SLA-DRB3*04:01 chain	owl:Class
+MRO:0040561	SLA-2*07:04 chain	owl:Class
+MRO:0040562	SLA-DRB1*09:05 chain	owl:Class
+MRO:0040563	SLA-DRB5*01:01 chain	owl:Class
+MRO:0040564	SLA-1*04:03 chain	owl:Class
+MRO:0040565	SLA-3*06:03 chain	owl:Class
+MRO:0040566	SLA-3*04:03 chain	owl:Class
+MRO:0040567	SLA-DQA*01:02 chain	owl:Class
+MRO:0040568	SLA-DQB1*03:03 chain	owl:Class
+MRO:0040569	SLA-DRB1*06:07 chain	owl:Class
+MRO:0040570	SLA-DRB1*14:02 chain	owl:Class
+MRO:0040571	SLA-2*12:02 chain	owl:Class
+MRO:0040572	SLA-3*04:02 chain	owl:Class
+MRO:0040573	SLA-6*06:01 chain	owl:Class
+MRO:0040574	SLA-DQB1*11:01 chain	owl:Class
+MRO:0040575	SLA-1*08:06 chain	owl:Class
+MRO:0040576	SLA-1*11:11 protein complex	owl:Class
+MRO:0040577	SLA-2*18:02 protein complex	owl:Class
+MRO:0040578	SLA-2*07:03 protein complex	owl:Class
+MRO:0040579	SLA-2*05:03 protein complex	owl:Class
+MRO:0040580	SLA-DRA*01:01 protein complex	owl:Class
+MRO:0040581	SLA-3*07:03 protein complex	owl:Class
+MRO:0040582	SLA-DRB1*02:11 protein complex	owl:Class
+MRO:0040583	SLA-DRB1*07:04 protein complex	owl:Class
+MRO:0040584	SLA-2*16:03 protein complex	owl:Class
+MRO:0040585	SLA-DRB1*04:06 protein complex	owl:Class
+MRO:0040586	SLA-DQB1*04:05 protein complex	owl:Class
+MRO:0040587	SLA-3*04:04 protein complex	owl:Class
+MRO:0040588	SLA-3*06:04 protein complex	owl:Class
+MRO:0040589	SLA-6*08:01 protein complex	owl:Class
+MRO:0040590	SLA-DRB1*11:04 protein complex	owl:Class
+MRO:0040591	SLA-3*07:02 protein complex	owl:Class
+MRO:0040592	SLA-2*05:01 protein complex	owl:Class
+MRO:0040593	SLA-2*14:01 protein complex	owl:Class
+MRO:0040594	SLA-DQB1*04:01 protein complex	owl:Class
+MRO:0040595	SLA-2*06:05 protein complex	owl:Class
+MRO:0040596	SLA-2*05:09 protein complex	owl:Class
+MRO:0040597	SLA-2*12:02 protein complex	owl:Class
+MRO:0040598	SLA-DQB1*01:01 protein complex	owl:Class
+MRO:0040599	SLA-DRB2*05:01 protein complex	owl:Class
+MRO:0040600	SLA-DQA*01:05 protein complex	owl:Class
+MRO:0040601	SLA-DRB1*04:01 protein complex	owl:Class
+MRO:0040602	SLA-1*09:02 protein complex	owl:Class
+MRO:0040603	SLA-3*03:12 protein complex	owl:Class
+MRO:0040604	SLA-2*05:05 protein complex	owl:Class
+MRO:0040605	SLA-DRB2*04:01 protein complex	owl:Class
+MRO:0040606	SLA-DQA*01:06 protein complex	owl:Class
+MRO:0040607	SLA-DQB1*02:06 protein complex	owl:Class
+MRO:0040608	SLA-DRB1*12:01 protein complex	owl:Class
+MRO:0040609	SLA-2*09:06 protein complex	owl:Class
+MRO:0040610	SLA-DRB1*11:01 protein complex	owl:Class
+MRO:0040611	SLA-2*07:06 protein complex	owl:Class
+MRO:0040612	SLA-1*06:02 protein complex	owl:Class
+MRO:0040613	SLA-2*02:04 protein complex	owl:Class
+MRO:0040614	SLA-2*18:01 protein complex	owl:Class
+MRO:0040615	SLA-DRB1*06:03 protein complex	owl:Class
+MRO:0040616	SLA-DRA*03:01 protein complex	owl:Class
+MRO:0040617	SLA-1*08:16 protein complex	owl:Class
+MRO:0040618	SLA-1*09:01 protein complex	owl:Class
+MRO:0040619	SLA-DQB1*01:05 protein complex	owl:Class
+MRO:0040620	SLA-DRB1*02:07 protein complex	owl:Class
+MRO:0040621	SLA-1*07:05 protein complex	owl:Class
+MRO:0040622	SLA-1*14:05 protein complex	owl:Class
+MRO:0040623	SLA-1*11:02 protein complex	owl:Class
+MRO:0040624	SLA-DQA*01:04 protein complex	owl:Class
+MRO:0040625	SLA-2*10:04 protein complex	owl:Class
+MRO:0040626	SLA-2*13:01 protein complex	owl:Class
+MRO:0040627	SLA-DRB2*08:01 protein complex	owl:Class
+MRO:0040628	SLA-1*23:03 protein complex	owl:Class
+MRO:0040629	SLA-2*12:01 protein complex	owl:Class
+MRO:0040630	SLA-3*05:08 protein complex	owl:Class
+MRO:0040631	SLA-DQA*02:06 protein complex	owl:Class
+MRO:0040632	SLA-3*05:06 protein complex	owl:Class
+MRO:0040633	SLA-DRB1*09:01 protein complex	owl:Class
+MRO:0040634	SLA-2*06:07 protein complex	owl:Class
+MRO:0040635	SLA-DRB1*05:03 protein complex	owl:Class
+MRO:0040636	SLA-6*01:01 protein complex	owl:Class
+MRO:0040637	SLA-DRB1*14:04 protein complex	owl:Class
+MRO:0040638	SLA-DQB1*07:02 protein complex	owl:Class
+MRO:0040639	SLA-1*22:01 protein complex	owl:Class
+MRO:0040640	SLA-1*10:01 protein complex	owl:Class
+MRO:0040641	SLA-DRB1*04:10 protein complex	owl:Class
+MRO:0040642	SLA-DQB1*11:01 protein complex	owl:Class
+MRO:0040643	SLA-DRB1*08:01 protein complex	owl:Class
+MRO:0040644	SLA-2*17:01 protein complex	owl:Class
+MRO:0040645	SLA-1*04:03 protein complex	owl:Class
+MRO:0040646	SLA-DRB3*02:01 protein complex	owl:Class
+MRO:0040647	SLA-1*11:06 protein complex	owl:Class
+MRO:0040648	SLA-DRB2*11:01 protein complex	owl:Class
+MRO:0040649	SLA-2*19:01 protein complex	owl:Class
+MRO:0040650	SLA-2*06:12 protein complex	owl:Class
+MRO:0040651	SLA-DQB1*06:01 protein complex	owl:Class
+MRO:0040652	SLA-1*08:03 protein complex	owl:Class
+MRO:0040653	SLA-DQB1*02:01 protein complex	owl:Class
+MRO:0040654	SLA-DRB1*04:07 protein complex	owl:Class
+MRO:0040655	SLA-DRB1*10:06 protein complex	owl:Class
+MRO:0040656	SLA-1*08:05 protein complex	owl:Class
+MRO:0040657	SLA-DRB2*07:01 protein complex	owl:Class
+MRO:0040658	SLA-2*10:06 protein complex	owl:Class
+MRO:0040659	SLA-DQB1*03:01 protein complex	owl:Class
+MRO:0040660	SLA-1*01:02 protein complex	owl:Class
+MRO:0040661	SLA-DRB1*10:02 protein complex	owl:Class
+MRO:0040662	SLA-1*08:07 protein complex	owl:Class
+MRO:0040663	SLA-1*08:02 protein complex	owl:Class
+MRO:0040664	SLA-3*04:08 protein complex	owl:Class
+MRO:0040665	SLA-1*15:03 protein complex	owl:Class
+MRO:0040666	SLA-DQA*03:03 protein complex	owl:Class
+MRO:0040667	SLA-3*05:01 protein complex	owl:Class
+MRO:0040668	SLA-DQA*01:09 protein complex	owl:Class
+MRO:0040669	SLA-6*03:01 protein complex	owl:Class
+MRO:0040670	SLA-2*05:07 protein complex	owl:Class
+MRO:0040671	SLA-1*08:08 protein complex	owl:Class
+MRO:0040672	SLA-DRB1*02:09 protein complex	owl:Class
+MRO:0040673	SLA-DRA*04:01 protein complex	owl:Class
+MRO:0040674	SLA-1*21:01 protein complex	owl:Class
+MRO:0040675	SLA-DRB1*13:02 protein complex	owl:Class
+MRO:0040676	SLA-3*05:05 protein complex	owl:Class
+MRO:0040677	SLA-3*03:07 protein complex	owl:Class
+MRO:0040678	SLA-2*02:03 protein complex	owl:Class
+MRO:0040679	SLA-DRB2*06:01 protein complex	owl:Class
+MRO:0040680	SLA-2*02:05 protein complex	owl:Class
+MRO:0040681	SLA-DRB1*11:06 protein complex	owl:Class
+MRO:0040682	SLA-DQB1*05:02 protein complex	owl:Class
+MRO:0040683	SLA-DQA*01:07 protein complex	owl:Class
+MRO:0040684	SLA-1*07:04 protein complex	owl:Class
+MRO:0040685	SLA-1*20:02 protein complex	owl:Class
+MRO:0040686	SLA-2*10:09 protein complex	owl:Class
+MRO:0040687	SLA-3*04:05 protein complex	owl:Class
+MRO:0040688	SLA-DQB1*01:02 protein complex	owl:Class
+MRO:0040689	SLA-1*08:13 protein complex	owl:Class
+MRO:0040690	SLA-DQB1*08:04 protein complex	owl:Class
+MRO:0040691	SLA-3*06:02 protein complex	owl:Class
+MRO:0040692	SLA-3*05:04 protein complex	owl:Class
+MRO:0040693	SLA-3*04:07 protein complex	owl:Class
+MRO:0040694	SLA-DRB1*04:08 protein complex	owl:Class
+MRO:0040695	SLA-DRB3*05:01 protein complex	owl:Class
+MRO:0040696	SLA-3*01:02 protein complex	owl:Class
+MRO:0040697	SLA-1*23:04 protein complex	owl:Class
+MRO:0040698	SLA-DRB1*02:08 protein complex	owl:Class
+MRO:0040699	SLA-1*01:03 protein complex	owl:Class
+MRO:0040700	SLA-2*06:01 protein complex	owl:Class
+MRO:0040701	SLA-2*10:07 protein complex	owl:Class
+MRO:0040702	SLA-1*23:02 protein complex	owl:Class
+MRO:0040703	SLA-2*07:04 protein complex	owl:Class
+MRO:0040704	SLA-DRB1*05:05 protein complex	owl:Class
+MRO:0040705	SLA-2*01:02 protein complex	owl:Class
+MRO:0040706	SLA-DRB1*07:02 protein complex	owl:Class
+MRO:0040707	SLA-2*08:01 protein complex	owl:Class
+MRO:0040708	SLA-1*19:01 protein complex	owl:Class
+MRO:0040709	SLA-2*10:08 protein complex	owl:Class
+MRO:0040710	SLA-DRB1*11:09 protein complex	owl:Class
+MRO:0040711	SLA-2*06:03 protein complex	owl:Class
+MRO:0040712	SLA-2*07:02 protein complex	owl:Class
+MRO:0040713	SLA-2*02:01 protein complex	owl:Class
+MRO:0040714	SLA-2*08:07 protein complex	owl:Class
+MRO:0040715	SLA-DQB1*02:02 protein complex	owl:Class
+MRO:0040716	SLA-DRB2*02:01 protein complex	owl:Class
+MRO:0040717	SLA-DRB1*08:03 protein complex	owl:Class
+MRO:0040718	SLA-1*15:01 protein complex	owl:Class
+MRO:0040719	SLA-2*05:08 protein complex	owl:Class
+MRO:0040720	SLA-DQB1*10:01 protein complex	owl:Class
+MRO:0040721	SLA-DRB1*04:11 protein complex	owl:Class
+MRO:0040722	SLA-DQB1*09:02 protein complex	owl:Class
+MRO:0040723	SLA-DRB1*09:06 protein complex	owl:Class
+MRO:0040724	SLA-1*02:03 protein complex	owl:Class
+MRO:0040725	SLA-2*20:01 protein complex	owl:Class
+MRO:0040726	SLA-2*13:03 protein complex	owl:Class
+MRO:0040727	SLA-2*06:09 protein complex	owl:Class
+MRO:0040728	SLA-DQB1*02:10 protein complex	owl:Class
+MRO:0040729	SLA-DQB1*04:03 protein complex	owl:Class
+MRO:0040730	SLA-1*02:02 protein complex	owl:Class
+MRO:0040731	SLA-DRB2*01:01 protein complex	owl:Class
+MRO:0040732	SLA-2*11:05 protein complex	owl:Class
+MRO:0040733	SLA-DRB1*10:07 protein complex	owl:Class
+MRO:0040734	SLA-2*03:02 protein complex	owl:Class
+MRO:0040735	SLA-1*16:01 protein complex	owl:Class
+MRO:0040736	SLA-2*09:04 protein complex	owl:Class
+MRO:0040737	SLA-DRB1*11:05 protein complex	owl:Class
+MRO:0040738	SLA-2*11:03 protein complex	owl:Class
+MRO:0040739	SLA-2*04:04 protein complex	owl:Class
+MRO:0040740	SLA-DRB1*02:10 protein complex	owl:Class
+MRO:0040741	SLA-DRB1*12:02 protein complex	owl:Class
+MRO:0040742	SLA-1*12:02 protein complex	owl:Class
+MRO:0040743	SLA-DRB1*04:09 protein complex	owl:Class
+MRO:0040744	SLA-DRB1*08:02 protein complex	owl:Class
+MRO:0040745	SLA-1*11:05 protein complex	owl:Class
+MRO:0040746	SLA-1*04:02 protein complex	owl:Class
+MRO:0040747	SLA-1*11:09 protein complex	owl:Class
+MRO:0040748	SLA-DRB1*02:05 protein complex	owl:Class
+MRO:0040749	SLA-DRB1*09:05 protein complex	owl:Class
+MRO:0040750	SLA-DQA*01:02 protein complex	owl:Class
+MRO:0040751	SLA-DQB1*05:01 protein complex	owl:Class
+MRO:0040752	SLA-DQB1*08:02 protein complex	owl:Class
+MRO:0040753	SLA-DRB1*05:04 protein complex	owl:Class
+MRO:0040754	SLA-DRB1*04:04 protein complex	owl:Class
+MRO:0040755	SLA-DRB1*16:01 protein complex	owl:Class
+MRO:0040756	SLA-2*01:03 protein complex	owl:Class
+MRO:0040757	SLA-3*03:06 protein complex	owl:Class
+MRO:0040758	SLA-1*11:08 protein complex	owl:Class
+MRO:0040759	SLA-DQB1*02:11 protein complex	owl:Class
+MRO:0040760	SLA-DRB1*14:02 protein complex	owl:Class
+MRO:0040761	SLA-2*03:03 protein complex	owl:Class
+MRO:0040762	SLA-3*06:03 protein complex	owl:Class
+MRO:0040763	SLA-DRB1*11:02 protein complex	owl:Class
+MRO:0040764	SLA-DQA*02:01 protein complex	owl:Class
+MRO:0040765	SLA-3*03:10 protein complex	owl:Class
+MRO:0040766	SLA-DQB1*02:03 protein complex	owl:Class
+MRO:0040767	SLA-DRB1*13:01 protein complex	owl:Class
+MRO:0040768	SLA-2*09:02 protein complex	owl:Class
+MRO:0040769	SLA-2*06:11 protein complex	owl:Class
+MRO:0040770	SLA-DRB2*09:01 protein complex	owl:Class
+MRO:0040771	SLA-1*12:03 protein complex	owl:Class
+MRO:0040772	SLA-1*05:01 protein complex	owl:Class
+MRO:0040773	SLA-DQA*05:01 protein complex	owl:Class
+MRO:0040774	SLA-DQB1*03:03 protein complex	owl:Class
+MRO:0040775	SLA-1*07:03 protein complex	owl:Class
+MRO:0040776	SLA-DRB1*06:05 protein complex	owl:Class
+MRO:0040777	SLA-3*01:03 protein complex	owl:Class
+MRO:0040778	SLA-1*08:18 protein complex	owl:Class
+MRO:0040779	SLA-3*04:03 protein complex	owl:Class
+MRO:0040780	SLA-3*04:06 protein complex	owl:Class
+MRO:0040781	SLA-2*06:08 protein complex	owl:Class
+MRO:0040782	SLA-2*07:01 protein complex	owl:Class
+MRO:0040783	SLA-DRB1*06:06 protein complex	owl:Class
+MRO:0040784	SLA-1*07:08 protein complex	owl:Class
+MRO:0040785	SLA-3*01:01 protein complex	owl:Class
+MRO:0040786	SLA-DRB2*12:01 protein complex	owl:Class
+MRO:0040787	SLA-2*13:02 protein complex	owl:Class
+MRO:0040788	SLA-2*03:01 protein complex	owl:Class
+MRO:0040789	SLA-DRB5*01:01 protein complex	owl:Class
+MRO:0040790	SLA-1*10:02 protein complex	owl:Class
+MRO:0040791	SLA-DQB1*02:09 protein complex	owl:Class
+MRO:0040792	SLA-1*04:04 protein complex	owl:Class
+MRO:0040793	SLA-DRB1*10:04 protein complex	owl:Class
+MRO:0040794	SLA-1*01:01 protein complex	owl:Class
+MRO:0040795	SLA-2*04:05 protein complex	owl:Class
+MRO:0040796	SLA-DQA*02:07 protein complex	owl:Class
+MRO:0040797	SLA-DRB1*12:03 protein complex	owl:Class
+MRO:0040798	SLA-DRB1*11:07 protein complex	owl:Class
+MRO:0040799	SLA-DQB1*04:02 protein complex	owl:Class
+MRO:0040800	SLA-1*07:01 protein complex	owl:Class
+MRO:0040801	SLA-1*21:03 protein complex	owl:Class
+MRO:0040802	SLA-2*07:05 protein complex	owl:Class
+MRO:0040803	SLA-3*06:01 protein complex	owl:Class
+MRO:0040804	SLA-DQB1*08:05 protein complex	owl:Class
+MRO:0040805	SLA-DRB1*08:05 protein complex	owl:Class
+MRO:0040806	SLA-2*10:03 protein complex	owl:Class
+MRO:0040807	SLA-1*14:04 protein complex	owl:Class
+MRO:0040808	SLA-2*06:10 protein complex	owl:Class
+MRO:0040809	SLA-DRB1*16:03 protein complex	owl:Class
+MRO:0040810	SLA-6*02:01 protein complex	owl:Class
+MRO:0040811	SLA-DQB1*01:03 protein complex	owl:Class
+MRO:0040812	SLA-DRB1*01:02 protein complex	owl:Class
+MRO:0040813	SLA-1*19:03 protein complex	owl:Class
+MRO:0040814	SLA-DQA*01:03 protein complex	owl:Class
+MRO:0040815	SLA-3*03:02 protein complex	owl:Class
+MRO:0040816	SLA-2*09:01 protein complex	owl:Class
+MRO:0040817	SLA-DRB1*03:02 protein complex	owl:Class
+MRO:0040818	SLA-6*06:01 protein complex	owl:Class
+MRO:0040819	SLA-DQA*03:02 protein complex	owl:Class
+MRO:0040820	SLA-DQB1*02:08 protein complex	owl:Class
+MRO:0040821	SLA-DRB3*04:01 protein complex	owl:Class
+MRO:0040822	SLA-DRA*02:01 protein complex	owl:Class
+MRO:0040823	SLA-DRB1*05:07 protein complex	owl:Class
+MRO:0040824	SLA-DRB1*07:01 protein complex	owl:Class
+MRO:0040825	SLA-1*16:02 protein complex	owl:Class
+MRO:0040826	SLA-DRB1*02:04 protein complex	owl:Class
+MRO:0040827	SLA-3*03:11 protein complex	owl:Class
+MRO:0040828	SLA-3*03:08 protein complex	owl:Class
+MRO:0040829	SLA-3*03:03 protein complex	owl:Class
+MRO:0040830	SLA-DQB1*02:05 protein complex	owl:Class
+MRO:0040831	SLA-DRB1*01:01 protein complex	owl:Class
+MRO:0040832	SLA-DRB2*03:01 protein complex	owl:Class
+MRO:0040833	SLA-2*10:01 protein complex	owl:Class
+MRO:0040834	SLA-2*06:02 protein complex	owl:Class
+MRO:0040835	SLA-6*05:01 protein complex	owl:Class
+MRO:0040836	SLA-2*04:09 protein complex	owl:Class
+MRO:0040837	SLA-1*07:07 protein complex	owl:Class
+MRO:0040838	SLA-DRB3*01:01 protein complex	owl:Class
+MRO:0040839	SLA-1*08:14 protein complex	owl:Class
+MRO:0040840	SLA-DRB1*07:03 protein complex	owl:Class
+MRO:0040841	SLA-2*10:02 protein complex	owl:Class
+MRO:0040842	SLA-3*08:01 protein complex	owl:Class
+MRO:0040843	SLA-3*01:04 protein complex	owl:Class
+MRO:0040844	SLA-2*04:08 protein complex	owl:Class
+MRO:0040845	SLA-DRB2*10:01 protein complex	owl:Class
+MRO:0040846	SLA-DRB1*06:07 protein complex	owl:Class
+MRO:0040847	SLA-DQB1*02:07 protein complex	owl:Class
+MRO:0040848	SLA-3*03:05 protein complex	owl:Class
+MRO:0040849	SLA-DQB1*02:04 protein complex	owl:Class
+MRO:0040850	SLA-DQB1*05:04 protein complex	owl:Class
+MRO:0040851	SLA-DQB1*01:06 protein complex	owl:Class
+MRO:0040852	SLA-2*01:01 protein complex	owl:Class
+MRO:0040853	SLA-DQA*01:08 protein complex	owl:Class
+MRO:0040854	SLA-DRB1*06:04 protein complex	owl:Class
+MRO:0040855	SLA-DQA*04:02 protein complex	owl:Class
+MRO:0040856	SLA-DRB1*05:01 protein complex	owl:Class
+MRO:0040857	SLA-1*11:07 protein complex	owl:Class
+MRO:0040858	SLA-DRB1*11:03 protein complex	owl:Class
+MRO:0040859	SLA-DQB1*09:01 protein complex	owl:Class
+MRO:0040860	SLA-2*06:16 protein complex	owl:Class
+MRO:0040861	SLA-1*14:03 protein complex	owl:Class
+MRO:0040862	SLA-1*08:04 protein complex	owl:Class
+MRO:0040863	SLA-1*18:01 protein complex	owl:Class
+MRO:0040864	SLA-3*03:04 protein complex	owl:Class
+MRO:0040865	SLA-DQA*03:01 protein complex	owl:Class
+MRO:0040866	SLA-1*18:02 protein complex	owl:Class
+MRO:0040867	SLA-2*05:04 protein complex	owl:Class
+MRO:0040868	SLA-DQA*01:01 protein complex	owl:Class
+MRO:0040869	SLA-3*05:07 protein complex	owl:Class
+MRO:0040870	SLA-2*08:03 protein complex	owl:Class
+MRO:0040871	SLA-DQB1*03:05 protein complex	owl:Class
+MRO:0040872	SLA-1*08:10 protein complex	owl:Class
+MRO:0040873	SLA-1*11:04 protein complex	owl:Class
+MRO:0040874	SLA-1*08:15 protein complex	owl:Class
+MRO:0040875	SLA-3*05:03 protein complex	owl:Class
+MRO:0040876	SLA-DRB1*08:04 protein complex	owl:Class
+MRO:0040877	SLA-1*21:02 protein complex	owl:Class
+MRO:0040878	SLA-DQA*02:03 protein complex	owl:Class
+MRO:0040879	SLA-DRB1*01:05 protein complex	owl:Class
+MRO:0040880	SLA-DRB1*10:08 protein complex	owl:Class
+MRO:0040881	SLA-DRB1*09:07 protein complex	owl:Class
+MRO:0040882	SLA-2*05:06 protein complex	owl:Class
+MRO:0040883	SLA-DQA*02:04 protein complex	owl:Class
+MRO:0040884	SLA-1*02:01 protein complex	owl:Class
+MRO:0040885	SLA-DRB1*11:08 protein complex	owl:Class
+MRO:0040886	SLA-2*08:06 protein complex	owl:Class
+MRO:0040887	SLA-DRB1*16:02 protein complex	owl:Class
+MRO:0040888	SLA-1*07:06 protein complex	owl:Class
+MRO:0040889	SLA-2*11:01 protein complex	owl:Class
+MRO:0040890	SLA-DRB1*12:05 protein complex	owl:Class
+MRO:0040891	SLA-DQB1*06:02 protein complex	owl:Class
+MRO:0040892	SLA-DQA*04:01 protein complex	owl:Class
+MRO:0040893	SLA-2*18:03 protein complex	owl:Class
+MRO:0040894	SLA-2*06:06 protein complex	owl:Class
+MRO:0040895	SLA-DRB1*10:03 protein complex	owl:Class
+MRO:0040896	SLA-2*04:06 protein complex	owl:Class
+MRO:0040897	SLA-3*03:09 protein complex	owl:Class
+MRO:0040898	SLA-1*16:03 protein complex	owl:Class
+MRO:0040899	SLA-DQB1*01:04 protein complex	owl:Class
+MRO:0040900	SLA-DQA*02:05 protein complex	owl:Class
+MRO:0040901	SLA-DRB1*01:03 protein complex	owl:Class
+MRO:0040902	SLA-2*11:02 protein complex	owl:Class
+MRO:0040903	SLA-DQB1*04:04 protein complex	owl:Class
+MRO:0040904	SLA-DQA*02:02 protein complex	owl:Class
+MRO:0040905	SLA-DQB1*08:01 protein complex	owl:Class
+MRO:0040906	SLA-DQB1*08:03 protein complex	owl:Class
+MRO:0040907	SLA-1*17:02 protein complex	owl:Class
+MRO:0040908	SLA-DQB1*03:02 protein complex	owl:Class
+MRO:0040909	SLA-DQB1*06:03 protein complex	owl:Class
+MRO:0040910	SLA-1*19:02 protein complex	owl:Class
+MRO:0040911	SLA-DRB3*03:01 protein complex	owl:Class
+MRO:0040912	SLA-1*06:01 protein complex	owl:Class
+MRO:0040913	SLA-DQB1*05:03 protein complex	owl:Class
+MRO:0040914	SLA-1*08:17 protein complex	owl:Class
+MRO:0040915	SLA-DQA*04:03 protein complex	owl:Class
+MRO:0040916	SLA-1*08:06 protein complex	owl:Class
+MRO:0040917	SLA-DRB1*02:06 protein complex	owl:Class
+MRO:0040918	SLA-DQB1*03:04 protein complex	owl:Class
+MRO:0040919	SLA-DRB1*02:02 protein complex	owl:Class
+MRO:0040920	SLA-2*10:05 protein complex	owl:Class
+MRO:0040921	SLA-DRB1*08:06 protein complex	owl:Class
+MRO:0040922	SLA-2*06:14 protein complex	owl:Class
+MRO:0040923	SLA-DRB1*03:01 protein complex	owl:Class
+MRO:0040924	SLA-DRA*02:02 protein complex	owl:Class
+MRO:0040925	SLA-3*07:01 protein complex	owl:Class
+MRO:0040926	SLA-DQA*06:01 protein complex	owl:Class
+MRO:0040927	SLA-1*13:02 protein complex	owl:Class
+MRO:0040928	SLA-2*08:05 protein complex	owl:Class
+MRO:0040929	SLA-6*09:01 protein complex	owl:Class
+MRO:0040930	SLA-1*08:11 protein complex	owl:Class
+MRO:0040931	SLA-2*04:07 protein complex	owl:Class
+MRO:0040932	SLA-1*17:01 protein complex	owl:Class
+MRO:0040933	SLA-1*11:03 protein complex	owl:Class
+MRO:0040934	SLA-DRB1*14:01 protein complex	owl:Class
+MRO:0040935	SLA-2*06:04 protein complex	owl:Class
+MRO:0040936	SLA-DRB1*05:02 protein complex	owl:Class
+MRO:0040937	SLA-DQB1*02:12 protein complex	owl:Class
+MRO:0040938	SLA-1*14:01 protein complex	owl:Class
+MRO:0040939	SLA-DRB1*09:03 protein complex	owl:Class
+MRO:0040940	SLA-DQB1*08:06 protein complex	owl:Class
+MRO:0040941	SLA-DRB1*02:03 protein complex	owl:Class
+MRO:0040942	SLA-2*04:03 protein complex	owl:Class
+MRO:0040943	SLA-2*09:03 protein complex	owl:Class
+MRO:0040944	SLA-1*08:12 protein complex	owl:Class
+MRO:0040945	SLA-2*06:15 protein complex	owl:Class
+MRO:0040946	SLA-1*23:01 protein complex	owl:Class
+MRO:0040947	SLA-2*08:02 protein complex	owl:Class
+MRO:0040948	SLA-DRB1*09:04 protein complex	owl:Class
+MRO:0040949	SLA-DRB1*17:01 protein complex	owl:Class
+MRO:0040950	SLA-2*15:01 protein complex	owl:Class
+MRO:0040951	SLA-2*16:02 protein complex	owl:Class
+MRO:0040952	SLA-2*06:13 protein complex	owl:Class
+MRO:0040953	SLA-DRB1*05:06 protein complex	owl:Class
+MRO:0040954	SLA-DRA*02:03 protein complex	owl:Class
+MRO:0040955	SLA-DRB1*04:05 protein complex	owl:Class
+MRO:0040956	SLA-DRB4*01:01 protein complex	owl:Class
+MRO:0040957	SLA-DRB1*14:03 protein complex	owl:Class
+MRO:0040958	SLA-DRB1*10:05 protein complex	owl:Class
+MRO:0040959	SLA-DRB1*01:04 protein complex	owl:Class
+MRO:0040960	SLA-DQB1*07:01 protein complex	owl:Class
+MRO:0040961	SLA-6*10:01 protein complex	owl:Class
+MRO:0040962	SLA-DRB1*15:01 protein complex	owl:Class
+MRO:0040963	SLA-DRB1*09:02 protein complex	owl:Class
+MRO:0040964	SLA-6*07:01 protein complex	owl:Class
+MRO:0040965	SLA-2*16:01 protein complex	owl:Class
+MRO:0040966	SLA-DQB1*10:02 protein complex	owl:Class
+MRO:0040967	SLA-6*04:01 protein complex	owl:Class
+MRO:0040968	SLA-3*03:01 protein complex	owl:Class
+MRO:0040969	SLA-DRB1*04:03 protein complex	owl:Class
+MRO:0040970	SLA-3*03:13 protein complex	owl:Class
+MRO:0040971	SLA-1*04:05 protein complex	owl:Class
+MRO:0040972	SLA-2*08:04 protein complex	owl:Class
+MRO:0040973	SLA-3*04:02 protein complex	owl:Class
+MRO:0040974	SLA-DQA locus	owl:Class
+MRO:0040975	SLA-DQB locus	owl:Class
+MRO:0040976	SLA-DQA chain	owl:Class
+MRO:0040977	SLA-DQB chain	owl:Class
+MRO:0040978	SLA-6 locus	owl:Class
+MRO:0040979	SLA-6 chain	owl:Class

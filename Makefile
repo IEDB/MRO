@@ -233,6 +233,10 @@ update-mamu-alleles: src/update_mamu_alleles.py ontology/chain-sequence.tsv onto
 update-patr-alleles: src/update_patr_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
+.PHONY: update-sla-alleles
+update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
+	python3 $^
+
 
 ### OWL Files
 

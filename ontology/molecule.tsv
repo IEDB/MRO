@@ -19622,35 +19622,433 @@ RT1-Dl protein complex	RT1-Dl		complete molecule	equivalent	MHC class II protein
 RT1-Dn protein complex	RT1-Dn		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Dn alpha chain	RT1-Dn beta chain	RT1-n haplotype	
 RT1-Du protein complex	RT1-Du		complete molecule	equivalent	MHC class II protein complex	rat	RT1-Du alpha chain	RT1-Du beta chain	RT1-u haplotype	
 SLA-1 protein complex	SLA-1		locus	equivalent	MHC class I protein complex	pig	SLA-1 chain	Beta-2-microglobulin		
+SLA-1*01:01 protein complex	SLA-1*01:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*01:01 chain	Beta-2-microglobulin
+SLA-1*01:02 protein complex	SLA-1*01:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*01:02 chain	Beta-2-microglobulin
+SLA-1*01:03 protein complex	SLA-1*01:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*01:03 chain	Beta-2-microglobulin
+SLA-1*02:01 protein complex	SLA-1*02:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*02:01 chain	Beta-2-microglobulin
+SLA-1*02:02 protein complex	SLA-1*02:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*02:02 chain	Beta-2-microglobulin
+SLA-1*02:03 protein complex	SLA-1*02:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*02:03 chain	Beta-2-microglobulin
 SLA-1*03:02 protein complex	SLA-1*03:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*03:02 chain	Beta-2-microglobulin		
 SLA-1*04:01 protein complex	SLA-1*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*04:01 chain	Beta-2-microglobulin		
+SLA-1*04:02 protein complex	SLA-1*04:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*04:02 chain	Beta-2-microglobulin
+SLA-1*04:03 protein complex	SLA-1*04:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*04:03 chain	Beta-2-microglobulin
+SLA-1*04:04 protein complex	SLA-1*04:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*04:04 chain	Beta-2-microglobulin
+SLA-1*04:05 protein complex	SLA-1*04:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*04:05 chain	Beta-2-microglobulin
+SLA-1*05:01 protein complex	SLA-1*05:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*05:01 chain	Beta-2-microglobulin
+SLA-1*06:01 protein complex	SLA-1*06:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*06:01 chain	Beta-2-microglobulin
+SLA-1*06:02 protein complex	SLA-1*06:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*06:02 chain	Beta-2-microglobulin
+SLA-1*07:01 protein complex	SLA-1*07:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:01 chain	Beta-2-microglobulin
 SLA-1*07:02 protein complex	SLA-1*07:02	SLA-1*0702, SLA-1*07ce08	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:02 chain	Beta-2-microglobulin		
+SLA-1*07:03 protein complex	SLA-1*07:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:03 chain	Beta-2-microglobulin
+SLA-1*07:04 protein complex	SLA-1*07:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:04 chain	Beta-2-microglobulin
+SLA-1*07:05 protein complex	SLA-1*07:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:05 chain	Beta-2-microglobulin
+SLA-1*07:06 protein complex	SLA-1*07:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:06 chain	Beta-2-microglobulin
+SLA-1*07:07 protein complex	SLA-1*07:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:07 chain	Beta-2-microglobulin
+SLA-1*07:08 protein complex	SLA-1*07:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*07:08 chain	Beta-2-microglobulin
 SLA-1*08:01 protein complex	SLA-1*08:01	SLA-1*0801	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:01 chain	Beta-2-microglobulin		
+SLA-1*08:02 protein complex	SLA-1*08:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:02 chain	Beta-2-microglobulin
+SLA-1*08:03 protein complex	SLA-1*08:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:03 chain	Beta-2-microglobulin
+SLA-1*08:04 protein complex	SLA-1*08:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:04 chain	Beta-2-microglobulin
+SLA-1*08:05 protein complex	SLA-1*08:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:05 chain	Beta-2-microglobulin
+SLA-1*08:06 protein complex	SLA-1*08:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:06 chain	Beta-2-microglobulin
+SLA-1*08:07 protein complex	SLA-1*08:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:07 chain	Beta-2-microglobulin
+SLA-1*08:08 protein complex	SLA-1*08:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:08 chain	Beta-2-microglobulin
 SLA-1*08:09 protein complex	SLA-1*08:09	SLA-1*0809	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:09 chain	Beta-2-microglobulin		
+SLA-1*08:10 protein complex	SLA-1*08:10		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:10 chain	Beta-2-microglobulin
+SLA-1*08:11 protein complex	SLA-1*08:11		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:11 chain	Beta-2-microglobulin
+SLA-1*08:12 protein complex	SLA-1*08:12		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:12 chain	Beta-2-microglobulin
+SLA-1*08:13 protein complex	SLA-1*08:13		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:13 chain	Beta-2-microglobulin
+SLA-1*08:14 protein complex	SLA-1*08:14		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:14 chain	Beta-2-microglobulin
+SLA-1*08:15 protein complex	SLA-1*08:15		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:15 chain	Beta-2-microglobulin
+SLA-1*08:16 protein complex	SLA-1*08:16		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:16 chain	Beta-2-microglobulin
+SLA-1*08:17 protein complex	SLA-1*08:17		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:17 chain	Beta-2-microglobulin
+SLA-1*08:18 protein complex	SLA-1*08:18		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*08:18 chain	Beta-2-microglobulin
+SLA-1*09:01 protein complex	SLA-1*09:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*09:01 chain	Beta-2-microglobulin
+SLA-1*09:02 protein complex	SLA-1*09:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*09:02 chain	Beta-2-microglobulin
+SLA-1*10:01 protein complex	SLA-1*10:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*10:01 chain	Beta-2-microglobulin
+SLA-1*10:02 protein complex	SLA-1*10:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*10:02 chain	Beta-2-microglobulin
 SLA-1*11:01 protein complex	SLA-1*11:01	SLA-1*1101	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:01 chain	Beta-2-microglobulin		
+SLA-1*11:02 protein complex	SLA-1*11:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:02 chain	Beta-2-microglobulin
+SLA-1*11:03 protein complex	SLA-1*11:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:03 chain	Beta-2-microglobulin
+SLA-1*11:04 protein complex	SLA-1*11:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:04 chain	Beta-2-microglobulin
+SLA-1*11:05 protein complex	SLA-1*11:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:05 chain	Beta-2-microglobulin
+SLA-1*11:06 protein complex	SLA-1*11:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:06 chain	Beta-2-microglobulin
+SLA-1*11:07 protein complex	SLA-1*11:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:07 chain	Beta-2-microglobulin
+SLA-1*11:08 protein complex	SLA-1*11:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:08 chain	Beta-2-microglobulin
+SLA-1*11:09 protein complex	SLA-1*11:09		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:09 chain	Beta-2-microglobulin
 SLA-1*11:10 protein complex	SLA-1*11:10	SLA-1*1110	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:10 chain	Beta-2-microglobulin		
+SLA-1*11:11 protein complex	SLA-1*11:11		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*11:11 chain	Beta-2-microglobulin
 SLA-1*12:01 protein complex	SLA-1*12:01	SLA-1*1201	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*12:01 chain	Beta-2-microglobulin		
+SLA-1*12:02 protein complex	SLA-1*12:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*12:02 chain	Beta-2-microglobulin
+SLA-1*12:03 protein complex	SLA-1*12:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*12:03 chain	Beta-2-microglobulin
 SLA-1*13:01 protein complex	SLA-1*13:01	SLA-1*1301	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*13:01 chain	Beta-2-microglobulin		
+SLA-1*13:02 protein complex	SLA-1*13:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*13:02 chain	Beta-2-microglobulin
+SLA-1*14:01 protein complex	SLA-1*14:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*14:01 chain	Beta-2-microglobulin
 SLA-1*14:02 protein complex	SLA-1*14:02	SLA-1*es11	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*14:02 chain	Beta-2-microglobulin		
+SLA-1*14:03 protein complex	SLA-1*14:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*14:03 chain	Beta-2-microglobulin
+SLA-1*14:04 protein complex	SLA-1*14:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*14:04 chain	Beta-2-microglobulin
+SLA-1*14:05 protein complex	SLA-1*14:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*14:05 chain	Beta-2-microglobulin
+SLA-1*15:01 protein complex	SLA-1*15:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*15:01 chain	Beta-2-microglobulin
 SLA-1*15:02 protein complex	SLA-1*15:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*15:02 chain	Beta-2-microglobulin		
+SLA-1*15:03 protein complex	SLA-1*15:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*15:03 chain	Beta-2-microglobulin
+SLA-1*16:01 protein complex	SLA-1*16:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*16:01 chain	Beta-2-microglobulin
+SLA-1*16:02 protein complex	SLA-1*16:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*16:02 chain	Beta-2-microglobulin
+SLA-1*16:03 protein complex	SLA-1*16:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*16:03 chain	Beta-2-microglobulin
+SLA-1*17:01 protein complex	SLA-1*17:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*17:01 chain	Beta-2-microglobulin
+SLA-1*17:02 protein complex	SLA-1*17:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*17:02 chain	Beta-2-microglobulin
+SLA-1*18:01 protein complex	SLA-1*18:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*18:01 chain	Beta-2-microglobulin
+SLA-1*18:02 protein complex	SLA-1*18:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*18:02 chain	Beta-2-microglobulin
+SLA-1*19:01 protein complex	SLA-1*19:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*19:01 chain	Beta-2-microglobulin
+SLA-1*19:02 protein complex	SLA-1*19:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*19:02 chain	Beta-2-microglobulin
+SLA-1*19:03 protein complex	SLA-1*19:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*19:03 chain	Beta-2-microglobulin
 SLA-1*20:01 protein complex	SLA-1*20:01	SLA-1*2001	complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*20:01 chain	Beta-2-microglobulin		
+SLA-1*20:02 protein complex	SLA-1*20:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*20:02 chain	Beta-2-microglobulin
+SLA-1*21:01 protein complex	SLA-1*21:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*21:01 chain	Beta-2-microglobulin
+SLA-1*21:02 protein complex	SLA-1*21:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*21:02 chain	Beta-2-microglobulin
+SLA-1*21:03 protein complex	SLA-1*21:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*21:03 chain	Beta-2-microglobulin
+SLA-1*22:01 protein complex	SLA-1*22:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*22:01 chain	Beta-2-microglobulin
+SLA-1*23:01 protein complex	SLA-1*23:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*23:01 chain	Beta-2-microglobulin
+SLA-1*23:02 protein complex	SLA-1*23:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*23:02 chain	Beta-2-microglobulin
+SLA-1*23:03 protein complex	SLA-1*23:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*23:03 chain	Beta-2-microglobulin
+SLA-1*23:04 protein complex	SLA-1*23:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-1*23:04 chain	Beta-2-microglobulin
 SLA-2 protein complex	SLA-2		locus	equivalent	MHC class I protein complex	pig	SLA-2 chain	Beta-2-microglobulin		
+SLA-2*01:01 protein complex	SLA-2*01:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*01:01 chain	Beta-2-microglobulin
+SLA-2*01:02 protein complex	SLA-2*01:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*01:02 chain	Beta-2-microglobulin
+SLA-2*01:03 protein complex	SLA-2*01:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*01:03 chain	Beta-2-microglobulin
 SLA-2*01:06 protein complex	SLA-2*01:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*01:06 chain	Beta-2-microglobulin		
+SLA-2*02:01 protein complex	SLA-2*02:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*02:01 chain	Beta-2-microglobulin
 SLA-2*02:02 protein complex	SLA-2*02:02	SLA-2*0202	complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*02:02 chain	Beta-2-microglobulin		
+SLA-2*02:03 protein complex	SLA-2*02:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*02:03 chain	Beta-2-microglobulin
+SLA-2*02:04 protein complex	SLA-2*02:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*02:04 chain	Beta-2-microglobulin
+SLA-2*02:05 protein complex	SLA-2*02:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*02:05 chain	Beta-2-microglobulin
+SLA-2*03:01 protein complex	SLA-2*03:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*03:01 chain	Beta-2-microglobulin
+SLA-2*03:02 protein complex	SLA-2*03:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*03:02 chain	Beta-2-microglobulin
+SLA-2*03:03 protein complex	SLA-2*03:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*03:03 chain	Beta-2-microglobulin
 SLA-2*04:01 protein complex	SLA-2*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:01 chain	Beta-2-microglobulin		
 SLA-2*04:02 protein complex	SLA-2*04:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:02 chain	Beta-2-microglobulin		
+SLA-2*04:03 protein complex	SLA-2*04:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:03 chain	Beta-2-microglobulin
+SLA-2*04:04 protein complex	SLA-2*04:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:04 chain	Beta-2-microglobulin
+SLA-2*04:05 protein complex	SLA-2*04:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:05 chain	Beta-2-microglobulin
+SLA-2*04:06 protein complex	SLA-2*04:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:06 chain	Beta-2-microglobulin
+SLA-2*04:07 protein complex	SLA-2*04:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:07 chain	Beta-2-microglobulin
+SLA-2*04:08 protein complex	SLA-2*04:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:08 chain	Beta-2-microglobulin
+SLA-2*04:09 protein complex	SLA-2*04:09		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*04:09 chain	Beta-2-microglobulin
+SLA-2*05:01 protein complex	SLA-2*05:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:01 chain	Beta-2-microglobulin
 SLA-2*05:02 protein complex	SLA-2*05:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:02 chain	Beta-2-microglobulin		
+SLA-2*05:03 protein complex	SLA-2*05:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:03 chain	Beta-2-microglobulin
+SLA-2*05:04 protein complex	SLA-2*05:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:04 chain	Beta-2-microglobulin
+SLA-2*05:05 protein complex	SLA-2*05:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:05 chain	Beta-2-microglobulin
+SLA-2*05:06 protein complex	SLA-2*05:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:06 chain	Beta-2-microglobulin
+SLA-2*05:07 protein complex	SLA-2*05:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:07 chain	Beta-2-microglobulin
+SLA-2*05:08 protein complex	SLA-2*05:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:08 chain	Beta-2-microglobulin
+SLA-2*05:09 protein complex	SLA-2*05:09		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*05:09 chain	Beta-2-microglobulin
+SLA-2*06:01 protein complex	SLA-2*06:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:01 chain	Beta-2-microglobulin
+SLA-2*06:02 protein complex	SLA-2*06:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:02 chain	Beta-2-microglobulin
+SLA-2*06:03 protein complex	SLA-2*06:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:03 chain	Beta-2-microglobulin
+SLA-2*06:04 protein complex	SLA-2*06:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:04 chain	Beta-2-microglobulin
+SLA-2*06:05 protein complex	SLA-2*06:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:05 chain	Beta-2-microglobulin
+SLA-2*06:06 protein complex	SLA-2*06:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:06 chain	Beta-2-microglobulin
+SLA-2*06:07 protein complex	SLA-2*06:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:07 chain	Beta-2-microglobulin
+SLA-2*06:08 protein complex	SLA-2*06:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:08 chain	Beta-2-microglobulin
+SLA-2*06:09 protein complex	SLA-2*06:09		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:09 chain	Beta-2-microglobulin
+SLA-2*06:10 protein complex	SLA-2*06:10		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:10 chain	Beta-2-microglobulin
+SLA-2*06:11 protein complex	SLA-2*06:11		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:11 chain	Beta-2-microglobulin
+SLA-2*06:12 protein complex	SLA-2*06:12		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:12 chain	Beta-2-microglobulin
+SLA-2*06:13 protein complex	SLA-2*06:13		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:13 chain	Beta-2-microglobulin
+SLA-2*06:14 protein complex	SLA-2*06:14		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:14 chain	Beta-2-microglobulin
+SLA-2*06:15 protein complex	SLA-2*06:15		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:15 chain	Beta-2-microglobulin
+SLA-2*06:16 protein complex	SLA-2*06:16		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*06:16 chain	Beta-2-microglobulin
+SLA-2*07:01 protein complex	SLA-2*07:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*07:01 chain	Beta-2-microglobulin
+SLA-2*07:02 protein complex	SLA-2*07:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*07:02 chain	Beta-2-microglobulin
+SLA-2*07:03 protein complex	SLA-2*07:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*07:03 chain	Beta-2-microglobulin
+SLA-2*07:04 protein complex	SLA-2*07:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*07:04 chain	Beta-2-microglobulin
+SLA-2*07:05 protein complex	SLA-2*07:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*07:05 chain	Beta-2-microglobulin
+SLA-2*07:06 protein complex	SLA-2*07:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*07:06 chain	Beta-2-microglobulin
+SLA-2*08:01 protein complex	SLA-2*08:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:01 chain	Beta-2-microglobulin
+SLA-2*08:02 protein complex	SLA-2*08:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:02 chain	Beta-2-microglobulin
+SLA-2*08:03 protein complex	SLA-2*08:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:03 chain	Beta-2-microglobulin
+SLA-2*08:04 protein complex	SLA-2*08:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:04 chain	Beta-2-microglobulin
+SLA-2*08:05 protein complex	SLA-2*08:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:05 chain	Beta-2-microglobulin
+SLA-2*08:06 protein complex	SLA-2*08:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:06 chain	Beta-2-microglobulin
+SLA-2*08:07 protein complex	SLA-2*08:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*08:07 chain	Beta-2-microglobulin
+SLA-2*09:01 protein complex	SLA-2*09:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*09:01 chain	Beta-2-microglobulin
+SLA-2*09:02 protein complex	SLA-2*09:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*09:02 chain	Beta-2-microglobulin
+SLA-2*09:03 protein complex	SLA-2*09:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*09:03 chain	Beta-2-microglobulin
+SLA-2*09:04 protein complex	SLA-2*09:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*09:04 chain	Beta-2-microglobulin
+SLA-2*09:06 protein complex	SLA-2*09:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*09:06 chain	Beta-2-microglobulin
+SLA-2*10:01 protein complex	SLA-2*10:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:01 chain	Beta-2-microglobulin
+SLA-2*10:02 protein complex	SLA-2*10:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:02 chain	Beta-2-microglobulin
+SLA-2*10:03 protein complex	SLA-2*10:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:03 chain	Beta-2-microglobulin
+SLA-2*10:04 protein complex	SLA-2*10:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:04 chain	Beta-2-microglobulin
+SLA-2*10:05 protein complex	SLA-2*10:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:05 chain	Beta-2-microglobulin
+SLA-2*10:06 protein complex	SLA-2*10:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:06 chain	Beta-2-microglobulin
+SLA-2*10:07 protein complex	SLA-2*10:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:07 chain	Beta-2-microglobulin
+SLA-2*10:08 protein complex	SLA-2*10:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:08 chain	Beta-2-microglobulin
+SLA-2*10:09 protein complex	SLA-2*10:09		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*10:09 chain	Beta-2-microglobulin
+SLA-2*11:01 protein complex	SLA-2*11:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:01 chain	Beta-2-microglobulin
+SLA-2*11:02 protein complex	SLA-2*11:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:02 chain	Beta-2-microglobulin
+SLA-2*11:03 protein complex	SLA-2*11:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:03 chain	Beta-2-microglobulin
 SLA-2*11:04 protein complex	SLA-2*11:04	Topigs|SLA-1*es22	complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:04 chain	Beta-2-microglobulin		
+SLA-2*11:05 protein complex	SLA-2*11:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*11:05 chain	Beta-2-microglobulin
+SLA-2*12:01 protein complex	SLA-2*12:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*12:01 chain	Beta-2-microglobulin
+SLA-2*12:02 protein complex	SLA-2*12:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*12:02 chain	Beta-2-microglobulin
+SLA-2*13:01 protein complex	SLA-2*13:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*13:01 chain	Beta-2-microglobulin
+SLA-2*13:02 protein complex	SLA-2*13:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*13:02 chain	Beta-2-microglobulin
+SLA-2*13:03 protein complex	SLA-2*13:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*13:03 chain	Beta-2-microglobulin
+SLA-2*14:01 protein complex	SLA-2*14:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*14:01 chain	Beta-2-microglobulin
+SLA-2*15:01 protein complex	SLA-2*15:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*15:01 chain	Beta-2-microglobulin
+SLA-2*16:01 protein complex	SLA-2*16:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*16:01 chain	Beta-2-microglobulin
+SLA-2*16:02 protein complex	SLA-2*16:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*16:02 chain	Beta-2-microglobulin
+SLA-2*16:03 protein complex	SLA-2*16:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*16:03 chain	Beta-2-microglobulin
+SLA-2*17:01 protein complex	SLA-2*17:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*17:01 chain	Beta-2-microglobulin
+SLA-2*18:01 protein complex	SLA-2*18:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*18:01 chain	Beta-2-microglobulin
+SLA-2*18:02 protein complex	SLA-2*18:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*18:02 chain	Beta-2-microglobulin
+SLA-2*18:03 protein complex	SLA-2*18:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*18:03 chain	Beta-2-microglobulin
+SLA-2*19:01 protein complex	SLA-2*19:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*19:01 chain	Beta-2-microglobulin
+SLA-2*20:01 protein complex	SLA-2*20:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-2*20:01 chain	Beta-2-microglobulin
 SLA-3 protein complex	SLA-3		locus	equivalent	MHC class I protein complex	pig	SLA-3 chain	Beta-2-microglobulin		
+SLA-3*01:01 protein complex	SLA-3*01:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*01:01 chain	Beta-2-microglobulin
+SLA-3*01:02 protein complex	SLA-3*01:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*01:02 chain	Beta-2-microglobulin
+SLA-3*01:03 protein complex	SLA-3*01:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*01:03 chain	Beta-2-microglobulin
+SLA-3*01:04 protein complex	SLA-3*01:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*01:04 chain	Beta-2-microglobulin
 SLA-3*02:02 protein complex	SLA-3*02:02	SLA-3*hs0202	complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*02:02 chain	Beta-2-microglobulin		
+SLA-3*03:01 protein complex	SLA-3*03:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:01 chain	Beta-2-microglobulin
+SLA-3*03:02 protein complex	SLA-3*03:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:02 chain	Beta-2-microglobulin
+SLA-3*03:03 protein complex	SLA-3*03:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:03 chain	Beta-2-microglobulin
+SLA-3*03:04 protein complex	SLA-3*03:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:04 chain	Beta-2-microglobulin
+SLA-3*03:05 protein complex	SLA-3*03:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:05 chain	Beta-2-microglobulin
+SLA-3*03:06 protein complex	SLA-3*03:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:06 chain	Beta-2-microglobulin
+SLA-3*03:07 protein complex	SLA-3*03:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:07 chain	Beta-2-microglobulin
+SLA-3*03:08 protein complex	SLA-3*03:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:08 chain	Beta-2-microglobulin
+SLA-3*03:09 protein complex	SLA-3*03:09		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:09 chain	Beta-2-microglobulin
+SLA-3*03:10 protein complex	SLA-3*03:10		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:10 chain	Beta-2-microglobulin
+SLA-3*03:11 protein complex	SLA-3*03:11		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:11 chain	Beta-2-microglobulin
+SLA-3*03:12 protein complex	SLA-3*03:12		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:12 chain	Beta-2-microglobulin
+SLA-3*03:13 protein complex	SLA-3*03:13		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*03:13 chain	Beta-2-microglobulin
 SLA-3*04:01 protein complex	SLA-3*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:01 chain	Beta-2-microglobulin		
+SLA-3*04:02 protein complex	SLA-3*04:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:02 chain	Beta-2-microglobulin
+SLA-3*04:03 protein complex	SLA-3*04:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:03 chain	Beta-2-microglobulin
+SLA-3*04:04 protein complex	SLA-3*04:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:04 chain	Beta-2-microglobulin
+SLA-3*04:05 protein complex	SLA-3*04:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:05 chain	Beta-2-microglobulin
+SLA-3*04:06 protein complex	SLA-3*04:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:06 chain	Beta-2-microglobulin
+SLA-3*04:07 protein complex	SLA-3*04:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:07 chain	Beta-2-microglobulin
+SLA-3*04:08 protein complex	SLA-3*04:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*04:08 chain	Beta-2-microglobulin
+SLA-3*05:01 protein complex	SLA-3*05:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:01 chain	Beta-2-microglobulin
 SLA-3*05:02 protein complex	SLA-3*05:02	SLA-3*0502	complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:02 chain	Beta-2-microglobulin		
+SLA-3*05:03 protein complex	SLA-3*05:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:03 chain	Beta-2-microglobulin
+SLA-3*05:04 protein complex	SLA-3*05:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:04 chain	Beta-2-microglobulin
+SLA-3*05:05 protein complex	SLA-3*05:05		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:05 chain	Beta-2-microglobulin
+SLA-3*05:06 protein complex	SLA-3*05:06		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:06 chain	Beta-2-microglobulin
+SLA-3*05:07 protein complex	SLA-3*05:07		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:07 chain	Beta-2-microglobulin
+SLA-3*05:08 protein complex	SLA-3*05:08		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*05:08 chain	Beta-2-microglobulin
+SLA-3*06:01 protein complex	SLA-3*06:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*06:01 chain	Beta-2-microglobulin
+SLA-3*06:02 protein complex	SLA-3*06:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*06:02 chain	Beta-2-microglobulin
+SLA-3*06:03 protein complex	SLA-3*06:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*06:03 chain	Beta-2-microglobulin
+SLA-3*06:04 protein complex	SLA-3*06:04		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*06:04 chain	Beta-2-microglobulin
+SLA-3*07:01 protein complex	SLA-3*07:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*07:01 chain	Beta-2-microglobulin
+SLA-3*07:02 protein complex	SLA-3*07:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*07:02 chain	Beta-2-microglobulin
+SLA-3*07:03 protein complex	SLA-3*07:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*07:03 chain	Beta-2-microglobulin
+SLA-3*08:01 protein complex	SLA-3*08:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*08:01 chain	Beta-2-microglobulin
+SLA-6*01:01 protein complex	SLA-6*01:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*01:01 chain	Beta-2-microglobulin
+SLA-6*02:01 protein complex	SLA-6*02:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*02:01 chain	Beta-2-microglobulin
+SLA-6*03:01 protein complex	SLA-6*03:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*03:01 chain	Beta-2-microglobulin
+SLA-6*04:01 protein complex	SLA-6*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*04:01 chain	Beta-2-microglobulin
+SLA-6*05:01 protein complex	SLA-6*05:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*05:01 chain	Beta-2-microglobulin
+SLA-6*06:01 protein complex	SLA-6*06:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*06:01 chain	Beta-2-microglobulin
+SLA-6*07:01 protein complex	SLA-6*07:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*07:01 chain	Beta-2-microglobulin
+SLA-6*08:01 protein complex	SLA-6*08:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*08:01 chain	Beta-2-microglobulin
+SLA-6*09:01 protein complex	SLA-6*09:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*09:01 chain	Beta-2-microglobulin
+SLA-6*10:01 protein complex	SLA-6*10:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*10:01 chain	Beta-2-microglobulin
+SLA-DQA*01:01 protein complex	SLA-DQA*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:01 chain	SLA-DQB chain
+SLA-DQA*01:02 protein complex	SLA-DQA*01:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:02 chain	SLA-DQB chain
+SLA-DQA*01:03 protein complex	SLA-DQA*01:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:03 chain	SLA-DQB chain
+SLA-DQA*01:04 protein complex	SLA-DQA*01:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:04 chain	SLA-DQB chain
+SLA-DQA*01:05 protein complex	SLA-DQA*01:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:05 chain	SLA-DQB chain
+SLA-DQA*01:06 protein complex	SLA-DQA*01:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:06 chain	SLA-DQB chain
+SLA-DQA*01:07 protein complex	SLA-DQA*01:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:07 chain	SLA-DQB chain
+SLA-DQA*01:08 protein complex	SLA-DQA*01:08		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:08 chain	SLA-DQB chain
+SLA-DQA*01:09 protein complex	SLA-DQA*01:09		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:09 chain	SLA-DQB chain
+SLA-DQA*02:01 protein complex	SLA-DQA*02:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:01 chain	SLA-DQB chain
+SLA-DQA*02:02 protein complex	SLA-DQA*02:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:02 chain	SLA-DQB chain
+SLA-DQA*02:03 protein complex	SLA-DQA*02:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:03 chain	SLA-DQB chain
+SLA-DQA*02:04 protein complex	SLA-DQA*02:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:04 chain	SLA-DQB chain
+SLA-DQA*02:05 protein complex	SLA-DQA*02:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:05 chain	SLA-DQB chain
+SLA-DQA*02:06 protein complex	SLA-DQA*02:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:06 chain	SLA-DQB chain
+SLA-DQA*02:07 protein complex	SLA-DQA*02:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*02:07 chain	SLA-DQB chain
+SLA-DQA*03:01 protein complex	SLA-DQA*03:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*03:01 chain	SLA-DQB chain
+SLA-DQA*03:02 protein complex	SLA-DQA*03:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*03:02 chain	SLA-DQB chain
+SLA-DQA*03:03 protein complex	SLA-DQA*03:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*03:03 chain	SLA-DQB chain
+SLA-DQA*04:01 protein complex	SLA-DQA*04:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*04:01 chain	SLA-DQB chain
+SLA-DQA*04:02 protein complex	SLA-DQA*04:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*04:02 chain	SLA-DQB chain
+SLA-DQA*04:03 protein complex	SLA-DQA*04:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*04:03 chain	SLA-DQB chain
+SLA-DQA*05:01 protein complex	SLA-DQA*05:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*05:01 chain	SLA-DQB chain
+SLA-DQA*06:01 protein complex	SLA-DQA*06:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*06:01 chain	SLA-DQB chain
+SLA-DQB1*01:01 protein complex	SLA-DQB1*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*01:01 chain
+SLA-DQB1*01:02 protein complex	SLA-DQB1*01:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*01:02 chain
+SLA-DQB1*01:03 protein complex	SLA-DQB1*01:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*01:03 chain
+SLA-DQB1*01:04 protein complex	SLA-DQB1*01:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*01:04 chain
+SLA-DQB1*01:05 protein complex	SLA-DQB1*01:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*01:05 chain
+SLA-DQB1*01:06 protein complex	SLA-DQB1*01:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*01:06 chain
+SLA-DQB1*02:01 protein complex	SLA-DQB1*02:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:01 chain
+SLA-DQB1*02:02 protein complex	SLA-DQB1*02:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:02 chain
+SLA-DQB1*02:03 protein complex	SLA-DQB1*02:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:03 chain
+SLA-DQB1*02:04 protein complex	SLA-DQB1*02:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:04 chain
+SLA-DQB1*02:05 protein complex	SLA-DQB1*02:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:05 chain
+SLA-DQB1*02:06 protein complex	SLA-DQB1*02:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:06 chain
+SLA-DQB1*02:07 protein complex	SLA-DQB1*02:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:07 chain
+SLA-DQB1*02:08 protein complex	SLA-DQB1*02:08		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:08 chain
+SLA-DQB1*02:09 protein complex	SLA-DQB1*02:09		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:09 chain
+SLA-DQB1*02:10 protein complex	SLA-DQB1*02:10		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:10 chain
+SLA-DQB1*02:11 protein complex	SLA-DQB1*02:11		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:11 chain
+SLA-DQB1*02:12 protein complex	SLA-DQB1*02:12		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*02:12 chain
+SLA-DQB1*03:01 protein complex	SLA-DQB1*03:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*03:01 chain
+SLA-DQB1*03:02 protein complex	SLA-DQB1*03:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*03:02 chain
+SLA-DQB1*03:03 protein complex	SLA-DQB1*03:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*03:03 chain
+SLA-DQB1*03:04 protein complex	SLA-DQB1*03:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*03:04 chain
+SLA-DQB1*03:05 protein complex	SLA-DQB1*03:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*03:05 chain
+SLA-DQB1*04:01 protein complex	SLA-DQB1*04:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*04:01 chain
+SLA-DQB1*04:02 protein complex	SLA-DQB1*04:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*04:02 chain
+SLA-DQB1*04:03 protein complex	SLA-DQB1*04:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*04:03 chain
+SLA-DQB1*04:04 protein complex	SLA-DQB1*04:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*04:04 chain
+SLA-DQB1*04:05 protein complex	SLA-DQB1*04:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*04:05 chain
+SLA-DQB1*05:01 protein complex	SLA-DQB1*05:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*05:01 chain
+SLA-DQB1*05:02 protein complex	SLA-DQB1*05:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*05:02 chain
+SLA-DQB1*05:03 protein complex	SLA-DQB1*05:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*05:03 chain
+SLA-DQB1*05:04 protein complex	SLA-DQB1*05:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*05:04 chain
+SLA-DQB1*06:01 protein complex	SLA-DQB1*06:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*06:01 chain
+SLA-DQB1*06:02 protein complex	SLA-DQB1*06:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*06:02 chain
+SLA-DQB1*06:03 protein complex	SLA-DQB1*06:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*06:03 chain
+SLA-DQB1*07:01 protein complex	SLA-DQB1*07:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*07:01 chain
+SLA-DQB1*07:02 protein complex	SLA-DQB1*07:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*07:02 chain
+SLA-DQB1*08:01 protein complex	SLA-DQB1*08:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*08:01 chain
+SLA-DQB1*08:02 protein complex	SLA-DQB1*08:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*08:02 chain
+SLA-DQB1*08:03 protein complex	SLA-DQB1*08:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*08:03 chain
+SLA-DQB1*08:04 protein complex	SLA-DQB1*08:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*08:04 chain
+SLA-DQB1*08:05 protein complex	SLA-DQB1*08:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*08:05 chain
+SLA-DQB1*08:06 protein complex	SLA-DQB1*08:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*08:06 chain
+SLA-DQB1*09:01 protein complex	SLA-DQB1*09:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*09:01 chain
+SLA-DQB1*09:02 protein complex	SLA-DQB1*09:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*09:02 chain
+SLA-DQB1*10:01 protein complex	SLA-DQB1*10:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*10:01 chain
+SLA-DQB1*10:02 protein complex	SLA-DQB1*10:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*10:02 chain
+SLA-DQB1*11:01 protein complex	SLA-DQB1*11:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB1*11:01 chain
 SLA-DR protein complex	SLA-DR		locus	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB chain		
+SLA-DRA*01:01 protein complex	SLA-DRA*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA*01:01 chain	SLA-DRB chain
+SLA-DRA*02:01 protein complex	SLA-DRA*02:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA*02:01 chain	SLA-DRB chain
+SLA-DRA*02:02 protein complex	SLA-DRA*02:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA*02:02 chain	SLA-DRB chain
+SLA-DRA*02:03 protein complex	SLA-DRA*02:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA*02:03 chain	SLA-DRB chain
+SLA-DRA*03:01 protein complex	SLA-DRA*03:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA*03:01 chain	SLA-DRB chain
+SLA-DRA*04:01 protein complex	SLA-DRA*04:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA*04:01 chain	SLA-DRB chain
+SLA-DRB1*01:01 protein complex	SLA-DRB1*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*01:01 chain
+SLA-DRB1*01:02 protein complex	SLA-DRB1*01:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*01:02 chain
+SLA-DRB1*01:03 protein complex	SLA-DRB1*01:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*01:03 chain
+SLA-DRB1*01:04 protein complex	SLA-DRB1*01:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*01:04 chain
+SLA-DRB1*01:05 protein complex	SLA-DRB1*01:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*01:05 chain
 SLA-DRB1*02:01 protein complex	SLA-DRB1*02:01	SLA-DRB1*0201	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:01 chain		
+SLA-DRB1*02:02 protein complex	SLA-DRB1*02:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:02 chain
+SLA-DRB1*02:03 protein complex	SLA-DRB1*02:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:03 chain
+SLA-DRB1*02:04 protein complex	SLA-DRB1*02:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:04 chain
+SLA-DRB1*02:05 protein complex	SLA-DRB1*02:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:05 chain
+SLA-DRB1*02:06 protein complex	SLA-DRB1*02:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:06 chain
+SLA-DRB1*02:07 protein complex	SLA-DRB1*02:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:07 chain
+SLA-DRB1*02:08 protein complex	SLA-DRB1*02:08		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:08 chain
+SLA-DRB1*02:09 protein complex	SLA-DRB1*02:09		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:09 chain
+SLA-DRB1*02:10 protein complex	SLA-DRB1*02:10		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:10 chain
+SLA-DRB1*02:11 protein complex	SLA-DRB1*02:11		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*02:11 chain
+SLA-DRB1*03:01 protein complex	SLA-DRB1*03:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*03:01 chain
+SLA-DRB1*03:02 protein complex	SLA-DRB1*03:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*03:02 chain
+SLA-DRB1*04:01 protein complex	SLA-DRB1*04:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:01 chain
 SLA-DRB1*04:02 protein complex	SLA-DRB1*04:02	SLA-DRB1*0402	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:02 chain		
+SLA-DRB1*04:03 protein complex	SLA-DRB1*04:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:03 chain
+SLA-DRB1*04:04 protein complex	SLA-DRB1*04:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:04 chain
+SLA-DRB1*04:05 protein complex	SLA-DRB1*04:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:05 chain
+SLA-DRB1*04:06 protein complex	SLA-DRB1*04:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:06 chain
+SLA-DRB1*04:07 protein complex	SLA-DRB1*04:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:07 chain
+SLA-DRB1*04:08 protein complex	SLA-DRB1*04:08		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:08 chain
+SLA-DRB1*04:09 protein complex	SLA-DRB1*04:09		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:09 chain
+SLA-DRB1*04:10 protein complex	SLA-DRB1*04:10		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:10 chain
+SLA-DRB1*04:11 protein complex	SLA-DRB1*04:11		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*04:11 chain
+SLA-DRB1*05:01 protein complex	SLA-DRB1*05:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:01 chain
+SLA-DRB1*05:02 protein complex	SLA-DRB1*05:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:02 chain
+SLA-DRB1*05:03 protein complex	SLA-DRB1*05:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:03 chain
+SLA-DRB1*05:04 protein complex	SLA-DRB1*05:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:04 chain
+SLA-DRB1*05:05 protein complex	SLA-DRB1*05:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:05 chain
+SLA-DRB1*05:06 protein complex	SLA-DRB1*05:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:06 chain
+SLA-DRB1*05:07 protein complex	SLA-DRB1*05:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*05:07 chain
 SLA-DRB1*06:01 protein complex	SLA-DRB1*06:01	SLA-DRB1*0601	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:01 chain		
 SLA-DRB1*06:02 protein complex	SLA-DRB1*06:02	SLA-DRB1*0602	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:02 chain		
+SLA-DRB1*06:03 protein complex	SLA-DRB1*06:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:03 chain
+SLA-DRB1*06:04 protein complex	SLA-DRB1*06:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:04 chain
+SLA-DRB1*06:05 protein complex	SLA-DRB1*06:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:05 chain
+SLA-DRB1*06:06 protein complex	SLA-DRB1*06:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:06 chain
+SLA-DRB1*06:07 protein complex	SLA-DRB1*06:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*06:07 chain
+SLA-DRB1*07:01 protein complex	SLA-DRB1*07:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*07:01 chain
+SLA-DRB1*07:02 protein complex	SLA-DRB1*07:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*07:02 chain
+SLA-DRB1*07:03 protein complex	SLA-DRB1*07:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*07:03 chain
+SLA-DRB1*07:04 protein complex	SLA-DRB1*07:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*07:04 chain
+SLA-DRB1*08:01 protein complex	SLA-DRB1*08:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*08:01 chain
+SLA-DRB1*08:02 protein complex	SLA-DRB1*08:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*08:02 chain
+SLA-DRB1*08:03 protein complex	SLA-DRB1*08:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*08:03 chain
+SLA-DRB1*08:04 protein complex	SLA-DRB1*08:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*08:04 chain
+SLA-DRB1*08:05 protein complex	SLA-DRB1*08:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*08:05 chain
+SLA-DRB1*08:06 protein complex	SLA-DRB1*08:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*08:06 chain
+SLA-DRB1*09:01 protein complex	SLA-DRB1*09:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:01 chain
+SLA-DRB1*09:02 protein complex	SLA-DRB1*09:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:02 chain
+SLA-DRB1*09:03 protein complex	SLA-DRB1*09:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:03 chain
+SLA-DRB1*09:04 protein complex	SLA-DRB1*09:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:04 chain
+SLA-DRB1*09:05 protein complex	SLA-DRB1*09:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:05 chain
+SLA-DRB1*09:06 protein complex	SLA-DRB1*09:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:06 chain
+SLA-DRB1*09:07 protein complex	SLA-DRB1*09:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*09:07 chain
 SLA-DRB1*10:01 protein complex	SLA-DRB1*10:01	SLA-DRB1*1001	partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:01 chain		
+SLA-DRB1*10:02 protein complex	SLA-DRB1*10:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:02 chain
+SLA-DRB1*10:03 protein complex	SLA-DRB1*10:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:03 chain
+SLA-DRB1*10:04 protein complex	SLA-DRB1*10:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:04 chain
+SLA-DRB1*10:05 protein complex	SLA-DRB1*10:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:05 chain
+SLA-DRB1*10:06 protein complex	SLA-DRB1*10:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:06 chain
+SLA-DRB1*10:07 protein complex	SLA-DRB1*10:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:07 chain
+SLA-DRB1*10:08 protein complex	SLA-DRB1*10:08		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*10:08 chain
+SLA-DRB1*11:01 protein complex	SLA-DRB1*11:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:01 chain
+SLA-DRB1*11:02 protein complex	SLA-DRB1*11:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:02 chain
+SLA-DRB1*11:03 protein complex	SLA-DRB1*11:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:03 chain
+SLA-DRB1*11:04 protein complex	SLA-DRB1*11:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:04 chain
+SLA-DRB1*11:05 protein complex	SLA-DRB1*11:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:05 chain
+SLA-DRB1*11:06 protein complex	SLA-DRB1*11:06		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:06 chain
+SLA-DRB1*11:07 protein complex	SLA-DRB1*11:07		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:07 chain
+SLA-DRB1*11:08 protein complex	SLA-DRB1*11:08		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:08 chain
+SLA-DRB1*11:09 protein complex	SLA-DRB1*11:09		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*11:09 chain
+SLA-DRB1*12:01 protein complex	SLA-DRB1*12:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*12:01 chain
+SLA-DRB1*12:02 protein complex	SLA-DRB1*12:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*12:02 chain
+SLA-DRB1*12:03 protein complex	SLA-DRB1*12:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*12:03 chain
+SLA-DRB1*12:05 protein complex	SLA-DRB1*12:05		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*12:05 chain
+SLA-DRB1*13:01 protein complex	SLA-DRB1*13:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*13:01 chain
+SLA-DRB1*13:02 protein complex	SLA-DRB1*13:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*13:02 chain
+SLA-DRB1*14:01 protein complex	SLA-DRB1*14:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*14:01 chain
+SLA-DRB1*14:02 protein complex	SLA-DRB1*14:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*14:02 chain
+SLA-DRB1*14:03 protein complex	SLA-DRB1*14:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*14:03 chain
+SLA-DRB1*14:04 protein complex	SLA-DRB1*14:04		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*14:04 chain
+SLA-DRB1*15:01 protein complex	SLA-DRB1*15:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*15:01 chain
+SLA-DRB1*16:01 protein complex	SLA-DRB1*16:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*16:01 chain
+SLA-DRB1*16:02 protein complex	SLA-DRB1*16:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*16:02 chain
+SLA-DRB1*16:03 protein complex	SLA-DRB1*16:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*16:03 chain
+SLA-DRB1*17:01 protein complex	SLA-DRB1*17:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB1*17:01 chain
+SLA-DRB2*01:01 protein complex	SLA-DRB2*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*01:01 chain
+SLA-DRB2*02:01 protein complex	SLA-DRB2*02:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*02:01 chain
+SLA-DRB2*03:01 protein complex	SLA-DRB2*03:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*03:01 chain
+SLA-DRB2*04:01 protein complex	SLA-DRB2*04:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*04:01 chain
+SLA-DRB2*05:01 protein complex	SLA-DRB2*05:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*05:01 chain
+SLA-DRB2*06:01 protein complex	SLA-DRB2*06:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*06:01 chain
+SLA-DRB2*07:01 protein complex	SLA-DRB2*07:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*07:01 chain
+SLA-DRB2*08:01 protein complex	SLA-DRB2*08:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*08:01 chain
+SLA-DRB2*09:01 protein complex	SLA-DRB2*09:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*09:01 chain
+SLA-DRB2*10:01 protein complex	SLA-DRB2*10:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*10:01 chain
+SLA-DRB2*11:01 protein complex	SLA-DRB2*11:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*11:01 chain
+SLA-DRB2*12:01 protein complex	SLA-DRB2*12:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB2*12:01 chain
+SLA-DRB3*01:01 protein complex	SLA-DRB3*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB3*01:01 chain
+SLA-DRB3*02:01 protein complex	SLA-DRB3*02:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB3*02:01 chain
+SLA-DRB3*03:01 protein complex	SLA-DRB3*03:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB3*03:01 chain
+SLA-DRB3*04:01 protein complex	SLA-DRB3*04:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB3*04:01 chain
+SLA-DRB3*05:01 protein complex	SLA-DRB3*05:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB3*05:01 chain
+SLA-DRB4*01:01 protein complex	SLA-DRB4*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB4*01:01 chain
+SLA-DRB5*01:01 protein complex	SLA-DRB5*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB5*01:01 chain
 Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G chain	Beta-2-microglobulin		
 Xela-UAAg protein complex	Xela-UAAg		locus	equivalent	MHC class I protein complex	clawed frog	Xela-UAAg chain	Beta-2-microglobulin		
 YF1w*7.1 protein complex	YF1w*7.1	YF1*7.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	YF1w*7.1 chain		YF1 haplotype	
