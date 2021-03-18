@@ -69,8 +69,11 @@ Mafa-DRA locus		subclass	crab-eating macaque MHC class II locus
 Mafa-DRB locus		subclass	crab-eating macaque MHC class II locus	
 Mamu-A locus		subclass	rhesus macaque MHC class I locus	
 Mamu-B locus		subclass	rhesus macaque MHC class I locus	
+Mamu-CD1 locus		subclass	rhesus macaque non-classical MHC locus	
 Mamu-DPA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DPB locus		subclass	rhesus macaque MHC class II locus	
+Mamu-DQA locus		subclass	rhesus macaque MHC class II locus	
+Mamu-DQB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRA locus		subclass	rhesus macaque MHC class II locus	
 Mamu-DRB locus		subclass	rhesus macaque MHC class II locus	
 Mamu-E locus		subclass	rhesus macaque MHC class I locus	
@@ -98,6 +101,9 @@ RT1-D beta locus		subclass	rat MHC class II locus
 SLA-1 locus		subclass	pig MHC class I locus	
 SLA-2 locus		subclass	pig MHC class I locus	
 SLA-3 locus		subclass	pig MHC class I locus	
+SLA-6 locus		subclass	pig MHC class I locus	
+SLA-DQA locus		subclass	pig MHC class II locus	
+SLA-DQB locus		subclass	pig MHC class II locus	
 SLA-DRA locus		subclass	pig MHC class II locus	
 SLA-DRB locus		subclass	pig MHC class II locus	
 Saoe-G locus		subclass	cotton-top tamarin MHC class I locus	
