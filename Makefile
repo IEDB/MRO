@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -169,7 +169,7 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv
+mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files build/whitespace.tsv
@@ -209,6 +209,7 @@ build/hla.dat: | build
 
 build/hla_nom_g.txt: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/wmda/hla_nom_g.txt
+
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
@@ -252,14 +253,13 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-build/mro-import.owl: build/iceo-import.ttl build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl build/hancestro-import.ttl ontology/import.txt | build/robot.jar
+build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl build/hancestro-import.ttl ontology/import.txt | build/robot.jar
 	$(ROBOT) merge \
 	--input build/eco-import.ttl \
 	--input build/obi-import.ttl \
 	--input build/ro-import.ttl \
 	--input build/iao-import.ttl \
-	--input build/hancestro-import.ttl
-	--input build/iceo-import.ttl
+	--input build/hancestro-import.ttl \
 	extract \
 	--method MIREOT \
 	--upper-term "GO:0008150" \
@@ -268,7 +268,7 @@ build/mro-import.owl: build/iceo-import.ttl build/eco-import.ttl build/iao-impor
 	--upper-term "ECO:0000000" \
 	--upper-term "BFO:0000040" \
 	--upper-term "PR:000000001" \
-	--lower-terms $(word 5,$^) \
+	--lower-terms $(word 6,$^) \
 	--output $@
 
 # fetch ontology dependencies
@@ -286,7 +286,7 @@ build/%.txt: ontology/import.txt | build
 # RO:0000056 isn't in RO?
 # we could also just add this to index.tsv
 build/obi.txt: ontology/import.txt | build
-	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' > $@
+	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' | sed '/^HANCESTRO/d' | sed '/^GSSO/d' | sed '/^NCIT/d' | sed '/^IDO/d' > $@
 	echo "RO:0000056" >> $@
 
 build/%.db: src/scripts/prefixes.sql $(LIB)/%.owl | build/rdftab

@@ -80,12 +80,17 @@ for i in c:
 for b in rec:
     try:
         gene_allele = {}
-        allele = b.description.split(",")[0]
+        allele, mhc_class = b.description.split(",")
+        mhc_class = ("II" if "II" in mhc_class else "I")
         gene_allele["MHC gene allele"] = allele
         if allele.split("*")[0].split("-")[1] in EXCLUDED_GENES or allele.endswith("N"):
             continue
-        exons = [str(feature.extract(b).seq) for feature in b.features if feature.type == 'exon' and (feature.qualifiers['number'] == ['2'] or feature.qualifiers['number'] == ['3'])]
-        exons = "|".join(exons)
+        if mhc_class == "I":
+            exons = [str(feature.extract(b).seq) for feature in b.features if feature.type == 'exon' and (feature.qualifiers['number'] == ['2'] or feature.qualifiers['number'] == ['3'])]
+            exons = "|".join(exons)
+        else:
+            exons = [str(feature.extract(b).seq) for feature in b.features if feature.type == 'exon' and (feature.qualifiers['number'] == ['2'])]
+            
         if allele in gen_seq and gen_seq[allele]:
             G_groups.setdefault(gen_seq[allele], set()).add(exons)
         cds = [feature for feature in b.features if feature.type=='CDS' and feature.location is not None and 'translation' in feature.qualifiers]
@@ -128,10 +133,11 @@ for b in rec:
 
 G_groups = [{"G group" : allele, "Exon 2 and 3": max(G_groups[allele], key=len)} for allele in G_groups]
 with open("ontology/gene-alleles.tsv", "w") as file_obj:
-    print(gen_alleles[0])
+
     writer = csv.DictWriter(file_obj, fieldnames = gene_allele_fields, delimiter = "\t")
     writer.writeheader()
     file_obj.write("LABEL\tC 'encodes' some %\tC 'has part' some %\tA MRO:sequence\n")
+    #writer.writerows([gen_alleles[0]])
     writer.writerows(gen_alleles)
     file_obj.close()
 def update_g_dict(g_dict):
@@ -140,9 +146,10 @@ def update_g_dict(g_dict):
 with open("ontology/G-group.tsv", "w") as file_obj:
     writer = csv.DictWriter(file_obj, fieldnames = ["G group", "Exon 2 and 3", "Logic"], delimiter = "\t")
     G_groups = list(map(lambda g_dict: update_g_dict(g_dict), G_groups))
-    print(G_groups[0])
     writer.writeheader()
     file_obj.write("LABEL\tA MRO:sequence\tEC %\n")
+    print(G_groups[1])
+    writer.writerows([G_groups[0]])
     writer.writerows(G_groups)
     file_obj.close()
 
