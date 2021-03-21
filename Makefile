@@ -45,7 +45,7 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
-ROBOT := java -jar build/robot.jar
+ROBOT := java -Xmx8192m -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
 tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles
@@ -55,9 +55,6 @@ templates = $(foreach i,$(build_files),--template $(i))
 
 
 ### Set Up
-.PHONY: G-groups
-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
-	python3 src/update_gene_allele_seq.py > build/report_g_grp.tsv
 
 build build/validate:
 	mkdir -p $@
@@ -226,8 +223,12 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
+.PHONY: G-groups
+G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
+		python3 src/update_gene_allele_seq.py
+
 .PHONY: update-alleles
-update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
+update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt G-groups
 	python3 $^
 
 .PHONY: update-cow-alleles
@@ -249,7 +250,7 @@ update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontolo
 
 ### OWL Files
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) template \
+	$(ROBOT) -vvv template \
 	--input $< \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
