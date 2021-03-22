@@ -45,7 +45,7 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
-ROBOT := java -Xmx8192m -jar build/robot.jar
+ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
 tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles
@@ -250,7 +250,7 @@ update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontolo
 
 ### OWL Files
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) -vvv template \
+	$(ROBOT) template \
 	--input $< \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \

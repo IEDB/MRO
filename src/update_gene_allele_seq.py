@@ -44,7 +44,7 @@ EXCLUDED_GENES = {
     "DQA2",
     "DRB2"
 }
-gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Accession","Source","Coding Region Sequence"]
+gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Subclass", "Accession","Source","Coding Region Sequence"]
 se = open("ontology/chain-sequence.tsv", "r")
 next(se)
 rows = csv.DictReader(se, delimiter="\t")
@@ -132,10 +132,11 @@ for b in rec:
     if allele in gen_seq:
         gene_allele["G group"] = f"'{gen_seq[allele]}'"
     else:
-        gene_allele["G group"] = "generic G group"
+        gene_allele["G group"] = ''
     all_fields_present = True
+    excluded_fields = ["G group", "MHC gene allele", "Subclass"]
     for field in gene_allele_fields:
-        if field != "G group" and field not in gene_allele.keys():
+        if field not in excluded_fields and field not in gene_allele.keys():
             all_fields_present = False
     if all_fields_present:
         gen_alleles.append(gene_allele)
@@ -145,6 +146,7 @@ with open("build/report-g-grp.json", "w") as report:
     json.dump(errors, report)
 def update_allele_dict(allele_dict):
     allele_dict["MHC gene allele"] = allele_dict["MHC gene allele"] + " gene allele"
+    allele_dict["Subclass"] = "MHC gene allele"
     return allele_dict
 G_groups = [{"G group" : allele, "Exon 2 and/or 3": max(G_groups[allele], key=len)} for allele in G_groups]
 with open("ontology/gene-alleles.tsv", "w") as file_obj:
@@ -153,7 +155,7 @@ with open("ontology/gene-alleles.tsv", "w") as file_obj:
     writer.writeheader()
     #file_obj.write("LABEL\tEC 'has gene product' some %\tEC 'has part' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
     #writer.writerows([gen_alleles[0]])
-    file_obj.write("LABEL\tSC 'has gene product' some %\tEC 'has part' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
+    file_obj.write("LABEL\tEC 'has gene product' some %\tSC 'has part' some %\tSC %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
     writer.writerows(gen_alleles)
     file_obj.close()
 def update_g_dict(g_dict):
@@ -180,9 +182,25 @@ entries = list(map(lambda entry: dict(zip(["ID", "Label", "Type", "Depreciated?"
 ids = [int(entry["ID"].split(":")[1]) for entry in entries]
 cur_mro_id = max(ids) + 1
 labels = [entry["Label"] for entry in entries]
+
 new_alleles = [allele["MHC gene allele"] for allele in gen_alleles if allele["MHC gene allele"] not in labels]
 new_G_groups = [allele["G group"] for allele in G_groups if allele["G group"].replace("'", "") not in labels]
 with open("index.tsv", "a+") as index:
+    if "G group" not in labels:
+        entry = ["MRO:" + str(cur_mro_id).zfill(7), "G group", "owl:Class"]
+        index.write("\t".join(entry))
+        index.write("\n")
+        cur_mro_id +=1
+    if "MHC gene allele" not in labels:
+        entry = ["MRO:" + str(cur_mro_id).zfill(7), "MHC gene allele", "owl:Class"]
+        index.write("\t".join(entry))
+        index.write("\n")
+        cur_mro_id +=1
+    if "generic G group" not in labels:
+        entry = ["MRO:" + str(cur_mro_id).zfill(7), "generic G group", "owl:Class"]
+        index.write("\t".join(entry))
+        index.write("\n")
+        cur_mro_id +=1
     for new_allele in new_alleles:
         entry = ["MRO:" + str(cur_mro_id).zfill(7), new_allele, "owl:Class"]
         cur_mro_id +=1
