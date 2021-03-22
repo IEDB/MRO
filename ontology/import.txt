@@ -3,7 +3,6 @@ GO:0008150  # biological process
 OBI:1110057 # MHC:epitope complex binding to TCR
 IDO:0100542 # encodes
 RO:0002205 # has gene product
-NCIT:C16277 # allele
 
 # Information
 IAO:0000030 # information content entity
@@ -52,3 +51,4 @@ HANCESTRO:0014 # Hispanic or Latino
 HANCESTRO:0015 # Middle Eastern or North African
 GSSO:010196 # Asian or Pacific Islander person
 HANCESTRO:0013 # Native American
+HANCESTRO:0005 # European
