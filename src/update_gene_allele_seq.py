@@ -123,8 +123,11 @@ for b in rec:
         errors.append(error)
         continue
     except TError:
+        # mainly for alleles with partial sequences
         #print("TranslationError", b.name)
-        if chains[two_field] == cds.extract(b).seq[int(cds.qualifiers['codon_start'][0])-1:].translate():
+        extracted_protein = cds.extract(b).seq[int(cds.qualifiers['codon_start'][0])-1:].translate()
+        extracted_protein = str(extracted_protein)
+        if chains[two_field] in extracted_protein or extracted_protein in chains[two_field]:
             gene_allele["Chain"] = two_field + " chain"
         else:
             error = {"reason" : "TranslationError", "IMGT Accession": b.name, "IMGT allele" : allele}
