@@ -45846,3 +45846,94 @@ MRO:0045842	HLA-DQA1*06:02/DQB1*06:41 protein complex	owl:Class
 MRO:0045843	HLA-DQA1*06:02/DQB1*06:42 protein complex	owl:Class
 MRO:0045844	HLA-DQA1*06:02/DQB1*06:43 protein complex	owl:Class
 MRO:0045845	HLA-DQA1*06:02/DQB1*06:44 protein complex	owl:Class
+MRO:0045846	BoLA-NC1 locus	owl:Class
+MRO:0045847	BoLA-NC1 chain	owl:Class
+MRO:0045848	BoLA-NC2 locus	owl:Class
+MRO:0045849	BoLA-NC2 chain	owl:Class
+MRO:0045850	BoLA-NC3 locus	owl:Class
+MRO:0045851	BoLA-NC3 chain	owl:Class
+MRO:0045852	BoLA-NC4 locus	owl:Class
+MRO:0045853	BoLA-NC4 chain	owl:Class
+MRO:0045854	BoLA-5 locus	owl:Class
+MRO:0045855	BoLA-5 chain	owl:Class
+MRO:0045856	BoLA-NC1 protein complex	owl:Class
+MRO:0045857	BoLA-NC2 protein complex	owl:Class
+MRO:0045858	BoLA-NC3 protein complex	owl:Class
+MRO:0045859	BoLA-NC4 protein complex	owl:Class
+MRO:0045860	BoLA-5 protein complex	owl:Class
+MRO:0045861	BoLA-NC1*008:01 chain	owl:Class
+MRO:0045862	BoLA-NC1*005:02 chain	owl:Class
+MRO:0045863	BoLA-5*003:01 chain	owl:Class
+MRO:0045864	BoLA-DRB3*017:04 chain	owl:Class
+MRO:0045865	BoLA-NC2*001:01 chain	owl:Class
+MRO:0045866	BoLA-NC1*014:01 chain	owl:Class
+MRO:0045867	BoLA-NC1*012:01 chain	owl:Class
+MRO:0045868	BoLA-DRB3*021:03 chain	owl:Class
+MRO:0045869	BoLA-5*072:01 chain	owl:Class
+MRO:0045870	BoLA-NC4*003:01 chain	owl:Class
+MRO:0045871	BoLA-NC1*001:01 chain	owl:Class
+MRO:0045872	BoLA-NC3*001:01 chain	owl:Class
+MRO:0045873	BoLA-NC1*014:02 chain	owl:Class
+MRO:0045874	BoLA-NC2*001:03 chain	owl:Class
+MRO:0045875	BoLA-NC4*001:01 chain	owl:Class
+MRO:0045876	BoLA-NC1*002:02 chain	owl:Class
+MRO:0045877	BoLA-NC1*013:01 chain	owl:Class
+MRO:0045878	BoLA-NC4*002:02 chain	owl:Class
+MRO:0045879	BoLA-NC1*009:01 chain	owl:Class
+MRO:0045880	BoLA-DRB3*005:08 chain	owl:Class
+MRO:0045881	BoLA-NC1*004:01 chain	owl:Class
+MRO:0045882	BoLA-NC1*005:01 chain	owl:Class
+MRO:0045883	BoLA-DRB3*016:03 chain	owl:Class
+MRO:0045884	BoLA-DRB3*164:01 chain	owl:Class
+MRO:0045885	BoLA-5*064:01 chain	owl:Class
+MRO:0045886	BoLA-NC1*015:01 chain	owl:Class
+MRO:0045887	BoLA-5*039:01 chain	owl:Class
+MRO:0045888	BoLA-NC1*009:02 chain	owl:Class
+MRO:0045889	BoLA-DRB3*165:01 chain	owl:Class
+MRO:0045890	BoLA-NC1*002:01 chain	owl:Class
+MRO:0045891	BoLA-NC1*010:01 chain	owl:Class
+MRO:0045892	BoLA-NC1*006:02 chain	owl:Class
+MRO:0045893	BoLA-NC2*001:02 chain	owl:Class
+MRO:0045894	BoLA-NC1*007:01 chain	owl:Class
+MRO:0045895	BoLA-NC1*006:01 chain	owl:Class
+MRO:0045896	BoLA-NC4*002:01 chain	owl:Class
+MRO:0045897	BoLA-NC1*003:01 chain	owl:Class
+MRO:0045898	BoLA-DRB3*015:07 chain	owl:Class
+MRO:0045899	BoLA-DRB3*016:03 protein complex	owl:Class
+MRO:0045900	BoLA-DRB3*017:04 protein complex	owl:Class
+MRO:0045901	BoLA-NC1*007:01 protein complex	owl:Class
+MRO:0045902	BoLA-DRB3*015:07 protein complex	owl:Class
+MRO:0045903	BoLA-5*003:01 protein complex	owl:Class
+MRO:0045904	BoLA-DRB3*164:01 protein complex	owl:Class
+MRO:0045905	BoLA-DRB3*165:01 protein complex	owl:Class
+MRO:0045906	BoLA-NC1*010:01 protein complex	owl:Class
+MRO:0045907	BoLA-NC1*009:01 protein complex	owl:Class
+MRO:0045908	BoLA-NC1*014:02 protein complex	owl:Class
+MRO:0045909	BoLA-5*039:01 protein complex	owl:Class
+MRO:0045910	BoLA-NC3*001:01 protein complex	owl:Class
+MRO:0045911	BoLA-NC1*002:01 protein complex	owl:Class
+MRO:0045912	BoLA-NC1*006:02 protein complex	owl:Class
+MRO:0045913	BoLA-NC4*002:02 protein complex	owl:Class
+MRO:0045914	BoLA-NC4*001:01 protein complex	owl:Class
+MRO:0045915	BoLA-NC1*013:01 protein complex	owl:Class
+MRO:0045916	BoLA-NC1*006:01 protein complex	owl:Class
+MRO:0045917	BoLA-5*064:01 protein complex	owl:Class
+MRO:0045918	BoLA-NC1*008:01 protein complex	owl:Class
+MRO:0045919	BoLA-NC1*001:01 protein complex	owl:Class
+MRO:0045920	BoLA-DRB3*021:03 protein complex	owl:Class
+MRO:0045921	BoLA-NC1*014:01 protein complex	owl:Class
+MRO:0045922	BoLA-NC1*015:01 protein complex	owl:Class
+MRO:0045923	BoLA-NC2*001:03 protein complex	owl:Class
+MRO:0045924	BoLA-NC1*004:01 protein complex	owl:Class
+MRO:0045925	BoLA-NC1*005:02 protein complex	owl:Class
+MRO:0045926	BoLA-NC1*009:02 protein complex	owl:Class
+MRO:0045927	BoLA-NC1*005:01 protein complex	owl:Class
+MRO:0045928	BoLA-NC1*002:02 protein complex	owl:Class
+MRO:0045929	BoLA-DRB3*005:08 protein complex	owl:Class
+MRO:0045930	BoLA-NC4*002:01 protein complex	owl:Class
+MRO:0045931	BoLA-NC1*003:01 protein complex	owl:Class
+MRO:0045932	BoLA-NC4*003:01 protein complex	owl:Class
+MRO:0045933	BoLA-NC2*001:02 protein complex	owl:Class
+MRO:0045934	BoLA-5*072:01 protein complex	owl:Class
+MRO:0045935	BoLA-NC1*012:01 protein complex	owl:Class
+MRO:0045936	BoLA-NC2*001:01 protein complex	owl:Class

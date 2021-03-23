@@ -6,6 +6,7 @@ BoLA-1 locus		subclass	cattle MHC class I locus
 BoLA-2 locus		subclass	cattle MHC class I locus	
 BoLA-3 locus		subclass	cattle MHC class I locus	
 BoLA-4 locus		subclass	cattle MHC class I locus	
+BoLA-5 locus		subclass	cattle MHC class I locus	
 BoLA-6 locus		subclass	cattle MHC class I locus	
 BoLA-CD1 locus		subclass	cattle non-classical MHC locus	
 BoLA-DQA locus		subclass	cattle MHC class II locus	
@@ -15,6 +16,10 @@ BoLA-DRB3 locus		subclass	BoLA-DRB locus
 BoLA-DRB6 locus		subclass	BoLA-DRB locus	
 BoLA-DRB locus		subclass	cattle MHC class II locus	
 BoLA-MR1 locus		subclass	cattle non-classical MHC locus	
+BoLA-NC1 locus		subclass	cattle non-classical MHC locus	
+BoLA-NC2 locus		subclass	cattle non-classical MHC locus	
+BoLA-NC3 locus		subclass	cattle non-classical MHC locus	
+BoLA-NC4 locus		subclass	cattle non-classical MHC locus	
 Caja-E locus		subclass	marmoset MHC class I locus	
 Caja-G locus		subclass	marmoset MHC class I locus	
 Ctid-UAA locus		subclass	grass carp MHC class I locus	

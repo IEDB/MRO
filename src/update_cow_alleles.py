@@ -66,7 +66,7 @@ def update_chains(curr_loci, ipd_seqs, allele_map):
     imgt_alleles = set(allele_map.keys())
     missing_alleles = imgt_alleles.difference(mro_alleles)
     new_alleles = {x for x in missing_alleles if x.split("*")[0] in curr_loci}
-    new_alleles = {x for x in new_alleles if x[-1] != "N"}
+    new_alleles = {x for x in new_alleles if x[-1] != "N" and "SV" not in x}
     try:
         new_alleles.remove("BoLA-DRB3*045:01")
         new_alleles.remove("BoLA-DQB*010:05")
@@ -207,10 +207,46 @@ def create_classII_prot(missing_chainII):
 
     return new_classII_molecules
 
+def create_non_classical_prot(missing_nonclass):
+    """Creates entries for non-classical MHC molecules
+
+    Returns:
+        A list of new entries for molecule.tsv
+    """
+    new_classI_molecules = set()
+    with open(sys.argv[3], "a+") as fh:
+        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
+        for allele in missing_nonclass:
+            label = f"{allele} protein complex"
+            iedb_name = f"{allele}"
+            synonym = ""
+            restrict_lvl = "complete molecule"
+            class_type = "equivalent"
+            parent = "non-classical MHC protein complex"
+            taxon = "cattle"
+            alpha_chain = f"{allele} chain"
+            beta_chain = "Beta-2-microglobulin"
+            writer.writerow(
+                [
+                    label,
+                    iedb_name,
+                    synonym,
+                    restrict_lvl,
+                    class_type,
+                    parent,
+                    taxon,
+                    alpha_chain,
+                    beta_chain,
+                ]
+            )
+            new_classI_molecules.add(f"{allele} protein complex")
+    return new_classI_molecules
+
 def update_molecules(missing_alleles):
     """Builds and updates BoLA molecules"""
-    class_I_genes = ["1", "2", "3", "4", "6"]
+    class_I_genes = ["1", "2", "3", "4", "5", "6"]
     class_II_genes = ["DRA", "DRB3", "DRB6", "DQA", "DQB"]
+    non_classical_genes = ["NC1", "NC2", "NC3", "NC4"]
 
     mro_proteins = set()
     with open(sys.argv[3]) as fh:
@@ -225,12 +261,15 @@ def update_molecules(missing_alleles):
     
     classI = set()
     classII = set()
+    non_class = set()
     for allele in missing_alleles:
         gene = allele.split("*")[0][5:]
         if gene in class_I_genes:
             classI.add(allele)
         if gene in class_II_genes:
             classII.add(allele)
+        if gene in non_classical_genes:
+            non_class.add(allele)
     
     new_molecules = set()
     for x in list(create_classI_prot(classI)):
@@ -239,6 +278,9 @@ def update_molecules(missing_alleles):
     for y in list(create_classII_prot(classII)):
         if y not in mro_proteins:
             new_molecules.add(y)
+    for z in list(create_non_classical_prot(non_class)):
+        if z not in mro_proteins:
+            new_molecules.add(z)
 
     return new_molecules
 
