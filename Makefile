@@ -190,6 +190,8 @@ sort:
 build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
 	python3 $^ $@
 
+build/HLA-%-frequency.xlsx: | build
+	curl -o $@ -L "https://www.ihiw18.org/wp-content/uploads/2020/04/HLA-$*_PrimaryData-IHWS-20200320.xlsx"
 
 ### Sequences
 
@@ -223,9 +225,14 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
-.PHONY: G-groups
-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
-		python3 src/update_gene_allele_seq.py
+.PHONY: update-G-groups
+update-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
+		python3 src/update_gene_allele_seq.py -u
+
+.PHONY: add-frequency-data
+add-frequency-data: ontology/G-group.tsv ontology/gene-alleles.tsv build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
+	pip install pandas==1.2.1
+	python3 src/update_gene_allele_seq.py -f
 
 .PHONY: update-alleles
 update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt G-groups
@@ -250,7 +257,7 @@ update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontolo
 
 ### OWL Files
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) template \
+	$(ROBOT) -vvv template \
 	--input $< \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
@@ -335,7 +342,7 @@ build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar
 	--output $@
 
 build/.mro-tdb: build/mro-iedb.owl
-	$(ROBOT) query --input $< \
+	$(ROBOT) -vvv query --input $< \
 	--create-tdb true \
 	--tdb-directory $@
 

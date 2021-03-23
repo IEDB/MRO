@@ -3,6 +3,11 @@ import os
 from Bio import SeqIO
 from Bio.Data.CodonTable import TranslationError as TError
 import json
+import argparse
+import subprocess
+import sys
+import re
+import pandas as pd
 # gen_records = {}
 # records_list = [seq_record for seq_record in SeqIO.parse(os.path.join("/Users/amody/IMGTHLA/fasta",  "hla_gen.fasta"), "fasta")]
 # for record in records_list:
@@ -10,6 +15,7 @@ import json
 #     record.id = stuff[0][4:]
 #     record.name = stuff[1]
 # gen_records.update(SeqIO.to_dict(records_list, key_function = lambda rec: rec.name))
+
 EXCLUDED_GENES = {
     "BTN3A",
     "CD1",
@@ -111,6 +117,12 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             gene_allele["Coding Region Sequence"] = str(cds.extract(b).seq)
             gene_allele["Source"] = "IMGT/HLA"
             gene_allele["Accession"] = b.name
+            locus = allele.split("*")[0]
+            match = re.search(pattern = r"[0-9]+$", string=locus)
+            if match:
+                locus = locus[:match.span()[0]]
+
+            gene_allele["Locus"] = locus + " locus"
             two_field = allele.split(":")
             two_field = two_field[0] + ":" + two_field[1]
             if two_field in chains:
@@ -134,7 +146,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
         except TError:
             # mainly for alleles with partial sequences
             #print("TranslationError", b.name)
-            extracted_protein = cds.extract(b).seq[int(cds.qualifiers['codon_start'][0])-1:].translate()
+            extracted_protein = cds.qualifiers["translation"][0]
             extracted_protein = str(extracted_protein)
             if chains[two_field] in extracted_protein or extracted_protein in chains[two_field]:
                 gene_allele["Chain"] = two_field + " chain"
@@ -168,7 +180,7 @@ def write_gene_alleles(gene_allele_fields, gen_alleles):
         writer.writeheader()
         #file_obj.write("LABEL\tEC 'has gene product' some %\tEC 'has part' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
         #writer.writerows([gen_alleles[0]])
-        file_obj.write("LABEL\tEC 'has gene product' some %\tSC 'has part' some %\tSC %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
+        file_obj.write("LABEL\tEC 'has gene product' some %\tSC 'has part' some %\tSC %\tSC 'gene product of' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
         writer.writerows(gen_alleles)
         file_obj.close()
 
@@ -223,14 +235,78 @@ def update_index(gen_alleles, G_groups):
             index.write("\t".join(entry))
             index.write("\n")
 
-gen_seq = get_G_groups()
-chains = get_chains()
-gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Subclass", "Accession","Source","Coding Region Sequence"]
-gen_alleles, G_groups, errors = process_hla_dat(gen_seq = gen_seq, gene_allele_fields = gene_allele_fields, chains = chains)
-write_error_report(errors)
-write_gene_alleles(gene_allele_fields = gene_allele_fields, gen_alleles = gen_alleles)
-write_G_groups(G_groups)
-update_index(gen_alleles= gen_alleles, G_groups = G_groups)
+def read_template_data():
+    alleles_file = open("ontology/gene-alleles.tsv", "r")
+    fields = next(alleles_file).replace("\n", "").split("\t")
+    next(alleles_file)
+    gene_alleles = csv.DictReader(alleles_file, fieldnames = fields, delimiter="\t")
+    gene_alleles = [dict(row) for row in gene_alleles]
+    return gene_alleles
+
+def verify_data(data, gene_alleles):
+    levels = list(map(list, zip(*data.columns)))
+    primary = ""
+    secondary = ""
+    for i in levels[0]:
+        if "Allele Summary" in i:
+            primary = i
+            break
+    for i in levels[1]:
+        if "AlleleID" in i:
+            secondary = i
+            break
+        if "Allele ID" in i:
+            secondary = i
+            break
+    print(primary)
+    m = pd.DataFrame(data.loc[:,  (primary, secondary)].dropna(), copy = True)
+    m.columns = m.columns.droplevel(0)
+    m = m.rename(columns = {"AlleleID": "Accession"})
+    missed_alleles = []
+    correction = m.isin(gene_alleles)
+    for i in correction.index:
+        if not correction.loc[i].bool() and not i.endswith("N"):
+            missed_alleles.append(i)
+
+    print(missed_alleles)
+    return missed_alleles
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Update MHC gene allele sequences and G groups or add frequency data')
+    parser.add_argument("-u","--update", action='store_true', help = "Update G groups and coding region genomic sequences of HLA alleles from IMGT")
+    parser.add_argument("-f", "--frequency", action = 'store_true', help = "This will install pandas Python package and update the frequency of each HLA allele in IMGT in population groups with data from CIWD")
+    args = parser.parse_args()
+    if args.update:
+        gen_seq = get_G_groups()
+        chains = get_chains()
+        gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Subclass", "Locus","Accession","Source","Coding Region Sequence"]
+        gen_alleles, G_groups, errors = process_hla_dat(gen_seq = gen_seq, gene_allele_fields = gene_allele_fields, chains = chains)
+        write_error_report(errors)
+        write_gene_alleles(gene_allele_fields = gene_allele_fields, gen_alleles = gen_alleles)
+        write_G_groups(G_groups)
+        update_index(gen_alleles= gen_alleles, G_groups = G_groups)
+    if args.frequency:
+        try:
+            import pandas as pd
+            import glob
+            datafiles = glob.glob("build/HLA-*-frequency.xlsx")
+            gene_alleles = read_template_data()
+            gene_alleles = pd.DataFrame(gene_alleles)
+            gene_alleles.loc[:, "MHC gene allele"] = gene_alleles.loc[:, "MHC gene allele"].str.replace(" gene allele", "").str.replace("HLA-", "")
+            gene_alleles = gene_alleles.set_index("MHC gene allele")
+            missed_alleles = []
+            for datafile in datafiles:
+                data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0)
+                missed_alleles = missed_alleles + verify_data(data, gene_alleles)
+            print(len(missed_alleles))
+        except ModuleNotFoundError:
+            print("Please install pandas")
+
+
+if __name__ == "__main__":
+    main()
+
 
 # file_obj = open("G-group.tsv", "w")
 # writer = csv.DictWriter(file_obj, fieldnames = ["G group", "seqs", "subclass"], delimiter = "\t")
