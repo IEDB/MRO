@@ -96,10 +96,12 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
     for b in rec:
         try:
             gene_allele = {}
-            allele, mhc_class = b.description.split(",")
+            desc = b.description.split(",")
+            allele = desc[0]
+            mhc_class = desc[1]
             mhc_class = ("II" if "II" in mhc_class else "I")
             gene_allele["MHC gene allele"] = allele
-            if allele.split("*")[0].split("-")[1] in EXCLUDED_GENES or allele.endswith("N") or allele.endswith("Q"):
+            if allele.split("*")[0] in EXCLUDED_GENES or allele.split("*")[0].split("-")[1] in EXCLUDED_GENES or allele.endswith("N") or allele.endswith("Q"):
                 continue
             if mhc_class == "I":
                 exons = [str(feature.extract(b).seq) for feature in b.features if feature.type == 'exon' and (feature.qualifiers['number'] == ['2'] or feature.qualifiers['number'] == ['3'])]
@@ -258,17 +260,17 @@ def verify_data(data, gene_alleles):
         if "Allele ID" in i:
             secondary = i
             break
-    print(primary)
     m = pd.DataFrame(data.loc[:,  (primary, secondary)].dropna(), copy = True)
     m.columns = m.columns.droplevel(0)
-    m = m.rename(columns = {"AlleleID": "Accession"})
-    missed_alleles = []
+    m = m.rename(columns = {secondary: "Accession"})
     correction = m.isin(gene_alleles)
-    for i in correction.index:
-        if not correction.loc[i].bool() and not i.endswith("N"):
-            missed_alleles.append(i)
-
-    print(missed_alleles)
+    missed_alleles = m.loc[~correction.Accession, :]
+    missed_alleles = pd.Series(missed_alleles.Accession, copy = True)
+    missed_alleles = set(missed_alleles)
+    with open("build/report-g-grp.json") as report:
+        x = json.load(report)
+        excluded_alleles = [allele["IMGT Accession"] for allele in x]
+    missed_alleles.difference_update(excluded_alleles)
     return missed_alleles
 
 
@@ -295,11 +297,14 @@ def main():
             gene_alleles = pd.DataFrame(gene_alleles)
             gene_alleles.loc[:, "MHC gene allele"] = gene_alleles.loc[:, "MHC gene allele"].str.replace(" gene allele", "").str.replace("HLA-", "")
             gene_alleles = gene_alleles.set_index("MHC gene allele")
-            missed_alleles = []
+            missed_alleles = set()
             for datafile in datafiles:
                 data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0)
-                missed_alleles = missed_alleles + verify_data(data, gene_alleles)
-            print(len(missed_alleles))
+                data = data.loc[data.index.dropna()]
+                data.drop(index = data.loc[data.index.str.endswith("N")].index, inplace=True)
+
+                missed_alleles |= verify_data(data, gene_alleles)
+            print(missed_alleles, len(missed_alleles))
         except ModuleNotFoundError:
             print("Please install pandas")
 

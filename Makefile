@@ -230,7 +230,7 @@ update-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
 		python3 src/update_gene_allele_seq.py -u
 
 .PHONY: add-frequency-data
-add-frequency-data: ontology/G-group.tsv ontology/gene-alleles.tsv build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
+add-frequency-data: ontology/G-group.tsv ontology/gene-alleles.tsv build/report-g-grp.json build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
 	pip install pandas==1.2.1
 	python3 src/update_gene_allele_seq.py -f
 
