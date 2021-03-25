@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -166,7 +166,7 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/rejected.tsv
+mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/frequency-properties.tsv ontology/chain-frequencies.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files build/whitespace.tsv
@@ -205,7 +205,10 @@ build/mhc.fasta: | build
 
 build/hla.dat: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
-
+	
+build/hla1.dat: | build
+	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/3310/hla.dat
+	
 build/hla_nom_g.txt: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/wmda/hla_nom_g.txt
 
@@ -225,17 +228,20 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
+src/dbfetch.py: 
+	curl -o $@ -L https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/python/dbfetch.py
+	
 .PHONY: update-G-groups
 update-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
 		python3 src/update_gene_allele_seq.py -u
 
 .PHONY: add-frequency-data
-add-frequency-data: ontology/G-group.tsv ontology/gene-alleles.tsv build/report-g-grp.json build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
+add-frequency-data: src/dbfetch.py build/hla1.dat ontology/G-group.tsv ontology/gene-alleles.tsv build/report-g-grp.json build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
 	pip install pandas==1.2.1
 	python3 src/update_gene_allele_seq.py -f
 
 .PHONY: update-alleles
-update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt G-groups
+update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
 	python3 $^
 
 .PHONY: update-cow-alleles

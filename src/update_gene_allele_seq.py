@@ -4,10 +4,10 @@ from Bio import SeqIO
 from Bio.Data.CodonTable import TranslationError as TError
 import json
 import argparse
-import subprocess
 import sys
 import re
 import pandas as pd
+from itertools import compress
 # gen_records = {}
 # records_list = [seq_record for seq_record in SeqIO.parse(os.path.join("/Users/amody/IMGTHLA/fasta",  "hla_gen.fasta"), "fasta")]
 # for record in records_list:
@@ -93,6 +93,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
     gen_alleles = []
     G_groups = {}
     rec = SeqIO.parse("build/hla.dat", "imgt")
+    descriptions = set()
     for b in rec:
         try:
             gene_allele = {}
@@ -101,8 +102,11 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             mhc_class = desc[1]
             mhc_class = ("II" if "II" in mhc_class else "I")
             gene_allele["MHC gene allele"] = allele
-            if allele.split("*")[0] in EXCLUDED_GENES or allele.split("*")[0].split("-")[1] in EXCLUDED_GENES or allele.endswith("N") or allele.endswith("Q"):
+            elems = allele.split("*")
+            locus = elems[0]
+            if locus in EXCLUDED_GENES or locus.split("-")[1] in EXCLUDED_GENES or allele[len(allele) -1] == "N" or allele[len(allele) -1] == "Q":
                 continue
+            descriptions.add(desc[1])
             if mhc_class == "I":
                 exons = [str(feature.extract(b).seq) for feature in b.features if feature.type == 'exon' and (feature.qualifiers['number'] == ['2'] or feature.qualifiers['number'] == ['3'])]
                 exons = "|".join(exons)
@@ -119,7 +123,6 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             gene_allele["Coding Region Sequence"] = str(cds.extract(b).seq)
             gene_allele["Source"] = "IMGT/HLA"
             gene_allele["Accession"] = b.name
-            locus = allele.split("*")[0]
             match = re.search(pattern = r"[0-9]+$", string=locus)
             if match:
                 locus = locus[:match.span()[0]]
@@ -149,7 +152,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             # mainly for alleles with partial sequences
             #print("TranslationError", b.name)
             extracted_protein = cds.qualifiers["translation"][0]
-            extracted_protein = str(extracted_protein)
+            extracted_protein = str(extracted_protein) 
             if chains[two_field] in extracted_protein or extracted_protein in chains[two_field]:
                 gene_allele["Chain"] = two_field + " chain"
             else:
@@ -169,6 +172,9 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
         continue
     G_groups = [{"G group" : allele, "Exon 2 and/or 3": max(G_groups[allele], key=len), "Logic": "G group"} for allele in G_groups]
     gen_alleles = list(map(update_allele_dict, gen_alleles))
+    with open("descriptions.txt", "w") as desc_file:
+        for i in descriptions:
+            desc_file.write(i + "\n")
     return gen_alleles, G_groups, errors
 
 def write_error_report(errors):
@@ -182,7 +188,7 @@ def write_gene_alleles(gene_allele_fields, gen_alleles):
         writer.writeheader()
         #file_obj.write("LABEL\tEC 'has gene product' some %\tEC 'has part' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
         #writer.writerows([gen_alleles[0]])
-        file_obj.write("LABEL\tEC 'has gene product' some %\tSC 'has part' some %\tSC %\tSC 'gene product of' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
+        file_obj.write("LABEL\tSC 'has gene product' some %\tSC 'has part' some %\tSC %\tSC 'gene product of' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
         writer.writerows(gen_alleles)
         file_obj.close()
 
@@ -195,47 +201,50 @@ def write_G_groups(G_groups):
         writer.writerows(G_groups)
         file_obj.close()
 
-def update_index(gen_alleles, G_groups):
-    index = open("index.tsv")
+def get_index_info():
+    with open("index.tsv", "r") as index:
+        entries = index.read().splitlines()
+        index.close()
+        entries = list(map(lambda x: x.rstrip(), entries))
+        first = entries[0]
+        second = entries[1]
+        entries = entries[2:]
+        entries = list(map(lambda entry: dict(zip(["ID", "Label", "Type", "Depreciated?"], entry.split("\t"))), entries))
+        for entry in entries:
+            print(entry)
+            int(entry["ID"].split(":")[1])
+        ids = [int(entry["ID"].split(":")[1]) for entry in entries]
+        cur_mro_id = max(ids) + 1
+        labels = [entry["Label"] for entry in entries]
+    return entries, ids, cur_mro_id, labels
+    
+def check_pop_properties_are_in_index(pop_properties):
+    properties = [[prop, "owl:AnnotationProperty", ""] for prop in pop_properties]
+    return properties 
+    
+def get_new_alleles_and_G_groups(gen_alleles, G_groups):
+    new_alleles = [[allele["MHC gene allele"], "owl:Class", ""] for allele in gen_alleles]
+    new_alleles.append(["MHC gene allele", "owl:Class", ""])
+    new_G_groups = [[allele["G group"], "owl:Class", ""]  for allele in G_groups]
+    new_G_groups.append(["G group", "owl:Class", ""])
+    return new_alleles, new_G_groups
 
-    entries = index.read().splitlines()
-    index.close()
-    first = entries[0]
-    second = entries[1]
-    entries = entries[2:]
-    entries = list(map(lambda entry: dict(zip(["ID", "Label", "Type", "Depreciated?"], entry.split("\t"))), entries))
-    ids = [int(entry["ID"].split(":")[1]) for entry in entries]
-    cur_mro_id = max(ids) + 1
-    labels = [entry["Label"] for entry in entries]
 
-    new_alleles = [allele["MHC gene allele"] for allele in gen_alleles if allele["MHC gene allele"] not in labels]
-    new_G_groups = [allele["G group"] for allele in G_groups if allele["G group"].replace("'", "") not in labels]
+def update_index(terms):
+    entries, ids, cur_mro_id, labels = get_index_info()
+    print("start", cur_mro_id)
+    x = len(terms) - 1
+    while x >= 0:
+        if terms[x][0] not in labels:
+            terms[x].insert(0, "MRO:" + str(cur_mro_id).zfill(7))
+            cur_mro_id +=1
+        else:
+            terms.remove(terms[x])
+        x = x - 1
+    print("end", cur_mro_id)
     with open("index.tsv", "a+") as index:
-        if "G group" not in labels:
-            entry = ["MRO:" + str(cur_mro_id).zfill(7), "G group", "owl:Class"]
-            index.write("\t".join(entry))
-            index.write("\n")
-            cur_mro_id +=1
-        if "MHC gene allele" not in labels:
-            entry = ["MRO:" + str(cur_mro_id).zfill(7), "MHC gene allele", "owl:Class"]
-            index.write("\t".join(entry))
-            index.write("\n")
-            cur_mro_id +=1
-        if "generic G group" not in labels:
-            entry = ["MRO:" + str(cur_mro_id).zfill(7), "generic G group", "owl:Class"]
-            index.write("\t".join(entry))
-            index.write("\n")
-            cur_mro_id +=1
-        for new_allele in new_alleles:
-            entry = ["MRO:" + str(cur_mro_id).zfill(7), new_allele, "owl:Class"]
-            cur_mro_id +=1
-            index.write("\t".join(entry))
-            index.write("\n")
-        for g_group in new_G_groups:
-            entry = ["MRO:" + str(cur_mro_id).zfill(7), g_group, "owl:Class"]
-            cur_mro_id +=1
-            index.write("\t".join(entry))
-            index.write("\n")
+        writer = csv.writer(index, delimiter="\t", lineterminator="\n")
+        writer.writerows(terms)
 
 def read_template_data():
     alleles_file = open("ontology/gene-alleles.tsv", "r")
@@ -245,7 +254,60 @@ def read_template_data():
     gene_alleles = [dict(row) for row in gene_alleles]
     return gene_alleles
 
-def verify_data(data, gene_alleles):
+def verify_accession_data(data, gene_alleles):
+    primary, secondary = get_allele_id_label(data)
+    m = pd.DataFrame(data.loc[:,  (primary, secondary)].dropna(), copy = True)
+    m.columns = m.columns.droplevel(0)
+    m = m.rename(columns = {secondary: "Accession"})
+    correction = m.isin(gene_alleles)
+    missed_alleles = m.loc[~correction.Accession, :]
+    missed_alleles = pd.Series(missed_alleles.Accession, copy = True)
+    missed_alleles = set(missed_alleles)
+    with open("build/report-g-grp.json") as report:
+        x = json.load(report)
+        excluded_alleles = [allele["IMGT Accession"] for allele in x]
+    missed_alleles.difference_update(excluded_alleles)
+        
+    return set(missed_alleles)
+    
+def lookup_imgt(missed_alleles):
+    import dbfetch as dbf
+    batches= []
+    missed_alleles = list(missed_alleles)
+    for x in range(0, len(missed_alleles), 200):
+        if x+200 <= len(missed_alleles):
+            batches.append(dbf.fetchBatch(db = "imgthla",idListStr= ",".join(missed_alleles[x: x+200])))
+        else:
+            batches.append(dbf.fetchBatch(db = "imgthla", idListStr = ",".join(missed_alleles[x:])))
+    batches = "".join(batches)
+    return batches
+
+def check_missed_alleles(imgt_data):
+    from io import StringIO
+    handler = StringIO(imgt_data)
+    missed_alleles = SeqIO.parse(handler, "imgt")
+    missed_alleles = {b.name: b for b in missed_alleles}
+    same_alleles = []
+    diff_alleles = []
+    past_imgt = SeqIO.parse("build/hla1.dat", "imgt")
+    for allele in past_imgt:
+        if allele.name in missed_alleles:
+            cds = [feature for feature in allele.features if feature.type=='CDS' and feature.location is not None and 'translation' in feature.qualifiers]
+            if len(cds) == 1:
+                cds = cds[0]
+                cds1 = [feature for feature in missed_alleles[allele.name].features if feature.type=='CDS' and feature.location is not None and 'translation' in feature.qualifiers]
+                if len(cds1)==1 and str(cds.qualifiers["translation"][0]) == str(cds1[0].qualifiers['translation'][0]):
+                    same_alleles.append(allele.name)
+                else:
+                    diff_alleles.append(allele.name)
+            else:
+                diff_alleles.append(allele.name)
+                
+        else:
+            continue
+    return same_alleles, diff_alleles
+    
+def get_allele_id_label(data):
     levels = list(map(list, zip(*data.columns)))
     primary = ""
     secondary = ""
@@ -260,24 +322,65 @@ def verify_data(data, gene_alleles):
         if "Allele ID" in i:
             secondary = i
             break
-    m = pd.DataFrame(data.loc[:,  (primary, secondary)].dropna(), copy = True)
+    return primary, secondary
+def verify_G_groups(data, gene_alleles):
+    primary, secondary= get_allele_id_label(data)
+    selection = [(primary, secondary), (primary, "G group")]
+    m = pd.DataFrame(data.dropna(subset = selection ).loc[:, selection], copy = True)
     m.columns = m.columns.droplevel(0)
     m = m.rename(columns = {secondary: "Accession"})
-    correction = m.isin(gene_alleles)
-    missed_alleles = m.loc[~correction.Accession, :]
-    missed_alleles = pd.Series(missed_alleles.Accession, copy = True)
-    missed_alleles = set(missed_alleles)
-    with open("build/report-g-grp.json") as report:
-        x = json.load(report)
-        excluded_alleles = [allele["IMGT Accession"] for allele in x]
-    missed_alleles.difference_update(excluded_alleles)
-    return missed_alleles
-
-
+    m.set_index("Accession", inplace = True)
+    m.columns.name = ''
+    temp = pd.DataFrame(gene_alleles.set_index("Accession").loc[:, "G group"].str.replace("'", ""), columns = ["G group"])
+    temp.columns.name = ''
+    correction = m.isin(temp)
+    if correction.loc[correction["G group"] == False].empty:
+        return set()
+    else: 
+        missed_alleles = m.loc[~correction["G group"], :]
+        missed_alleles = pd.Series(missed_alleles.index, copy = True)
+        missed_alleles = set(missed_alleles)
+        
+        with open("build/report-g-grp.json") as report:
+            x = json.load(report)
+            excluded_alleles = [allele["IMGT Accession"] for allele in x]
+        missed_alleles.difference_update(excluded_alleles)
+        
+        return missed_alleles
+def get_frequency_label(data):
+    primary = ""
+    columns = list(data.columns.levels[0])
+    for i in columns:
+        if "Frequency" in i:
+            primary = i 
+            break
+    return primary
+def add_totals(data, pop_group_map):
+    total = pd.DataFrame(data.loc[data.index.str.endswith("total"), get_frequency_label(data)], copy = True)
+    
+    foo = total.index.str.replace(" total", "")
+    total.index.name = "LABEL"
+    total.rename(columns = pop_group_map, index = dict(zip(total.index, foo)) , inplace = True)
+    total = total.add_prefix("AT '").add_suffix("'^^xsd:float")
+    chains = pd.DataFrame(total.loc[~total.index.str.endswith("G") | ~total.index.str.endswith("N")], copy = True)
+    chains.index = "HLA-" + chains.index + " chain"
+    G_group = pd.DataFrame(total.loc[total.index.str.endswith("G")], copy = True)
+    G_group.index = "HLA-" + G_group.index
+    entries, ids, cur_mro_id, labels = get_index_info()
+    in_mro = chains.index.isin(labels)
+    not_in_mro_chains = chains[~in_mro]
+    chains = chains.loc[in_mro]
+    in_mro = G_group.index.isin(labels)
+    print(in_mro)
+    not_in_mro_G_group= G_group[~in_mro]
+    G_group = G_group.loc[in_mro]
+    print(len(not_in_mro_chains))
+    print(len(not_in_mro_G_group))
+    return chains, G_group
 def main():
     parser = argparse.ArgumentParser(description='Update MHC gene allele sequences and G groups or add frequency data')
     parser.add_argument("-u","--update", action='store_true', help = "Update G groups and coding region genomic sequences of HLA alleles from IMGT")
-    parser.add_argument("-f", "--frequency", action = 'store_true', help = "This will install pandas Python package and update the frequency of each HLA allele in IMGT in population groups with data from CIWD")
+    parser.add_argument("-f", "--frequency", action = 'store_true', help = "Update the frequency of each HLA allele in IMGT in population groups with data from CIWD 3.0")
     args = parser.parse_args()
     if args.update:
         gen_seq = get_G_groups()
@@ -287,7 +390,9 @@ def main():
         write_error_report(errors)
         write_gene_alleles(gene_allele_fields = gene_allele_fields, gen_alleles = gen_alleles)
         write_G_groups(G_groups)
-        update_index(gen_alleles= gen_alleles, G_groups = G_groups)
+        new_alleles, new_G_groups = get_new_alleles_and_G_groups(gen_alleles = gen_alleles, G_groups = G_groups)
+        update_index(terms = new_alleles)
+        update_index(terms= new_G_groups)
     if args.frequency:
         try:
             import pandas as pd
@@ -296,14 +401,45 @@ def main():
             gene_alleles = read_template_data()
             gene_alleles = pd.DataFrame(gene_alleles)
             gene_alleles.loc[:, "MHC gene allele"] = gene_alleles.loc[:, "MHC gene allele"].str.replace(" gene allele", "").str.replace("HLA-", "")
+            gene_alleles.loc[:, "G group"] = gene_alleles.loc[:, "G group"].str.replace("[']HLA-[A-Z]*[0-9]*[*]", "", regex = True).str.replace("'", "")
             gene_alleles = gene_alleles.set_index("MHC gene allele")
             missed_alleles = set()
+            chains = []
+            G_groups = []
+            pop_group_map = {"AFA": "African frequency", "API": "Asian Pacific Islander frequency", "EURO": "European frequency", "MENA": "Middle Eastern and North African frequency", "HIS": "Hispanic frequency", "NAM": "Native American frequency", "UNK": "Unknown group frequency", "Total": "Total frequency"  }
+            prop = check_pop_properties_are_in_index(list(pop_group_map.values()) + ["CIWD population frequency"])
+            update_index(prop)
+            template_string = "\t".join(pop_group_map.values())
+            with open("ontology/chain-frequencies.tsv", "w") as totals:
+                totals.write("Chains\t")
+                totals.write(template_string)
+                totals.write("\n")
+            with open("ontology/G-group-frequencies.tsv", "w") as totals:
+                totals.write("G group\t")
+                totals.write(template_string)
+                totals.write("\n")
             for datafile in datafiles:
+                print(datafile)
                 data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0)
                 data = data.loc[data.index.dropna()]
-                data.drop(index = data.loc[data.index.str.endswith("N")].index, inplace=True)
-
-                missed_alleles |= verify_data(data, gene_alleles)
+                data.drop(index = data.loc[data.index.str.endswith("N") | data.index.str.endswith("Q")].index, inplace=True)
+                missing_alleles =set()
+                missing_alleles |= verify_accession_data(data, gene_alleles)
+                missing_alleles |= verify_G_groups(data, gene_alleles)
+                missed_alleles |= missing_alleles
+                chain, G_group = add_totals(data, pop_group_map)
+                chains.append(chain)
+                print(G_group)
+                G_groups.append(G_group)
+            chains = pd.concat(chains)
+            G_groups = pd.concat(G_groups)
+            print(G_groups)
+            chains.to_csv("ontology/chain-frequencies.tsv", sep="\t", mode='a+')
+            G_groups.to_csv("ontology/G-group-frequencies.tsv", sep="\t", mode='a+')
+            if missed_alleles:
+                imgt_data = lookup_imgt(missed_alleles)
+                if check_missed_alleles(imgt_data):
+                    print("foo")
             print(missed_alleles, len(missed_alleles))
         except ModuleNotFoundError:
             print("Please install pandas")
