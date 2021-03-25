@@ -355,6 +355,17 @@ def get_frequency_label(data):
             primary = i 
             break
     return primary
+def add_gene_allele_freqs(data, pop_group_map):
+    others = pd.DataFrame(data.loc[~data.index.str.endswith("total") | data.index.str.endswith("G"), get_frequency_label(data)], copy = True)
+    others.index.name = "LABEL"
+    others.rename(columns = pop_group_map, inplace = True)
+    others = others.add_prefix("AT '").add_suffix("'^^xsd:float")
+    others.index = "HLA-" + others.index + " gene allele"
+    entries, ids, cur_mro_id, labels = get_index_info()
+    in_mro = others.index.isin(labels)
+    not_in_mro_others = others[~in_mro]
+    others = others.loc[in_mro]
+    return others, not_in_mro_others
 def add_totals(data, pop_group_map):
     total = pd.DataFrame(data.loc[data.index.str.endswith("total"), get_frequency_label(data)], copy = True)
     
@@ -371,12 +382,13 @@ def add_totals(data, pop_group_map):
     not_in_mro_chains = chains[~in_mro]
     chains = chains.loc[in_mro]
     in_mro = G_group.index.isin(labels)
-    print(in_mro)
     not_in_mro_G_group= G_group[~in_mro]
     G_group = G_group.loc[in_mro]
-    print(len(not_in_mro_chains))
-    print(len(not_in_mro_G_group))
-    return chains, G_group
+    return chains, G_group, not_in_mro_chains.index, not_in_mro_G_group.index
+def write_template_header(filename, template_header):
+    with open(filename, "w") as totals:
+        totals.write(template_header)
+        totals.write("\n")
 def main():
     parser = argparse.ArgumentParser(description='Update MHC gene allele sequences and G groups or add frequency data')
     parser.add_argument("-u","--update", action='store_true', help = "Update G groups and coding region genomic sequences of HLA alleles from IMGT")
@@ -406,18 +418,14 @@ def main():
             missed_alleles = set()
             chains = []
             G_groups = []
+            gene_alleles_freq = []
             pop_group_map = {"AFA": "African frequency", "API": "Asian Pacific Islander frequency", "EURO": "European frequency", "MENA": "Middle Eastern and North African frequency", "HIS": "Hispanic frequency", "NAM": "Native American frequency", "UNK": "Unknown group frequency", "Total": "Total frequency"  }
             prop = check_pop_properties_are_in_index(list(pop_group_map.values()) + ["CIWD population frequency"])
             update_index(prop)
-            template_string = "\t".join(pop_group_map.values())
-            with open("ontology/chain-frequencies.tsv", "w") as totals:
-                totals.write("Chains\t")
-                totals.write(template_string)
-                totals.write("\n")
-            with open("ontology/G-group-frequencies.tsv", "w") as totals:
-                totals.write("G group\t")
-                totals.write(template_string)
-                totals.write("\n")
+            template_header = "\t".join(pop_group_map.values())
+            write_template_header(filename ="ontology/chain-frequencies.tsv", template_header = "Chains\t" + template_header )
+            write_template_header(filename ="ontology/G-group-frequencies.tsv",template_header ="G group\t" + template_header  )
+            write_template_header(filename ="ontology/G-group-frequencies.tsv",template_header="MHC gene alleles\t" + template_header  )
             for datafile in datafiles:
                 print(datafile)
                 data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0)
@@ -427,19 +435,20 @@ def main():
                 missing_alleles |= verify_accession_data(data, gene_alleles)
                 missing_alleles |= verify_G_groups(data, gene_alleles)
                 missed_alleles |= missing_alleles
-                chain, G_group = add_totals(data, pop_group_map)
+                chain, G_group, not_in_mro_chains, not_in_mro_G_group= add_totals(data, pop_group_map)
+                gene_alleles_freq.append(add_gene_allele_freqs(data, pop_group_map)) 
                 chains.append(chain)
-                print(G_group)
                 G_groups.append(G_group)
+                
             chains = pd.concat(chains)
             G_groups = pd.concat(G_groups)
+            gene_alleles_freq = pd.concat(gene_alleles_freq)
             print(G_groups)
             chains.to_csv("ontology/chain-frequencies.tsv", sep="\t", mode='a+')
             G_groups.to_csv("ontology/G-group-frequencies.tsv", sep="\t", mode='a+')
             if missed_alleles:
                 imgt_data = lookup_imgt(missed_alleles)
-                if check_missed_alleles(imgt_data):
-                    print("foo")
+                same, diff = check_missed_alleles(imgt_data)
             print(missed_alleles, len(missed_alleles))
         except ModuleNotFoundError:
             print("Please install pandas")
