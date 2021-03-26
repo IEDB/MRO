@@ -18910,7 +18910,7 @@ Mamu-DQA1*26:08 chain		subclass	Mamu-DQA chain
 Mamu-DQA1*26:09 chain		subclass	Mamu-DQA chain		
 Mamu-DQA1*26:10 chain		subclass	Mamu-DQA chain		
 Mamu-DQA1*26:11 chain		subclass	Mamu-DQA chain		
-Mamu-DQA chain		equivalent	protein	Mamu-DQA locus		
+Mamu-DQA chain		equivalent	protein	Mamu-DQA locus	
 Mamu-DQB1*06:01 chain		subclass	Mamu-DQB chain		
 Mamu-DQB1*06:02 chain		subclass	Mamu-DQB chain		
 Mamu-DQB1*06:05 chain		subclass	Mamu-DQB chain		
