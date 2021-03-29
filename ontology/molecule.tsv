@@ -24256,6 +24256,7 @@ Patr-AL*01:03 protein complex	Patr-AL*01:03		complete molecule	equivalent	non-cl
 Patr-AL*01:04 protein complex	Patr-AL*01:04		complete molecule	equivalent	non-classical MHC protein complex	chimpanzee	Patr-AL*01:04 chain	Beta-2-microglobulin		
 Patr-B protein complex	Patr-B		locus	equivalent	MHC class I protein complex	chimpanzee	Patr-B chain	Beta-2-microglobulin		
 Patr-B*01:01 protein complex	Patr-B*01:01		complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-B*01:01 chain	Beta-2-microglobulin		
+Patr-B*01:02 protein complex	Patr-B*01:02		complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-B*01:02 chain	Beta-2-microglobulin		
 Patr-B*02:01 protein complex	Patr-B*02:01		complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-B*02:01 chain	Beta-2-microglobulin		
 Patr-B*02:03 protein complex	Patr-B*02:03		complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-B*02:03 chain	Beta-2-microglobulin		
 Patr-B*03:01 protein complex	Patr-B*03:01		complete molecule	equivalent	MHC class I protein complex	chimpanzee	Patr-B*03:01 chain	Beta-2-microglobulin		
@@ -24758,6 +24759,7 @@ SLA-3*07:02 protein complex	SLA-3*07:02		complete molecule	equivalent	MHC class 
 SLA-3*07:03 protein complex	SLA-3*07:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*07:03 chain	Beta-2-microglobulin		
 SLA-3*08:01 protein complex	SLA-3*08:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*08:01 chain	Beta-2-microglobulin		
 SLA-6*01:01 protein complex	SLA-6*01:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*01:01 chain	Beta-2-microglobulin		
+SLA-6*01:02 protein complex	SLA-6*01:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*01:02 chain	Beta-2-microglobulin		
 SLA-6*02:01 protein complex	SLA-6*02:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*02:01 chain	Beta-2-microglobulin		
 SLA-6*03:01 protein complex	SLA-6*03:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*03:01 chain	Beta-2-microglobulin		
 SLA-6*04:01 protein complex	SLA-6*04:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*04:01 chain	Beta-2-microglobulin		
