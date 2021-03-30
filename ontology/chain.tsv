@@ -18216,7 +18216,7 @@ Mamu-A3*13:12 chain		subclass	Mamu-A chain
 Mamu-A3*13:13 chain		subclass	Mamu-A chain		
 Mamu-A3*13:14 chain		subclass	Mamu-A chain		
 Mamu-A4*01:01 chain		subclass	Mamu-A chain		
-Mamu-A4*01:02 chain		subclass	Mamu-A chain		
+Mamu-A4*01:02 chain		subclass	Mamu-A chain		evidence of MHC chain expression not observed
 Mamu-A4*01:03 chain		subclass	Mamu-A chain		
 Mamu-A4*02:02 chain		subclass	Mamu-A chain		
 Mamu-A4*02:03 chain		subclass	Mamu-A chain		
@@ -18910,7 +18910,7 @@ Mamu-DQA1*26:08 chain		subclass	Mamu-DQA chain
 Mamu-DQA1*26:09 chain		subclass	Mamu-DQA chain		
 Mamu-DQA1*26:10 chain		subclass	Mamu-DQA chain		
 Mamu-DQA1*26:11 chain		subclass	Mamu-DQA chain		
-Mamu-DQA chain		equivalent	protein	Mamu-DQA locus		
+Mamu-DQA chain		equivalent	protein	Mamu-DQA locus	
 Mamu-DQB1*06:01 chain		subclass	Mamu-DQB chain		
 Mamu-DQB1*06:02 chain		subclass	Mamu-DQB chain		
 Mamu-DQB1*06:05 chain		subclass	Mamu-DQB chain		
@@ -19310,6 +19310,7 @@ Patr-AL*01:03 chain		subclass	Patr-AL chain
 Patr-AL*01:04 chain		subclass	Patr-AL chain		
 Patr-B chain		equivalent	protein	Patr-B locus	
 Patr-B*01:01 chain		subclass	Patr-B chain		
+Patr-B*01:02 chain		subclass	Patr-B chain		evidence of MHC chain expression not observed
 Patr-B*02:01 chain		subclass	Patr-B chain		
 Patr-B*02:03 chain		subclass	Patr-B chain		
 Patr-B*03:01 chain		subclass	Patr-B chain		
@@ -19830,6 +19831,7 @@ SLA-3*07:03 chain		subclass	SLA-3 chain
 SLA-3*08:01 chain		subclass	SLA-3 chain		
 SLA-6 chain		equivalent	protein	SLA-6 locus	
 SLA-6*01:01 chain		subclass	SLA-6 chain		
+SLA-6*01:02 chain		subclass	SLA-6 chain		
 SLA-6*02:01 chain		subclass	SLA-6 chain		
 SLA-6*03:01 chain		subclass	SLA-6 chain		
 SLA-6*04:01 chain		subclass	SLA-6 chain		
