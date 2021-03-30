@@ -150,8 +150,8 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             if name in chains:
                 gene_allele["Chain"] = name 
                 if len(chains[name]["Sequence"]) < len(cds.qualifiers['translation'][0]):
-                    chains[name]["Resource Name"] = allele
-                    chains[name]["Accession"] = allele.split("-")[1]
+                    chains[name]["Resource Name"] = allele.split("-")[1]
+                    chains[name]["Accession"] = b.name
                     chains[name]["Sequence"] = str(cds.qualifiers['translation'][0])
                     modified_chains = True
             else:
