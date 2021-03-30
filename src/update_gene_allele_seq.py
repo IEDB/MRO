@@ -8,6 +8,7 @@ import sys
 import re
 import pandas as pd
 from itertools import compress
+from io import StringIO
 # gen_records = {}
 # records_list = [seq_record for seq_record in SeqIO.parse(os.path.join("/Users/amody/IMGTHLA/fasta",  "hla_gen.fasta"), "fasta")]
 # for record in records_list:
@@ -50,12 +51,19 @@ EXCLUDED_GENES = {
     "DQA2",
     "DRB2"
 }
+    
 def get_chains():
     se = open("ontology/chain-sequence.tsv", "r")
-    next(se)
-    rows = csv.DictReader(se, delimiter="\t")
-    chains = {row["LABEL"].split(" ")[0]: row["A MRO:sequence"] for row in rows}
-    return chains
+    p = se.readline()
+    template_string = se.readline()
+    p += se.read()
+    q = StringIO(p)
+    rows = csv.DictReader(q, delimiter="\t")
+    chains = {}
+    for row in rows:
+        label = row.pop("Label", None)
+        chains[label] = row
+    return chains, template_string 
 #nuc_records = {}
 
 # m = []
@@ -90,7 +98,7 @@ def update_allele_dict(allele_dict):
 
 def get_G_group_exon(record, mhc_class):
     exons = []
-    if mhc_class = "I":
+    if mhc_class == "I":
         for feature in record.features:
             if feature.type == 'exon' and (feature.qualifiers['number'] == ['2'] or feature.qualifiers['number'] == ['3']):
                 exons.append(str(feature.extract(record).seq))
@@ -110,10 +118,11 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
     G_groups = {}
     rec = SeqIO.parse("build/hla.dat", "imgt")
     #descriptions = set()
+    modified_chains = False
     for b in rec:
         try:
             cds = ""
-            for features in b.features:
+            for feature in b.features:
                 if feature.type=='CDS' and feature.location is not None and 'translation' in feature.qualifiers:
                     cds = feature
                     break
@@ -122,7 +131,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             mhc_class = cds.qualifiers['product'][0]
             mhc_class = ("II" if "II" in mhc_class else "I")
             gene_allele["MHC gene allele"] = allele
-            locus = cds.qualifiers['gene'][0]
+            locus = cds.qualifiers['gene'][0].split("*")[0]
             if locus in EXCLUDED_GENES or locus.split("-")[1] in EXCLUDED_GENES or allele[len(allele) -1] == "N" or allele[len(allele) -1] == "Q":
                 continue
             exons = get_G_group_exon(record = b, mhc_class = mhc_class )
@@ -136,10 +145,15 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             if match:
                 locus = locus[:match.span()[0]]
             gene_allele["Locus"] = locus + " locus"
-            two_field = allele.split(":")
-            two_field = two_field[0] + ":" + two_field[1]
-            if two_field in chains:
-                gene_allele["Chain"] = two_field + " chain"
+            two_field = (":").join(allele.split(":")[:2])
+            name = two_field + " chain"
+            if name in chains:
+                gene_allele["Chain"] = name 
+                if len(chains[name]["Sequence"]) < len(cds.qualifiers['translation'][0]):
+                    chains[name]["Resource Name"] = allele
+                    chains[name]["Accession"] = allele.split("-")[1]
+                    chains[name]["Sequence"] = str(cds.qualifiers['translation'][0])
+                    modified_chains = True
             else:
                 error = {"reason": "MRO doesn't have allele", "IMGT Accession": b.name, "IMGT allele" : allele, "MRO allele": two_field}
                 errors.append(error)
@@ -169,14 +183,12 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
         if all_fields_present:
             gen_alleles.append(gene_allele)
         continue
-    for i in G_groups:
-        print(i, len(G_group[i]))
     G_groups = [{"G group" : allele, "Exon 2 and/or 3": max(G_groups[allele], key=len), "Logic": "G group"} for allele in G_groups]
     gen_alleles = list(map(update_allele_dict, gen_alleles))
     #with open("descriptions.txt", "w") as desc_file:
         #for i in descriptions:
             #desc_file.write(i + "\n")
-    return gen_alleles, G_groups, errors
+    return gen_alleles, G_groups, errors, chains, modified_chains
 
 def write_error_report(errors):
     with open("build/report-g-grp.json", "w") as report:
@@ -212,7 +224,6 @@ def get_index_info():
         entries = entries[2:]
         entries = list(map(lambda entry: dict(zip(["ID", "Label", "Type", "Depreciated?"], entry.split("\t"))), entries))
         for entry in entries:
-            print(entry)
             int(entry["ID"].split(":")[1])
         ids = [int(entry["ID"].split(":")[1]) for entry in entries]
         cur_mro_id = max(ids) + 1
@@ -233,7 +244,6 @@ def get_new_alleles_and_G_groups(gen_alleles, G_groups):
 
 def update_index(terms):
     entries, ids, cur_mro_id, labels = get_index_info()
-    print("start", cur_mro_id)
     x = len(terms) - 1
     while x >= 0:
         if terms[x][0] not in labels:
@@ -242,7 +252,6 @@ def update_index(terms):
         else:
             terms.remove(terms[x])
         x = x - 1
-    print("end", cur_mro_id)
     with open("index.tsv", "a+") as index:
         writer = csv.writer(index, delimiter="\t", lineterminator="\n")
         writer.writerows(terms)
@@ -390,6 +399,22 @@ def write_template_header(filename, template_header):
     with open(filename, "w") as totals:
         totals.write(template_header)
         totals.write("\n")
+    
+def fix_chains(chains, template_string):
+    with open("ontology/chain-sequence.tsv","w") as p:
+        fieldnames = list(list(chains.values())[0].keys())
+        fieldnames.insert(0, "Label")
+        writer = csv.DictWriter(p, fieldnames = fieldnames, delimiter = "\t")
+        writer.writeheader()
+        p.write(template_string)
+        new_chains = []
+        for chain in chains:
+            foo = {}
+            foo["Label"] = chain
+            foo.update(chains[chain])
+            new_chains.append(foo)
+        writer.writerows(new_chains)
+        
 def main():
     parser = argparse.ArgumentParser(description='Update MHC gene allele sequences and G groups or add frequency data')
     parser.add_argument("-u","--update", action='store_true', help = "Update G groups and coding region genomic sequences of HLA alleles from IMGT")
@@ -397,9 +422,11 @@ def main():
     args = parser.parse_args()
     if args.update:
         gen_seq = get_G_groups()
-        chains = get_chains()
+        chains, template_string  = get_chains()
         gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Subclass", "Locus","Accession","Source","Coding Region Sequence"]
-        gen_alleles, G_groups, errors = process_hla_dat(gen_seq = gen_seq, gene_allele_fields = gene_allele_fields, chains = chains)
+        gen_alleles, G_groups, errors, chains, modified_chains = process_hla_dat(gen_seq = gen_seq, gene_allele_fields = gene_allele_fields, chains = chains)
+        if modified_chains:
+            fix_chains(chains, template_string)
         write_error_report(errors)
         write_gene_alleles(gene_allele_fields = gene_allele_fields, gen_alleles = gen_alleles)
         write_G_groups(G_groups)
@@ -426,12 +453,11 @@ def main():
             template_header = "\t".join(pop_group_map.values())
             write_template_header(filename ="ontology/chain-frequencies.tsv", template_header = "Chains\t" + template_header )
             write_template_header(filename ="ontology/G-group-frequencies.tsv",template_header ="G group\t" + template_header  )
-            write_template_header(filename ="ontology/G-group-frequencies.tsv",template_header="MHC gene alleles\t" + template_header  )
+            write_template_header(filename ="ontology/gene-allele-frequencies.tsv",template_header="MHC gene alleles\t" + template_header  )
             not_in_mro_chains = []
             not_in_mro_G_groups = []
             not_in_mro_others = []
             for datafile in datafiles:
-                print(datafile)
                 data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0)
                 data = data.loc[data.index.dropna()]
                 data.drop(index = data.loc[data.index.str.endswith("N") | data.index.str.endswith("Q")].index, inplace=True)
@@ -451,14 +477,13 @@ def main():
             chains = pd.concat(chains)
             G_groups = pd.concat(G_groups)
             gene_alleles_freq = pd.concat(gene_alleles_freq)
-            print(G_groups)
             chains.to_csv("ontology/chain-frequencies.tsv", sep="\t", mode='a+')
             G_groups.to_csv("ontology/G-group-frequencies.tsv", sep="\t", mode='a+')
-            gene_alleles_freq.to_csv("ontology/G-group-frequencies.tsv", sep="\t", mode='a+')
-            if missed_alleles:
-                imgt_data = lookup_imgt(missed_alleles)
-                same, diff = check_missed_alleles(imgt_data)
-            print(missed_alleles, len(missed_alleles))
+            gene_alleles_freq.to_csv("ontology/gene-allele-frequencies.tsv", sep="\t", mode='a+')
+            #if missed_alleles:
+            #    imgt_data = lookup_imgt(missed_alleles)
+            #    same, diff = check_missed_alleles(imgt_data)
+            #print(missed_alleles, len(missed_alleles))
         except ModuleNotFoundError:
             print("Please install pandas")
 

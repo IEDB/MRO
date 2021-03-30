@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -263,7 +263,7 @@ update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontolo
 
 ### OWL Files
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) -vvv template \
+	$(ROBOT) template \
 	--input $< \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
@@ -348,7 +348,7 @@ build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar
 	--output $@
 
 build/.mro-tdb: build/mro-iedb.owl
-	$(ROBOT) -vvv query --input $< \
+	$(ROBOT) query --input $< \
 	--create-tdb true \
 	--tdb-directory $@
 
@@ -447,7 +447,6 @@ prepare: update-seqs
 prepare: update-iedb
 prepare:
 	pip install -r requirements.txt
-
 .PHONY: clean
 clean:
 	rm -rf mro.owl
