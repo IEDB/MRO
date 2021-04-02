@@ -196,10 +196,10 @@ build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb
 # Moved to GitHub
 # OLD: https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 build/hla.fasta: | build
-	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
+	curl -L -o $@ https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 
 build/mhc.fasta: | build
-	wget -O $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
+	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
