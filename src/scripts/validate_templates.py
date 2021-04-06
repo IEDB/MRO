@@ -1,5 +1,6 @@
 import csv
 import re
+import sys
 
 from argparse import ArgumentParser
 
@@ -1197,6 +1198,7 @@ def main():
         writer.writerows(errors)
 
     if errors:
+        has_error_level = [x for x in errors if x["level"] == "error"]
         msg = create_message(errors)
         print(
             "\n-------------------------------------------------------\n"
@@ -1204,6 +1206,9 @@ def main():
             f"\n{msg}\n"
             "---------------------------------------------------------\n"
         )
+        if has_error_level:
+            # fail if any "error" level errors were returned
+            sys.exit(1)
     else:
         print("\nValidation passed!\n")
 
