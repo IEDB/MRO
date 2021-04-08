@@ -20396,7 +20396,6 @@ SLA-3*07:03 chain		subclass	SLA-3 chain
 SLA-3*08:01 chain		subclass	SLA-3 chain		
 SLA-6 chain		equivalent	protein	SLA-6 locus	
 SLA-6*01:01 chain		subclass	SLA-6 chain		
-SLA-6*01:02 chain		subclass	SLA-6 chain		
 SLA-6*02:01 chain		subclass	SLA-6 chain		
 SLA-6*03:01 chain		subclass	SLA-6 chain		
 SLA-6*04:01 chain		subclass	SLA-6 chain		

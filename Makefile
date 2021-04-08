@@ -198,10 +198,10 @@ build/HLA-%-frequency.xlsx: | build
 # Moved to GitHub
 # OLD: https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 build/hla.fasta: | build
-	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
+	curl -L -o $@ https://github.com/ANHIG/IMGTHLA/raw/Latest/hla_prot.fasta
 
 build/mhc.fasta: | build
-	wget -O $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
+	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
 build/hla.dat: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
