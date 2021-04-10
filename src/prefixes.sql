@@ -12,7 +12,7 @@ INSERT OR IGNORE INTO prefix VALUES
 ("dce", "http://purl.org/dc/elements/1.1/"),
 ("dct", "http://purl.org/dc/terms/"),
 ("foaf", "http://xmlns.com/foaf/0.1/"),
-("obo",       "http://purl.obolibrary.org/obo/"),
+("obo",  "http://purl.obolibrary.org/obo/"),
 
 ("BFO", "http://purl.obolibrary.org/obo/BFO_"),
 ("ECO", "http://purl.obolibrary.org/obo/ECO_"),
@@ -22,3 +22,4 @@ INSERT OR IGNORE INTO prefix VALUES
 ("MRO", "http://purl.obolibrary.org/obo/MRO_"),
 ("PR", "http://purl.obolibrary.org/obo/PR_"),
 ("RO", "http://purl.obolibrary.org/obo/RO_");
+("NCIT", "http://purl.obolibrary.org/obo/NCIT_")

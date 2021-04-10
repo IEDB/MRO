@@ -93,7 +93,7 @@ def get_G_groups():
 
 def update_allele_dict(allele_dict):
     allele_dict["MHC gene allele"] = allele_dict["MHC gene allele"] + " gene allele"
-    allele_dict["Subclass"] = "MHC gene allele"
+    #allele_dict["Subclass"] = "MHC gene allele"
     return allele_dict
 
 def get_G_group_exon(record, mhc_class):
@@ -143,10 +143,10 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             gene_allele["Coding Region Sequence"] = str(cds.extract(b).seq)
             gene_allele["Source"] = "IMGT/HLA"
             gene_allele["Accession"] = b.name
-            match = re.search(pattern = r"[0-9]+$", string=locus)
-            if match:
-                locus = locus[:match.span()[0]]
-            gene_allele["Locus"] = locus + " locus"
+            # match = re.search(pattern = r"(?<!DRB)[0-9]+$", string=locus)
+            # if match:
+            #     locus = locus[:match.span()[0]]
+            gene_allele["Locus"] = f"'{locus} wt Allele'"
             two_field = (":").join(allele.split(":")[:2])
             name = two_field + " chain"
             if name in chains:
@@ -203,7 +203,7 @@ def write_gene_alleles(gene_allele_fields, gen_alleles):
         writer.writeheader()
         #file_obj.write("LABEL\tEC 'has gene product' some %\tEC 'has part' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
         #writer.writerows([gen_alleles[0]])
-        file_obj.write("LABEL\tSC 'has gene product' some %\tSC 'has part' some %\tSC %\tSC 'gene product of' some %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
+        file_obj.write("LABEL\tSC 'has gene product' some %\tSC 'has part' some %\tSC %\tA MRO:accession\tA MRO:source\tA MRO:sequence\n")
         writer.writerows(gen_alleles)
         file_obj.close()
 
@@ -238,7 +238,7 @@ def check_pop_properties_are_in_index(pop_properties):
     
 def get_new_alleles_and_G_groups(gen_alleles, G_groups):
     new_alleles = [[allele["MHC gene allele"], "owl:Class", ""] for allele in gen_alleles]
-    new_alleles.append(["MHC gene allele", "owl:Class", ""])
+    #new_alleles.append(["MHC gene allele", "owl:Class", ""])
     new_G_groups = [[allele["G group"], "owl:Class", ""]  for allele in G_groups]
     new_G_groups.append(["G group", "owl:Class", ""])
     return new_alleles, new_G_groups
@@ -442,7 +442,7 @@ def main():
     if args.update:
         gen_seq = get_G_groups()
         chains, template_string  = get_chains()
-        gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Subclass", "Locus","Accession","Source","Coding Region Sequence"]
+        gene_allele_fields = ["MHC gene allele", "Chain", "G group", "Locus","Accession","Source","Coding Region Sequence"]
         gen_alleles, G_groups, errors, chains, modified_chains = process_hla_dat(gen_seq = gen_seq, gene_allele_fields = gene_allele_fields, chains = chains)
         if modified_chains:
             fix_chains(chains, template_string)
