@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence external_ncit G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -99,7 +99,7 @@ load: $(COGS_SHEETS)
 push: | .cogs
 	cogs push
 
-.PHONY: destroy 
+.PHONY: destroy
 destroy: | .cogs
 	cogs delete -f
 
@@ -166,7 +166,7 @@ build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv
+mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/frequency-properties.tsv ontology/chain-frequencies.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files build/whitespace.tsv
@@ -190,6 +190,8 @@ sort:
 build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
 	python3 $^ $@
 
+build/HLA-%-frequency.xlsx: | build
+	curl -o $@ -L "https://www.ihiw18.org/wp-content/uploads/2020/04/HLA-$*_PrimaryData-IHWS-20200320.xlsx"
 
 ### Sequences
 
@@ -200,6 +202,15 @@ build/hla.fasta: | build
 
 build/mhc.fasta: | build
 	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
+
+build/hla.dat: | build
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
+	
+build/hla1.dat: | build
+	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/3310/hla.dat
+	
+build/hla_nom_g.txt: | build
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/wmda/hla_nom_g.txt
 
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
@@ -216,6 +227,18 @@ build/hla_prot.fasta: | build
 
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
+
+src/dbfetch.py: 
+	curl -o $@ -L https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/python/dbfetch.py
+	
+.PHONY: update-G-groups
+update-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
+		python3 src/update_gene_allele_seq.py -u
+
+.PHONY: add-frequency-data
+add-frequency-data: src/dbfetch.py build/hla1.dat ontology/G-group.tsv ontology/gene-alleles.tsv build/report-g-grp.json build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
+	pip install pandas==1.2.1
+	python3 src/update_gene_allele_seq.py -f
 
 .PHONY: update-alleles
 update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
@@ -239,12 +262,12 @@ update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontolo
 
 
 ### OWL Files
-
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) template \
+	$(ROBOT) -vvv template \
 	--input $< \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
+	--prefix "NCIT: $(OBO)/NCIT_" \
 	--template index.tsv \
 	$(templates) \
 	--merge-before \
@@ -258,12 +281,13 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl ontology/import.txt | build/robot.jar
+build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl build/hancestro-import.ttl ontology/import.txt | build/robot.jar
 	$(ROBOT) merge \
 	--input build/eco-import.ttl \
 	--input build/obi-import.ttl \
 	--input build/ro-import.ttl \
 	--input build/iao-import.ttl \
+	--input build/hancestro-import.ttl \
 	extract \
 	--method MIREOT \
 	--upper-term "GO:0008150" \
@@ -272,13 +296,18 @@ build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import
 	--upper-term "ECO:0000000" \
 	--upper-term "BFO:0000040" \
 	--upper-term "PR:000000001" \
-	--lower-terms $(word 5,$^) \
+	--lower-terms $(word 6,$^) \
 	--output $@
 
 # fetch ontology dependencies
 $(LIB)/%:
 	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/$*"
+
+$(LIB)/ro.owl:
+	mkdir -p $(LIB)
+	cd $(LIB) && curl -LO "$(OBO)/ro.owl"
+	$(ROBOT) -vvv merge --input $@ --output $@
 
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
 
@@ -290,7 +319,7 @@ build/%.txt: ontology/import.txt | build
 # RO:0000056 isn't in RO?
 # we could also just add this to index.tsv
 build/obi.txt: ontology/import.txt | build
-	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' > $@
+	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' | sed '/^HANCESTRO/d' | sed '/^GSSO/d' | sed '/^NCIT/d' | sed '/^IDO/d' > $@
 	echo "RO:0000056" >> $@
 
 build/%.db: src/scripts/prefixes.sql $(LIB)/%.owl | build/rdftab
@@ -303,6 +332,15 @@ PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:99
 build/%-import.ttl: build/%.db build/%.txt
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(foreach P,$(PREDICATES), -p $(P)) > $@
 
+ontology/external_ncit.tsv: lib/ncit.owl
+	$(ROBOT) extract \
+	--method MIREOT \
+	--input $< \
+	--branch-from-term NCIT:C16812 \
+	export \
+	--header "ID|LABEL|SYNONYMS|SubClass Of|Equivalent Class|Type|definition|Preferred_Name|Contributing_Source" \
+	--format tsv \
+	--export $@
 ### Generate files for IEDB
 #
 # This includes an extended OWL file
@@ -424,7 +462,6 @@ prepare: update-seqs
 prepare: update-iedb
 prepare:
 	pip install -r requirements.txt
-
 .PHONY: clean
 clean:
 	rm -rf mro.owl
