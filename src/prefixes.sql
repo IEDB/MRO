@@ -21,5 +21,5 @@ INSERT OR IGNORE INTO prefix VALUES
 ("OBI", "http://purl.obolibrary.org/obo/OBI_"),
 ("MRO", "http://purl.obolibrary.org/obo/MRO_"),
 ("PR", "http://purl.obolibrary.org/obo/PR_"),
-("RO", "http://purl.obolibrary.org/obo/RO_");
-("NCIT", "http://purl.obolibrary.org/obo/NCIT_")
+("RO", "http://purl.obolibrary.org/obo/RO_"),
+("NCIT", "http://purl.obolibrary.org/obo/NCIT_");

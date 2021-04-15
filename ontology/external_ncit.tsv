@@ -1,9 +1,9 @@
-ID	LABEL	SYNONYMS	SubClass Of	Equivalent Class	Locus	Type	definition	Preferred_Name	Contributing_Source	Source Ontology	Class Type
+ID	Label	SYNONYMS	SubClass Of	Equivalent Class	Locus	Type	definition	Preferred_Name	Contributing_Source	Source Ontology	Class Type
 ID	LABEL	A IAO:0000118 SPLIT=|	SC %	C %	C 'located in' some %	TYPE	A IAO:0000115	A IAO:0000111	A IAO:0000119 SPLIT=|	AI IAO:0000412	CLASS_TYPE
-MRO:0074886	human MHC class I gene		MHC Class I Gene	Major Histocompatibility Complex Gene	human MHC class I locus	owl:Class					equivalent
-MRO:0074887	human MHC class II gene		MHC Class II Gene	Major Histocompatibility Complex Gene	human MHC class II locus	owl:Class					equivalent
-MRO:0074888	HLA-E Gene		human MHC class I gene	Major Histocompatibility Complex Gene	HLA-E locus	owl:Class					equivalent
-MRO:0074889	HLA-E wt Allele		HLA-E Gene			owl:Class	Human HLA-E wild-type allele is located in the vicinity of 6p22.1. This allele encodes HLA class I histocompatibility antigen, alpha chain E protein.				
+	human MHC class I gene		MHC Class I Gene	Major Histocompatibility Complex Gene	human MHC class I locus	owl:Class					equivalent
+	human MHC class II gene		MHC Class II Gene	Major Histocompatibility Complex Gene	human MHC class II locus	owl:Class					equivalent
+	HLA-E Gene		human MHC class I gene	Major Histocompatibility Complex Gene	HLA-E locus	owl:Class					equivalent
+	HLA-E wt Allele		HLA-E Gene			owl:Class	Human HLA-E wild-type allele is located in the vicinity of 6p22.1. This allele encodes HLA class I histocompatibility antigen, alpha chain E protein.		NCBI Gene		
 NCIT:C16616	MHC Class II Gene	Class II MHC|MHC Class II|MHC Class II Gene	Major Histocompatibility Complex Gene	Major Histocompatibility Complex Gene	MHC class II locus	owl:Class	A family of genes expressed mainly by antigen presenting cells that encode major histocompatibility complex proteins and are involved in the presentation of fragments from phagocytized extracellular proteins to cytotoxic lymphocytes.	MHC Class II Gene		http://purl.obolibrary.org/obo/ncit.owl	equivalent
 NCIT:C16617	MHC Class I Gene	Class I MHC|MHC Class I|MHC Class I Gene	Major Histocompatibility Complex Gene	Major Histocompatibility Complex Gene	MHC class I locus	owl:Class	A family of genes that encode major histocompatibility complex proteins and are involved in the presentation of cytoplasmic protein fragments to cytotoxic lymphocytes.	MHC Class I Gene		http://purl.obolibrary.org/obo/ncit.owl	equivalent
 NCIT:C16812	Major Histocompatibility Complex Gene	HLA Complex Gene|Major Histocompatibility Complex Gene	genetic entity		MHC locus	owl:Class	A group of linked loci, collectively termed H-2 complex in the mouse and HLA complex in humans, that codes for cell-surface histocompatibility antigens and is the principal determinant of tissue type and transplant compatibility.	Major Histocompatibility Complex Gene		http://purl.obolibrary.org/obo/ncit.owl	equivalent

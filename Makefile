@@ -304,10 +304,10 @@ $(LIB)/%:
 	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/$*"
 
-$(LIB)/ro.owl:
+$(LIB)/ro.owl: build/robot.jar
 	mkdir -p $(LIB)
 	cd $(LIB) && curl -LO "$(OBO)/ro.owl"
-	$(ROBOT) -vvv merge --input $@ --output $@
+	$(ROBOT) merge --input $@ --output $@
 
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
 

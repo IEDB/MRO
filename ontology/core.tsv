@@ -1,7 +1,7 @@
 Label	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of Usage
 LABEL	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112
 Beta-2-microglobulin locus		subclass	genetic locus		The region of a chromosome that codes for Beta-2-microglobulin molecules.	IEDB	
-G group		subclass	genetic entity		HLA alleles that have identical nucleotide sequences across the exons encoding the peptide binding domains (exon 2 and exon 3 for class I alleles and exon 2 for class II alleles).		
+G group		subclass	genetic entity		HLA alleles that have identical nucleotide sequences across the exons encoding the peptide binding domains (exon 2 and exon 3 for class I alleles and exon 2 for class II alleles).	http://hla.alleles.org/alleles/g_groups.html	
 MHC haplotype		subclass	SO:0001024		A set of MHC alleles that is frequently inherited together.	IEDB	The mouse H-2-k class II haplotype is expressed in C3H mice.
 MHC ligand assay		subclass	immune epitope assay				
 MHC locus		subclass	genetic locus		The region of a chromosome that codes for MHC molecules.	IEDB	The class II regions encoding for the DP, DQ, and DR molecules on human chromosome 6.
