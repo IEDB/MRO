@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence external_ncit G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence external-ncit G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies 
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -332,7 +332,7 @@ PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:99
 build/%-import.ttl: build/%.db build/%.txt
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(foreach P,$(PREDICATES), -p $(P)) > $@
 
-ontology/external_ncit.tsv: lib/ncit.owl
+ontology/external-ncit.tsv: lib/ncit.owl
 	$(ROBOT) extract \
 	--method MIREOT \
 	--input $< \
