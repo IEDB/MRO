@@ -60,10 +60,11 @@ def main():
         rows.append(next(reader))
         for row in reader:
             rows.append(row)
-            if row["Type"] != "owl:Class":
-                continue
+            #if row["Type"] != "owl:Class":
+            #    continue
             existing_labels.append(row["Label"])
-            num_id = int(row["ID"].split(":")[1].lstrip("0"))
+            print(row["ID"])
+            num_id = int(row["ID"].split(":")[1])
             if num_id > mro_id:
                 mro_id = num_id
 
@@ -79,6 +80,7 @@ def main():
         "mutant-molecule",
         "serotype",
         "serotype-molecule",
+        "external-obi"
     ]:
         with open(f"{args.templates_dir}/{tbl}.tsv", "r") as f:
             reader = csv.DictReader(f, delimiter="\t")

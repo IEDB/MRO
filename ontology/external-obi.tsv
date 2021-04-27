@@ -1,0 +1,4 @@
+ID	LABEL	Type	SubClassOf	definition
+ID	LABEL	TYPE	SC %	A IAO:0000115
+OBI:0001352	allele information	owl:Class	information content entity	a genetic alteration information that about one of two or more alternative forms of a gene or marker sequence and differing from other alleles at one or more mutational sites based on sequence. Polymorphisms are included in this definition.
+OBI:0001369	wild type allele information	owl:Class	allele information	an allele information that is about the allele found most frequently in natural populations, or in standard laboratory stocks for a given organism.

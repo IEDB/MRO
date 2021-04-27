@@ -146,7 +146,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             # match = re.search(pattern = r"(?<!DRB)[0-9]+$", string=locus)
             # if match:
             #     locus = locus[:match.span()[0]]
-            gene_allele["Locus"] = f"'{locus} wt Allele'"
+            gene_allele["Locus"] = f"'{locus} wild type allele information'"
             two_field = (":").join(allele.split(":")[:2])
             name = two_field + " chain"
             if name in chains:
@@ -390,15 +390,14 @@ def add_totals(data, pop_group_map):
     two_field = two_field.add_prefix("AT '").add_suffix("'^^xsd:float")
     foo = total.index.str.replace(" total", "")
     total.index.name = "LABEL"
-    yu = list(total.index)
+    #yu = list(total.index)
     total.rename(columns = pop_group_map, index = dict(zip(total.index, foo)) , inplace = True)
-    yu = list(total.index)
+    #yu = list(total.index)
     total = total.add_prefix("AT '").add_suffix("'^^xsd:float")
-    print("total")
-    yu = list(total.index)
+    #yu = list(total.index)
     
     chains = pd.DataFrame(total.loc[(~(total.index.str.contains("G"))) & (~(total.index.str.endswith("P"))) ], copy = True)
-    print(chains)
+    #print(chains)
     chains = pd.concat([chains, two_field])
     chains.index = "HLA-" + chains.index + " chain"
     G_group = pd.DataFrame(total.loc[total.index.str.endswith("G")], copy = True)
@@ -408,7 +407,7 @@ def add_totals(data, pop_group_map):
     labels_chains = labels_chains[labels_chains.str.endswith("chain")]
     in_mro = chains.index.isin(labels)
     not_in_mro_chains = chains[~in_mro]
-    print(not_in_mro_chains)
+    #print(not_in_mro_chains)
     chains = chains.loc[in_mro]
     in_mro = G_group.index.isin(labels)
     not_in_mro_G_group= G_group[~in_mro]
@@ -452,6 +451,7 @@ def main():
         new_alleles, new_G_groups = get_new_alleles_and_G_groups(gen_alleles = gen_alleles, G_groups = G_groups)
         update_index(terms = new_alleles)
         update_index(terms= new_G_groups)
+        #update_index(terms = [['human MHC class I gene', '', ''], ['HLA-E Gene', '', ''], ['HLA-E Gene', '', ''], ['HLA-E wt Allele', '', '']])
     if args.frequency:
         try:
             import pandas as pd
@@ -498,7 +498,6 @@ def main():
                 chains.append(chain)
                 G_groups.append(G_group)
                 not_in_mro_chains.extend(not_in_mro_chain)
-                print(not_in_mro_other)
                 not_in_mro_others.extend(not_in_mro_other)
                 not_in_mro_G_groups.extend(not_in_mro_G_group)
             chains = pd.concat(chains)
@@ -509,11 +508,10 @@ def main():
             print(not_in_mro_G_groups)
             print(len(missed_alleles_acc))
             print(len(missed_alleles_G_grp))
-            # if missed_alleles:
+            # if missed_alleles_acc:
             #       imgt_data = lookup_imgt(missed_alleles_acc)
-            #       same, diff = check_missed_alleles(imgt_data)
-            #       same_imgt_data = lookup_imgt(same)
-            #       for acc in same_imgt_data:
+            #       same_seq, diff_seq = check_missed_alleles(imgt_data)
+            #       print(same_seq)
                       
                       
             chains.to_csv("ontology/chain-frequencies.tsv", sep="\t", mode='a+')

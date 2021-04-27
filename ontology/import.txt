@@ -1,7 +1,7 @@
 # Biology
 GO:0008150  # biological process
 OBI:1110057 # MHC:epitope complex binding to TCR
-IDO:0100542 # encodes
+
 
 # Information
 IAO:0000030 # information content entity
@@ -38,6 +38,7 @@ RO:0002162  # in taxon
 RO:0002204  # gene product of
 RO:0002205 # has gene product
 RO:0001025 # located in
+BFO:0000050 # part of
 
 # Annotation Properties
 IAO:0000111 # editor preferred term
