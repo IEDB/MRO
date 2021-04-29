@@ -45941,3 +45941,6 @@ MRO:0045939	Patr-B*01:02 chain	owl:Class
 MRO:0045940	Patr-B*01:02 protein complex	owl:Class	
 MRO:0045941	obsolete SLA-6*01:02 chain	owl:Class	true
 MRO:0045942	obsolete SLA-6*01:02 protein complex	owl:Class	true
+MRO:0045943	SLA-6 protein complex	owl:Class	
+MRO:0045944	SLA-DQ protein complex	owl:Class	
+MRO:0045945	Mamu-DQ protein complex	owl:Class	
