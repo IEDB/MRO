@@ -666,7 +666,7 @@ BoLA-DRB3*163:01 protein complex	BoLA-DRB3*163:01		partial molecule	equivalent	M
 BoLA-DRB3*164:01 protein complex	BoLA-DRB3*164:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*164:01 chain		
 BoLA-DRB3*165:01 protein complex	BoLA-DRB3*165:01		partial molecule	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB3*165:01 chain		
 BoLA-DRB6 protein complex	BoLA-DRB6		locus	equivalent	MHC class II protein complex	cattle	BoLA-DRA chain	BoLA-DRB6 chain		
-BoLA-NC1 protein complex	BoLA-NC1		locus	equivalent	MHC class I protein complex	cattle	BoLA-NC1 chain	Beta-2-microglobulin		
+BoLA-NC1 protein complex	BoLA-NC1		locus	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1 chain	Beta-2-microglobulin		
 BoLA-NC1*001:01 protein complex	BoLA-NC1*001:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1*001:01 chain	Beta-2-microglobulin		
 BoLA-NC1*002:01 protein complex	BoLA-NC1*002:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1*002:01 chain	Beta-2-microglobulin		
 BoLA-NC1*002:02 protein complex	BoLA-NC1*002:02		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1*002:02 chain	Beta-2-microglobulin		
@@ -686,13 +686,13 @@ BoLA-NC1*013:01 protein complex	BoLA-NC1*013:01		complete molecule	equivalent	no
 BoLA-NC1*014:01 protein complex	BoLA-NC1*014:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1*014:01 chain	Beta-2-microglobulin		
 BoLA-NC1*014:02 protein complex	BoLA-NC1*014:02		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1*014:02 chain	Beta-2-microglobulin		
 BoLA-NC1*015:01 protein complex	BoLA-NC1*015:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC1*015:01 chain	Beta-2-microglobulin		
-BoLA-NC2 protein complex	BoLA-NC2		locus	equivalent	MHC class I protein complex	cattle	BoLA-NC2 chain	Beta-2-microglobulin		
+BoLA-NC2 protein complex	BoLA-NC2		locus	equivalent	non-classical MHC protein complex	cattle	BoLA-NC2 chain	Beta-2-microglobulin		
 BoLA-NC2*001:01 protein complex	BoLA-NC2*001:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC2*001:01 chain	Beta-2-microglobulin		
 BoLA-NC2*001:02 protein complex	BoLA-NC2*001:02		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC2*001:02 chain	Beta-2-microglobulin		
 BoLA-NC2*001:03 protein complex	BoLA-NC2*001:03		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC2*001:03 chain	Beta-2-microglobulin		
-BoLA-NC3 protein complex	BoLA-NC3		locus	equivalent	MHC class I protein complex	cattle	BoLA-NC3 chain	Beta-2-microglobulin		
+BoLA-NC3 protein complex	BoLA-NC3		locus	equivalent	non-classical MHC protein complex	cattle	BoLA-NC3 chain	Beta-2-microglobulin		
 BoLA-NC3*001:01 protein complex	BoLA-NC3*001:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC3*001:01 chain	Beta-2-microglobulin		
-BoLA-NC4 protein complex	BoLA-NC4		locus	equivalent	MHC class I protein complex	cattle	BoLA-NC4 chain	Beta-2-microglobulin		
+BoLA-NC4 protein complex	BoLA-NC4		locus	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4 chain	Beta-2-microglobulin		
 BoLA-NC4*001:01 protein complex	BoLA-NC4*001:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*001:01 chain	Beta-2-microglobulin		
 BoLA-NC4*002:01 protein complex	BoLA-NC4*002:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*002:01 chain	Beta-2-microglobulin		
 BoLA-NC4*002:02 protein complex	BoLA-NC4*002:02		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*002:02 chain	Beta-2-microglobulin		
@@ -23818,6 +23818,7 @@ Mamu-DPB1*24:01 protein complex	Mamu-DPB1*24:01		partial molecule	equivalent	MHC
 Mamu-DPB2*01:01 protein complex	Mamu-DPB2*01:01		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB2*01:01 chain		
 Mamu-DPB2*01:02 protein complex	Mamu-DPB2*01:02		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB2*01:02 chain		
 Mamu-DPB2*01:03 protein complex	Mamu-DPB2*01:03		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DPA chain	Mamu-DPB2*01:03 chain		
+Mamu-DQ protein complex	Mamu-DQ		locus	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DQA chain	Mamu-DQB chain		
 Mamu-DQA1*01:02 protein complex	Mamu-DQA1*01:02		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DQA1*01:02 chain	Mamu-DQB chain		
 Mamu-DQA1*01:04 protein complex	Mamu-DQA1*01:04		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DQA1*01:04 chain	Mamu-DQB chain		
 Mamu-DQA1*01:05 protein complex	Mamu-DQA1*01:05		partial molecule	equivalent	MHC class II protein complex	rhesus macaque	Mamu-DQA1*01:05 chain	Mamu-DQB chain		
@@ -24758,6 +24759,7 @@ SLA-3*07:01 protein complex	SLA-3*07:01		complete molecule	equivalent	MHC class 
 SLA-3*07:02 protein complex	SLA-3*07:02		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*07:02 chain	Beta-2-microglobulin		
 SLA-3*07:03 protein complex	SLA-3*07:03		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*07:03 chain	Beta-2-microglobulin		
 SLA-3*08:01 protein complex	SLA-3*08:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-3*08:01 chain	Beta-2-microglobulin		
+SLA-6 protein complex	SLA-6		locus	equivalent	MHC class I protein complex	pig	SLA-6 chain	Beta-2-microglobulin		
 SLA-6*01:01 protein complex	SLA-6*01:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*01:01 chain	Beta-2-microglobulin		
 SLA-6*02:01 protein complex	SLA-6*02:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*02:01 chain	Beta-2-microglobulin		
 SLA-6*03:01 protein complex	SLA-6*03:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*03:01 chain	Beta-2-microglobulin		
@@ -24768,6 +24770,7 @@ SLA-6*07:01 protein complex	SLA-6*07:01		complete molecule	equivalent	MHC class 
 SLA-6*08:01 protein complex	SLA-6*08:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*08:01 chain	Beta-2-microglobulin		
 SLA-6*09:01 protein complex	SLA-6*09:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*09:01 chain	Beta-2-microglobulin		
 SLA-6*10:01 protein complex	SLA-6*10:01		complete molecule	equivalent	MHC class I protein complex	pig	SLA-6*10:01 chain	Beta-2-microglobulin		
+SLA-DQ protein complex	SLA-DQ		locus	equivalent	MHC class II protein complex	pig	SLA-DQA chain	SLA-DQB chain		
 SLA-DQA*01:01 protein complex	SLA-DQA*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:01 chain	SLA-DQB chain		
 SLA-DQA*01:02 protein complex	SLA-DQA*01:02		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:02 chain	SLA-DQB chain		
 SLA-DQA*01:03 protein complex	SLA-DQA*01:03		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DQA*01:03 chain	SLA-DQB chain		
