@@ -6833,7 +6833,7 @@ HLA-B*35:454 chain		subclass	HLA-B chain
 HLA-B*35:455 chain		subclass	HLA-B chain		
 HLA-B*35:457 chain		subclass	HLA-B chain		
 HLA-B*35:458 chain		subclass	HLA-B chain		
-HLA-B*35:460 chain		subclass	HLA-B chain		
+HLA-B*35:460 chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*35:462 chain		subclass	HLA-B chain		
 HLA-B*35:463 chain		subclass	HLA-B chain		
 HLA-B*35:464 chain		subclass	HLA-B chain		
@@ -10241,7 +10241,7 @@ HLA-C*04:56 chain		subclass	HLA-C chain
 HLA-C*04:57 chain		subclass	HLA-C chain		
 HLA-C*04:58 chain		subclass	HLA-C chain		
 HLA-C*04:60 chain		subclass	HLA-C chain		
-HLA-C*04:61 chain		subclass	HLA-C chain		
+HLA-C*04:61 chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*04:62 chain		subclass	HLA-C chain		
 HLA-C*04:63 chain		subclass	HLA-C chain		
 HLA-C*04:64 chain		subclass	HLA-C chain		
@@ -14036,7 +14036,7 @@ HLA-DQA1*01:04 chain		subclass	HLA-DQA chain
 HLA-DQA1*01:04 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:05 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:06 chain		subclass	HLA-DQA chain		
-HLA-DQA1*01:07 chain		subclass	HLA-DQA chain		
+HLA-DQA1*01:07 chain		subclass	HLA-DQA chain		evidence of MHC chain expression questionable
 HLA-DQA1*01:08 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:09 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:10 chain		subclass	HLA-DQA chain		
@@ -20063,6 +20063,8 @@ crab-eating macaque MHC class I chain		equivalent	protein	crab-eating macaque MH
 crab-eating macaque MHC class II chain		equivalent	protein	crab-eating macaque MHC class II locus	
 dog MHC class I chain		equivalent	protein	dog MHC class I locus	
 dog MHC class II chain		equivalent	protein	dog MHC class II locus	
+domestic sheep MHC class I chain		equivalent	protein	domestic sheep MHC class I locus	
+domestic sheep MHC class II chain		equivalent	protein	domestic sheep MHC class II locus	
 duck MHC class I chain		equivalent	protein	duck MHC class I locus	
 giant panda MHC class I chain		equivalent	protein	giant panda MHC class I locus	
 giant panda MHC class II chain		equivalent	protein	giant panda MHC class II locus	
@@ -20108,5 +20110,3 @@ rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I 
 rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II locus	
 rhesus macaque MR1 chain		subclass	Mamu-MR1 chain		
 rhesus macaque non-classical MHC chain		equivalent	protein	rhesus macaque non-classical MHC locus	
-sheep MHC class I chain		equivalent	protein	sheep MHC class I locus	
-sheep MHC class II chain		equivalent	protein	sheep MHC class II locus	
