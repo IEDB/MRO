@@ -124,8 +124,8 @@ MRO:0000120	rat MHC class I locus	owl:Class
 MRO:0000121	rat MHC class II locus	owl:Class	
 MRO:0000122	rhesus macaque MHC class I locus	owl:Class	
 MRO:0000123	rhesus macaque MHC class II locus	owl:Class	
-MRO:0000124	sheep MHC class I locus	owl:Class	
-MRO:0000125	sheep MHC class II locus	owl:Class	
+MRO:0000124	domestic sheep MHC class I locus	owl:Class	
+MRO:0000125	domestic sheep MHC class II locus	owl:Class	
 MRO:0000126	A1 haplotype	owl:Class	
 MRO:0000127	A3 haplotype	owl:Class	
 MRO:0000128	A4 haplotype	owl:Class	
@@ -910,8 +910,8 @@ MRO:0000906	rat MHC class I chain	owl:Class
 MRO:0000907	rat MHC class II chain	owl:Class	
 MRO:0000908	rhesus macaque MHC class I chain	owl:Class	
 MRO:0000909	rhesus macaque MHC class II chain	owl:Class	
-MRO:0000910	sheep MHC class I chain	owl:Class	
-MRO:0000911	sheep MHC class II chain	owl:Class	
+MRO:0000910	domestic sheep MHC class I chain	owl:Class	
+MRO:0000911	domestic sheep MHC class II chain	owl:Class	
 MRO:0000912	Gaga-BF1 protein complex	owl:Class	
 MRO:0000913	Gaga-BF2 protein complex	owl:Class	
 MRO:0000914	Gaga-BF1*002:01 protein complex	owl:Class	
@@ -1853,8 +1853,8 @@ MRO:0001849	Saoe-G*02 serotype	owl:Class
 MRO:0001850	Saoe-G*04 serotype	owl:Class	
 MRO:0001851	Saoe-G*08 serotype	owl:Class	
 MRO:0001852	Saoe-G*12 serotype	owl:Class	
-MRO:0001853	sheep MHC class I protein complex	owl:Class	
-MRO:0001854	sheep MHC class II protein complex	owl:Class	
+MRO:0001853	domestic sheep MHC class I protein complex	owl:Class	
+MRO:0001854	domestic sheep MHC class II protein complex	owl:Class	
 MRO:0001855	chicken MHC class I protein complex with B4 haplotype	owl:Class	
 MRO:0001856	chicken MHC class I protein complex with B12 haplotype	owl:Class	
 MRO:0001857	chicken MHC class I protein complex with B15 haplotype	owl:Class	
@@ -45944,3 +45944,11 @@ MRO:0045942	obsolete SLA-6*01:02 protein complex	owl:Class	true
 MRO:0045943	SLA-6 protein complex	owl:Class	
 MRO:0045944	SLA-DQ protein complex	owl:Class	
 MRO:0045945	Mamu-DQ protein complex	owl:Class	
+MRO:0045946	rainbow trout MHC class I protein complex	owl:Class	
+MRO:0045947	atlantic salmon MHC class I protein complex	owl:Class	
+MRO:0045948	bighorn sheep MHC class I protein complex	owl:Class	
+MRO:0045949	goat MHC class I protein complex	owl:Class	
+MRO:0045950	rainbow trout MHC class II protein complex	owl:Class	
+MRO:0045951	atlantic salmon MHC class II protein complex	owl:Class	
+MRO:0045952	bighorn sheep MHC class II protein complex	owl:Class	
+MRO:0045953	goat MHC class II protein complex	owl:Class	

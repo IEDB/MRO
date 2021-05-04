@@ -524,7 +524,7 @@ H2-Kb Y84C mutant protein complex	565	K
 HLA-E*01:03 protein complex	566	E	300812	56585
 HLA-DRB1*04:01 Q110N, K139T mutant protein complex	567	DR		
 H2-Kb D77S, K89A mutant protein complex	569	K		
-sheep MHC class I protein complex	570			
+domestic sheep MHC class I protein complex	570			
 HLA protein complex with A34 serotype	571	A		
 HLA protein complex with A74 serotype	572	A		
 HLA protein complex with A80 serotype	573	A		
@@ -757,7 +757,7 @@ Gaga-BF2*014:01 protein complex	848	BF2
 Gaga-BF1*002:01 protein complex	849	BF1		
 HLA-B*44:28 protein complex	850	B		
 dog MHC class I protein complex	851			
-sheep MHC class II protein complex	852			
+domestic sheep MHC class II protein complex	852			
 HLA-DQA1*03:02/DQB1*03:01 protein complex	853	DQ		
 HLA-B*39:09 protein complex	854	B		
 HLA-B*27:08 protein complex	855	B		

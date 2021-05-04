@@ -3,6 +3,8 @@ ID	A rdfs:label	A IAO:0000111	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A I
 ECO:0000000	evidence	evidence		subclass	information content entity					http://purl.obolibrary.org/obo/eco.owl	
 GO:0042611	MHC protein complex	MHC protein complex	MHC molecule	equivalent	protein-containing complex	('has part' some (protein and ('gene product of' some 'MHC locus')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO		http://purl.obolibrary.org/obo/go.owl	
 NCBITaxon:7959	grass carp	Ctenopharyngodon idella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ctid
+NCBITaxon:8022	rainbow trout	Oncorhynchus mykiss		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Onmy
+NCBITaxon:8030	atlantic salmon	Salmo salar		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sasa
 NCBITaxon:8355	clawed frog	Xenopus laevis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Xela
 NCBITaxon:8839	duck	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Anpl
 NCBITaxon:9031	chicken	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gaga
@@ -21,10 +23,12 @@ NCBITaxon:9685	cat	Felis catus		subclass	organism					http://purl.obolibrary.org
 NCBITaxon:9796	horse	Equus caballus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	ELA
 NCBITaxon:9823	pig	Sus scrofa		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	SLA
 NCBITaxon:9913	cattle	Bos taurus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	BoLA
-NCBITaxon:9940	sheep	Ovis aries		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovar
+NCBITaxon:9925	goat	Capra hircus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cahi
+NCBITaxon:9940	domestic sheep	Ovis aries		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovar
 NCBITaxon:9986	rabbit	Oryctolagus cuniculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	RLA
 NCBITaxon:10090	mouse	Mus musculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	H2
 NCBITaxon:10116	rat	Rattus norvegicus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	RT1
+NCBITaxon:37174	bighorn sheep	Ovis canadensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovca
 PR:000000001	protein	protein		subclass	material entity					http://purl.obolibrary.org/obo/pr.owl	
 PR:000004580	Beta-2-microglobulin	Beta-2-microglobulin		equivalent	protein	('gene product of' some 'Beta-2-microglobulin locus')	A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.			http://purl.obolibrary.org/obo/pr.owl	
 REO:0000079	genetic locus	genetic locus		subclass	genetic entity		a nucleic acid sequence region that is part of a genome and represents a specified location or region on a chromosome or other genomic element.			http://purl.obolibrary.org/obo/reo.owl	

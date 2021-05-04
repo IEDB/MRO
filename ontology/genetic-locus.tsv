@@ -136,6 +136,8 @@ crab-eating macaque MHC class I locus		subclass	MHC class I locus	crab-eating ma
 crab-eating macaque MHC class II locus		subclass	MHC class II locus	crab-eating macaque
 dog MHC class I locus		subclass	MHC class I locus	dog
 dog MHC class II locus		subclass	MHC class II locus	dog
+domestic sheep MHC class I locus		subclass	MHC class I locus	domestic sheep
+domestic sheep MHC class II locus		subclass	MHC class II locus	domestic sheep
 duck MHC class I locus		subclass	MHC class I locus	duck
 giant panda MHC class I locus		subclass	MHC class I locus	giant panda
 giant panda MHC class II locus		subclass	MHC class II locus	giant panda
@@ -166,5 +168,3 @@ rat non-classical MHC locus		subclass	non-classical MHC locus	rat
 rhesus macaque MHC class I locus		subclass	MHC class I locus	rhesus macaque
 rhesus macaque MHC class II locus		subclass	MHC class II locus	rhesus macaque
 rhesus macaque non-classical MHC locus		subclass	non-classical MHC locus	rhesus macaque
-sheep MHC class I locus		subclass	MHC class I locus	sheep
-sheep MHC class II locus		subclass	MHC class II locus	sheep
