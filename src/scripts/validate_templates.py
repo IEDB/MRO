@@ -32,7 +32,7 @@ def check_labels(
     valid_labels,
     regex=None,
     missing_level="error",
-    missing_instructions=None,
+    missing_message=None,
 ):
     """Check that the labels used in a table are all present in a set of valid labels. If provided,
     also match the labels to a regex pattern. Return all labels from the table and a set of errors,
@@ -43,8 +43,8 @@ def check_labels(
     headers = reader.fieldnames
     labels = []
 
-    if not missing_instructions:
-        missing_instructions = f"use a label defined in {label_source}"
+    if not missing_message:
+        missing_message = f"use a label defined in {label_source}"
 
     for row in reader:
         label = row["Label"]
@@ -53,28 +53,26 @@ def check_labels(
             err_id += 1
             errors.append(
                 {
-                    "ID": err_id,
                     "table": table_name,
                     "cell": idx_to_a1(row_idx, headers.index("Label") + 1),
                     "level": missing_level,
                     "rule ID": "unknown_label",
-                    "rule name": "unknown label",
+                    "rule": "unknown label",
                     "value": label,
-                    "instructions": missing_instructions,
+                    "message": missing_message,
                 }
             )
         if regex and not re.match(regex, label):
             err_id += 1
             errors.append(
                 {
-                    "ID": err_id,
                     "table": table_name,
                     "cell": idx_to_a1(row_idx, headers.index("Label") + 1),
                     "level": "error",
                     "rule ID": "invalid_label",
-                    "rule name": "invalid label",
+                    "rule": "invalid label",
                     "value": label,
-                    "instructions": f"change label to match pattern '{regex}'",
+                    "message": f"change label to match pattern '{regex}'",
                 }
             )
         row_idx += 1
@@ -113,27 +111,25 @@ def check_fields(
             err_id += 1
             errors.append(
                 {
-                    "ID": err_id,
                     "table": table_name,
                     "cell": idx_to_a1(row_idx, headers.index(field_name) + 1),
                     "level": "error",
                     "rule ID": f"missing_required_{field_name.lower().replace(' ', '_')}",
-                    "rule name": f"missing required '{field_name}'",
-                    "instructions": f"add a '{field_name}' term",
+                    "rule": f"missing required '{field_name}'",
+                    "message": f"add a '{field_name}' term",
                 }
             )
         if value and value not in top_terms and value not in valid_labels:
             err_id += 1
             errors.append(
                 {
-                    "ID": err_id,
                     "table": table_name,
                     "cell": idx_to_a1(row_idx, headers.index(field_name) + 1),
                     "level": "error",
                     "rule ID": f"invalid_{field_name.lower().replace(' ', '_')}",
-                    "rule name": f"invalid '{field_name}'",
+                    "rule": f"invalid '{field_name}'",
                     "value": value,
-                    "instructions": f"replace the '{field_name}' with a term from {source}",
+                    "message": f"replace the '{field_name}' with a term from {source}",
                 }
             )
         row_idx += 1
@@ -152,14 +148,13 @@ def check_restriction_level(table_name, reader, valid_levels):
             err_id += 1
             errors.append(
                 {
-                    "ID": err_id,
                     "table": table_name,
                     "cell": idx_to_a1(row_idx, headers.index("Restriction Level") + 1),
                     "level": "error",
                     "rule ID": "invalid_restriction_level",
-                    "rule name": "invalid restriction level",
+                    "rule": "invalid restriction level",
                     "value": res_level,
-                    "instructions": "change the restriction level to one of: "
+                    "message": "change the restriction level to one of: "
                     + ", ".join(valid_levels),
                 }
             )
@@ -234,7 +229,7 @@ def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
                 labels,
                 regex=r"^.+ chain$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             chain_labels, label_errors = check_labels(
@@ -269,26 +264,24 @@ def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
                     err_id += 1
                     errors.append(
                         {
-                            "ID": err_id,
                             "table": table_name,
                             "cell": idx_to_a1(row_idx, headers.index("Gene") + 1),
                             "level": "error",
                             "rule ID": "missing_chain_gene",
-                            "rule name": "missing chain gene with 'protein' parent",
-                            "instructions": f"add a 'Gene' from genetic-locus",
+                            "rule": "missing chain gene with 'protein' parent",
+                            "message": f"add a 'Gene' from genetic-locus",
                         }
                     )
             elif gene not in genetic_locus_labels:
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("Gene") + 1),
                         "level": "error",
                         "rule ID": "invalid_chain_gene",
-                        "rule name": "invalid chain gene",
-                        "instructions": f"replace the 'Gene' with a term from genetic-locus",
+                        "rule": "invalid chain gene",
+                        "message": f"replace the 'Gene' with a term from genetic-locus",
                     }
                 )
 
@@ -338,7 +331,7 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
                 labels,
                 regex=r"^.+ locus$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             genetic_locus_labels, label_errors = check_labels(
@@ -371,14 +364,13 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
+                        "rule": "invalid taxon",
                         "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -414,7 +406,7 @@ def validate_halpotype(template_dir, labels, external_labels, allow_missing):
                 labels,
                 regex=r"^.+ haplotype$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             haplotype_labels, label_errors = check_labels(
@@ -449,13 +441,12 @@ def validate_halpotype(template_dir, labels, external_labels, allow_missing):
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "missing_required_taxon",
-                        "rule name": "missing required taxon for 'MHC haplotype' parent",
-                        "instructions": "add a taxon from 'external'",
+                        "rule": "missing required taxon for 'MHC haplotype' parent",
+                        "message": "add a taxon from 'external'",
                     }
                 )
 
@@ -463,14 +454,12 @@ def validate_halpotype(template_dir, labels, external_labels, allow_missing):
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
-                        "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "rule": "invalid taxon",
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -506,7 +495,7 @@ def validate_haplotype_molecule(
                 labels,
                 regex=r"^.+ (with haplotype|with [^ ]+ haplotype)$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             _, label_errors = check_labels(
@@ -570,13 +559,12 @@ def validate_haplotype_molecule(
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "missing_required_taxon",
-                        "rule name": "missing required taxon",
-                        "instructions": "add a taxon from 'external'",
+                        "rule": "missing required taxon",
+                        "message": "add a taxon from 'external'",
                     }
                 )
 
@@ -584,14 +572,12 @@ def validate_haplotype_molecule(
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
-                        "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "rule": "invalid taxon",
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -612,7 +598,7 @@ def validate_iedb_labels(iedb_path, labels, allow_missing):
                 "index",
                 labels,
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             _, errors = check_labels("iedb", reader, "index", labels)
@@ -658,7 +644,7 @@ def validate_molecule(
                 labels,
                 regex=r"^.+ protein complex$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             molecule_labels, label_errors = check_labels(
@@ -771,14 +757,13 @@ def validate_molecule(
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "missing_required_taxon",
-                        "rule name": "missing required taxon for parent other than "
+                        "rule": "missing required taxon for parent other than "
                         "'MHC protein complex'",
-                        "instructions": "add a taxon from 'external'",
+                        "message": "add a taxon from 'external'",
                     }
                 )
 
@@ -786,14 +771,12 @@ def validate_molecule(
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
-                        "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "rule": "invalid taxon",
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -828,7 +811,7 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
                 labels,
                 regex=r"^.+ protein complex$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             mutant_molecule_labels, label_errors = check_labels(
@@ -890,14 +873,12 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
-                        "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "rule": "invalid taxon",
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -931,7 +912,7 @@ def validate_serotype(template_dir, labels, external_labels, allow_missing):
                 labels,
                 regex=r"^.+ serotype$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             serotype_labels, label_errors = check_labels(
@@ -964,14 +945,12 @@ def validate_serotype(template_dir, labels, external_labels, allow_missing):
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
-                        "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "rule": "invalid taxon",
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -1006,7 +985,7 @@ def validate_serotype_molecule(
                 labels,
                 regex=r"^.+ (with serotype|with [^ ]+ serotype)$",
                 missing_level="info",
-                missing_instructions=new_term_msg,
+                missing_message=new_term_msg,
             )
         else:
             _, label_errors = check_labels(
@@ -1064,14 +1043,12 @@ def validate_serotype_molecule(
                 err_id += 1
                 errors.append(
                     {
-                        "ID": err_id,
                         "table": table_name,
                         "cell": idx_to_a1(row_idx, headers.index("In Taxon") + 1),
                         "level": "error",
                         "rule ID": "invalid_taxon",
-                        "rule name": "invalid taxon",
-                        "value": taxon,
-                        "instructions": "add this taxon to 'external' or "
+                        "rule": "invalid taxon",
+                        "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
                 )
@@ -1181,15 +1158,13 @@ def main():
         writer = csv.DictWriter(
             f,
             fieldnames=[
-                "ID",
                 "table",
                 "cell",
                 "level",
                 "rule ID",
-                "rule name",
-                "value",
-                "fix",
-                "instructions",
+                "rule",
+                "suggestion",
+                "message",
             ],
             delimiter="\t",
             lineterminator="\n",
@@ -1206,9 +1181,6 @@ def main():
             f"\n{msg}\n"
             "---------------------------------------------------------\n"
         )
-        if has_error_level:
-            # fail if any "error" level errors were returned
-            sys.exit(1)
     else:
         print("\nValidation passed!\n")
 
