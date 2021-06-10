@@ -1,4 +1,4 @@
 cerberus
 ontodev-cogs
-ontodev-gizmos==0.1.5
+git+https://github.com/ontodev/gizmos.git
 openpyxl
