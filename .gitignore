@@ -17,4 +17,4 @@ src/.cache/
 src/__pycache__/
 target/
 ~$mro.xlsx
-.git-credentials
+credentials.json
