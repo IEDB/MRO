@@ -2,3 +2,4 @@ cerberus
 ontodev-cogs
 git+https://github.com/ontodev/gizmos.git
 openpyxl
+psycopg2
