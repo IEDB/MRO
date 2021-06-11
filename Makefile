@@ -121,13 +121,13 @@ apply_%: build/validation_%.tsv | .cogs
 
 .PHONY: validate_tables
 validate_tables:
-	cogs fetch && cogs pull
+	cogs pull
 	make apply_errors
 	cogs push
 
 .PHONY: validate_tables_strict
 validate_tables_strict:
-	cogs fetch && cogs pull
+	cogs pull
 	make apply_errors_strict
 	cogs push
 
