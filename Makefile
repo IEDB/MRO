@@ -145,6 +145,12 @@ build/mro.db: src/prefixes.sql mro.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
+	sqlite3 $@ "CREATE INDEX idx_stanza ON statements (stanza);"
+	sqlite3 $@ "CREATE INDEX idx_subject ON statements (subject);"
+	sqlite3 $@ "CREATE INDEX idx_predicate ON statements (predicate);"
+	sqlite3 $@ "CREATE INDEX idx_object ON statements (object);"
+	sqlite3 $@ "CREATE INDEX idx_value ON statements (value);"
+	sqlite3 $@ "ANALYZE;"
 
 build/mro.html: mro.owl | build/robot.jar
 	$(ROBOT) export --input $< --header "ID|LABEL|SubClass Of|definition" --format html --export $@
@@ -310,6 +316,7 @@ build/%-import.ttl: build/%.db build/%.txt
 
 IEDB_TARGETS := build/mro-iedb.owl \
                 build/mhc_allele_restriction.tsv \
+                build/molecule_export.tsv \
                 build/ALLELE_FINDER_NAMES.csv \
                 build/ALLELE_FINDER_SEARCH.csv \
                 build/ALLELE_FINDER_TREE.csv
@@ -337,6 +344,12 @@ build/mhc_allele_restriction.csv: build/.mro-tdb src/mhc_allele_restriction.rq |
 
 build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
+
+build/molecule-terms.txt: ontology/molecule.tsv
+	cut -f1 $< | tail -n +3 > $@
+
+build/molecule_export.tsv: src/scripts/export_molecule_2.py index.tsv ontology/external.tsv ontology/molecule.tsv
+	python3 $^ $@
 
 build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/names.rq | build/robot.jar iedb
 	$(ROBOT) query \
