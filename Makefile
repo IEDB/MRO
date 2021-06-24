@@ -345,7 +345,7 @@ build/mhc_allele_restriction.csv: build/.mro-tdb src/mhc_allele_restriction.rq |
 build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
-build/molecule_export.tsv: src/scripts/export_molecule_2.py index.tsv ontology/external.tsv ontology/molecule.tsv
+build/molecule_export.tsv: src/scripts/export_molecule.py index.tsv ontology/external.tsv ontology/molecule.tsv
 	python3 $^ $@
 
 build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/names.rq | build/robot.jar iedb
