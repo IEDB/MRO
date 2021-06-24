@@ -45952,3 +45952,6 @@ MRO:0045950	rainbow trout MHC class II protein complex	owl:Class
 MRO:0045951	atlantic salmon MHC class II protein complex	owl:Class	
 MRO:0045952	bighorn sheep MHC class II protein complex	owl:Class	
 MRO:0045953	goat MHC class II protein complex	owl:Class	
+MRO:0045954	BF2 haplotype	owl:Class	
+MRO:0045955	chicken MHC class II protein complex with BF2 haplotype	owl:Class	
+MRO:0045956	chicken MHC class II protein complex with B2 haplotype	owl:Class	
