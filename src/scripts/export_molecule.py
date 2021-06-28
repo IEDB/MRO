@@ -49,7 +49,8 @@ def main():
                 "Label": term_label,
                 "IEDB Label": row["IEDB Label"],
                 "Synonyms": row["Synonyms"],
-                "Parent": parent_id,
+                "Parent": parent_label,
+                "Parent ID": parent_id,
                 "In Taxon": taxon_label,
                 "In Taxon ID": taxon_id,
             }
@@ -63,6 +64,7 @@ def main():
             "IEDB Label",
             "Synonyms",
             "Parent",
+            "Parent ID",
             "In Taxon",
             "In Taxon ID",
         ],
