@@ -14,7 +14,7 @@ mro.owl
 iedb.zip
 reference/
 src/.cache/
-src/__pycache__/
 target/
 ~$mro.xlsx
 credentials.json
+__pycache__
