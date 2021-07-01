@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-from flask import abort, Flask, render_template, request
+from flask import abort, Flask, render_template, request, Response
 from gizmos.tree import tree
 from gizmos.search import search
 from markdown import markdown
@@ -15,6 +15,15 @@ def index():
     with open("src/site/index.md", "r") as f:
         html = markdown(f.read())
     return render_template("base.html", content=html)
+
+
+@app.route("/export/<export_file>.tsv")
+def download_export(export_file):
+    filepath = os.path.join("build", export_file + ".tsv")
+    if not os.path.exists(filepath):
+        abort(400, f"Unknown file: {export_file}.tsv")
+    with open(filepath, "r") as f:
+        return Response(f.read(), mimetype="text/tab-separated-values")
 
 
 @app.route("/ontology")
