@@ -21,4 +21,6 @@ else
 	python3 -m gizmos.tree build/mro.db
 fi
 
+echo "Content-Type: text/html"
+echo ""
 echo "<a href=\"/${PROJECT}/branches/${BRANCH}\"><b>Return Home</b></a>"
