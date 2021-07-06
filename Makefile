@@ -158,17 +158,22 @@ build/mro.html: mro.owl | build/robot.jar
 
 ### Ontology Source Tables
 
-build/%.tsv: ontology/%.tsv | build
+# Replace labels for any term with single quotes used in a C ROBOT template string
+build/%-fixed.tsv: src/scripts/replace_labels.py ontology/%.tsv | build
+	python3 $^ $@
+
+# Some templates don't need automatic synonyms, just copy these directly
+build/%.tsv: build/%-fixed.tsv | build
 	cp $< $@
 
-# Generate automatic synonyms
-build/molecule.tsv: src/scripts/synonyms.py ontology/molecule.tsv | build
+# Generate automatic synonyms for these tables
+build/molecule.tsv: src/scripts/synonyms.py build/molecule-fixed.tsv | build
 	python3 $^ > $@
-build/haplotype-molecule.tsv: src/scripts/synonyms.py ontology/haplotype-molecule.tsv | build
+build/haplotype-molecule.tsv: src/scripts/synonyms.py build/haplotype-molecule-fixed.tsv | build
 	python3 $^ > $@
-build/serotype-molecule.tsv: src/scripts/synonyms.py ontology/serotype-molecule.tsv | build
+build/serotype-molecule.tsv: src/scripts/synonyms.py build/serotype-molecule-fixed.tsv | build
 	python3 $^ > $@
-build/mutant-molecule.tsv: src/scripts/synonyms.py ontology/mutant-molecule.tsv | build
+build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
