@@ -108,12 +108,12 @@ destroy: | .cogs
 
 # Validate the contents of the templates
 .PRECIOUS: build/validation_errors.tsv
-build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
-	python3 $< index.tsv iedb/iedb.tsv build $@ -a
+build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+	python3 $< index.tsv iedb/iedb.tsv ontology $@ -a
 
 .PRECIOUS: build/validation_errors_strict.tsv
-build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
-	python3 $< index.tsv iedb/iedb.tsv build $@
+build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+	python3 $< index.tsv iedb/iedb.tsv ontology $@
 
 apply_%: build/validation_%.tsv | .cogs
 	cogs clear all
