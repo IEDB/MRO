@@ -1,5 +1,7 @@
 cerberus
-ontodev-cogs
+Flask==1.0.2
 git+https://github.com/ontodev/gizmos.git
+markdown
+ontodev-cogs
 openpyxl
 psycopg2
