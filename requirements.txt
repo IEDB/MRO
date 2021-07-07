@@ -4,4 +4,5 @@ git+https://github.com/ontodev/gizmos.git
 markdown
 ontodev-cogs
 openpyxl
-psycopg2
+psycopg2-binary
+urlp
