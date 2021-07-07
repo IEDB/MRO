@@ -45955,3 +45955,297 @@ MRO:0045953	goat MHC class II protein complex	owl:Class
 MRO:0045954	BF2 haplotype	owl:Class	
 MRO:0045955	chicken MHC class II protein complex with BF2 haplotype	owl:Class	
 MRO:0045956	chicken MHC class II protein complex with B2 haplotype	owl:Class	
+MRO:0045957	Guatemalan black howler MHC class I locus	owl:Class	
+MRO:0045958	Guatemalan black howler MHC class II locus	owl:Class	
+MRO:0045959	Azara's night monkey MHC class I locus	owl:Class	
+MRO:0045960	Azara's night monkey MHC class II locus	owl:Class	
+MRO:0045961	gray-bellied night monkey MHC class I locus	owl:Class	
+MRO:0045962	gray-bellied night monkey MHC class II locus	owl:Class	
+MRO:0045963	Nancy Ma's night monkey MHC class I locus	owl:Class	
+MRO:0045964	Nancy Ma's night monkey MHC class II locus	owl:Class	
+MRO:0045965	black-headed night monkey MHC class I locus	owl:Class	
+MRO:0045966	black-headed night monkey MHC class II locus	owl:Class	
+MRO:0045967	three-striped night monkey MHC class I locus	owl:Class	
+MRO:0045968	three-striped night monkey MHC class II locus	owl:Class	
+MRO:0045969	Spix's night monkey MHC class I locus	owl:Class	
+MRO:0045970	Spix's night monkey MHC class II locus	owl:Class	
+MRO:0045971	white-fronted spider monkey MHC class I locus	owl:Class	
+MRO:0045972	white-fronted spider monkey MHC class II locus	owl:Class	
+MRO:0045973	black-headed spider monkey MHC class I locus	owl:Class	
+MRO:0045974	black-headed spider monkey MHC class II locus	owl:Class	
+MRO:0045975	red-bellied titi MHC class I locus	owl:Class	
+MRO:0045976	red-bellied titi MHC class II locus	owl:Class	
+MRO:0045977	pygmy marmoset MHC class I locus	owl:Class	
+MRO:0045978	pygmy marmoset MHC class II locus	owl:Class	
+MRO:0045979	tufted capuchin MHC class I locus	owl:Class	
+MRO:0045980	tufted capuchin MHC class II locus	owl:Class	
+MRO:0045981	sooty mangabey MHC class I locus	owl:Class	
+MRO:0045982	sooty mangabey MHC class II locus	owl:Class	
+MRO:0045983	blue monkey MHC class I locus	owl:Class	
+MRO:0045984	blue monkey MHC class II locus	owl:Class	
+MRO:0045985	De Brazza's monkey MHC class I locus	owl:Class	
+MRO:0045986	De Brazza's monkey MHC class II locus	owl:Class	
+MRO:0045987	grivet MHC class I locus	owl:Class	
+MRO:0045988	grivet MHC class II locus	owl:Class	
+MRO:0045989	vervet monkey MHC class I locus	owl:Class	
+MRO:0045990	vervet monkey MHC class II locus	owl:Class	
+MRO:0045991	green monkey MHC class I locus	owl:Class	
+MRO:0045992	green monkey MHC class II locus	owl:Class	
+MRO:0045993	mantled guereza MHC class I locus	owl:Class	
+MRO:0045994	mantled guereza MHC class II locus	owl:Class	
+MRO:0045995	eastern gorilla MHC class I locus	owl:Class	
+MRO:0045996	eastern gorilla MHC class II locus	owl:Class	
+MRO:0045997	lar gibbon MHC class I locus	owl:Class	
+MRO:0045998	lar gibbon MHC class II locus	owl:Class	
+MRO:0045999	silvery Javan gibbon MHC class I locus	owl:Class	
+MRO:0046000	silvery Javan gibbon MHC class II locus	owl:Class	
+MRO:0046001	golden lion tamarin MHC class I locus	owl:Class	
+MRO:0046002	golden lion tamarin MHC class II locus	owl:Class	
+MRO:0046003	black crested mangabey MHC class I locus	owl:Class	
+MRO:0046004	black crested mangabey MHC class II locus	owl:Class	
+MRO:0046005	stump-tailed macaque MHC class I locus	owl:Class	
+MRO:0046006	stump-tailed macaque MHC class II locus	owl:Class	
+MRO:0046007	Assam macaque MHC class I locus	owl:Class	
+MRO:0046008	Assam macaque MHC class II locus	owl:Class	
+MRO:0046009	Japanese macaque MHC class I locus	owl:Class	
+MRO:0046010	Japanese macaque MHC class II locus	owl:Class	
+MRO:0046011	drill MHC class I locus	owl:Class	
+MRO:0046012	drill MHC class II locus	owl:Class	
+MRO:0046013	northern pig-tailed macaque MHC class I locus	owl:Class	
+MRO:0046014	northern pig-tailed macaque MHC class II locus	owl:Class	
+MRO:0046015	southern pig-tailed macaque MHC class I locus	owl:Class	
+MRO:0046016	southern pig-tailed macaque MHC class II locus	owl:Class	
+MRO:0046017	lion-tailed macaque MHC class I locus	owl:Class	
+MRO:0046018	lion-tailed macaque MHC class II locus	owl:Class	
+MRO:0046019	mandrill MHC class I locus	owl:Class	
+MRO:0046020	mandrill MHC class II locus	owl:Class	
+MRO:0046021	Milne Edward's macaque MHC class I locus	owl:Class	
+MRO:0046022	Milne Edward's macaque MHC class II locus	owl:Class	
+MRO:0046023	olive baboon MHC class I locus	owl:Class	
+MRO:0046024	olive baboon MHC class II locus	owl:Class	
+MRO:0046025	yellow baboon MHC class I locus	owl:Class	
+MRO:0046026	yellow baboon MHC class II locus	owl:Class	
+MRO:0046027	hamadryas baboon MHC class I locus	owl:Class	
+MRO:0046028	hamadryas baboon MHC class II locus	owl:Class	
+MRO:0046029	Guinea baboon MHC class I locus	owl:Class	
+MRO:0046030	Guinea baboon MHC class II locus	owl:Class	
+MRO:0046031	chacma Baboon MHC class I locus	owl:Class	
+MRO:0046032	chacma Baboon MHC class II locus	owl:Class	
+MRO:0046033	white-faced saki MHC class I locus	owl:Class	
+MRO:0046034	white-faced saki MHC class II locus	owl:Class	
+MRO:0046035	Sumatran orangutan MHC class I locus	owl:Class	
+MRO:0046036	Sumatran orangutan MHC class II locus	owl:Class	
+MRO:0046037	Bornean orangutan MHC class I locus	owl:Class	
+MRO:0046038	Bornean orangutan MHC class II locus	owl:Class	
+MRO:0046039	golden snub-nosed monkey MHC class I locus	owl:Class	
+MRO:0046040	golden snub-nosed monkey MHC class II locus	owl:Class	
+MRO:0046041	brown-mantled tamarin MHC class I locus	owl:Class	
+MRO:0046042	brown-mantled tamarin MHC class II locus	owl:Class	
+MRO:0046043	Geoffroy's tamarin MHC class I locus	owl:Class	
+MRO:0046044	Geoffroy's tamarin MHC class II locus	owl:Class	
+MRO:0046045	white-lipped tamarin MHC class I locus	owl:Class	
+MRO:0046046	white-lipped tamarin MHC class II locus	owl:Class	
+MRO:0046047	moustached tamarin MHC class I locus	owl:Class	
+MRO:0046048	moustached tamarin MHC class II locus	owl:Class	
+MRO:0046049	common squirrel monkey MHC class I locus	owl:Class	
+MRO:0046050	common squirrel monkey MHC class II locus	owl:Class	
+MRO:0046051	northern plains gray langur MHC class I locus	owl:Class	
+MRO:0046052	northern plains gray langur MHC class II locus	owl:Class	
+MRO:0046053	gelada MHC class I locus	owl:Class	
+MRO:0046054	gelada MHC class II locus	owl:Class	
+MRO:0046055	Guatemalan black howler MHC class I chain	owl:Class	
+MRO:0046056	Guatemalan black howler MHC class II chain	owl:Class	
+MRO:0046057	Azara's night monkey MHC class I chain	owl:Class	
+MRO:0046058	Azara's night monkey MHC class II chain	owl:Class	
+MRO:0046059	gray-bellied night monkey MHC class I chain	owl:Class	
+MRO:0046060	gray-bellied night monkey MHC class II chain	owl:Class	
+MRO:0046061	Nancy Ma's night monkey MHC class I chain	owl:Class	
+MRO:0046062	Nancy Ma's night monkey MHC class II chain	owl:Class	
+MRO:0046063	black-headed night monkey MHC class I chain	owl:Class	
+MRO:0046064	black-headed night monkey MHC class II chain	owl:Class	
+MRO:0046065	three-striped night monkey MHC class I chain	owl:Class	
+MRO:0046066	three-striped night monkey MHC class II chain	owl:Class	
+MRO:0046067	Spix's night monkey MHC class I chain	owl:Class	
+MRO:0046068	Spix's night monkey MHC class II chain	owl:Class	
+MRO:0046069	white-fronted spider monkey MHC class I chain	owl:Class	
+MRO:0046070	white-fronted spider monkey MHC class II chain	owl:Class	
+MRO:0046071	black-headed spider monkey MHC class I chain	owl:Class	
+MRO:0046072	black-headed spider monkey MHC class II chain	owl:Class	
+MRO:0046073	red-bellied titi MHC class I chain	owl:Class	
+MRO:0046074	red-bellied titi MHC class II chain	owl:Class	
+MRO:0046075	pygmy marmoset MHC class I chain	owl:Class	
+MRO:0046076	pygmy marmoset MHC class II chain	owl:Class	
+MRO:0046077	tufted capuchin MHC class I chain	owl:Class	
+MRO:0046078	tufted capuchin MHC class II chain	owl:Class	
+MRO:0046079	sooty mangabey MHC class I chain	owl:Class	
+MRO:0046080	sooty mangabey MHC class II chain	owl:Class	
+MRO:0046081	blue monkey MHC class I chain	owl:Class	
+MRO:0046082	blue monkey MHC class II chain	owl:Class	
+MRO:0046083	De Brazza's monkey MHC class I chain	owl:Class	
+MRO:0046084	De Brazza's monkey MHC class II chain	owl:Class	
+MRO:0046085	grivet MHC class I chain	owl:Class	
+MRO:0046086	grivet MHC class II chain	owl:Class	
+MRO:0046087	vervet monkey MHC class I chain	owl:Class	
+MRO:0046088	vervet monkey MHC class II chain	owl:Class	
+MRO:0046089	green monkey MHC class I chain	owl:Class	
+MRO:0046090	green monkey MHC class II chain	owl:Class	
+MRO:0046091	mantled guereza MHC class I chain	owl:Class	
+MRO:0046092	mantled guereza MHC class II chain	owl:Class	
+MRO:0046093	eastern gorilla MHC class I chain	owl:Class	
+MRO:0046094	eastern gorilla MHC class II chain	owl:Class	
+MRO:0046095	lar gibbon MHC class I chain	owl:Class	
+MRO:0046096	lar gibbon MHC class II chain	owl:Class	
+MRO:0046097	silvery Javan gibbon MHC class I chain	owl:Class	
+MRO:0046098	silvery Javan gibbon MHC class II chain	owl:Class	
+MRO:0046099	golden lion tamarin MHC class I chain	owl:Class	
+MRO:0046100	golden lion tamarin MHC class II chain	owl:Class	
+MRO:0046101	black crested mangabey MHC class I chain	owl:Class	
+MRO:0046102	black crested mangabey MHC class II chain	owl:Class	
+MRO:0046103	stump-tailed macaque MHC class I chain	owl:Class	
+MRO:0046104	stump-tailed macaque MHC class II chain	owl:Class	
+MRO:0046105	Assam macaque MHC class I chain	owl:Class	
+MRO:0046106	Assam macaque MHC class II chain	owl:Class	
+MRO:0046107	Japanese macaque MHC class I chain	owl:Class	
+MRO:0046108	Japanese macaque MHC class II chain	owl:Class	
+MRO:0046109	drill MHC class I chain	owl:Class	
+MRO:0046110	drill MHC class II chain	owl:Class	
+MRO:0046111	northern pig-tailed macaque MHC class I chain	owl:Class	
+MRO:0046112	northern pig-tailed macaque MHC class II chain	owl:Class	
+MRO:0046113	southern pig-tailed macaque MHC class I chain	owl:Class	
+MRO:0046114	southern pig-tailed macaque MHC class II chain	owl:Class	
+MRO:0046115	lion-tailed macaque MHC class I chain	owl:Class	
+MRO:0046116	lion-tailed macaque MHC class II chain	owl:Class	
+MRO:0046117	mandrill MHC class I chain	owl:Class	
+MRO:0046118	mandrill MHC class II chain	owl:Class	
+MRO:0046119	Milne Edward's macaque MHC class I chain	owl:Class	
+MRO:0046120	Milne Edward's macaque MHC class II chain	owl:Class	
+MRO:0046121	olive baboon MHC class I chain	owl:Class	
+MRO:0046122	olive baboon MHC class II chain	owl:Class	
+MRO:0046123	yellow baboon MHC class I chain	owl:Class	
+MRO:0046124	yellow baboon MHC class II chain	owl:Class	
+MRO:0046125	hamadryas baboon MHC class I chain	owl:Class	
+MRO:0046126	hamadryas baboon MHC class II chain	owl:Class	
+MRO:0046127	Guinea baboon MHC class I chain	owl:Class	
+MRO:0046128	Guinea baboon MHC class II chain	owl:Class	
+MRO:0046129	chacma Baboon MHC class I chain	owl:Class	
+MRO:0046130	chacma Baboon MHC class II chain	owl:Class	
+MRO:0046131	white-faced saki MHC class I chain	owl:Class	
+MRO:0046132	white-faced saki MHC class II chain	owl:Class	
+MRO:0046133	Sumatran orangutan MHC class I chain	owl:Class	
+MRO:0046134	Sumatran orangutan MHC class II chain	owl:Class	
+MRO:0046135	Bornean orangutan MHC class I chain	owl:Class	
+MRO:0046136	Bornean orangutan MHC class II chain	owl:Class	
+MRO:0046137	golden snub-nosed monkey MHC class I chain	owl:Class	
+MRO:0046138	golden snub-nosed monkey MHC class II chain	owl:Class	
+MRO:0046139	brown-mantled tamarin MHC class I chain	owl:Class	
+MRO:0046140	brown-mantled tamarin MHC class II chain	owl:Class	
+MRO:0046141	Geoffroy's tamarin MHC class I chain	owl:Class	
+MRO:0046142	Geoffroy's tamarin MHC class II chain	owl:Class	
+MRO:0046143	white-lipped tamarin MHC class I chain	owl:Class	
+MRO:0046144	white-lipped tamarin MHC class II chain	owl:Class	
+MRO:0046145	moustached tamarin MHC class I chain	owl:Class	
+MRO:0046146	moustached tamarin MHC class II chain	owl:Class	
+MRO:0046147	common squirrel monkey MHC class I chain	owl:Class	
+MRO:0046148	common squirrel monkey MHC class II chain	owl:Class	
+MRO:0046149	northern plains gray langur MHC class I chain	owl:Class	
+MRO:0046150	northern plains gray langur MHC class II chain	owl:Class	
+MRO:0046151	gelada MHC class I chain	owl:Class	
+MRO:0046152	gelada MHC class II chain	owl:Class	
+MRO:0046153	Guatemalan black howler MHC class I protein complex	owl:Class	
+MRO:0046154	Guatemalan black howler MHC class II protein complex	owl:Class	
+MRO:0046155	Azara's night monkey MHC class I protein complex	owl:Class	
+MRO:0046156	Azara's night monkey MHC class II protein complex	owl:Class	
+MRO:0046157	gray-bellied night monkey MHC class I protein complex	owl:Class	
+MRO:0046158	gray-bellied night monkey MHC class II protein complex	owl:Class	
+MRO:0046159	Nancy Ma's night monkey MHC class I protein complex	owl:Class	
+MRO:0046160	Nancy Ma's night monkey MHC class II protein complex	owl:Class	
+MRO:0046161	black-headed night monkey MHC class I protein complex	owl:Class	
+MRO:0046162	black-headed night monkey MHC class II protein complex	owl:Class	
+MRO:0046163	three-striped night monkey MHC class I protein complex	owl:Class	
+MRO:0046164	three-striped night monkey MHC class II protein complex	owl:Class	
+MRO:0046165	Spix's night monkey MHC class I protein complex	owl:Class	
+MRO:0046166	Spix's night monkey MHC class II protein complex	owl:Class	
+MRO:0046167	white-fronted spider monkey MHC class I protein complex	owl:Class	
+MRO:0046168	white-fronted spider monkey MHC class II protein complex	owl:Class	
+MRO:0046169	black-headed spider monkey MHC class I protein complex	owl:Class	
+MRO:0046170	black-headed spider monkey MHC class II protein complex	owl:Class	
+MRO:0046171	red-bellied titi MHC class I protein complex	owl:Class	
+MRO:0046172	red-bellied titi MHC class II protein complex	owl:Class	
+MRO:0046173	pygmy marmoset MHC class I protein complex	owl:Class	
+MRO:0046174	pygmy marmoset MHC class II protein complex	owl:Class	
+MRO:0046175	tufted capuchin MHC class I protein complex	owl:Class	
+MRO:0046176	tufted capuchin MHC class II protein complex	owl:Class	
+MRO:0046177	sooty mangabey MHC class I protein complex	owl:Class	
+MRO:0046178	sooty mangabey MHC class II protein complex	owl:Class	
+MRO:0046179	blue monkey MHC class I protein complex	owl:Class	
+MRO:0046180	blue monkey MHC class II protein complex	owl:Class	
+MRO:0046181	De Brazza's monkey MHC class I protein complex	owl:Class	
+MRO:0046182	De Brazza's monkey MHC class II protein complex	owl:Class	
+MRO:0046183	grivet MHC class I protein complex	owl:Class	
+MRO:0046184	grivet MHC class II protein complex	owl:Class	
+MRO:0046185	vervet monkey MHC class I protein complex	owl:Class	
+MRO:0046186	vervet monkey MHC class II protein complex	owl:Class	
+MRO:0046187	green monkey MHC class I protein complex	owl:Class	
+MRO:0046188	green monkey MHC class II protein complex	owl:Class	
+MRO:0046189	mantled guereza MHC class I protein complex	owl:Class	
+MRO:0046190	mantled guereza MHC class II protein complex	owl:Class	
+MRO:0046191	eastern gorilla MHC class I protein complex	owl:Class	
+MRO:0046192	eastern gorilla MHC class II protein complex	owl:Class	
+MRO:0046193	lar gibbon MHC class I protein complex	owl:Class	
+MRO:0046194	lar gibbon MHC class II protein complex	owl:Class	
+MRO:0046195	silvery Javan gibbon MHC class I protein complex	owl:Class	
+MRO:0046196	silvery Javan gibbon MHC class II protein complex	owl:Class	
+MRO:0046197	golden lion tamarin MHC class I protein complex	owl:Class	
+MRO:0046198	golden lion tamarin MHC class II protein complex	owl:Class	
+MRO:0046199	black crested mangabey MHC class I protein complex	owl:Class	
+MRO:0046200	black crested mangabey MHC class II protein complex	owl:Class	
+MRO:0046201	stump-tailed macaque MHC class I protein complex	owl:Class	
+MRO:0046202	stump-tailed macaque MHC class II protein complex	owl:Class	
+MRO:0046203	Assam macaque MHC class I protein complex	owl:Class	
+MRO:0046204	Assam macaque MHC class II protein complex	owl:Class	
+MRO:0046205	Japanese macaque MHC class I protein complex	owl:Class	
+MRO:0046206	Japanese macaque MHC class II protein complex	owl:Class	
+MRO:0046207	drill MHC class I protein complex	owl:Class	
+MRO:0046208	drill MHC class II protein complex	owl:Class	
+MRO:0046209	northern pig-tailed macaque MHC class I protein complex	owl:Class	
+MRO:0046210	northern pig-tailed macaque MHC class II protein complex	owl:Class	
+MRO:0046211	southern pig-tailed macaque MHC class I protein complex	owl:Class	
+MRO:0046212	southern pig-tailed macaque MHC class II protein complex	owl:Class	
+MRO:0046213	lion-tailed macaque MHC class I protein complex	owl:Class	
+MRO:0046214	lion-tailed macaque MHC class II protein complex	owl:Class	
+MRO:0046215	mandrill MHC class I protein complex	owl:Class	
+MRO:0046216	mandrill MHC class II protein complex	owl:Class	
+MRO:0046217	Milne Edward's macaque MHC class I protein complex	owl:Class	
+MRO:0046218	Milne Edward's macaque MHC class II protein complex	owl:Class	
+MRO:0046219	olive baboon MHC class I protein complex	owl:Class	
+MRO:0046220	olive baboon MHC class II protein complex	owl:Class	
+MRO:0046221	yellow baboon MHC class I protein complex	owl:Class	
+MRO:0046222	yellow baboon MHC class II protein complex	owl:Class	
+MRO:0046223	hamadryas baboon MHC class I protein complex	owl:Class	
+MRO:0046224	hamadryas baboon MHC class II protein complex	owl:Class	
+MRO:0046225	Guinea baboon MHC class I protein complex	owl:Class	
+MRO:0046226	Guinea baboon MHC class II protein complex	owl:Class	
+MRO:0046227	chacma Baboon MHC class I protein complex	owl:Class	
+MRO:0046228	chacma Baboon MHC class II protein complex	owl:Class	
+MRO:0046229	white-faced saki MHC class I protein complex	owl:Class	
+MRO:0046230	white-faced saki MHC class II protein complex	owl:Class	
+MRO:0046231	Sumatran orangutan MHC class I protein complex	owl:Class	
+MRO:0046232	Sumatran orangutan MHC class II protein complex	owl:Class	
+MRO:0046233	Bornean orangutan MHC class I protein complex	owl:Class	
+MRO:0046234	Bornean orangutan MHC class II protein complex	owl:Class	
+MRO:0046235	golden snub-nosed monkey MHC class I protein complex	owl:Class	
+MRO:0046236	golden snub-nosed monkey MHC class II protein complex	owl:Class	
+MRO:0046237	brown-mantled tamarin MHC class I protein complex	owl:Class	
+MRO:0046238	brown-mantled tamarin MHC class II protein complex	owl:Class	
+MRO:0046239	Geoffroy's tamarin MHC class I protein complex	owl:Class	
+MRO:0046240	Geoffroy's tamarin MHC class II protein complex	owl:Class	
+MRO:0046241	white-lipped tamarin MHC class I protein complex	owl:Class	
+MRO:0046242	white-lipped tamarin MHC class II protein complex	owl:Class	
+MRO:0046243	moustached tamarin MHC class I protein complex	owl:Class	
+MRO:0046244	moustached tamarin MHC class II protein complex	owl:Class	
+MRO:0046245	common squirrel monkey MHC class I protein complex	owl:Class	
+MRO:0046246	common squirrel monkey MHC class II protein complex	owl:Class	
+MRO:0046247	northern plains gray langur MHC class I protein complex	owl:Class	
+MRO:0046248	northern plains gray langur MHC class II protein complex	owl:Class	
+MRO:0046249	gelada MHC class I protein complex	owl:Class	
+MRO:0046250	gelada MHC class II protein complex	owl:Class	

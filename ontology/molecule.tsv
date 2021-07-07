@@ -4,6 +4,10 @@ Aime-128 protein complex	Aime-128		locus	equivalent	MHC class I protein complex	
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
 Anpl-UAA*SD protein complex	Anpl-UAA*SD		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*SD chain	Beta-2-microglobulin		
+Assam macaque MHC class I protein complex	Assam macaque		class	equivalent	MHC class I protein complex	Assam macaque				
+Assam macaque MHC class II protein complex	Assam macaque		class	equivalent	MHC class II protein complex	Assam macaque				
+Azara's night monkey MHC class I protein complex	Azara's night monkey		class	equivalent	MHC class I protein complex	Azara's night monkey				
+Azara's night monkey MHC class II protein complex	Azara's night monkey		class	equivalent	MHC class II protein complex	Azara's night monkey				
 BoLA-1 protein complex	BoLA-1		locus	equivalent	MHC class I protein complex	cattle	BoLA-1 chain	Beta-2-microglobulin		
 BoLA-1*007:01 protein complex	BoLA-1*007:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*007:01 chain	Beta-2-microglobulin		
 BoLA-1*009:01 protein complex	BoLA-1*009:01		complete molecule	equivalent	MHC class I protein complex	cattle	BoLA-1*009:01 chain	Beta-2-microglobulin		
@@ -697,6 +701,8 @@ BoLA-NC4*001:01 protein complex	BoLA-NC4*001:01		complete molecule	equivalent	no
 BoLA-NC4*002:01 protein complex	BoLA-NC4*002:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*002:01 chain	Beta-2-microglobulin		
 BoLA-NC4*002:02 protein complex	BoLA-NC4*002:02		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*002:02 chain	Beta-2-microglobulin		
 BoLA-NC4*003:01 protein complex	BoLA-NC4*003:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*003:01 chain	Beta-2-microglobulin		
+Bornean orangutan MHC class I protein complex	Bornean orangutan		class	equivalent	MHC class I protein complex	Bornean orangutan				
+Bornean orangutan MHC class II protein complex	Bornean orangutan		class	equivalent	MHC class II protein complex	Bornean orangutan				
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
 Ctid-UAA b2m-1-II protein complex	Ctid-UAA b2m-1-II		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
@@ -705,6 +711,8 @@ DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	
 DLA-88*034:01 protein complex	DLA-88*034:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*034:01 chain	Beta-2-microglobulin		
 DLA-88*501:01 protein complex	DLA-88*501:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*501:01 chain	Beta-2-microglobulin		
 DLA-88*508:01 protein complex	DLA-88*508:01	dla88-21	complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*508:01 chain	Beta-2-microglobulin		
+De Brazza's monkey MHC class I protein complex	De Brazza's monkey		class	equivalent	MHC class I protein complex	De Brazza's monkey				
+De Brazza's monkey MHC class II protein complex	De Brazza's monkey		class	equivalent	MHC class II protein complex	De Brazza's monkey				
 ELA-N protein complex	ELA-N		locus	equivalent	MHC class I protein complex	horse	ELA-N chain	Beta-2-microglobulin		
 Eqca-1*001:01 protein complex	Eqca-1*001:01	ELA-A3.1	complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*001:01 chain	Beta-2-microglobulin	A3 haplotype	
 Eqca-1*002:01 protein complex	Eqca-1*002:01		complete molecule	equivalent	MHC class I protein complex	horse	Eqca-1*002:01 chain	Beta-2-microglobulin		
@@ -724,8 +732,14 @@ Gaga-BF2*014:01 protein complex	Gaga-BF2*014:01	BF2*1401|BF2*014:01|BFCC12a|BFCC
 Gaga-BF2*015:01 protein complex	Gaga-BF2*015:01	BF2*1501|BF2*015:01|BFIV15	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*015:01 chain	Beta-2-microglobulin	B15 haplotype	
 Gaga-BF2*021:01 protein complex	Gaga-BF2*021:01	BF2*2101|BF2*021:01|BFIV21|BF2*131|BF2*W1|BFCC2a|BFCC15-1	complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*021:01 chain	Beta-2-microglobulin	B21 haplotype	
 Gaga-BF2*1301 protein complex	Gaga-BF2*1301		complete molecule	equivalent	MHC class I protein complex	chicken	Gaga-BF2*1301 chain	Beta-2-microglobulin	B13 haplotype	
+Geoffroy's tamarin MHC class I protein complex	Geoffroy's tamarin		class	equivalent	MHC class I protein complex	Geoffroy's tamarin				
+Geoffroy's tamarin MHC class II protein complex	Geoffroy's tamarin		class	equivalent	MHC class II protein complex	Geoffroy's tamarin				
 Gogo-B protein complex	Gogo-B		locus	equivalent	MHC class I protein complex	gorilla	Gogo-B chain	Beta-2-microglobulin		
 Gogo-B*01:01 protein complex	Gogo-B*01:01		complete molecule	equivalent	MHC class I protein complex	gorilla	Gogo-B*01:01 chain	Beta-2-microglobulin		
+Guatemalan black howler MHC class I protein complex	Guatemalan black howler		class	equivalent	MHC class I protein complex	Guatemalan black howler				
+Guatemalan black howler MHC class II protein complex	Guatemalan black howler		class	equivalent	MHC class II protein complex	Guatemalan black howler				
+Guinea baboon MHC class I protein complex	Guinea baboon		class	equivalent	MHC class I protein complex	Guinea baboon				
+Guinea baboon MHC class II protein complex	Guinea baboon		class	equivalent	MHC class II protein complex	Guinea baboon				
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
 H2-Db protein complex	H2-Db		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
 H2-Dd protein complex	H2-Dd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	
@@ -22861,6 +22875,8 @@ HLA-G*01:20 protein complex	HLA-G*01:20		complete molecule	equivalent	non-classi
 HLA-G*01:22 protein complex	HLA-G*01:22		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:22 chain	Beta-2-microglobulin		
 HLA-G*01:23 protein complex	HLA-G*01:23		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:23 chain	Beta-2-microglobulin		
 HLA-G*01:24 protein complex	HLA-G*01:24		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-G*01:24 chain	Beta-2-microglobulin		
+Japanese macaque MHC class I protein complex	Japanese macaque		class	equivalent	MHC class I protein complex	Japanese macaque				
+Japanese macaque MHC class II protein complex	Japanese macaque		class	equivalent	MHC class II protein complex	Japanese macaque				
 MHC class I protein complex	class I		class	subclass	MHC protein complex					
 MHC class II protein complex	class II		class	subclass	MHC protein complex					
 Mafa-A1 protein complex	Mafa-A1		locus	equivalent	MHC class I protein complex	crab-eating macaque	Mafa-A1 chain	Beta-2-microglobulin		
@@ -24206,6 +24222,10 @@ Mamu-E*02:28 protein complex	Mamu-E*02:28		complete molecule	equivalent	MHC clas
 Mamu-E*02:29 protein complex	Mamu-E*02:29		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:29 chain	Beta-2-microglobulin		
 Mamu-E*02:30 protein complex	Mamu-E*02:30		complete molecule	equivalent	MHC class I protein complex	rhesus macaque	Mamu-E*02:30 chain	Beta-2-microglobulin		
 Mamu-MR1 protein complex	Mamu-MR1		complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	Mamu-MR1 chain	Beta-2-microglobulin		
+Milne Edward's macaque MHC class I protein complex	Milne Edward's macaque		class	equivalent	MHC class I protein complex	Milne Edward's macaque				
+Milne Edward's macaque MHC class II protein complex	Milne Edward's macaque		class	equivalent	MHC class II protein complex	Milne Edward's macaque				
+Nancy Ma's night monkey MHC class I protein complex	Nancy Ma's night monkey		class	equivalent	MHC class I protein complex	Nancy Ma's night monkey				
+Nancy Ma's night monkey MHC class II protein complex	Nancy Ma's night monkey		class	equivalent	MHC class II protein complex	Nancy Ma's night monkey				
 Papa-A protein complex	Papa-A		locus	equivalent	MHC class I protein complex	bonobo	Papa-A chain	Beta-2-microglobulin		
 Papa-A*06:01 protein complex	Papa-A*06:01	Papa-A06	complete molecule	equivalent	MHC class I protein complex	bonobo	Papa-A*06:01 chain	Beta-2-microglobulin		
 Patr-A protein complex	Patr-A		locus	equivalent	MHC class I protein complex	chimpanzee	Patr-A chain	Beta-2-microglobulin		
@@ -24962,16 +24982,30 @@ SLA-DRB3*05:01 protein complex	SLA-DRB3*05:01		partial molecule	equivalent	MHC c
 SLA-DRB4*01:01 protein complex	SLA-DRB4*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB4*01:01 chain		
 SLA-DRB5*01:01 protein complex	SLA-DRB5*01:01		partial molecule	equivalent	MHC class II protein complex	pig	SLA-DRA chain	SLA-DRB5*01:01 chain		
 Saoe-G protein complex	Saoe-G		locus	equivalent	MHC class I protein complex	cotton-top tamarin	Saoe-G chain	Beta-2-microglobulin		
+Spix's night monkey MHC class I protein complex	Spix's night monkey		class	equivalent	MHC class I protein complex	Spix's night monkey				
+Spix's night monkey MHC class II protein complex	Spix's night monkey		class	equivalent	MHC class II protein complex	Spix's night monkey				
+Sumatran orangutan MHC class I protein complex	Sumatran orangutan		class	equivalent	MHC class I protein complex	Sumatran orangutan				
+Sumatran orangutan MHC class II protein complex	Sumatran orangutan		class	equivalent	MHC class II protein complex	Sumatran orangutan				
 Xela-UAAg protein complex	Xela-UAAg		locus	equivalent	MHC class I protein complex	clawed frog	Xela-UAAg chain	Beta-2-microglobulin		
 YF1w*7.1 protein complex	YF1w*7.1	YF1*7.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	YF1w*7.1 chain		YF1 haplotype	
 atlantic salmon MHC class I protein complex	atlantic salmon		class	equivalent	MHC class I protein complex	atlantic salmon				
 atlantic salmon MHC class II protein complex	atlantic salmon		class	equivalent	MHC class II protein complex	atlantic salmon				
 bighorn sheep MHC class I protein complex	bighorn sheep		class	equivalent	MHC class I protein complex	bighorn sheep				
 bighorn sheep MHC class II protein complex	bighorn sheep		class	equivalent	MHC class II protein complex	bighorn sheep				
+black crested mangabey MHC class I protein complex	black crested mangabey		class	equivalent	MHC class I protein complex	black crested mangabey				
+black crested mangabey MHC class II protein complex	black crested mangabey		class	equivalent	MHC class II protein complex	black crested mangabey				
 black flying fox MHC class I protein complex	black flying fox		class	equivalent	MHC class I protein complex	black flying fox				
+black-headed night monkey MHC class I protein complex	black-headed night monkey		class	equivalent	MHC class I protein complex	black-headed night monkey				
+black-headed night monkey MHC class II protein complex	black-headed night monkey		class	equivalent	MHC class II protein complex	black-headed night monkey				
+black-headed spider monkey MHC class I protein complex	black-headed spider monkey		class	equivalent	MHC class I protein complex	black-headed spider monkey				
+black-headed spider monkey MHC class II protein complex	black-headed spider monkey		class	equivalent	MHC class II protein complex	black-headed spider monkey				
+blue monkey MHC class I protein complex	blue monkey		class	equivalent	MHC class I protein complex	blue monkey				
+blue monkey MHC class II protein complex	blue monkey		class	equivalent	MHC class II protein complex	blue monkey				
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class I protein complex	bonobo		class	equivalent	MHC class I protein complex	bonobo				
 bonobo MHC class II protein complex	bonobo		class	equivalent	MHC class II protein complex	bonobo				
+brown-mantled tamarin MHC class I protein complex	brown-mantled tamarin		class	equivalent	MHC class I protein complex	brown-mantled tamarin				
+brown-mantled tamarin MHC class II protein complex	brown-mantled tamarin		class	equivalent	MHC class II protein complex	brown-mantled tamarin				
 cat MHC class I protein complex	cat		class	equivalent	MHC class I protein complex	cat				
 cat MHC class II protein complex	cat		class	equivalent	MHC class II protein complex	cat				
 cat non-classical MHC protein complex	cat		class	equivalent	non-classical MHC protein complex	cat				
@@ -24981,6 +25015,8 @@ cattle MHC class I protein complex	cattle		class	equivalent	MHC class I protein 
 cattle MHC class II protein complex	cattle		class	equivalent	MHC class II protein complex	cattle				
 cattle MR1 protein complex	cattle MR1	boMR1|cowMR1	complete molecule	equivalent	non-classical MHC protein complex	cattle	cattle MR1 chain	Beta-2-microglobulin		
 cattle non-classical MHC protein complex	cattle		class	equivalent	non-classical MHC protein complex	cattle				
+chacma Baboon MHC class I protein complex	chacma Baboon		class	equivalent	MHC class I protein complex	chacma Baboon				
+chacma Baboon MHC class II protein complex	chacma Baboon		class	equivalent	MHC class II protein complex	chacma Baboon				
 chicken CD1-1 protein complex	chicken CD1-1	cCD1-1|CD1.1	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-1 chain	Beta-2-microglobulin		
 chicken CD1-2 protein complex	chicken CD1-2	cCD1-2|CD1.2	complete molecule	equivalent	non-classical MHC protein complex	chicken	chicken CD1-2 chain	Beta-2-microglobulin		
 chicken MHC class I protein complex	chicken		class	equivalent	MHC class I protein complex	chicken				
@@ -24993,6 +25029,8 @@ chimpanzee MHC class II protein complex	chimpanzee		class	equivalent	MHC class I
 chimpanzee non-classical MHC protein complex	chimpanzee		class	equivalent	non-classical MHC protein complex	chimpanzee				
 clawed frog MHC class I protein complex	clawed frog		class	equivalent	MHC class I protein complex	clawed frog				
 clawed frog MHC class II protein complex	clawed frog		class	equivalent	MHC class II protein complex	clawed frog				
+common squirrel monkey MHC class I protein complex	common squirrel monkey		class	equivalent	MHC class I protein complex	common squirrel monkey				
+common squirrel monkey MHC class II protein complex	common squirrel monkey		class	equivalent	MHC class II protein complex	common squirrel monkey				
 cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
 cotton-top tamarin MHC class I protein complex	cotton-top tamarin		class	equivalent	MHC class I protein complex	cotton-top tamarin				
 cotton-top tamarin MHC class II protein complex	cotton-top tamarin		class	equivalent	MHC class II protein complex	cotton-top tamarin				
@@ -25002,16 +25040,34 @@ dog MHC class I protein complex	dog		class	equivalent	MHC class I protein comple
 dog MHC class II protein complex	dog		class	equivalent	MHC class II protein complex	dog				
 domestic sheep MHC class I protein complex	domestic sheep		class	equivalent	MHC class I protein complex	domestic sheep				
 domestic sheep MHC class II protein complex	domestic sheep		class	equivalent	MHC class II protein complex	domestic sheep				
+drill MHC class I protein complex	drill		class	equivalent	MHC class I protein complex	drill				
+drill MHC class II protein complex	drill		class	equivalent	MHC class II protein complex	drill				
 duck MHC class I protein complex	duck		class	equivalent	MHC class I protein complex	duck				
+eastern gorilla MHC class I protein complex	eastern gorilla		class	equivalent	MHC class I protein complex	eastern gorilla				
+eastern gorilla MHC class II protein complex	eastern gorilla		class	equivalent	MHC class II protein complex	eastern gorilla				
+gelada MHC class I protein complex	gelada		class	equivalent	MHC class I protein complex	gelada				
+gelada MHC class II protein complex	gelada		class	equivalent	MHC class II protein complex	gelada				
 giant panda MHC class I protein complex	giant panda		class	equivalent	MHC class I protein complex	giant panda				
 giant panda MHC class II protein complex	giant panda		class	equivalent	MHC class II protein complex	giant panda				
 goat MHC class I protein complex	goat		class	equivalent	MHC class I protein complex	goat				
 goat MHC class II protein complex	goat		class	equivalent	MHC class II protein complex	goat				
+golden lion tamarin MHC class I protein complex	golden lion tamarin		class	equivalent	MHC class I protein complex	golden lion tamarin				
+golden lion tamarin MHC class II protein complex	golden lion tamarin		class	equivalent	MHC class II protein complex	golden lion tamarin				
+golden snub-nosed monkey MHC class I protein complex	golden snub-nosed monkey		class	equivalent	MHC class I protein complex	golden snub-nosed monkey				
+golden snub-nosed monkey MHC class II protein complex	golden snub-nosed monkey		class	equivalent	MHC class II protein complex	golden snub-nosed monkey				
 gorilla MHC class I protein complex	gorilla		class	equivalent	MHC class I protein complex	gorilla				
 gorilla MHC class I protein complex	gorilla		class	equivalent	MHC class I protein complex	gorilla				
 gorilla MHC class II protein complex	gorilla		class	equivalent	MHC class II protein complex	gorilla				
 grass carp MHC class I protein complex	grass carp		class	equivalent	MHC class I protein complex	grass carp				
 grass carp MHC class II protein complex	grass carp		class	equivalent	MHC class II protein complex	grass carp				
+gray-bellied night monkey MHC class I protein complex	gray-bellied night monkey		class	equivalent	MHC class I protein complex	gray-bellied night monkey				
+gray-bellied night monkey MHC class II protein complex	gray-bellied night monkey		class	equivalent	MHC class II protein complex	gray-bellied night monkey				
+green monkey MHC class I protein complex	green monkey		class	equivalent	MHC class I protein complex	green monkey				
+green monkey MHC class II protein complex	green monkey		class	equivalent	MHC class II protein complex	green monkey				
+grivet MHC class I protein complex	grivet		class	equivalent	MHC class I protein complex	grivet				
+grivet MHC class II protein complex	grivet		class	equivalent	MHC class II protein complex	grivet				
+hamadryas baboon MHC class I protein complex	hamadryas baboon		class	equivalent	MHC class I protein complex	hamadryas baboon				
+hamadryas baboon MHC class II protein complex	hamadryas baboon		class	equivalent	MHC class II protein complex	hamadryas baboon				
 horse MHC class I protein complex	horse		class	equivalent	MHC class I protein complex	horse				
 horse MHC class II protein complex	horse		class	equivalent	MHC class II protein complex	horse				
 human BTN3A1 protein complex	human BTN3A1	Butyrophilin BTN3A1	complete molecule	equivalent	non-classical MHC protein complex	human	human BTN3A1 chain			
@@ -25023,6 +25079,14 @@ human MHC class I protein complex	human		class	equivalent	MHC class I protein co
 human MHC class II protein complex	human		class	equivalent	MHC class II protein complex	human				
 human MR1 protein complex	human MR1	HLA-MR1|hMR1	complete molecule	equivalent	non-classical MHC protein complex	human	human MR1 chain	Beta-2-microglobulin		
 human non-classical MHC protein complex	human		class	equivalent	non-classical MHC protein complex	human				
+lar gibbon MHC class I protein complex	lar gibbon		class	equivalent	MHC class I protein complex	lar gibbon				
+lar gibbon MHC class II protein complex	lar gibbon		class	equivalent	MHC class II protein complex	lar gibbon				
+lion-tailed macaque MHC class I protein complex	lion-tailed macaque		class	equivalent	MHC class I protein complex	lion-tailed macaque				
+lion-tailed macaque MHC class II protein complex	lion-tailed macaque		class	equivalent	MHC class II protein complex	lion-tailed macaque				
+mandrill MHC class I protein complex	mandrill		class	equivalent	MHC class I protein complex	mandrill				
+mandrill MHC class II protein complex	mandrill		class	equivalent	MHC class II protein complex	mandrill				
+mantled guereza MHC class I protein complex	mantled guereza		class	equivalent	MHC class I protein complex	mantled guereza				
+mantled guereza MHC class II protein complex	mantled guereza		class	equivalent	MHC class II protein complex	mantled guereza				
 marmoset MHC class I protein complex	marmoset		class	equivalent	MHC class I protein complex	marmoset				
 mouse CD1d1 protein complex	mouse CD1d1		complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d1 chain	Beta-2-microglobulin		
 mouse CD1d2 protein complex	mouse CD1d2		complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse CD1d2 chain	Beta-2-microglobulin		
@@ -25031,9 +25095,19 @@ mouse MHC class I protein complex	mouse		class	equivalent	MHC class I protein co
 mouse MHC class II protein complex	mouse		class	equivalent	MHC class II protein complex	mouse				
 mouse MR1 protein complex	mouse MR1	mMR1	complete molecule	equivalent	non-classical MHC protein complex	mouse	mouse MR1 chain	Beta-2-microglobulin		
 mouse non-classical MHC protein complex	mouse		class	equivalent	non-classical MHC protein complex	mouse				
+moustached tamarin MHC class I protein complex	moustached tamarin		class	equivalent	MHC class I protein complex	moustached tamarin				
+moustached tamarin MHC class II protein complex	moustached tamarin		class	equivalent	MHC class II protein complex	moustached tamarin				
 non-classical MHC protein complex	non-classical		class	subclass	MHC protein complex					
+northern pig-tailed macaque MHC class I protein complex	northern pig-tailed macaque		class	equivalent	MHC class I protein complex	northern pig-tailed macaque				
+northern pig-tailed macaque MHC class II protein complex	northern pig-tailed macaque		class	equivalent	MHC class II protein complex	northern pig-tailed macaque				
+northern plains gray langur MHC class I protein complex	northern plains gray langur		class	equivalent	MHC class I protein complex	northern plains gray langur				
+northern plains gray langur MHC class II protein complex	northern plains gray langur		class	equivalent	MHC class II protein complex	northern plains gray langur				
+olive baboon MHC class I protein complex	olive baboon		class	equivalent	MHC class I protein complex	olive baboon				
+olive baboon MHC class II protein complex	olive baboon		class	equivalent	MHC class II protein complex	olive baboon				
 pig MHC class I protein complex	pig		class	equivalent	MHC class I protein complex	pig				
 pig MHC class II protein complex	pig		class	equivalent	MHC class II protein complex	pig				
+pygmy marmoset MHC class I protein complex	pygmy marmoset		class	equivalent	MHC class I protein complex	pygmy marmoset				
+pygmy marmoset MHC class II protein complex	pygmy marmoset		class	equivalent	MHC class II protein complex	pygmy marmoset				
 rabbit MHC class I protein complex	rabbit		class	equivalent	MHC class I protein complex	rabbit				
 rabbit MHC class II protein complex	rabbit		class	equivalent	MHC class II protein complex	rabbit				
 rainbow trout MHC class I protein complex	rainbow trout		class	equivalent	MHC class I protein complex	rainbow trout				
@@ -25042,6 +25116,8 @@ rat CD1d protein complex	rat CD1d	rCD1d	complete molecule	equivalent	non-classic
 rat MHC class I protein complex	rat		class	equivalent	MHC class I protein complex	rat				
 rat MHC class II protein complex	rat		class	equivalent	MHC class II protein complex	rat				
 rat non-classical MHC protein complex	rat		class	equivalent	non-classical MHC protein complex	rat				
+red-bellied titi MHC class I protein complex	red-bellied titi		class	equivalent	MHC class I protein complex	red-bellied titi				
+red-bellied titi MHC class II protein complex	red-bellied titi		class	equivalent	MHC class II protein complex	red-bellied titi				
 rhesus macaque CD1b protein complex	rhesus macaque CD1b	Mamu CD1b	complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	rhesus macaque CD1b chain	Beta-2-microglobulin		
 rhesus macaque CD1c protein complex	rhesus macaque CD1c	Mamu CD1c	complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	rhesus macaque CD1c chain	Beta-2-microglobulin		
 rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC class I protein complex	rhesus macaque				
@@ -25050,3 +25126,25 @@ rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
 rhesus macaque MR1 protein complex	rhesus macaque MR1		complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	rhesus macaque MR1 chain	Beta-2-microglobulin		
 rhesus macaque non-classical MHC protein complex	rhesus macaque		class	equivalent	non-classical MHC protein complex	rhesus macaque				
+silvery Javan gibbon MHC class I protein complex	silvery Javan gibbon		class	equivalent	MHC class I protein complex	silvery Javan gibbon				
+silvery Javan gibbon MHC class II protein complex	silvery Javan gibbon		class	equivalent	MHC class II protein complex	silvery Javan gibbon				
+sooty mangabey MHC class I protein complex	sooty mangabey		class	equivalent	MHC class I protein complex	sooty mangabey				
+sooty mangabey MHC class II protein complex	sooty mangabey		class	equivalent	MHC class II protein complex	sooty mangabey				
+southern pig-tailed macaque MHC class I protein complex	southern pig-tailed macaque		class	equivalent	MHC class I protein complex	southern pig-tailed macaque				
+southern pig-tailed macaque MHC class II protein complex	southern pig-tailed macaque		class	equivalent	MHC class II protein complex	southern pig-tailed macaque				
+stump-tailed macaque MHC class I protein complex	stump-tailed macaque		class	equivalent	MHC class I protein complex	stump-tailed macaque				
+stump-tailed macaque MHC class II protein complex	stump-tailed macaque		class	equivalent	MHC class II protein complex	stump-tailed macaque				
+three-striped night monkey MHC class I protein complex	three-striped night monkey		class	equivalent	MHC class I protein complex	three-striped night monkey				
+three-striped night monkey MHC class II protein complex	three-striped night monkey		class	equivalent	MHC class II protein complex	three-striped night monkey				
+tufted capuchin MHC class I protein complex	tufted capuchin		class	equivalent	MHC class I protein complex	tufted capuchin				
+tufted capuchin MHC class II protein complex	tufted capuchin		class	equivalent	MHC class II protein complex	tufted capuchin				
+vervet monkey MHC class I protein complex	vervet monkey		class	equivalent	MHC class I protein complex	vervet monkey				
+vervet monkey MHC class II protein complex	vervet monkey		class	equivalent	MHC class II protein complex	vervet monkey				
+white-faced saki MHC class I protein complex	white-faced saki		class	equivalent	MHC class I protein complex	white-faced saki				
+white-faced saki MHC class II protein complex	white-faced saki		class	equivalent	MHC class II protein complex	white-faced saki				
+white-fronted spider monkey MHC class I protein complex	white-fronted spider monkey		class	equivalent	MHC class I protein complex	white-fronted spider monkey				
+white-fronted spider monkey MHC class II protein complex	white-fronted spider monkey		class	equivalent	MHC class II protein complex	white-fronted spider monkey				
+white-lipped tamarin MHC class I protein complex	white-lipped tamarin		class	equivalent	MHC class I protein complex	white-lipped tamarin				
+white-lipped tamarin MHC class II protein complex	white-lipped tamarin		class	equivalent	MHC class II protein complex	white-lipped tamarin				
+yellow baboon MHC class I protein complex	yellow baboon		class	equivalent	MHC class I protein complex	yellow baboon				
+yellow baboon MHC class II protein complex	yellow baboon		class	equivalent	MHC class II protein complex	yellow baboon				
