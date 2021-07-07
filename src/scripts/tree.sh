@@ -26,7 +26,7 @@ else
 	echo "<a href=\"/${PROJECT}/branches/${BRANCH}\"><b>Return Home</b></a>"
 
 	if [[ ${ID} ]]; then
-		python3 -m gizmos.tree build/mro.db --include-search ${ID}
+		python3 -m gizmos.tree build/mro.db ${ID} --include-search
 	else
 		python3 -m gizmos.tree build/mro.db --include-search
 	fi
