@@ -803,8 +803,8 @@ H2-Q1 chain		equivalent	protein	H2-Q1 locus
 H2-Q2 chain		equivalent	protein	H2-Q2 locus	
 H2-Q9 chain		equivalent	protein	H2-Q9 locus	
 H2-Q chain		equivalent	protein	H2-Q locus	
-H2-Qa-1a chain		subclass	protein	H2-Q1 locus	
-H2-Qa-1b chain		subclass	protein	H2-Q1 locus	
+H2-Qa-1a chain		equivalent	protein	H2-Q1 locus	
+H2-Qa-1b chain		equivalent	protein	H2-Q1 locus	
 HLA-A chain		equivalent	protein	HLA-A locus	
 HLA-A*01:01 chain		subclass	HLA-A chain		
 HLA-A*01:02 chain		subclass	HLA-A chain		
@@ -19597,30 +19597,30 @@ RT1-A2 chain		equivalent	protein	RT1-A2 locus
 RT1-A2 chain		equivalent	protein	RT1-A2 locus	
 RT1-A chain		equivalent	protein	RT1-A locus	
 RT1-A chain		equivalent	protein	RT1-A locus	
-RT1-Aa chain		subclass	protein	RT1-A locus	
-RT1-Ac chain		subclass	protein	RT1-A locus	
+RT1-Aa chain		equivalent	protein	RT1-A locus	
+RT1-Ac chain		equivalent	protein	RT1-A locus	
 RT1-B alpha chain		equivalent	protein	RT1-B alpha locus	
 RT1-B beta chain		equivalent	protein	RT1-B beta locus	
-RT1-Ba alpha chain		subclass	protein	RT1-B alpha locus	
-RT1-Ba beta chain		subclass	protein	RT1-B beta locus	
-RT1-Bk alpha chain		subclass	protein	RT1-B alpha locus	
-RT1-Bk beta chain		subclass	protein	RT1-B beta locus	
-RT1-Bl alpha chain		subclass	protein	RT1-B alpha locus	
-RT1-Bl beta chain		subclass	protein	RT1-B beta locus	
-RT1-Bn alpha chain		subclass	protein	RT1-B alpha locus	
-RT1-Bn beta chain		subclass	protein	RT1-B beta locus	
-RT1-Bu alpha chain		subclass	protein	RT1-B alpha locus	
-RT1-Bu beta chain		subclass	protein	RT1-B beta locus	
+RT1-Ba alpha chain		equivalent	protein	RT1-B alpha locus	
+RT1-Ba beta chain		equivalent	protein	RT1-B beta locus	
+RT1-Bk alpha chain		equivalent	protein	RT1-B alpha locus	
+RT1-Bk beta chain		equivalent	protein	RT1-B beta locus	
+RT1-Bl alpha chain		equivalent	protein	RT1-B alpha locus	
+RT1-Bl beta chain		equivalent	protein	RT1-B beta locus	
+RT1-Bn alpha chain		equivalent	protein	RT1-B alpha locus	
+RT1-Bn beta chain		equivalent	protein	RT1-B beta locus	
+RT1-Bu alpha chain		equivalent	protein	RT1-B alpha locus	
+RT1-Bu beta chain		equivalent	protein	RT1-B beta locus	
 RT1-D alpha chain		equivalent	protein	RT1-D alpha locus	
 RT1-D beta chain		equivalent	protein	RT1-D beta locus	
-RT1-Da alpha chain		subclass	protein	RT1-D alpha locus	
-RT1-Da beta chain		subclass	protein	RT1-D beta locus	
-RT1-Dl alpha chain		subclass	protein	RT1-D alpha locus	
-RT1-Dl beta chain		subclass	protein	RT1-D beta locus	
-RT1-Dn alpha chain		subclass	protein	RT1-D alpha locus	
-RT1-Dn beta chain		subclass	protein	RT1-D beta locus	
-RT1-Du alpha chain		subclass	protein	RT1-D alpha locus	
-RT1-Du beta chain		subclass	protein	RT1-D beta locus	
+RT1-Da alpha chain		equivalent	protein	RT1-D alpha locus	
+RT1-Da beta chain		equivalent	protein	RT1-D beta locus	
+RT1-Dl alpha chain		equivalent	protein	RT1-D alpha locus	
+RT1-Dl beta chain		equivalent	protein	RT1-D beta locus	
+RT1-Dn alpha chain		equivalent	protein	RT1-D alpha locus	
+RT1-Dn beta chain		equivalent	protein	RT1-D beta locus	
+RT1-Du alpha chain		equivalent	protein	RT1-D alpha locus	
+RT1-Du beta chain		equivalent	protein	RT1-D beta locus	
 SLA-1 chain		equivalent	protein	SLA-1 locus	
 SLA-1*01:01 chain		subclass	SLA-1 chain		
 SLA-1*01:02 chain		subclass	SLA-1 chain		
