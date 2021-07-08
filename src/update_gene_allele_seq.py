@@ -397,7 +397,8 @@ def add_totals(data, pop_group_map):
     #yu = list(total.index)
     
     chains = pd.DataFrame(total.loc[(~(total.index.str.contains("G"))) & (~(total.index.str.endswith("P"))) ], copy = True)
-    #print(chains)
+    two_field.drop(two_field.index.intersection(chains.index), inplace=True)
+    
     chains = pd.concat([chains, two_field])
     chains.index = "HLA-" + chains.index + " chain"
     G_group = pd.DataFrame(total.loc[total.index.str.endswith("G")], copy = True)
@@ -467,7 +468,7 @@ def main():
             chains = []
             G_groups = []
             gene_alleles_freq = []
-            pop_group_map = {"AFA": "African frequency", "API": "Asian Pacific Islander frequency", "EURO": "European frequency", "MENA": "Middle Eastern and North African frequency", "HIS": "Hispanic frequency", "NAM": "Native American frequency", "UNK": "Unknown group frequency", "Total": "Total frequency"  }
+            pop_group_map = {"AFA": "African frequency", "API": "Asian Pacific Islander frequency", "EURO": "European frequency", "MENA": "Middle Eastern and North African frequency", "HIS": "Hispanic frequency", "NAM": "Native American frequency", "UNK": "Unknown group frequency", "Total": "World frequency"  }
             prop = check_pop_properties_are_in_index(list(pop_group_map.values()) + ["CIWD population frequency"])
             update_index(prop)
             template_header = "\t".join(pop_group_map.values())
