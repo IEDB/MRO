@@ -108,12 +108,12 @@ destroy: | .cogs
 
 # Validate the contents of the templates
 .PRECIOUS: build/validation_errors.tsv
-build/validation_errors.tsv: src/scripts/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
-	python3 $< index.tsv iedb/iedb.tsv build $@ -a
+build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+	python3 $< index.tsv iedb/iedb.tsv ontology $@ -a
 
 .PRECIOUS: build/validation_errors_strict.tsv
-build/validation_errors_strict.tsv: src/scripts/validate_templates.py index.tsv iedb/iedb.tsv $(build_files)
-	python3 $< index.tsv iedb/iedb.tsv build $@
+build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+	python3 $< index.tsv iedb/iedb.tsv ontology $@
 
 apply_%: build/validation_%.tsv | .cogs
 	cogs clear all
@@ -141,10 +141,16 @@ assign_ids: src/scripts/assign-ids.py index.tsv iedb/iedb.tsv $(source_files)
 
 ### Review
 
-build/mro.db: src/prefixes.sql mro.owl | build/rdftab
+build/mro.db: src/queries/prefixes.sql mro.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
+	sqlite3 $@ "CREATE INDEX idx_stanza ON statements (stanza);"
+	sqlite3 $@ "CREATE INDEX idx_subject ON statements (subject);"
+	sqlite3 $@ "CREATE INDEX idx_predicate ON statements (predicate);"
+	sqlite3 $@ "CREATE INDEX idx_object ON statements (object);"
+	sqlite3 $@ "CREATE INDEX idx_value ON statements (value);"
+	sqlite3 $@ "ANALYZE;"
 
 build/mro.html: mro.owl | build/robot.jar
 	$(ROBOT) export --input $< --header "ID|LABEL|SubClass Of|definition" --format html --export $@
@@ -152,42 +158,47 @@ build/mro.html: mro.owl | build/robot.jar
 
 ### Ontology Source Tables
 
-build/%.tsv: ontology/%.tsv | build
+# Replace labels for any term with single quotes used in a C ROBOT template string
+build/%-fixed.tsv: src/scripts/replace_labels.py ontology/%.tsv | build
+	python3 $^ $@
+
+# Some templates don't need automatic synonyms, just copy these directly
+build/%.tsv: build/%-fixed.tsv | build
 	cp $< $@
 
-# Generate automatic synonyms
-build/molecule.tsv: src/synonyms.py ontology/molecule.tsv | build
+# Generate automatic synonyms for these tables
+build/molecule.tsv: src/scripts/synonyms.py build/molecule-fixed.tsv | build
 	python3 $^ > $@
-build/haplotype-molecule.tsv: src/synonyms.py ontology/haplotype-molecule.tsv | build
+build/haplotype-molecule.tsv: src/scripts/synonyms.py build/haplotype-molecule-fixed.tsv | build
 	python3 $^ > $@
-build/serotype-molecule.tsv: src/synonyms.py ontology/serotype-molecule.tsv | build
+build/serotype-molecule.tsv: src/scripts/synonyms.py build/serotype-molecule-fixed.tsv | build
 	python3 $^ > $@
-build/mutant-molecule.tsv: src/synonyms.py ontology/mutant-molecule.tsv | build
+build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.tsv | build
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/frequency-properties.tsv ontology/chain-frequencies.tsv ontology/rejected.tsv
+mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/frequency-properties.tsv ontology/chain-frequencies.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
-update-tsv: update-tsv-files build/whitespace.tsv
+update-tsv: update-tsv-files sort build/whitespace.tsv
 
 # Update TSV files from Excel
 .PHONY: update-tsv-files
 update-tsv-files:
-	python3 src/xlsx2tsv.py mro.xlsx index > index.tsv
-	python3 src/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
-	python3 src/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
-	$(foreach t,$(tables) rejected,python3 src/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
-	python3 src/sort.py $(source_files)
+	python3 src/scripts/xlsx2tsv.py mro.xlsx index > index.tsv
+	python3 src/scripts/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
+	python3 src/scripts/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
+	$(foreach t,$(tables) rejected,python3 src/scripts/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
+	python3 src/scripts/sort.py $(source_files)
 
 # Sort TSV files by first column
 .PHONY: sort
 sort:
-	python3 src/sort.py index.tsv $(source_files)
+	python3 src/scripts/sort.py index.tsv $(source_files)
 
 # Check for whitespace during update-tsv step
 .PRECIOUS: build/whitespace.tsv
-build/whitespace.tsv: src/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
+build/whitespace.tsv: src/scripts/validation/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
 	python3 $^ $@
 
 build/HLA-%-frequency.xlsx: | build
@@ -214,12 +225,12 @@ build/hla_nom_g.txt: | build
 
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
-update-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+update-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
 
 # refresh-seqs will overwrite existing seqs with new seqs
 .PHONY: refresh-seqs
-refresh-seqs: src/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+refresh-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^ -o
 
 build/hla_prot.fasta: | build
@@ -241,23 +252,23 @@ add-frequency-data: src/dbfetch.py build/hla1.dat ontology/G-group.tsv ontology/
 	python3 src/update_gene_allele_seq.py -f
 
 .PHONY: update-alleles
-update-alleles: src/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
+update-alleles: src/scripts/alleles/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
 	python3 $^
 
 .PHONY: update-cow-alleles
-update-cow-alleles: src/update_cow_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
+update-cow-alleles: src/scripts/alleles/update_cow_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
 .PHONY: update-mamu-alleles
-update-mamu-alleles: src/update_mamu_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
+update-mamu-alleles: src/scripts/alleles/update_mamu_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
 .PHONY: update-patr-alleles
-update-patr-alleles: src/update_patr_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
+update-patr-alleles: src/scripts/alleles/update_patr_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
 .PHONY: update-sla-alleles
-update-sla-alleles: src/update_sla_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
+update-sla-alleles: src/scripts/alleles/update_sla_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
 
@@ -322,7 +333,7 @@ build/obi.txt: ontology/import.txt | build
 	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' | sed '/^HANCESTRO/d' | sed '/^GSSO/d' | sed '/^NCIT/d' | sed '/^IDO/d' > $@
 	echo "RO:0000056" >> $@
 
-build/%.db: src/scripts/prefixes.sql $(LIB)/%.owl | build/rdftab
+build/%.db: src/queries/prefixes.sql $(LIB)/%.owl | build/rdftab
 	rm -rf $@
 	sqlite3 $@ < $<
 	./build/rdftab $@ < $(word 2,$^)
@@ -348,6 +359,7 @@ ontology/external-obi.tsv: lib/obi.owl
 
 IEDB_TARGETS := build/mro-iedb.owl \
                 build/mhc_allele_restriction.tsv \
+                build/molecule_export.tsv \
                 build/ALLELE_FINDER_NAMES.csv \
                 build/ALLELE_FINDER_SEARCH.csv \
                 build/ALLELE_FINDER_TREE.csv
@@ -367,16 +379,19 @@ build/.mro-tdb: build/mro-iedb.owl
 	--create-tdb true \
 	--tdb-directory $@
 
-build/mhc_allele_restriction.csv: build/.mro-tdb src/mhc_allele_restriction.rq | build/robot.jar
+build/mhc_allele_restriction.csv: build/.mro-tdb src/queries/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
 	--select $(word 2,$^) $@
 
-build/mhc_allele_restriction.tsv: src/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
+build/mhc_allele_restriction.tsv: src/scripts/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
-build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/names.rq | build/robot.jar iedb
+build/molecule_export.tsv: src/scripts/export_molecule.py index.tsv ontology/external.tsv ontology/molecule.tsv
+	python3 $^ $@
+
+build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/queries/names.rq | build/robot.jar iedb
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
@@ -385,7 +400,7 @@ build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/names.rq | build/robot.jar ied
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/search.rq | build/robot.jar iedb
+build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/queries/search.rq | build/robot.jar iedb
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
@@ -394,19 +409,19 @@ build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/search.rq | build/robot.jar i
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: build/.mro-tdb src/parents.rq | build/robot.jar
+build/parents.csv: build/.mro-tdb src/queries/parents.rq | build/robot.jar
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
 	--select $(word 2,$^) $@
 
-build/ALLELE_FINDER_TREE.csv: src/tree.py build/parents.csv | iedb
+build/ALLELE_FINDER_TREE.csv: src/scripts/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@
 
-build/tree.json: src/tree.py build/parents.csv | build
+build/tree.json: src/scripts/tree.py build/parents.csv | build
 	python3 $^ --mode JSON > $@
 
-build/full_tree.json: src/tree.py build/full_tree.csv | build
+build/full_tree.json: src/scripts/tree.py build/full_tree.csv | build
 	python3 $^ --mode JSON > $@
 
 .PHONY: update-iedb
@@ -415,7 +430,7 @@ update-iedb: $(IEDB_TARGETS)
 
 ### Testing & verification
 
-VERIFY_QUERIES = $(wildcard src/verify/*.rq)
+VERIFY_QUERIES = $(wildcard src/queries/verify/*.rq)
 
 build/mro-base.owl: mro.owl | build/robot.jar
 	$(ROBOT) remove --input $< \
@@ -437,7 +452,7 @@ verify: build/mro-iedb.owl $(VERIFY_QUERIES) | build/robot.jar
 
 # Validate the MHC-allele restriction table
 .PRECIOUS: build/mhc_allele_restriction_errors.tsv
-build/mhc_allele_restriction_errors.tsv: src/validate_mhc_allele_restriction.py build/mhc_allele_restriction.tsv | build
+build/mhc_allele_restriction_errors.tsv: src/scripts/validation/validate_mhc_allele_restriction.py build/mhc_allele_restriction.tsv | build
 	python3 $^ $@
 
 .PHONY: test
@@ -449,8 +464,8 @@ test: build/mhc_allele_restriction_errors.tsv
 # Python testing
 .PHONY: pytest
 pytest:
-	py.test src/tree.py
-	py.test src/synonyms.py
+	py.test src/scripts/tree.py
+	py.test src/scripts/synonyms.py
 
 
 ### General

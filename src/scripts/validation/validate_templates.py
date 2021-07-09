@@ -1163,7 +1163,7 @@ def main():
                 "level",
                 "rule ID",
                 "rule",
-                "suggestion",
+                "value",
                 "message",
             ],
             delimiter="\t",
