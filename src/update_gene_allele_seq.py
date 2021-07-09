@@ -139,7 +139,8 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             exons = get_G_group_exon(record = b, mhc_class = mhc_class )
             
             if allele in gen_seq and gen_seq[allele]:
-                G_groups.setdefault(gen_seq[allele], set()).add(exons)
+                G_groups.setdefault(gen_seq[allele], (set(), locus))
+                G_groups[gen_seq[allele]][0].add(exons)
             gene_allele["Coding Region Sequence"] = str(cds.extract(b).seq)
             gene_allele["Source"] = "IMGT/HLA"
             gene_allele["Accession"] = b.name
@@ -185,7 +186,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
         if all_fields_present:
             gen_alleles.append(gene_allele)
         continue
-    G_groups = [{"G group" : allele, "Exon 2 and/or 3": max(G_groups[allele], key=len), "Logic": "G group"} for allele in G_groups]
+    G_groups = [{"G group" : allele, "Exon 2 and/or 3": max(G_groups[allele][0], key=len), "Logic": "G group", "Locus": G_groups[allele][1] + " locus" } for allele in G_groups]
     gen_alleles = list(map(update_allele_dict, gen_alleles))
     #with open("descriptions.txt", "w") as desc_file:
         #for i in descriptions:
@@ -209,9 +210,9 @@ def write_gene_alleles(gene_allele_fields, gen_alleles):
 
 def write_G_groups(G_groups):
     with open("ontology/G-group.tsv", "w") as file_obj:
-        writer = csv.DictWriter(file_obj, fieldnames = ["G group", "Exon 2 and/or 3", "Logic"], delimiter = "\t")
+        writer = csv.DictWriter(file_obj, fieldnames = ["G group", "Exon 2 and/or 3", "Logic", "Locus"], delimiter = "\t")
         writer.writeheader()
-        file_obj.write("LABEL\tA MRO:sequence\tSC %\n")
+        file_obj.write("LABEL\tA MRO:sequence\tSC %\tSC %\n")
         writer.writerows([G_groups[0]])
         writer.writerows(G_groups)
         file_obj.close()
