@@ -2,6 +2,7 @@
 GO:0008150  # biological process
 OBI:1110057 # MHC:epitope complex binding to TCR
 
+
 # Information
 IAO:0000030 # information content entity
 ECO:0000000 # evidence
@@ -35,6 +36,9 @@ OBI:0000293 # has specified input
 OBI:0000299 # has specified output
 RO:0002162  # in taxon
 RO:0002204  # gene product of
+RO:0002205 # has gene product
+RO:0001025 # located in
+BFO:0000050 # part of
 
 # Annotation Properties
 IAO:0000111 # editor preferred term
@@ -43,3 +47,10 @@ IAO:0000119 # definition source
 IAO:0000112 # example of usage
 IAO:0000412 # imported from
 OBI:9991118 # IEDB alternative term
+NCIT:C17005 # population group
+HANCESTRO:0010 # African
+HANCESTRO:0014 # Hispanic or Latino
+HANCESTRO:0015 # Middle Eastern or North African
+GSSO:010196 # Asian or Pacific Islander person
+HANCESTRO:0013 # Native American
+HANCESTRO:0005 # European
