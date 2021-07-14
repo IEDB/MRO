@@ -147,7 +147,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             # match = re.search(pattern = r"(?<!DRB)[0-9]+$", string=locus)
             # if match:
             #     locus = locus[:match.span()[0]]
-            gene_allele["Locus"] = f"'{locus} wild type allele information'"
+            gene_allele["Locus"] = f"'{locus} allele'"
             two_field = (":").join(allele.split(":")[:2])
             name = two_field + " chain"
             if name in chains:

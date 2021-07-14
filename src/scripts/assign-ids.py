@@ -79,7 +79,7 @@ def main():
         "mutant-molecule",
         "serotype",
         "serotype-molecule",
-        "allele-information"
+        "gene-allele"
     ]:
         with open(f"{args.templates_dir}/{tbl}.tsv", "r") as f:
             reader = csv.DictReader(f, delimiter="\t")

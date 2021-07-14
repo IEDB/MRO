@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence external-obi allele-information G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence gene-allele G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies gene-allele
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -342,15 +342,6 @@ PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:99
 build/%-import.ttl: build/%.db build/%.txt
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(foreach P,$(PREDICATES), -p $(P)) > $@
 
-ontology/external-obi.tsv: lib/obi.owl
-	$(ROBOT) extract \
-	--method MIREOT \
-	--input $< \
-	--branch-from-term OBI:0001352 \
-	export \
-	--header "ID|LABEL|Type|SubClassOf|definition" \
-	--format tsv \
-	--export $@
 ### Generate files for IEDB
 #
 # This includes an extended OWL file
