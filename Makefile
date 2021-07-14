@@ -273,7 +273,7 @@ update-sla-alleles: src/scripts/alleles/update_sla_alleles.py ontology/chain-seq
 
 ### OWL Files
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
-	$(ROBOT) -vvv template \
+	$(ROBOT) template \
 	--input $< \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--prefix "REO: $(OBO)/REO_" \
