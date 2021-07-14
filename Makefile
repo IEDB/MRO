@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence external-obi allele-information G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies 
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence external-obi allele-information G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -202,7 +202,7 @@ build/whitespace.tsv: src/scripts/validation/detect_whitespace.py index.tsv iedb
 	python3 $^ $@
 
 build/HLA-%-frequency.xlsx: | build
-	curl -o $@ -L "https://www.ihiw18.org/wp-content/uploads/2020/04/HLA-$*_PrimaryData-IHWS-20200320.xlsx"
+	curl -o $@ -L "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-$*_PrimaryData-IHWS-20200320.xlsx"
 
 ### Sequences
 
@@ -216,10 +216,10 @@ build/mhc.fasta: | build
 
 build/hla.dat: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
-	
+
 build/hla1.dat: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/3310/hla.dat
-	
+
 build/hla_nom_g.txt: | build
 	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/wmda/hla_nom_g.txt
 
@@ -239,16 +239,15 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
-src/dbfetch.py: 
+src/dbfetch.py:
 	curl -o $@ -L https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/python/dbfetch.py
-	
+
 .PHONY: update-G-groups
 update-G-groups: build/hla.dat build/hla_nom_g.txt ontology/chain-sequence.tsv
 		python3 src/scripts/alleles/update_gene_allele_seq.py -u
 
 .PHONY: add-frequency-data
 add-frequency-data: src/dbfetch.py build/hla1.dat ontology/G-group.tsv ontology/gene-alleles.tsv build/report-g-grp.json build/HLA-A-frequency.xlsx build/HLA-B-frequency.xlsx build/HLA-C-frequency.xlsx build/HLA-DRB1-frequency.xlsx build/HLA-DRB3-frequency.xlsx build/HLA-DRB4-frequency.xlsx build/HLA-DRB5-frequency.xlsx build/HLA-DQB1-frequency.xlsx build/HLA-DPB1-frequency.xlsx
-	pip install pandas==1.2.1
 	python3 src/scripts/alleles/update_gene_allele_seq.py -f
 
 .PHONY: update-alleles

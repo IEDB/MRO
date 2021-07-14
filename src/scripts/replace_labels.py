@@ -28,7 +28,7 @@ def main():
 	# Replace any labels with single quotes with their IDs
 	# Only check for cells in "C" template string columns
 	rows = []
-	reader = csv.DictReader(args.source, delimiter="\t")
+	reader = csv.DictReader(args.source, delimiter="\t", restval = '')
 	headers = reader.fieldnames
 	if None in headers:
 		# Extra tab may have been added to the sheet, clean it out

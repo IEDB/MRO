@@ -7,3 +7,4 @@ openpyxl
 psycopg2-binary
 urlp
 biopython==1.78
+pandas==1.1.5

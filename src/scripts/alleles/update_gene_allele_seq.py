@@ -51,7 +51,7 @@ EXCLUDED_GENES = {
     "DQA2",
     "DRB2"
 }
-    
+
 def get_chains():
     se = open("ontology/chain-sequence.tsv", "r")
     p = se.readline()
@@ -63,7 +63,7 @@ def get_chains():
     for row in rows:
         label = row.pop("Label", None)
         chains[label] = row
-    return chains, template_string 
+    return chains, template_string
 #nuc_records = {}
 
 # m = []
@@ -110,8 +110,8 @@ def get_G_group_exon(record, mhc_class):
                 exons.append(str(feature.extract(record).seq))
                 if len(exons) == 1:
                     return exons[0]
-                    
-        
+
+
 def process_hla_dat(gen_seq, gene_allele_fields,chains ):
     errors = []
     gen_alleles = []
@@ -137,9 +137,9 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             mhc_class = ("II" if "II" in mhc_class else "I")
             gene_allele["MHC gene allele"] = allele
             exons = get_G_group_exon(record = b, mhc_class = mhc_class )
-            
+
             if allele in gen_seq and gen_seq[allele]:
-                G_groups.setdefault(gen_seq[allele], (set(), locus))
+                G_groups.setdefault(gen_seq[allele], (set(), re.sub("[0-9]*", "", locus)))
                 G_groups[gen_seq[allele]][0].add(exons)
             gene_allele["Coding Region Sequence"] = str(cds.extract(b).seq)
             gene_allele["Source"] = "IMGT/HLA"
@@ -151,7 +151,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
             two_field = (":").join(allele.split(":")[:2])
             name = two_field + " chain"
             if name in chains:
-                gene_allele["Chain"] = name 
+                gene_allele["Chain"] = name
                 if len(chains[name]["Sequence"]) < len(cds.qualifiers['translation'][0]):
                     chains[name]["Resource Name"] = allele.split("-")[1]
                     chains[name]["Accession"] = b.name
@@ -171,7 +171,7 @@ def process_hla_dat(gen_seq, gene_allele_fields,chains ):
         except TError:
             # mainly for alleles with partial sequences
             #print("TranslationError", b.name)
-            
+
             error = {"reason" : "TranslationError", "IMGT Accession": b.name}
             errors.append(error)
         if allele in gen_seq:
@@ -232,11 +232,11 @@ def get_index_info():
         cur_mro_id = max(ids) + 1
         labels = [entry["Label"] for entry in entries]
     return entries, ids, cur_mro_id, labels
-    
+
 def check_pop_properties_are_in_index(pop_properties):
     properties = [[prop, "owl:AnnotationProperty", ""] for prop in pop_properties]
-    return properties 
-    
+    return properties
+
 def get_new_alleles_and_G_groups(gen_alleles, G_groups):
     new_alleles = [[allele["MHC gene allele"], "owl:Class", ""] for allele in gen_alleles]
     #new_alleles.append(["MHC gene allele", "owl:Class", ""])
@@ -280,9 +280,9 @@ def verify_accession_data(data, gene_alleles):
         x = json.load(report)
         excluded_alleles = [allele["IMGT Accession"] for allele in x]
     missed_alleles.difference_update(excluded_alleles)
-        
+
     return missed_alleles
-    
+
 def lookup_imgt(missed_alleles):
     import dbfetch as dbf
     batches= []
@@ -315,11 +315,11 @@ def check_missed_alleles(imgt_data):
                     diff_alleles.append(allele.name)
             else:
                 diff_alleles.append(allele.name)
-                
+
         else:
             continue
     return same_alleles, diff_alleles
-    
+
 def get_allele_id_label(data):
     levels = list(map(list, zip(*data.columns)))
     primary = ""
@@ -350,23 +350,23 @@ def verify_G_groups(data, gene_alleles):
     correction = m.isin(temp)
     if correction.loc[correction["G group"] == False].empty:
         return set()
-    else: 
+    else:
         missed_alleles = m.loc[~correction["G group"], :]
         missed_alleles = pd.Series(missed_alleles.index, copy = True)
         missed_alleles = set(missed_alleles)
-        # exclude alleles that are part of a G group, but not in MRO 
+        # exclude alleles that are part of a G group, but not in MRO
         with open("build/report-g-grp.json") as report:
             x = json.load(report)
             excluded_alleles = [allele["IMGT Accession"] for allele in x]
         missed_alleles.difference_update(excluded_alleles)
-        
+
         return missed_alleles
 def get_frequency_label(data):
     primary = ""
     columns = list(data.columns.levels[0])
     for i in columns:
         if "Frequency" in i:
-            primary = i 
+            primary = i
             break
     return primary
 def add_gene_allele_freqs(data, pop_group_map):
@@ -396,10 +396,10 @@ def add_totals(data, pop_group_map):
     #yu = list(total.index)
     total = total.add_prefix("AT '").add_suffix("'^^xsd:float")
     #yu = list(total.index)
-    
+
     chains = pd.DataFrame(total.loc[(~(total.index.str.contains("G"))) & (~(total.index.str.endswith("P"))) ], copy = True)
     two_field.drop(two_field.index.intersection(chains.index), inplace=True)
-    
+
     chains = pd.concat([chains, two_field])
     chains.index = "HLA-" + chains.index + " chain"
     G_group = pd.DataFrame(total.loc[total.index.str.endswith("G")], copy = True)
@@ -419,7 +419,7 @@ def write_template_header(filename, template_header):
     with open(filename, "w") as totals:
         totals.write(template_header)
         totals.write("\n")
-    
+
 def fix_chains(chains, template_string):
     with open("ontology/chain-sequence.tsv","w") as p:
         fieldnames = list(list(chains.values())[0].keys())
@@ -434,7 +434,7 @@ def fix_chains(chains, template_string):
             foo.update(chains[chain])
             new_chains.append(foo)
         writer.writerows(new_chains)
-        
+
 def main():
     parser = argparse.ArgumentParser(description='Update MHC gene allele sequences and G groups or add frequency data')
     parser.add_argument("-u","--update", action='store_true', help = "Update G groups and coding region genomic sequences of HLA alleles from IMGT")
@@ -480,10 +480,10 @@ def main():
             not_in_mro_G_groups = []
             not_in_mro_others = []
             for datafile in datafiles:
-                data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0)
+                data = pd.read_excel(io = datafile, header = [0, 1], index_col = 0, engine='openpyxl')
                 data = data.loc[data.index.dropna()]
                 data.drop(index = data.loc[data.index.str.contains("N") | data.index.str.endswith("Q")].index, inplace=True)
-                # find all alleles where labels from frequency data doesn't have matching accession with current IMGT release  
+                # find all alleles where labels from frequency data doesn't have matching accession with current IMGT release
                 missed_alleles_acc |= verify_accession_data(data, gene_alleles)
                 # all alleles in  a particular G group in frequency data are identified in the same G group in current IMGT release
                 missed_alleles_G_grp |= verify_G_groups(data, gene_alleles)
@@ -493,10 +493,10 @@ def main():
                 #      same_imgt_data = lookup_imgt(same)
                 #missed_alleles |= missing_alleles
                 # missed alleles are contained in MRO
-                
+
                 chain, G_group, not_in_mro_chain, not_in_mro_G_group= add_totals(data.drop(index = data.loc[data.loc[:,get_allele_id_label(data)].isin(missed_alleles_acc | missed_alleles_G_grp)].index), pop_group_map)
                 others, not_in_mro_other = add_gene_allele_freqs(data.drop(index = data.loc[data.loc[:,get_allele_id_label(data)].isin(missed_alleles_acc | missed_alleles_G_grp)].index), pop_group_map)
-                gene_alleles_freq.append(others) 
+                gene_alleles_freq.append(others)
                 chains.append(chain)
                 G_groups.append(G_group)
                 not_in_mro_chains.extend(not_in_mro_chain)
@@ -514,8 +514,8 @@ def main():
             #       imgt_data = lookup_imgt(missed_alleles_acc)
             #       same_seq, diff_seq = check_missed_alleles(imgt_data)
             #       print(same_seq)
-                      
-                      
+
+
             chains.to_csv("ontology/chain-frequencies.tsv", sep="\t", mode='a+')
             G_groups.to_csv("ontology/G-group-frequencies.tsv", sep="\t", mode='a+')
             gene_alleles_freq.to_csv("ontology/gene-allele-frequencies.tsv", sep="\t", mode='a+')
