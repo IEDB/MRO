@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence properties G-domain-sequence
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -99,7 +99,7 @@ load: $(COGS_SHEETS)
 push: | .cogs
 	cogs push
 
-.PHONY: destroy 
+.PHONY: destroy
 destroy: | .cogs
 	cogs delete -f
 
@@ -177,7 +177,7 @@ build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.t
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv
+mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv ontology/G-domain-sequence.tsv ontology/properties.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files sort build/whitespace.tsv
@@ -212,6 +212,9 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
+build/hla.dat: | build
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
+
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
@@ -231,6 +234,11 @@ build/AlleleList.txt: | build
 .PHONY: update-alleles
 update-alleles: src/scripts/alleles/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
 	python3 $^
+
+.PHONY: update-G-domiain
+
+update-G-domain: build/hla.dat
+	python3 src/scripts/alleles/G_domain.py
 
 .PHONY: update-cow-alleles
 update-cow-alleles: src/scripts/alleles/update_cow_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
