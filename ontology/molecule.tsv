@@ -1,6 +1,5 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
-										
 Aime-128 protein complex	Aime-128		locus	equivalent	MHC class I protein complex	giant panda	Aime-128 chain	Beta-2-microglobulin		
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
