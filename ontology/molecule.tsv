@@ -1,5 +1,6 @@
 Label	IEDB Label	Synonyms	Restriction Level	Class Type	Parent	In Taxon	Alpha Chain	Beta Chain	With Haplotype	With Serotype
 LABEL	A OBI:9991118	A IAO:0000118 SPLIT=|	A has MHC restriction level	CLASS_TYPE	C %	C 'in taxon' some %	C 'has part' some %	C 'has part' some %	C 'haplotype member of' some %	C 'serotype member of' some %
+										
 Aime-128 protein complex	Aime-128		locus	equivalent	MHC class I protein complex	giant panda	Aime-128 chain	Beta-2-microglobulin		
 Anpl-UAA protein complex	Anpl-UAA		locus	equivalent	MHC class I protein complex	duck	Anpl-UAA chain	Beta-2-microglobulin		
 Anpl-UAA*01 protein complex	Anpl-UAA*01		complete molecule	equivalent	MHC class I protein complex	duck	Anpl-UAA*01 chain	Beta-2-microglobulin		
@@ -705,8 +706,8 @@ Bornean orangutan MHC class I protein complex	Bornean orangutan		class	equivalen
 Bornean orangutan MHC class II protein complex	Bornean orangutan		class	equivalent	MHC class II protein complex	Bornean orangutan				
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
-Ctid-UAA b2m-1-II protein complex	Ctid-UAA b2m-1-II		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
-Ctid-UAA b2m-2 protein complex	Ctid-UAA b2m-2		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-2 chain		
+Ctid-UAA/b2m-1-II protein complex	Ctid-UAA/b2m-1-II		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
+Ctid-UAA/b2m-2 protein complex	Ctid-UAA/b2m-2		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-2 chain		
 DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	DLA-88 chain	Beta-2-microglobulin		
 DLA-88*034:01 protein complex	DLA-88*034:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*034:01 chain	Beta-2-microglobulin		
 DLA-88*501:01 protein complex	DLA-88*501:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*501:01 chain	Beta-2-microglobulin		
@@ -742,6 +743,7 @@ Guinea baboon MHC class I protein complex	Guinea baboon		class	equivalent	MHC cl
 Guinea baboon MHC class II protein complex	Guinea baboon		class	equivalent	MHC class II protein complex	Guinea baboon				
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
 H2-Db protein complex	H2-Db		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
+H2-Db/human Beta-2-microglobulin protein complex	H2-Db/huB2m		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	human Beta-2-microglobulin chain	H2-b haplotype	
 H2-Dd protein complex	H2-Dd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Dk protein complex	H2-Dk		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dk chain	Beta-2-microglobulin	H2-k haplotype	
 H2-Dq protein complex	H2-Dq		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dq chain	Beta-2-microglobulin	H2-q haplotype	
@@ -12928,7 +12930,6 @@ HLA-DPA1*01:03/DPB1*05:01 protein complex	HLA-DPA1*01:03/DPB1*05:01		complete mo
 HLA-DPA1*01:03/DPB1*06:01 protein complex	HLA-DPA1*01:03/DPB1*06:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*06:01 chain		HLA-DPw6 serotype
 HLA-DPA1*01:03/DPB1*08:01 protein complex	HLA-DPA1*01:03/DPB1*08:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*08:01 chain		
 HLA-DPA1*01:03/DPB1*09:01 protein complex	HLA-DPA1*01:03/DPB1*09:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*09:01 chain		
-HLA-DPA1*01:03/DPB1*10:01 protein complex	HLA-DPA1*01:03/DPB1*10:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*10:01 chain		
 HLA-DPA1*01:03/DPB1*11:01 protein complex	HLA-DPA1*01:03/DPB1*11:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*11:01 chain		
 HLA-DPA1*01:03/DPB1*13:01 protein complex	HLA-DPA1*01:03/DPB1*13:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*13:01 chain		
 HLA-DPA1*01:03/DPB1*14:01 protein complex	HLA-DPA1*01:03/DPB1*14:01		complete molecule	equivalent	MHC class II protein complex	human	HLA-DPA1*01:03 chain	HLA-DPB1*14:01 chain		
