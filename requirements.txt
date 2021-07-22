@@ -6,3 +6,4 @@ ontodev-cogs
 openpyxl
 psycopg2-binary
 urlp
+biopython==1.78
