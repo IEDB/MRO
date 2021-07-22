@@ -46249,3 +46249,4 @@ MRO:0046247	northern plains gray langur MHC class I protein complex	owl:Class
 MRO:0046248	northern plains gray langur MHC class II protein complex	owl:Class	
 MRO:0046249	gelada MHC class I protein complex	owl:Class	
 MRO:0046250	gelada MHC class II protein complex	owl:Class	
+MRO:0046251	minimal HLA G domain sequence	owl:AnnotationProperty	

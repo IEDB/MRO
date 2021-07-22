@@ -5,8 +5,9 @@ import sys
 import os
 sys.path.append(os.getcwd())
 from io import StringIO
-import dbfetch as dbf
 from Bio import BiopythonWarning
+
+
 chain_sequence = open("ontology/chain-sequence.tsv", "r")
 
 reader = csv.DictReader(chain_sequence, delimiter = "\t")
@@ -112,19 +113,16 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             G_domain = G_domain
         G_domains.append({"Label": data[entry.name], "minimal G domain sequence" : G_domain})
     except BiopythonWarning:
-        print(entry.name, "start")
-        import pdb; pdb.set_trace()
+        print("BiopythonWarning")
     except AttributeError:
         if str(entry.seq) == 'X':
             excluded_sequence.append(entry)
-        else:
-            import pdb; pdb.set_trace()
-            print(entry.name, "AttributeError")
-            print("fop")
+
 print(excluded_sequence)
 
 import csv
 with open("ontology/G-domain-sequence.tsv", "w") as fh:
     writer = csv.DictWriter(fh, fieldnames = G_domains[0].keys(), delimiter = "\t")
     writer.writeheader()
+    fh.write("LABEL\tA minimal G domain sequence")
     writer.writerows(G_domains)
