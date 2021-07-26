@@ -48,7 +48,7 @@ LIB = lib
 ROBOT := java -jar build/robot.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence gene-allele G-group gene-alleles frequency-properties chain-frequencies G-group-frequencies gene-allele-frequencies gene-allele
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence gene-allele G-group gene-alleles properties chain-frequencies G-group-frequencies gene-allele-frequencies gene-allele
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
 templates = $(foreach i,$(build_files),--template $(i))
@@ -177,7 +177,7 @@ build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.t
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv ontology/G-group.tsv ontology/gene-alleles.tsv ontology/frequency-properties.tsv ontology/chain-frequencies.tsv
+mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv ontology/G-group.tsv ontology/gene-allele.tsv ontology/gene-alleles.tsv ontology/properties.tsv ontology/chain-frequencies.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files sort build/whitespace.tsv
