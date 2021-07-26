@@ -177,7 +177,7 @@ build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.t
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv ontology/G-group.tsv ontology/gene-allele.tsv ontology/gene-alleles.tsv ontology/properties.tsv ontology/chain-frequencies.tsv
+mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv ontology/G-group.tsv ontology/gene-allele.tsv ontology/gene-alleles.tsv ontology/properties.tsv ontology/chain-frequencies.tsv ontology/G-group-frequencies.tsv ontology/gene-allele-frequencies.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files sort build/whitespace.tsv
