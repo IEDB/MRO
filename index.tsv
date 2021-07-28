@@ -46252,3 +46252,6 @@ MRO:0046250	gelada MHC class II protein complex	owl:Class
 MRO:0046251	human Beta-2-microglobulin chain	owl:Class	
 MRO:0046252	H2-Db/human Beta-2-microglobulin protein complex	owl:Class	
 MRO:0046253	human Beta-2-microglobulin locus	owl:Class	
+MRO:0046254	mutant pig MHC class I protein complex	owl:Class	
+MRO:0046255	SLA-1*13:01 F99Y mutant protein complex	owl:Class	
+MRO:0046256	SLA-1*04:01 R156A mutant protein complex	owl:Class	
