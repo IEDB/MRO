@@ -235,8 +235,7 @@ build/AlleleList.txt: | build
 update-alleles: src/scripts/alleles/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
 	python3 $^
 
-.PHONY: update-G-domiain
-
+.PHONY: update-G-domain
 update-G-domain: build/hla.dat
 	python3 src/scripts/alleles/G_domain.py
 

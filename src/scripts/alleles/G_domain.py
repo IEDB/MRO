@@ -111,7 +111,7 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             G_domain =  str(G_domain.seq)
         else:
             G_domain = G_domain
-        G_domains.append({"Label": data[entry.name], "minimal G domain sequence" : G_domain})
+        G_domains.append({"Label": data[entry.name], "minimal HLA G domain sequence" : G_domain})
     except BiopythonWarning:
         print("BiopythonWarning")
     except AttributeError:
@@ -124,5 +124,5 @@ import csv
 with open("ontology/G-domain-sequence.tsv", "w") as fh:
     writer = csv.DictWriter(fh, fieldnames = G_domains[0].keys(), delimiter = "\t")
     writer.writeheader()
-    fh.write("LABEL\tA minimal G domain sequence")
+    fh.write("LABEL\tA minimal HLA G domain sequence\n")
     writer.writerows(G_domains)
