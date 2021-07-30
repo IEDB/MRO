@@ -21,6 +21,9 @@ def generate_synonyms(label, synonyms):
   for s in synonyms:
     if s.startswith('H2-'):
       ss.add(s.replace('H2-', 'H-2-'))
+  if re.match(r"HLA-[^/]+/(.+)", label):
+    part = re.search(r"HLA-[^/]+/(.+)", label).group(1)
+    ss.add("HLA-" + part)
   for l in [label]:
     ss.add(l.replace('H2-', 'H-2-'))
     ss.add(l.replace('*', ''))
@@ -52,7 +55,7 @@ test_cases = [
     {'HLA-Cw*0701', 'HLA-Cw*07011',
       'HLA-C07:01', 'HLA-C*0701', 'HLA-C0701'}),
   ('HLA-DPA1*01:03/DPB1*03:01', set(),
-    {'HLA-DPA101:03/DPB103:01', 'HLA-DPA1*0103/DPB1*0301', 'HLA-DPA10103/DPB10301'})
+    {'HLA-DPA101:03/DPB103:01', 'HLA-DPA1*0103/DPB1*0301', 'HLA-DPA10103/DPB10301', 'HLA-DPB1*03:01'}),
 ]
 
 def test_remove_synonyms():
