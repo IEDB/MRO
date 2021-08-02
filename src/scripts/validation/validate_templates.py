@@ -58,7 +58,6 @@ def check_labels(
                     "level": missing_level,
                     "rule ID": "unknown_label",
                     "rule": "unknown label",
-                    "value": label,
                     "message": missing_message,
                 }
             )
@@ -71,7 +70,6 @@ def check_labels(
                     "level": "error",
                     "rule ID": "invalid_label",
                     "rule": "invalid label",
-                    "value": label,
                     "message": f"change label to match pattern '{regex}'",
                 }
             )
@@ -128,7 +126,6 @@ def check_fields(
                     "level": "error",
                     "rule ID": f"invalid_{field_name.lower().replace(' ', '_')}",
                     "rule": f"invalid '{field_name}'",
-                    "value": value,
                     "message": f"replace the '{field_name}' with a term from {source}",
                 }
             )
@@ -153,7 +150,6 @@ def check_restriction_level(table_name, reader, valid_levels):
                     "level": "error",
                     "rule ID": "invalid_restriction_level",
                     "rule": "invalid restriction level",
-                    "value": res_level,
                     "message": "change the restriction level to one of: "
                     + ", ".join(valid_levels),
                 }
@@ -369,7 +365,6 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
                         "level": "error",
                         "rule ID": "invalid_taxon",
                         "rule": "invalid taxon",
-                        "value": taxon,
                         "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
@@ -1163,7 +1158,6 @@ def main():
                 "level",
                 "rule ID",
                 "rule",
-                "value",
                 "message",
             ],
             delimiter="\t",

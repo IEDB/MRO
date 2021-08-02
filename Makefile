@@ -8,9 +8,11 @@
 #
 # Tasks to edit and release MRO.
 #
-# #### Edit
+# * [Upload mro.xlsx](./src/scripts/sheet.py?action=create)
+# * [Download mro.xlsx](mro.xlsx)
 #
-# 1. [Edit Google Sheet](./src/scripts/cogs.sh)
+# #### Build Products
+#
 # 2. [Validate Tables](validate_tables) (IDs not required for all terms)
 # 3. [Assign New IDs](assign_ids)
 # 4. [Validate Tables](validate_tables_strict) (all terms must have IDs)
@@ -27,7 +29,6 @@
 # #### Before you go...
 #
 # [Clean Build Directory](clean)
-# [Destroy Google Sheet](destroy)
 
 
 ### Configuration
@@ -78,66 +79,37 @@ build/rdftab: | build
 	chmod +x $@
 
 
-### COGS Tasks
-
-ALL_SHEETS := index.tsv iedb/iedb.tsv $(source_files)
-COGS_SHEETS := $(foreach S,$(ALL_SHEETS),.cogs/$(notdir $(S)))
-
-.PHONY: load
-load: $(COGS_SHEETS)
-
-.cogs/index.tsv: index.tsv | .cogs
-	cogs add $< -r 2
-
-.cogs/iedb.tsv: iedb/iedb.tsv | .cogs
-	cogs add $< -r 2
-
-.cogs/%.tsv: ontology/%.tsv | .cogs
-	cogs add $< -r 2
-
-.PHONY: push
-push: | .cogs
-	cogs push
-
-.PHONY: destroy 
-destroy: | .cogs
-	cogs delete -f
-
-
 ### Table Validation
 
 # Validate the contents of the templates
 .PRECIOUS: build/validation_errors.tsv
-build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
 	python3 $< index.tsv iedb/iedb.tsv ontology $@ -a
 
 .PRECIOUS: build/validation_errors_strict.tsv
-build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
 	python3 $< index.tsv iedb/iedb.tsv ontology $@
 
-apply_%: build/validation_%.tsv | .cogs
-	cogs clear all
-	cogs apply $<
+apply_%: build/validation_%.tsv
+	axle clear all
+	axle apply $<
 
 .PHONY: validate_tables
 validate_tables:
-	cogs pull
 	make apply_errors
-	cogs push
+	axle push
 
 .PHONY: validate_tables_strict
 validate_tables_strict:
-	cogs pull
 	make apply_errors_strict
-	cogs push
+	axle push
 
 ### Processing
 
 .PHONY: assign_ids
 assign_ids: src/scripts/assign-ids.py index.tsv iedb/iedb.tsv $(source_files)
-	# cogs fetch && cogs pull
 	python3 $< index.tsv iedb/iedb.tsv ontology
-	cogs push
+	axle push
 
 ### Review
 
