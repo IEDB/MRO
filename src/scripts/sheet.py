@@ -117,7 +117,9 @@ def render_output(output):
         print("Content-Type: text/html")
         print("")
         print("<head>")
-        print('<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">')
+        print(
+            '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">'
+        )
         print("</head>")
         print("<body>")
         print('<div class="container" style="padding-top:30px;">')
@@ -148,22 +150,36 @@ def main():
         return build_form(args)
     elif action == "upload":
         # Save XLSX to mro.xlsx
+        os.chdir("../..")
         wb = load_workbook(fields["upload_mro"].file)
-        wb.save("../../../mro.xlsx")
+        wb.save("mro.xlsx")
 
         # Create new AXLE project and update the existing TSVs
-        os.chdir("../../..")
         if not os.path.exists(".axle"):
             init("mro", filepath="mro.xlsx")
             # Add the sheets in the correct order
             add("index.tsv")
             add("iedb/iedb.tsv")
-            for sheet in ["genetic-locus", "haplotype", "serotype", "chain", "chain-sequence", "molecule", "haplotype-molecule", "serotype-molecule", "mutant-molecule", "core", "external", "iedb-manual", "evidence", "rejected"]:
-                add(f"ontology/{sheet}.tsv")
+            for sheet in [
+                "ontology/genetic-locus",
+                "ontology/haplotype",
+                "ontology/serotype",
+                "ontology/chain",
+                "ontology/chain-sequence",
+                "ontology/molecule",
+                "ontology/haplotype-molecule",
+                "ontology/serotype-molecule",
+                "ontology/mutant-molecule",
+                "ontology/core",
+                "ontology/external",
+                "iedb/iedb-manual",
+                "ontology/evidence",
+                "ontology/rejected",
+            ]:
+                add(sheet + ".tsv")
         fetch()
         merge()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-
