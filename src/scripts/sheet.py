@@ -6,7 +6,8 @@ import sys
 
 from axle.add import add
 from axle.init import init
-from axle.pull import pull
+from axle.fetch import fetch
+from axle.merge import merge
 from openpyxl import load_workbook
 from urllib.parse import parse_qsl
 
@@ -159,7 +160,8 @@ def main():
             add("iedb/iedb.tsv")
             for sheet in ["genetic-locus", "haplotype", "serotype", "chain", "chain-sequence", "molecule", "haplotype-molecule", "serotype-molecule", "mutant-molecule", "core", "external", "iedb-manual", "evidence", "rejected"]:
                 add(f"ontology/{sheet}.tsv")
-        pull()
+        fetch()
+        merge()
 
 
 if __name__ == '__main__':
