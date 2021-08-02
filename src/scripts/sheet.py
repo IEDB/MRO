@@ -15,7 +15,7 @@ from urllib.parse import parse_qsl
 def build_form(args):
     output = [
         "form",
-        {"action": "load_sheet.py", "method": "POST", "enctype": "multipart/form-data"},
+        {"action": "sheet.py", "method": "POST", "enctype": "multipart/form-data"},
         # ["p", str(args)],
         ["input", {"type": "hidden", "name": "action", "value": "upload"}],
         build_input(args, "Upload MRO", input_type="file"),
