@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>MRO Template Diffs</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+	.nav-window{
+    	margin: 20px;
+    }
+  .add { 
+    background-color: #7fff7f;
+  }
+
+  .remove { 
+    background-color: #ff7f7f;
+  }
+
+  .modify { 
+    background-color: #7f7fff;
+  }
+
+  .conflict { 
+    background-color: #f00;
+  }
+
+  .spec { 
+    background-color: #aaa;
+  }
+
+  .move { 
+    background-color: #ffa;
+  }
+
+  .null { 
+    color: #888;
+  }
+
+  table { 
+    border-collapse:collapse;
+  }
+
+  td, th {
+    border: 1px solid #2D4068;
+    padding: 3px 7px 2px;
+  }
+
+  th, .header, .meta {
+    background-color: #aaf;
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    text-align:left;
+  }
+
+  tr.header th {
+    border-bottom: 2px solid black;
+  }
+
+  tr.index td, .index, tr.header th.index {
+    background-color: white;
+    border: none;
+  }
+
+  .gap {
+    color: #888;
+  }
+
+  td {
+    empty-cells: show;
+    white-space: pre-wrap;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+{% if not first %}
+  <div class="alert alert-primary" role="alert" style="margin-top: 20px;">
+    <h4 class="alert-heading">No changes have been made to the tables!</h4>
+  </div>
+{% else %}
+  <div class="nav-window">
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+              <a href="#{{ first.name }}" class="nav-link active" data-toggle="tab">{{ first.name }}</a>
+          </li>
+      {% for page in pages %}
+          <li class="nav-item">
+              <a href="#{{ page.name }}" class="nav-link" data-toggle="tab">{{ page.name }}</a>
+          </li>
+      {% endfor %}
+      </ul>
+      <div class="tab-content">
+          <div class="tab-pane fade show active" id="{{ first.name }}">
+              {{ first.contents }}
+          </div>
+      {% for page in pages %}
+          <div class="tab-pane fade" id="{{ page.name }}">
+              {{ page.contents }}
+          </div>
+      {% endfor %}
+      </div>
+  </div>
+{% endif %}
+</div>
+</body>
+</html>

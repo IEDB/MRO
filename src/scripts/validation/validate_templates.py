@@ -6,7 +6,6 @@ from argparse import ArgumentParser
 
 
 err_id = 0
-new_term_msg = "use a label defined in index OR ignore this message if this is a new term"
 
 
 def a1_to_idx(a1):
@@ -32,7 +31,7 @@ def check_labels(
     valid_labels,
     regex=None,
     missing_level="error",
-    missing_message=None,
+    allow_missing=False
 ):
     """Check that the labels used in a table are all present in a set of valid labels. If provided,
     also match the labels to a regex pattern. Return all labels from the table and a set of errors,
@@ -43,13 +42,12 @@ def check_labels(
     headers = reader.fieldnames
     labels = []
 
-    if not missing_message:
-        missing_message = f"use a label defined in {label_source}"
+    missing_message = f"use a label defined in {label_source}"
 
     for row in reader:
         label = row["Label"]
         labels.append(label)
-        if label not in valid_labels:
+        if not allow_missing and label not in valid_labels:
             err_id += 1
             errors.append(
                 {
@@ -58,7 +56,6 @@ def check_labels(
                     "level": missing_level,
                     "rule ID": "unknown_label",
                     "rule": "unknown label",
-                    "value": label,
                     "message": missing_message,
                 }
             )
@@ -71,7 +68,6 @@ def check_labels(
                     "level": "error",
                     "rule ID": "invalid_label",
                     "rule": "invalid label",
-                    "value": label,
                     "message": f"change label to match pattern '{regex}'",
                 }
             )
@@ -128,7 +124,6 @@ def check_fields(
                     "level": "error",
                     "rule ID": f"invalid_{field_name.lower().replace(' ', '_')}",
                     "rule": f"invalid '{field_name}'",
-                    "value": value,
                     "message": f"replace the '{field_name}' with a term from {source}",
                 }
             )
@@ -153,7 +148,6 @@ def check_restriction_level(table_name, reader, valid_levels):
                     "level": "error",
                     "rule ID": "invalid_restriction_level",
                     "rule": "invalid restriction level",
-                    "value": res_level,
                     "message": "change the restriction level to one of: "
                     + ", ".join(valid_levels),
                 }
@@ -229,7 +223,7 @@ def validate_chain(template_dir, labels, genetic_locus_labels, allow_missing):
                 labels,
                 regex=r"^.+ chain$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             chain_labels, label_errors = check_labels(
@@ -331,7 +325,7 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
                 labels,
                 regex=r"^.+ locus$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             genetic_locus_labels, label_errors = check_labels(
@@ -369,7 +363,6 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
                         "level": "error",
                         "rule ID": "invalid_taxon",
                         "rule": "invalid taxon",
-                        "value": taxon,
                         "message": "add this taxon to 'external' or "
                         "replace it with a taxon from 'external'",
                     }
@@ -406,7 +399,7 @@ def validate_halpotype(template_dir, labels, external_labels, allow_missing):
                 labels,
                 regex=r"^.+ haplotype$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             haplotype_labels, label_errors = check_labels(
@@ -495,7 +488,7 @@ def validate_haplotype_molecule(
                 labels,
                 regex=r"^.+ (with haplotype|with [^ ]+ haplotype)$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             _, label_errors = check_labels(
@@ -588,19 +581,11 @@ def validate_haplotype_molecule(
 def validate_iedb_labels(iedb_path, labels, allow_missing):
     """Validate iedb.tsv. This checks that all labels are present in index.tsv. Return a set of
     errors, if any."""
+    errors = []
     with open(iedb_path, "r") as f:
         reader = csv.DictReader(f, delimiter="\t")
         next(reader)
-        if allow_missing:
-            _, errors = check_labels(
-                "iedb",
-                reader,
-                "index",
-                labels,
-                missing_level="info",
-                missing_message=new_term_msg,
-            )
-        else:
+        if not allow_missing:
             _, errors = check_labels("iedb", reader, "index", labels)
     return errors
 
@@ -644,7 +629,7 @@ def validate_molecule(
                 labels,
                 regex=r"^.+ protein complex$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             molecule_labels, label_errors = check_labels(
@@ -811,7 +796,7 @@ def validate_mutant_molecule(template_dir, labels, external_labels, molecule_lab
                 labels,
                 regex=r"^.+ protein complex$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             mutant_molecule_labels, label_errors = check_labels(
@@ -912,7 +897,7 @@ def validate_serotype(template_dir, labels, external_labels, allow_missing):
                 labels,
                 regex=r"^.+ serotype$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             serotype_labels, label_errors = check_labels(
@@ -985,7 +970,7 @@ def validate_serotype_molecule(
                 labels,
                 regex=r"^.+ (with serotype|with [^ ]+ serotype)$",
                 missing_level="info",
-                missing_message=new_term_msg,
+                allow_missing=allow_missing
             )
         else:
             _, label_errors = check_labels(
@@ -1163,7 +1148,6 @@ def main():
                 "level",
                 "rule ID",
                 "rule",
-                "value",
                 "message",
             ],
             delimiter="\t",
