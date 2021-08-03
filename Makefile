@@ -18,7 +18,10 @@
 # 4. [Validate Tables](validate_tables_strict) (all terms must have IDs)
 # 5. [Prepare Products](prepare)
 # 6. [Run Tests](test)
-# 7. [View Term Table](build/mro.html) or [Browse Tree](./src/scripts/tree.sh)
+# 7. View the results:
+#     * [Table Diffs](build/diff.html)
+#     * [Term Table](build/mro.html)
+#     * [Browse Tree](./src/scripts/tree.sh)
 #
 # #### Commit Changes
 #
@@ -57,7 +60,7 @@ templates = $(foreach i,$(build_files),--template $(i))
 
 ### Set Up
 
-build build/validate:
+build build/validate build/master build/diff:
 	mkdir -p $@
 
 # We use the official development version of ROBOT for most things.
@@ -401,16 +404,43 @@ pytest:
 	py.test src/scripts/tree.py
 	py.test src/scripts/synonyms.py
 
+# Table diffs
+
+DIFF_TABLES := build/diff/index.html build/diff/iedb.html $(foreach S,$(tables),build/diff/$(S).html) build/diff/iedb-manual.html
+
+# Workaround to make sure master branch exists
+build/fetched.txt:
+	git fetch origin master:master && date > $@
+
+build/diff/%.html: ontology/%.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/iedb.html: iedb/iedb.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/iedb-manual.html: iedb/iedb-manual.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/index.html: index.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff.html: src/scripts/diff.py src/scripts/diff.html $(DIFF_TABLES)
+	python3 $< src/scripts/diff.html $(tables) > $@
+
 
 ### General
 
 # Prepare products for testing & review
 .PHONY: prepare
+prepare: clean
 prepare: build/mro.db
 prepare: update-seqs
 prepare: update-iedb
-prepare:
-	pip install -r requirements.txt
+prepare: build/diff.html
 
 .PHONY: clean
 clean:
