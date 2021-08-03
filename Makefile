@@ -13,15 +13,15 @@
 #
 # #### Build Products
 #
-# 2. [Validate Tables](validate_tables) (IDs not required for all terms)
-# 3. [Assign New IDs](assign_ids)
-# 4. [Validate Tables](validate_tables_strict) (all terms must have IDs)
-# 5. [Prepare Products](prepare)
-# 6. [Run Tests](test)
-# 7. View the results:
+# 1. [Validate Tables](validate_tables) (IDs not required for all terms)
+# 2. [Assign New IDs](assign_ids)
+# 3. [Validate Tables](validate_tables_strict) (all terms must have IDs)
+# 4. [Prepare Products](prepare)
+# 5. View the results:
 #     * [Table Diffs](build/diff.html)
 #     * [Term Table](build/mro.html)
 #     * [Browse Tree](./src/scripts/tree.sh)
+# 6. [Run Tests](test)
 #
 # #### Commit Changes
 #
