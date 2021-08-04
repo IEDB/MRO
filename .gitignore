@@ -1,3 +1,4 @@
+.axle
 .cogs
 .DS_Store
 .lein-env
@@ -18,3 +19,4 @@ __pycache__
 target/
 ~$mro.xlsx
 credentials.json
+_venv

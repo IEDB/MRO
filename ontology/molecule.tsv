@@ -705,8 +705,8 @@ Bornean orangutan MHC class I protein complex	Bornean orangutan		class	equivalen
 Bornean orangutan MHC class II protein complex	Bornean orangutan		class	equivalent	MHC class II protein complex	Bornean orangutan				
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-G protein complex	Caja-G		locus	equivalent	MHC class I protein complex	marmoset	Caja-G chain	Beta-2-microglobulin		
-Ctid-UAA b2m-1-II protein complex	Ctid-UAA b2m-1-II		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
-Ctid-UAA b2m-2 protein complex	Ctid-UAA b2m-2		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-2 chain		
+Ctid-UAA/b2m-1-II protein complex	Ctid-UAA/b2m-1-II		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-1-II chain		
+Ctid-UAA/b2m-2 protein complex	Ctid-UAA/b2m-2		locus	equivalent	MHC class I protein complex	grass carp	Ctid-UAA chain	grass carp Beta-2-microglobulin-2 chain		
 DLA-88 protein complex	DLA-88		locus	equivalent	MHC class I protein complex	dog	DLA-88 chain	Beta-2-microglobulin		
 DLA-88*034:01 protein complex	DLA-88*034:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*034:01 chain	Beta-2-microglobulin		
 DLA-88*501:01 protein complex	DLA-88*501:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-88*501:01 chain	Beta-2-microglobulin		
@@ -742,6 +742,7 @@ Guinea baboon MHC class I protein complex	Guinea baboon		class	equivalent	MHC cl
 Guinea baboon MHC class II protein complex	Guinea baboon		class	equivalent	MHC class II protein complex	Guinea baboon				
 H2-D protein complex	H2-D		locus	equivalent	MHC class I protein complex	mouse	H2-D chain	Beta-2-microglobulin		
 H2-Db protein complex	H2-Db		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	Beta-2-microglobulin	H2-b haplotype	
+H2-Db/human Beta-2-microglobulin protein complex	H2-Db/huB2m		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Db chain	human Beta-2-microglobulin chain	H2-b haplotype	
 H2-Dd protein complex	H2-Dd		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dd chain	Beta-2-microglobulin	H2-d haplotype	
 H2-Dk protein complex	H2-Dk		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dk chain	Beta-2-microglobulin	H2-k haplotype	
 H2-Dq protein complex	H2-Dq		complete molecule	equivalent	MHC class I protein complex	mouse	H2-Dq chain	Beta-2-microglobulin	H2-q haplotype	

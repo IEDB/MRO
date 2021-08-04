@@ -18333,12 +18333,12 @@ BoLA-2*016:01 protein complex	18425	2
 BoLA-DRB3*020:04 protein complex	18426	DRB3		
 BoLA-DQA*012:04 protein complex	18427	DQ		
 Aime-128 protein complex	18428	128		
-Ctid-UAA b2m-1-II protein complex	18429	UAA		
+Ctid-UAA/b2m-1-II protein complex	18429	UAA		
 Mafa-A1*063:01 protein complex	18430	A1		
 Mafa-A1 protein complex	18431	A1		
 crab-eating macaque MHC class I protein complex	18432			
 crab-eating macaque MHC class II protein complex	18433			
-Ctid-UAA b2m-2 protein complex	18434			
+Ctid-UAA/b2m-2 protein complex	18434			
 Anpl-UAA*SD protein complex	18435	UAA		
 rhesus macaque CD1b protein complex	18436	CD1		
 rhesus macaque CD1c protein complex	18437	CD1		
@@ -20339,3 +20339,7 @@ HLA-DPA1*02:02/DPB1*02:01 protein complex	20431	DP
 HLA-DQA1*02:01/DQB1*06:02 protein complex	20432	DQ		
 chicken MHC class II protein complex with B2 haplotype	20433			
 chicken MHC class II protein complex with BF2 haplotype	20434			
+HLA-DQA1*05:01/DQB1*02:02 protein complex	20435	DQ		
+HLA-DPA1*01:03/DPB1*10:01 protein complex	20436	DP	300693	
+SLA-1*13:01 F99Y mutant protein complex	20437	1		
+SLA-1*04:01 R156A mutant protein complex	20438	1		
