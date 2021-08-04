@@ -48,13 +48,14 @@ logging.captureWarnings(True)
 
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
     reader = csv.DictReader(chain_sequence, delimiter = "\t")
-    next(reader)
+    next(chain_sequence)
     data = {row["Accession"]: row["Label"] for row in reader}
 
+print(data)
 warnings.simplefilter('always', BiopythonParserWarning)
 acc = list(data.keys())
 excluded_sequence = []
-G_domains = []
+G_domains = {}
 
 for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     logging.info(entry.name + " beginning")
@@ -151,13 +152,12 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             G_domain =  str(G_domain.seq)
         else:
             G_domain = G_domain
-        G_domains.append({"Label": data[entry.name], "minimal HLA G domain sequence" : G_domain})
+        G_domains[data[entry.name]]= G_domain
     except AttributeError:
         if str(entry.seq) == 'X':
             excluded_sequence.append(entry)
     logging.info(entry.name + " ending")
 
-import pdb; pdb.set_trace()
 with open("biopython.log", "r") as log_file:
     while log_file:
         log_line = log_file.readline()
@@ -178,8 +178,17 @@ with open("biopython.log", "r") as log_file:
                         raise Exception("Warning other than BiopythonParserWarning: ", log_line)
 
 import csv
-with open("ontology/G-domain-sequence.tsv", "w") as fh:
-    writer = csv.DictWriter(fh, fieldnames = G_domains[0].keys(), delimiter = "\t")
+with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
+    reader = csv.DictReader(chain_sequence, delimiter = "\t")
+    robot_string = next(chain_sequence)
+    updated = []
+    for row in reader:
+        if "HLA" in row["Label"] and row["Label"] in G_domains.keys():
+            row["minimal HLA G domain sequence"] = G_domains[row["Label"]]
+        updated.append(row)
+print(updated)
+with open("ontology/chain-sequence.tsv", "w") as chain_sequence:
+    writer = csv.DictWriter(chain_sequence, fieldnames = updated[0].keys(), delimiter = "\t")
     writer.writeheader()
-    fh.write("LABEL\tA minimal HLA G domain sequence\n")
-    writer.writerows(G_domains)
+    chain_sequence.write(robot_string[:-1] + "\tA minimal HLA G domain sequence\n")
+    writer.writerows(updated)
