@@ -43,12 +43,13 @@ EXCLUDED_GENES = {
 }
 
 logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.DEBUG )
+#logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.INFO )
 logging.captureWarnings(True)
-chain_sequence = open("ontology/chain-sequence.tsv", "r")
 
-reader = csv.DictReader(chain_sequence, delimiter = "\t")
-next(reader)
-data = {row["Accession"]: row["Label"] for row in reader}
+with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
+    reader = csv.DictReader(chain_sequence, delimiter = "\t")
+    next(reader)
+    data = {row["Accession"]: row["Label"] for row in reader}
 
 warnings.simplefilter('always', BiopythonParserWarning)
 acc = list(data.keys())
@@ -56,11 +57,11 @@ excluded_sequence = []
 G_domains = []
 
 for entry in SeqIO.parse("build/hla.dat", "imgt" ):
-    logging.debug(entry.name + " beginning")
+    logging.info(entry.name + " beginning")
     has_exon_1 = False
     if entry.name not in acc or entry.description.split(",")[0].endswith("N") or entry.seq == 'X' or entry.description.split(",")[0] in EXCLUDED_GENES:
         if entry.seq == 'X':
-            logging.debug(entry.name + " has X as sequence")
+            logging.debug(entry.name + " has 'X' as sequence")
         continue
     exons = []
     cds = ""
@@ -154,7 +155,27 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     except AttributeError:
         if str(entry.seq) == 'X':
             excluded_sequence.append(entry)
-    logging.debug(entry.name + " ending")
+    logging.info(entry.name + " ending")
+
+import pdb; pdb.set_trace()
+with open("biopython.log", "r") as log_file:
+    while log_file:
+        log_line = log_file.readline()
+        if log_line == '':
+            break
+        count = 0
+        if 'INFO' in log_line:
+            continue
+        if 'WARNING' in log_line and "BiopythonParserWarning" in log_line:
+            X_seq_msg = True
+            while X_seq_msg:
+                log_line = log_file.readline()
+                count +=  1
+                if count == 4:
+                    if "DEBUG" in log_line and "has 'X' as sequence" and count == 4:
+                        X_seq_msg = False
+                    else:
+                        raise Exception("Warning other than BiopythonParserWarning: ", log_line)
 
 import csv
 with open("ontology/G-domain-sequence.tsv", "w") as fh:
