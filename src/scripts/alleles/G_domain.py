@@ -6,7 +6,6 @@ sys.path.append(os.getcwd())
 from io import StringIO
 import warnings
 import logging
-import csv
 
 EXCLUDED_GENES = {
     "BTN3A",
