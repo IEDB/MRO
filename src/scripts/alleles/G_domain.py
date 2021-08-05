@@ -48,7 +48,7 @@ logging.captureWarnings(True)
 
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
     reader = csv.DictReader(chain_sequence, delimiter = "\t")
-    next(chain_sequence)
+    next(reader)
     data = {row["Accession"]: row["Label"] for row in reader}
 
 print(data)
@@ -179,9 +179,12 @@ with open("biopython.log", "r") as log_file:
 
 import csv
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
-    reader = csv.DictReader(chain_sequence, delimiter = "\t")
-    robot_string = next(chain_sequence)
     updated = []
+    reader = csv.DictReader(chain_sequence, delimiter = "\t")
+    robot_string = next(reader)
+    robot_string["minimal HLA G domain sequence"] = "A minimal HLA G domain sequence"
+    print(robot_string)
+    updated.append(robot_string)
     for row in reader:
         if "HLA" in row["Label"] and row["Label"] in G_domains.keys():
             row["minimal HLA G domain sequence"] = G_domains[row["Label"]]
@@ -190,5 +193,4 @@ print(updated)
 with open("ontology/chain-sequence.tsv", "w") as chain_sequence:
     writer = csv.DictWriter(chain_sequence, fieldnames = updated[0].keys(), delimiter = "\t")
     writer.writeheader()
-    chain_sequence.write(robot_string[:-1] + "\tA minimal HLA G domain sequence\n")
     writer.writerows(updated)
