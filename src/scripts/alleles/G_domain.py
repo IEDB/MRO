@@ -6,6 +6,7 @@ sys.path.append(os.getcwd())
 from io import StringIO
 import warnings
 import logging
+import csv
 
 EXCLUDED_GENES = {
     "BTN3A",
@@ -42,8 +43,10 @@ EXCLUDED_GENES = {
     "DRB2"
 }
 
-logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.DEBUG )
+#logging.basicConfig(filename = 'build/biopython.log', filemode = 'w', level = logging.DEBUG )
 #logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.INFO )
+logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.WARNING )
+
 logging.captureWarnings(True)
 
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
@@ -58,7 +61,7 @@ G_domains = {}
 
 for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     logging.info(entry.name + " beginning")
-    has_exon_1 = False 
+    has_exon_1 = False
     if entry.name not in acc or entry.seq == 'X' or entry.description.split(",")[0] in EXCLUDED_GENES:
         if entry.seq == 'X':
             logging.debug(entry.name + " has 'X' as sequence")
@@ -157,26 +160,26 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             excluded_sequence.append(entry)
     logging.info(entry.name + " ending")
 
-with open("biopython.log", "r") as log_file:
-    while log_file:
-        log_line = log_file.readline()
-        if log_line == '':
-            break
-        count = 0
-        if 'INFO' in log_line:
-            continue
-        if 'WARNING' in log_line and "BiopythonParserWarning" in log_line:
-            X_seq_msg = True
-            while X_seq_msg:
-                log_line = log_file.readline()
-                count +=  1
-                if count == 4:
-                    if "DEBUG" in log_line and "has 'X' as sequence" and count == 4:
-                        X_seq_msg = False
-                    else:
-                        raise Exception("Warning other than BiopythonParserWarning: ", log_line)
+with open("build/biopython.log", "r") as log_file:
+    if logging.root.level == logging.DEBUG:
+        while log_file:
+            log_line = log_file.readline()
+            if log_line == '':
+                break
+            count = 0
+            if 'INFO' in log_line:
+                continue
+            if 'WARNING' in log_line and "BiopythonParserWarning" in log_line:
+                X_seq_msg = True
+                while X_seq_msg:
+                    log_line = log_file.readline()
+                    count +=  1
+                    if count == 4:
+                        if "DEBUG" in log_line and "has 'X' as sequence" and count == 4:
+                            X_seq_msg = False
+                        else:
+                            raise Exception("Warning other than BiopythonParserWarning: ", log_line)
 
-import csv
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
     updated = []
     reader = csv.DictReader(chain_sequence, delimiter = "\t")
