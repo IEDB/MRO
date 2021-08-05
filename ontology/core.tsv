@@ -14,6 +14,7 @@ has MHC restriction level
 has chain I mutation							
 has chain II mutation							
 is synthetic protein mutant of					A relationship between a protein that was designed as a variant and its naturally occurring template protein, where the synthesized variant has one or more defined differences - typically introduced to examine the impact of such variations on protein function.		
+minimal HLA G domain sequence					The HLA G domain protein sequence of a MHC chain that excludes those amino acids outside of the signal peptide. The HLA G domain is the domains of HLA class I and HLA class II chains  that have a groove 3D structure that is part of the cleft that is the peptide binding site. 	IMGT	
 mutant MHC protein complex	mutant MHC molecule	equivalent	MHC protein complex	('is synthetic protein mutant of' some 'MHC protein complex')	A protein complex in which one or both chains has at least one amino acid residue altered from the wild type sequence.	IEDB	The HLA-B*08:01 B:I66A mutant protein has a single amino acid mutation in the B*08:01 chain at residue 166, where the wild type isoleucine was replaced with an alanine.
 serotype		subclass	information content entity		A pattern of antibody binding associated with certain material entities	IEDB	
 serotype member of					A relation between a protein complex and a serotype, in which the protein complex belongs to the serotype by virtue of its disposition to bind with certain antibodies.		

@@ -1,3 +1,0 @@
-Label	Definition	Defined by	Other source	Subproperty	Definition Source
-LABEL	A IAO:0000115	A rdfs:isDefinedBy	A rdfs:isDefinedBy	SP %	A IAO:0000119
-minimal HLA G domain sequence	The HLA G domain protein sequence of a MHC chain that excludes those amino acids outside of the signal peptide. The HLA G domain is the domains of HLA class I and HLA class II chains  that have a groove 3D structure that is part of the cleft that is the peptide binding site. 				IMGT
