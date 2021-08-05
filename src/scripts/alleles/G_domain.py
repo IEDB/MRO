@@ -58,8 +58,8 @@ G_domains = {}
 
 for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     logging.info(entry.name + " beginning")
-    has_exon_1 = False
-    if entry.name not in acc or entry.description.split(",")[0].endswith("N") or entry.seq == 'X' or entry.description.split(",")[0] in EXCLUDED_GENES:
+    has_exon_1 = False 
+    if entry.name not in acc or entry.seq == 'X' or entry.description.split(",")[0] in EXCLUDED_GENES:
         if entry.seq == 'X':
             logging.debug(entry.name + " has 'X' as sequence")
         continue
@@ -187,7 +187,7 @@ with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
         if "HLA" in row["Label"] and row["Label"] in G_domains.keys():
             row["minimal HLA G domain sequence"] = G_domains[row["Label"]]
         updated.append(row)
-        
+
 with open("ontology/chain-sequence.tsv", "w") as chain_sequence:
     writer = csv.writer(chain_sequence, lineterminator = "\n", delimiter = "\t")
     writer.writerow(tuple(updated[0].keys()))
