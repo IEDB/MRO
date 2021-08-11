@@ -44,7 +44,7 @@ EXCLUDED_GENES = {
 
 #logging.basicConfig(filename = 'build/biopython.log', filemode = 'w', level = logging.DEBUG )
 #logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.INFO )
-logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.WARNING )
+logging.basicConfig(filename = 'build/biopython.log', filemode = 'w', level = logging.WARNING )
 
 logging.captureWarnings(True)
 
@@ -148,7 +148,10 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             if G_domain[-1] == 'X':
                 G_domain = G_domain[:-1]
         if 'seq' in dir(G_domain) and str(G_domain.seq) not in cds.qualifiers['translation'][0]:
-            logging.error(msg = f"{entry.name}, {str(G_domain.seq)}, {cds.qualifiers['translation'][0]} not matched" )
+            if '*' in str(G_domain.seq):
+                G_domain = G_domain[:str(G_domain.seq).find('*')]
+            else:
+                logging.error(msg = f"{entry.name}, {str(G_domain.seq)}, {cds.qualifiers['translation'][0]} not matched" )
         if 'seq' in dir(G_domain):
             G_domain =  str(G_domain.seq)
         else:
@@ -182,16 +185,12 @@ with open("build/biopython.log", "r") as log_file:
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
     updated = []
     reader = csv.DictReader(chain_sequence, delimiter = "\t")
-    robot_string = next(reader)
-    robot_string["minimal HLA G domain sequence"] = "A minimal HLA G domain sequence"
-    updated.append(robot_string)
     for row in reader:
         if "HLA" in row["Label"] and row["Label"] in G_domains.keys():
             row["minimal HLA G domain sequence"] = G_domains[row["Label"]]
         updated.append(row)
 
 with open("ontology/chain-sequence.tsv", "w") as chain_sequence:
-    writer = csv.writer(chain_sequence, lineterminator = "\n", delimiter = "\t")
-    writer.writerow(tuple(updated[0].keys()))
-    for row in updated:
-        writer.writerow(tuple(row.values()))
+    writer = csv.DictWriter(chain_sequence, fieldnames = updated[0].keys(), lineterminator = "\n", delimiter = "\t")
+    writer.writeheader()
+    writer.writerows(updated)
