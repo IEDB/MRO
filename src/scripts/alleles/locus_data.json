@@ -1,0 +1,328 @@
+{
+    "species": [
+        {
+            "mhc_code": "Onmy",
+            "taxon": "rainbow trout",
+            "class_I": [
+                "UBA"
+            ],
+            "pairing": {
+                "DAA": "DAB"
+            },
+            "pairing_rev": {
+                "DAB": "DAA"
+            }
+        },
+        {
+            "mhc_code": "Ovar",
+            "taxon": "domestic sheep",
+            "class_I": [
+                "N"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Gogo",
+            "taxon": "gorilla",
+            "class_I": [
+                "A",
+                "B",
+                "C",
+                "E",
+                "F",
+                "G",
+                "H",
+                "OKO"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "DLA",
+            "taxon": "dog",
+            "class_I": [
+                "64",
+                "88"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Sasa",
+            "taxon": "atlantic salmon",
+            "class_I": [
+                "UBA"
+            ],
+            "pairing": {
+                "DAA": "DAB"
+            },
+            "pairing_rev": {
+                "DAB": "DAA"
+            }
+        },
+        {
+            "mhc_code": "SLA",
+            "taxon": "pig",
+            "class_I": [
+                "4",
+                "5",
+                "7",
+                "8",
+                "9",
+                "11",
+                "12",
+                "TAP1",
+                "TAP2"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Mamu",
+            "taxon": "rhesus macaque",
+            "class_I": [
+                "F",
+                "G",
+                "I"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Atbe",
+            "taxon": "white-fronted spider monkey",
+            "class_I": [
+                "B",
+                "E",
+                "G"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Atfu",
+            "taxon": "black-headed spider monkey",
+            "class_I": [
+                "B",
+                "E",
+                "G"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Caja",
+            "taxon": "marmoset",
+            "class_I": [
+                "B",
+                "E",
+                "F",
+                "G",
+                "PS"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Cemi",
+            "taxon": "blue monkey",
+            "class_I": [
+                "A",
+                "B"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Chae",
+            "taxon": "grivet",
+            "class_I": [
+                "A",
+                "B",
+                "G"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Hyla",
+            "taxon": "lar gibbon",
+            "class_I": [
+                "A",
+                "B"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Lero",
+            "taxon": "golden lion tamarin",
+            "class_I": [
+                "G"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Maar",
+            "taxon": "stump-tailed macaque",
+            "class_I": [
+                "A",
+                "B",
+                "I"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Mafa",
+            "taxon": "stump-tailed macaque",
+            "class_I": [
+                "A",
+                "AG",
+                "B",
+                "E",
+                "F",
+                "G",
+                "I"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Paan",
+            "taxon": "olive baboon",
+            "class_I": [
+                "A",
+                "AG",
+                "B"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Pacy",
+            "taxon": "yellow baboon",
+            "class_I": [
+                "A",
+                "B",
+                "E"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Paha",
+            "taxon": "hamadryas baboon",
+            "class_I": [
+                "A",
+                "B"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Papa",
+            "taxon": "bonobo",
+            "class_I": [
+                "A",
+                "B",
+                "C",
+                "G",
+                "H"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Pipi",
+            "taxon": "white-faced saki",
+            "class_I": [
+                "B",
+                "E",
+                "G"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Popy",
+            "taxon": "Bornean orangutan",
+            "class_I": [
+                "A",
+                "AP",
+                "B",
+                "C",
+                "E",
+                "H"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Safu",
+            "taxon": "brown-mantled tamarin",
+            "class_I": [
+                "G",
+                "PS"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Sage",
+            "taxon": "Geoffroy's tamarin",
+            "class_I": [
+                "PS"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Samy",
+            "taxon": "moustached tamarin",
+            "class_I": [
+                "PS"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Saoe",
+            "taxon": "cotton-top tamarin",
+            "class_I": [
+                "G",
+                "E",
+                "F",
+                "N",
+                "PS"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "Sasc",
+            "taxon": "common squirrel monkey",
+            "class_I": [
+                "G"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        },
+        {
+            "mhc_code": "BoLA",
+            "taxon": "cattle",
+            "class_I": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "pairing": {},
+            "pairing_rev": {}
+        }
+    ]
+}

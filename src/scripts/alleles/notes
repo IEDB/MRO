@@ -1,0 +1,12 @@
+Before
+--------------
+real	4m44.609s
+user	7m56.002s
+sys	0m11.523s
+--------------
+After
+---------------
+
+
+
+Add gen chain logic - left off at transferring new gen chains to main -> send to index method
