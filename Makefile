@@ -199,7 +199,7 @@ refresh-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.f
 
 # refresh-hla-seqs will overwrite existing HLA seqs with new seqs
 .PHONY: refresh-hla-seqs
-refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta
 	python3 $^ -o -H
 
 build/hla_prot.fasta: | build
