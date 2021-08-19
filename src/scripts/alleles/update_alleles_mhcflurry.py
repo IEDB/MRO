@@ -209,7 +209,6 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
             missing_chain_rows.add((label, synonyms, class_type, parent, "", ""))
         except Exception:
             failed_alleles.add(allele)
-            print(f"Allele {allele} has no sequence in IPD")
 
     with open(sys.argv[2], "a+") as outfile:
         writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
@@ -495,6 +494,8 @@ def update_index(missing_alleles, missing_molecules, missing_loci, new_gen_chain
             new_tups.append((mro_id, chain_name, "owl:Class"))
 
     for locus in missing_loci:
+        if "Eqca" in locus:
+            locus = locus.replace("Eqca", "ELA")
         locus_name = f"{locus} locus"
         if locus_name not in mro_labels:
             mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
