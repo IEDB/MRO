@@ -180,7 +180,6 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
     imgt_alleles = set(data)
     missing_alleles = imgt_alleles.difference(mro_alleles)
     new_alleles = {x for x in missing_alleles if x.split("*")[0] in curr_loci}
-    new_alleles = {x for x in new_alleles if x[-1] != "N"}
     new_alleles = {x for x in new_alleles if "HLA" not in x}
 
     new_gen_chains = set()
@@ -355,6 +354,8 @@ def create_classI_generic(mro_proteins, gene, taxon):
                 ]
             )
 
+            mro_proteins.add(f"{gene} chain")
+
     new_tups = []
     mro_labels = set()
     with open(sys.argv[5], "r") as fh:
@@ -371,6 +372,7 @@ def create_classI_generic(mro_proteins, gene, taxon):
             mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
             curr_mro_num += 1
             new_tups.append((mro_id, molecule_name, "owl:Class"))
+            mro_labels.add(molecule_name)
 
     with open(sys.argv[5], "a+") as outfile:
         writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
@@ -412,6 +414,7 @@ def create_classII_generic(mro_proteins, gene, taxon):
                     "",
                 ]
             )
+            mro_proteins.add(f"{gene} chain")
 
     new_tups = []
     mro_labels = set()
@@ -429,6 +432,7 @@ def create_classII_generic(mro_proteins, gene, taxon):
             mro_id = f"MRO:{str(curr_mro_num + 1).zfill(7)}"
             curr_mro_num += 1
             new_tups.append((mro_id, molecule_name, "owl:Class"))
+            mro_labels.add(molecule_name)
 
     with open(sys.argv[5], "a+") as outfile:
         writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")

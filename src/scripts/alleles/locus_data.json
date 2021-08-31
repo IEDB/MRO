@@ -115,11 +115,16 @@
             "mhc_code": "Caja",
             "taxon": "marmoset",
             "class_I": [
-                "B",
+                "B4",
+                "B5",
+                "B6",
+                "B7",
+                "B8",
+                "B9",
                 "E",
                 "F",
                 "G",
-                "PS"
+                "PS2"
             ],
             "pairing": {},
             "pairing_rev": {}
@@ -168,7 +173,7 @@
             "mhc_code": "Maar",
             "taxon": "stump-tailed macaque",
             "class_I": [
-                "A",
+                "A1",
                 "B",
                 "I"
             ],
@@ -265,7 +270,8 @@
             "taxon": "brown-mantled tamarin",
             "class_I": [
                 "G",
-                "PS"
+                "PS1",
+                "PS2"
             ],
             "pairing": {},
             "pairing_rev": {}
@@ -274,7 +280,8 @@
             "mhc_code": "Sage",
             "taxon": "Geoffroy's tamarin",
             "class_I": [
-                "PS"
+                "PS1",
+                "PS2"
             ],
             "pairing": {},
             "pairing_rev": {}
@@ -283,7 +290,8 @@
             "mhc_code": "Samy",
             "taxon": "moustached tamarin",
             "class_I": [
-                "PS"
+                "PS1",
+                "PS2"
             ],
             "pairing": {},
             "pairing_rev": {}
@@ -295,8 +303,10 @@
                 "G",
                 "E",
                 "F",
-                "N",
-                "PS"
+                "N1",
+                "N2",
+                "N3",
+                "PS1"
             ],
             "pairing": {},
             "pairing_rev": {}
