@@ -49968,3 +49968,41 @@ MRO:0049966	Paan-A*21:01 protein complex	owl:Class
 MRO:0049967	Paan-B*14:01 protein complex	owl:Class
 MRO:0049968	Mafa-B*013:01 protein complex	owl:Class
 MRO:0049969	Mafa-B*015:02 protein complex	owl:Class
+MRO:0049970	Onmy-UBA*04:01:02 chain	owl:Class
+MRO:0049971	Onmy-UBA*15:01:02 chain	owl:Class
+MRO:0049972	Onmy-UBA*15:01:01 chain	owl:Class
+MRO:0049973	Onmy-UBA*04:01:01 chain	owl:Class
+MRO:0049974	Onmy-DAB*06:01:02 chain	owl:Class
+MRO:0049975	Onmy-DAB*03:01:01 chain	owl:Class
+MRO:0049976	Onmy-DAB*05:01:02 chain	owl:Class
+MRO:0049977	Onmy-UBA*27:01:01 chain	owl:Class
+MRO:0049978	Onmy-UBA*01:01:03 chain	owl:Class
+MRO:0049979	Onmy-UBA*27:01:03 chain	owl:Class
+MRO:0049980	Onmy-DAB*03:01:02 chain	owl:Class
+MRO:0049981	Onmy-UBA*27:01:02 chain	owl:Class
+MRO:0049982	Sasa-DAA*03:03:02 chain	owl:Class
+MRO:0049983	Onmy-UBA*01:01:01 chain	owl:Class
+MRO:0049984	Onmy-DAB*06:01:01 chain	owl:Class
+MRO:0049985	DLA-64*001:01:01 chain	owl:Class
+MRO:0049986	Sasa-DAA*03:03:01 chain	owl:Class
+MRO:0049987	Onmy-DAB*05:01:01 chain	owl:Class
+MRO:0049988	Onmy-UBA*01:01:02 chain	owl:Class
+MRO:0049989	Onmy-UBA*27:01:02 protein complex	owl:Class
+MRO:0049990	Onmy-UBA*01:01:02 protein complex	owl:Class
+MRO:0049991	Onmy-UBA*01:01:03 protein complex	owl:Class
+MRO:0049992	Onmy-UBA*01:01:01 protein complex	owl:Class
+MRO:0049993	Onmy-UBA*04:01:01 protein complex	owl:Class
+MRO:0049994	Onmy-DAB*03:01:01 protein complex	owl:Class
+MRO:0049995	Onmy-DAB*06:01:01 protein complex	owl:Class
+MRO:0049996	Onmy-UBA*04:01:02 protein complex	owl:Class
+MRO:0049997	Onmy-UBA*27:01:01 protein complex	owl:Class
+MRO:0049998	Onmy-UBA*27:01:03 protein complex	owl:Class
+MRO:0049999	Onmy-UBA*15:01:02 protein complex	owl:Class
+MRO:0050000	Sasa-DAA*03:03:02 protein complex	owl:Class
+MRO:0050001	DLA-64*001:01:01 protein complex	owl:Class
+MRO:0050002	Sasa-DAA*03:03:01 protein complex	owl:Class
+MRO:0050003	Onmy-UBA*15:01:01 protein complex	owl:Class
+MRO:0050004	Onmy-DAB*03:01:02 protein complex	owl:Class
+MRO:0050005	Onmy-DAB*05:01:01 protein complex	owl:Class
+MRO:0050006	Onmy-DAB*05:01:02 protein complex	owl:Class
+MRO:0050007	Onmy-DAB*06:01:02 protein complex	owl:Class

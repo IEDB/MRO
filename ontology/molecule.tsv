@@ -26961,3 +26961,30 @@ Onmy-DAB*04:01 protein complex	Onmy-DAB*04:01		partial molecule	equivalent	MHC c
 Sasa-DAB*25:01 protein complex	Sasa-DAB*25:01		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA chain	Sasa-DAB*25:01 chain		
 Sasa-DAB*09:01 protein complex	Sasa-DAB*09:01		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA chain	Sasa-DAB*09:01 chain		
 Sasa-DAA*03:04 protein complex	Sasa-DAA*03:04		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA*03:04 chain	Sasa-DAB chain		
+Onmy-UBA protein complex	Onmy-UBA		locus	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA chain	Beta-2-microglobulin		
+Onmy-DAB protein complex	Onmy-DAB		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB chain		
+Sasa-DAA protein complex	Sasa-DAA		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA chain	Sasa-DAB chain		
+DLA-64 protein complex	DLA-64		locus	equivalent	MHC class I protein complex	dog	DLA-64 chain	Beta-2-microglobulin		
+Onmy-UBA*15:01:02 protein complex	Onmy-UBA*15:01:02		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*15:01:02 chain	Beta-2-microglobulin		
+Onmy-UBA*04:01:02 protein complex	Onmy-UBA*04:01:02		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*04:01:02 chain	Beta-2-microglobulin		
+Onmy-UBA*04:01:01 protein complex	Onmy-UBA*04:01:01		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*04:01:01 chain	Beta-2-microglobulin		
+DLA-64*001:01:01 protein complex	DLA-64*001:01:01		complete molecule	equivalent	MHC class I protein complex	dog	DLA-64*001:01:01 chain	Beta-2-microglobulin		
+Onmy-UBA*15:01:01 protein complex	Onmy-UBA*15:01:01		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*15:01:01 chain	Beta-2-microglobulin		
+Onmy-UBA*27:01:03 protein complex	Onmy-UBA*27:01:03		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*27:01:03 chain	Beta-2-microglobulin		
+Onmy-UBA*27:01:01 protein complex	Onmy-UBA*27:01:01		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*27:01:01 chain	Beta-2-microglobulin		
+Onmy-UBA*01:01:02 protein complex	Onmy-UBA*01:01:02		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*01:01:02 chain	Beta-2-microglobulin		
+Onmy-UBA*27:01:02 protein complex	Onmy-UBA*27:01:02		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*27:01:02 chain	Beta-2-microglobulin		
+Onmy-UBA*01:01:03 protein complex	Onmy-UBA*01:01:03		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*01:01:03 chain	Beta-2-microglobulin		
+Onmy-UBA*01:01:01 protein complex	Onmy-UBA*01:01:01		complete molecule	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA*01:01:01 chain	Beta-2-microglobulin		
+Sasa-DAA*03:03:02 protein complex	Sasa-DAA*03:03:02		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA*03:03:02 chain	Sasa-DAB chain		
+Onmy-DAB*05:01:02 protein complex	Onmy-DAB*05:01:02		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB*05:01:02 chain		
+Onmy-DAB*05:01:01 protein complex	Onmy-DAB*05:01:01		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB*05:01:01 chain		
+Onmy-DAB*06:01:01 protein complex	Onmy-DAB*06:01:01		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB*06:01:01 chain		
+Sasa-DAA*03:03:01 protein complex	Sasa-DAA*03:03:01		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA*03:03:01 chain	Sasa-DAB chain		
+Onmy-DAB*03:01:02 protein complex	Onmy-DAB*03:01:02		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB*03:01:02 chain		
+Onmy-DAB*06:01:02 protein complex	Onmy-DAB*06:01:02		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB*06:01:02 chain		
+Onmy-DAB*03:01:01 protein complex	Onmy-DAB*03:01:01		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB*03:01:01 chain		
+Onmy-DAB protein complex	Onmy-DAB		partial molecule	equivalent	MHC class II protein complex	rainbow trout	Onmy-DAA chain	Onmy-DAB chain		
+Sasa-DAA protein complex	Sasa-DAA		partial molecule	equivalent	MHC class II protein complex	atlantic salmon	Sasa-DAA chain	Sasa-DAB chain		
+Onmy-UBA protein complex	Onmy-UBA		locus	equivalent	MHC class I protein complex	rainbow trout	Onmy-UBA chain	Beta-2-microglobulin		
+DLA-64 protein complex	DLA-64		locus	equivalent	MHC class I protein complex	dog	DLA-64 chain	Beta-2-microglobulin		

@@ -35,7 +35,7 @@ def get_sequences():
                 if line.startswith(">IPD-MHC"):
                     accession = line.split(" ")[0][9:]
                     allele = line.split(" ")[1]
-                    allele = (":").join(allele.split(":")[:2])
+                    allele = (":").join(allele.split(":")[:4])
             else:
                 seq += line.strip()
         seqs[accession] = seq
@@ -208,6 +208,7 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
             missing_chain_rows.add((label, synonyms, class_type, parent, "", ""))
         except Exception:
             failed_alleles.add(allele)
+            print(allele)
 
     with open(sys.argv[2], "a+") as outfile:
         writer = csv.writer(outfile, delimiter="\t", lineterminator="\n")
