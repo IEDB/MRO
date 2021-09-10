@@ -20343,6 +20343,7 @@ HLA-DQA1*05:01/DQB1*02:02 protein complex	20435	DQ
 HLA-DPA1*01:03/DPB1*10:01 protein complex	20436	DP	300693	
 SLA-1*13:01 F99Y mutant protein complex	20437	1		
 SLA-1*04:01 R156A mutant protein complex	20438	1		
+<<<<<<< HEAD
 Papa-A*03:01 protein complex	20439	A		
 Mafa-B*076:01 protein complex	20440	B		
 Onmy-DAB*04:01 protein complex	20441	DAB		
@@ -21700,3 +21701,5 @@ Chae-A*18:01 protein complex	21792	A
 Gogo-C*02:01 protein complex	21793	C		
 Mamu-I*01:24 protein complex	21794	I		
 Paan-B*14:02 protein complex	21795	B		
+=======
+>>>>>>> master
