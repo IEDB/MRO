@@ -204,6 +204,7 @@ hamadryas baboon MHC class I locus		subclass	MHC class I locus	hamadryas baboon
 hamadryas baboon MHC class II locus		subclass	MHC class II locus	hamadryas baboon
 horse MHC class I locus		subclass	MHC class I locus	horse
 horse MHC class II locus		subclass	MHC class II locus	horse
+human Beta-2-microglobulin locus		subclass	Beta-2-microglobulin locus	human
 human MHC class I locus		subclass	MHC class I locus	human
 human MHC class II locus		subclass	MHC class II locus	human
 human non-classical MHC locus		subclass	non-classical MHC locus	human
@@ -266,109 +267,109 @@ white-lipped tamarin MHC class I locus		subclass	MHC class I locus	white-lipped 
 white-lipped tamarin MHC class II locus		subclass	MHC class II locus	white-lipped tamarin
 yellow baboon MHC class I locus		subclass	MHC class I locus	yellow baboon
 yellow baboon MHC class II locus		subclass	MHC class II locus	yellow baboon
+Popy-C locus		subclass	Bornean orangutan MHC class I locus	
+Papa-B locus		subclass	bonobo MHC class I locus	
+Caja-B5 locus		subclass	marmoset MHC class I locus	
+Popy-E locus		subclass	Bornean orangutan MHC class I locus	
+Popy-B locus		subclass	Bornean orangutan MHC class I locus	
+Maar-B locus		subclass	stump-tailed macaque MHC class I locus	
+DLA-64 locus		subclass	dog MHC class I locus	
+SLA-TAP1 locus		subclass	pig MHC class I locus	
+Atbe-E locus		subclass	white-fronted spider monkey MHC class I locus	
+Onmy-UBA locus		subclass	rainbow trout MHC class I locus	
+Gogo-OKO locus		subclass	gorilla MHC class I locus	
+Sasc-G locus		subclass	common squirrel monkey MHC class I locus	
+Mamu-G locus		subclass	rhesus macaque MHC class I locus	
+Paan-A locus		subclass	olive baboon MHC class I locus	
+Papa-H locus		subclass	bonobo MHC class I locus	
+SLA-5 locus		subclass	pig MHC class I locus	
+Caja-B8 locus		subclass	marmoset MHC class I locus	
+ELA-4 locus		subclass	horse MHC class I locus	
+Popy-AP locus		subclass	Bornean orangutan MHC class I locus	
+Paha-B locus		subclass	hamadryas baboon MHC class I locus	
+Sage-PS2 locus		subclass	Geoffroy's tamarin MHC class I locus	
+Maar-A1 locus		subclass	stump-tailed macaque MHC class I locus	
+Samy-PS2 locus		subclass	moustached tamarin MHC class I locus	
+Saoe-F locus		subclass	cotton-top tamarin MHC class I locus	
+Gogo-C locus		subclass	gorilla MHC class I locus	
+Mafa-I locus		subclass	stump-tailed macaque MHC class I locus	
+Gogo-G locus		subclass	gorilla MHC class I locus	
+Saoe-E locus		subclass	cotton-top tamarin MHC class I locus	
+Mafa-E locus		subclass	stump-tailed macaque MHC class I locus	
+Mamu-I locus		subclass	rhesus macaque MHC class I locus	
+Atbe-G locus		subclass	white-fronted spider monkey MHC class I locus	
+Gogo-E locus		subclass	gorilla MHC class I locus	
+Cemi-A locus		subclass	blue monkey MHC class I locus	
+ELA-3 locus		subclass	horse MHC class I locus	
+Popy-H locus		subclass	Bornean orangutan MHC class I locus	
+SLA-4 locus		subclass	pig MHC class I locus	
+Gogo-F locus		subclass	gorilla MHC class I locus	
+Sasa-UBA locus		subclass	atlantic salmon MHC class I locus	
+SLA-TAP2 locus		subclass	pig MHC class I locus	
+Caja-F locus		subclass	marmoset MHC class I locus	
+Samy-PS1 locus		subclass	moustached tamarin MHC class I locus	
+Mamu-F locus		subclass	rhesus macaque MHC class I locus	
+Onmy-DAB locus		subclass	rainbow trout MHC class II locus	
+Papa-C locus		subclass	bonobo MHC class I locus	
+Papa-G locus		subclass	bonobo MHC class I locus	
+Onmy-DAA locus		subclass	rainbow trout MHC class II locus	
+SLA-9 locus		subclass	pig MHC class I locus	
+Popy-A locus		subclass	Bornean orangutan MHC class I locus	
+Safu-PS1 locus		subclass	brown-mantled tamarin MHC class I locus	
+Caja-B4 locus		subclass	marmoset MHC class I locus	
+Atfu-B locus		subclass	black-headed spider monkey MHC class I locus	
+Chae-B locus		subclass	grivet MHC class I locus	
+Pipi-E locus		subclass	white-faced saki MHC class I locus	
+Paan-B locus		subclass	olive baboon MHC class I locus	
+Gogo-A locus		subclass	gorilla MHC class I locus	
+Cemi-B locus		subclass	blue monkey MHC class I locus	
+Sasa-DAA locus		subclass	atlantic salmon MHC class II locus	
+Saoe-N2 locus		subclass	cotton-top tamarin MHC class I locus	
+SLA-7 locus		subclass	pig MHC class I locus	
+Saoe-N1 locus		subclass	cotton-top tamarin MHC class I locus	
+Saoe-N3 locus		subclass	cotton-top tamarin MHC class I locus	
+Pipi-B locus		subclass	white-faced saki MHC class I locus	
+Pacy-B locus		subclass	yellow baboon MHC class I locus	
+Sasa-DAB locus		subclass	atlantic salmon MHC class II locus	
+Mafa-AG locus		subclass	stump-tailed macaque MHC class I locus	
+Caja-B7 locus		subclass	marmoset MHC class I locus	
+Mafa-G locus		subclass	stump-tailed macaque MHC class I locus	
+Pipi-G locus		subclass	white-faced saki MHC class I locus	
+Atfu-E locus		subclass	black-headed spider monkey MHC class I locus	
+Pacy-E locus		subclass	yellow baboon MHC class I locus	
+ELA-16 locus		subclass	horse MHC class I locus	
+SLA-8 locus		subclass	pig MHC class I locus	
+Sage-PS1 locus		subclass	Geoffroy's tamarin MHC class I locus	
+Lero-G locus		subclass	golden lion tamarin MHC class I locus	
+Maar-I locus		subclass	stump-tailed macaque MHC class I locus	
+Mafa-B locus		subclass	stump-tailed macaque MHC class I locus	
+Caja-B9 locus		subclass	marmoset MHC class I locus	
+ELA-7 locus		subclass	horse MHC class I locus	
+SLA-11 locus		subclass	pig MHC class I locus	
+Paha-A locus		subclass	hamadryas baboon MHC class I locus	
+Ovar-N locus		subclass	domestic sheep MHC class I locus	
+SLA-12 locus		subclass	pig MHC class I locus	
+ELA-1 locus		subclass	horse MHC class I locus	
+Chae-A locus		subclass	grivet MHC class I locus	
+Saoe-PS1 locus		subclass	cotton-top tamarin MHC class I locus	
+ELA-2 locus		subclass	horse MHC class I locus	
+ELA-N locus		subclass	horse MHC class I locus	
+Mafa-A locus		subclass	stump-tailed macaque MHC class I locus	
+Paan-AG locus		subclass	olive baboon MHC class I locus	
+Safu-G locus		subclass	brown-mantled tamarin MHC class I locus	
+Hyla-B locus		subclass	lar gibbon MHC class I locus	
+Hyla-A locus		subclass	lar gibbon MHC class I locus	
+Pacy-A locus		subclass	yellow baboon MHC class I locus	
+Atfu-G locus		subclass	black-headed spider monkey MHC class I locus	
+Mafa-F locus		subclass	stump-tailed macaque MHC class I locus	
+Atbe-B locus		subclass	white-fronted spider monkey MHC class I locus	
+Gogo-H locus		subclass	gorilla MHC class I locus	
+Caja-PS2 locus		subclass	marmoset MHC class I locus	
+Chae-G locus		subclass	grivet MHC class I locus	
+ELA-6 locus		subclass	horse MHC class I locus	
+Caja-B6 locus		subclass	marmoset MHC class I locus	
+Safu-PS2 locus		subclass	brown-mantled tamarin MHC class I locus	
 rainbow trout MHC class I locus		subclass	MHC class I locus	rainbow trout
 rainbow trout MHC class II locus		subclass	MHC class II locus	rainbow trout
 atlantic salmon MHC class I locus		subclass	MHC class I locus	atlantic salmon
 atlantic salmon MHC class II locus		subclass	MHC class II locus	atlantic salmon
-Maar-A1 locus		subclass	stump-tailed macaque MHC class I locus	
-Sage-PS1 locus		subclass	Geoffroy's tamarin MHC class I locus	
-Gogo-A locus		subclass	gorilla MHC class I locus	
-Papa-C locus		subclass	bonobo MHC class I locus	
-Safu-G locus		subclass	brown-mantled tamarin MHC class I locus	
-SLA-5 locus		subclass	pig MHC class I locus	
-Gogo-C locus		subclass	gorilla MHC class I locus	
-Atfu-E locus		subclass	black-headed spider monkey MHC class I locus	
-Gogo-OKO locus		subclass	gorilla MHC class I locus	
-Pipi-B locus		subclass	white-faced saki MHC class I locus	
-Saoe-PS1 locus		subclass	cotton-top tamarin MHC class I locus	
-SLA-9 locus		subclass	pig MHC class I locus	
-Paan-AG locus		subclass	olive baboon MHC class I locus	
-SLA-12 locus		subclass	pig MHC class I locus	
-Mamu-I locus		subclass	rhesus macaque MHC class I locus	
-Mafa-I locus		subclass	stump-tailed macaque MHC class I locus	
-Atfu-G locus		subclass	black-headed spider monkey MHC class I locus	
-Chae-B locus		subclass	grivet MHC class I locus	
-Saoe-N3 locus		subclass	cotton-top tamarin MHC class I locus	
-Safu-PS2 locus		subclass	brown-mantled tamarin MHC class I locus	
-DLA-64 locus		subclass	dog MHC class I locus	
-Popy-B locus		subclass	Bornean orangutan MHC class I locus	
-Saoe-N2 locus		subclass	cotton-top tamarin MHC class I locus	
-Chae-G locus		subclass	grivet MHC class I locus	
-SLA-7 locus		subclass	pig MHC class I locus	
-Onmy-DAA locus		subclass	rainbow trout MHC class II locus	
-Paan-B locus		subclass	olive baboon MHC class I locus	
-Caja-B7 locus		subclass	marmoset MHC class I locus	
-Popy-H locus		subclass	Bornean orangutan MHC class I locus	
-Safu-PS1 locus		subclass	brown-mantled tamarin MHC class I locus	
-Papa-H locus		subclass	bonobo MHC class I locus	
-Hyla-B locus		subclass	lar gibbon MHC class I locus	
-Popy-A locus		subclass	Bornean orangutan MHC class I locus	
-Saoe-N1 locus		subclass	cotton-top tamarin MHC class I locus	
-Caja-F locus		subclass	marmoset MHC class I locus	
-Mafa-AG locus		subclass	stump-tailed macaque MHC class I locus	
-Onmy-UBA locus		subclass	rainbow trout MHC class I locus	
-Mafa-E locus		subclass	stump-tailed macaque MHC class I locus	
-Popy-C locus		subclass	Bornean orangutan MHC class I locus	
-Mafa-G locus		subclass	stump-tailed macaque MHC class I locus	
-Saoe-F locus		subclass	cotton-top tamarin MHC class I locus	
-Gogo-F locus		subclass	gorilla MHC class I locus	
-Atbe-B locus		subclass	white-fronted spider monkey MHC class I locus	
-Chae-A locus		subclass	grivet MHC class I locus	
-Sasc-G locus		subclass	common squirrel monkey MHC class I locus	
-SLA-8 locus		subclass	pig MHC class I locus	
-Atfu-B locus		subclass	black-headed spider monkey MHC class I locus	
-Sasa-DAB locus		subclass	atlantic salmon MHC class II locus	
-Cemi-B locus		subclass	blue monkey MHC class I locus	
-Maar-I locus		subclass	stump-tailed macaque MHC class I locus	
-Gogo-H locus		subclass	gorilla MHC class I locus	
-SLA-TAP1 locus		subclass	pig MHC class I locus	
-Atbe-G locus		subclass	white-fronted spider monkey MHC class I locus	
-Saoe-E locus		subclass	cotton-top tamarin MHC class I locus	
-ELA-3 locus		subclass	horse MHC class I locus	
-Caja-B9 locus		subclass	marmoset MHC class I locus	
-ELA-2 locus		subclass	horse MHC class I locus	
-Mamu-G locus		subclass	rhesus macaque MHC class I locus	
-Mafa-A locus		subclass	stump-tailed macaque MHC class I locus	
-Sage-PS2 locus		subclass	Geoffroy's tamarin MHC class I locus	
-SLA-4 locus		subclass	pig MHC class I locus	
-Caja-B5 locus		subclass	marmoset MHC class I locus	
-Samy-PS2 locus		subclass	moustached tamarin MHC class I locus	
-Paan-A locus		subclass	olive baboon MHC class I locus	
-Onmy-DAB locus		subclass	rainbow trout MHC class II locus	
-Sasa-DAA locus		subclass	atlantic salmon MHC class II locus	
-Atbe-E locus		subclass	white-fronted spider monkey MHC class I locus	
-Maar-B locus		subclass	stump-tailed macaque MHC class I locus	
-Pacy-E locus		subclass	yellow baboon MHC class I locus	
-Caja-PS2 locus		subclass	marmoset MHC class I locus	
-Papa-G locus		subclass	bonobo MHC class I locus	
-SLA-TAP2 locus		subclass	pig MHC class I locus	
-Ovar-N locus		subclass	domestic sheep MHC class I locus	
-Cemi-A locus		subclass	blue monkey MHC class I locus	
-Sasa-UBA locus		subclass	atlantic salmon MHC class I locus	
-Pipi-E locus		subclass	white-faced saki MHC class I locus	
-Mafa-B locus		subclass	stump-tailed macaque MHC class I locus	
-Caja-B8 locus		subclass	marmoset MHC class I locus	
-Mamu-F locus		subclass	rhesus macaque MHC class I locus	
-Paha-A locus		subclass	hamadryas baboon MHC class I locus	
-ELA-6 locus		subclass	horse MHC class I locus	
-Popy-AP locus		subclass	Bornean orangutan MHC class I locus	
-Gogo-G locus		subclass	gorilla MHC class I locus	
-Pacy-B locus		subclass	yellow baboon MHC class I locus	
-Papa-B locus		subclass	bonobo MHC class I locus	
-SLA-11 locus		subclass	pig MHC class I locus	
-Paha-B locus		subclass	hamadryas baboon MHC class I locus	
-ELA-N locus		subclass	horse MHC class I locus	
-Mafa-F locus		subclass	stump-tailed macaque MHC class I locus	
-Samy-PS1 locus		subclass	moustached tamarin MHC class I locus	
-Hyla-A locus		subclass	lar gibbon MHC class I locus	
-Caja-B6 locus		subclass	marmoset MHC class I locus	
-ELA-7 locus		subclass	horse MHC class I locus	
-Caja-B4 locus		subclass	marmoset MHC class I locus	
-Pacy-A locus		subclass	yellow baboon MHC class I locus	
-Pipi-G locus		subclass	white-faced saki MHC class I locus	
-ELA-16 locus		subclass	horse MHC class I locus	
-Gogo-E locus		subclass	gorilla MHC class I locus	
-Popy-E locus		subclass	Bornean orangutan MHC class I locus	
-Lero-G locus		subclass	golden lion tamarin MHC class I locus	
-ELA-1 locus		subclass	horse MHC class I locus	
-ELA-4 locus		subclass	horse MHC class I locus	

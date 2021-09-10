@@ -56,6 +56,8 @@ HLA-DRB1*01:01 D57V mutant protein complex	HLA-DRB1*01:01 D57V mutant	HLA-DRB1*0
 HLA-DRB1*01:01 D57V, Y60S mutant protein complex	HLA-DRB1*01:01 D57V, Y60S mutant	HLA-DRB1*0101	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		D57V, Y60S
 HLA-DRB1*01:01 N82A mutant protein complex	HLA-DRB1*01:01 N82A mutant	HLA-DRB1*0101 N82A mutant	partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*01:01 protein complex		N82A
 HLA-DRB1*04:01 Q110N, K139T mutant protein complex	HLA-DRB1*04:01 Q110N, K139T mutant		partial molecule	subclass	mutant human MHC class II protein complex		HLA-DRB1*04:01 protein complex		Q110N, K139T
+SLA-1*04:01 R156A mutant protein complex	SLA-1*04:01 R156A mutant		complete molecule	subclass	mutant pig MHC class I protein complex		SLA-1*04:01 protein complex	R156A	
+SLA-1*13:01 F99Y mutant protein complex	SLA-1*13:01 F99Y mutant		complete molecule	subclass	mutant pig MHC class I protein complex		SLA-1*13:01 protein complex	F99Y	
 human MR1 K43A mutant protein complex	human MR1 K43A mutant	HLA-MR1 K43A mutant|hMR1 K43A mutant	complete molecule	subclass	mutant human non-classical MHC protein complex		human MR1 protein complex	K43A	
 human MR1 R9H mutant protein complex	human MR1 R9H mutant	HLA-MR1 R9H mutant|hMR1 R9H mutant	complete molecule	subclass	mutant human non-classical MHC protein complex		human MR1 protein complex	R9H	
 mouse CD1d Y73H mutant protein complex	mouse CD1d Y73H mutant		complete molecule	subclass	mutant mouse non-classical MHC protein complex		mouse CD1d protein complex	Y73H	
@@ -69,3 +71,4 @@ mutant mouse MHC class I protein complex	mouse		class	equivalent	mutant MHC clas
 mutant mouse MHC class II protein complex	mouse		class	equivalent	mutant MHC class II protein complex	mouse			
 mutant mouse non-classical MHC protein complex	mouse		class	equivalent	mutant non-classical MHC protein complex	mouse			
 mutant non-classical MHC protein complex	non-classical		class	subclass	mutant MHC protein complex				
+mutant pig MHC class I protein complex	pig		class	equivalent	mutant MHC class I protein complex	pig			

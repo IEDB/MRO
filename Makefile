@@ -8,15 +8,20 @@
 #
 # Tasks to edit and release MRO.
 #
-# #### Edit
+# * [Upload mro.xlsx](./src/scripts/sheet.py?action=create)
+# * [Download mro.xlsx](mro.xlsx)
 #
-# 1. [Edit Google Sheet](./src/scripts/cogs.sh)
-# 2. [Validate Tables](validate_tables) (IDs not required for all terms)
-# 3. [Assign New IDs](assign_ids)
-# 4. [Validate Tables](validate_tables_strict) (all terms must have IDs)
-# 5. [Prepare Products](prepare)
+# #### Build Products
+#
+# 1. [Validate Tables](validate_tables) (IDs not required for all terms)
+# 2. [Assign New IDs](assign_ids)
+# 3. [Validate Tables](validate_tables_strict) (all terms must have IDs)
+# 4. [Prepare Products](prepare)
+# 5. View the results:
+#     * [Table Diffs](build/diff.html)
+#     * [Term Table](build/mro.html)
+#     * [Browse Tree](./src/scripts/tree.sh)
 # 6. [Run Tests](test)
-# 7. [View Term Table](build/mro.html) or [Browse Tree](./src/scripts/tree.sh)
 #
 # #### Commit Changes
 #
@@ -27,7 +32,6 @@
 # #### Before you go...
 #
 # [Clean Build Directory](clean)
-# [Destroy Google Sheet](destroy)
 
 
 ### Configuration
@@ -56,7 +60,7 @@ templates = $(foreach i,$(build_files),--template $(i))
 
 ### Set Up
 
-build build/validate:
+build build/validate build/master build/diff:
 	mkdir -p $@
 
 # We use the official development version of ROBOT for most things.
@@ -78,66 +82,37 @@ build/rdftab: | build
 	chmod +x $@
 
 
-### COGS Tasks
-
-ALL_SHEETS := index.tsv iedb/iedb.tsv $(source_files)
-COGS_SHEETS := $(foreach S,$(ALL_SHEETS),.cogs/$(notdir $(S)))
-
-.PHONY: load
-load: $(COGS_SHEETS)
-
-.cogs/index.tsv: index.tsv | .cogs
-	cogs add $< -r 2
-
-.cogs/iedb.tsv: iedb/iedb.tsv | .cogs
-	cogs add $< -r 2
-
-.cogs/%.tsv: ontology/%.tsv | .cogs
-	cogs add $< -r 2
-
-.PHONY: push
-push: | .cogs
-	cogs push
-
-.PHONY: destroy 
-destroy: | .cogs
-	cogs delete -f
-
-
 ### Table Validation
 
 # Validate the contents of the templates
 .PRECIOUS: build/validation_errors.tsv
-build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
 	python3 $< index.tsv iedb/iedb.tsv ontology $@ -a
 
 .PRECIOUS: build/validation_errors_strict.tsv
-build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files)
+build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
 	python3 $< index.tsv iedb/iedb.tsv ontology $@
 
-apply_%: build/validation_%.tsv | .cogs
-	cogs clear all
-	cogs apply $<
+apply_%: build/validation_%.tsv
+	axle clear all
+	axle apply $<
 
 .PHONY: validate_tables
 validate_tables:
-	cogs pull
 	make apply_errors
-	cogs push
+	axle push
 
 .PHONY: validate_tables_strict
 validate_tables_strict:
-	cogs pull
 	make apply_errors_strict
-	cogs push
+	axle push
 
 ### Processing
 
 .PHONY: assign_ids
 assign_ids: src/scripts/assign-ids.py index.tsv iedb/iedb.tsv $(source_files)
-	# cogs fetch && cogs pull
 	python3 $< index.tsv iedb/iedb.tsv ontology
-	cogs push
+	axle push
 
 ### Review
 
@@ -222,24 +197,20 @@ update-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fa
 refresh-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^ -o
 
+# refresh-hla-seqs will overwrite existing HLA seqs with new seqs
+.PHONY: refresh-hla-seqs
+refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta
+	python3 $^ -o -H
+
 build/hla_prot.fasta: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta
 
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
-.PHONY: update-alleles
-update-alleles: src/scripts/alleles/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
-	python3 $^
-
-.PHONY: update-ipd-alleles
-update-ipd-alleles: src/scripts/alleles/update_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
-	python3 $^
-
 .PHONY: update-mhcflurry-alleles
 update-mhcflurry-alleles: src/scripts/alleles/update_alleles_mhcflurry.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
-
 
 ### OWL Files
 
@@ -421,16 +392,43 @@ pytest:
 	py.test src/scripts/tree.py
 	py.test src/scripts/synonyms.py
 
+# Table diffs
+
+DIFF_TABLES := build/diff/index.html build/diff/iedb.html $(foreach S,$(tables),build/diff/$(S).html) build/diff/iedb-manual.html
+
+# Workaround to make sure master branch exists
+build/fetched.txt:
+	git fetch origin master:master && date > $@
+
+build/diff/%.html: ontology/%.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/iedb.html: iedb/iedb.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/iedb-manual.html: iedb/iedb-manual.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff/index.html: index.tsv build/fetched.txt | build/master build/diff
+	git show master:$< > build/master/$(notdir $<)
+	daff build/master/$(notdir $<) $< --output $@ --fragment
+
+build/diff.html: src/scripts/diff.py src/scripts/diff.html $(DIFF_TABLES)
+	python3 $< src/scripts/diff.html $(tables) > $@
+
 
 ### General
 
 # Prepare products for testing & review
 .PHONY: prepare
+prepare: clean
 prepare: build/mro.db
 prepare: update-seqs
 prepare: update-iedb
-prepare:
-	pip install -r requirements.txt
+prepare: build/diff.html
 
 .PHONY: clean
 clean:
