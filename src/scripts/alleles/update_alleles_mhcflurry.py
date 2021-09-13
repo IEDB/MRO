@@ -175,13 +175,14 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
                 mro_gen_chains.add(row["Label"])
 
     # Load MHCFlurry alleles
-    with open("src/scripts/alleles/mhcflurry_alleles.json", "r") as fh:
-        data = json.load(fh)
-    imgt_alleles = set(data)
-    missing_alleles = imgt_alleles.difference(mro_alleles)
+    # with open("src/scripts/alleles/mhcflurry_alleles.json", "r") as fh:
+    #    data = json.load(fh)
+    # imgt_alleles = set(data)
+    missing_alleles = set(allele_map.keys()).difference(mro_alleles)
     new_alleles = {x for x in missing_alleles if x.split("*")[0] in curr_loci}
     new_alleles = {x for x in new_alleles if "HLA" not in x}
-
+    new_alleles = {x for x in new_alleles if "Mafa-A" in x}
+    print(new_alleles)
     new_gen_chains = set()
     missing_chain_seq_rows = set()
     missing_chain_rows = set()
