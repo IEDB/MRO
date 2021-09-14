@@ -174,20 +174,22 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
             if "*" not in row["Label"]:
                 mro_gen_chains.add(row["Label"])
 
-    # Load MHCFlurry alleles
-    # with open("src/scripts/alleles/mhcflurry_alleles.json", "r") as fh:
-    #    data = json.load(fh)
-    # imgt_alleles = set(data)
-    missing_alleles = set(allele_map.keys()).difference(mro_alleles)
+    # Load MHCFlurry alleles\
+    imgt_alleles = set()
+    with open("/home/austin/missing_terms.txt", "r") as infile:
+        for line in infile:
+            imgt_alleles.add(line.rstrip())
+    missing_alleles = set(imgt_alleles).difference(mro_alleles)
     new_alleles = {x for x in missing_alleles if x.split("*")[0] in curr_loci}
     new_alleles = {x for x in new_alleles if "HLA" not in x}
-    new_alleles = {x for x in new_alleles if "Mafa-A" in x}
+
     print(new_alleles)
     new_gen_chains = set()
     missing_chain_seq_rows = set()
     missing_chain_rows = set()
     missing_gen_chain_rows = set()
     failed_alleles = set()
+    new_alleles_true = set()
     for allele in new_alleles:
         gene = allele.split("*")[0]
         if gene + " chain" not in mro_gen_chains:
@@ -196,6 +198,10 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
             )
             new_gen_chains.add(gene)
         try:
+            for ipd_allele in allele_map.keys():
+                if allele in ipd_allele:
+                    allele = ipd_allele
+                    break
             accession = allele_map[allele]
             source = "IPD"
             label = f"{allele} chain"
@@ -207,6 +213,8 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
             class_type = "subclass"
             parent = f"{gene} chain"
             missing_chain_rows.add((label, synonyms, class_type, parent, "", ""))
+            new_alleles_true.add(allele)
+
         except Exception:
             failed_alleles.add(allele)
             print(allele)
@@ -223,7 +231,7 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
         for tup in missing_chain_seq_rows:
             writer.writerow(tup)
 
-    new_alleles = new_alleles.difference(failed_alleles)
+    new_alleles = new_alleles_true.difference(failed_alleles)
 
     return new_alleles, new_gen_chains
 

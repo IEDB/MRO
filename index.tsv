@@ -50421,3 +50421,772 @@ MRO:0050419	Mafa-A1*022:04:01:01 protein complex	owl:Class
 MRO:0050420	Mafa-A1*077:01:02 protein complex	owl:Class
 MRO:0050421	Mafa-A1*078:02 protein complex	owl:Class
 MRO:0050422	Mafa-A5*30:02 protein complex	owl:Class
+MRO:0050423	Gogo-E protein complex	owl:Class
+MRO:0050424	BoLA-3*033:01:01:01N chain	owl:Class
+MRO:0050425	Mamu-I*01:38:02:01 chain	owl:Class
+MRO:0050426	Mafa-B*110:02:01:01 chain	owl:Class
+MRO:0050427	Mafa-I*03:01:01:01N chain	owl:Class
+MRO:0050428	Mafa-B*082:01:01:01 chain	owl:Class
+MRO:0050429	Mafa-B*062:01N chain	owl:Class
+MRO:0050430	Mafa-B*072:05:01:01 chain	owl:Class
+MRO:0050431	Mafa-I*01:69:01:01 chain	owl:Class
+MRO:0050432	Mafa-E*02:06:01:01 chain	owl:Class
+MRO:0050433	Mafa-I*01:55:01:01 chain	owl:Class
+MRO:0050434	Mafa-E*02:04:01:01 chain	owl:Class
+MRO:0050435	Mafa-B*013:12:01:01 chain	owl:Class
+MRO:0050436	Mafa-B*072:10:01 chain	owl:Class
+MRO:0050437	Mafa-I*01:13:01 chain	owl:Class
+MRO:0050438	Mafa-B*046:11:01:01 chain	owl:Class
+MRO:0050439	Mafa-B*124:04:01:01 chain	owl:Class
+MRO:0050440	Mafa-B*007:08:01:01 chain	owl:Class
+MRO:0050441	Mafa-B*051:12:01:01 chain	owl:Class
+MRO:0050442	Mafa-B*072:12:01:01 chain	owl:Class
+MRO:0050443	Popy-B*04:02:01:01 chain	owl:Class
+MRO:0050444	Mamu-I*01:51:01:01 chain	owl:Class
+MRO:0050445	Mafa-B*098:06:01 chain	owl:Class
+MRO:0050446	Mamu-I*01:33:01 chain	owl:Class
+MRO:0050447	Popy-B*05:03:01:01 chain	owl:Class
+MRO:0050448	Mafa-B*155:02:01:01 chain	owl:Class
+MRO:0050449	Mafa-B*046:08:01 chain	owl:Class
+MRO:0050450	Mafa-I*01:10:01:01 chain	owl:Class
+MRO:0050451	Mafa-B*075:01:01:01 chain	owl:Class
+MRO:0050452	Mafa-B*007:06:01 chain	owl:Class
+MRO:0050453	Mafa-B*013:18:01:01 chain	owl:Class
+MRO:0050454	Mafa-B*061:02:01:01 chain	owl:Class
+MRO:0050455	Mafa-B*074:01Sp chain	owl:Class
+MRO:0050456	Mafa-B*109:11:01:01 chain	owl:Class
+MRO:0050457	Mafa-B*137:08:01:01 chain	owl:Class
+MRO:0050458	Papa-C*03:04:01:01 chain	owl:Class
+MRO:0050459	Mafa-B*018:02:01:01 chain	owl:Class
+MRO:0050460	Mafa-B*018:03:01:01 chain	owl:Class
+MRO:0050461	Mafa-B*072:13:01:01 chain	owl:Class
+MRO:0050462	Mamu-I*01:46:01:01 chain	owl:Class
+MRO:0050463	Mafa-B*079:09:01:01 chain	owl:Class
+MRO:0050464	Popy-B*08:02:01:01 chain	owl:Class
+MRO:0050465	Mafa-B*077:02:01:01 chain	owl:Class
+MRO:0050466	Mafa-B*151:02:01 chain	owl:Class
+MRO:0050467	Mamu-I*01:37:01:01 chain	owl:Class
+MRO:0050468	Mafa-B*011:05:01 chain	owl:Class
+MRO:0050469	Mamu-I*01:19:01:01 chain	owl:Class
+MRO:0050470	Mafa-B*073:01:01:01 chain	owl:Class
+MRO:0050471	Mafa-B*013:10:01:01 chain	owl:Class
+MRO:0050472	Mafa-B*069:03:01:01 chain	owl:Class
+MRO:0050473	Mafa-B*161:02:01 chain	owl:Class
+MRO:0050474	Mafa-I*01:12:01 chain	owl:Class
+MRO:0050475	Mafa-B*046:12:01:01 chain	owl:Class
+MRO:0050476	Mafa-B*147:01:01:01 chain	owl:Class
+MRO:0050477	Mafa-B*051:05:01:01 chain	owl:Class
+MRO:0050478	Mamu-I*01:34:01:01 chain	owl:Class
+MRO:0050479	Mafa-B*138:02:01:01 chain	owl:Class
+MRO:0050480	Mafa-I*01:30:01:01 chain	owl:Class
+MRO:0050481	Gogo-A*07:01:01:01 chain	owl:Class
+MRO:0050482	Mafa-B*018:01:02 chain	owl:Class
+MRO:0050483	Mafa-B*046:20:01:01 chain	owl:Class
+MRO:0050484	Mafa-B*144:02:01:01 chain	owl:Class
+MRO:0050485	Mamu-I*01:09:02 chain	owl:Class
+MRO:0050486	Gogo-A*01:01:01 chain	owl:Class
+MRO:0050487	Mafa-B*003:03:01:01 chain	owl:Class
+MRO:0050488	Mafa-B*137:01:01 chain	owl:Class
+MRO:0050489	Paan-B*48:01N chain	owl:Class
+MRO:0050490	Mafa-B*034:03:01:01 chain	owl:Class
+MRO:0050491	Mamu-I*01:05:01:01 chain	owl:Class
+MRO:0050492	Mafa-B*079:03:01:01 chain	owl:Class
+MRO:0050493	Mafa-B*070:04:01:01 chain	owl:Class
+MRO:0050494	Mafa-B*068:04:01:01 chain	owl:Class
+MRO:0050495	Mafa-B*109:02:01:01 chain	owl:Class
+MRO:0050496	Mamu-I*01:48:01:01 chain	owl:Class
+MRO:0050497	Mafa-I*01:59:01:01 chain	owl:Class
+MRO:0050498	Mafa-B*013:06:01:01 chain	owl:Class
+MRO:0050499	Mafa-B*060:12:01:01 chain	owl:Class
+MRO:0050500	Mafa-B*070:06:01:01 chain	owl:Class
+MRO:0050501	Paan-B*12:02:01 chain	owl:Class
+MRO:0050502	Mafa-B*022:01:01 chain	owl:Class
+MRO:0050503	Mafa-B*109:04:01:01 chain	owl:Class
+MRO:0050504	Mafa-I*01:57:01:01 chain	owl:Class
+MRO:0050505	Mafa-B*167:01:01:01N chain	owl:Class
+MRO:0050506	Mafa-B*030:05:01:01 chain	owl:Class
+MRO:0050507	Mafa-B*060:20:01 chain	owl:Class
+MRO:0050508	Mafa-I*01:34:01:01 chain	owl:Class
+MRO:0050509	Mafa-B*017:02:01:01 chain	owl:Class
+MRO:0050510	Mamu-F*02:04:01 chain	owl:Class
+MRO:0050511	Mafa-B*150:01:01:01 chain	owl:Class
+MRO:0050512	Papa-A*06:03:01:01 chain	owl:Class
+MRO:0050513	Mafa-B*007:01:02 chain	owl:Class
+MRO:0050514	Mafa-B*162:03:01:01 chain	owl:Class
+MRO:0050515	Mafa-B*044:03:01 chain	owl:Class
+MRO:0050516	Gogo-E*01:01:01 chain	owl:Class
+MRO:0050517	Mafa-B*098:05:01:01 chain	owl:Class
+MRO:0050518	Mafa-B*081:01:01:01 chain	owl:Class
+MRO:0050519	Gogo-C*01:01:01 chain	owl:Class
+MRO:0050520	Mafa-B*060:04:01:01 chain	owl:Class
+MRO:0050521	Mafa-B*030:17:01:01 chain	owl:Class
+MRO:0050522	Caja-G*07:01:01 chain	owl:Class
+MRO:0050523	Mafa-B*030:15:01:01 chain	owl:Class
+MRO:0050524	Mafa-B*035:03:01:01 chain	owl:Class
+MRO:0050525	Mafa-B*070:01:01:01 chain	owl:Class
+MRO:0050526	Mafa-B*025:02:01:01 chain	owl:Class
+MRO:0050527	Mafa-I*01:06:01 chain	owl:Class
+MRO:0050528	SLA-5*01:01:01 chain	owl:Class
+MRO:0050529	Mafa-B*085:01:01:01 chain	owl:Class
+MRO:0050530	Mafa-B*011:03:01:01 chain	owl:Class
+MRO:0050531	Paan-B*02:02:01 chain	owl:Class
+MRO:0050532	Mafa-B*104:01:01:01 chain	owl:Class
+MRO:0050533	Mafa-B*115:06:01:01 chain	owl:Class
+MRO:0050534	Mafa-B*028:04:01:01 chain	owl:Class
+MRO:0050535	Mafa-B*149:02:01:01 chain	owl:Class
+MRO:0050536	Mafa-B*030:04:01:01 chain	owl:Class
+MRO:0050537	Mafa-B*013:13:01:01 chain	owl:Class
+MRO:0050538	Mamu-I*01:02:01:01 chain	owl:Class
+MRO:0050539	Mafa-B*069:05:01:01 chain	owl:Class
+MRO:0050540	Mafa-B*044:01:01:01 chain	owl:Class
+MRO:0050541	Mafa-B*088:05:01:01 chain	owl:Class
+MRO:0050542	Mafa-B*015:09:01:01 chain	owl:Class
+MRO:0050543	Mafa-B*046:21:01:01 chain	owl:Class
+MRO:0050544	Mafa-B*036:01:01 chain	owl:Class
+MRO:0050545	Mafa-I*01:31:01:01 chain	owl:Class
+MRO:0050546	Mafa-F*02:02:01 chain	owl:Class
+MRO:0050547	Mafa-B*048:06:01:01 chain	owl:Class
+MRO:0050548	Mafa-B*114:01:01 chain	owl:Class
+MRO:0050549	Mafa-B*035:01:01:01 chain	owl:Class
+MRO:0050550	Mafa-B*180:03:01:01 chain	owl:Class
+MRO:0050551	Mafa-B*100:01:01 chain	owl:Class
+MRO:0050552	Popy-B*05:04:01:01 chain	owl:Class
+MRO:0050553	Mafa-B*161:05:01:01 chain	owl:Class
+MRO:0050554	Popy-B*03:05:01:01 chain	owl:Class
+MRO:0050555	Mafa-I*01:26:01 chain	owl:Class
+MRO:0050556	Mafa-B*077:01:01:01 chain	owl:Class
+MRO:0050557	Mafa-B*046:16:01 chain	owl:Class
+MRO:0050558	Mafa-B*070:02:01:01 chain	owl:Class
+MRO:0050559	Mafa-B*180:01:01:01 chain	owl:Class
+MRO:0050560	Mafa-I*01:32:01:01 chain	owl:Class
+MRO:0050561	Mafa-B*149:01:01:01 chain	owl:Class
+MRO:0050562	Gogo-B*01:04:01:01 chain	owl:Class
+MRO:0050563	Gogo-A*05:02:01:01N chain	owl:Class
+MRO:0050564	Mafa-I*01:35:01 chain	owl:Class
+MRO:0050565	Mafa-B*072:09:01:01 chain	owl:Class
+MRO:0050566	Caja-G*11:01:01 chain	owl:Class
+MRO:0050567	Mafa-B*180:02:01:01 chain	owl:Class
+MRO:0050568	Mafa-B*154:01:01 chain	owl:Class
+MRO:0050569	Mafa-B*001:02:01:01 chain	owl:Class
+MRO:0050570	Paan-B*02:06:01 chain	owl:Class
+MRO:0050571	Mafa-I*01:33:01:01 chain	owl:Class
+MRO:0050572	Mafa-B*134:03:01:01 chain	owl:Class
+MRO:0050573	Mafa-B*014:01:01:01 chain	owl:Class
+MRO:0050574	Mafa-B*109:10:01:01 chain	owl:Class
+MRO:0050575	Mafa-B*057:03:01:01 chain	owl:Class
+MRO:0050576	Mafa-F*02:06:01 chain	owl:Class
+MRO:0050577	Mafa-B*074:02:01:01 chain	owl:Class
+MRO:0050578	Caja-G*10:03:01 chain	owl:Class
+MRO:0050579	Mafa-B*046:10:01:01 chain	owl:Class
+MRO:0050580	Mafa-B*114:05:01:01 chain	owl:Class
+MRO:0050581	Mafa-B*039:02:01:01 chain	owl:Class
+MRO:0050582	Mafa-B*054:01:01 chain	owl:Class
+MRO:0050583	Mafa-B*074:06:01:01 chain	owl:Class
+MRO:0050584	Mafa-B*060:19:01:01 chain	owl:Class
+MRO:0050585	Mafa-I*01:60:01:01 chain	owl:Class
+MRO:0050586	Mafa-B*093:02:01:01 chain	owl:Class
+MRO:0050587	Popy-B*14:01:01:01 chain	owl:Class
+MRO:0050588	Caja-G*18:03:01 chain	owl:Class
+MRO:0050589	Paan-B*04:01:01 chain	owl:Class
+MRO:0050590	Mafa-B*030:02:01:01 chain	owl:Class
+MRO:0050591	Papa-C*03:03:01:01 chain	owl:Class
+MRO:0050592	Mafa-B*007:05:01:01 chain	owl:Class
+MRO:0050593	Paan-B*11:02:01 chain	owl:Class
+MRO:0050594	Mafa-I*01:01:01 chain	owl:Class
+MRO:0050595	Mafa-B*098:17:01:01 chain	owl:Class
+MRO:0050596	Mafa-B*064:01:01:01 chain	owl:Class
+MRO:0050597	Mafa-B*079:04:01 chain	owl:Class
+MRO:0050598	Mafa-B*068:02:01:01 chain	owl:Class
+MRO:0050599	Mafa-B*045:07:01:01 chain	owl:Class
+MRO:0050600	Mafa-E*02:01:01 chain	owl:Class
+MRO:0050601	Mamu-I*01:30:01:01 chain	owl:Class
+MRO:0050602	Mafa-B*050:11:01:01 chain	owl:Class
+MRO:0050603	Mafa-B*088:04:01:01 chain	owl:Class
+MRO:0050604	Mafa-B*162:01:01:01 chain	owl:Class
+MRO:0050605	Mafa-B*004:03:01 chain	owl:Class
+MRO:0050606	Mafa-I*01:29:01:01 chain	owl:Class
+MRO:0050607	Mafa-B*098:04:01:01 chain	owl:Class
+MRO:0050608	Mafa-B*037:01:01:01 chain	owl:Class
+MRO:0050609	Mafa-B*030:01:01:01 chain	owl:Class
+MRO:0050610	Gogo-A*04:01:01:01 chain	owl:Class
+MRO:0050611	Mafa-B*060:01:01:01 chain	owl:Class
+MRO:0050612	Mafa-B*103:01:01:01 chain	owl:Class
+MRO:0050613	Mafa-B*092:04:01:01 chain	owl:Class
+MRO:0050614	Mafa-B*056:02:01 chain	owl:Class
+MRO:0050615	Mafa-B*137:03:01:01 chain	owl:Class
+MRO:0050616	Mafa-B*134:05:01:01 chain	owl:Class
+MRO:0050617	Mafa-B*065:04:01:01 chain	owl:Class
+MRO:0050618	Mafa-B*060:13:01:01 chain	owl:Class
+MRO:0050619	Mafa-B*115:05:01:01 chain	owl:Class
+MRO:0050620	Mafa-B*095:01:01:01 chain	owl:Class
+MRO:0050621	Mafa-B*079:02:01:01 chain	owl:Class
+MRO:0050622	Mafa-I*01:15:01 chain	owl:Class
+MRO:0050623	Mafa-B*074:04:01:01 chain	owl:Class
+MRO:0050624	Mafa-B*051:22:01:01 chain	owl:Class
+MRO:0050625	Mafa-I*01:37:01 chain	owl:Class
+MRO:0050626	Mafa-B*065:02:01:01 chain	owl:Class
+MRO:0050627	Mafa-B*101:01:01 chain	owl:Class
+MRO:0050628	Mafa-B*060:24:01:01 chain	owl:Class
+MRO:0050629	Mafa-B*056:05:01:01 chain	owl:Class
+MRO:0050630	Mafa-B*066:01:01:01 chain	owl:Class
+MRO:0050631	Mafa-B*050:12:01:01 chain	owl:Class
+MRO:0050632	Papa-C*06:01:01:02 chain	owl:Class
+MRO:0050633	Mafa-B*060:18:01:01 chain	owl:Class
+MRO:0050634	Mafa-B*027:02:01:01 chain	owl:Class
+MRO:0050635	Mafa-B*060:09:01 chain	owl:Class
+MRO:0050636	Mafa-B*112:01:01:01 chain	owl:Class
+MRO:0050637	Paan-A*14:01:01 chain	owl:Class
+MRO:0050638	Mamu-F*02:03:01 chain	owl:Class
+MRO:0050639	Mamu-I*01:26:02 chain	owl:Class
+MRO:0050640	Paan-AG*01:01:01 chain	owl:Class
+MRO:0050641	Mafa-B*184:01:01:01 chain	owl:Class
+MRO:0050642	Mafa-B*051:08:01:01 chain	owl:Class
+MRO:0050643	Mafa-B*098:08:01:01 chain	owl:Class
+MRO:0050644	Mafa-F*02:04:01 chain	owl:Class
+MRO:0050645	Mafa-I*01:09:01:01 chain	owl:Class
+MRO:0050646	Mafa-B*060:05:01:01 chain	owl:Class
+MRO:0050647	Mafa-B*098:16:01 chain	owl:Class
+MRO:0050648	Papa-A*03:03:01:02 chain	owl:Class
+MRO:0050649	Mafa-B*051:19:01:01 chain	owl:Class
+MRO:0050650	Mafa-B*057:05:01 chain	owl:Class
+MRO:0050651	Mafa-B*041:01:01 chain	owl:Class
+MRO:0050652	Mafa-B*148:01:01 chain	owl:Class
+MRO:0050653	Mafa-B*098:01:01:01 chain	owl:Class
+MRO:0050654	Mafa-B*048:02:01 chain	owl:Class
+MRO:0050655	Mamu-I*01:49:01 chain	owl:Class
+MRO:0050656	Mafa-B*075:02:01 chain	owl:Class
+MRO:0050657	Mafa-B*050:05:01:01 chain	owl:Class
+MRO:0050658	Mafa-B*108:02:01:01 chain	owl:Class
+MRO:0050659	Mafa-B*045:03:01:01 chain	owl:Class
+MRO:0050660	Mafa-B*043:01:01:01 chain	owl:Class
+MRO:0050661	Mafa-B*015:03:01:01 chain	owl:Class
+MRO:0050662	Mafa-B*046:04:01:01 chain	owl:Class
+MRO:0050663	Caja-G*08:03:01 chain	owl:Class
+MRO:0050664	Mafa-B*061:04:01:01 chain	owl:Class
+MRO:0050665	Mafa-B*051:06:01 chain	owl:Class
+MRO:0050666	Mafa-I*01:23:01 chain	owl:Class
+MRO:0050667	Mafa-B*041:02:01:01 chain	owl:Class
+MRO:0050668	Mafa-B*056:04:01:01 chain	owl:Class
+MRO:0050669	Mafa-B*030:11:01:01 chain	owl:Class
+MRO:0050670	Mafa-B*102:02:01:01 chain	owl:Class
+MRO:0050671	Mafa-B*105:01:01:01 chain	owl:Class
+MRO:0050672	Mafa-B*013:11:01:01 chain	owl:Class
+MRO:0050673	Popy-C*01:01:01 chain	owl:Class
+MRO:0050674	Mafa-B*064:06:01:01 chain	owl:Class
+MRO:0050675	Mafa-B*060:23:01:01 chain	owl:Class
+MRO:0050676	Mafa-B*057:02:01:01 chain	owl:Class
+MRO:0050677	Mafa-B*011:01:01:01 chain	owl:Class
+MRO:0050678	Mafa-B*048:07:01:01 chain	owl:Class
+MRO:0050679	Mafa-B*101:02:01:01 chain	owl:Class
+MRO:0050680	Mafa-B*046:02:01 chain	owl:Class
+MRO:0050681	Popy-B*03:04:01:01 chain	owl:Class
+MRO:0050682	Mafa-B*145:01:01:01 chain	owl:Class
+MRO:0050683	Mafa-B*069:01:01:01 chain	owl:Class
+MRO:0050684	Mafa-B*162:02:01 chain	owl:Class
+MRO:0050685	Mafa-B*030:07:01 chain	owl:Class
+MRO:0050686	Mafa-I*01:63:01:01 chain	owl:Class
+MRO:0050687	Caja-G*18:04:01 chain	owl:Class
+MRO:0050688	Mafa-B*112:02:01:01 chain	owl:Class
+MRO:0050689	Mafa-I*01:47:01:01 chain	owl:Class
+MRO:0050690	Mafa-B*046:01:02 chain	owl:Class
+MRO:0050691	Mamu-I*01:18:01:01 chain	owl:Class
+MRO:0050692	Popy-B*10:01:01:01 chain	owl:Class
+MRO:0050693	Mafa-B*001:01:01:01 chain	owl:Class
+MRO:0050694	Mafa-B*083:02:01:01 chain	owl:Class
+MRO:0050695	Mafa-B*079:06:01:01 chain	owl:Class
+MRO:0050696	Mafa-B*061:03:01:01 chain	owl:Class
+MRO:0050697	Mafa-B*038:01:01:01 chain	owl:Class
+MRO:0050698	Mafa-B*098:12:01:01 chain	owl:Class
+MRO:0050699	Mafa-B*046:09:01:01 chain	owl:Class
+MRO:0050700	Mafa-I*01:14:01 chain	owl:Class
+MRO:0050701	Mamu-I*01:50:01:01 chain	owl:Class
+MRO:0050702	Mafa-I*01:19:01:01 chain	owl:Class
+MRO:0050703	Mafa-B*050:02:01 chain	owl:Class
+MRO:0050704	Mafa-B*117:02:01 chain	owl:Class
+MRO:0050705	Mafa-B*051:21:01:01 chain	owl:Class
+MRO:0050706	Mafa-B*144:01:01:01 chain	owl:Class
+MRO:0050707	Mafa-B*075:04:01:01 chain	owl:Class
+MRO:0050708	Mafa-B*032:03:01:01 chain	owl:Class
+MRO:0050709	Mafa-B*092:02:01:01 chain	owl:Class
+MRO:0050710	Mafa-B*005:01:01:01N chain	owl:Class
+MRO:0050711	Mafa-B*051:10:01:01 chain	owl:Class
+MRO:0050712	Mafa-B*081:05:01 chain	owl:Class
+MRO:0050713	Mafa-B*140:01:01 chain	owl:Class
+MRO:0050714	Mafa-B*124:05:01:01N chain	owl:Class
+MRO:0050715	Mafa-B*051:03:01:01 chain	owl:Class
+MRO:0050716	Popy-B*03:06:01:01 chain	owl:Class
+MRO:0050717	Papa-C*03:01:01:01 chain	owl:Class
+MRO:0050718	Mafa-I*01:11:01:01 chain	owl:Class
+MRO:0050719	Mafa-B*034:04:01:01 chain	owl:Class
+MRO:0050720	Mafa-B*089:01:02:01 chain	owl:Class
+MRO:0050721	Mamu-I*01:45:01:01 chain	owl:Class
+MRO:0050722	Paha-B*30:01:01 chain	owl:Class
+MRO:0050723	Mafa-B*013:03:01:01 chain	owl:Class
+MRO:0050724	Mafa-B*139:02:01:01 chain	owl:Class
+MRO:0050725	Mafa-B*050:01:01 chain	owl:Class
+MRO:0050726	Gogo-C*02:04:01:01 chain	owl:Class
+MRO:0050727	Mafa-B*079:01:01:01 chain	owl:Class
+MRO:0050728	Mafa-B*044:06:01:01 chain	owl:Class
+MRO:0050729	Mafa-B*042:01:01:01 chain	owl:Class
+MRO:0050730	Mamu-I*01:06:01 chain	owl:Class
+MRO:0050731	Mafa-B*030:12:01:01 chain	owl:Class
+MRO:0050732	Mafa-B*146:01:01 chain	owl:Class
+MRO:0050733	Mamu-I*01:47:01:01 chain	owl:Class
+MRO:0050734	Mafa-B*050:04:01:01 chain	owl:Class
+MRO:0050735	Mafa-I*01:18:01:01 chain	owl:Class
+MRO:0050736	Mafa-B*088:01:01:01 chain	owl:Class
+MRO:0050737	Mamu-I*01:20:01:01 chain	owl:Class
+MRO:0050738	Mafa-B*039:01:01:01 chain	owl:Class
+MRO:0050739	Mafa-B*081:03:01:01 chain	owl:Class
+MRO:0050740	Mafa-B*030:18:01:01 chain	owl:Class
+MRO:0050741	Mafa-I*01:43:01 chain	owl:Class
+MRO:0050742	Mafa-B*056:01:01:01 chain	owl:Class
+MRO:0050743	Mafa-I*01:67:01:01 chain	owl:Class
+MRO:0050744	Mafa-B*201:01:01:01 chain	owl:Class
+MRO:0050745	Gogo-A*05:03:01:01N chain	owl:Class
+MRO:0050746	Mafa-B*004:04:01:01 chain	owl:Class
+MRO:0050747	Mafa-I*01:56:01:01 chain	owl:Class
+MRO:0050748	Mafa-B*060:03:01 chain	owl:Class
+MRO:0050749	Mafa-B*068:12:01:01 chain	owl:Class
+MRO:0050750	Mafa-B*115:07:01 chain	owl:Class
+MRO:0050751	DLA-88*039:01:01 chain	owl:Class
+MRO:0050752	Mafa-B*115:04:01 chain	owl:Class
+MRO:0050753	Mafa-B*007:07:01:01 chain	owl:Class
+MRO:0050754	Mafa-B*028:03:01:01 chain	owl:Class
+MRO:0050755	Mafa-B*006:01:01:01 chain	owl:Class
+MRO:0050756	Mafa-B*013:09:01:01 chain	owl:Class
+MRO:0050757	Popy-B*03:03:01:01 chain	owl:Class
+MRO:0050758	Mafa-B*090:01:01:01 chain	owl:Class
+MRO:0050759	Mafa-B*019:03:01:01 chain	owl:Class
+MRO:0050760	Mafa-I*01:38:01 chain	owl:Class
+MRO:0050761	Mamu-I*01:16:01:01 chain	owl:Class
+MRO:0050762	Mafa-B*060:31:01:01 chain	owl:Class
+MRO:0050763	Mafa-B*134:02:01:01 chain	owl:Class
+MRO:0050764	Caja-G*16:02:01 chain	owl:Class
+MRO:0050765	Gogo-C*03:01:01:01 chain	owl:Class
+MRO:0050766	Mafa-B*115:02:01:01 chain	owl:Class
+MRO:0050767	Mafa-E*02:03:01 chain	owl:Class
+MRO:0050768	Mafa-B*109:06:01:01 chain	owl:Class
+MRO:0050769	Mafa-B*032:02:01:01 chain	owl:Class
+MRO:0050770	Mafa-B*131:02:01:01 chain	owl:Class
+MRO:0050771	Mafa-F*02:03:01 chain	owl:Class
+MRO:0050772	Mamu-I*01:01:02:01 chain	owl:Class
+MRO:0050773	Paan-B*30:01:02 chain	owl:Class
+MRO:0050774	Mafa-B*134:04:01:01 chain	owl:Class
+MRO:0050775	Mafa-B*030:20:01 chain	owl:Class
+MRO:0050776	Mafa-B*067:01:01:01 chain	owl:Class
+MRO:0050777	Mafa-B*124:03:01:01 chain	owl:Class
+MRO:0050778	Paan-B*10:01:01 chain	owl:Class
+MRO:0050779	Mafa-B*156:01:01:01 chain	owl:Class
+MRO:0050780	Mafa-B*110:01:01:01 chain	owl:Class
+MRO:0050781	Mafa-B*030:03:01:01 chain	owl:Class
+MRO:0050782	Mafa-B*028:02:01:01 chain	owl:Class
+MRO:0050783	BoLA-2*032:01N chain	owl:Class
+MRO:0050784	Mafa-B*023:03:01:01 chain	owl:Class
+MRO:0050785	Mafa-B*137:06:01:01 chain	owl:Class
+MRO:0050786	Mafa-B*095:03:01:01 chain	owl:Class
+MRO:0050787	Mafa-B*082:03:01:01 chain	owl:Class
+MRO:0050788	Mafa-B*124:01:01 chain	owl:Class
+MRO:0050789	Mafa-B*161:01:01:01 chain	owl:Class
+MRO:0050790	Gogo-B*04:01:01:01 chain	owl:Class
+MRO:0050791	Mafa-B*068:07:01:01 chain	owl:Class
+MRO:0050792	Mafa-B*098:03:01 chain	owl:Class
+MRO:0050793	Mafa-B*002:04:01:01 chain	owl:Class
+MRO:0050794	Mafa-B*051:04:01:01 chain	owl:Class
+MRO:0050795	Mafa-B*045:01:01:01 chain	owl:Class
+MRO:0050796	Mamu-I*01:08:01:01 chain	owl:Class
+MRO:0050797	Mafa-G*02:05:01:01 chain	owl:Class
+MRO:0050798	Mafa-B*068:06:01:01 chain	owl:Class
+MRO:0050799	Caja-G*12:03:02 chain	owl:Class
+MRO:0050800	Mafa-B*205:01:01:01 chain	owl:Class
+MRO:0050801	Mamu-I*01:52:01:01 chain	owl:Class
+MRO:0050802	Mafa-B*033:01:01:01 chain	owl:Class
+MRO:0050803	Mafa-I*01:49:01:01 chain	owl:Class
+MRO:0050804	Mafa-B*027:03:01:01 chain	owl:Class
+MRO:0050805	Papa-B*07:01:01 chain	owl:Class
+MRO:0050806	Caja-E*03:01:01 chain	owl:Class
+MRO:0050807	Mafa-B*050:10:01 chain	owl:Class
+MRO:0050808	Mafa-B*030:12:01:01 protein complex	owl:Class
+MRO:0050809	Mafa-B*098:08:01:01 protein complex	owl:Class
+MRO:0050810	Papa-A*03:03:01:02 protein complex	owl:Class
+MRO:0050811	Gogo-A*04:01:01:01 protein complex	owl:Class
+MRO:0050812	Mafa-B*050:12:01:01 protein complex	owl:Class
+MRO:0050813	Mafa-I*01:49:01:01 protein complex	owl:Class
+MRO:0050814	Popy-B*03:05:01:01 protein complex	owl:Class
+MRO:0050815	Mafa-B*093:02:01:01 protein complex	owl:Class
+MRO:0050816	Mafa-B*023:03:01:01 protein complex	owl:Class
+MRO:0050817	Mafa-B*045:01:01:01 protein complex	owl:Class
+MRO:0050818	Mafa-B*161:05:01:01 protein complex	owl:Class
+MRO:0050819	Paan-B*02:02:01 protein complex	owl:Class
+MRO:0050820	Mafa-B*115:06:01:01 protein complex	owl:Class
+MRO:0050821	Mafa-B*018:02:01:01 protein complex	owl:Class
+MRO:0050822	Mafa-B*098:06:01 protein complex	owl:Class
+MRO:0050823	Mafa-B*060:31:01:01 protein complex	owl:Class
+MRO:0050824	Mafa-B*088:04:01:01 protein complex	owl:Class
+MRO:0050825	Mafa-B*051:10:01:01 protein complex	owl:Class
+MRO:0050826	Mafa-B*082:01:01:01 protein complex	owl:Class
+MRO:0050827	Mafa-B*003:03:01:01 protein complex	owl:Class
+MRO:0050828	Mamu-I*01:37:01:01 protein complex	owl:Class
+MRO:0050829	Mafa-B*105:01:01:01 protein complex	owl:Class
+MRO:0050830	Mamu-F*02:04:01 protein complex	owl:Class
+MRO:0050831	Mafa-B*104:01:01:01 protein complex	owl:Class
+MRO:0050832	Mafa-B*083:02:01:01 protein complex	owl:Class
+MRO:0050833	Mafa-B*115:07:01 protein complex	owl:Class
+MRO:0050834	Mafa-B*051:03:01:01 protein complex	owl:Class
+MRO:0050835	Mafa-B*007:07:01:01 protein complex	owl:Class
+MRO:0050836	Mafa-B*109:04:01:01 protein complex	owl:Class
+MRO:0050837	Paan-B*12:02:01 protein complex	owl:Class
+MRO:0050838	Mafa-B*098:01:01:01 protein complex	owl:Class
+MRO:0050839	Mafa-I*01:11:01:01 protein complex	owl:Class
+MRO:0050840	Caja-G*08:03:01 protein complex	owl:Class
+MRO:0050841	Mafa-B*045:03:01:01 protein complex	owl:Class
+MRO:0050842	Mafa-I*01:18:01:01 protein complex	owl:Class
+MRO:0050843	Mamu-I*01:18:01:01 protein complex	owl:Class
+MRO:0050844	Mafa-B*117:02:01 protein complex	owl:Class
+MRO:0050845	Mafa-I*01:60:01:01 protein complex	owl:Class
+MRO:0050846	Mafa-B*060:12:01:01 protein complex	owl:Class
+MRO:0050847	Mafa-B*079:09:01:01 protein complex	owl:Class
+MRO:0050848	Mafa-B*051:22:01:01 protein complex	owl:Class
+MRO:0050849	Mafa-B*050:04:01:01 protein complex	owl:Class
+MRO:0050850	Caja-E*03:01:01 protein complex	owl:Class
+MRO:0050851	Gogo-A*01:01:01 protein complex	owl:Class
+MRO:0050852	Mafa-B*002:04:01:01 protein complex	owl:Class
+MRO:0050853	Mafa-B*022:01:01 protein complex	owl:Class
+MRO:0050854	Caja-G*16:02:01 protein complex	owl:Class
+MRO:0050855	Mafa-B*079:02:01:01 protein complex	owl:Class
+MRO:0050856	Mafa-F*02:06:01 protein complex	owl:Class
+MRO:0050857	Mafa-B*050:11:01:01 protein complex	owl:Class
+MRO:0050858	Mafa-I*01:31:01:01 protein complex	owl:Class
+MRO:0050859	Mafa-B*088:05:01:01 protein complex	owl:Class
+MRO:0050860	Mafa-B*037:01:01:01 protein complex	owl:Class
+MRO:0050861	Mafa-B*046:01:02 protein complex	owl:Class
+MRO:0050862	Mafa-B*060:01:01:01 protein complex	owl:Class
+MRO:0050863	Mafa-B*098:03:01 protein complex	owl:Class
+MRO:0050864	Mafa-B*124:04:01:01 protein complex	owl:Class
+MRO:0050865	Gogo-E*01:01:01 protein complex	owl:Class
+MRO:0050866	Mafa-B*046:08:01 protein complex	owl:Class
+MRO:0050867	Mafa-I*01:59:01:01 protein complex	owl:Class
+MRO:0050868	Mafa-B*004:04:01:01 protein complex	owl:Class
+MRO:0050869	Mafa-I*01:67:01:01 protein complex	owl:Class
+MRO:0050870	Papa-C*03:03:01:01 protein complex	owl:Class
+MRO:0050871	Mafa-B*051:21:01:01 protein complex	owl:Class
+MRO:0050872	Mafa-B*018:01:02 protein complex	owl:Class
+MRO:0050873	Mafa-B*162:02:01 protein complex	owl:Class
+MRO:0050874	Mafa-B*108:02:01:01 protein complex	owl:Class
+MRO:0050875	Mafa-B*019:03:01:01 protein complex	owl:Class
+MRO:0050876	Mafa-B*042:01:01:01 protein complex	owl:Class
+MRO:0050877	Mafa-B*146:01:01 protein complex	owl:Class
+MRO:0050878	Mafa-B*112:02:01:01 protein complex	owl:Class
+MRO:0050879	Paan-B*02:06:01 protein complex	owl:Class
+MRO:0050880	Mafa-B*110:01:01:01 protein complex	owl:Class
+MRO:0050881	Mafa-B*015:09:01:01 protein complex	owl:Class
+MRO:0050882	Mafa-B*151:02:01 protein complex	owl:Class
+MRO:0050883	Mafa-B*072:12:01:01 protein complex	owl:Class
+MRO:0050884	Gogo-A*07:01:01:01 protein complex	owl:Class
+MRO:0050885	Mafa-B*046:09:01:01 protein complex	owl:Class
+MRO:0050886	Mafa-B*140:01:01 protein complex	owl:Class
+MRO:0050887	Paan-B*10:01:01 protein complex	owl:Class
+MRO:0050888	Mafa-B*060:19:01:01 protein complex	owl:Class
+MRO:0050889	Mafa-B*162:03:01:01 protein complex	owl:Class
+MRO:0050890	Mafa-B*167:01:01:01N protein complex	owl:Class
+MRO:0050891	Mafa-B*018:03:01:01 protein complex	owl:Class
+MRO:0050892	Mafa-B*060:04:01:01 protein complex	owl:Class
+MRO:0050893	Mafa-B*048:07:01:01 protein complex	owl:Class
+MRO:0050894	Mafa-I*01:12:01 protein complex	owl:Class
+MRO:0050895	Gogo-A*05:02:01:01N protein complex	owl:Class
+MRO:0050896	Mafa-B*079:03:01:01 protein complex	owl:Class
+MRO:0050897	Mafa-I*01:37:01 protein complex	owl:Class
+MRO:0050898	Mafa-B*050:02:01 protein complex	owl:Class
+MRO:0050899	Caja-G*07:01:01 protein complex	owl:Class
+MRO:0050900	Mafa-B*145:01:01:01 protein complex	owl:Class
+MRO:0050901	Mafa-B*045:07:01:01 protein complex	owl:Class
+MRO:0050902	Mafa-B*137:06:01:01 protein complex	owl:Class
+MRO:0050903	Mafa-I*01:34:01:01 protein complex	owl:Class
+MRO:0050904	Mafa-F*02:02:01 protein complex	owl:Class
+MRO:0050905	Mafa-B*035:01:01:01 protein complex	owl:Class
+MRO:0050906	Mamu-I*01:38:02:01 protein complex	owl:Class
+MRO:0050907	Mafa-B*124:03:01:01 protein complex	owl:Class
+MRO:0050908	Mafa-B*074:06:01:01 protein complex	owl:Class
+MRO:0050909	Popy-B*03:04:01:01 protein complex	owl:Class
+MRO:0050910	Mafa-B*039:02:01:01 protein complex	owl:Class
+MRO:0050911	Caja-G*18:03:01 protein complex	owl:Class
+MRO:0050912	Mafa-B*030:04:01:01 protein complex	owl:Class
+MRO:0050913	Mafa-B*131:02:01:01 protein complex	owl:Class
+MRO:0050914	Mafa-I*01:33:01:01 protein complex	owl:Class
+MRO:0050915	Mafa-B*102:02:01:01 protein complex	owl:Class
+MRO:0050916	Mafa-I*01:56:01:01 protein complex	owl:Class
+MRO:0050917	Mafa-B*056:04:01:01 protein complex	owl:Class
+MRO:0050918	Mafa-B*046:20:01:01 protein complex	owl:Class
+MRO:0050919	Gogo-B*01:04:01:01 protein complex	owl:Class
+MRO:0050920	Mafa-I*01:29:01:01 protein complex	owl:Class
+MRO:0050921	Mafa-B*201:01:01:01 protein complex	owl:Class
+MRO:0050922	Mafa-B*044:03:01 protein complex	owl:Class
+MRO:0050923	Mafa-B*161:02:01 protein complex	owl:Class
+MRO:0050924	Mafa-B*011:03:01:01 protein complex	owl:Class
+MRO:0050925	Mafa-B*035:03:01:01 protein complex	owl:Class
+MRO:0050926	DLA-88*039:01:01 protein complex	owl:Class
+MRO:0050927	Mafa-B*110:02:01:01 protein complex	owl:Class
+MRO:0050928	Mamu-I*01:09:02 protein complex	owl:Class
+MRO:0050929	Mafa-B*030:05:01:01 protein complex	owl:Class
+MRO:0050930	Mafa-I*01:13:01 protein complex	owl:Class
+MRO:0050931	Mafa-B*184:01:01:01 protein complex	owl:Class
+MRO:0050932	Mafa-I*01:30:01:01 protein complex	owl:Class
+MRO:0050933	Mafa-B*072:05:01:01 protein complex	owl:Class
+MRO:0050934	Mafa-I*01:26:01 protein complex	owl:Class
+MRO:0050935	Mamu-I*01:47:01:01 protein complex	owl:Class
+MRO:0050936	Mamu-I*01:46:01:01 protein complex	owl:Class
+MRO:0050937	Mafa-B*075:02:01 protein complex	owl:Class
+MRO:0050938	Mafa-B*114:01:01 protein complex	owl:Class
+MRO:0050939	Mafa-I*01:23:01 protein complex	owl:Class
+MRO:0050940	Mafa-I*01:19:01:01 protein complex	owl:Class
+MRO:0050941	Mafa-B*007:05:01:01 protein complex	owl:Class
+MRO:0050942	Mafa-B*061:02:01:01 protein complex	owl:Class
+MRO:0050943	Mafa-G*02:05:01:01 protein complex	owl:Class
+MRO:0050944	Mafa-B*033:01:01:01 protein complex	owl:Class
+MRO:0050945	Mafa-I*01:06:01 protein complex	owl:Class
+MRO:0050946	Mafa-B*079:01:01:01 protein complex	owl:Class
+MRO:0050947	Mafa-B*061:03:01:01 protein complex	owl:Class
+MRO:0050948	Gogo-A*05:03:01:01N protein complex	owl:Class
+MRO:0050949	Mafa-B*095:03:01:01 protein complex	owl:Class
+MRO:0050950	Mafa-B*079:06:01:01 protein complex	owl:Class
+MRO:0050951	Mafa-B*109:06:01:01 protein complex	owl:Class
+MRO:0050952	Mafa-B*077:02:01:01 protein complex	owl:Class
+MRO:0050953	Mafa-B*027:02:01:01 protein complex	owl:Class
+MRO:0050954	Mafa-B*092:02:01:01 protein complex	owl:Class
+MRO:0050955	Mafa-B*103:01:01:01 protein complex	owl:Class
+MRO:0050956	Mafa-B*137:01:01 protein complex	owl:Class
+MRO:0050957	Mafa-B*112:01:01:01 protein complex	owl:Class
+MRO:0050958	Mafa-B*007:01:02 protein complex	owl:Class
+MRO:0050959	Mafa-B*051:12:01:01 protein complex	owl:Class
+MRO:0050960	Mafa-B*124:05:01:01N protein complex	owl:Class
+MRO:0050961	Mafa-B*068:02:01:01 protein complex	owl:Class
+MRO:0050962	Mafa-B*155:02:01:01 protein complex	owl:Class
+MRO:0050963	Mamu-I*01:49:01 protein complex	owl:Class
+MRO:0050964	Caja-G*12:03:02 protein complex	owl:Class
+MRO:0050965	Mafa-B*057:03:01:01 protein complex	owl:Class
+MRO:0050966	Mafa-B*050:05:01:01 protein complex	owl:Class
+MRO:0050967	Mafa-B*070:02:01:01 protein complex	owl:Class
+MRO:0050968	Popy-B*05:04:01:01 protein complex	owl:Class
+MRO:0050969	Gogo-C*03:01:01:01 protein complex	owl:Class
+MRO:0050970	Paan-A*14:01:01 protein complex	owl:Class
+MRO:0050971	Mafa-B*069:03:01:01 protein complex	owl:Class
+MRO:0050972	Mamu-I*01:52:01:01 protein complex	owl:Class
+MRO:0050973	Mafa-B*027:03:01:01 protein complex	owl:Class
+MRO:0050974	Mafa-B*056:01:01:01 protein complex	owl:Class
+MRO:0050975	Mafa-B*013:03:01:01 protein complex	owl:Class
+MRO:0050976	Mafa-B*148:01:01 protein complex	owl:Class
+MRO:0050977	Mafa-B*064:01:01:01 protein complex	owl:Class
+MRO:0050978	Mafa-B*089:01:02:01 protein complex	owl:Class
+MRO:0050979	Mamu-I*01:34:01:01 protein complex	owl:Class
+MRO:0050980	Mamu-I*01:45:01:01 protein complex	owl:Class
+MRO:0050981	Mafa-B*062:01N protein complex	owl:Class
+MRO:0050982	Mafa-I*01:55:01:01 protein complex	owl:Class
+MRO:0050983	Mafa-B*138:02:01:01 protein complex	owl:Class
+MRO:0050984	Mafa-B*005:01:01:01N protein complex	owl:Class
+MRO:0050985	BoLA-2*032:01N protein complex	owl:Class
+MRO:0050986	Mafa-B*095:01:01:01 protein complex	owl:Class
+MRO:0050987	Mafa-B*069:01:01:01 protein complex	owl:Class
+MRO:0050988	Mafa-B*030:17:01:01 protein complex	owl:Class
+MRO:0050989	Mafa-B*046:11:01:01 protein complex	owl:Class
+MRO:0050990	Mafa-B*205:01:01:01 protein complex	owl:Class
+MRO:0050991	Mafa-B*150:01:01:01 protein complex	owl:Class
+MRO:0050992	Mafa-B*001:02:01:01 protein complex	owl:Class
+MRO:0050993	Mafa-B*074:01Sp protein complex	owl:Class
+MRO:0050994	Mafa-B*060:13:01:01 protein complex	owl:Class
+MRO:0050995	Mamu-I*01:05:01:01 protein complex	owl:Class
+MRO:0050996	Mafa-B*046:21:01:01 protein complex	owl:Class
+MRO:0050997	Mafa-B*073:01:01:01 protein complex	owl:Class
+MRO:0050998	Popy-C*01:01:01 protein complex	owl:Class
+MRO:0050999	Mafa-B*028:04:01:01 protein complex	owl:Class
+MRO:0051000	Mafa-B*044:01:01:01 protein complex	owl:Class
+MRO:0051001	Mafa-B*060:05:01:01 protein complex	owl:Class
+MRO:0051002	Mafa-B*007:06:01 protein complex	owl:Class
+MRO:0051003	Mafa-B*079:04:01 protein complex	owl:Class
+MRO:0051004	Mafa-B*085:01:01:01 protein complex	owl:Class
+MRO:0051005	Mafa-B*001:01:01:01 protein complex	owl:Class
+MRO:0051006	Mafa-B*051:08:01:01 protein complex	owl:Class
+MRO:0051007	Mafa-B*017:02:01:01 protein complex	owl:Class
+MRO:0051008	Paan-B*48:01N protein complex	owl:Class
+MRO:0051009	Mafa-B*056:02:01 protein complex	owl:Class
+MRO:0051010	Mafa-B*067:01:01:01 protein complex	owl:Class
+MRO:0051011	Mafa-B*044:06:01:01 protein complex	owl:Class
+MRO:0051012	Mafa-B*075:01:01:01 protein complex	owl:Class
+MRO:0051013	Mamu-I*01:30:01:01 protein complex	owl:Class
+MRO:0051014	Mafa-B*038:01:01:01 protein complex	owl:Class
+MRO:0051015	Mafa-I*01:09:01:01 protein complex	owl:Class
+MRO:0051016	Mafa-B*030:11:01:01 protein complex	owl:Class
+MRO:0051017	Mafa-E*02:04:01:01 protein complex	owl:Class
+MRO:0051018	Mafa-B*013:06:01:01 protein complex	owl:Class
+MRO:0051019	Papa-B*07:01:01 protein complex	owl:Class
+MRO:0051020	Mafa-I*01:10:01:01 protein complex	owl:Class
+MRO:0051021	Mafa-I*01:32:01:01 protein complex	owl:Class
+MRO:0051022	Mamu-I*01:26:02 protein complex	owl:Class
+MRO:0051023	Mafa-B*048:02:01 protein complex	owl:Class
+MRO:0051024	Mamu-I*01:06:01 protein complex	owl:Class
+MRO:0051025	Mafa-B*100:01:01 protein complex	owl:Class
+MRO:0051026	Mamu-I*01:19:01:01 protein complex	owl:Class
+MRO:0051027	Mafa-B*072:09:01:01 protein complex	owl:Class
+MRO:0051028	Mafa-B*070:04:01:01 protein complex	owl:Class
+MRO:0051029	Mafa-B*014:01:01:01 protein complex	owl:Class
+MRO:0051030	Mafa-B*098:12:01:01 protein complex	owl:Class
+MRO:0051031	Popy-B*08:02:01:01 protein complex	owl:Class
+MRO:0051032	Mafa-I*01:43:01 protein complex	owl:Class
+MRO:0051033	Mafa-B*060:24:01:01 protein complex	owl:Class
+MRO:0051034	Mafa-E*02:01:01 protein complex	owl:Class
+MRO:0051035	Mafa-B*134:03:01:01 protein complex	owl:Class
+MRO:0051036	Mafa-B*081:03:01:01 protein complex	owl:Class
+MRO:0051037	Mafa-B*162:01:01:01 protein complex	owl:Class
+MRO:0051038	Mamu-I*01:02:01:01 protein complex	owl:Class
+MRO:0051039	Mafa-I*01:69:01:01 protein complex	owl:Class
+MRO:0051040	Mafa-B*137:03:01:01 protein complex	owl:Class
+MRO:0051041	Mafa-B*109:10:01:01 protein complex	owl:Class
+MRO:0051042	Popy-B*10:01:01:01 protein complex	owl:Class
+MRO:0051043	Mafa-B*011:05:01 protein complex	owl:Class
+MRO:0051044	Mafa-B*046:12:01:01 protein complex	owl:Class
+MRO:0051045	Mafa-B*056:05:01:01 protein complex	owl:Class
+MRO:0051046	Mafa-B*098:17:01:01 protein complex	owl:Class
+MRO:0051047	Mafa-B*070:01:01:01 protein complex	owl:Class
+MRO:0051048	Mafa-B*034:03:01:01 protein complex	owl:Class
+MRO:0051049	Mafa-I*01:38:01 protein complex	owl:Class
+MRO:0051050	Mafa-B*180:02:01:01 protein complex	owl:Class
+MRO:0051051	Mafa-B*115:02:01:01 protein complex	owl:Class
+MRO:0051052	Mafa-B*077:01:01:01 protein complex	owl:Class
+MRO:0051053	Mafa-B*098:16:01 protein complex	owl:Class
+MRO:0051054	Mafa-B*011:01:01:01 protein complex	owl:Class
+MRO:0051055	Mamu-I*01:16:01:01 protein complex	owl:Class
+MRO:0051056	Mafa-B*030:03:01:01 protein complex	owl:Class
+MRO:0051057	Mafa-B*046:02:01 protein complex	owl:Class
+MRO:0051058	Mafa-B*030:15:01:01 protein complex	owl:Class
+MRO:0051059	Caja-G*18:04:01 protein complex	owl:Class
+MRO:0051060	Mafa-B*030:18:01:01 protein complex	owl:Class
+MRO:0051061	Mafa-I*01:01:01 protein complex	owl:Class
+MRO:0051062	Mafa-B*081:05:01 protein complex	owl:Class
+MRO:0051063	Mafa-B*101:01:01 protein complex	owl:Class
+MRO:0051064	Paan-B*11:02:01 protein complex	owl:Class
+MRO:0051065	Mafa-B*028:02:01:01 protein complex	owl:Class
+MRO:0051066	Mafa-B*068:07:01:01 protein complex	owl:Class
+MRO:0051067	Mafa-B*048:06:01:01 protein complex	owl:Class
+MRO:0051068	Mafa-B*064:06:01:01 protein complex	owl:Class
+MRO:0051069	Mafa-B*050:10:01 protein complex	owl:Class
+MRO:0051070	Mafa-B*134:04:01:01 protein complex	owl:Class
+MRO:0051071	Mafa-B*134:02:01:01 protein complex	owl:Class
+MRO:0051072	Mafa-B*070:06:01:01 protein complex	owl:Class
+MRO:0051073	Mafa-B*030:20:01 protein complex	owl:Class
+MRO:0051074	Mafa-B*050:01:01 protein complex	owl:Class
+MRO:0051075	Popy-B*14:01:01:01 protein complex	owl:Class
+MRO:0051076	Mafa-B*028:03:01:01 protein complex	owl:Class
+MRO:0051077	SLA-5*01:01:01 protein complex	owl:Class
+MRO:0051078	Popy-B*04:02:01:01 protein complex	owl:Class
+MRO:0051079	Mafa-B*115:05:01:01 protein complex	owl:Class
+MRO:0051080	Mafa-B*007:08:01:01 protein complex	owl:Class
+MRO:0051081	Papa-C*03:01:01:01 protein complex	owl:Class
+MRO:0051082	Mafa-B*098:05:01:01 protein complex	owl:Class
+MRO:0051083	Mafa-B*134:05:01:01 protein complex	owl:Class
+MRO:0051084	Mafa-B*046:16:01 protein complex	owl:Class
+MRO:0051085	Mafa-B*147:01:01:01 protein complex	owl:Class
+MRO:0051086	Mafa-B*046:04:01:01 protein complex	owl:Class
+MRO:0051087	Mafa-B*180:03:01:01 protein complex	owl:Class
+MRO:0051088	Mafa-B*075:04:01:01 protein complex	owl:Class
+MRO:0051089	Mafa-I*01:14:01 protein complex	owl:Class
+MRO:0051090	BoLA-3*033:01:01:01N protein complex	owl:Class
+MRO:0051091	Mafa-E*02:03:01 protein complex	owl:Class
+MRO:0051092	Mafa-B*051:05:01:01 protein complex	owl:Class
+MRO:0051093	Mamu-I*01:50:01:01 protein complex	owl:Class
+MRO:0051094	Mafa-B*161:01:01:01 protein complex	owl:Class
+MRO:0051095	Mamu-I*01:33:01 protein complex	owl:Class
+MRO:0051096	Mafa-B*144:01:01:01 protein complex	owl:Class
+MRO:0051097	Paan-B*30:01:02 protein complex	owl:Class
+MRO:0051098	Mafa-B*072:13:01:01 protein complex	owl:Class
+MRO:0051099	Mafa-B*060:03:01 protein complex	owl:Class
+MRO:0051100	Mafa-B*030:02:01:01 protein complex	owl:Class
+MRO:0051101	Mafa-B*065:02:01:01 protein complex	owl:Class
+MRO:0051102	Mafa-B*101:02:01:01 protein complex	owl:Class
+MRO:0051103	Paan-B*04:01:01 protein complex	owl:Class
+MRO:0051104	Mafa-B*013:12:01:01 protein complex	owl:Class
+MRO:0051105	Mafa-B*013:09:01:01 protein complex	owl:Class
+MRO:0051106	Mafa-B*041:01:01 protein complex	owl:Class
+MRO:0051107	Mafa-B*041:02:01:01 protein complex	owl:Class
+MRO:0051108	Mafa-B*137:08:01:01 protein complex	owl:Class
+MRO:0051109	Mafa-B*090:01:01:01 protein complex	owl:Class
+MRO:0051110	Mafa-B*068:12:01:01 protein complex	owl:Class
+MRO:0051111	Paan-AG*01:01:01 protein complex	owl:Class
+MRO:0051112	Mafa-B*139:02:01:01 protein complex	owl:Class
+MRO:0051113	Mafa-B*051:06:01 protein complex	owl:Class
+MRO:0051114	Mafa-B*004:03:01 protein complex	owl:Class
+MRO:0051115	Caja-G*10:03:01 protein complex	owl:Class
+MRO:0051116	Gogo-B*04:01:01:01 protein complex	owl:Class
+MRO:0051117	Mafa-F*02:04:01 protein complex	owl:Class
+MRO:0051118	Mafa-I*01:15:01 protein complex	owl:Class
+MRO:0051119	Mafa-B*013:18:01:01 protein complex	owl:Class
+MRO:0051120	Mafa-I*01:57:01:01 protein complex	owl:Class
+MRO:0051121	Mafa-B*074:02:01:01 protein complex	owl:Class
+MRO:0051122	Mafa-B*013:11:01:01 protein complex	owl:Class
+MRO:0051123	Gogo-C*01:01:01 protein complex	owl:Class
+MRO:0051124	Mafa-B*025:02:01:01 protein complex	owl:Class
+MRO:0051125	Papa-C*06:01:01:02 protein complex	owl:Class
+MRO:0051126	Mafa-B*034:04:01:01 protein complex	owl:Class
+MRO:0051127	Mafa-B*057:02:01:01 protein complex	owl:Class
+MRO:0051128	Caja-G*11:01:01 protein complex	owl:Class
+MRO:0051129	Mafa-B*060:18:01:01 protein complex	owl:Class
+MRO:0051130	Mafa-B*180:01:01:01 protein complex	owl:Class
+MRO:0051131	Gogo-C*02:04:01:01 protein complex	owl:Class
+MRO:0051132	Mafa-B*030:01:01:01 protein complex	owl:Class
+MRO:0051133	Mafa-B*154:01:01 protein complex	owl:Class
+MRO:0051134	Mafa-B*043:01:01:01 protein complex	owl:Class
+MRO:0051135	Mafa-E*02:06:01:01 protein complex	owl:Class
+MRO:0051136	Mafa-B*061:04:01:01 protein complex	owl:Class
+MRO:0051137	Mafa-B*013:10:01:01 protein complex	owl:Class
+MRO:0051138	Popy-B*05:03:01:01 protein complex	owl:Class
+MRO:0051139	Mafa-B*032:03:01:01 protein complex	owl:Class
+MRO:0051140	Popy-B*03:06:01:01 protein complex	owl:Class
+MRO:0051141	Mafa-B*074:04:01:01 protein complex	owl:Class
+MRO:0051142	Mafa-I*01:47:01:01 protein complex	owl:Class
+MRO:0051143	Mafa-I*03:01:01:01N protein complex	owl:Class
+MRO:0051144	Mafa-B*068:06:01:01 protein complex	owl:Class
+MRO:0051145	Mafa-F*02:03:01 protein complex	owl:Class
+MRO:0051146	Mafa-B*081:01:01:01 protein complex	owl:Class
+MRO:0051147	Mafa-B*046:10:01:01 protein complex	owl:Class
+MRO:0051148	Mafa-B*109:11:01:01 protein complex	owl:Class
+MRO:0051149	Mafa-B*114:05:01:01 protein complex	owl:Class
+MRO:0051150	Mamu-I*01:08:01:01 protein complex	owl:Class
+MRO:0051151	Mafa-B*030:07:01 protein complex	owl:Class
+MRO:0051152	Paha-B*30:01:01 protein complex	owl:Class
+MRO:0051153	Mafa-I*01:35:01 protein complex	owl:Class
+MRO:0051154	Mafa-B*060:09:01 protein complex	owl:Class
+MRO:0051155	Mafa-B*069:05:01:01 protein complex	owl:Class
+MRO:0051156	Mamu-I*01:01:02:01 protein complex	owl:Class
+MRO:0051157	Mafa-B*088:01:01:01 protein complex	owl:Class
+MRO:0051158	Mafa-B*124:01:01 protein complex	owl:Class
+MRO:0051159	Mafa-B*032:02:01:01 protein complex	owl:Class
+MRO:0051160	Mafa-B*092:04:01:01 protein complex	owl:Class
+MRO:0051161	Mafa-B*072:10:01 protein complex	owl:Class
+MRO:0051162	Mafa-B*051:19:01:01 protein complex	owl:Class
+MRO:0051163	Mafa-B*015:03:01:01 protein complex	owl:Class
+MRO:0051164	Mamu-I*01:51:01:01 protein complex	owl:Class
+MRO:0051165	Mafa-B*156:01:01:01 protein complex	owl:Class
+MRO:0051166	Mafa-B*115:04:01 protein complex	owl:Class
+MRO:0051167	Mafa-B*068:04:01:01 protein complex	owl:Class
+MRO:0051168	Mafa-B*149:01:01:01 protein complex	owl:Class
+MRO:0051169	Popy-B*03:03:01:01 protein complex	owl:Class
+MRO:0051170	Mafa-B*057:05:01 protein complex	owl:Class
+MRO:0051171	Mafa-B*006:01:01:01 protein complex	owl:Class
+MRO:0051172	Mafa-B*144:02:01:01 protein complex	owl:Class
+MRO:0051173	Mamu-I*01:48:01:01 protein complex	owl:Class
+MRO:0051174	Mamu-I*01:20:01:01 protein complex	owl:Class
+MRO:0051175	Mafa-I*01:63:01:01 protein complex	owl:Class
+MRO:0051176	Mafa-B*060:20:01 protein complex	owl:Class
+MRO:0051177	Mafa-B*054:01:01 protein complex	owl:Class
+MRO:0051178	Mafa-B*149:02:01:01 protein complex	owl:Class
+MRO:0051179	Mafa-B*036:01:01 protein complex	owl:Class
+MRO:0051180	Mafa-B*098:04:01:01 protein complex	owl:Class
+MRO:0051181	Mafa-B*066:01:01:01 protein complex	owl:Class
+MRO:0051182	Mamu-F*02:03:01 protein complex	owl:Class
+MRO:0051183	Mafa-B*013:13:01:01 protein complex	owl:Class
+MRO:0051184	Papa-A*06:03:01:01 protein complex	owl:Class
+MRO:0051185	Mafa-B*082:03:01:01 protein complex	owl:Class
+MRO:0051186	Mafa-B*060:23:01:01 protein complex	owl:Class
+MRO:0051187	Mafa-B*109:02:01:01 protein complex	owl:Class
+MRO:0051188	Mafa-B*039:01:01:01 protein complex	owl:Class
+MRO:0051189	Papa-C*03:04:01:01 protein complex	owl:Class
+MRO:0051190	Mafa-B*051:04:01:01 protein complex	owl:Class
+MRO:0051191	Mafa-B*065:04:01:01 protein complex	owl:Class
