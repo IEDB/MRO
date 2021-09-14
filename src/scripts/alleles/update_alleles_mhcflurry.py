@@ -118,6 +118,8 @@ def update_loci(current_loci, metadata):
         # Class I loci
         for classI in species["class_I"]:
             allele = mhc_code + "-" + classI
+            if "Eqca" in allele:
+                allele.replace("Eqca", "ELA")
             if allele not in current_loci:
                 missing_loci.add(allele)
                 mhc_class = "MHC class I"
@@ -132,6 +134,8 @@ def update_loci(current_loci, metadata):
             allele1 = mhc_code + "-" + classII
             allele2 = mhc_code + "-" + species["pairing"][classII]
             if allele1 not in current_loci:
+                if "Eqca" in allele:
+                    allele1.replace("Eqca", "ELA")
                 missing_loci.add(allele1)
                 mhc_class = "MHC class II"
                 label = f"{allele1} locus"
@@ -140,6 +144,8 @@ def update_loci(current_loci, metadata):
                 parent = f"{taxon} {mhc_class} locus"
                 new_loci_rows.add((label, synonyms, class_type, parent, ""))
             if allele2 not in current_loci:
+                if "Eqca" in allele2:
+                    allele.replace("Eqca", "ELA")
                 missing_loci.add(allele2)
                 mhc_class = "MHC class II"
                 label = f"{allele2} locus"
@@ -174,12 +180,8 @@ def update_chains(curr_loci, ipd_seqs, allele_map, metadata, missing_loci):
             if "*" not in row["Label"]:
                 mro_gen_chains.add(row["Label"])
 
-    # Load MHCFlurry alleles\
-    imgt_alleles = set()
-    with open("/home/austin/missing_terms.txt", "r") as infile:
-        for line in infile:
-            imgt_alleles.add(line.rstrip())
-    missing_alleles = set(imgt_alleles).difference(mro_alleles)
+    # Load MHCFlurry alleles
+    missing_alleles = set(ipd_seqs.keys()).difference(mro_alleles)
     new_alleles = {x for x in missing_alleles if x.split("*")[0] in curr_loci}
     new_alleles = {x for x in new_alleles if "HLA" not in x}
 

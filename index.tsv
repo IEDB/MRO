@@ -46436,7 +46436,7 @@ MRO:0046434	SLA-11 chain	owl:Class
 MRO:0046435	Papa-C chain	owl:Class
 MRO:0046436	Sasa-UBA locus	owl:Class
 MRO:0046437	Pipi-E locus	owl:Class
-MRO:0046438	ELA-6 locus	owl:Class
+MRO:0046438	Eqca-6 locus	owl:Class
 MRO:0046439	Mafa-E locus	owl:Class
 MRO:0046440	Mamu-I locus	owl:Class
 MRO:0046441	Popy-C locus	owl:Class
@@ -46462,7 +46462,7 @@ MRO:0046460	Sage-PS2 locus	owl:Class
 MRO:0046461	Papa-H locus	owl:Class
 MRO:0046462	Caja-B8 locus	owl:Class
 MRO:0046463	Atbe-E locus	owl:Class
-MRO:0046464	ELA-2 locus	owl:Class
+MRO:0046464	Eqca-2 locus	owl:Class
 MRO:0046465	Caja-B9 locus	owl:Class
 MRO:0046466	Ovar-N locus	owl:Class
 MRO:0046467	Cemi-A locus	owl:Class
@@ -46471,13 +46471,13 @@ MRO:0046469	Mafa-I locus	owl:Class
 MRO:0046470	Paan-AG locus	owl:Class
 MRO:0046471	Mafa-AG locus	owl:Class
 MRO:0046472	Chae-B locus	owl:Class
-MRO:0046473	ELA-4 locus	owl:Class
+MRO:0046473	Eqca-4 locus	owl:Class
 MRO:0046474	Popy-A locus	owl:Class
 MRO:0046475	Atfu-E locus	owl:Class
 MRO:0046476	Gogo-G locus	owl:Class
 MRO:0046477	Hyla-A locus	owl:Class
 MRO:0046478	Saoe-PS1 locus	owl:Class
-MRO:0046479	ELA-7 locus	owl:Class
+MRO:0046479	Eqca-7 locus	owl:Class
 MRO:0046480	Saoe-N2 locus	owl:Class
 MRO:0046481	Hyla-B locus	owl:Class
 MRO:0046482	Popy-B locus	owl:Class
@@ -46488,7 +46488,7 @@ MRO:0046486	Caja-B6 locus	owl:Class
 MRO:0046487	SLA-8 locus	owl:Class
 MRO:0046488	Caja-B5 locus	owl:Class
 MRO:0046489	Caja-PS2 locus	owl:Class
-MRO:0046490	ELA-3 locus	owl:Class
+MRO:0046490	Eqca-3 locus	owl:Class
 MRO:0046491	Maar-A1 locus	owl:Class
 MRO:0046492	Sasa-DAA locus	owl:Class
 MRO:0046493	Paha-A locus	owl:Class
@@ -51190,3 +51190,6 @@ MRO:0051188	Mafa-B*039:01:01:01 protein complex	owl:Class
 MRO:0051189	Papa-C*03:04:01:01 protein complex	owl:Class
 MRO:0051190	Mafa-B*051:04:01:01 protein complex	owl:Class
 MRO:0051191	Mafa-B*065:04:01:01 protein complex	owl:Class
+MRO:0051192	Eqca-1 locus	owl:Class	
+MRO:0051193	Eqca-16 locus	owl:Class	
+MRO:0051194	Eqca-N locus	owl:Class	

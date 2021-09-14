@@ -974,33 +974,33 @@ De Brazza's monkey MHC class II chain		equivalent	protein	De Brazza's monkey MHC
 ELA-1 chain		equivalent	protein	ELA-1 locus	
 ELA-16 chain		equivalent	protein	ELA-16 locus	
 ELA-N chain		equivalent	protein	ELA-N locus	
-Eqca-1 chain		equivalent	protein	ELA-1 locus
-Eqca-1*001:01 chain		subclass	ELA-1 chain		
-Eqca-1*002:01 chain		subclass	ELA-1 chain		
+Eqca-1 chain		equivalent	protein	Eqca-1 locus
+Eqca-1*001:01 chain		subclass	Eqca-1 chain		
+Eqca-1*002:01 chain		subclass	Eqca-1 chain		
 Eqca-1*002:02 chain		subclass	Eqca-1 chain		
 Eqca-1*003:01 chain		subclass	Eqca-1 chain		
-Eqca-2 chain		equivalent	protein	ELA-2 locus
+Eqca-2 chain		equivalent	protein	Eqca-2 locus
 Eqca-2*001:01 chain		subclass	Eqca-2 chain		
 Eqca-2*001:02 chain		subclass	Eqca-2 chain		
 Eqca-2*001:03 chain		subclass	Eqca-2 chain		
 Eqca-2*003:02 chain		subclass	Eqca-2 chain		
-Eqca-3 chain		equivalent	protein	ELA-3 locus
+Eqca-3 chain		equivalent	protein	Eqca-3 locus
 Eqca-3*001:01 chain		subclass	Eqca-3 chain		
-Eqca-4 chain		equivalent	protein	ELA-4 locus
+Eqca-4 chain		equivalent	protein	Eqca-4 locus
 Eqca-4*001:01 chain		subclass	Eqca-4 chain		
-Eqca-6 chain		equivalent	protein	ELA-6 locus
+Eqca-6 chain		equivalent	protein	Eqca-6 locus
 Eqca-6*001:01 chain		subclass	Eqca-6 chain		
-Eqca-7 chain		equivalent	protein	ELA-7 locus
+Eqca-7 chain		equivalent	protein	Eqca-7 locus
 Eqca-7*001:01 chain		subclass	Eqca-7 chain		
 Eqca-7*002:01 chain		subclass	Eqca-7 chain		
-Eqca-16 chain		equivalent	protein	ELA-16 locus
-Eqca-16*001:01 chain		subclass	ELA-16 chain		
+Eqca-16 chain		equivalent	protein	Eqca-16 locus
+Eqca-16*001:01 chain		subclass	Eqca-16 chain		
 Eqca-16*003:01 chain		subclass	Eqca-16 chain		
-Eqca-N chain		equivalent	protein	ELA-N locus
-Eqca-N*001:01 chain		subclass	ELA-N chain		
+Eqca-N chain		equivalent	protein	Eqca-N locus
+Eqca-N*001:01 chain		subclass	Eqca-N chain		
 Eqca-N*005:01 chain		subclass	Eqca-N chain		
-Eqca-N*006:01 chain		subclass	ELA-N chain		
-Eqca-N*00602 chain		subclass	ELA-N chain		
+Eqca-N*006:01 chain		subclass	Eqca-N chain		
+Eqca-N*00602 chain		subclass	Eqca-N chain		
 FLA-E chain		equivalent	protein	FLA-E locus	
 FLA-E*01801 chain		subclass	FLA-E chain		
 Gaga-BF1 chain		equivalent	protein	Gaga-BF1 locus	
