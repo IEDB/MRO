@@ -208,26 +208,9 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
-.PHONY: update-alleles
-update-alleles: src/scripts/alleles/update_human_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/hla_prot.fasta build/AlleleList.txt
+.PHONY: update-mhcflurry-alleles
+update-mhcflurry-alleles: src/scripts/alleles/update_alleles_mhcflurry.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
-
-.PHONY: update-cow-alleles
-update-cow-alleles: src/scripts/alleles/update_cow_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
-	python3 $^
-
-.PHONY: update-mamu-alleles
-update-mamu-alleles: src/scripts/alleles/update_mamu_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
-	python3 $^
-
-.PHONY: update-patr-alleles
-update-patr-alleles: src/scripts/alleles/update_patr_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
-	python3 $^
-
-.PHONY: update-sla-alleles
-update-sla-alleles: src/scripts/alleles/update_sla_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
-	python3 $^
-
 
 ### OWL Files
 
