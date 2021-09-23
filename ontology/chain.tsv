@@ -6,14 +6,15 @@ Anpl-UAA*01 chain		subclass	Anpl-UAA chain
 Anpl-UAA*SD chain		subclass	Anpl-UAA chain		
 Assam macaque MHC class I chain		equivalent	protein	Assam macaque MHC class I locus	
 Assam macaque MHC class II chain		equivalent	protein	Assam macaque MHC class II locus	
-Atbe-B chain		equivalent	protein	Atbe-B locus
-Atbe-E chain		equivalent	protein	Atbe-E locus
+Atbe-B chain		equivalent	protein	Atbe-B locus	
+Atbe-B*01 chain		subclass	Atbe-B chain		
+Atbe-E chain		equivalent	protein	Atbe-E locus	
 Atbe-E*03:01 chain		subclass	Atbe-E chain		
-Atbe-G chain		equivalent	protein	Atbe-G locus
+Atbe-G chain		equivalent	protein	Atbe-G locus	
 Atbe-G*03:01 chain		subclass	Atbe-G chain		
 Atbe-G*03:02 chain		subclass	Atbe-G chain		
 Atbe-G*06:01 chain		subclass	Atbe-G chain		
-Atfu-B chain		equivalent	protein	Atfu-B locus
+Atfu-B chain		equivalent	protein	Atfu-B locus	
 Atfu-B*01:01 chain		subclass	Atfu-B chain		
 Atfu-B*01:02 chain		subclass	Atfu-B chain		
 Atfu-B*01:03 chain		subclass	Atfu-B chain		
@@ -26,10 +27,10 @@ Atfu-B*03:02 chain		subclass	Atfu-B chain
 Atfu-B*04:01 chain		subclass	Atfu-B chain		
 Atfu-B*04:02 chain		subclass	Atfu-B chain		
 Atfu-B*05:01 chain		subclass	Atfu-B chain		
-Atfu-E chain		equivalent	protein	Atfu-E locus
+Atfu-E chain		equivalent	protein	Atfu-E locus	
 Atfu-E*03:01 chain		subclass	Atfu-E chain		
 Atfu-E*03:02 chain		subclass	Atfu-E chain		
-Atfu-G chain		equivalent	protein	Atfu-G locus
+Atfu-G chain		equivalent	protein	Atfu-G locus	
 Atfu-G*06:01 chain		subclass	Atfu-G chain		
 Atfu-G*06:02 chain		subclass	Atfu-G chain		
 Atfu-G*06:03 chain		subclass	Atfu-G chain		
@@ -124,7 +125,7 @@ BoLA-3*017:02 chain		subclass	BoLA-3 chain
 BoLA-3*017:03 chain		subclass	BoLA-3 chain		
 BoLA-3*027:01 chain		subclass	BoLA-3 chain		
 BoLA-3*027:02 chain		subclass	BoLA-3 chain		
-BoLA-3*033:01:01:01N chain		subclass	BoLA-3 chain		
+BoLA-3*033:01:01:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
 BoLA-3*035:01 chain		subclass	BoLA-3 chain		
 BoLA-3*036:01 chain		subclass	BoLA-3 chain		
 BoLA-3*037:01 chain		subclass	BoLA-3 chain		
@@ -148,7 +149,10 @@ BoLA-3*080:01 chain		subclass	BoLA-3 chain
 BoLA-3*081:01 chain		subclass	BoLA-3 chain		
 BoLA-3*082:01 chain		subclass	BoLA-3 chain		
 BoLA-3*083:01 chain		subclass	BoLA-3 chain		
+BoLA-3*084:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
+BoLA-3*086:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
 BoLA-3*087:01 chain		subclass	BoLA-3 chain		
+BoLA-3*098:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
 BoLA-4 chain		equivalent	protein	BoLA-4 locus	
 BoLA-4*024:01 chain		subclass	BoLA-4 chain		
 BoLA-4*024:02 chain		subclass	BoLA-4 chain		
@@ -739,7 +743,7 @@ Bornean orangutan MHC class II chain		equivalent	protein	Bornean orangutan MHC c
 Caja-E chain		equivalent	protein	Caja-E locus	
 Caja-E*03:01:01 chain		subclass	Caja-E chain		
 Caja-E*03:02 chain		subclass	Caja-E chain		
-Caja-F chain		equivalent	protein	Caja-F locus
+Caja-F chain		equivalent	protein	Caja-F locus	
 Caja-G chain		equivalent	protein	Caja-G locus	
 Caja-G*07:01:01 chain		subclass	Caja-G chain		
 Caja-G*07:02 chain		subclass	Caja-G chain		
@@ -839,18 +843,18 @@ Caja-G*22:01 chain		subclass	Caja-G chain
 Caja-G*23:01 chain		subclass	Caja-G chain		
 Caja-G*24:01 chain		subclass	Caja-G chain		
 Caja-G*25:01 chain		subclass	Caja-G chain		
-Caja-PS2 chain		equivalent	protein	Caja-PS2 locus
+Caja-PS2 chain		equivalent	protein	Caja-PS2 locus	
 Caja-PS2*01 chain		subclass	Caja-PS2 chain		
-Cemi-A chain		equivalent	protein	Cemi-A locus
+Cemi-A chain		equivalent	protein	Cemi-A locus	
 Cemi-A*01:01 chain		subclass	Cemi-A chain		
 Cemi-A*02:01 chain		subclass	Cemi-A chain		
 Cemi-A*03:01 chain		subclass	Cemi-A chain		
-Cemi-B chain		equivalent	protein	Cemi-B locus
+Cemi-B chain		equivalent	protein	Cemi-B locus	
 Cemi-B*01:01 chain		subclass	Cemi-B chain		
 Cemi-B*02:01 chain		subclass	Cemi-B chain		
 Cemi-B*03:01 chain		subclass	Cemi-B chain		
 Cemi-B*04:01 chain		subclass	Cemi-B chain		
-Chae-A chain		equivalent	protein	Chae-A locus
+Chae-A chain		equivalent	protein	Chae-A locus	
 Chae-A*01:01 chain		subclass	Chae-A chain		
 Chae-A*01:02 chain		subclass	Chae-A chain		
 Chae-A*02:01 chain		subclass	Chae-A chain		
@@ -866,7 +870,7 @@ Chae-A*16:01 chain		subclass	Chae-A chain
 Chae-A*17:01 chain		subclass	Chae-A chain		
 Chae-A*17:02 chain		subclass	Chae-A chain		
 Chae-A*18:01 chain		subclass	Chae-A chain		
-Chae-B chain		equivalent	protein	Chae-B locus
+Chae-B chain		equivalent	protein	Chae-B locus	
 Chae-B*01:01 chain		subclass	Chae-B chain		
 Chae-B*02:01 chain		subclass	Chae-B chain		
 Chae-B*03:01 chain		subclass	Chae-B chain		
@@ -888,11 +892,11 @@ Chae-B*24:01 chain		subclass	Chae-B chain
 Chae-B*25:01 chain		subclass	Chae-B chain		
 Chae-B*26:01 chain		subclass	Chae-B chain		
 Chae-B*27:01 chain		subclass	Chae-B chain		
-Chae-G chain		equivalent	protein	Chae-G locus
+Chae-G chain		equivalent	protein	Chae-G locus	
 Chae-G*02:01 chain		subclass	Chae-G chain		
 Chae-G*02:02 chain		subclass	Chae-G chain		
 Ctid-UAA chain		equivalent	protein	Ctid-UAA locus	
-DLA-64 chain		equivalent	protein	DLA-64 locus
+DLA-64 chain		equivalent	protein	DLA-64 locus	
 DLA-64*001:01:01 chain		subclass	DLA-64 chain		
 DLA-64*001:02 chain		subclass	DLA-64 chain		
 DLA-88 chain		equivalent	protein	DLA-88 locus	
@@ -974,29 +978,29 @@ De Brazza's monkey MHC class II chain		equivalent	protein	De Brazza's monkey MHC
 ELA-1 chain		equivalent	protein	ELA-1 locus	
 ELA-16 chain		equivalent	protein	ELA-16 locus	
 ELA-N chain		equivalent	protein	ELA-N locus	
-Eqca-1 chain		equivalent	protein	Eqca-1 locus
+Eqca-1 chain		equivalent	protein	Eqca-1 locus	
 Eqca-1*001:01 chain		subclass	Eqca-1 chain		
 Eqca-1*002:01 chain		subclass	Eqca-1 chain		
 Eqca-1*002:02 chain		subclass	Eqca-1 chain		
 Eqca-1*003:01 chain		subclass	Eqca-1 chain		
-Eqca-2 chain		equivalent	protein	Eqca-2 locus
+Eqca-2 chain		equivalent	protein	Eqca-2 locus	
 Eqca-2*001:01 chain		subclass	Eqca-2 chain		
 Eqca-2*001:02 chain		subclass	Eqca-2 chain		
 Eqca-2*001:03 chain		subclass	Eqca-2 chain		
 Eqca-2*003:02 chain		subclass	Eqca-2 chain		
-Eqca-3 chain		equivalent	protein	Eqca-3 locus
+Eqca-3 chain		equivalent	protein	Eqca-3 locus	
 Eqca-3*001:01 chain		subclass	Eqca-3 chain		
-Eqca-4 chain		equivalent	protein	Eqca-4 locus
+Eqca-4 chain		equivalent	protein	Eqca-4 locus	
 Eqca-4*001:01 chain		subclass	Eqca-4 chain		
-Eqca-6 chain		equivalent	protein	Eqca-6 locus
+Eqca-6 chain		equivalent	protein	Eqca-6 locus	
 Eqca-6*001:01 chain		subclass	Eqca-6 chain		
-Eqca-7 chain		equivalent	protein	Eqca-7 locus
+Eqca-7 chain		equivalent	protein	Eqca-7 locus	
 Eqca-7*001:01 chain		subclass	Eqca-7 chain		
 Eqca-7*002:01 chain		subclass	Eqca-7 chain		
-Eqca-16 chain		equivalent	protein	Eqca-16 locus
+Eqca-16 chain		equivalent	protein	Eqca-16 locus	
 Eqca-16*001:01 chain		subclass	Eqca-16 chain		
 Eqca-16*003:01 chain		subclass	Eqca-16 chain		
-Eqca-N chain		equivalent	protein	Eqca-N locus
+Eqca-N chain		equivalent	protein	Eqca-N locus	
 Eqca-N*001:01 chain		subclass	Eqca-N chain		
 Eqca-N*005:01 chain		subclass	Eqca-N chain		
 Eqca-N*006:01 chain		subclass	Eqca-N chain		
@@ -1017,13 +1021,13 @@ Gaga-BF-B chain		equivalent	protein	Gaga-BF-B locus
 Gaga-BF-YF chain		equivalent	protein	Gaga-BF-YF locus	
 Geoffroy's tamarin MHC class I chain		equivalent	protein	Geoffroy's tamarin MHC class I locus	
 Geoffroy's tamarin MHC class II chain		equivalent	protein	Geoffroy's tamarin MHC class II locus	
-Gogo-A chain		equivalent	protein	Gogo-A locus
+Gogo-A chain		equivalent	protein	Gogo-A locus	
 Gogo-A*01:01:01 chain		subclass	Gogo-A chain		
 Gogo-A*02:01 chain		subclass	Gogo-A chain		
 Gogo-A*04:01:01:01 chain		subclass	Gogo-A chain		
 Gogo-A*05:01 chain		subclass	Gogo-A chain		
-Gogo-A*05:02:01:01N chain		subclass	Gogo-A chain		
-Gogo-A*05:03:01:01N chain		subclass	Gogo-A chain		
+Gogo-A*05:02:01:01N chain		subclass	Gogo-A chain		evidence of MHC chain expression not observed
+Gogo-A*05:03:01:01N chain		subclass	Gogo-A chain		evidence of MHC chain expression not observed
 Gogo-A*07:01:01:01 chain		subclass	Gogo-A chain		
 Gogo-B chain		equivalent	protein	Gogo-B locus	
 Gogo-B*01:01 chain		subclass	Gogo-B chain		
@@ -1044,7 +1048,7 @@ Gogo-B*07:02 chain		subclass	Gogo-B chain
 Gogo-B*07:03 chain		subclass	Gogo-B chain		
 Gogo-B*07:04 chain		subclass	Gogo-B chain		
 Gogo-B*12:01 chain		subclass	Gogo-B chain		
-Gogo-C chain		equivalent	protein	Gogo-C locus
+Gogo-C chain		equivalent	protein	Gogo-C locus	
 Gogo-C*01:01:01 chain		subclass	Gogo-C chain		
 Gogo-C*01:03 chain		subclass	Gogo-C chain		
 Gogo-C*01:04 chain		subclass	Gogo-C chain		
@@ -1054,16 +1058,16 @@ Gogo-C*02:03 chain		subclass	Gogo-C chain
 Gogo-C*02:04:01:01 chain		subclass	Gogo-C chain		
 Gogo-C*02:05 chain		subclass	Gogo-C chain		
 Gogo-C*03:01:01:01 chain		subclass	Gogo-C chain		
-Gogo-E chain		equivalent	protein	Gogo-E locus
+Gogo-E chain		equivalent	protein	Gogo-E locus	
 Gogo-E*01:01:01 chain		subclass	Gogo-E chain		
-Gogo-F chain		equivalent	protein	Gogo-F locus
+Gogo-F chain		equivalent	protein	Gogo-F locus	
 Gogo-F*01:01 chain		subclass	Gogo-F chain		
 Gogo-F*01:02 chain		subclass	Gogo-F chain		
-Gogo-G chain		equivalent	protein	Gogo-G locus
+Gogo-G chain		equivalent	protein	Gogo-G locus	
 Gogo-G*01:01 chain		subclass	Gogo-G chain		
-Gogo-H chain		equivalent	protein	Gogo-H locus
+Gogo-H chain		equivalent	protein	Gogo-H locus	
 Gogo-H*01 chain		subclass	Gogo-H chain		
-Gogo-OKO chain		equivalent	protein	Gogo-OKO locus
+Gogo-OKO chain		equivalent	protein	Gogo-OKO locus	
 Gogo-OKO*01:01 chain		subclass	Gogo-OKO chain		
 Gogo-OKO*01:02 chain		subclass	Gogo-OKO chain		
 Gogo-OKO*02:01 chain		subclass	Gogo-OKO chain		
@@ -18253,25 +18257,25 @@ HLA-G*01:22 chain		subclass	HLA-G chain
 HLA-G*01:23 chain		subclass	HLA-G chain		
 HLA-G*01:24 chain		subclass	HLA-G chain		
 HLA-MR1 chain		equivalent	protein	HLA-MR1 locus	
-Hyla-A chain		equivalent	protein	Hyla-A locus
+Hyla-A chain		equivalent	protein	Hyla-A locus	
 Hyla-A*01 chain		subclass	Hyla-A chain		
 Hyla-A*02 chain		subclass	Hyla-A chain		
-Hyla-B chain		equivalent	protein	Hyla-B locus
+Hyla-B chain		equivalent	protein	Hyla-B locus	
 Hyla-B*01 chain		subclass	Hyla-B chain		
 Japanese macaque MHC class I chain		equivalent	protein	Japanese macaque MHC class I locus	
 Japanese macaque MHC class II chain		equivalent	protein	Japanese macaque MHC class II locus	
-Lero-G chain		equivalent	protein	Lero-G locus
+Lero-G chain		equivalent	protein	Lero-G locus	
 Lero-G*03:01 chain		subclass	Lero-G chain		
 Lero-G*03:02 chain		subclass	Lero-G chain		
 MHC class I chain		equivalent	protein	MHC class I locus	
 MHC class II chain		equivalent	protein	MHC class II locus	
-Maar-A1 chain		equivalent	protein	Maar-A1 locus
+Maar-A1 chain		equivalent	protein	Maar-A1 locus	
 Maar-A1*011:01 chain		subclass	Maar-A1 chain		
 Maar-A1*018:01 chain		subclass	Maar-A1 chain		
 Maar-A1*060:01 chain		subclass	Maar-A1 chain		
 Maar-A1*127:01 chain		subclass	Maar-A1 chain		
 Maar-A1*129:01 chain		subclass	Maar-A1 chain		
-Maar-B chain		equivalent	protein	Maar-B locus
+Maar-B chain		equivalent	protein	Maar-B locus	
 Maar-B*007:01 chain		subclass	Maar-B chain		
 Maar-B*017:01 chain		subclass	Maar-B chain		
 Maar-B*069:01 chain		subclass	Maar-B chain		
@@ -18280,7 +18284,7 @@ Maar-B*072:01 chain		subclass	Maar-B chain
 Maar-B*082:01 chain		subclass	Maar-B chain		
 Maar-B*139:01 chain		subclass	Maar-B chain		
 Maar-B*139:02 chain		subclass	Maar-B chain		
-Maar-I chain		equivalent	protein	Maar-I locus
+Maar-I chain		equivalent	protein	Maar-I locus	
 Maar-I*01:01 chain		subclass	Maar-I chain		
 Maar-I*01:02 chain		subclass	Maar-I chain		
 Maar-I*01:03 chain		subclass	Maar-I chain		
@@ -18562,12 +18566,12 @@ Mafa-A1*080:02 chain		subclass	Mafa-A1 chain
 Mafa-A1*085:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*085:02:01:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:01:01 chain		subclass	Mafa-A1 chain		
-Mafa-A1*086:01:02:01N chain		subclass	Mafa-A1 chain		
+Mafa-A1*086:01:02:01N chain		subclass	Mafa-A1 chain		evidence of MHC chain expression not observed
 Mafa-A1*086:02 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:03 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:04 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:05 chain		subclass	Mafa-A1 chain		
-Mafa-A1*086:06:01:01N chain		subclass	Mafa-A1 chain		
+Mafa-A1*086:06:01:01N chain		subclass	Mafa-A1 chain		evidence of MHC chain expression not observed
 Mafa-A1*087:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*087:02:01:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*088:01 chain		subclass	Mafa-A1 chain		
@@ -18591,7 +18595,7 @@ Mafa-A1*090:04:02 chain		subclass	Mafa-A1 chain
 Mafa-A1*090:05 chain		subclass	Mafa-A1 chain		
 Mafa-A1*090:06 chain		subclass	Mafa-A1 chain		
 Mafa-A1*090:07 chain		subclass	Mafa-A1 chain		
-Mafa-A1*090:09:01:01N chain		subclass	Mafa-A1 chain		
+Mafa-A1*090:09:01:01N chain		subclass	Mafa-A1 chain		evidence of MHC chain expression not observed
 Mafa-A1*091:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*091:02 chain		subclass	Mafa-A1 chain		
 Mafa-A1*091:03:01:01 chain		subclass	Mafa-A1 chain		
@@ -18635,7 +18639,7 @@ Mafa-A1*130:01:01:01 chain		subclass	Mafa-A1 chain
 Mafa-A1*133:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*134:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*135:01 chain		subclass	Mafa-A1 chain		
-Mafa-A2 chain		equivalent	protein	Mafa-A2 locus
+Mafa-A2 chain		equivalent	protein	Mafa-A2 locus	
 Mafa-A2*01:01:01:01 chain		subclass	Mafa-A2 chain		
 Mafa-A2*01:02 chain		subclass	Mafa-A2 chain		
 Mafa-A2*05:01:01:01 chain		subclass	Mafa-A2 chain		
@@ -18740,7 +18744,7 @@ Mafa-A2*24:06 chain		subclass	Mafa-A2 chain
 Mafa-A2*24:07 chain		subclass	Mafa-A2 chain		
 Mafa-A2*24:08 chain		subclass	Mafa-A2 chain		
 Mafa-A2*24:09 chain		subclass	Mafa-A2 chain		
-Mafa-A3 chain		equivalent	protein	Mafa-A3 locus
+Mafa-A3 chain		equivalent	protein	Mafa-A3 locus	
 Mafa-A3*13:01 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:02:01:01 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:03:01 chain		subclass	Mafa-A3 chain		
@@ -18756,8 +18760,8 @@ Mafa-A3*13:10 chain		subclass	Mafa-A3 chain
 Mafa-A3*13:11 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:12 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:13 chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:14:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:14:01:02N chain		subclass	Mafa-A3 chain		
+Mafa-A3*13:14:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:14:01:02N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
 Mafa-A3*13:15:01:01 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:16 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:17:01 chain		subclass	Mafa-A3 chain		
@@ -18778,12 +18782,12 @@ Mafa-A3*13:29 chain		subclass	Mafa-A3 chain
 Mafa-A3*13:30:01:01 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:31 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:32 chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:33:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:34:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:34:02:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:35:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:35:01:02N chain		subclass	Mafa-A3 chain		
-Mafa-A4 chain		equivalent	protein	Mafa-A4 locus
+Mafa-A3*13:33:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:34:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:34:02:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:35:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:35:01:02N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A4 chain		equivalent	protein	Mafa-A4 locus	
 Mafa-A4*01:01:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:02:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:02:01:02 chain		subclass	Mafa-A4 chain		
@@ -18795,16 +18799,16 @@ Mafa-A4*01:06 chain		subclass	Mafa-A4 chain
 Mafa-A4*01:07:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:08:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:08:02:01 chain		subclass	Mafa-A4 chain		
-Mafa-A4*01:09N chain		subclass	Mafa-A4 chain		
+Mafa-A4*01:09N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*01:10 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:11 chain		subclass	Mafa-A4 chain		
-Mafa-A4*01:12N chain		subclass	Mafa-A4 chain		
+Mafa-A4*01:12N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*01:13 chain		subclass	Mafa-A4 chain		
 Mafa-A4*03:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*03:02 chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:01:01:01N chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:01:01:02N chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:02N chain		subclass	Mafa-A4 chain		
+Mafa-A4*14:01:01:01N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
+Mafa-A4*14:01:01:02N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
+Mafa-A4*14:02N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*14:03:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:03:01:02 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:03:01:03 chain		subclass	Mafa-A4 chain		
@@ -18826,15 +18830,15 @@ Mafa-A4*14:11:01:01 chain		subclass	Mafa-A4 chain
 Mafa-A4*14:11:01:02 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:12 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:13 chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:14N chain		subclass	Mafa-A4 chain		
+Mafa-A4*14:14N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*14:15 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:16:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:17:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:18:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:19:01:01 chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:21:01:01N chain		subclass	Mafa-A4 chain		
+Mafa-A4*14:21:01:01N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*14:22:01:01 chain		subclass	Mafa-A4 chain		
-Mafa-A5 chain		equivalent	protein	Mafa-A5 locus
+Mafa-A5 chain		equivalent	protein	Mafa-A5 locus	
 Mafa-A5*30:01:01:01 chain		subclass	Mafa-A5 chain		
 Mafa-A5*30:02 chain		subclass	Mafa-A5 chain		
 Mafa-A5*30:03:01 chain		subclass	Mafa-A5 chain		
@@ -18846,7 +18850,7 @@ Mafa-A5*30:06:01:02 chain		subclass	Mafa-A5 chain
 Mafa-A5*30:06:01:03 chain		subclass	Mafa-A5 chain		
 Mafa-A5*30:07 chain		subclass	Mafa-A5 chain		
 Mafa-A5*30:08 chain		subclass	Mafa-A5 chain		
-Mafa-A6 chain		equivalent	protein	Mafa-A6 locus
+Mafa-A6 chain		equivalent	protein	Mafa-A6 locus	
 Mafa-A6*01:01 chain		subclass	Mafa-A6 chain		
 Mafa-A6*01:02 chain		subclass	Mafa-A6 chain		
 Mafa-A6*01:03 chain		subclass	Mafa-A6 chain		
@@ -18868,11 +18872,11 @@ Mafa-A6*01:17:01:01 chain		subclass	Mafa-A6 chain
 Mafa-A6*01:18:01:01 chain		subclass	Mafa-A6 chain		
 Mafa-A6*01:18:02:01 chain		subclass	Mafa-A6 chain		
 Mafa-A6*01:19:01:01 chain		subclass	Mafa-A6 chain		
-Mafa-A8 chain		equivalent	protein	Mafa-A8 locus
+Mafa-A8 chain		equivalent	protein	Mafa-A8 locus	
 Mafa-A8*01:01 chain		subclass	Mafa-A8 chain		
-Mafa-A chain		equivalent	protein	Mafa-A locus
-Mafa-AG chain		equivalent	protein	Mafa-AG locus
-Mafa-B chain		equivalent	protein	Mafa-B locus
+Mafa-A chain		equivalent	protein	Mafa-A locus	
+Mafa-AG chain		equivalent	protein	Mafa-AG locus	
+Mafa-B chain		equivalent	protein	Mafa-B locus	
 Mafa-B*001:01:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*001:02:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*001:03 chain		subclass	Mafa-B chain		
@@ -18889,7 +18893,7 @@ Mafa-B*004:01 chain		subclass	Mafa-B chain
 Mafa-B*004:02 chain		subclass	Mafa-B chain		
 Mafa-B*004:03:01 chain		subclass	Mafa-B chain		
 Mafa-B*004:04:01:01 chain		subclass	Mafa-B chain		
-Mafa-B*005:01:01:01N chain		subclass	Mafa-B chain		
+Mafa-B*005:01:01:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*006:01:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*007:01:02 chain		subclass	Mafa-B chain		
 Mafa-B*007:02 chain		subclass	Mafa-B chain		
@@ -19189,7 +19193,7 @@ Mafa-B*061:02:01:01 chain		subclass	Mafa-B chain
 Mafa-B*061:03:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*061:04:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*061:05 chain		subclass	Mafa-B chain		
-Mafa-B*062:01N chain		subclass	Mafa-B chain		
+Mafa-B*062:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*063:01 chain		subclass	Mafa-B chain		
 Mafa-B*063:02 chain		subclass	Mafa-B chain		
 Mafa-B*063:03 chain		subclass	Mafa-B chain		
@@ -19421,7 +19425,7 @@ Mafa-B*124:01:01 chain		subclass	Mafa-B chain
 Mafa-B*124:02 chain		subclass	Mafa-B chain		
 Mafa-B*124:03:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*124:04:01:01 chain		subclass	Mafa-B chain		
-Mafa-B*124:05:01:01N chain		subclass	Mafa-B chain		
+Mafa-B*124:05:01:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*126:01 chain		subclass	Mafa-B chain		
 Mafa-B*131:01 chain		subclass	Mafa-B chain		
 Mafa-B*131:02:01:01 chain		subclass	Mafa-B chain		
@@ -19510,7 +19514,7 @@ Mafa-B*162:03:01:01 chain		subclass	Mafa-B chain
 Mafa-B*164:01 chain		subclass	Mafa-B chain		
 Mafa-B*164:02 chain		subclass	Mafa-B chain		
 Mafa-B*165:01 chain		subclass	Mafa-B chain		
-Mafa-B*167:01:01:01N chain		subclass	Mafa-B chain		
+Mafa-B*167:01:01:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*168:01 chain		subclass	Mafa-B chain		
 Mafa-B*169:01 chain		subclass	Mafa-B chain		
 Mafa-B*170:01 chain		subclass	Mafa-B chain		
@@ -19547,7 +19551,7 @@ Mafa-DQB chain		equivalent	protein	Mafa-DQB locus
 Mafa-DRA chain		equivalent	protein	Mafa-DRA locus	
 Mafa-DRB chain		equivalent	protein	Mafa-DRB locus	
 Mafa-DRB*w5:01 chain		subclass	Mafa-DRB chain		
-Mafa-E chain		equivalent	protein	Mafa-E locus
+Mafa-E chain		equivalent	protein	Mafa-E locus	
 Mafa-E*02:01:01 chain		subclass	Mafa-E chain		
 Mafa-E*02:02 chain		subclass	Mafa-E chain		
 Mafa-E*02:03:01 chain		subclass	Mafa-E chain		
@@ -19561,7 +19565,7 @@ Mafa-E*02:11 chain		subclass	Mafa-E chain
 Mafa-E*02:12 chain		subclass	Mafa-E chain		
 Mafa-E*02:13 chain		subclass	Mafa-E chain		
 Mafa-E*02:14 chain		subclass	Mafa-E chain		
-Mafa-F chain		equivalent	protein	Mafa-F locus
+Mafa-F chain		equivalent	protein	Mafa-F locus	
 Mafa-F*02:01 chain		subclass	Mafa-F chain		
 Mafa-F*02:02:01 chain		subclass	Mafa-F chain		
 Mafa-F*02:03:01 chain		subclass	Mafa-F chain		
@@ -19570,7 +19574,7 @@ Mafa-F*02:05 chain		subclass	Mafa-F chain
 Mafa-F*02:06:01 chain		subclass	Mafa-F chain		
 Mafa-F*02:07 chain		subclass	Mafa-F chain		
 Mafa-F*02:18 chain		subclass	Mafa-F chain		
-Mafa-G chain		equivalent	protein	Mafa-G locus
+Mafa-G chain		equivalent	protein	Mafa-G locus	
 Mafa-G*02:01 chain		subclass	Mafa-G chain		
 Mafa-G*02:02 chain		subclass	Mafa-G chain		
 Mafa-G*02:03 chain		subclass	Mafa-G chain		
@@ -19580,7 +19584,7 @@ Mafa-G*02:06 chain		subclass	Mafa-G chain
 Mafa-G*02:07 chain		subclass	Mafa-G chain		
 Mafa-G*02:08 chain		subclass	Mafa-G chain		
 Mafa-G*02:09 chain		subclass	Mafa-G chain		
-Mafa-I chain		equivalent	protein	Mafa-I locus
+Mafa-I chain		equivalent	protein	Mafa-I locus	
 Mafa-I*01:01:01 chain		subclass	Mafa-I chain		
 Mafa-I*01:02 chain		subclass	Mafa-I chain		
 Mafa-I*01:03 chain		subclass	Mafa-I chain		
@@ -19651,7 +19655,7 @@ Mafa-I*01:68 chain		subclass	Mafa-I chain
 Mafa-I*01:69:01:01 chain		subclass	Mafa-I chain		
 Mafa-I*01:70 chain		subclass	Mafa-I chain		
 Mafa-I*02:01 chain		subclass	Mafa-I chain		
-Mafa-I*03:01:01:01N chain		subclass	Mafa-I chain		
+Mafa-I*03:01:01:01N chain		subclass	Mafa-I chain		evidence of MHC chain expression not observed
 Mafa-I*03:02 chain		subclass	Mafa-I chain		
 Mafa-I*03:03 chain		subclass	Mafa-I chain		
 Mafa-I*04:01 chain		subclass	Mafa-I chain		
@@ -20995,19 +20999,19 @@ Mamu-E*02:27 chain		subclass	Mamu-E chain
 Mamu-E*02:28 chain		subclass	Mamu-E chain		
 Mamu-E*02:29 chain		subclass	Mamu-E chain		
 Mamu-E*02:30 chain		subclass	Mamu-E chain		
-Mamu-F chain		equivalent	protein	Mamu-F locus
+Mamu-F chain		equivalent	protein	Mamu-F locus	
 Mamu-F*02:01 chain		subclass	Mamu-F chain		
 Mamu-F*02:02 chain		subclass	Mamu-F chain		
 Mamu-F*02:03:01 chain		subclass	Mamu-F chain		
 Mamu-F*02:04:01 chain		subclass	Mamu-F chain		
 Mamu-F*02:05 chain		subclass	Mamu-F chain		
 Mamu-F*02:06 chain		subclass	Mamu-F chain		
-Mamu-G chain		equivalent	protein	Mamu-G locus
+Mamu-G chain		equivalent	protein	Mamu-G locus	
 Mamu-G*02:01 chain		subclass	Mamu-G chain		
 Mamu-G*02:02 chain		subclass	Mamu-G chain		
 Mamu-G*02:03 chain		subclass	Mamu-G chain		
 Mamu-G*02:04 chain		subclass	Mamu-G chain		
-Mamu-I chain		equivalent	protein	Mamu-I locus
+Mamu-I chain		equivalent	protein	Mamu-I locus	
 Mamu-I*01:01:02:01 chain		subclass	Mamu-I chain		
 Mamu-I*01:02:01:01 chain		subclass	Mamu-I chain		
 Mamu-I*01:04 chain		subclass	Mamu-I chain		
@@ -21058,11 +21062,11 @@ Milne Edward's macaque MHC class I chain		equivalent	protein	Milne Edward's maca
 Milne Edward's macaque MHC class II chain		equivalent	protein	Milne Edward's macaque MHC class II locus	
 Nancy Ma's night monkey MHC class I chain		equivalent	protein	Nancy Ma's night monkey MHC class I locus	
 Nancy Ma's night monkey MHC class II chain		equivalent	protein	Nancy Ma's night monkey MHC class II locus	
-Onmy-DAA chain		equivalent	protein	Onmy-DAA locus
+Onmy-DAA chain		equivalent	protein	Onmy-DAA locus	
 Onmy-DAA*01:01 chain		subclass	Onmy-DAA chain		
 Onmy-DAA*02:01 chain		subclass	Onmy-DAA chain		
 Onmy-DAA*03:01 chain		subclass	Onmy-DAA chain		
-Onmy-DAB chain		equivalent	protein	Onmy-DAB locus
+Onmy-DAB chain		equivalent	protein	Onmy-DAB locus	
 Onmy-DAB*01:01 chain		subclass	Onmy-DAB chain		
 Onmy-DAB*02:01 chain		subclass	Onmy-DAB chain		
 Onmy-DAB*03:01:01 chain		subclass	Onmy-DAB chain		
@@ -21085,7 +21089,7 @@ Onmy-DAB*15:01 chain		subclass	Onmy-DAB chain
 Onmy-DAB*16:01 chain		subclass	Onmy-DAB chain		
 Onmy-DAB*16:02 chain		subclass	Onmy-DAB chain		
 Onmy-DAB*17:01 chain		subclass	Onmy-DAB chain		
-Onmy-UBA chain		equivalent	protein	Onmy-UBA locus
+Onmy-UBA chain		equivalent	protein	Onmy-UBA locus	
 Onmy-UBA*01:01:01 chain		subclass	Onmy-UBA chain		
 Onmy-UBA*01:01:02 chain		subclass	Onmy-UBA chain		
 Onmy-UBA*01:01:03 chain		subclass	Onmy-UBA chain		
@@ -21134,7 +21138,7 @@ Onmy-UBA*29:01 chain		subclass	Onmy-UBA chain
 Onmy-UBA*30:01 chain		subclass	Onmy-UBA chain		
 Onmy-UBA*31:01 chain		subclass	Onmy-UBA chain		
 Onmy-UBA*32:01 chain		subclass	Onmy-UBA chain		
-Ovar-N chain		equivalent	protein	Ovar-N locus
+Ovar-N chain		equivalent	protein	Ovar-N locus	
 Ovar-N*01:01 chain		subclass	Ovar-N chain		
 Ovar-N*02:01 chain		subclass	Ovar-N chain		
 Ovar-N*03:01 chain		subclass	Ovar-N chain		
@@ -21166,7 +21170,7 @@ Ovar-N*50:00 chain		subclass	Ovar-N chain
 Ovar-N*50:01 chain		subclass	Ovar-N chain		
 Ovar-N*50:02 chain		subclass	Ovar-N chain		
 Ovar-N*50:03 chain		subclass	Ovar-N chain		
-Paan-A chain		equivalent	protein	Paan-A locus
+Paan-A chain		equivalent	protein	Paan-A locus	
 Paan-A*01:01 chain		subclass	Paan-A chain		
 Paan-A*01:02 chain		subclass	Paan-A chain		
 Paan-A*01:03 chain		subclass	Paan-A chain		
@@ -21208,12 +21212,12 @@ Paan-A*26:01 chain		subclass	Paan-A chain
 Paan-A*27:01 chain		subclass	Paan-A chain		
 Paan-A*28:01 chain		subclass	Paan-A chain		
 Paan-A*29:01 chain		subclass	Paan-A chain		
-Paan-AG chain		equivalent	protein	Paan-AG locus
+Paan-AG chain		equivalent	protein	Paan-AG locus	
 Paan-AG*01:01:01 chain		subclass	Paan-AG chain		
 Paan-AG*01:02 chain		subclass	Paan-AG chain		
 Paan-AG*01:03 chain		subclass	Paan-AG chain		
 Paan-AG*02:01 chain		subclass	Paan-AG chain		
-Paan-B chain		equivalent	protein	Paan-B locus
+Paan-B chain		equivalent	protein	Paan-B locus	
 Paan-B*01:01 chain		subclass	Paan-B chain		
 Paan-B*01:02 chain		subclass	Paan-B chain		
 Paan-B*02:01 chain		subclass	Paan-B chain		
@@ -21334,7 +21338,7 @@ Paan-B*44:01 chain		subclass	Paan-B chain
 Paan-B*45:01 chain		subclass	Paan-B chain		
 Paan-B*46:01 chain		subclass	Paan-B chain		
 Paan-B*47:01 chain		subclass	Paan-B chain		
-Paan-B*48:01N chain		subclass	Paan-B chain		
+Paan-B*48:01N chain		subclass	Paan-B chain		evidence of MHC chain expression not observed
 Paan-B*49:01 chain		subclass	Paan-B chain		
 Paan-B*50:01 chain		subclass	Paan-B chain		
 Paan-B*51:01 chain		subclass	Paan-B chain		
@@ -21348,22 +21352,22 @@ Paan-B*57:01 chain		subclass	Paan-B chain
 Paan-B*58:01 chain		subclass	Paan-B chain		
 Paan-B*59:01 chain		subclass	Paan-B chain		
 Paan-B*60:01 chain		subclass	Paan-B chain		
-Pacy-A chain		equivalent	protein	Pacy-A locus
+Pacy-A chain		equivalent	protein	Pacy-A locus	
 Pacy-A*01:01 chain		subclass	Pacy-A chain		
 Pacy-A*02:01 chain		subclass	Pacy-A chain		
 Pacy-A*03:01 chain		subclass	Pacy-A chain		
 Pacy-A*03:02 chain		subclass	Pacy-A chain		
-Pacy-B chain		equivalent	protein	Pacy-B locus
+Pacy-B chain		equivalent	protein	Pacy-B locus	
 Pacy-B*01:01 chain		subclass	Pacy-B chain		
 Pacy-B*02:01 chain		subclass	Pacy-B chain		
 Pacy-B*04:01 chain		subclass	Pacy-B chain		
 Pacy-B*05:01 chain		subclass	Pacy-B chain		
-Pacy-E chain		equivalent	protein	Pacy-E locus
+Pacy-E chain		equivalent	protein	Pacy-E locus	
 Pacy-E*02:01 chain		subclass	Pacy-E chain		
-Paha-A chain		equivalent	protein	Paha-A locus
+Paha-A chain		equivalent	protein	Paha-A locus	
 Paha-A*01:01 chain		subclass	Paha-A chain		
 Paha-A*02:01 chain		subclass	Paha-A chain		
-Paha-B chain		equivalent	protein	Paha-B locus
+Paha-B chain		equivalent	protein	Paha-B locus	
 Paha-B*02:01 chain		subclass	Paha-B chain		
 Paha-B*10:01 chain		subclass	Paha-B chain		
 Paha-B*12:01 chain		subclass	Paha-B chain		
@@ -21393,7 +21397,7 @@ Papa-A*08:02 chain		subclass	Papa-A chain
 Papa-A*08:03 chain		subclass	Papa-A chain		
 Papa-A*09:01 chain		subclass	Papa-A chain		
 Papa-A*09:02 chain		subclass	Papa-A chain		
-Papa-B chain		equivalent	protein	Papa-B locus
+Papa-B chain		equivalent	protein	Papa-B locus	
 Papa-B*01:01 chain		subclass	Papa-B chain		
 Papa-B*01:02 chain		subclass	Papa-B chain		
 Papa-B*01:03 chain		subclass	Papa-B chain		
@@ -21426,7 +21430,7 @@ Papa-B*19:02 chain		subclass	Papa-B chain
 Papa-B*20:01 chain		subclass	Papa-B chain		
 Papa-B*21:01 chain		subclass	Papa-B chain		
 Papa-B*22:01 chain		subclass	Papa-B chain		
-Papa-C chain		equivalent	protein	Papa-C locus
+Papa-C chain		equivalent	protein	Papa-C locus	
 Papa-C*01:01 chain		subclass	Papa-C chain		
 Papa-C*03:01:01:01 chain		subclass	Papa-C chain		
 Papa-C*03:02 chain		subclass	Papa-C chain		
@@ -21439,9 +21443,9 @@ Papa-C*05:01 chain		subclass	Papa-C chain
 Papa-C*05:02 chain		subclass	Papa-C chain		
 Papa-C*05:03 chain		subclass	Papa-C chain		
 Papa-C*06:01:01:02 chain		subclass	Papa-C chain		
-Papa-G chain		equivalent	protein	Papa-G locus
+Papa-G chain		equivalent	protein	Papa-G locus	
 Papa-G*01:01 chain		subclass	Papa-G chain		
-Papa-H chain		equivalent	protein	Papa-H locus
+Papa-H chain		equivalent	protein	Papa-H locus	
 Papa-H*01 chain		subclass	Papa-H chain		
 Patr-A chain		equivalent	protein	Patr-A locus	
 Patr-A*01:01 chain		subclass	Patr-A chain		
@@ -21749,16 +21753,16 @@ Patr-DRB5*03:14 chain		subclass	Patr-DRB chain
 Patr-DRB7*01:01 chain		subclass	Patr-DRB chain		
 Patr-DRB chain		equivalent	protein	Patr-DRB locus	
 Patr-DRB*W008:01 chain		subclass	Patr-DRB chain		
-Pipi-B chain		equivalent	protein	Pipi-B locus
+Pipi-B chain		equivalent	protein	Pipi-B locus	
 Pipi-B*01 chain		subclass	Pipi-B chain		
-Pipi-E chain		equivalent	protein	Pipi-E locus
+Pipi-E chain		equivalent	protein	Pipi-E locus	
 Pipi-E*03:01 chain		subclass	Pipi-E chain		
-Pipi-G chain		equivalent	protein	Pipi-G locus
+Pipi-G chain		equivalent	protein	Pipi-G locus	
 Pipi-G*03:01 chain		subclass	Pipi-G chain		
 Pipi-G*03:02 chain		subclass	Pipi-G chain		
 Pipi-G*03:03 chain		subclass	Pipi-G chain		
 Pipi-G*04:01 chain		subclass	Pipi-G chain		
-Popy-A chain		equivalent	protein	Popy-A locus
+Popy-A chain		equivalent	protein	Popy-A locus	
 Popy-A*01:01 chain		subclass	Popy-A chain		
 Popy-A*01:02 chain		subclass	Popy-A chain		
 Popy-A*02:01 chain		subclass	Popy-A chain		
@@ -21771,7 +21775,7 @@ Popy-A*05:02 chain		subclass	Popy-A chain
 Popy-A*06:01 chain		subclass	Popy-A chain		
 Popy-A*07:01 chain		subclass	Popy-A chain		
 Popy-A*08:01 chain		subclass	Popy-A chain		
-Popy-B chain		equivalent	protein	Popy-B locus
+Popy-B chain		equivalent	protein	Popy-B locus	
 Popy-B*01 chain		subclass	Popy-B chain		
 Popy-B*02 chain		subclass	Popy-B chain		
 Popy-B*03:01 chain		subclass	Popy-B chain		
@@ -21803,15 +21807,15 @@ Popy-B*11:01 chain		subclass	Popy-B chain
 Popy-B*12:01 chain		subclass	Popy-B chain		
 Popy-B*13:01 chain		subclass	Popy-B chain		
 Popy-B*14:01:01:01 chain		subclass	Popy-B chain		
-Popy-C chain		equivalent	protein	Popy-C locus
+Popy-C chain		equivalent	protein	Popy-C locus	
 Popy-C*01:01:01 chain		subclass	Popy-C chain		
 Popy-C*02:01 chain		subclass	Popy-C chain		
 Popy-C*02:02 chain		subclass	Popy-C chain		
 Popy-C*02:03 chain		subclass	Popy-C chain		
 Popy-C*03:01 chain		subclass	Popy-C chain		
-Popy-E chain		equivalent	protein	Popy-E locus
+Popy-E chain		equivalent	protein	Popy-E locus	
 Popy-E*01:01 chain		subclass	Popy-E chain		
-Popy-H chain		equivalent	protein	Popy-H locus
+Popy-H chain		equivalent	protein	Popy-H locus	
 Popy-H*01 chain		subclass	Popy-H chain		
 Ptal-N chain		equivalent	protein	Ptal-N locus	
 Ptal-N*01:01 chain		subclass	Ptal-N chain		
@@ -22075,11 +22079,11 @@ SLA-3*07:01 chain		subclass	SLA-3 chain
 SLA-3*07:02 chain		subclass	SLA-3 chain		
 SLA-3*07:03 chain		subclass	SLA-3 chain		
 SLA-3*08:01 chain		subclass	SLA-3 chain		
-SLA-4 chain		equivalent	protein	SLA-4 locus
+SLA-4 chain		equivalent	protein	SLA-4 locus	
 SLA-4*01:01 chain		subclass	SLA-4 chain		
 SLA-4*02:01 chain		subclass	SLA-4 chain		
 SLA-4*03:01 chain		subclass	SLA-4 chain		
-SLA-5 chain		equivalent	protein	SLA-5 locus
+SLA-5 chain		equivalent	protein	SLA-5 locus	
 SLA-5*01:01:01 chain		subclass	SLA-5 chain		
 SLA-5*02:01 chain		subclass	SLA-5 chain		
 SLA-5*03:01 chain		subclass	SLA-5 chain		
@@ -22094,26 +22098,26 @@ SLA-6*07:01 chain		subclass	SLA-6 chain
 SLA-6*08:01 chain		subclass	SLA-6 chain		
 SLA-6*09:01 chain		subclass	SLA-6 chain		
 SLA-6*10:01 chain		subclass	SLA-6 chain		
-SLA-7 chain		equivalent	protein	SLA-7 locus
+SLA-7 chain		equivalent	protein	SLA-7 locus	
 SLA-7*01:01 chain		subclass	SLA-7 chain		
 SLA-7*02:01 chain		subclass	SLA-7 chain		
 SLA-7*03:01 chain		subclass	SLA-7 chain		
-SLA-8 chain		equivalent	protein	SLA-8 locus
+SLA-8 chain		equivalent	protein	SLA-8 locus	
 SLA-8*01:01 chain		subclass	SLA-8 chain		
 SLA-8*02:01 chain		subclass	SLA-8 chain		
 SLA-8*03:01 chain		subclass	SLA-8 chain		
 SLA-8*04:01 chain		subclass	SLA-8 chain		
 SLA-8*05:01 chain		subclass	SLA-8 chain		
-SLA-9 chain		equivalent	protein	SLA-9 locus
+SLA-9 chain		equivalent	protein	SLA-9 locus	
 SLA-9*01:01 chain		subclass	SLA-9 chain		
 SLA-9*02:01 chain		subclass	SLA-9 chain		
 SLA-9*03:01 chain		subclass	SLA-9 chain		
 SLA-9*04:01 chain		subclass	SLA-9 chain		
 SLA-9*05:01 chain		subclass	SLA-9 chain		
-SLA-11 chain		equivalent	protein	SLA-11 locus
+SLA-11 chain		equivalent	protein	SLA-11 locus	
 SLA-11*01:01 chain		subclass	SLA-11 chain		
 SLA-11*02:01 chain		subclass	SLA-11 chain		
-SLA-12 chain		equivalent	protein	SLA-12 locus
+SLA-12 chain		equivalent	protein	SLA-12 locus	
 SLA-12*01:01 chain		subclass	SLA-12 chain		
 SLA-12*02:01 chain		subclass	SLA-12 chain		
 SLA-12*03:01 chain		subclass	SLA-12 chain		
@@ -22313,26 +22317,26 @@ SLA-DRB3*05:01 chain		subclass	SLA-DRB chain
 SLA-DRB4*01:01 chain		subclass	SLA-DRB chain		
 SLA-DRB5*01:01 chain		subclass	SLA-DRB chain		
 SLA-DRB chain		equivalent	protein	SLA-DRB locus	
-Safu-G chain		equivalent	protein	Safu-G locus
+Safu-G chain		equivalent	protein	Safu-G locus	
 Safu-G*03:01 chain		subclass	Safu-G chain		
 Safu-G*03:02 chain		subclass	Safu-G chain		
 Safu-G*03:03 chain		subclass	Safu-G chain		
 Safu-G*03:04 chain		subclass	Safu-G chain		
-Safu-PS1 chain		equivalent	protein	Safu-PS1 locus
+Safu-PS1 chain		equivalent	protein	Safu-PS1 locus	
 Safu-PS1*01 chain		subclass	Safu-PS1 chain		
-Safu-PS2 chain		equivalent	protein	Safu-PS2 locus
+Safu-PS2 chain		equivalent	protein	Safu-PS2 locus	
 Safu-PS2*01 chain		subclass	Safu-PS2 chain		
-Sage-PS1 chain		equivalent	protein	Sage-PS1 locus
+Sage-PS1 chain		equivalent	protein	Sage-PS1 locus	
 Sage-PS1*01 chain		subclass	Sage-PS1 chain		
-Sage-PS2 chain		equivalent	protein	Sage-PS2 locus
+Sage-PS2 chain		equivalent	protein	Sage-PS2 locus	
 Sage-PS2*01 chain		subclass	Sage-PS2 chain		
-Samy-PS1 chain		equivalent	protein	Samy-PS1 locus
+Samy-PS1 chain		equivalent	protein	Samy-PS1 locus	
 Samy-PS1*01 chain		subclass	Samy-PS1 chain		
-Samy-PS2 chain		equivalent	protein	Samy-PS2 locus
+Samy-PS2 chain		equivalent	protein	Samy-PS2 locus	
 Samy-PS2*01 chain		subclass	Samy-PS2 chain		
-Saoe-E chain		equivalent	protein	Saoe-E locus
+Saoe-E chain		equivalent	protein	Saoe-E locus	
 Saoe-E*03:01 chain		subclass	Saoe-E chain		
-Saoe-F chain		equivalent	protein	Saoe-F locus
+Saoe-F chain		equivalent	protein	Saoe-F locus	
 Saoe-F*03:01 chain		subclass	Saoe-F chain		
 Saoe-G chain		equivalent	protein	Saoe-G locus	
 Saoe-G*03:01 chain		subclass	Saoe-G chain		
@@ -22346,13 +22350,13 @@ Saoe-G*03:08 chain		subclass	Saoe-G chain
 Saoe-G*03:09 chain		subclass	Saoe-G chain		
 Saoe-G*03:10 chain		subclass	Saoe-G chain		
 Saoe-G*03:11 chain		subclass	Saoe-G chain		
-Saoe-N1 chain		equivalent	protein	Saoe-N1 locus
+Saoe-N1 chain		equivalent	protein	Saoe-N1 locus	
 Saoe-N1*01 chain		subclass	Saoe-N1 chain		
-Saoe-N3 chain		equivalent	protein	Saoe-N3 locus
+Saoe-N3 chain		equivalent	protein	Saoe-N3 locus	
 Saoe-N3*01 chain		subclass	Saoe-N3 chain		
-Saoe-PS1 chain		equivalent	protein	Saoe-PS1 locus
+Saoe-PS1 chain		equivalent	protein	Saoe-PS1 locus	
 Saoe-PS1*01 chain		subclass	Saoe-PS1 chain		
-Sasa-DAA chain		equivalent	protein	Sasa-DAA locus
+Sasa-DAA chain		equivalent	protein	Sasa-DAA locus	
 Sasa-DAA*01:01 chain		subclass	Sasa-DAA chain		
 Sasa-DAA*01:02 chain		subclass	Sasa-DAA chain		
 Sasa-DAA*02:01 chain		subclass	Sasa-DAA chain		
@@ -22375,7 +22379,7 @@ Sasa-DAA*12:01 chain		subclass	Sasa-DAA chain
 Sasa-DAA*12:02 chain		subclass	Sasa-DAA chain		
 Sasa-DAA*13:01 chain		subclass	Sasa-DAA chain		
 Sasa-DAA*14:01 chain		subclass	Sasa-DAA chain		
-Sasa-DAB chain		equivalent	protein	Sasa-DAB locus
+Sasa-DAB chain		equivalent	protein	Sasa-DAB locus	
 Sasa-DAB*01:01 chain		subclass	Sasa-DAB chain		
 Sasa-DAB*01:02 chain		subclass	Sasa-DAB chain		
 Sasa-DAB*02:01 chain		subclass	Sasa-DAB chain		
@@ -22418,7 +22422,7 @@ Sasa-DAB*25:01 chain		subclass	Sasa-DAB chain
 Sasa-DAB*26:01 chain		subclass	Sasa-DAB chain		
 Sasa-DAB*27:01 chain		subclass	Sasa-DAB chain		
 Sasa-DAB*28:01 chain		subclass	Sasa-DAB chain		
-Sasa-UBA chain		equivalent	protein	Sasa-UBA locus
+Sasa-UBA chain		equivalent	protein	Sasa-UBA locus	
 Sasa-UBA*01:01 chain		subclass	Sasa-UBA chain		
 Sasa-UBA*02:01 chain		subclass	Sasa-UBA chain		
 Sasa-UBA*03:01 chain		subclass	Sasa-UBA chain		
@@ -22467,7 +22471,7 @@ Sasa-UBA*35:01 chain		subclass	Sasa-UBA chain
 Sasa-UBA*36:01 chain		subclass	Sasa-UBA chain		
 Sasa-UBA*37:01 chain		subclass	Sasa-UBA chain		
 Sasa-UBA*38:01 chain		subclass	Sasa-UBA chain		
-Sasc-G chain		equivalent	protein	Sasc-G locus
+Sasc-G chain		equivalent	protein	Sasc-G locus	
 Sasc-G*04:01 chain		subclass	Sasc-G chain		
 Spix's night monkey MHC class I chain		equivalent	protein	Spix's night monkey MHC class I locus	
 Spix's night monkey MHC class II chain		equivalent	protein	Spix's night monkey MHC class II locus	
