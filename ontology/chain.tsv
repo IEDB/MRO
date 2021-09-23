@@ -7,6 +7,7 @@ Anpl-UAA*SD chain		subclass	Anpl-UAA chain
 Assam macaque MHC class I chain		equivalent	protein	Assam macaque MHC class I locus	
 Assam macaque MHC class II chain		equivalent	protein	Assam macaque MHC class II locus	
 Atbe-B chain		equivalent	protein	Atbe-B locus	
+Atbe-B*01 chain		subclass	Atbe-B chain		
 Atbe-E chain		equivalent	protein	Atbe-E locus	
 Atbe-E*03:01 chain		subclass	Atbe-E chain		
 Atbe-G chain		equivalent	protein	Atbe-G locus	
@@ -124,7 +125,7 @@ BoLA-3*017:02 chain		subclass	BoLA-3 chain
 BoLA-3*017:03 chain		subclass	BoLA-3 chain		
 BoLA-3*027:01 chain		subclass	BoLA-3 chain		
 BoLA-3*027:02 chain		subclass	BoLA-3 chain		
-BoLA-3*033:01:01:01N chain		subclass	BoLA-3 chain		
+BoLA-3*033:01:01:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
 BoLA-3*035:01 chain		subclass	BoLA-3 chain		
 BoLA-3*036:01 chain		subclass	BoLA-3 chain		
 BoLA-3*037:01 chain		subclass	BoLA-3 chain		
@@ -148,7 +149,10 @@ BoLA-3*080:01 chain		subclass	BoLA-3 chain
 BoLA-3*081:01 chain		subclass	BoLA-3 chain		
 BoLA-3*082:01 chain		subclass	BoLA-3 chain		
 BoLA-3*083:01 chain		subclass	BoLA-3 chain		
+BoLA-3*084:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
+BoLA-3*086:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
 BoLA-3*087:01 chain		subclass	BoLA-3 chain		
+BoLA-3*098:01N chain		subclass	BoLA-3 chain		evidence of MHC chain expression not observed
 BoLA-4 chain		equivalent	protein	BoLA-4 locus	
 BoLA-4*024:01 chain		subclass	BoLA-4 chain		
 BoLA-4*024:02 chain		subclass	BoLA-4 chain		
@@ -1022,8 +1026,8 @@ Gogo-A*01:01:01 chain		subclass	Gogo-A chain
 Gogo-A*02:01 chain		subclass	Gogo-A chain		
 Gogo-A*04:01:01:01 chain		subclass	Gogo-A chain		
 Gogo-A*05:01 chain		subclass	Gogo-A chain		
-Gogo-A*05:02:01:01N chain		subclass	Gogo-A chain		
-Gogo-A*05:03:01:01N chain		subclass	Gogo-A chain		
+Gogo-A*05:02:01:01N chain		subclass	Gogo-A chain		evidence of MHC chain expression not observed
+Gogo-A*05:03:01:01N chain		subclass	Gogo-A chain		evidence of MHC chain expression not observed
 Gogo-A*07:01:01:01 chain		subclass	Gogo-A chain		
 Gogo-B chain		equivalent	protein	Gogo-B locus	
 Gogo-B*01:01 chain		subclass	Gogo-B chain		
@@ -18562,12 +18566,12 @@ Mafa-A1*080:02 chain		subclass	Mafa-A1 chain
 Mafa-A1*085:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*085:02:01:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:01:01 chain		subclass	Mafa-A1 chain		
-Mafa-A1*086:01:02:01N chain		subclass	Mafa-A1 chain		
+Mafa-A1*086:01:02:01N chain		subclass	Mafa-A1 chain		evidence of MHC chain expression not observed
 Mafa-A1*086:02 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:03 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:04 chain		subclass	Mafa-A1 chain		
 Mafa-A1*086:05 chain		subclass	Mafa-A1 chain		
-Mafa-A1*086:06:01:01N chain		subclass	Mafa-A1 chain		
+Mafa-A1*086:06:01:01N chain		subclass	Mafa-A1 chain		evidence of MHC chain expression not observed
 Mafa-A1*087:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*087:02:01:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*088:01 chain		subclass	Mafa-A1 chain		
@@ -18591,7 +18595,7 @@ Mafa-A1*090:04:02 chain		subclass	Mafa-A1 chain
 Mafa-A1*090:05 chain		subclass	Mafa-A1 chain		
 Mafa-A1*090:06 chain		subclass	Mafa-A1 chain		
 Mafa-A1*090:07 chain		subclass	Mafa-A1 chain		
-Mafa-A1*090:09:01:01N chain		subclass	Mafa-A1 chain		
+Mafa-A1*090:09:01:01N chain		subclass	Mafa-A1 chain		evidence of MHC chain expression not observed
 Mafa-A1*091:01 chain		subclass	Mafa-A1 chain		
 Mafa-A1*091:02 chain		subclass	Mafa-A1 chain		
 Mafa-A1*091:03:01:01 chain		subclass	Mafa-A1 chain		
@@ -18756,8 +18760,8 @@ Mafa-A3*13:10 chain		subclass	Mafa-A3 chain
 Mafa-A3*13:11 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:12 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:13 chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:14:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:14:01:02N chain		subclass	Mafa-A3 chain		
+Mafa-A3*13:14:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:14:01:02N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
 Mafa-A3*13:15:01:01 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:16 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:17:01 chain		subclass	Mafa-A3 chain		
@@ -18778,11 +18782,11 @@ Mafa-A3*13:29 chain		subclass	Mafa-A3 chain
 Mafa-A3*13:30:01:01 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:31 chain		subclass	Mafa-A3 chain		
 Mafa-A3*13:32 chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:33:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:34:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:34:02:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:35:01:01N chain		subclass	Mafa-A3 chain		
-Mafa-A3*13:35:01:02N chain		subclass	Mafa-A3 chain		
+Mafa-A3*13:33:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:34:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:34:02:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:35:01:01N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
+Mafa-A3*13:35:01:02N chain		subclass	Mafa-A3 chain		evidence of MHC chain expression not observed
 Mafa-A4 chain		equivalent	protein	Mafa-A4 locus	
 Mafa-A4*01:01:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:02:01:01 chain		subclass	Mafa-A4 chain		
@@ -18795,16 +18799,16 @@ Mafa-A4*01:06 chain		subclass	Mafa-A4 chain
 Mafa-A4*01:07:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:08:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:08:02:01 chain		subclass	Mafa-A4 chain		
-Mafa-A4*01:09N chain		subclass	Mafa-A4 chain		
+Mafa-A4*01:09N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*01:10 chain		subclass	Mafa-A4 chain		
 Mafa-A4*01:11 chain		subclass	Mafa-A4 chain		
-Mafa-A4*01:12N chain		subclass	Mafa-A4 chain		
+Mafa-A4*01:12N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*01:13 chain		subclass	Mafa-A4 chain		
 Mafa-A4*03:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*03:02 chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:01:01:01N chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:01:01:02N chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:02N chain		subclass	Mafa-A4 chain		
+Mafa-A4*14:01:01:01N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
+Mafa-A4*14:01:01:02N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
+Mafa-A4*14:02N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*14:03:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:03:01:02 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:03:01:03 chain		subclass	Mafa-A4 chain		
@@ -18826,13 +18830,13 @@ Mafa-A4*14:11:01:01 chain		subclass	Mafa-A4 chain
 Mafa-A4*14:11:01:02 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:12 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:13 chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:14N chain		subclass	Mafa-A4 chain		
+Mafa-A4*14:14N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*14:15 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:16:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:17:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:18:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A4*14:19:01:01 chain		subclass	Mafa-A4 chain		
-Mafa-A4*14:21:01:01N chain		subclass	Mafa-A4 chain		
+Mafa-A4*14:21:01:01N chain		subclass	Mafa-A4 chain		evidence of MHC chain expression not observed
 Mafa-A4*14:22:01:01 chain		subclass	Mafa-A4 chain		
 Mafa-A5 chain		equivalent	protein	Mafa-A5 locus	
 Mafa-A5*30:01:01:01 chain		subclass	Mafa-A5 chain		
@@ -18889,7 +18893,7 @@ Mafa-B*004:01 chain		subclass	Mafa-B chain
 Mafa-B*004:02 chain		subclass	Mafa-B chain		
 Mafa-B*004:03:01 chain		subclass	Mafa-B chain		
 Mafa-B*004:04:01:01 chain		subclass	Mafa-B chain		
-Mafa-B*005:01:01:01N chain		subclass	Mafa-B chain		
+Mafa-B*005:01:01:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*006:01:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*007:01:02 chain		subclass	Mafa-B chain		
 Mafa-B*007:02 chain		subclass	Mafa-B chain		
@@ -19189,7 +19193,7 @@ Mafa-B*061:02:01:01 chain		subclass	Mafa-B chain
 Mafa-B*061:03:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*061:04:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*061:05 chain		subclass	Mafa-B chain		
-Mafa-B*062:01N chain		subclass	Mafa-B chain		
+Mafa-B*062:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*063:01 chain		subclass	Mafa-B chain		
 Mafa-B*063:02 chain		subclass	Mafa-B chain		
 Mafa-B*063:03 chain		subclass	Mafa-B chain		
@@ -19421,7 +19425,7 @@ Mafa-B*124:01:01 chain		subclass	Mafa-B chain
 Mafa-B*124:02 chain		subclass	Mafa-B chain		
 Mafa-B*124:03:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*124:04:01:01 chain		subclass	Mafa-B chain		
-Mafa-B*124:05:01:01N chain		subclass	Mafa-B chain		
+Mafa-B*124:05:01:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*126:01 chain		subclass	Mafa-B chain		
 Mafa-B*131:01 chain		subclass	Mafa-B chain		
 Mafa-B*131:02:01:01 chain		subclass	Mafa-B chain		
@@ -19510,7 +19514,7 @@ Mafa-B*162:03:01:01 chain		subclass	Mafa-B chain
 Mafa-B*164:01 chain		subclass	Mafa-B chain		
 Mafa-B*164:02 chain		subclass	Mafa-B chain		
 Mafa-B*165:01 chain		subclass	Mafa-B chain		
-Mafa-B*167:01:01:01N chain		subclass	Mafa-B chain		
+Mafa-B*167:01:01:01N chain		subclass	Mafa-B chain		evidence of MHC chain expression not observed
 Mafa-B*168:01 chain		subclass	Mafa-B chain		
 Mafa-B*169:01 chain		subclass	Mafa-B chain		
 Mafa-B*170:01 chain		subclass	Mafa-B chain		
@@ -19651,7 +19655,7 @@ Mafa-I*01:68 chain		subclass	Mafa-I chain
 Mafa-I*01:69:01:01 chain		subclass	Mafa-I chain		
 Mafa-I*01:70 chain		subclass	Mafa-I chain		
 Mafa-I*02:01 chain		subclass	Mafa-I chain		
-Mafa-I*03:01:01:01N chain		subclass	Mafa-I chain		
+Mafa-I*03:01:01:01N chain		subclass	Mafa-I chain		evidence of MHC chain expression not observed
 Mafa-I*03:02 chain		subclass	Mafa-I chain		
 Mafa-I*03:03 chain		subclass	Mafa-I chain		
 Mafa-I*04:01 chain		subclass	Mafa-I chain		
@@ -21334,7 +21338,7 @@ Paan-B*44:01 chain		subclass	Paan-B chain
 Paan-B*45:01 chain		subclass	Paan-B chain		
 Paan-B*46:01 chain		subclass	Paan-B chain		
 Paan-B*47:01 chain		subclass	Paan-B chain		
-Paan-B*48:01N chain		subclass	Paan-B chain		
+Paan-B*48:01N chain		subclass	Paan-B chain		evidence of MHC chain expression not observed
 Paan-B*49:01 chain		subclass	Paan-B chain		
 Paan-B*50:01 chain		subclass	Paan-B chain		
 Paan-B*51:01 chain		subclass	Paan-B chain		
