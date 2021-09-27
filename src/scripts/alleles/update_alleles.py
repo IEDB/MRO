@@ -33,6 +33,9 @@ class Species:
             # Value from pairing is second allele
             class_II.add(self.pairing[allele_key])
 
+def Merge(dict1, dict2):
+    res = {**dict1, **dict2}
+    return res
 
 def get_MRO_seqs():
     """Get both the MRO alleles and the MRO generic chains"""
@@ -50,13 +53,12 @@ def get_MRO_seqs():
 
     return mro_alleles, mro_gen_chains
 
-
-def get_IPD_seqs():
+def get_IPD_seqs(input_file):
     """Gets sequences from IPD-MHC database"""
     # Create a dictionary mapping the IMGT accession to protein sequence
     seqs = {}
     allele_names = {}
-    with open(sys.argv[6]) as fasta:
+    with open(input_file) as fasta:
         accession = None
         seq = ""
         allele = ""
@@ -71,10 +73,12 @@ def get_IPD_seqs():
                 allele = ""
 
                 # Match the accession
-                if line.startswith(">IPD-MHC"):
+                if line.startswith(">IPD-MHC") or line.startswith(">HLA"):
                     accession = line.split(" ")[0][9:]
                     allele = line.split(" ")[1]
                     allele = (":").join(allele.split(":")[:4])
+                    if line.startswith(">HLA"):
+                        allele = f"HLA-{allele}"
             else:
                 seq += line.strip()
         seqs[accession] = seq
@@ -125,8 +129,7 @@ def get_missing_alleles(ipd_alleles, mro_alleles, classI, classII):
 
     # Find items in ipd-mhc not in MRO
     missing_alleles = ipd_alleles_set.difference(mro_alleles_set)
-    # Make sure we aren't processing any HLA alleles by accident
-    missing_alleles = {x for x in missing_alleles if "HLA" not in x}
+    # Don't deal with non class I or non class II alleles for now
     missing_alleles = {x for x in missing_alleles if x.split("*")[0] in classI or x.split("*")[0] in classII}
 
     return missing_alleles
@@ -481,7 +484,12 @@ def update_MRO():
 
     # Get new alleles
     mro_alleles, mro_gen_chains = get_MRO_seqs()
-    ipd_alleles, ipd_allele_map = get_IPD_seqs()
+    ipd_alleles, ipd_allele_map = get_IPD_seqs(sys.argv[6])
+    hla_alleles, hla_allele_map = get_IPD_seqs(sys.argv[9])
+    print(hla_alleles, hla_allele_map)
+    # Merge IPD and HLA dictionaries
+    ipd_alleles = Merge(ipd_alleles, hla_alleles)
+    ipd_allele_map = Merge(ipd_allele_map, hla_allele_map)
     
     new_alleles = get_missing_alleles(ipd_allele_map, mro_alleles, class_I, class_II)
 

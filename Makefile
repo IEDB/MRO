@@ -208,8 +208,8 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
-.PHONY: update-alleles-ipdmhc
-update-alleles-ipdmhc: src/scripts/alleles/update_alleles_ipdmhc.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv src/scripts/alleles/locus_data.json
+.PHONY: update-alleles
+update-alleles: src/scripts/alleles/update_alleles.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv src/scripts/alleles/locus_data.json build/hla.fasta
 	python3 $^
 
 ### OWL Files
