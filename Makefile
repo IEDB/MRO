@@ -187,6 +187,9 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
+build/hla.dat: | build
+	curl -o $@ -L https://github.com/ANHIG/IMGTHLA/raw/Latest/hla.dat
+
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
@@ -211,6 +214,10 @@ build/AlleleList.txt: | build
 .PHONY: update-mhcflurry-alleles
 update-mhcflurry-alleles: src/scripts/alleles/update_alleles_mhcflurry.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
+
+.PHONY: update-G-domain
+update-G-domain: build/hla.dat
+	python3 src/scripts/alleles/G_domain.py
 
 ### OWL Files
 
