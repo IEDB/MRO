@@ -42,25 +42,32 @@ EXCLUDED_GENES = {
     "DRB2"
 }
 
+#logging for debugging purposes
 #logging.basicConfig(filename = 'build/biopython.log', filemode = 'w', level = logging.DEBUG )
 #logging.basicConfig(filename = 'biopython.log', filemode = 'w', level = logging.INFO )
 logging.basicConfig(filename = 'build/biopython.log', filemode = 'w', level = logging.WARNING )
 
 logging.captureWarnings(True)
 
+# Read current chain sequences to get accession numbers
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
     reader = csv.DictReader(chain_sequence, delimiter = "\t")
     next(reader)
     data = {row["Accession"]: row["Label"] for row in reader}
 
 warnings.simplefilter('always', BiopythonParserWarning)
+
+# initialize some variables
 acc = list(data.keys())
 excluded_sequence = []
 G_domains = {}
 
+#process hla.dat file which has nucleotide and protein sequences on HLA alleles
 for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     logging.info(entry.name + " beginning")
     has_exon_1 = False
+
+    # If entry doesn't have a sequence it'll be with X (that will be the only amino acid)
     if entry.name not in acc or entry.seq == 'X' or entry.description.split(",")[0] in EXCLUDED_GENES:
         if entry.seq == 'X':
             logging.debug(entry.name + " has 'X' as sequence")
@@ -69,6 +76,8 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     cds = ""
     exons_to_get = []
     type = -1
+
+    # Exons to get depends on class, type flag also indicates partial or complete sequence
     if 'Human MHC Class I sequence' in entry.description and 'partial' in entry.description:
         exons_to_get = ['2', '3']
         type = 1
@@ -84,6 +93,7 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
     G_domain_nuc = ""
     G_domain = ""
     try:
+        #loop to figure out if there is exon 1 (needed for splicing to get first amino acid in G domain)
         for feature in entry.features:
             if 'number' in feature.qualifiers and feature.qualifiers['number'][0] == '1' and feature.type == 'exon':
                 has_exon_1 = True
@@ -95,6 +105,9 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             if len(exons) == 3:
                 break
         codon_start = int(cds.qualifiers['codon_start'][0])
+        # Figure out where to splice in exon 1 to get first amino acid in G domain.
+        # Usually need to find the start position of the last full codon in exon 1
+        # and from there find last nucleotide in exon 1
         if type == 3 and len(exons) == 3:
             exon_1_len = exons[0].location.end - exons[0].location.start
             last_full_codon_start = list(range(codon_start - 1, exon_1_len -1, 3))
@@ -147,6 +160,7 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             G_domain = G_domain_nuc.translate()
             if G_domain[-1] == 'X':
                 G_domain = G_domain[:-1]
+        # Make sure extracted translated G_domain from G_domain_nuc is in protein sequence from hla.dat file
         if 'seq' in dir(G_domain) and str(G_domain.seq) not in cds.qualifiers['translation'][0]:
             if '*' in str(G_domain.seq):
                 G_domain = G_domain[:str(G_domain.seq).find('*')]
@@ -162,6 +176,7 @@ for entry in SeqIO.parse("build/hla.dat", "imgt" ):
             excluded_sequence.append(entry)
     logging.info(entry.name + " ending")
 
+# Parse log when using for debugging
 with open("build/biopython.log", "r") as log_file:
     if logging.root.level == logging.DEBUG:
         while log_file:
@@ -182,6 +197,7 @@ with open("build/biopython.log", "r") as log_file:
                         else:
                             raise Exception("Warning other than BiopythonParserWarning: ", log_line)
 
+# Get current chain sequences again and have update list of dicts
 with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
     updated = []
     reader = csv.DictReader(chain_sequence, delimiter = "\t")
@@ -190,6 +206,7 @@ with open("ontology/chain-sequence.tsv", "r") as chain_sequence:
             row["minimal HLA G domain sequence"] = G_domains[row["Label"]]
         updated.append(row)
 
+# Write to G_domains to chain-sequence.tsv
 with open("ontology/chain-sequence.tsv", "w") as chain_sequence:
     writer = csv.DictWriter(chain_sequence, fieldnames = updated[0].keys(), lineterminator = "\n", delimiter = "\t")
     writer.writeheader()
