@@ -46,5 +46,8 @@ for filename in args.files:
         lineterminator="\n")
     writer.writerow(header1)
     writer.writerow(header2)
-    writer.writerows(data)
+    for row in data:
+        while len(row) < len(header1):
+            row.append("")
+        writer.writerow(row)
 
