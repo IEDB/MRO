@@ -51201,3 +51201,13 @@ MRO:0051199	Atbe-B*01 protein complex	owl:Class
 MRO:0051200	BoLA-3*084:01N protein complex	owl:Class	
 MRO:0051201	BoLA-3*086:01N protein complex	owl:Class	
 MRO:0051202	BoLA-3*098:01N protein complex	owl:Class	
+MRO:0051203	common brushtail MHC class I chain	owl:Class	
+MRO:0051204	common brushtail MHC class II chain	owl:Class	
+MRO:0051205	Trvu-UB chain	owl:Class	
+MRO:0051206	Trvu-UB*01:01 chain	owl:Class	
+MRO:0051207	common brushtail MHC class I locus	owl:Class	
+MRO:0051208	common brushtail MHC class II locus	owl:Class	
+MRO:0051209	Trvu-UB locus	owl:Class	
+MRO:0051210	common brushtail MHC class I protein complex	owl:Class	
+MRO:0051211	common brushtail MHC class II protein complex	owl:Class	
+MRO:0051212	Trvu-UB*01:01 protein complex	owl:Class	

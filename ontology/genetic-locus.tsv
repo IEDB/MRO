@@ -379,3 +379,6 @@ white-lipped tamarin MHC class I locus		subclass	MHC class I locus	white-lipped 
 white-lipped tamarin MHC class II locus		subclass	MHC class II locus	white-lipped tamarin
 yellow baboon MHC class I locus		subclass	MHC class I locus	yellow baboon
 yellow baboon MHC class II locus		subclass	MHC class II locus	yellow baboon
+common brushtail MHC class I locus		subclass	MHC class I locus	common brushtail
+common brushtail MHC class II locus		subclass	MHC class II locus	common brushtail
+Trvu-UB locus		subclass	common brushtail MHC class I locus	
