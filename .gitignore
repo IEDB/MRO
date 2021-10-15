@@ -19,4 +19,4 @@ __pycache__
 target/
 ~$mro.xlsx
 credentials.json
-_venv
+_venv.git-credentials

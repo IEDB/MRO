@@ -84,3 +84,4 @@ REO:0000079	genetic locus	genetic locus		subclass	genetic entity		a nucleic acid
 SO:0000355	haplotype_block	haplotype_block		subclass	genetic entity		A region of the genome which is co-inherited as the result of the lack of historic recombination within it.			http://purl.obolibrary.org/obo/so.owl	
 SO:0001024	haplotype	haplotype		subclass	genetic entity		A haplotype is one of a set of coexisting sequence variants of a haplotype block.			http://purl.obolibrary.org/obo/so.owl	
 owl:Thing	owl:Thing										
+NCBITaxon:9337	common brushtail	Trichosurus vulpecula		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Trvu
