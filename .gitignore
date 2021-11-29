@@ -20,3 +20,4 @@ target/
 ~$mro.xlsx
 credentials.json
 _venv
+.git-credentials
