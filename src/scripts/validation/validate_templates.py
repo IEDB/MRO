@@ -1088,6 +1088,7 @@ def main():
     labels = []
     with open(args.index, "r") as f:
         reader = csv.DictReader(f, delimiter="\t")
+        next(reader)
         row_num = 1
         for row in reader:
             row_num += 1
