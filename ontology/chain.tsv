@@ -14381,8 +14381,7 @@ HLA-DPB chain		equivalent	protein	HLA-DPB locus
 HLA-DQA1*01:01 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:02 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:03 chain		subclass	HLA-DQA chain		
-HLA-DQA1*01:04 chain		subclass	HLA-DQA chain		
-HLA-DQA1*01:04 chain		subclass	HLA-DQA chain		
+HLA-DQA1*01:04 chain		subclass	HLA-DQA chain			
 HLA-DQA1*01:05 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:06 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:07 chain		subclass	HLA-DQA chain		evidence of MHC chain expression questionable
@@ -21821,11 +21820,8 @@ Ptal-N chain		equivalent	protein	Ptal-N locus
 Ptal-N*01:01 chain		subclass	Ptal-N chain		
 RLA-A chain		equivalent	protein	RLA-A locus	
 RLA-A*01 chain		subclass	RLA-A chain		
-RT1-A1 chain		equivalent	protein	RT1-A1 locus	
-RT1-A1 chain		equivalent	protein	RT1-A1 locus	
+RT1-A1 chain		equivalent	protein	RT1-A1 locus		
 RT1-A2 chain		equivalent	protein	RT1-A2 locus	
-RT1-A2 chain		equivalent	protein	RT1-A2 locus	
-RT1-A chain		equivalent	protein	RT1-A locus	
 RT1-A chain		equivalent	protein	RT1-A locus	
 RT1-Aa chain		equivalent	protein	RT1-A locus	
 RT1-Ac chain		equivalent	protein	RT1-A locus	
