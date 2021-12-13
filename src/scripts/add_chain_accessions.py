@@ -46,10 +46,23 @@ def main():
             row["Chain II Accession"] = molecules[label]["chain_ii"]
         rows.append(row)
 
-    writer = csv.DictWriter(args.output, fieldnames=["Label", "IEDB ID", "Locus", "Chain I Source ID", "Chain I Accession", "Chain II Source ID", "Chain II Accession"], delimiter="\t", lineterminator="\n")
+    writer = csv.DictWriter(
+        args.output,
+        fieldnames=[
+            "Label",
+            "IEDB ID",
+            "Locus",
+            "Chain I Source ID",
+            "Chain I Accession",
+            "Chain II Source ID",
+            "Chain II Accession",
+        ],
+        delimiter="\t",
+        lineterminator="\n",
+    )
     writer.writeheader()
     writer.writerows(rows)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
