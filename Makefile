@@ -289,8 +289,12 @@ IEDB_TARGETS := build/mro-iedb.owl \
                 build/ALLELE_FINDER_SEARCH.csv \
                 build/ALLELE_FINDER_TREE.csv
 
+# add chain_i and chain_ii accessions to IEDB sheet
+build/iedb.tsv: src/scripts/add_chain_accessions.py iedb/iedb.tsv ontology/molecule.tsv ontology/chain-sequence.tsv
+	python3 $^ $@
+
 # extended version for IEDB use
-build/mro-iedb.owl: mro.owl iedb/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
+build/mro-iedb.owl: mro.owl build/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
 	$(ROBOT) template \
 	--prefix "MRO: $(OBO)/MRO_" \
 	--input $< \
