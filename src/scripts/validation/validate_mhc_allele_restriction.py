@@ -55,6 +55,8 @@ def main():
         "chain_ii_mutation": {TYPE: "string", MAX_LEN: 35, NULL: True},
         "chain_i_source_id": {TYPE: "number", NULL: True},
         "chain_ii_source_id": {TYPE: "number", NULL: True},
+        "chain_i_accession": {TYPE: "string", RE: r"HLA[0-9]+", NULL: True},
+        "chain_ii_accession": {TYPE: "string", RE: r"HLA[0-9]+", NULL: True},
         "iri": {
             TYPE: "string",
             MAX_LEN: 100,

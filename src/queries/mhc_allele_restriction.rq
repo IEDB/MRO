@@ -26,6 +26,8 @@ SELECT ?mhc_allele_restriction_id
   ?chain_ii_mutation
   ?chain_i_source_id
   ?chain_ii_source_id
+  ?chain_i_accession
+  ?chain_ii_accession
 
 WHERE {
   ?iri
@@ -244,6 +246,12 @@ WHERE {
         rdf:rest / rdf:first / owl:someValuesFrom / rdfs:label
           ?chain_ii_locus .
   }
+  OPTIONAL {
+    ?iri MRO:has-chain-i-accession ?chain_i_accession .
+  }
+  OPTIONAL {
+    ?iri MRO:has-chain-ii-accession ?chain_ii_accession .
+  }
 }
 GROUP BY ?mhc_allele_restriction_id
   ?iri
@@ -265,4 +273,6 @@ GROUP BY ?mhc_allele_restriction_id
   ?chain_ii_mutation
   ?chain_i_source_id
   ?chain_ii_source_id
+  ?chain_i_accession
+  ?chain_ii_accession
 ORDER BY xsd:integer(?mhc_allele_restriction_id) ?synonym
