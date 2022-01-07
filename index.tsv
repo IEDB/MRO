@@ -3,8 +3,8 @@ ID	A rdfs:label	TYPE	AT owl:deprecated^^xsd:boolean
 MRO:0000000	haplotype member of	owl:ObjectProperty	
 MRO:0000001	serotype member of	owl:ObjectProperty	
 MRO:0000002	is synthetic protein mutant of	owl:ObjectProperty	
-MRO:0000003	genetic entity	owl:Class	
-MRO:0000004	MHC locus	owl:Class	
+MRO:0000003	obsolete genetic entity	owl:Class	true
+MRO:0000004	MHC gene	owl:Class	
 MRO:0000005	MHC haplotype	owl:Class	
 MRO:0000006	serotype	owl:Class	
 MRO:0000007	MHC serotype	owl:Class	
@@ -14,118 +14,118 @@ MRO:0000010	MHC protein complex with haplotype	owl:Class
 MRO:0000011	MHC protein complex with serotype	owl:Class	
 MRO:0000012	mutant MHC protein complex	owl:Class	
 MRO:0000013	HLA-DR protein complex	owl:Class	
-MRO:0000014	Gaga-BF-B locus	owl:Class	
-MRO:0000015	Gaga-BF1 locus	owl:Class	
-MRO:0000016	Gaga-BF2 locus	owl:Class	
-MRO:0000017	Gaga-BF-YF locus	owl:Class	
-MRO:0000018	BoLA-1 locus	owl:Class	
-MRO:0000019	BoLA-2 locus	owl:Class	
-MRO:0000020	BoLA-3 locus	owl:Class	
-MRO:0000021	BoLA-6 locus	owl:Class	
-MRO:0000022	BoLA-CD1 locus	owl:Class	
-MRO:0000023	BoLA-DQA locus	owl:Class	
-MRO:0000024	BoLA-DQB locus	owl:Class	
-MRO:0000025	BoLA-DRA locus	owl:Class	
-MRO:0000026	BoLA-DRB locus	owl:Class	
-MRO:0000027	BoLA-DRB3 locus	owl:Class	
-MRO:0000028	BoLA-DRB6 locus	owl:Class	
-MRO:0000029	BoLA-MR1 locus	owl:Class	
-MRO:0000030	Caja-E locus	owl:Class	
-MRO:0000031	Caja-G locus	owl:Class	
-MRO:0000032	DLA-88 locus	owl:Class	
-MRO:0000033	ELA-N locus	owl:Class	
-MRO:0000034	Gogo-B locus	owl:Class	
-MRO:0000035	obsolete H2-CD1 locus	owl:Class	true
-MRO:0000036	H2-D locus	owl:Class	
-MRO:0000037	H2-IA alpha locus	owl:Class	
-MRO:0000038	H2-IA beta locus	owl:Class	
-MRO:0000039	H2-IE alpha locus	owl:Class	
-MRO:0000040	H2-IE beta locus	owl:Class	
-MRO:0000041	H2-K locus	owl:Class	
-MRO:0000042	H2-L locus	owl:Class	
-MRO:0000043	H2-M locus	owl:Class	
-MRO:0000044	H2-MR1 locus	owl:Class	
-MRO:0000045	H2-Q locus	owl:Class	
-MRO:0000046	HLA-A locus	owl:Class	
-MRO:0000047	HLA-B locus	owl:Class	
-MRO:0000048	HLA-BTN3A locus	owl:Class	
-MRO:0000049	HLA-C locus	owl:Class	
-MRO:0000050	HLA-CD1 locus	owl:Class	
-MRO:0000051	HLA-DPA locus	owl:Class	
-MRO:0000052	HLA-DPB locus	owl:Class	
-MRO:0000053	HLA-DQA locus	owl:Class	
-MRO:0000054	HLA-DQB locus	owl:Class	
-MRO:0000055	HLA-DRA locus	owl:Class	
-MRO:0000056	HLA-DRB locus	owl:Class	
-MRO:0000057	HLA-DRB1 locus	owl:Class	
-MRO:0000058	HLA-DRB3 locus	owl:Class	
-MRO:0000059	HLA-DRB4 locus	owl:Class	
-MRO:0000060	HLA-DRB5 locus	owl:Class	
-MRO:0000061	HLA-E locus	owl:Class	
-MRO:0000062	HLA-G locus	owl:Class	
-MRO:0000063	HLA-MR1 locus	owl:Class	
-MRO:0000064	MHC class I locus	owl:Class	
-MRO:0000065	MHC class II locus	owl:Class	
-MRO:0000066	Mamu-A locus	owl:Class	
-MRO:0000067	Mamu-B locus	owl:Class	
-MRO:0000068	Mamu-DPA locus	owl:Class	
-MRO:0000069	Mamu-DPB locus	owl:Class	
-MRO:0000070	Mamu-DRA locus	owl:Class	
-MRO:0000071	Mamu-DRB locus	owl:Class	
-MRO:0000072	Papa-A locus	owl:Class	
-MRO:0000073	Patr-A locus	owl:Class	
-MRO:0000074	Patr-AL locus	owl:Class	
-MRO:0000075	Patr-B locus	owl:Class	
-MRO:0000076	Patr-C locus	owl:Class	
-MRO:0000077	Patr-DPA locus	owl:Class	
-MRO:0000078	Patr-DPB locus	owl:Class	
-MRO:0000079	Patr-DQA locus	owl:Class	
-MRO:0000080	Patr-DQB locus	owl:Class	
-MRO:0000081	Patr-DRA locus	owl:Class	
-MRO:0000082	Patr-DRB locus	owl:Class	
-MRO:0000083	RT1-A locus	owl:Class	
-MRO:0000084	RT1-A1 locus	owl:Class	
-MRO:0000085	RT1-A2 locus	owl:Class	
-MRO:0000086	obsolete RT1-B locus	owl:Class	true
-MRO:0000087	obsolete RT1-D locus	owl:Class	true
-MRO:0000088	SLA-1 locus	owl:Class	
-MRO:0000089	SLA-2 locus	owl:Class	
-MRO:0000090	Saoe-G locus	owl:Class	
-MRO:0000091	bonobo MHC class I locus	owl:Class	
-MRO:0000092	bonobo MHC class II locus	owl:Class	
-MRO:0000093	cattle MHC class I locus	owl:Class	
-MRO:0000094	cattle MHC class II locus	owl:Class	
-MRO:0000095	cattle non-classical MHC locus	owl:Class	
-MRO:0000096	chicken MHC class I locus	owl:Class	
-MRO:0000097	chicken MHC class II locus	owl:Class	
-MRO:0000098	chicken non-classical MHC locus	owl:Class	
-MRO:0000099	chimpanzee MHC class I locus	owl:Class	
-MRO:0000100	chimpanzee MHC class II locus	owl:Class	
-MRO:0000101	chimpanzee non-classical MHC locus	owl:Class	
-MRO:0000102	cotton-top tamarin MHC class I locus	owl:Class	
-MRO:0000103	cotton-top tamarin MHC class II locus	owl:Class	
-MRO:0000104	dog MHC class I locus	owl:Class	
-MRO:0000105	dog MHC class II locus	owl:Class	
-MRO:0000106	gorilla MHC class I locus	owl:Class	
-MRO:0000107	gorilla MHC class II locus	owl:Class	
-MRO:0000108	horse MHC class I locus	owl:Class	
-MRO:0000109	horse MHC class II locus	owl:Class	
-MRO:0000110	human MHC class I locus	owl:Class	
-MRO:0000111	human MHC class II locus	owl:Class	
-MRO:0000112	human non-classical MHC locus	owl:Class	
-MRO:0000113	marmoset MHC class I locus	owl:Class	
-MRO:0000114	mouse MHC class I locus	owl:Class	
-MRO:0000115	mouse MHC class II locus	owl:Class	
-MRO:0000116	mouse non-classical MHC locus	owl:Class	
-MRO:0000117	non-classical MHC locus	owl:Class	
-MRO:0000118	pig MHC class I locus	owl:Class	
-MRO:0000119	pig MHC class II locus	owl:Class	
-MRO:0000120	rat MHC class I locus	owl:Class	
-MRO:0000121	rat MHC class II locus	owl:Class	
-MRO:0000122	rhesus macaque MHC class I locus	owl:Class	
-MRO:0000123	rhesus macaque MHC class II locus	owl:Class	
-MRO:0000124	domestic sheep MHC class I locus	owl:Class	
-MRO:0000125	domestic sheep MHC class II locus	owl:Class	
+MRO:0000014	Gaga-BF-B gene	owl:Class	
+MRO:0000015	Gaga-BF1 gene	owl:Class	
+MRO:0000016	Gaga-BF2 gene	owl:Class	
+MRO:0000017	Gaga-BF-YF gene	owl:Class	
+MRO:0000018	BoLA-1 gene	owl:Class	
+MRO:0000019	BoLA-2 gene	owl:Class	
+MRO:0000020	BoLA-3 gene	owl:Class	
+MRO:0000021	BoLA-6 gene	owl:Class	
+MRO:0000022	BoLA-CD1 gene	owl:Class	
+MRO:0000023	BoLA-DQA gene	owl:Class	
+MRO:0000024	BoLA-DQB gene	owl:Class	
+MRO:0000025	BoLA-DRA gene	owl:Class	
+MRO:0000026	BoLA-DRB gene	owl:Class	
+MRO:0000027	BoLA-DRB3 gene	owl:Class	
+MRO:0000028	BoLA-DRB6 gene	owl:Class	
+MRO:0000029	BoLA-MR1 gene	owl:Class	
+MRO:0000030	Caja-E gene	owl:Class	
+MRO:0000031	Caja-G gene	owl:Class	
+MRO:0000032	DLA-88 gene	owl:Class	
+MRO:0000033	ELA-N gene	owl:Class	
+MRO:0000034	Gogo-B gene	owl:Class	
+MRO:0000035	obsolete H2-CD1 gene	owl:Class	true
+MRO:0000036	H2-D gene	owl:Class	
+MRO:0000037	H2-IA alpha gene	owl:Class	
+MRO:0000038	H2-IA beta gene	owl:Class	
+MRO:0000039	H2-IE alpha gene	owl:Class	
+MRO:0000040	H2-IE beta gene	owl:Class	
+MRO:0000041	H2-K gene	owl:Class	
+MRO:0000042	H2-L gene	owl:Class	
+MRO:0000043	H2-M gene	owl:Class	
+MRO:0000044	H2-MR1 gene	owl:Class	
+MRO:0000045	H2-Q gene	owl:Class	
+MRO:0000046	HLA-A gene	owl:Class	
+MRO:0000047	HLA-B gene	owl:Class	
+MRO:0000048	HLA-BTN3A gene	owl:Class	
+MRO:0000049	HLA-C gene	owl:Class	
+MRO:0000050	HLA-CD1 gene	owl:Class	
+MRO:0000051	HLA-DPA gene	owl:Class	
+MRO:0000052	HLA-DPB gene	owl:Class	
+MRO:0000053	HLA-DQA gene	owl:Class	
+MRO:0000054	HLA-DQB gene	owl:Class	
+MRO:0000055	HLA-DRA gene	owl:Class	
+MRO:0000056	HLA-DRB gene	owl:Class	
+MRO:0000057	HLA-DRB1 gene	owl:Class	
+MRO:0000058	HLA-DRB3 gene	owl:Class	
+MRO:0000059	HLA-DRB4 gene	owl:Class	
+MRO:0000060	HLA-DRB5 gene	owl:Class	
+MRO:0000061	HLA-E gene	owl:Class	
+MRO:0000062	HLA-G gene	owl:Class	
+MRO:0000063	HLA-MR1 gene	owl:Class	
+MRO:0000064	MHC class I gene	owl:Class	
+MRO:0000065	MHC class II gene	owl:Class	
+MRO:0000066	Mamu-A gene	owl:Class	
+MRO:0000067	Mamu-B gene	owl:Class	
+MRO:0000068	Mamu-DPA gene	owl:Class	
+MRO:0000069	Mamu-DPB gene	owl:Class	
+MRO:0000070	Mamu-DRA gene	owl:Class	
+MRO:0000071	Mamu-DRB gene	owl:Class	
+MRO:0000072	Papa-A gene	owl:Class	
+MRO:0000073	Patr-A gene	owl:Class	
+MRO:0000074	Patr-AL gene	owl:Class	
+MRO:0000075	Patr-B gene	owl:Class	
+MRO:0000076	Patr-C gene	owl:Class	
+MRO:0000077	Patr-DPA gene	owl:Class	
+MRO:0000078	Patr-DPB gene	owl:Class	
+MRO:0000079	Patr-DQA gene	owl:Class	
+MRO:0000080	Patr-DQB gene	owl:Class	
+MRO:0000081	Patr-DRA gene	owl:Class	
+MRO:0000082	Patr-DRB gene	owl:Class	
+MRO:0000083	RT1-A gene	owl:Class	
+MRO:0000084	RT1-A1 gene	owl:Class	
+MRO:0000085	RT1-A2 gene	owl:Class	
+MRO:0000086	obsolete RT1-B gene	owl:Class	true
+MRO:0000087	obsolete RT1-D gene	owl:Class	true
+MRO:0000088	SLA-1 gene	owl:Class	
+MRO:0000089	SLA-2 gene	owl:Class	
+MRO:0000090	Saoe-G gene	owl:Class	
+MRO:0000091	bonobo MHC class I gene	owl:Class	
+MRO:0000092	bonobo MHC class II gene	owl:Class	
+MRO:0000093	cattle MHC class I gene	owl:Class	
+MRO:0000094	cattle MHC class II gene	owl:Class	
+MRO:0000095	cattle non-classical MHC gene	owl:Class	
+MRO:0000096	chicken MHC class I gene	owl:Class	
+MRO:0000097	chicken MHC class II gene	owl:Class	
+MRO:0000098	chicken non-classical MHC gene	owl:Class	
+MRO:0000099	chimpanzee MHC class I gene	owl:Class	
+MRO:0000100	chimpanzee MHC class II gene	owl:Class	
+MRO:0000101	chimpanzee non-classical MHC gene	owl:Class	
+MRO:0000102	cotton-top tamarin MHC class I gene	owl:Class	
+MRO:0000103	cotton-top tamarin MHC class II gene	owl:Class	
+MRO:0000104	dog MHC class I gene	owl:Class	
+MRO:0000105	dog MHC class II gene	owl:Class	
+MRO:0000106	gorilla MHC class I gene	owl:Class	
+MRO:0000107	gorilla MHC class II gene	owl:Class	
+MRO:0000108	horse MHC class I gene	owl:Class	
+MRO:0000109	horse MHC class II gene	owl:Class	
+MRO:0000110	human MHC class I gene	owl:Class	
+MRO:0000111	human MHC class II gene	owl:Class	
+MRO:0000112	human non-classical MHC gene	owl:Class	
+MRO:0000113	marmoset MHC class I gene	owl:Class	
+MRO:0000114	mouse MHC class I gene	owl:Class	
+MRO:0000115	mouse MHC class II gene	owl:Class	
+MRO:0000116	mouse non-classical MHC gene	owl:Class	
+MRO:0000117	non-classical MHC gene	owl:Class	
+MRO:0000118	pig MHC class I gene	owl:Class	
+MRO:0000119	pig MHC class II gene	owl:Class	
+MRO:0000120	rat MHC class I gene	owl:Class	
+MRO:0000121	rat MHC class II gene	owl:Class	
+MRO:0000122	rhesus macaque MHC class I gene	owl:Class	
+MRO:0000123	rhesus macaque MHC class II gene	owl:Class	
+MRO:0000124	domestic sheep MHC class I gene	owl:Class	
+MRO:0000125	domestic sheep MHC class II gene	owl:Class	
 MRO:0000126	A1 haplotype	owl:Class	
 MRO:0000127	A3 haplotype	owl:Class	
 MRO:0000128	A4 haplotype	owl:Class	
@@ -1751,12 +1751,12 @@ MRO:0001747	cotton-top tamarin MHC class II protein complex	owl:Class
 MRO:0001748	dog MHC class II protein complex	owl:Class	
 MRO:0001749	gorilla MHC class II protein complex	owl:Class	
 MRO:0001750	H2-Q1 chain	owl:Class	
-MRO:0001751	H2-Q1 locus	owl:Class	
+MRO:0001751	H2-Q1 gene	owl:Class	
 MRO:0001752	H2-Q1 protein complex	owl:Class	
 MRO:0001753	H2-Q2 chain	owl:Class	
-MRO:0001754	H2-Q2 locus	owl:Class	
+MRO:0001754	H2-Q2 gene	owl:Class	
 MRO:0001755	H2-Q2 protein complex	owl:Class	
-MRO:0001756	H2-Q9 locus	owl:Class	
+MRO:0001756	H2-Q9 gene	owl:Class	
 MRO:0001757	horse MHC class II protein complex	owl:Class	
 MRO:0001758	mouse MHC class I protein complex with H2-a haplotype	owl:Class	
 MRO:0001759	mouse MHC class I protein complex with H2-b haplotype	owl:Class	
@@ -1807,9 +1807,9 @@ MRO:0001803	RT1-Aa protein complex	owl:Class
 MRO:0001804	RT1-Ac chain	owl:Class	
 MRO:0001805	RT1-Ac protein complex	owl:Class	
 MRO:0001806	RT1-B alpha chain	owl:Class	
-MRO:0001807	RT1-B alpha locus	owl:Class	
+MRO:0001807	RT1-B alpha gene	owl:Class	
 MRO:0001808	RT1-B beta chain	owl:Class	
-MRO:0001809	RT1-B beta locus	owl:Class	
+MRO:0001809	RT1-B beta gene	owl:Class	
 MRO:0001810	RT1-B protein complex	owl:Class	
 MRO:0001811	RT1-Ba alpha chain	owl:Class	
 MRO:0001812	RT1-Ba beta chain	owl:Class	
@@ -1828,9 +1828,9 @@ MRO:0001824	RT1-Bu beta chain	owl:Class
 MRO:0001825	RT1-Bu protein complex	owl:Class	
 MRO:0001826	RT1-c haplotype	owl:Class	
 MRO:0001827	RT1-D alpha chain	owl:Class	
-MRO:0001828	RT1-D alpha locus	owl:Class	
+MRO:0001828	RT1-D alpha gene	owl:Class	
 MRO:0001829	RT1-D beta chain	owl:Class	
-MRO:0001830	RT1-D beta locus	owl:Class	
+MRO:0001830	RT1-D beta gene	owl:Class	
 MRO:0001831	RT1-D protein complex	owl:Class	
 MRO:0001832	RT1-Da alpha chain	owl:Class	
 MRO:0001833	RT1-Da beta chain	owl:Class	
@@ -1878,7 +1878,7 @@ MRO:0001874	BoLA-1*019:01 protein complex	owl:Class
 MRO:0001875	BoLA-2*008:01 chain	owl:Class	
 MRO:0001876	BoLA-2*008:01 protein complex	owl:Class	
 MRO:0001877	BoLA-4 chain	owl:Class	
-MRO:0001878	BoLA-4 locus	owl:Class	
+MRO:0001878	BoLA-4 gene	owl:Class	
 MRO:0001879	BoLA-4*024:01 chain	owl:Class	
 MRO:0001880	BoLA-4*024:01 protein complex	owl:Class	
 MRO:0001881	BoLA-6*013:02 chain	owl:Class	
@@ -1889,9 +1889,9 @@ MRO:0001885	BoLA-DRB3*018:01 chain	owl:Class
 MRO:0001886	BoLA-DRB3*018:01 protein complex	owl:Class	
 MRO:0001887	chicken MHC class I protein complex with B13 haplotype	owl:Class	
 MRO:0001888	ELA-1 chain	owl:Class	
-MRO:0001889	ELA-1 locus	owl:Class	
+MRO:0001889	ELA-1 gene	owl:Class	
 MRO:0001890	ELA-16 chain	owl:Class	
-MRO:0001891	ELA-16 locus	owl:Class	
+MRO:0001891	ELA-16 gene	owl:Class	
 MRO:0001892	Eqca-1*001:01 chain	owl:Class	
 MRO:0001893	Eqca-1*001:01 protein complex	owl:Class	
 MRO:0001894	Eqca-1*002:01 chain	owl:Class	
@@ -1974,7 +1974,7 @@ MRO:0001970	Mamu-DPB1*07:01 protein complex	owl:Class
 MRO:0001971	Mamu-DRB*W006:02 chain	owl:Class	
 MRO:0001972	Mamu-DRB*W006:02 protein complex	owl:Class	
 MRO:0001973	SLA-3 chain	owl:Class	
-MRO:0001974	SLA-3 locus	owl:Class	
+MRO:0001974	SLA-3 gene	owl:Class	
 MRO:0001975	SLA-3*02:02 chain	owl:Class	
 MRO:0001976	SLA-3*02:02 protein complex	owl:Class	
 MRO:0001977	SLA-3*04:01 chain	owl:Class	
@@ -1989,8 +1989,8 @@ MRO:0001985	has chain I mutation	owl:AnnotationProperty
 MRO:0001986	has chain II mutation	owl:AnnotationProperty	
 MRO:0001987	DLA-88*501:01 chain	owl:Class	
 MRO:0001988	DLA-88*501:01 protein complex	owl:Class	
-MRO:0001989	rat non-classical MHC locus	owl:Class	
-MRO:0001990	rat CD1 locus	owl:Class	
+MRO:0001989	rat non-classical MHC gene	owl:Class	
+MRO:0001990	rat CD1 gene	owl:Class	
 MRO:0001991	rat non-classical MHC chain	owl:Class	
 MRO:0001992	rat CD1 chain	owl:Class	
 MRO:0001993	rat CD1d chain	owl:Class	
@@ -2002,11 +2002,11 @@ MRO:0001998	HLA-DPB1*85:01 chain	owl:Class
 MRO:0001999	HLA-DPB1*85:01 protein complex	owl:Class	
 MRO:0002000	HLA-DRB1*14:06 chain	owl:Class	
 MRO:0002001	HLA-DRB1*14:06 protein complex	owl:Class	
-MRO:0002002	crab-eating macaque MHC class II locus	owl:Class	
-MRO:0002003	Mafa-DQA locus	owl:Class	
-MRO:0002004	Mafa-DQB locus	owl:Class	
-MRO:0002005	Mafa-DRA locus	owl:Class	
-MRO:0002006	Mafa-DRB locus	owl:Class	
+MRO:0002002	crab-eating macaque MHC class II gene	owl:Class	
+MRO:0002003	Mafa-DQA gene	owl:Class	
+MRO:0002004	Mafa-DQB gene	owl:Class	
+MRO:0002005	Mafa-DRA gene	owl:Class	
+MRO:0002006	Mafa-DRB gene	owl:Class	
 MRO:0002007	crab-eating macaque MHC class II chain	owl:Class	
 MRO:0002008	Mafa-DQA chain	owl:Class	
 MRO:0002009	Mafa-DQB chain	owl:Class	
@@ -2030,8 +2030,8 @@ MRO:0002026	H2-Dq protein complex	owl:Class
 MRO:0002027	H2-Kq protein complex	owl:Class	
 MRO:0002028	HLA-DPA1*01:03/DPB1*05:01 protein complex	owl:Class	
 MRO:0002029	HLA-DPA1*01:03/DPB1*08:01 protein complex	owl:Class	
-MRO:0002030	duck MHC class I locus	owl:Class	
-MRO:0002031	Anpl-UAA locus	owl:Class	
+MRO:0002030	duck MHC class I gene	owl:Class	
+MRO:0002031	Anpl-UAA gene	owl:Class	
 MRO:0002032	duck MHC class I chain	owl:Class	
 MRO:0002033	Anpl-UAA chain	owl:Class	
 MRO:0002034	Anpl-UAA*01 chain	owl:Class	
@@ -2068,21 +2068,21 @@ MRO:0002064	SLA-1*20:01 protein complex	owl:Class
 MRO:0002065	SLA-1*08:09 protein complex	owl:Class	
 MRO:0002066	SLA-1*11:01 protein complex	owl:Class	
 MRO:0002067	SLA-1*12:01 protein complex	owl:Class	
-MRO:0002068	mouse CD1d locus	owl:Class	
+MRO:0002068	mouse CD1d gene	owl:Class	
 MRO:0002069	mouse CD1d1 chain	owl:Class	
 MRO:0002070	mouse CD1d2 chain	owl:Class	
 MRO:0002071	mouse CD1d1 protein complex	owl:Class	
 MRO:0002072	mouse CD1d2 protein complex	owl:Class	
-MRO:0002073	cat MHC class I locus	owl:Class	
-MRO:0002074	cat MHC class II locus	owl:Class	
-MRO:0002075	cat non-classical MHC locus	owl:Class	
+MRO:0002073	cat MHC class I gene	owl:Class	
+MRO:0002074	cat MHC class II gene	owl:Class	
+MRO:0002075	cat non-classical MHC gene	owl:Class	
 MRO:0002076	cat MHC class I chain	owl:Class	
 MRO:0002077	cat MHC class II chain	owl:Class	
 MRO:0002078	cat non-classical MHC chain	owl:Class	
 MRO:0002079	cat MHC class I protein complex	owl:Class	
 MRO:0002080	cat MHC class II protein complex	owl:Class	
 MRO:0002081	cat non-classical MHC protein complex	owl:Class	
-MRO:0002082	FLA-E locus	owl:Class	
+MRO:0002082	FLA-E gene	owl:Class	
 MRO:0002083	FLA-E chain	owl:Class	
 MRO:0002084	FLA-E*01801 chain	owl:Class	
 MRO:0002085	FLA-E protein complex	owl:Class	
@@ -2102,14 +2102,14 @@ MRO:0002098	SLA-2*11:04 chain	owl:Class
 MRO:0002099	SLA-1*14:02 chain	owl:Class	
 MRO:0002100	SLA-2*11:04 protein complex	owl:Class	
 MRO:0002101	SLA-1*14:02 protein complex	owl:Class	
-MRO:0002102	Mamu-E locus	owl:Class	
+MRO:0002102	Mamu-E gene	owl:Class	
 MRO:0002103	Mamu-E chain	owl:Class	
 MRO:0002104	Mamu-E*02:04 chain	owl:Class	
 MRO:0002105	Mamu-E*02:04 protein complex	owl:Class	
 MRO:0002106	HLA-B*44:09 chain	owl:Class	
 MRO:0002107	HLA-B*44:09 protein complex	owl:Class	
-MRO:0002108	rhesus macaque non-classical MHC locus	owl:Class	
-MRO:0002109	Mamu-MR1 locus	owl:Class	
+MRO:0002108	rhesus macaque non-classical MHC gene	owl:Class	
+MRO:0002109	Mamu-MR1 gene	owl:Class	
 MRO:0002110	rhesus macaque non-classical MHC chain	owl:Class	
 MRO:0002111	Mamu-MR1 chain	owl:Class	
 MRO:0002112	Mamu-MR1 protein complex	owl:Class	
@@ -2121,7 +2121,7 @@ MRO:0002117	rhesus macaque MR1 protein complex	owl:Class
 MRO:0002118	Mamu-E protein complex	owl:Class	
 MRO:0002119	HLA-C*08:03 chain	owl:Class	
 MRO:0002120	HLA-C*08:03 protein complex	owl:Class	
-MRO:0002121	HLA-F locus	owl:Class	
+MRO:0002121	HLA-F gene	owl:Class	
 MRO:0002122	MHC non-classical serotype	owl:Class	
 MRO:0002123	human MHC non-classical serotype	owl:Class	
 MRO:0002124	HLA-F serotype	owl:Class	
@@ -2132,8 +2132,8 @@ MRO:0002128	HLA-F*01:01 protein complex	owl:Class
 MRO:0002129	MHC non-classical protein complex with serotype	owl:Class	
 MRO:0002130	human MHC non-classical protein complex with serotype	owl:Class	
 MRO:0002131	HLA protein complex with F serotype	owl:Class	
-MRO:0002132	black flying fox MHC class I locus	owl:Class	
-MRO:0002133	Ptal-N locus	owl:Class	
+MRO:0002132	black flying fox MHC class I gene	owl:Class	
+MRO:0002133	Ptal-N gene	owl:Class	
 MRO:0002134	black flying fox MHC class I chain	owl:Class	
 MRO:0002135	Ptal-N chain	owl:Class	
 MRO:0002136	Ptal-N*01:01 chain	owl:Class	
@@ -2158,8 +2158,8 @@ MRO:0002154	HLA-B*48:03 chain	owl:Class
 MRO:0002155	HLA-C*16:02 chain	owl:Class	
 MRO:0002156	Xela-UAAg chain	owl:Class	
 MRO:0002157	clawed frog MHC class I chain	owl:Class	
-MRO:0002158	clawed frog MHC class I locus	owl:Class	
-MRO:0002159	clawed frog MHC class II locus	owl:Class	
+MRO:0002158	clawed frog MHC class I gene	owl:Class	
+MRO:0002159	clawed frog MHC class II gene	owl:Class	
 MRO:0002160	HLA-F*01:03 chain	owl:Class	
 MRO:0002161	HLA-F*01:04 chain	owl:Class	
 MRO:0002162	HLA-F*01:03 protein complex	owl:Class	
@@ -2198,7 +2198,7 @@ MRO:0002194	HLA-C*03:13 protein complex	owl:Class
 MRO:0002195	HLA-B*15:15 protein complex	owl:Class	
 MRO:0002196	Mamu-A1*065:01 protein complex	owl:Class	
 MRO:0002197	HLA protein complex with B23 serotype	owl:Class	
-MRO:0002198	Xela-UAAg locus	owl:Class	
+MRO:0002198	Xela-UAAg gene	owl:Class	
 MRO:0002199	HLA-A*34:01 chain	owl:Class	
 MRO:0002200	HLA-A*34:02 chain	owl:Class	
 MRO:0002201	HLA-A*36:01 chain	owl:Class	
@@ -2301,9 +2301,9 @@ MRO:0002297	HLA-C*07:06 protein complex	owl:Class
 MRO:0002298	HLA-B*07:05 protein complex	owl:Class	
 MRO:0002299	HLA-DPA1*02:01/DPB1*13:01 protein complex	owl:Class	
 MRO:0002300	HLA-DPA1*02:01/DPB1*10:01 protein complex	owl:Class	
-MRO:0002301	rabbit MHC class I locus	owl:Class	
-MRO:0002302	rabbit MHC class II locus	owl:Class	
-MRO:0002303	RLA-A locus	owl:Class	
+MRO:0002301	rabbit MHC class I gene	owl:Class	
+MRO:0002302	rabbit MHC class II gene	owl:Class	
+MRO:0002303	RLA-A gene	owl:Class	
 MRO:0002304	rabbit MHC class I chain	owl:Class	
 MRO:0002305	rabbit MHC class II chain	owl:Class	
 MRO:0002306	RLA-A chain	owl:Class	
@@ -35793,10 +35793,10 @@ MRO:0035789	SLA-DRB1*10:01 chain	owl:Class
 MRO:0035790	SLA-DRB1*06:01 chain	owl:Class	
 MRO:0035791	SLA-DRB1*04:02 chain	owl:Class	
 MRO:0035792	SLA-DRB1*06:02 chain	owl:Class	
-MRO:0035793	SLA-DRB locus	owl:Class	
+MRO:0035793	SLA-DRB gene	owl:Class	
 MRO:0035794	SLA-DRB chain	owl:Class	
 MRO:0035795	SLA-DRA chain	owl:Class	
-MRO:0035796	SLA-DRA locus	owl:Class	
+MRO:0035796	SLA-DRA gene	owl:Class	
 MRO:0035797	SLA-DR protein complex	owl:Class	
 MRO:0035798	SLA-3 protein complex	owl:Class	
 MRO:0035799	BoLA-3*011:01 chain	owl:Class	
@@ -36986,12 +36986,12 @@ MRO:0036982	evidence of MHC chain expression questionable	owl:Class
 MRO:0036983	evidence of MHC chain expression not observed	owl:Class	
 MRO:0036984	evidence of MHC chain expression observed	owl:Class	
 MRO:0036985	evidence of MHC chain expression observed in >1% of the population	owl:Class	
-MRO:0036986	giant panda MHC class I locus	owl:Class	
-MRO:0036987	giant panda MHC class II locus	owl:Class	
-MRO:0036988	grass carp MHC class I locus	owl:Class	
-MRO:0036989	grass carp MHC class II locus	owl:Class	
-MRO:0036990	Aime-128 locus	owl:Class	
-MRO:0036991	Ctid-UAA locus	owl:Class	
+MRO:0036986	giant panda MHC class I gene	owl:Class	
+MRO:0036987	giant panda MHC class II gene	owl:Class	
+MRO:0036988	grass carp MHC class I gene	owl:Class	
+MRO:0036989	grass carp MHC class II gene	owl:Class	
+MRO:0036990	Aime-128 gene	owl:Class	
+MRO:0036991	Ctid-UAA gene	owl:Class	
 MRO:0036992	Aime-128 chain	owl:Class	
 MRO:0036993	Ctid-UAA chain	owl:Class	
 MRO:0036994	HLA-A*01:159 chain	owl:Class	
@@ -37040,30 +37040,30 @@ MRO:0037036	giant panda MHC class I protein complex	owl:Class
 MRO:0037037	giant panda MHC class II protein complex	owl:Class	
 MRO:0037038	grass carp MHC class I protein complex	owl:Class	
 MRO:0037039	grass carp MHC class II protein complex	owl:Class	
-MRO:0037040	Mafa-A1 locus	owl:Class	
-MRO:0037041	crab-eating macaque MHC class I locus	owl:Class	
+MRO:0037040	Mafa-A1 gene	owl:Class	
+MRO:0037041	crab-eating macaque MHC class I gene	owl:Class	
 MRO:0037042	Mafa-A1 chain	owl:Class	
 MRO:0037043	Mafa-A1*063:01 chain	owl:Class	
 MRO:0037044	crab-eating macaque MHC class I chain	owl:Class	
 MRO:0037045	Mafa-A1*063:01 protein complex	owl:Class	
 MRO:0037046	Mafa-A1 protein complex	owl:Class	
 MRO:0037047	crab-eating macaque MHC class I protein complex	owl:Class	
-MRO:0037048	grass carp Beta-2-microglobulin locus	owl:Class	
-MRO:0037049	Beta-2-microglobulin locus	owl:Class	
+MRO:0037048	grass carp Beta-2-microglobulin gene	owl:Class	
+MRO:0037049	Beta-2-microglobulin gene	owl:Class	
 MRO:0037050	grass carp Beta-2-microglobulin-1-II chain	owl:Class	
 MRO:0037051	grass carp Beta-2-microglobulin-2 chain	owl:Class	
 MRO:0037052	grass carp Beta-2-microglobulin chain	owl:Class	
 MRO:0037053	Ctid-UAA/b2m-2 protein complex	owl:Class	
 MRO:0037054	Anpl-UAA*SD protein complex	owl:Class	
 MRO:0037055	Anpl-UAA*SD chain	owl:Class	
-MRO:0037056	Mamu-CD1 locus	owl:Class	
+MRO:0037056	Mamu-CD1 gene	owl:Class	
 MRO:0037057	rhesus macaque CD1b chain	owl:Class	
 MRO:0037058	rhesus macaque CD1c chain	owl:Class	
 MRO:0037059	Mamu-CD1 chain	owl:Class	
 MRO:0037060	rhesus macaque CD1b protein complex	owl:Class	
 MRO:0037061	rhesus macaque CD1c protein complex	owl:Class	
-MRO:0037062	Mamu-DQA locus	owl:Class	
-MRO:0037063	Mamu-DQB locus	owl:Class	
+MRO:0037062	Mamu-DQA gene	owl:Class	
+MRO:0037063	Mamu-DQB gene	owl:Class	
 MRO:0037064	Mamu-DQA chain	owl:Class	
 MRO:0037065	Mamu-DQB chain	owl:Class	
 MRO:0037066	Mamu-B*039:03 chain	owl:Class	
@@ -40974,11 +40974,11 @@ MRO:0040970	SLA-3*03:13 protein complex	owl:Class
 MRO:0040971	SLA-1*04:05 protein complex	owl:Class	
 MRO:0040972	SLA-2*08:04 protein complex	owl:Class	
 MRO:0040973	SLA-3*04:02 protein complex	owl:Class	
-MRO:0040974	SLA-DQA locus	owl:Class	
-MRO:0040975	SLA-DQB locus	owl:Class	
+MRO:0040974	SLA-DQA gene	owl:Class	
+MRO:0040975	SLA-DQB gene	owl:Class	
 MRO:0040976	SLA-DQA chain	owl:Class	
 MRO:0040977	SLA-DQB chain	owl:Class	
-MRO:0040978	SLA-6 locus	owl:Class	
+MRO:0040978	SLA-6 gene	owl:Class	
 MRO:0040979	SLA-6 chain	owl:Class	
 MRO:0040980	HLA-DQA1*01:07 chain	owl:Class	
 MRO:0040981	HLA-DPA1*01:03/DPB1*02:02 protein complex	owl:Class	
@@ -45846,15 +45846,15 @@ MRO:0045842	HLA-DQA1*06:02/DQB1*06:41 protein complex	owl:Class
 MRO:0045843	HLA-DQA1*06:02/DQB1*06:42 protein complex	owl:Class	
 MRO:0045844	HLA-DQA1*06:02/DQB1*06:43 protein complex	owl:Class	
 MRO:0045845	HLA-DQA1*06:02/DQB1*06:44 protein complex	owl:Class	
-MRO:0045846	BoLA-NC1 locus	owl:Class	
+MRO:0045846	BoLA-NC1 gene	owl:Class	
 MRO:0045847	BoLA-NC1 chain	owl:Class	
-MRO:0045848	BoLA-NC2 locus	owl:Class	
+MRO:0045848	BoLA-NC2 gene	owl:Class	
 MRO:0045849	BoLA-NC2 chain	owl:Class	
-MRO:0045850	BoLA-NC3 locus	owl:Class	
+MRO:0045850	BoLA-NC3 gene	owl:Class	
 MRO:0045851	BoLA-NC3 chain	owl:Class	
-MRO:0045852	BoLA-NC4 locus	owl:Class	
+MRO:0045852	BoLA-NC4 gene	owl:Class	
 MRO:0045853	BoLA-NC4 chain	owl:Class	
-MRO:0045854	BoLA-5 locus	owl:Class	
+MRO:0045854	BoLA-5 gene	owl:Class	
 MRO:0045855	BoLA-5 chain	owl:Class	
 MRO:0045856	BoLA-NC1 protein complex	owl:Class	
 MRO:0045857	BoLA-NC2 protein complex	owl:Class	
@@ -45955,104 +45955,104 @@ MRO:0045953	goat MHC class II protein complex	owl:Class
 MRO:0045954	BF2 haplotype	owl:Class	
 MRO:0045955	chicken MHC class II protein complex with BF2 haplotype	owl:Class	
 MRO:0045956	chicken MHC class II protein complex with B2 haplotype	owl:Class	
-MRO:0045957	Guatemalan black howler MHC class I locus	owl:Class	
-MRO:0045958	Guatemalan black howler MHC class II locus	owl:Class	
-MRO:0045959	Azara's night monkey MHC class I locus	owl:Class	
-MRO:0045960	Azara's night monkey MHC class II locus	owl:Class	
-MRO:0045961	gray-bellied night monkey MHC class I locus	owl:Class	
-MRO:0045962	gray-bellied night monkey MHC class II locus	owl:Class	
-MRO:0045963	Nancy Ma's night monkey MHC class I locus	owl:Class	
-MRO:0045964	Nancy Ma's night monkey MHC class II locus	owl:Class	
-MRO:0045965	black-headed night monkey MHC class I locus	owl:Class	
-MRO:0045966	black-headed night monkey MHC class II locus	owl:Class	
-MRO:0045967	three-striped night monkey MHC class I locus	owl:Class	
-MRO:0045968	three-striped night monkey MHC class II locus	owl:Class	
-MRO:0045969	Spix's night monkey MHC class I locus	owl:Class	
-MRO:0045970	Spix's night monkey MHC class II locus	owl:Class	
-MRO:0045971	white-fronted spider monkey MHC class I locus	owl:Class	
-MRO:0045972	white-fronted spider monkey MHC class II locus	owl:Class	
-MRO:0045973	black-headed spider monkey MHC class I locus	owl:Class	
-MRO:0045974	black-headed spider monkey MHC class II locus	owl:Class	
-MRO:0045975	red-bellied titi MHC class I locus	owl:Class	
-MRO:0045976	red-bellied titi MHC class II locus	owl:Class	
-MRO:0045977	pygmy marmoset MHC class I locus	owl:Class	
-MRO:0045978	pygmy marmoset MHC class II locus	owl:Class	
-MRO:0045979	tufted capuchin MHC class I locus	owl:Class	
-MRO:0045980	tufted capuchin MHC class II locus	owl:Class	
-MRO:0045981	sooty mangabey MHC class I locus	owl:Class	
-MRO:0045982	sooty mangabey MHC class II locus	owl:Class	
-MRO:0045983	blue monkey MHC class I locus	owl:Class	
-MRO:0045984	blue monkey MHC class II locus	owl:Class	
-MRO:0045985	De Brazza's monkey MHC class I locus	owl:Class	
-MRO:0045986	De Brazza's monkey MHC class II locus	owl:Class	
-MRO:0045987	grivet MHC class I locus	owl:Class	
-MRO:0045988	grivet MHC class II locus	owl:Class	
-MRO:0045989	vervet monkey MHC class I locus	owl:Class	
-MRO:0045990	vervet monkey MHC class II locus	owl:Class	
-MRO:0045991	green monkey MHC class I locus	owl:Class	
-MRO:0045992	green monkey MHC class II locus	owl:Class	
-MRO:0045993	mantled guereza MHC class I locus	owl:Class	
-MRO:0045994	mantled guereza MHC class II locus	owl:Class	
-MRO:0045995	eastern gorilla MHC class I locus	owl:Class	
-MRO:0045996	eastern gorilla MHC class II locus	owl:Class	
-MRO:0045997	lar gibbon MHC class I locus	owl:Class	
-MRO:0045998	lar gibbon MHC class II locus	owl:Class	
-MRO:0045999	silvery Javan gibbon MHC class I locus	owl:Class	
-MRO:0046000	silvery Javan gibbon MHC class II locus	owl:Class	
-MRO:0046001	golden lion tamarin MHC class I locus	owl:Class	
-MRO:0046002	golden lion tamarin MHC class II locus	owl:Class	
-MRO:0046003	black crested mangabey MHC class I locus	owl:Class	
-MRO:0046004	black crested mangabey MHC class II locus	owl:Class	
-MRO:0046005	stump-tailed macaque MHC class I locus	owl:Class	
-MRO:0046006	stump-tailed macaque MHC class II locus	owl:Class	
-MRO:0046007	Assam macaque MHC class I locus	owl:Class	
-MRO:0046008	Assam macaque MHC class II locus	owl:Class	
-MRO:0046009	Japanese macaque MHC class I locus	owl:Class	
-MRO:0046010	Japanese macaque MHC class II locus	owl:Class	
-MRO:0046011	drill MHC class I locus	owl:Class	
-MRO:0046012	drill MHC class II locus	owl:Class	
-MRO:0046013	northern pig-tailed macaque MHC class I locus	owl:Class	
-MRO:0046014	northern pig-tailed macaque MHC class II locus	owl:Class	
-MRO:0046015	southern pig-tailed macaque MHC class I locus	owl:Class	
-MRO:0046016	southern pig-tailed macaque MHC class II locus	owl:Class	
-MRO:0046017	lion-tailed macaque MHC class I locus	owl:Class	
-MRO:0046018	lion-tailed macaque MHC class II locus	owl:Class	
-MRO:0046019	mandrill MHC class I locus	owl:Class	
-MRO:0046020	mandrill MHC class II locus	owl:Class	
-MRO:0046021	Milne Edward's macaque MHC class I locus	owl:Class	
-MRO:0046022	Milne Edward's macaque MHC class II locus	owl:Class	
-MRO:0046023	olive baboon MHC class I locus	owl:Class	
-MRO:0046024	olive baboon MHC class II locus	owl:Class	
-MRO:0046025	yellow baboon MHC class I locus	owl:Class	
-MRO:0046026	yellow baboon MHC class II locus	owl:Class	
-MRO:0046027	hamadryas baboon MHC class I locus	owl:Class	
-MRO:0046028	hamadryas baboon MHC class II locus	owl:Class	
-MRO:0046029	Guinea baboon MHC class I locus	owl:Class	
-MRO:0046030	Guinea baboon MHC class II locus	owl:Class	
-MRO:0046031	chacma Baboon MHC class I locus	owl:Class	
-MRO:0046032	chacma Baboon MHC class II locus	owl:Class	
-MRO:0046033	white-faced saki MHC class I locus	owl:Class	
-MRO:0046034	white-faced saki MHC class II locus	owl:Class	
-MRO:0046035	Sumatran orangutan MHC class I locus	owl:Class	
-MRO:0046036	Sumatran orangutan MHC class II locus	owl:Class	
-MRO:0046037	Bornean orangutan MHC class I locus	owl:Class	
-MRO:0046038	Bornean orangutan MHC class II locus	owl:Class	
-MRO:0046039	golden snub-nosed monkey MHC class I locus	owl:Class	
-MRO:0046040	golden snub-nosed monkey MHC class II locus	owl:Class	
-MRO:0046041	brown-mantled tamarin MHC class I locus	owl:Class	
-MRO:0046042	brown-mantled tamarin MHC class II locus	owl:Class	
-MRO:0046043	Geoffroy's tamarin MHC class I locus	owl:Class	
-MRO:0046044	Geoffroy's tamarin MHC class II locus	owl:Class	
-MRO:0046045	white-lipped tamarin MHC class I locus	owl:Class	
-MRO:0046046	white-lipped tamarin MHC class II locus	owl:Class	
-MRO:0046047	moustached tamarin MHC class I locus	owl:Class	
-MRO:0046048	moustached tamarin MHC class II locus	owl:Class	
-MRO:0046049	common squirrel monkey MHC class I locus	owl:Class	
-MRO:0046050	common squirrel monkey MHC class II locus	owl:Class	
-MRO:0046051	northern plains gray langur MHC class I locus	owl:Class	
-MRO:0046052	northern plains gray langur MHC class II locus	owl:Class	
-MRO:0046053	gelada MHC class I locus	owl:Class	
-MRO:0046054	gelada MHC class II locus	owl:Class	
+MRO:0045957	Guatemalan black howler MHC class I gene	owl:Class	
+MRO:0045958	Guatemalan black howler MHC class II gene	owl:Class	
+MRO:0045959	Azara's night monkey MHC class I gene	owl:Class	
+MRO:0045960	Azara's night monkey MHC class II gene	owl:Class	
+MRO:0045961	gray-bellied night monkey MHC class I gene	owl:Class	
+MRO:0045962	gray-bellied night monkey MHC class II gene	owl:Class	
+MRO:0045963	Nancy Ma's night monkey MHC class I gene	owl:Class	
+MRO:0045964	Nancy Ma's night monkey MHC class II gene	owl:Class	
+MRO:0045965	black-headed night monkey MHC class I gene	owl:Class	
+MRO:0045966	black-headed night monkey MHC class II gene	owl:Class	
+MRO:0045967	three-striped night monkey MHC class I gene	owl:Class	
+MRO:0045968	three-striped night monkey MHC class II gene	owl:Class	
+MRO:0045969	Spix's night monkey MHC class I gene	owl:Class	
+MRO:0045970	Spix's night monkey MHC class II gene	owl:Class	
+MRO:0045971	white-fronted spider monkey MHC class I gene	owl:Class	
+MRO:0045972	white-fronted spider monkey MHC class II gene	owl:Class	
+MRO:0045973	black-headed spider monkey MHC class I gene	owl:Class	
+MRO:0045974	black-headed spider monkey MHC class II gene	owl:Class	
+MRO:0045975	red-bellied titi MHC class I gene	owl:Class	
+MRO:0045976	red-bellied titi MHC class II gene	owl:Class	
+MRO:0045977	pygmy marmoset MHC class I gene	owl:Class	
+MRO:0045978	pygmy marmoset MHC class II gene	owl:Class	
+MRO:0045979	tufted capuchin MHC class I gene	owl:Class	
+MRO:0045980	tufted capuchin MHC class II gene	owl:Class	
+MRO:0045981	sooty mangabey MHC class I gene	owl:Class	
+MRO:0045982	sooty mangabey MHC class II gene	owl:Class	
+MRO:0045983	blue monkey MHC class I gene	owl:Class	
+MRO:0045984	blue monkey MHC class II gene	owl:Class	
+MRO:0045985	De Brazza's monkey MHC class I gene	owl:Class	
+MRO:0045986	De Brazza's monkey MHC class II gene	owl:Class	
+MRO:0045987	grivet MHC class I gene	owl:Class	
+MRO:0045988	grivet MHC class II gene	owl:Class	
+MRO:0045989	vervet monkey MHC class I gene	owl:Class	
+MRO:0045990	vervet monkey MHC class II gene	owl:Class	
+MRO:0045991	green monkey MHC class I gene	owl:Class	
+MRO:0045992	green monkey MHC class II gene	owl:Class	
+MRO:0045993	mantled guereza MHC class I gene	owl:Class	
+MRO:0045994	mantled guereza MHC class II gene	owl:Class	
+MRO:0045995	eastern gorilla MHC class I gene	owl:Class	
+MRO:0045996	eastern gorilla MHC class II gene	owl:Class	
+MRO:0045997	lar gibbon MHC class I gene	owl:Class	
+MRO:0045998	lar gibbon MHC class II gene	owl:Class	
+MRO:0045999	silvery Javan gibbon MHC class I gene	owl:Class	
+MRO:0046000	silvery Javan gibbon MHC class II gene	owl:Class	
+MRO:0046001	golden lion tamarin MHC class I gene	owl:Class	
+MRO:0046002	golden lion tamarin MHC class II gene	owl:Class	
+MRO:0046003	black crested mangabey MHC class I gene	owl:Class	
+MRO:0046004	black crested mangabey MHC class II gene	owl:Class	
+MRO:0046005	stump-tailed macaque MHC class I gene	owl:Class	
+MRO:0046006	stump-tailed macaque MHC class II gene	owl:Class	
+MRO:0046007	Assam macaque MHC class I gene	owl:Class	
+MRO:0046008	Assam macaque MHC class II gene	owl:Class	
+MRO:0046009	Japanese macaque MHC class I gene	owl:Class	
+MRO:0046010	Japanese macaque MHC class II gene	owl:Class	
+MRO:0046011	drill MHC class I gene	owl:Class	
+MRO:0046012	drill MHC class II gene	owl:Class	
+MRO:0046013	northern pig-tailed macaque MHC class I gene	owl:Class	
+MRO:0046014	northern pig-tailed macaque MHC class II gene	owl:Class	
+MRO:0046015	southern pig-tailed macaque MHC class I gene	owl:Class	
+MRO:0046016	southern pig-tailed macaque MHC class II gene	owl:Class	
+MRO:0046017	lion-tailed macaque MHC class I gene	owl:Class	
+MRO:0046018	lion-tailed macaque MHC class II gene	owl:Class	
+MRO:0046019	mandrill MHC class I gene	owl:Class	
+MRO:0046020	mandrill MHC class II gene	owl:Class	
+MRO:0046021	Milne Edward's macaque MHC class I gene	owl:Class	
+MRO:0046022	Milne Edward's macaque MHC class II gene	owl:Class	
+MRO:0046023	olive baboon MHC class I gene	owl:Class	
+MRO:0046024	olive baboon MHC class II gene	owl:Class	
+MRO:0046025	yellow baboon MHC class I gene	owl:Class	
+MRO:0046026	yellow baboon MHC class II gene	owl:Class	
+MRO:0046027	hamadryas baboon MHC class I gene	owl:Class	
+MRO:0046028	hamadryas baboon MHC class II gene	owl:Class	
+MRO:0046029	Guinea baboon MHC class I gene	owl:Class	
+MRO:0046030	Guinea baboon MHC class II gene	owl:Class	
+MRO:0046031	chacma Baboon MHC class I gene	owl:Class	
+MRO:0046032	chacma Baboon MHC class II gene	owl:Class	
+MRO:0046033	white-faced saki MHC class I gene	owl:Class	
+MRO:0046034	white-faced saki MHC class II gene	owl:Class	
+MRO:0046035	Sumatran orangutan MHC class I gene	owl:Class	
+MRO:0046036	Sumatran orangutan MHC class II gene	owl:Class	
+MRO:0046037	Bornean orangutan MHC class I gene	owl:Class	
+MRO:0046038	Bornean orangutan MHC class II gene	owl:Class	
+MRO:0046039	golden snub-nosed monkey MHC class I gene	owl:Class	
+MRO:0046040	golden snub-nosed monkey MHC class II gene	owl:Class	
+MRO:0046041	brown-mantled tamarin MHC class I gene	owl:Class	
+MRO:0046042	brown-mantled tamarin MHC class II gene	owl:Class	
+MRO:0046043	Geoffroy's tamarin MHC class I gene	owl:Class	
+MRO:0046044	Geoffroy's tamarin MHC class II gene	owl:Class	
+MRO:0046045	white-lipped tamarin MHC class I gene	owl:Class	
+MRO:0046046	white-lipped tamarin MHC class II gene	owl:Class	
+MRO:0046047	moustached tamarin MHC class I gene	owl:Class	
+MRO:0046048	moustached tamarin MHC class II gene	owl:Class	
+MRO:0046049	common squirrel monkey MHC class I gene	owl:Class	
+MRO:0046050	common squirrel monkey MHC class II gene	owl:Class	
+MRO:0046051	northern plains gray langur MHC class I gene	owl:Class	
+MRO:0046052	northern plains gray langur MHC class II gene	owl:Class	
+MRO:0046053	gelada MHC class I gene	owl:Class	
+MRO:0046054	gelada MHC class II gene	owl:Class	
 MRO:0046055	Guatemalan black howler MHC class I chain	owl:Class	
 MRO:0046056	Guatemalan black howler MHC class II chain	owl:Class	
 MRO:0046057	Azara's night monkey MHC class I chain	owl:Class	
@@ -46251,7 +46251,7 @@ MRO:0046249	gelada MHC class I protein complex	owl:Class
 MRO:0046250	gelada MHC class II protein complex	owl:Class	
 MRO:0046251	human Beta-2-microglobulin chain	owl:Class	
 MRO:0046252	H2-Db/human Beta-2-microglobulin protein complex	owl:Class	
-MRO:0046253	human Beta-2-microglobulin locus	owl:Class	
+MRO:0046253	human Beta-2-microglobulin gene	owl:Class	
 MRO:0046254	mutant pig MHC class I protein complex	owl:Class	
 MRO:0046255	SLA-1*13:01 F99Y mutant protein complex	owl:Class	
 MRO:0046256	SLA-1*04:01 R156A mutant protein complex	owl:Class	
@@ -46434,105 +46434,105 @@ MRO:0046432	Gogo-H chain	owl:Class
 MRO:0046433	SLA-9 chain	owl:Class	
 MRO:0046434	SLA-11 chain	owl:Class	
 MRO:0046435	Papa-C chain	owl:Class	
-MRO:0046436	Sasa-UBA locus	owl:Class	
-MRO:0046437	Pipi-E locus	owl:Class	
-MRO:0046438	Eqca-6 locus	owl:Class	
-MRO:0046439	Mafa-E locus	owl:Class	
-MRO:0046440	Mamu-I locus	owl:Class	
-MRO:0046441	Popy-C locus	owl:Class	
-MRO:0046442	Atbe-B locus	owl:Class	
-MRO:0046443	Lero-G locus	owl:Class	
-MRO:0046444	Popy-AP locus	owl:Class	
-MRO:0046445	Samy-PS1 locus	owl:Class	
-MRO:0046446	Caja-F locus	owl:Class	
-MRO:0046447	Onmy-DAB locus	owl:Class	
-MRO:0046448	Atfu-G locus	owl:Class	
-MRO:0046449	Pacy-B locus	owl:Class	
-MRO:0046450	Pacy-A locus	owl:Class	
-MRO:0046451	Mamu-F locus	owl:Class	
-MRO:0046452	Atbe-G locus	owl:Class	
-MRO:0046453	Atfu-B locus	owl:Class	
-MRO:0046454	Sage-PS1 locus	owl:Class	
-MRO:0046455	Maar-I locus	owl:Class	
-MRO:0046456	SLA-TAP2 locus	owl:Class	
-MRO:0046457	Saoe-N1 locus	owl:Class	
-MRO:0046458	Gogo-OKO locus	owl:Class	
-MRO:0046459	Pipi-B locus	owl:Class	
-MRO:0046460	Sage-PS2 locus	owl:Class	
-MRO:0046461	Papa-H locus	owl:Class	
-MRO:0046462	Caja-B8 locus	owl:Class	
-MRO:0046463	Atbe-E locus	owl:Class	
-MRO:0046464	Eqca-2 locus	owl:Class	
-MRO:0046465	Caja-B9 locus	owl:Class	
-MRO:0046466	Ovar-N locus	owl:Class	
-MRO:0046467	Cemi-A locus	owl:Class	
-MRO:0046468	Papa-B locus	owl:Class	
-MRO:0046469	Mafa-I locus	owl:Class	
-MRO:0046470	Paan-AG locus	owl:Class	
-MRO:0046471	Mafa-AG locus	owl:Class	
-MRO:0046472	Chae-B locus	owl:Class	
-MRO:0046473	Eqca-4 locus	owl:Class	
-MRO:0046474	Popy-A locus	owl:Class	
-MRO:0046475	Atfu-E locus	owl:Class	
-MRO:0046476	Gogo-G locus	owl:Class	
-MRO:0046477	Hyla-A locus	owl:Class	
-MRO:0046478	Saoe-PS1 locus	owl:Class	
-MRO:0046479	Eqca-7 locus	owl:Class	
-MRO:0046480	Saoe-N2 locus	owl:Class	
-MRO:0046481	Hyla-B locus	owl:Class	
-MRO:0046482	Popy-B locus	owl:Class	
-MRO:0046483	Saoe-N3 locus	owl:Class	
-MRO:0046484	Safu-PS2 locus	owl:Class	
-MRO:0046485	SLA-TAP1 locus	owl:Class	
-MRO:0046486	Caja-B6 locus	owl:Class	
-MRO:0046487	SLA-8 locus	owl:Class	
-MRO:0046488	Caja-B5 locus	owl:Class	
-MRO:0046489	Caja-PS2 locus	owl:Class	
-MRO:0046490	Eqca-3 locus	owl:Class	
-MRO:0046491	Maar-A1 locus	owl:Class	
-MRO:0046492	Sasa-DAA locus	owl:Class	
-MRO:0046493	Paha-A locus	owl:Class	
-MRO:0046494	Caja-B4 locus	owl:Class	
-MRO:0046495	Caja-B7 locus	owl:Class	
-MRO:0046496	SLA-4 locus	owl:Class	
-MRO:0046497	Gogo-A locus	owl:Class	
-MRO:0046498	SLA-5 locus	owl:Class	
-MRO:0046499	Gogo-F locus	owl:Class	
-MRO:0046500	Chae-A locus	owl:Class	
-MRO:0046501	SLA-7 locus	owl:Class	
-MRO:0046502	Sasc-G locus	owl:Class	
-MRO:0046503	Safu-G locus	owl:Class	
-MRO:0046504	Mamu-G locus	owl:Class	
-MRO:0046505	Maar-B locus	owl:Class	
-MRO:0046506	Chae-G locus	owl:Class	
-MRO:0046507	Cemi-B locus	owl:Class	
-MRO:0046508	Papa-G locus	owl:Class	
-MRO:0046509	Samy-PS2 locus	owl:Class	
-MRO:0046510	Paan-A locus	owl:Class	
-MRO:0046511	Mafa-B locus	owl:Class	
-MRO:0046512	Saoe-E locus	owl:Class	
-MRO:0046513	Pipi-G locus	owl:Class	
-MRO:0046514	SLA-12 locus	owl:Class	
-MRO:0046515	Paha-B locus	owl:Class	
-MRO:0046516	Onmy-UBA locus	owl:Class	
-MRO:0046517	Popy-H locus	owl:Class	
-MRO:0046518	Sasa-DAB locus	owl:Class	
-MRO:0046519	DLA-64 locus	owl:Class	
-MRO:0046520	Paan-B locus	owl:Class	
-MRO:0046521	Saoe-F locus	owl:Class	
-MRO:0046522	Gogo-C locus	owl:Class	
-MRO:0046523	Gogo-E locus	owl:Class	
-MRO:0046524	Onmy-DAA locus	owl:Class	
-MRO:0046525	Safu-PS1 locus	owl:Class	
-MRO:0046526	Pacy-E locus	owl:Class	
-MRO:0046527	Mafa-F locus	owl:Class	
-MRO:0046528	Popy-E locus	owl:Class	
-MRO:0046529	Mafa-A locus	owl:Class	
-MRO:0046530	Mafa-G locus	owl:Class	
-MRO:0046531	Gogo-H locus	owl:Class	
-MRO:0046532	SLA-9 locus	owl:Class	
-MRO:0046533	SLA-11 locus	owl:Class	
-MRO:0046534	Papa-C locus	owl:Class	
+MRO:0046436	Sasa-UBA gene	owl:Class	
+MRO:0046437	Pipi-E gene	owl:Class	
+MRO:0046438	Eqca-6 gene	owl:Class	
+MRO:0046439	Mafa-E gene	owl:Class	
+MRO:0046440	Mamu-I gene	owl:Class	
+MRO:0046441	Popy-C gene	owl:Class	
+MRO:0046442	Atbe-B gene	owl:Class	
+MRO:0046443	Lero-G gene	owl:Class	
+MRO:0046444	Popy-AP gene	owl:Class	
+MRO:0046445	Samy-PS1 gene	owl:Class	
+MRO:0046446	Caja-F gene	owl:Class	
+MRO:0046447	Onmy-DAB gene	owl:Class	
+MRO:0046448	Atfu-G gene	owl:Class	
+MRO:0046449	Pacy-B gene	owl:Class	
+MRO:0046450	Pacy-A gene	owl:Class	
+MRO:0046451	Mamu-F gene	owl:Class	
+MRO:0046452	Atbe-G gene	owl:Class	
+MRO:0046453	Atfu-B gene	owl:Class	
+MRO:0046454	Sage-PS1 gene	owl:Class	
+MRO:0046455	Maar-I gene	owl:Class	
+MRO:0046456	SLA-TAP2 gene	owl:Class	
+MRO:0046457	Saoe-N1 gene	owl:Class	
+MRO:0046458	Gogo-OKO gene	owl:Class	
+MRO:0046459	Pipi-B gene	owl:Class	
+MRO:0046460	Sage-PS2 gene	owl:Class	
+MRO:0046461	Papa-H gene	owl:Class	
+MRO:0046462	Caja-B8 gene	owl:Class	
+MRO:0046463	Atbe-E gene	owl:Class	
+MRO:0046464	Eqca-2 gene	owl:Class	
+MRO:0046465	Caja-B9 gene	owl:Class	
+MRO:0046466	Ovar-N gene	owl:Class	
+MRO:0046467	Cemi-A gene	owl:Class	
+MRO:0046468	Papa-B gene	owl:Class	
+MRO:0046469	Mafa-I gene	owl:Class	
+MRO:0046470	Paan-AG gene	owl:Class	
+MRO:0046471	Mafa-AG gene	owl:Class	
+MRO:0046472	Chae-B gene	owl:Class	
+MRO:0046473	Eqca-4 gene	owl:Class	
+MRO:0046474	Popy-A gene	owl:Class	
+MRO:0046475	Atfu-E gene	owl:Class	
+MRO:0046476	Gogo-G gene	owl:Class	
+MRO:0046477	Hyla-A gene	owl:Class	
+MRO:0046478	Saoe-PS1 gene	owl:Class	
+MRO:0046479	Eqca-7 gene	owl:Class	
+MRO:0046480	Saoe-N2 gene	owl:Class	
+MRO:0046481	Hyla-B gene	owl:Class	
+MRO:0046482	Popy-B gene	owl:Class	
+MRO:0046483	Saoe-N3 gene	owl:Class	
+MRO:0046484	Safu-PS2 gene	owl:Class	
+MRO:0046485	SLA-TAP1 gene	owl:Class	
+MRO:0046486	Caja-B6 gene	owl:Class	
+MRO:0046487	SLA-8 gene	owl:Class	
+MRO:0046488	Caja-B5 gene	owl:Class	
+MRO:0046489	Caja-PS2 gene	owl:Class	
+MRO:0046490	Eqca-3 gene	owl:Class	
+MRO:0046491	Maar-A1 gene	owl:Class	
+MRO:0046492	Sasa-DAA gene	owl:Class	
+MRO:0046493	Paha-A gene	owl:Class	
+MRO:0046494	Caja-B4 gene	owl:Class	
+MRO:0046495	Caja-B7 gene	owl:Class	
+MRO:0046496	SLA-4 gene	owl:Class	
+MRO:0046497	Gogo-A gene	owl:Class	
+MRO:0046498	SLA-5 gene	owl:Class	
+MRO:0046499	Gogo-F gene	owl:Class	
+MRO:0046500	Chae-A gene	owl:Class	
+MRO:0046501	SLA-7 gene	owl:Class	
+MRO:0046502	Sasc-G gene	owl:Class	
+MRO:0046503	Safu-G gene	owl:Class	
+MRO:0046504	Mamu-G gene	owl:Class	
+MRO:0046505	Maar-B gene	owl:Class	
+MRO:0046506	Chae-G gene	owl:Class	
+MRO:0046507	Cemi-B gene	owl:Class	
+MRO:0046508	Papa-G gene	owl:Class	
+MRO:0046509	Samy-PS2 gene	owl:Class	
+MRO:0046510	Paan-A gene	owl:Class	
+MRO:0046511	Mafa-B gene	owl:Class	
+MRO:0046512	Saoe-E gene	owl:Class	
+MRO:0046513	Pipi-G gene	owl:Class	
+MRO:0046514	SLA-12 gene	owl:Class	
+MRO:0046515	Paha-B gene	owl:Class	
+MRO:0046516	Onmy-UBA gene	owl:Class	
+MRO:0046517	Popy-H gene	owl:Class	
+MRO:0046518	Sasa-DAB gene	owl:Class	
+MRO:0046519	DLA-64 gene	owl:Class	
+MRO:0046520	Paan-B gene	owl:Class	
+MRO:0046521	Saoe-F gene	owl:Class	
+MRO:0046522	Gogo-C gene	owl:Class	
+MRO:0046523	Gogo-E gene	owl:Class	
+MRO:0046524	Onmy-DAA gene	owl:Class	
+MRO:0046525	Safu-PS1 gene	owl:Class	
+MRO:0046526	Pacy-E gene	owl:Class	
+MRO:0046527	Mafa-F gene	owl:Class	
+MRO:0046528	Popy-E gene	owl:Class	
+MRO:0046529	Mafa-A gene	owl:Class	
+MRO:0046530	Mafa-G gene	owl:Class	
+MRO:0046531	Gogo-H gene	owl:Class	
+MRO:0046532	SLA-9 gene	owl:Class	
+MRO:0046533	SLA-11 gene	owl:Class	
+MRO:0046534	Papa-C gene	owl:Class	
 MRO:0046535	Mafa-B*027:04 chain	owl:Class	
 MRO:0046536	Mafa-B*165:01 chain	owl:Class	
 MRO:0046537	Paan-A*18:01 chain	owl:Class	
@@ -49247,10 +49247,10 @@ MRO:0049245	Chae-A*18:01 protein complex	owl:Class
 MRO:0049246	Gogo-C*02:01 protein complex	owl:Class	
 MRO:0049247	Mamu-I*01:24 protein complex	owl:Class	
 MRO:0049248	Paan-B*14:02 protein complex	owl:Class	
-MRO:0049249	atlantic salmon MHC class I locus	owl:Class	
-MRO:0049250	atlantic salmon MHC class II locus	owl:Class	
-MRO:0049251	rainbow trout MHC class I locus	owl:Class	
-MRO:0049252	rainbow trout MHC class II locus	owl:Class	
+MRO:0049249	atlantic salmon MHC class I gene	owl:Class	
+MRO:0049250	atlantic salmon MHC class II gene	owl:Class	
+MRO:0049251	rainbow trout MHC class I gene	owl:Class	
+MRO:0049252	rainbow trout MHC class II gene	owl:Class	
 MRO:0049253	Mafa-A3 protein complex	owl:Class	
 MRO:0049254	Mafa-A2 protein complex	owl:Class	
 MRO:0049255	Mafa-A6 protein complex	owl:Class	
@@ -49263,12 +49263,12 @@ MRO:0049261	Mafa-A5 chain	owl:Class
 MRO:0049262	Mafa-A6 chain	owl:Class	
 MRO:0049263	Mafa-A3 chain	owl:Class	
 MRO:0049264	Mafa-A4 chain	owl:Class	
-MRO:0049265	Mafa-A8 locus	owl:Class	
-MRO:0049266	Mafa-A2 locus	owl:Class	
-MRO:0049267	Mafa-A5 locus	owl:Class	
-MRO:0049268	Mafa-A6 locus	owl:Class	
-MRO:0049269	Mafa-A3 locus	owl:Class	
-MRO:0049270	Mafa-A4 locus	owl:Class	
+MRO:0049265	Mafa-A8 gene	owl:Class	
+MRO:0049266	Mafa-A2 gene	owl:Class	
+MRO:0049267	Mafa-A5 gene	owl:Class	
+MRO:0049268	Mafa-A6 gene	owl:Class	
+MRO:0049269	Mafa-A3 gene	owl:Class	
+MRO:0049270	Mafa-A4 gene	owl:Class	
 MRO:0049271	Mafa-A1*032:03 chain	owl:Class	
 MRO:0049272	Mafa-A1*079:01 chain	owl:Class	
 MRO:0049273	Mafa-A1*090:05 chain	owl:Class	
@@ -51190,9 +51190,9 @@ MRO:0051188	Mafa-B*039:01:01:01 protein complex	owl:Class
 MRO:0051189	Papa-C*03:04:01:01 protein complex	owl:Class	
 MRO:0051190	Mafa-B*051:04:01:01 protein complex	owl:Class	
 MRO:0051191	Mafa-B*065:04:01:01 protein complex	owl:Class	
-MRO:0051192	Eqca-1 locus	owl:Class	
-MRO:0051193	Eqca-16 locus	owl:Class	
-MRO:0051194	Eqca-N locus	owl:Class	
+MRO:0051192	Eqca-1 gene	owl:Class	
+MRO:0051193	Eqca-16 gene	owl:Class	
+MRO:0051194	Eqca-N gene	owl:Class	
 MRO:0051195	Atbe-B*01 chain	owl:Class	
 MRO:0051196	BoLA-3*084:01N chain	owl:Class	
 MRO:0051197	BoLA-3*086:01N chain	owl:Class	
@@ -51205,9 +51205,9 @@ MRO:0051203	common brushtail MHC class I chain	owl:Class
 MRO:0051204	common brushtail MHC class II chain	owl:Class	
 MRO:0051205	Trvu-UB chain	owl:Class	
 MRO:0051206	Trvu-UB*01:01 chain	owl:Class	
-MRO:0051207	common brushtail MHC class I locus	owl:Class	
-MRO:0051208	common brushtail MHC class II locus	owl:Class	
-MRO:0051209	Trvu-UB locus	owl:Class	
+MRO:0051207	common brushtail MHC class I gene	owl:Class	
+MRO:0051208	common brushtail MHC class II gene	owl:Class	
+MRO:0051209	Trvu-UB gene	owl:Class	
 MRO:0051210	common brushtail MHC class I protein complex	owl:Class	
 MRO:0051211	common brushtail MHC class II protein complex	owl:Class	
 MRO:0051212	Trvu-UB*01:01 protein complex	owl:Class	
