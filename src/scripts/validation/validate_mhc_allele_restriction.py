@@ -57,6 +57,8 @@ def main():
         "chain_ii_source_id": {TYPE: "number", NULL: True},
         "chain_i_accession": {TYPE: "string", RE: r"HLA[0-9]+", NULL: True},
         "chain_ii_accession": {TYPE: "string", RE: r"HLA[0-9]+", NULL: True},
+        "chain_i_mro_id": {TYPE: "string", RE: r"MRO:[0-9]{7}", NULL: True},
+        "chain_ii_mro_id": {TYPE: "string", RE: r"MRO:[0-9]{7}", NULL: True},
         "iri": {
             TYPE: "string",
             MAX_LEN: 100,
