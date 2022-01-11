@@ -28,6 +28,8 @@ SELECT ?mhc_allele_restriction_id
   ?chain_ii_source_id
   ?chain_i_accession
   ?chain_ii_accession
+  ?chain_i_mro_id
+  ?chain_ii_mro_id
 
 WHERE {
   ?iri
@@ -247,10 +249,12 @@ WHERE {
           ?chain_ii_locus .
   }
   OPTIONAL {
-    ?iri MRO:has-chain-i-accession ?chain_i_accession .
+    ?iri MRO:has-chain-i-accession ?chain_i_accession ;
+         MRO:has-chain-i-id ?chain_i_mro_id .
   }
   OPTIONAL {
-    ?iri MRO:has-chain-ii-accession ?chain_ii_accession .
+    ?iri MRO:has-chain-ii-accession ?chain_ii_accession ;
+         MRO:has-chain-ii-id ?chain_ii_mro_id .
   }
 }
 GROUP BY ?mhc_allele_restriction_id
@@ -275,4 +279,6 @@ GROUP BY ?mhc_allele_restriction_id
   ?chain_ii_source_id
   ?chain_i_accession
   ?chain_ii_accession
+  ?chain_i_mro_id
+  ?chain_ii_mro_id
 ORDER BY xsd:integer(?mhc_allele_restriction_id) ?synonym

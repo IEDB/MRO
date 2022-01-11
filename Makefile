@@ -290,7 +290,7 @@ IEDB_TARGETS := build/mro-iedb.owl \
                 build/ALLELE_FINDER_TREE.csv
 
 # add chain_i and chain_ii accessions to IEDB sheet
-build/iedb.tsv: src/scripts/add_chain_accessions.py iedb/iedb.tsv ontology/molecule.tsv ontology/chain-sequence.tsv
+build/iedb.tsv: src/scripts/add_chain_accessions.py index.tsv iedb/iedb.tsv ontology/molecule.tsv ontology/chain-sequence.tsv
 	python3 $^ $@
 
 # extended version for IEDB use
