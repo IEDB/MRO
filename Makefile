@@ -91,7 +91,7 @@ build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.
 
 .PRECIOUS: build/validation_errors_strict.tsv
 build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
-	python3 $< index.tsv iedb/iedb.tsv ontology $@
+	python3 $< index.tsv iedb/iedb.tsv ontology $@ -f
 
 apply_%: build/validation_%.tsv
 	axle clear all

@@ -1,384 +1,384 @@
 Label	Synonyms	Class Type	Parent	In Taxon
 LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-Aime-128 locus		subclass	giant panda MHC class I locus	
-Anpl-UAA locus		subclass	duck MHC class I locus	
-Assam macaque MHC class I locus		subclass	MHC class I locus	Assam macaque
-Assam macaque MHC class II locus		subclass	MHC class II locus	Assam macaque
-Atbe-B locus		subclass	white-fronted spider monkey MHC class I locus	
-Atbe-E locus		subclass	white-fronted spider monkey MHC class I locus	
-Atbe-G locus		subclass	white-fronted spider monkey MHC class I locus	
-Atfu-B locus		subclass	black-headed spider monkey MHC class I locus	
-Atfu-E locus		subclass	black-headed spider monkey MHC class I locus	
-Atfu-G locus		subclass	black-headed spider monkey MHC class I locus	
-Azara's night monkey MHC class I locus		subclass	MHC class I locus	Azara's night monkey
-Azara's night monkey MHC class II locus		subclass	MHC class II locus	Azara's night monkey
-BoLA-1 locus		subclass	cattle MHC class I locus	
-BoLA-2 locus		subclass	cattle MHC class I locus	
-BoLA-3 locus		subclass	cattle MHC class I locus	
-BoLA-4 locus		subclass	cattle MHC class I locus	
-BoLA-5 locus		subclass	cattle MHC class I locus	
-BoLA-6 locus		subclass	cattle MHC class I locus	
-BoLA-CD1 locus		subclass	cattle non-classical MHC locus	
-BoLA-DQA locus		subclass	cattle MHC class II locus	
-BoLA-DQB locus		subclass	cattle MHC class II locus	
-BoLA-DRA locus		subclass	cattle MHC class II locus	
-BoLA-DRB3 locus		subclass	BoLA-DRB locus	
-BoLA-DRB6 locus		subclass	BoLA-DRB locus	
-BoLA-DRB locus		subclass	cattle MHC class II locus	
-BoLA-MR1 locus		subclass	cattle non-classical MHC locus	
-BoLA-NC1 locus		subclass	cattle non-classical MHC locus	
-BoLA-NC2 locus		subclass	cattle non-classical MHC locus	
-BoLA-NC3 locus		subclass	cattle non-classical MHC locus	
-BoLA-NC4 locus		subclass	cattle non-classical MHC locus	
-Bornean orangutan MHC class I locus		subclass	MHC class I locus	Bornean orangutan
-Bornean orangutan MHC class II locus		subclass	MHC class II locus	Bornean orangutan
-Caja-B4 locus		subclass	marmoset MHC class I locus	
-Caja-B5 locus		subclass	marmoset MHC class I locus	
-Caja-B6 locus		subclass	marmoset MHC class I locus	
-Caja-B7 locus		subclass	marmoset MHC class I locus	
-Caja-B8 locus		subclass	marmoset MHC class I locus	
-Caja-B9 locus		subclass	marmoset MHC class I locus	
-Caja-E locus		subclass	marmoset MHC class I locus	
-Caja-F locus		subclass	marmoset MHC class I locus	
-Caja-G locus		subclass	marmoset MHC class I locus	
-Caja-PS2 locus		subclass	marmoset MHC class I locus	
-Cemi-A locus		subclass	blue monkey MHC class I locus	
-Cemi-B locus		subclass	blue monkey MHC class I locus	
-Chae-A locus		subclass	grivet MHC class I locus	
-Chae-B locus		subclass	grivet MHC class I locus	
-Chae-G locus		subclass	grivet MHC class I locus	
-Ctid-UAA locus		subclass	grass carp MHC class I locus	
-DLA-64 locus		subclass	dog MHC class I locus	
-DLA-88 locus		subclass	dog MHC class I locus	
-De Brazza's monkey MHC class I locus		subclass	MHC class I locus	De Brazza's monkey
-De Brazza's monkey MHC class II locus		subclass	MHC class II locus	De Brazza's monkey
-ELA-1 locus		subclass	horse MHC class I locus	
-ELA-16 locus		subclass	horse MHC class I locus	
-ELA-N locus		subclass	horse MHC class I locus	
-Eqca-1 locus		subclass	horse MHC class I locus	
-Eqca-2 locus		subclass	horse MHC class I locus	
-Eqca-3 locus		subclass	horse MHC class I locus	
-Eqca-4 locus		subclass	horse MHC class I locus	
-Eqca-6 locus		subclass	horse MHC class I locus	
-Eqca-7 locus		subclass	horse MHC class I locus	
-Eqca-16 locus		subclass	horse MHC class I locus	
-Eqca-N locus		subclass	horse MHC class I locus	
-FLA-E locus		subclass	cat MHC class I locus	
-Gaga-BF1 locus		subclass	chicken MHC class I locus	
-Gaga-BF2 locus		subclass	chicken MHC class I locus	
-Gaga-BF-B locus		subclass	chicken non-classical MHC locus	
-Gaga-BF-YF locus		subclass	chicken non-classical MHC locus	
-Geoffroy's tamarin MHC class I locus		subclass	MHC class I locus	Geoffroy's tamarin
-Geoffroy's tamarin MHC class II locus		subclass	MHC class II locus	Geoffroy's tamarin
-Gogo-A locus		subclass	gorilla MHC class I locus	
-Gogo-B locus		subclass	gorilla MHC class I locus	
-Gogo-C locus		subclass	gorilla MHC class I locus	
-Gogo-E locus		subclass	gorilla MHC class I locus	
-Gogo-F locus		subclass	gorilla MHC class I locus	
-Gogo-G locus		subclass	gorilla MHC class I locus	
-Gogo-H locus		subclass	gorilla MHC class I locus	
-Gogo-OKO locus		subclass	gorilla MHC class I locus	
-Guatemalan black howler MHC class I locus		subclass	MHC class I locus	Guatemalan black howler
-Guatemalan black howler MHC class II locus		subclass	MHC class II locus	Guatemalan black howler
-Guinea baboon MHC class I locus		subclass	MHC class I locus	Guinea baboon
-Guinea baboon MHC class II locus		subclass	MHC class II locus	Guinea baboon
-H2-D locus		subclass	mouse MHC class I locus	
-H2-IA alpha locus		subclass	mouse MHC class II locus	
-H2-IA beta locus		subclass	mouse MHC class II locus	
-H2-IE alpha locus		subclass	mouse MHC class II locus	
-H2-IE beta locus		subclass	mouse MHC class II locus	
-H2-K locus		subclass	mouse MHC class I locus	
-H2-L locus		subclass	mouse MHC class I locus	
-H2-M locus		subclass	mouse non-classical MHC locus	
-H2-MR1 locus		subclass	mouse non-classical MHC locus	
-H2-Q1 locus		subclass	H2-Q locus	
-H2-Q2 locus		subclass	H2-Q locus	
-H2-Q9 locus		subclass	H2-Q locus	
-H2-Q locus		subclass	mouse non-classical MHC locus	
-HLA-A locus		subclass	human MHC class I locus	
-HLA-B locus		subclass	human MHC class I locus	
-HLA-BTN3A locus		subclass	human non-classical MHC locus	
-HLA-C locus		subclass	human MHC class I locus	
-HLA-CD1 locus		subclass	human non-classical MHC locus	
-HLA-DPA locus		subclass	human MHC class II locus	
-HLA-DPB locus		subclass	human MHC class II locus	
-HLA-DQA locus		subclass	human MHC class II locus	
-HLA-DQB locus		subclass	human MHC class II locus	
-HLA-DRA locus		subclass	human MHC class II locus	
-HLA-DRB1 locus		subclass	HLA-DRB locus	
-HLA-DRB3 locus		subclass	HLA-DRB locus	
-HLA-DRB4 locus		subclass	HLA-DRB locus	
-HLA-DRB5 locus		subclass	HLA-DRB locus	
-HLA-DRB locus		subclass	human MHC class II locus	
-HLA-E locus		subclass	human non-classical MHC locus	
-HLA-F locus		subclass	human non-classical MHC locus	
-HLA-G locus		subclass	human non-classical MHC locus	
-HLA-MR1 locus		subclass	human non-classical MHC locus	
-Hyla-A locus		subclass	lar gibbon MHC class I locus	
-Hyla-B locus		subclass	lar gibbon MHC class I locus	
-Japanese macaque MHC class I locus		subclass	MHC class I locus	Japanese macaque
-Japanese macaque MHC class II locus		subclass	MHC class II locus	Japanese macaque
-Lero-G locus		subclass	golden lion tamarin MHC class I locus	
-MHC class I locus		subclass	MHC locus	
-MHC class II locus		subclass	MHC locus	
-Maar-A1 locus		subclass	stump-tailed macaque MHC class I locus	
-Maar-B locus		subclass	stump-tailed macaque MHC class I locus	
-Maar-I locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A1 locus		subclass	crab-eating macaque MHC class I locus	
-Mafa-A2 locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A3 locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A4 locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A5 locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A6 locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A8 locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-A locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-AG locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-B locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-DQA locus		subclass	crab-eating macaque MHC class II locus	
-Mafa-DQB locus		subclass	crab-eating macaque MHC class II locus	
-Mafa-DRA locus		subclass	crab-eating macaque MHC class II locus	
-Mafa-DRB locus		subclass	crab-eating macaque MHC class II locus	
-Mafa-E locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-F locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-G locus		subclass	stump-tailed macaque MHC class I locus	
-Mafa-I locus		subclass	stump-tailed macaque MHC class I locus	
-Mamu-A locus		subclass	rhesus macaque MHC class I locus	
-Mamu-B locus		subclass	rhesus macaque MHC class I locus	
-Mamu-CD1 locus		subclass	rhesus macaque non-classical MHC locus	
-Mamu-DPA locus		subclass	rhesus macaque MHC class II locus	
-Mamu-DPB locus		subclass	rhesus macaque MHC class II locus	
-Mamu-DQA locus		subclass	rhesus macaque MHC class II locus	
-Mamu-DQB locus		subclass	rhesus macaque MHC class II locus	
-Mamu-DRA locus		subclass	rhesus macaque MHC class II locus	
-Mamu-DRB locus		subclass	rhesus macaque MHC class II locus	
-Mamu-E locus		subclass	rhesus macaque MHC class I locus	
-Mamu-F locus		subclass	rhesus macaque MHC class I locus	
-Mamu-G locus		subclass	rhesus macaque MHC class I locus	
-Mamu-I locus		subclass	rhesus macaque MHC class I locus	
-Mamu-MR1 locus		subclass	rhesus macaque non-classical MHC locus	
-Milne Edward's macaque MHC class I locus		subclass	MHC class I locus	Milne Edward's macaque
-Milne Edward's macaque MHC class II locus		subclass	MHC class II locus	Milne Edward's macaque
-Nancy Ma's night monkey MHC class I locus		subclass	MHC class I locus	Nancy Ma's night monkey
-Nancy Ma's night monkey MHC class II locus		subclass	MHC class II locus	Nancy Ma's night monkey
-Onmy-DAA locus		subclass	rainbow trout MHC class II locus	
-Onmy-DAB locus		subclass	rainbow trout MHC class II locus	
-Onmy-UBA locus		subclass	rainbow trout MHC class I locus	
-Ovar-N locus		subclass	domestic sheep MHC class I locus	
-Paan-A locus		subclass	olive baboon MHC class I locus	
-Paan-AG locus		subclass	olive baboon MHC class I locus	
-Paan-B locus		subclass	olive baboon MHC class I locus	
-Pacy-A locus		subclass	yellow baboon MHC class I locus	
-Pacy-B locus		subclass	yellow baboon MHC class I locus	
-Pacy-E locus		subclass	yellow baboon MHC class I locus	
-Paha-A locus		subclass	hamadryas baboon MHC class I locus	
-Paha-B locus		subclass	hamadryas baboon MHC class I locus	
-Papa-A locus		subclass	bonobo MHC class I locus	
-Papa-B locus		subclass	bonobo MHC class I locus	
-Papa-C locus		subclass	bonobo MHC class I locus	
-Papa-G locus		subclass	bonobo MHC class I locus	
-Papa-H locus		subclass	bonobo MHC class I locus	
-Patr-A locus		subclass	chimpanzee MHC class I locus	
-Patr-AL locus		subclass	chimpanzee non-classical MHC locus	
-Patr-B locus		subclass	chimpanzee MHC class I locus	
-Patr-C locus		subclass	chimpanzee MHC class I locus	
-Patr-DPA locus		subclass	chimpanzee MHC class II locus	
-Patr-DPB locus		subclass	chimpanzee MHC class II locus	
-Patr-DQA locus		subclass	chimpanzee MHC class II locus	
-Patr-DQB locus		subclass	chimpanzee MHC class II locus	
-Patr-DRA locus		subclass	chimpanzee MHC class II locus	
-Patr-DRB locus		subclass	chimpanzee MHC class II locus	
-Pipi-B locus		subclass	white-faced saki MHC class I locus	
-Pipi-E locus		subclass	white-faced saki MHC class I locus	
-Pipi-G locus		subclass	white-faced saki MHC class I locus	
-Popy-A locus		subclass	Bornean orangutan MHC class I locus	
-Popy-AP locus		subclass	Bornean orangutan MHC class I locus	
-Popy-B locus		subclass	Bornean orangutan MHC class I locus	
-Popy-C locus		subclass	Bornean orangutan MHC class I locus	
-Popy-E locus		subclass	Bornean orangutan MHC class I locus	
-Popy-H locus		subclass	Bornean orangutan MHC class I locus	
-Ptal-N locus		subclass	black flying fox MHC class I locus	
-RLA-A locus		subclass	rabbit MHC class I locus	
-RT1-A1 locus		subclass	RT1-A locus	
-RT1-A2 locus		subclass	RT1-A locus	
-RT1-A locus		subclass	rat MHC class I locus	
-RT1-B alpha locus		subclass	rat MHC class II locus	
-RT1-B beta locus		subclass	rat MHC class II locus	
-RT1-D alpha locus		subclass	rat MHC class II locus	
-RT1-D beta locus		subclass	rat MHC class II locus	
-SLA-1 locus		subclass	pig MHC class I locus	
-SLA-2 locus		subclass	pig MHC class I locus	
-SLA-3 locus		subclass	pig MHC class I locus	
-SLA-4 locus		subclass	pig MHC class I locus	
-SLA-5 locus		subclass	pig MHC class I locus	
-SLA-6 locus		subclass	pig MHC class I locus	
-SLA-7 locus		subclass	pig MHC class I locus	
-SLA-8 locus		subclass	pig MHC class I locus	
-SLA-9 locus		subclass	pig MHC class I locus	
-SLA-11 locus		subclass	pig MHC class I locus	
-SLA-12 locus		subclass	pig MHC class I locus	
-SLA-DQA locus		subclass	pig MHC class II locus	
-SLA-DQB locus		subclass	pig MHC class II locus	
-SLA-DRA locus		subclass	pig MHC class II locus	
-SLA-DRB locus		subclass	pig MHC class II locus	
-SLA-TAP1 locus		subclass	pig MHC class I locus	
-SLA-TAP2 locus		subclass	pig MHC class I locus	
-Safu-G locus		subclass	brown-mantled tamarin MHC class I locus	
-Safu-PS1 locus		subclass	brown-mantled tamarin MHC class I locus	
-Safu-PS2 locus		subclass	brown-mantled tamarin MHC class I locus	
-Sage-PS1 locus		subclass	Geoffroy's tamarin MHC class I locus	
-Sage-PS2 locus		subclass	Geoffroy's tamarin MHC class I locus	
-Samy-PS1 locus		subclass	moustached tamarin MHC class I locus	
-Samy-PS2 locus		subclass	moustached tamarin MHC class I locus	
-Saoe-E locus		subclass	cotton-top tamarin MHC class I locus	
-Saoe-F locus		subclass	cotton-top tamarin MHC class I locus	
-Saoe-G locus		subclass	cotton-top tamarin MHC class I locus	
-Saoe-N1 locus		subclass	cotton-top tamarin MHC class I locus	
-Saoe-N2 locus		subclass	cotton-top tamarin MHC class I locus	
-Saoe-N3 locus		subclass	cotton-top tamarin MHC class I locus	
-Saoe-PS1 locus		subclass	cotton-top tamarin MHC class I locus	
-Sasa-DAA locus		subclass	atlantic salmon MHC class II locus	
-Sasa-DAB locus		subclass	atlantic salmon MHC class II locus	
-Sasa-UBA locus		subclass	atlantic salmon MHC class I locus	
-Sasc-G locus		subclass	common squirrel monkey MHC class I locus	
-Spix's night monkey MHC class I locus		subclass	MHC class I locus	Spix's night monkey
-Spix's night monkey MHC class II locus		subclass	MHC class II locus	Spix's night monkey
-Sumatran orangutan MHC class I locus		subclass	MHC class I locus	Sumatran orangutan
-Sumatran orangutan MHC class II locus		subclass	MHC class II locus	Sumatran orangutan
-Xela-UAAg locus		subclass	clawed frog MHC class I locus	
-atlantic salmon MHC class I locus		subclass	MHC class I locus	atlantic salmon
-atlantic salmon MHC class II locus		subclass	MHC class II locus	atlantic salmon
-black crested mangabey MHC class I locus		subclass	MHC class I locus	black crested mangabey
-black crested mangabey MHC class II locus		subclass	MHC class II locus	black crested mangabey
-black flying fox MHC class I locus		subclass	MHC class I locus	black flying fox
-black-headed night monkey MHC class I locus		subclass	MHC class I locus	black-headed night monkey
-black-headed night monkey MHC class II locus		subclass	MHC class II locus	black-headed night monkey
-black-headed spider monkey MHC class I locus		subclass	MHC class I locus	black-headed spider monkey
-black-headed spider monkey MHC class II locus		subclass	MHC class II locus	black-headed spider monkey
-blue monkey MHC class I locus		subclass	MHC class I locus	blue monkey
-blue monkey MHC class II locus		subclass	MHC class II locus	blue monkey
-bonobo MHC class I locus		subclass	MHC class I locus	bonobo
-bonobo MHC class II locus		subclass	MHC class II locus	bonobo
-brown-mantled tamarin MHC class I locus		subclass	MHC class I locus	brown-mantled tamarin
-brown-mantled tamarin MHC class II locus		subclass	MHC class II locus	brown-mantled tamarin
-cat MHC class I locus		subclass	MHC class I locus	cat
-cat MHC class II locus		subclass	MHC class II locus	cat
-cat non-classical MHC locus		subclass	non-classical MHC locus	cat
-cattle MHC class I locus		subclass	MHC class I locus	cattle
-cattle MHC class II locus		subclass	MHC class II locus	cattle
-cattle non-classical MHC locus		subclass	non-classical MHC locus	cattle
-chacma Baboon MHC class I locus		subclass	MHC class I locus	chacma Baboon
-chacma Baboon MHC class II locus		subclass	MHC class II locus	chacma Baboon
-chicken MHC class I locus		subclass	MHC class I locus	chicken
-chicken MHC class II locus		subclass	MHC class II locus	chicken
-chicken non-classical MHC locus		subclass	non-classical MHC locus	chicken
-chimpanzee MHC class I locus		subclass	MHC class I locus	chimpanzee
-chimpanzee MHC class II locus		subclass	MHC class II locus	chimpanzee
-chimpanzee non-classical MHC locus		subclass	non-classical MHC locus	chimpanzee
-clawed frog MHC class I locus		subclass	MHC class I locus	clawed frog
-clawed frog MHC class II locus		subclass	MHC class II locus	clawed frog
-common squirrel monkey MHC class I locus		subclass	MHC class I locus	common squirrel monkey
-common squirrel monkey MHC class II locus		subclass	MHC class II locus	common squirrel monkey
-cotton-top tamarin MHC class I locus		subclass	MHC class I locus	cotton-top tamarin
-cotton-top tamarin MHC class II locus		subclass	MHC class II locus	cotton-top tamarin
-crab-eating macaque MHC class I locus		subclass	MHC class I locus	crab-eating macaque
-crab-eating macaque MHC class II locus		subclass	MHC class II locus	crab-eating macaque
-dog MHC class I locus		subclass	MHC class I locus	dog
-dog MHC class II locus		subclass	MHC class II locus	dog
-domestic sheep MHC class I locus		subclass	MHC class I locus	domestic sheep
-domestic sheep MHC class II locus		subclass	MHC class II locus	domestic sheep
-drill MHC class I locus		subclass	MHC class I locus	drill
-drill MHC class II locus		subclass	MHC class II locus	drill
-duck MHC class I locus		subclass	MHC class I locus	duck
-eastern gorilla MHC class I locus		subclass	MHC class I locus	eastern gorilla
-eastern gorilla MHC class II locus		subclass	MHC class II locus	eastern gorilla
-gelada MHC class I locus		subclass	MHC class I locus	gelada
-gelada MHC class II locus		subclass	MHC class II locus	gelada
-giant panda MHC class I locus		subclass	MHC class I locus	giant panda
-giant panda MHC class II locus		subclass	MHC class II locus	giant panda
-golden lion tamarin MHC class I locus		subclass	MHC class I locus	golden lion tamarin
-golden lion tamarin MHC class II locus		subclass	MHC class II locus	golden lion tamarin
-golden snub-nosed monkey MHC class I locus		subclass	MHC class I locus	golden snub-nosed monkey
-golden snub-nosed monkey MHC class II locus		subclass	MHC class II locus	golden snub-nosed monkey
-gorilla MHC class I locus		subclass	MHC class I locus	gorilla
-gorilla MHC class II locus		subclass	MHC class II locus	gorilla
-grass carp Beta-2-microglobulin locus		subclass	Beta-2-microglobulin locus	grass carp
-grass carp MHC class I locus		subclass	MHC class I locus	grass carp
-grass carp MHC class II locus		subclass	MHC class II locus	grass carp
-gray-bellied night monkey MHC class I locus		subclass	MHC class I locus	gray-bellied night monkey
-gray-bellied night monkey MHC class II locus		subclass	MHC class II locus	gray-bellied night monkey
-green monkey MHC class I locus		subclass	MHC class I locus	green monkey
-green monkey MHC class II locus		subclass	MHC class II locus	green monkey
-grivet MHC class I locus		subclass	MHC class I locus	grivet
-grivet MHC class II locus		subclass	MHC class II locus	grivet
-hamadryas baboon MHC class I locus		subclass	MHC class I locus	hamadryas baboon
-hamadryas baboon MHC class II locus		subclass	MHC class II locus	hamadryas baboon
-horse MHC class I locus		subclass	MHC class I locus	horse
-horse MHC class II locus		subclass	MHC class II locus	horse
-human Beta-2-microglobulin locus		subclass	Beta-2-microglobulin locus	human
-human MHC class I locus		subclass	MHC class I locus	human
-human MHC class II locus		subclass	MHC class II locus	human
-human non-classical MHC locus		subclass	non-classical MHC locus	human
-lar gibbon MHC class I locus		subclass	MHC class I locus	lar gibbon
-lar gibbon MHC class II locus		subclass	MHC class II locus	lar gibbon
-lion-tailed macaque MHC class I locus		subclass	MHC class I locus	lion-tailed macaque
-lion-tailed macaque MHC class II locus		subclass	MHC class II locus	lion-tailed macaque
-mandrill MHC class I locus		subclass	MHC class I locus	mandrill
-mandrill MHC class II locus		subclass	MHC class II locus	mandrill
-mantled guereza MHC class I locus		subclass	MHC class I locus	mantled guereza
-mantled guereza MHC class II locus		subclass	MHC class II locus	mantled guereza
-marmoset MHC class I locus		subclass	MHC class I locus	marmoset
-mouse CD1d locus		subclass	mouse non-classical MHC locus	
-mouse MHC class I locus		subclass	MHC class I locus	mouse
-mouse MHC class II locus		subclass	MHC class II locus	mouse
-mouse non-classical MHC locus		subclass	non-classical MHC locus	mouse
-moustached tamarin MHC class I locus		subclass	MHC class I locus	moustached tamarin
-moustached tamarin MHC class II locus		subclass	MHC class II locus	moustached tamarin
-non-classical MHC locus		subclass	MHC locus	
-northern pig-tailed macaque MHC class I locus		subclass	MHC class I locus	northern pig-tailed macaque
-northern pig-tailed macaque MHC class II locus		subclass	MHC class II locus	northern pig-tailed macaque
-northern plains gray langur MHC class I locus		subclass	MHC class I locus	northern plains gray langur
-northern plains gray langur MHC class II locus		subclass	MHC class II locus	northern plains gray langur
-olive baboon MHC class I locus		subclass	MHC class I locus	olive baboon
-olive baboon MHC class II locus		subclass	MHC class II locus	olive baboon
-pig MHC class I locus		subclass	MHC class I locus	pig
-pig MHC class II locus		subclass	MHC class II locus	pig
-pygmy marmoset MHC class I locus		subclass	MHC class I locus	pygmy marmoset
-pygmy marmoset MHC class II locus		subclass	MHC class II locus	pygmy marmoset
-rabbit MHC class I locus		subclass	MHC class I locus	rabbit
-rabbit MHC class II locus		subclass	MHC class II locus	rabbit
-rainbow trout MHC class I locus		subclass	MHC class I locus	rainbow trout
-rainbow trout MHC class II locus		subclass	MHC class II locus	rainbow trout
-rat CD1 locus		subclass	rat non-classical MHC locus	rat
-rat MHC class I locus		subclass	MHC class I locus	rat
-rat MHC class II locus		subclass	MHC class II locus	rat
-rat non-classical MHC locus		subclass	non-classical MHC locus	rat
-red-bellied titi MHC class I locus		subclass	MHC class I locus	red-bellied titi
-red-bellied titi MHC class II locus		subclass	MHC class II locus	red-bellied titi
-rhesus macaque MHC class I locus		subclass	MHC class I locus	rhesus macaque
-rhesus macaque MHC class II locus		subclass	MHC class II locus	rhesus macaque
-rhesus macaque non-classical MHC locus		subclass	non-classical MHC locus	rhesus macaque
-silvery Javan gibbon MHC class I locus		subclass	MHC class I locus	silvery Javan gibbon
-silvery Javan gibbon MHC class II locus		subclass	MHC class II locus	silvery Javan gibbon
-sooty mangabey MHC class I locus		subclass	MHC class I locus	sooty mangabey
-sooty mangabey MHC class II locus		subclass	MHC class II locus	sooty mangabey
-southern pig-tailed macaque MHC class I locus		subclass	MHC class I locus	southern pig-tailed macaque
-southern pig-tailed macaque MHC class II locus		subclass	MHC class II locus	southern pig-tailed macaque
-stump-tailed macaque MHC class I locus		subclass	MHC class I locus	stump-tailed macaque
-stump-tailed macaque MHC class II locus		subclass	MHC class II locus	stump-tailed macaque
-three-striped night monkey MHC class I locus		subclass	MHC class I locus	three-striped night monkey
-three-striped night monkey MHC class II locus		subclass	MHC class II locus	three-striped night monkey
-tufted capuchin MHC class I locus		subclass	MHC class I locus	tufted capuchin
-tufted capuchin MHC class II locus		subclass	MHC class II locus	tufted capuchin
-vervet monkey MHC class I locus		subclass	MHC class I locus	vervet monkey
-vervet monkey MHC class II locus		subclass	MHC class II locus	vervet monkey
-white-faced saki MHC class I locus		subclass	MHC class I locus	white-faced saki
-white-faced saki MHC class II locus		subclass	MHC class II locus	white-faced saki
-white-fronted spider monkey MHC class I locus		subclass	MHC class I locus	white-fronted spider monkey
-white-fronted spider monkey MHC class II locus		subclass	MHC class II locus	white-fronted spider monkey
-white-lipped tamarin MHC class I locus		subclass	MHC class I locus	white-lipped tamarin
-white-lipped tamarin MHC class II locus		subclass	MHC class II locus	white-lipped tamarin
-yellow baboon MHC class I locus		subclass	MHC class I locus	yellow baboon
-yellow baboon MHC class II locus		subclass	MHC class II locus	yellow baboon
-common brushtail MHC class I locus		subclass	MHC class I locus	common brushtail
-common brushtail MHC class II locus		subclass	MHC class II locus	common brushtail
-Trvu-UB locus		subclass	common brushtail MHC class I locus	
+Aime-128 gene		subclass	giant panda MHC class I gene	
+Anpl-UAA gene		subclass	duck MHC class I gene	
+Assam macaque MHC class I gene		subclass	MHC class I gene	Assam macaque
+Assam macaque MHC class II gene		subclass	MHC class II gene	Assam macaque
+Atbe-B gene		subclass	white-fronted spider monkey MHC class I gene	
+Atbe-E gene		subclass	white-fronted spider monkey MHC class I gene	
+Atbe-G gene		subclass	white-fronted spider monkey MHC class I gene	
+Atfu-B gene		subclass	black-headed spider monkey MHC class I gene	
+Atfu-E gene		subclass	black-headed spider monkey MHC class I gene	
+Atfu-G gene		subclass	black-headed spider monkey MHC class I gene	
+Azara's night monkey MHC class I gene		subclass	MHC class I gene	Azara's night monkey
+Azara's night monkey MHC class II gene		subclass	MHC class II gene	Azara's night monkey
+BoLA-1 gene		subclass	cattle MHC class I gene	
+BoLA-2 gene		subclass	cattle MHC class I gene	
+BoLA-3 gene		subclass	cattle MHC class I gene	
+BoLA-4 gene		subclass	cattle MHC class I gene	
+BoLA-5 gene		subclass	cattle MHC class I gene	
+BoLA-6 gene		subclass	cattle MHC class I gene	
+BoLA-CD1 gene		subclass	cattle non-classical MHC gene	
+BoLA-DQA gene		subclass	cattle MHC class II gene	
+BoLA-DQB gene		subclass	cattle MHC class II gene	
+BoLA-DRA gene		subclass	cattle MHC class II gene	
+BoLA-DRB3 gene		subclass	BoLA-DRB gene	
+BoLA-DRB6 gene		subclass	BoLA-DRB gene	
+BoLA-DRB gene		subclass	cattle MHC class II gene	
+BoLA-MR1 gene		subclass	cattle non-classical MHC gene	
+BoLA-NC1 gene		subclass	cattle non-classical MHC gene	
+BoLA-NC2 gene		subclass	cattle non-classical MHC gene	
+BoLA-NC3 gene		subclass	cattle non-classical MHC gene	
+BoLA-NC4 gene		subclass	cattle non-classical MHC gene	
+Bornean orangutan MHC class I gene		subclass	MHC class I gene	Bornean orangutan
+Bornean orangutan MHC class II gene		subclass	MHC class II gene	Bornean orangutan
+Caja-B4 gene		subclass	marmoset MHC class I gene	
+Caja-B5 gene		subclass	marmoset MHC class I gene	
+Caja-B6 gene		subclass	marmoset MHC class I gene	
+Caja-B7 gene		subclass	marmoset MHC class I gene	
+Caja-B8 gene		subclass	marmoset MHC class I gene	
+Caja-B9 gene		subclass	marmoset MHC class I gene	
+Caja-E gene		subclass	marmoset MHC class I gene	
+Caja-F gene		subclass	marmoset MHC class I gene	
+Caja-G gene		subclass	marmoset MHC class I gene	
+Caja-PS2 gene		subclass	marmoset MHC class I gene	
+Cemi-A gene		subclass	blue monkey MHC class I gene	
+Cemi-B gene		subclass	blue monkey MHC class I gene	
+Chae-A gene		subclass	grivet MHC class I gene	
+Chae-B gene		subclass	grivet MHC class I gene	
+Chae-G gene		subclass	grivet MHC class I gene	
+Ctid-UAA gene		subclass	grass carp MHC class I gene	
+DLA-64 gene		subclass	dog MHC class I gene	
+DLA-88 gene		subclass	dog MHC class I gene	
+De Brazza's monkey MHC class I gene		subclass	MHC class I gene	De Brazza's monkey
+De Brazza's monkey MHC class II gene		subclass	MHC class II gene	De Brazza's monkey
+ELA-1 gene		subclass	horse MHC class I gene	
+ELA-16 gene		subclass	horse MHC class I gene	
+ELA-N gene		subclass	horse MHC class I gene	
+Eqca-1 gene		subclass	horse MHC class I gene	
+Eqca-2 gene		subclass	horse MHC class I gene	
+Eqca-3 gene		subclass	horse MHC class I gene	
+Eqca-4 gene		subclass	horse MHC class I gene	
+Eqca-6 gene		subclass	horse MHC class I gene	
+Eqca-7 gene		subclass	horse MHC class I gene	
+Eqca-16 gene		subclass	horse MHC class I gene	
+Eqca-N gene		subclass	horse MHC class I gene	
+FLA-E gene		subclass	cat MHC class I gene	
+Gaga-BF1 gene		subclass	chicken MHC class I gene	
+Gaga-BF2 gene		subclass	chicken MHC class I gene	
+Gaga-BF-B gene		subclass	chicken non-classical MHC gene	
+Gaga-BF-YF gene		subclass	chicken non-classical MHC gene	
+Geoffroy's tamarin MHC class I gene		subclass	MHC class I gene	Geoffroy's tamarin
+Geoffroy's tamarin MHC class II gene		subclass	MHC class II gene	Geoffroy's tamarin
+Gogo-A gene		subclass	gorilla MHC class I gene	
+Gogo-B gene		subclass	gorilla MHC class I gene	
+Gogo-C gene		subclass	gorilla MHC class I gene	
+Gogo-E gene		subclass	gorilla MHC class I gene	
+Gogo-F gene		subclass	gorilla MHC class I gene	
+Gogo-G gene		subclass	gorilla MHC class I gene	
+Gogo-H gene		subclass	gorilla MHC class I gene	
+Gogo-OKO gene		subclass	gorilla MHC class I gene	
+Guatemalan black howler MHC class I gene		subclass	MHC class I gene	Guatemalan black howler
+Guatemalan black howler MHC class II gene		subclass	MHC class II gene	Guatemalan black howler
+Guinea baboon MHC class I gene		subclass	MHC class I gene	Guinea baboon
+Guinea baboon MHC class II gene		subclass	MHC class II gene	Guinea baboon
+H2-D gene		subclass	mouse MHC class I gene	
+H2-IA alpha gene		subclass	mouse MHC class II gene	
+H2-IA beta gene		subclass	mouse MHC class II gene	
+H2-IE alpha gene		subclass	mouse MHC class II gene	
+H2-IE beta gene		subclass	mouse MHC class II gene	
+H2-K gene		subclass	mouse MHC class I gene	
+H2-L gene		subclass	mouse MHC class I gene	
+H2-M gene		subclass	mouse non-classical MHC gene	
+H2-MR1 gene		subclass	mouse non-classical MHC gene	
+H2-Q1 gene		subclass	H2-Q gene	
+H2-Q2 gene		subclass	H2-Q gene	
+H2-Q9 gene		subclass	H2-Q gene	
+H2-Q gene		subclass	mouse non-classical MHC gene	
+HLA-A gene		subclass	human MHC class I gene	
+HLA-B gene		subclass	human MHC class I gene	
+HLA-BTN3A gene		subclass	human non-classical MHC gene	
+HLA-C gene		subclass	human MHC class I gene	
+HLA-CD1 gene		subclass	human non-classical MHC gene	
+HLA-DPA gene		subclass	human MHC class II gene	
+HLA-DPB gene		subclass	human MHC class II gene	
+HLA-DQA gene		subclass	human MHC class II gene	
+HLA-DQB gene		subclass	human MHC class II gene	
+HLA-DRA gene		subclass	human MHC class II gene	
+HLA-DRB1 gene		subclass	HLA-DRB gene	
+HLA-DRB3 gene		subclass	HLA-DRB gene	
+HLA-DRB4 gene		subclass	HLA-DRB gene	
+HLA-DRB5 gene		subclass	HLA-DRB gene	
+HLA-DRB gene		subclass	human MHC class II gene	
+HLA-E gene		subclass	human non-classical MHC gene	
+HLA-F gene		subclass	human non-classical MHC gene	
+HLA-G gene		subclass	human non-classical MHC gene	
+HLA-MR1 gene		subclass	human non-classical MHC gene	
+Hyla-A gene		subclass	lar gibbon MHC class I gene	
+Hyla-B gene		subclass	lar gibbon MHC class I gene	
+Japanese macaque MHC class I gene		subclass	MHC class I gene	Japanese macaque
+Japanese macaque MHC class II gene		subclass	MHC class II gene	Japanese macaque
+Lero-G gene		subclass	golden lion tamarin MHC class I gene	
+MHC class I gene		subclass	MHC gene	
+MHC class II gene		subclass	MHC gene	
+Maar-A1 gene		subclass	stump-tailed macaque MHC class I gene	
+Maar-B gene		subclass	stump-tailed macaque MHC class I gene	
+Maar-I gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A1 gene		subclass	crab-eating macaque MHC class I gene	
+Mafa-A2 gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A3 gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A4 gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A5 gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A6 gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A8 gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-A gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-AG gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-B gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-DQA gene		subclass	crab-eating macaque MHC class II gene	
+Mafa-DQB gene		subclass	crab-eating macaque MHC class II gene	
+Mafa-DRA gene		subclass	crab-eating macaque MHC class II gene	
+Mafa-DRB gene		subclass	crab-eating macaque MHC class II gene	
+Mafa-E gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-F gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-G gene		subclass	stump-tailed macaque MHC class I gene	
+Mafa-I gene		subclass	stump-tailed macaque MHC class I gene	
+Mamu-A gene		subclass	rhesus macaque MHC class I gene	
+Mamu-B gene		subclass	rhesus macaque MHC class I gene	
+Mamu-CD1 gene		subclass	rhesus macaque non-classical MHC gene	
+Mamu-DPA gene		subclass	rhesus macaque MHC class II gene	
+Mamu-DPB gene		subclass	rhesus macaque MHC class II gene	
+Mamu-DQA gene		subclass	rhesus macaque MHC class II gene	
+Mamu-DQB gene		subclass	rhesus macaque MHC class II gene	
+Mamu-DRA gene		subclass	rhesus macaque MHC class II gene	
+Mamu-DRB gene		subclass	rhesus macaque MHC class II gene	
+Mamu-E gene		subclass	rhesus macaque MHC class I gene	
+Mamu-F gene		subclass	rhesus macaque MHC class I gene	
+Mamu-G gene		subclass	rhesus macaque MHC class I gene	
+Mamu-I gene		subclass	rhesus macaque MHC class I gene	
+Mamu-MR1 gene		subclass	rhesus macaque non-classical MHC gene	
+Milne Edward's macaque MHC class I gene		subclass	MHC class I gene	Milne Edward's macaque
+Milne Edward's macaque MHC class II gene		subclass	MHC class II gene	Milne Edward's macaque
+Nancy Ma's night monkey MHC class I gene		subclass	MHC class I gene	Nancy Ma's night monkey
+Nancy Ma's night monkey MHC class II gene		subclass	MHC class II gene	Nancy Ma's night monkey
+Onmy-DAA gene		subclass	rainbow trout MHC class II gene	
+Onmy-DAB gene		subclass	rainbow trout MHC class II gene	
+Onmy-UBA gene		subclass	rainbow trout MHC class I gene	
+Ovar-N gene		subclass	domestic sheep MHC class I gene	
+Paan-A gene		subclass	olive baboon MHC class I gene	
+Paan-AG gene		subclass	olive baboon MHC class I gene	
+Paan-B gene		subclass	olive baboon MHC class I gene	
+Pacy-A gene		subclass	yellow baboon MHC class I gene	
+Pacy-B gene		subclass	yellow baboon MHC class I gene	
+Pacy-E gene		subclass	yellow baboon MHC class I gene	
+Paha-A gene		subclass	hamadryas baboon MHC class I gene	
+Paha-B gene		subclass	hamadryas baboon MHC class I gene	
+Papa-A gene		subclass	bonobo MHC class I gene	
+Papa-B gene		subclass	bonobo MHC class I gene	
+Papa-C gene		subclass	bonobo MHC class I gene	
+Papa-G gene		subclass	bonobo MHC class I gene	
+Papa-H gene		subclass	bonobo MHC class I gene	
+Patr-A gene		subclass	chimpanzee MHC class I gene	
+Patr-AL gene		subclass	chimpanzee non-classical MHC gene	
+Patr-B gene		subclass	chimpanzee MHC class I gene	
+Patr-C gene		subclass	chimpanzee MHC class I gene	
+Patr-DPA gene		subclass	chimpanzee MHC class II gene	
+Patr-DPB gene		subclass	chimpanzee MHC class II gene	
+Patr-DQA gene		subclass	chimpanzee MHC class II gene	
+Patr-DQB gene		subclass	chimpanzee MHC class II gene	
+Patr-DRA gene		subclass	chimpanzee MHC class II gene	
+Patr-DRB gene		subclass	chimpanzee MHC class II gene	
+Pipi-B gene		subclass	white-faced saki MHC class I gene	
+Pipi-E gene		subclass	white-faced saki MHC class I gene	
+Pipi-G gene		subclass	white-faced saki MHC class I gene	
+Popy-A gene		subclass	Bornean orangutan MHC class I gene	
+Popy-AP gene		subclass	Bornean orangutan MHC class I gene	
+Popy-B gene		subclass	Bornean orangutan MHC class I gene	
+Popy-C gene		subclass	Bornean orangutan MHC class I gene	
+Popy-E gene		subclass	Bornean orangutan MHC class I gene	
+Popy-H gene		subclass	Bornean orangutan MHC class I gene	
+Ptal-N gene		subclass	black flying fox MHC class I gene	
+RLA-A gene		subclass	rabbit MHC class I gene	
+RT1-A1 gene		subclass	RT1-A gene	
+RT1-A2 gene		subclass	RT1-A gene	
+RT1-A gene		subclass	rat MHC class I gene	
+RT1-B alpha gene		subclass	rat MHC class II gene	
+RT1-B beta gene		subclass	rat MHC class II gene	
+RT1-D alpha gene		subclass	rat MHC class II gene	
+RT1-D beta gene		subclass	rat MHC class II gene	
+SLA-1 gene		subclass	pig MHC class I gene	
+SLA-2 gene		subclass	pig MHC class I gene	
+SLA-3 gene		subclass	pig MHC class I gene	
+SLA-4 gene		subclass	pig MHC class I gene	
+SLA-5 gene		subclass	pig MHC class I gene	
+SLA-6 gene		subclass	pig MHC class I gene	
+SLA-7 gene		subclass	pig MHC class I gene	
+SLA-8 gene		subclass	pig MHC class I gene	
+SLA-9 gene		subclass	pig MHC class I gene	
+SLA-11 gene		subclass	pig MHC class I gene	
+SLA-12 gene		subclass	pig MHC class I gene	
+SLA-DQA gene		subclass	pig MHC class II gene	
+SLA-DQB gene		subclass	pig MHC class II gene	
+SLA-DRA gene		subclass	pig MHC class II gene	
+SLA-DRB gene		subclass	pig MHC class II gene	
+SLA-TAP1 gene		subclass	pig MHC class I gene	
+SLA-TAP2 gene		subclass	pig MHC class I gene	
+Safu-G gene		subclass	brown-mantled tamarin MHC class I gene	
+Safu-PS1 gene		subclass	brown-mantled tamarin MHC class I gene	
+Safu-PS2 gene		subclass	brown-mantled tamarin MHC class I gene	
+Sage-PS1 gene		subclass	Geoffroy's tamarin MHC class I gene	
+Sage-PS2 gene		subclass	Geoffroy's tamarin MHC class I gene	
+Samy-PS1 gene		subclass	moustached tamarin MHC class I gene	
+Samy-PS2 gene		subclass	moustached tamarin MHC class I gene	
+Saoe-E gene		subclass	cotton-top tamarin MHC class I gene	
+Saoe-F gene		subclass	cotton-top tamarin MHC class I gene	
+Saoe-G gene		subclass	cotton-top tamarin MHC class I gene	
+Saoe-N1 gene		subclass	cotton-top tamarin MHC class I gene	
+Saoe-N2 gene		subclass	cotton-top tamarin MHC class I gene	
+Saoe-N3 gene		subclass	cotton-top tamarin MHC class I gene	
+Saoe-PS1 gene		subclass	cotton-top tamarin MHC class I gene	
+Sasa-DAA gene		subclass	atlantic salmon MHC class II gene	
+Sasa-DAB gene		subclass	atlantic salmon MHC class II gene	
+Sasa-UBA gene		subclass	atlantic salmon MHC class I gene	
+Sasc-G gene		subclass	common squirrel monkey MHC class I gene	
+Spix's night monkey MHC class I gene		subclass	MHC class I gene	Spix's night monkey
+Spix's night monkey MHC class II gene		subclass	MHC class II gene	Spix's night monkey
+Sumatran orangutan MHC class I gene		subclass	MHC class I gene	Sumatran orangutan
+Sumatran orangutan MHC class II gene		subclass	MHC class II gene	Sumatran orangutan
+Trvu-UB gene		subclass	common brushtail MHC class I gene	
+Xela-UAAg gene		subclass	clawed frog MHC class I gene	
+atlantic salmon MHC class I gene		subclass	MHC class I gene	atlantic salmon
+atlantic salmon MHC class II gene		subclass	MHC class II gene	atlantic salmon
+black crested mangabey MHC class I gene		subclass	MHC class I gene	black crested mangabey
+black crested mangabey MHC class II gene		subclass	MHC class II gene	black crested mangabey
+black flying fox MHC class I gene		subclass	MHC class I gene	black flying fox
+black-headed night monkey MHC class I gene		subclass	MHC class I gene	black-headed night monkey
+black-headed night monkey MHC class II gene		subclass	MHC class II gene	black-headed night monkey
+black-headed spider monkey MHC class I gene		subclass	MHC class I gene	black-headed spider monkey
+black-headed spider monkey MHC class II gene		subclass	MHC class II gene	black-headed spider monkey
+blue monkey MHC class I gene		subclass	MHC class I gene	blue monkey
+blue monkey MHC class II gene		subclass	MHC class II gene	blue monkey
+bonobo MHC class I gene		subclass	MHC class I gene	bonobo
+bonobo MHC class II gene		subclass	MHC class II gene	bonobo
+brown-mantled tamarin MHC class I gene		subclass	MHC class I gene	brown-mantled tamarin
+brown-mantled tamarin MHC class II gene		subclass	MHC class II gene	brown-mantled tamarin
+cat MHC class I gene		subclass	MHC class I gene	cat
+cat MHC class II gene		subclass	MHC class II gene	cat
+cat non-classical MHC gene		subclass	non-classical MHC gene	cat
+cattle MHC class I gene		subclass	MHC class I gene	cattle
+cattle MHC class II gene		subclass	MHC class II gene	cattle
+cattle non-classical MHC gene		subclass	non-classical MHC gene	cattle
+chacma Baboon MHC class I gene		subclass	MHC class I gene	chacma Baboon
+chacma Baboon MHC class II gene		subclass	MHC class II gene	chacma Baboon
+chicken MHC class I gene		subclass	MHC class I gene	chicken
+chicken MHC class II gene		subclass	MHC class II gene	chicken
+chicken non-classical MHC gene		subclass	non-classical MHC gene	chicken
+chimpanzee MHC class I gene		subclass	MHC class I gene	chimpanzee
+chimpanzee MHC class II gene		subclass	MHC class II gene	chimpanzee
+chimpanzee non-classical MHC gene		subclass	non-classical MHC gene	chimpanzee
+clawed frog MHC class I gene		subclass	MHC class I gene	clawed frog
+clawed frog MHC class II gene		subclass	MHC class II gene	clawed frog
+common brushtail MHC class I gene		subclass	MHC class I gene	common brushtail
+common brushtail MHC class II gene		subclass	MHC class II gene	common brushtail
+common squirrel monkey MHC class I gene		subclass	MHC class I gene	common squirrel monkey
+common squirrel monkey MHC class II gene		subclass	MHC class II gene	common squirrel monkey
+cotton-top tamarin MHC class I gene		subclass	MHC class I gene	cotton-top tamarin
+cotton-top tamarin MHC class II gene		subclass	MHC class II gene	cotton-top tamarin
+crab-eating macaque MHC class I gene		subclass	MHC class I gene	crab-eating macaque
+crab-eating macaque MHC class II gene		subclass	MHC class II gene	crab-eating macaque
+dog MHC class I gene		subclass	MHC class I gene	dog
+dog MHC class II gene		subclass	MHC class II gene	dog
+domestic sheep MHC class I gene		subclass	MHC class I gene	domestic sheep
+domestic sheep MHC class II gene		subclass	MHC class II gene	domestic sheep
+drill MHC class I gene		subclass	MHC class I gene	drill
+drill MHC class II gene		subclass	MHC class II gene	drill
+duck MHC class I gene		subclass	MHC class I gene	duck
+eastern gorilla MHC class I gene		subclass	MHC class I gene	eastern gorilla
+eastern gorilla MHC class II gene		subclass	MHC class II gene	eastern gorilla
+gelada MHC class I gene		subclass	MHC class I gene	gelada
+gelada MHC class II gene		subclass	MHC class II gene	gelada
+giant panda MHC class I gene		subclass	MHC class I gene	giant panda
+giant panda MHC class II gene		subclass	MHC class II gene	giant panda
+golden lion tamarin MHC class I gene		subclass	MHC class I gene	golden lion tamarin
+golden lion tamarin MHC class II gene		subclass	MHC class II gene	golden lion tamarin
+golden snub-nosed monkey MHC class I gene		subclass	MHC class I gene	golden snub-nosed monkey
+golden snub-nosed monkey MHC class II gene		subclass	MHC class II gene	golden snub-nosed monkey
+gorilla MHC class I gene		subclass	MHC class I gene	gorilla
+gorilla MHC class II gene		subclass	MHC class II gene	gorilla
+grass carp Beta-2-microglobulin gene		subclass	Beta-2-microglobulin gene	grass carp
+grass carp MHC class I gene		subclass	MHC class I gene	grass carp
+grass carp MHC class II gene		subclass	MHC class II gene	grass carp
+gray-bellied night monkey MHC class I gene		subclass	MHC class I gene	gray-bellied night monkey
+gray-bellied night monkey MHC class II gene		subclass	MHC class II gene	gray-bellied night monkey
+green monkey MHC class I gene		subclass	MHC class I gene	green monkey
+green monkey MHC class II gene		subclass	MHC class II gene	green monkey
+grivet MHC class I gene		subclass	MHC class I gene	grivet
+grivet MHC class II gene		subclass	MHC class II gene	grivet
+hamadryas baboon MHC class I gene		subclass	MHC class I gene	hamadryas baboon
+hamadryas baboon MHC class II gene		subclass	MHC class II gene	hamadryas baboon
+horse MHC class I gene		subclass	MHC class I gene	horse
+horse MHC class II gene		subclass	MHC class II gene	horse
+human Beta-2-microglobulin gene		subclass	Beta-2-microglobulin gene	human
+human MHC class I gene		subclass	MHC class I gene	human
+human MHC class II gene		subclass	MHC class II gene	human
+human non-classical MHC gene		subclass	non-classical MHC gene	human
+lar gibbon MHC class I gene		subclass	MHC class I gene	lar gibbon
+lar gibbon MHC class II gene		subclass	MHC class II gene	lar gibbon
+lion-tailed macaque MHC class I gene		subclass	MHC class I gene	lion-tailed macaque
+lion-tailed macaque MHC class II gene		subclass	MHC class II gene	lion-tailed macaque
+mandrill MHC class I gene		subclass	MHC class I gene	mandrill
+mandrill MHC class II gene		subclass	MHC class II gene	mandrill
+mantled guereza MHC class I gene		subclass	MHC class I gene	mantled guereza
+mantled guereza MHC class II gene		subclass	MHC class II gene	mantled guereza
+marmoset MHC class I gene		subclass	MHC class I gene	marmoset
+mouse CD1d gene		subclass	mouse non-classical MHC gene	
+mouse MHC class I gene		subclass	MHC class I gene	mouse
+mouse MHC class II gene		subclass	MHC class II gene	mouse
+mouse non-classical MHC gene		subclass	non-classical MHC gene	mouse
+moustached tamarin MHC class I gene		subclass	MHC class I gene	moustached tamarin
+moustached tamarin MHC class II gene		subclass	MHC class II gene	moustached tamarin
+non-classical MHC gene		subclass	MHC gene	
+northern pig-tailed macaque MHC class I gene		subclass	MHC class I gene	northern pig-tailed macaque
+northern pig-tailed macaque MHC class II gene		subclass	MHC class II gene	northern pig-tailed macaque
+northern plains gray langur MHC class I gene		subclass	MHC class I gene	northern plains gray langur
+northern plains gray langur MHC class II gene		subclass	MHC class II gene	northern plains gray langur
+olive baboon MHC class I gene		subclass	MHC class I gene	olive baboon
+olive baboon MHC class II gene		subclass	MHC class II gene	olive baboon
+pig MHC class I gene		subclass	MHC class I gene	pig
+pig MHC class II gene		subclass	MHC class II gene	pig
+pygmy marmoset MHC class I gene		subclass	MHC class I gene	pygmy marmoset
+pygmy marmoset MHC class II gene		subclass	MHC class II gene	pygmy marmoset
+rabbit MHC class I gene		subclass	MHC class I gene	rabbit
+rabbit MHC class II gene		subclass	MHC class II gene	rabbit
+rainbow trout MHC class I gene		subclass	MHC class I gene	rainbow trout
+rainbow trout MHC class II gene		subclass	MHC class II gene	rainbow trout
+rat CD1 gene		subclass	rat non-classical MHC gene	rat
+rat MHC class I gene		subclass	MHC class I gene	rat
+rat MHC class II gene		subclass	MHC class II gene	rat
+rat non-classical MHC gene		subclass	non-classical MHC gene	rat
+red-bellied titi MHC class I gene		subclass	MHC class I gene	red-bellied titi
+red-bellied titi MHC class II gene		subclass	MHC class II gene	red-bellied titi
+rhesus macaque MHC class I gene		subclass	MHC class I gene	rhesus macaque
+rhesus macaque MHC class II gene		subclass	MHC class II gene	rhesus macaque
+rhesus macaque non-classical MHC gene		subclass	non-classical MHC gene	rhesus macaque
+silvery Javan gibbon MHC class I gene		subclass	MHC class I gene	silvery Javan gibbon
+silvery Javan gibbon MHC class II gene		subclass	MHC class II gene	silvery Javan gibbon
+sooty mangabey MHC class I gene		subclass	MHC class I gene	sooty mangabey
+sooty mangabey MHC class II gene		subclass	MHC class II gene	sooty mangabey
+southern pig-tailed macaque MHC class I gene		subclass	MHC class I gene	southern pig-tailed macaque
+southern pig-tailed macaque MHC class II gene		subclass	MHC class II gene	southern pig-tailed macaque
+stump-tailed macaque MHC class I gene		subclass	MHC class I gene	stump-tailed macaque
+stump-tailed macaque MHC class II gene		subclass	MHC class II gene	stump-tailed macaque
+three-striped night monkey MHC class I gene		subclass	MHC class I gene	three-striped night monkey
+three-striped night monkey MHC class II gene		subclass	MHC class II gene	three-striped night monkey
+tufted capuchin MHC class I gene		subclass	MHC class I gene	tufted capuchin
+tufted capuchin MHC class II gene		subclass	MHC class II gene	tufted capuchin
+vervet monkey MHC class I gene		subclass	MHC class I gene	vervet monkey
+vervet monkey MHC class II gene		subclass	MHC class II gene	vervet monkey
+white-faced saki MHC class I gene		subclass	MHC class I gene	white-faced saki
+white-faced saki MHC class II gene		subclass	MHC class II gene	white-faced saki
+white-fronted spider monkey MHC class I gene		subclass	MHC class I gene	white-fronted spider monkey
+white-fronted spider monkey MHC class II gene		subclass	MHC class II gene	white-fronted spider monkey
+white-lipped tamarin MHC class I gene		subclass	MHC class I gene	white-lipped tamarin
+white-lipped tamarin MHC class II gene		subclass	MHC class II gene	white-lipped tamarin
+yellow baboon MHC class I gene		subclass	MHC class I gene	yellow baboon
+yellow baboon MHC class II gene		subclass	MHC class II gene	yellow baboon

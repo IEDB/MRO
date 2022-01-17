@@ -334,13 +334,13 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
                 reader,
                 "index",
                 labels,
-                regex=r"^.+ locus$",
+                regex=r"^.+ gene$",
                 missing_level="info",
                 allow_missing=allow_missing,
             )
         else:
             genetic_locus_labels, label_errors = check_labels(
-                table_name, reader, "index", labels, regex=r"^.+ locus$"
+                table_name, reader, "index", labels, regex=r"^.+ gene$"
             )
         errors.extend(label_errors)
 
@@ -354,7 +354,7 @@ def validate_genetic_locus(template_dir, labels, external_labels, allow_missing)
             table_name,
             reader,
             genetic_locus_labels,
-            top_terms=["Beta-2-microglobulin locus", "MHC locus"],
+            top_terms=["Beta-2-microglobulin gene", "MHC gene"],
         )
         errors.extend(parent_errors)
 
@@ -1077,6 +1077,7 @@ def main():
     p.add_argument("template_dir")
     p.add_argument("err_output")
     p.add_argument("-a", "--allow-missing", action="store_true")
+    p.add_argument("-f", "--fail-hard", action="store_true")
     args = p.parse_args()
 
     template_dir = args.template_dir
@@ -1201,6 +1202,8 @@ def main():
             f"\n{msg}\n"
             "---------------------------------------------------------\n"
         )
+        if args.fail_hard:
+            sys.exit(1)
     else:
         print("\nValidation passed!\n")
 
