@@ -51211,3 +51211,4 @@ MRO:0051209	Trvu-UB gene	owl:Class
 MRO:0051210	common brushtail MHC class I protein complex	owl:Class	
 MRO:0051211	common brushtail MHC class II protein complex	owl:Class	
 MRO:0051212	Trvu-UB*01:01 protein complex	owl:Class	
+MRO:0051213	HLA-DRA*01:01/DRB1*04:02 protein complex	owl:Class	
