@@ -428,6 +428,7 @@ build/diff.html: src/scripts/diff.py src/scripts/diff.html $(DIFF_TABLES)
 
 # Prepare products for testing & review
 .PHONY: prepare
+prepare: sort
 prepare: clean
 prepare: build/mro.db
 prepare: update-seqs
