@@ -22664,4 +22664,6 @@ common brushtail MHC class I protein complex	22756
 common brushtail MHC class II protein complex	22757			
 Trvu-UB*01:01 protein complex	22758	UB		
 HLA-DQA1*03:01/DQB1*06:04 protein complex	22759	DQ		
-HLA-DPA1*02:01/DPB1*16:01 protein complex	22760	DP		
+HLA-DPA1*02:01/DPB1*16:01 protein complex	22760	DP		300708
+HLA-DPA1*01:03/DPB1*16:01 protein complex	22761	DP	300693	300708
+HLA-DRA*01:01/DRB1*04:02 protein complex	22762	DR	300744	300757
