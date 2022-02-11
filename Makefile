@@ -166,10 +166,19 @@ update-tsv-files:
 	$(foreach t,$(tables) rejected,python3 src/scripts/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
 	python3 src/scripts/sort.py $(source_files)
 
-# Sort TSV files by first column
+# Sort TSVs
 .PHONY: sort
-sort:
+sort: sort-templates sort-iedb
+
+# Sort template files by first column
+.PHONY: sort-templates
+sort-templates:
 	python3 src/scripts/sort.py index.tsv $(source_files)
+
+# Sort IEDB table by IEDB ID
+.PHONY: sort-iedb
+sort-iedb: src/scripts/sort_iedb.py iedb/iedb.tsv
+	python3 $^
 
 # Check for whitespace during update-tsv step
 .PRECIOUS: build/whitespace.tsv
