@@ -1,8 +1,11 @@
 git+https://github.com/ontodev/axle.git
-cerberus
-Flask==1.0.2
-ontodev-gizmos==0.2.0
-markdown
-openpyxl
-psycopg2-binary
+git+https://github.com/ontodev/gizmos.git@02-22-updates
+git+https://github.com/ontodev/sprocket.git@standalone-table
+
+cerberus~=1.3.4
+Flask~=2.0.2
+Jinja2~=3.0.1
+lark~=1.0.0
+markdown~=3.3.4
+openpyxl~=3.0.7
 urlp

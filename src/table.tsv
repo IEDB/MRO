@@ -1,0 +1,21 @@
+table	path	description	type
+table	src/table.tsv	All user-editable tables in this project	table
+column	src/column.tsv	Columns for all of the tables	column
+datatype	src/datatype.tsv	Datatypes for all of the columns	datatype
+prefix	src/prefix.tsv	Prefixes and source ontologies	
+index	build/tables/index.tsv		
+chain_sequence	build/tables/chain-sequence.tsv		
+chain	build/tables/chain.tsv		
+core	build/tables/core.tsv		
+evidence	build/tables/evidence.tsv		
+external	build/tables/external.tsv		
+genetic_locus	build/tables/genetic-locus.tsv		
+haplotype	build/tables/haplotype.tsv		
+haplotype_molecule	build/tables/haplotype-molecule.tsv		
+molecule	build/tables/molecule.tsv		
+mutant_molecule	build/tables/mutant-molecule.tsv		
+rejected	build/tables/rejected.tsv		
+serotype	build/tables/serotype.tsv		
+serotype_molecule	build/tables/serotype-molecule.tsv		
+iedb	build/tables/iedb.tsv		
+iedb_manual	build/tables/iedb-manual.tsv		

@@ -1,4 +1,4 @@
-ID	Label	Type	Deprecated?
+ID	Label	Type	Deprecated
 ID	A rdfs:label	TYPE	AT owl:deprecated^^xsd:boolean
 MRO:0000000	haplotype member of	owl:ObjectProperty	
 MRO:0000001	serotype member of	owl:ObjectProperty	

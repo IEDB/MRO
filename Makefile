@@ -10,6 +10,7 @@
 #
 # * [Upload mro.xlsx](./src/scripts/sheet.py?action=create)
 # * [Download mro.xlsx](mro.xlsx)
+# * [View prototype](./src/scripts/run.py)
 #
 # #### Build Products
 #
@@ -19,7 +20,6 @@
 # 4. [Prepare Products](prepare)
 # 5. View the results:
 #     * [Table Diffs](build/diff.html)
-#     * [Term Table](build/mro.html)
 #     * [Browse Tree](./src/scripts/tree.sh)
 # 6. [Run Tests](test)
 #
@@ -49,7 +49,8 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
-ROBOT := java -jar build/robot.jar
+ROBOT := java -jar build/robot.jar --prefix "iedb: http://iedb.org/"
+LDTAB := java -jar build/ldtab.jar
 TODAY := $(shell date +%Y-%m-%d)
 
 tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
@@ -60,7 +61,7 @@ templates = $(foreach i,$(build_files),--template $(i))
 
 ### Set Up
 
-build build/validate build/master build/diff:
+build build/validate build/master build/diff build/tables:
 	mkdir -p $@
 
 # We use the official development version of ROBOT for most things.
@@ -80,6 +81,9 @@ endif
 build/rdftab: | build
 	curl -L -o $@ $(RDFTAB_URL)
 	chmod +x $@
+
+build/ldtab.jar: | build
+	curl -L -o $@ "https://github.com/ontodev/ldtab.clj/releases/download/v2022-03-17/ldtab.jar"
 
 
 ### Table Validation
@@ -114,22 +118,6 @@ assign_ids: src/scripts/assign-ids.py index.tsv iedb/iedb.tsv $(source_files)
 	python3 $< index.tsv iedb/iedb.tsv ontology
 	axle push
 
-### Review
-
-build/mro.db: src/queries/prefixes.sql mro.owl | build/rdftab
-	rm -rf $@
-	sqlite3 $@ < $<
-	./build/rdftab $@ < $(word 2,$^)
-	sqlite3 $@ "CREATE INDEX idx_stanza ON statements (stanza);"
-	sqlite3 $@ "CREATE INDEX idx_subject ON statements (subject);"
-	sqlite3 $@ "CREATE INDEX idx_predicate ON statements (predicate);"
-	sqlite3 $@ "CREATE INDEX idx_object ON statements (object);"
-	sqlite3 $@ "CREATE INDEX idx_value ON statements (value);"
-	sqlite3 $@ "ANALYZE;"
-
-build/mro.html: mro.owl | build/robot.jar
-	$(ROBOT) export --input $< --header "ID|LABEL|SubClass Of|definition" --format html --export $@
-
 
 ### Ontology Source Tables
 
@@ -152,7 +140,7 @@ build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.t
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv ontology/genetic-locus.tsv ontology/haplotype.tsv ontology/serotype.tsv ontology/chain.tsv ontology/chain-sequence.tsv ontology/molecule.tsv ontology/haplotype-molecule.tsv ontology/serotype-molecule.tsv ontology/mutant-molecule.tsv ontology/core.tsv ontology/external.tsv iedb/iedb-manual.tsv ontology/evidence.tsv ontology/rejected.tsv
+mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv $(source_files) iedb/iedb-manual.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files sort build/whitespace.tsv
@@ -276,9 +264,9 @@ build/obi.txt: ontology/import.txt | build
 	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' > $@
 	echo "RO:0000056" >> $@
 
-build/%.db: src/queries/prefixes.sql $(LIB)/%.owl | build/rdftab
+build/%.db: src/prefix.tsv $(LIB)/%.owl | build/rdftab
 	rm -rf $@
-	sqlite3 $@ < $<
+	sqlite3 -cmd ".mode tabs" $@ ".import $< prefix"
 	./build/rdftab $@ < $(word 2,$^)
 
 PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:9991118 rdfs:label
@@ -355,12 +343,6 @@ build/parents.csv: build/.mro-tdb src/queries/parents.rq | build/robot.jar
 
 build/ALLELE_FINDER_TREE.csv: src/scripts/tree.py build/parents.csv | iedb
 	python3 $^ --mode CSV > $@
-
-build/tree.json: src/scripts/tree.py build/parents.csv | build
-	python3 $^ --mode JSON > $@
-
-build/full_tree.json: src/scripts/tree.py build/full_tree.csv | build
-	python3 $^ --mode JSON > $@
 
 .PHONY: update-iedb
 update-iedb: $(IEDB_TARGETS)
@@ -477,3 +459,54 @@ release: mro.owl iedb.zip build/release-notes.txt
 	gh release create v$(TODAY) mro.owl iedb.zip \
 	-t "$(TODAY) Release" \
 	-F build/release-notes.txt
+
+
+### MRO Prototype
+
+sql_tables = index iedb iedb-manual $(tables) rejected
+sql_inputs = $(foreach t,$(sql_tables),build/tables/$(t).tsv)
+
+# The tables for the SQL database do not include ROBOT template strings
+.PHONY: copy_tables
+copy_tables: $(sql_inputs)
+
+build/tables/rejected.tsv: ontology/rejected.tsv | build/tables
+	cp $< $@
+
+build/tables/%.tsv: ontology/%.tsv | build/tables
+	sed '2d' $< > $@
+
+build/tables/iedb.tsv: iedb/iedb.tsv | build/tables
+	sed '2d' $< > $@
+
+build/tables/iedb-manual.tsv: iedb/iedb-manual.tsv | build/tables
+	sed '2d' $< > $@
+
+build/tables/index.tsv: index.tsv | build/tables
+	sed '2d' $< > $@
+
+# Load all tables into SQLite database
+build/mro-tables.db: src/scripts/load.py src/table.tsv src/column.tsv src/datatype.tsv $(sql_inputs)
+	python3 src/scripts/load.py src/table.tsv $@
+
+# Then add MRO using LDTab
+.PHONY: load_mro
+load_mro: build/mro-tables.db mro.owl | build/ldtab.jar
+	sqlite3 $< "CREATE TABLE mro (assertion INT NOT NULL, retraction INT NOT NULL DEFAULT 0, graph TEXT NOT NULL, subject TEXT NOT NULL, predicate TEXT NOT NULL, object TEXT NOT NULL, datatype TEXT NOT NULL, annotation TEXT);"
+	$(LDTAB) import --table mro $^
+
+# Replace existing templates with data from database
+.PHONY: refresh_templates
+refresh_templates: $(foreach t,$(sql_tables),refresh_$(t))
+
+refresh_index: src/scripts/table_2_template.py
+	python3 $< build/mro-tables.db . index
+
+refresh_iedb: src/scripts/table_2_template.py
+	python3 $< build/mro-tables.db iedb iedb
+
+refresh_iedb-manual: src/scripts/table_2_template.py
+	python3 $< build/mro-tables.db iedb iedb-manual
+
+refresh_%: src/scripts/table_2_template.py
+	python3 $< build/mro-tables.db ontology $*

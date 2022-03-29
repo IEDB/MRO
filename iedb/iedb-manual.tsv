@@ -1,5 +1,5 @@
 Label	Sort Order
-LABEL	A http://iedb.org/has-sort-name
+LABEL	A iedb:has-sort-name
 MHC protein complex	1
 mutant MHC protein complex	2
 MHC protein complex with haplotype	3
