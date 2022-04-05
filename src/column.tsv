@@ -1,124 +1,124 @@
-table	column	nulltype	datatype	structure	description	template	structure not yet implemented
-table	table		table_name	primary	name of this table		
-table	path		path		path to the TSV file for this table, relative to the table.tsv file		
-table	type	empty	table_type		type of this table, used for tables with special meanings		
-table	description	empty	description		a description of this table		
-column	table		table_name	from(table.table)	the table that this column belongs to		
-column	column		column_name		the name of this column		
-column	datatype		datatype_name	from(datatype.datatype)	the datatype for this column		
-column	nulltype	empty	datatype_name	from(datatype.datatype)	the datatype for NULL values in this column		
-column	structure	empty	label		schema information for this column		
-column	description	empty	description		a description of this column		
-datatype	datatype		datatype_name	primary	the name of this datatype		
-datatype	parent	empty	datatype_name	tree(datatype)	the parent datatype		
-datatype	condition	empty	datatype_condition				
-prefix	prefix		prefix	primary			
-prefix	base		IRI	unique			
-prefix	ontology IRI	empty	IRI				
-prefix	version IRI	empty	IRI				
-index	ID		CURIE		The MRO CURIE	ID	
-index	Label		label		The label for this term	A rdfs:label	
-index	Type		owl_type		The OWL type for this term	TYPE	
-index	Deprecated	empty	boolean			AT owl:deprecated^^xsd:boolean	
-iedb	Label		label	from(index.Label)	The label for this term (from index)	LABEL	
-iedb	IEDB ID		positive_integer		A unique integer ID for this term	A MRO:has-iedb-mhc-id	
-iedb	Locus		word			A MRO:has-mhc-locus	
-iedb	Chain I Source ID		positive_integer			A MRO:has-chain-i-source-id	
-iedb	Chain II Source ID		positive_integer			A MRO:has-chain-ii-source-id	
-iedb_manual	Label		label	from(index.Label)		LABEL	
-iedb_manual	Sort Order		positive_integer			A iedb:has-sort-name	
-iedb_manual	Label		label	from(index.Label)		LABEL	
-chain	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-chain	Class Type		class_type			CLASS_TYPE	
-chain	Parent		label			C %	any(from(chain.Label), "protein")
-chain	Gene	empty	label	from(genetic_locus.Label)		C 'gene product of' some %	
-chain	Expression	empty	label	from(evidence.Label)		AI 'has expression evidence'	
-chain_sequence	Label		label	from(chain.Label)		LABEL	
-chain_sequence	Resource Name		trimmed_line			A MRO:resource-name	
-chain_sequence	Source		source			A MRO:source	
-chain_sequence	Accession		nonspace			A MRO:accession	
-chain_sequence	Sequence		sequence			A MRO:sequence	
-core	Label		label	from(index.Label)		LABEL	
-core	IEDB Label	empty	label			A OBI:9991118	
-core	Class Type		class_type			CLASS_TYPE	
-core	Parent	empty	label	from(external.Label)		C %	
-core	Logic	empty	trimmed_line			C %	
-core	Definition	empty	description			A IAO:0000115	
-core	Definition Source	empty	trimmed_line			A IAO:0000119	
-core	Example of Usage	empty	trimmed_text			A IAO:0000112	
-evidence	Label		label	from(index.Label)		LABEL	
-evidence	IEDB Label	empty	label			A OBI:9991118	
-evidence	Class Type		class_type			CLASS_TYPE	
-evidence	Conclusion		label			C %	any("evidence", from(evidence.Label))
-evidence	Evidence	empty	label			C %	from(import.Label)
-evidence	Is Supported By Data	empty	label			C is_supported_by_data some (is_specified_output_of some %)	any(from(core.Label), from(external.Label))
-evidence	Definition	empty	description			A IAO:0000115	
-evidence	Definition Source	empty	trimmed_line			A IAO:0000119	
-evidence	Example of Usage	empty	trimmed_text			A IAO:0000112	
-evidence	Comment	empty	trimmed_text			A rdfs:comment	
-external	ID		CURIE			ID	
-external	Label		label			A rdfs:label	
-external	Editor Preferred Term		label			A IAO:0000111	
-external	IEDB Label	empty	label			A OBI:9991118	
-external	Class Type		class_type			CLASS_TYPE	
-external	Parent		label			C %	from(import.Label)
-external	Logic	empty	trimmed_line			C %	
-external	Definition	empty	description			A IAO:0000115	
-external	Definition Source	empty	trimmed_line			A IAO:0000119	
-external	Example of Usage	empty	trimmed_text			A IAO:0000112	
-external	Source Ontology	empty	IRI	from(prefix."ontology IRI")		AI IAO:0000412	
-external	Species Code	empty	word				
-genetic_locus	Label		label	from(index.Label)		LABEL	
-genetic_locus	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-genetic_locus	Class Type		class_type			CLASS_TYPE	
-genetic_locus	Parent		label			C %	any("MHC gene", from(genetic_locus.Label))
-genetic_locus	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %	
-haplotype	Label		label	from(index.Label)		LABEL	
-haplotype	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-haplotype	Class Type		class_type			CLASS_TYPE	
-haplotype	Parent		label			C %	any("MHC haplotype", from(haplotype.Label))
-haplotype	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %	
-haplotype_molecule	Label		label			LABEL	
-haplotype_molecule	IEDB Label	empty	label			A OBI:9991118	
-haplotype_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-haplotype_molecule	Restriction Level		restriction_level			A has MHC restriction level	
-haplotype_molecule	Class Type		class_type			CLASS_TYPE	
-haplotype_molecule	Parent		label	from(molecule.Label)		C %	any("MHC protein complex", from(molecule.Label))
-haplotype_molecule	In Taxon		label	from(external.Label)		C 'in taxon' some %	
-haplotype_molecule	With Haplotype		label	from(haplotype.Label)		C 'haplotype member of' some %	any("MHC haplotype", from(haplotype.Label))
-molecule	Label		label	from(index.Label)		LABEL	
-molecule	IEDB Label	empty	label			A OBI:9991118	
-molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-molecule	Restriction Level		restriction_level			A has MHC restriction level	
-molecule	Class Type		class_type			CLASS_TYPE	
-molecule	Parent		label			C %	any("MHC protein complex", from(molecule.Label))
-molecule	In Taxon		label	from(external.Label)		C 'in taxon' some %	
-molecule	Alpha Chain	empty	label	from(chain.Label)		C 'has part' some %	
-molecule	Beta Chain	empty	label			C 'has part' some %	only Beta-2-microglobulin, maybe make datatype
-molecule	With Haplotype	empty	label	from(haplotype.Label)		C 'haplotype member of' some %	any("MHC haplotype", from(haplotype.Label))
-molecule	With Serotype	empty	label	from(serotype.Label)		C 'serotype member of' some %	any("MHC serotype", from(serotype.Label))
-mutant_molecule	Label		label	from(index.Label)		LABEL	
-mutant_molecule	IEDB Label	empty	label			A OBI:9991118	
-mutant_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-mutant_molecule	Restriction Level		restriction_level			A has MHC restriction level	
-mutant_molecule	Class Type		class_type			CLASS_TYPE	
-mutant_molecule	Parent		label			C %	
-mutant_molecule	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %	
-mutant_molecule	Mutant Of	empty	label	from(molecule.Label)		C 'is synthetic protein mutant of' some %	
-mutant_molecule	Chain I Mutation	empty	trimmed_line			A has chain I mutation	
-mutant_molecule	Chain II Mutation	empty	trimmed_line			A has chain II mutation	
-rejected	Term		label				
-rejected	Reason	empty	trimmed_line				
-serotype	Label		label	from(index.Label)		LABEL	
-serotype	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-serotype	Class Type		class_type			CLASS_TYPE	
-serotype	Parent		label			C %	any("MHC serotype", from(serotype.Label))
-serotype	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %	
-serotype_molecule	Label		label	from(serotype.Label)		LABEL	
-serotype_molecule	IEDB Label	empty	label			A OBI:9991118	
-serotype_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|	
-serotype_molecule	Restriction Level		restriction_level			A has MHC restriction level	
-serotype_molecule	Class Type		class_type			CLASS_TYPE	
-serotype_molecule	Parent		label	from(molecule.Label)		C %	any("MHC protein complex", from(molecule.Label))
-serotype_molecule	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %	
-serotype_molecule	With Serotype		label	from(serotype.Label)		C 'serotype member of' some %	
+table	column	nulltype	datatype	structure	description	template
+table	table		table_name	primary	name of this table	
+table	path		path		path to the TSV file for this table, relative to the table.tsv file	
+table	type	empty	table_type		type of this table, used for tables with special meanings	
+table	description	empty	description		a description of this table	
+column	table		table_name	from(table.table)	the table that this column belongs to	
+column	column		column_name		the name of this column	
+column	datatype		datatype_name	from(datatype.datatype)	the datatype for this column	
+column	nulltype	empty	datatype_name	from(datatype.datatype)	the datatype for NULL values in this column	
+column	structure	empty	label		schema information for this column	
+column	description	empty	description		a description of this column	
+datatype	datatype		datatype_name	primary	the name of this datatype	
+datatype	parent	empty	datatype_name	tree(datatype)	the parent datatype	
+datatype	condition	empty	datatype_condition			
+prefix	prefix		prefix	primary		
+prefix	base		IRI	unique		
+prefix	ontology IRI	empty	IRI			
+prefix	version IRI	empty	IRI			
+index	ID		CURIE	primary	The MRO CURIE	ID
+index	Label		label	unique	The label for this term	A rdfs:label
+index	Type		owl_type		The OWL type for this term	TYPE
+index	Deprecated	empty	boolean			AT owl:deprecated^^xsd:boolean
+iedb	Label		label	unique from(index.Label)	The label for this term (from index)	LABEL
+iedb	IEDB ID		positive_integer	primary	A unique integer ID for this term	A MRO:has-iedb-mhc-id
+iedb	Locus		word			A MRO:has-mhc-locus
+iedb	Chain I Source ID		positive_integer			A MRO:has-chain-i-source-id
+iedb	Chain II Source ID		positive_integer			A MRO:has-chain-ii-source-id
+iedb_manual	Label		label	primary from(index.Label)		LABEL
+iedb_manual	Sort Order		positive_integer			A iedb:has-sort-name
+chain	Label		label	primary from(index.Label)		LABEL
+chain	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+chain	Class Type		class_type			CLASS_TYPE
+chain	Parent		label	tree(Label)		C %
+chain	Gene	empty	label	from(genetic_locus.Label)		C 'gene product of' some %
+chain	Expression	empty	label	from(evidence.Label)		AI 'has expression evidence'
+chain_sequence	Label		label	primary from(chain.Label)		LABEL
+chain_sequence	Resource Name		trimmed_line			A MRO:resource-name
+chain_sequence	Source		source			A MRO:source
+chain_sequence	Accession		nonspace			A MRO:accession
+chain_sequence	Sequence		sequence			A MRO:sequence
+core	Label		label	primary from(index.Label)		LABEL
+core	IEDB Label	empty	label			A OBI:9991118
+core	Class Type		class_type			CLASS_TYPE
+core	Parent	empty	label	from(external.Label)		C %
+core	Logic	empty	trimmed_line			C %
+core	Definition	empty	description			A IAO:0000115
+core	Definition Source	empty	trimmed_line			A IAO:0000119
+core	Example of Usage	empty	trimmed_text			A IAO:0000112
+evidence	Label		label	primary from(index.Label)		LABEL
+evidence	IEDB Label	empty	label			A OBI:9991118
+evidence	Class Type		class_type			CLASS_TYPE
+evidence	Conclusion		label	tree(Label)		C %
+evidence	Evidence	empty	label			C %
+evidence	Is Supported By Data	empty	label			C is_supported_by_data some (is_specified_output_of some %)
+evidence	Definition	empty	description			A IAO:0000115
+evidence	Definition Source	empty	trimmed_line			A IAO:0000119
+evidence	Example of Usage	empty	trimmed_text			A IAO:0000112
+evidence	Comment	empty	trimmed_text			A rdfs:comment
+external	ID		CURIE	primary		ID
+external	Label		label	unique		A rdfs:label
+external	Editor Preferred Term		label			A IAO:0000111
+external	IEDB Label	empty	label			A OBI:9991118
+external	Class Type		class_type			CLASS_TYPE
+external	Parent		label			C %
+external	Logic	empty	trimmed_line			C %
+external	Definition	empty	description			A IAO:0000115
+external	Definition Source	empty	trimmed_line			A IAO:0000119
+external	Example of Usage	empty	trimmed_text			A IAO:0000112
+external	Source Ontology	empty	IRI	from(prefix."ontology IRI")		AI IAO:0000412
+external	Species Code	empty	word			
+genetic_locus	Label		label	primary from(index.Label)		LABEL
+genetic_locus	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+genetic_locus	Class Type		class_type			CLASS_TYPE
+genetic_locus	Parent		label	tree(Label)		C %
+genetic_locus	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
+haplotype	Label		label	primary from(index.Label)		LABEL
+haplotype	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+haplotype	Class Type		class_type			CLASS_TYPE
+haplotype	Parent		label	tree(Label)		C %
+haplotype	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
+haplotype_molecule	Label		label	primary from(haplotype.Label)		LABEL
+haplotype_molecule	IEDB Label	empty	label			A OBI:9991118
+haplotype_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+haplotype_molecule	Restriction Level		restriction_level			A has MHC restriction level
+haplotype_molecule	Class Type		class_type			CLASS_TYPE
+haplotype_molecule	Parent		label	from(molecule.Label)		C %
+haplotype_molecule	In Taxon		label	from(external.Label)		C 'in taxon' some %
+haplotype_molecule	With Haplotype		label	from(haplotype.Label)		C 'haplotype member of' some %
+molecule	Label		label	primary from(index.Label)		LABEL
+molecule	IEDB Label	empty	label			A OBI:9991118
+molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+molecule	Restriction Level		restriction_level			A has MHC restriction level
+molecule	Class Type		class_type			CLASS_TYPE
+molecule	Parent		label	tree(Label)		C %
+molecule	In Taxon		label	from(external.Label)		C 'in taxon' some %
+molecule	Alpha Chain	empty	label	from(chain.Label)		C 'has part' some %
+molecule	Beta Chain	empty	beta_2			C 'has part' some %
+molecule	With Haplotype	empty	label	from(haplotype.Label)		C 'haplotype member of' some %
+molecule	With Serotype	empty	label	from(serotype.Label)		C 'serotype member of' some %
+mutant_molecule	Label		label	primary from(index.Label)		LABEL
+mutant_molecule	IEDB Label	empty	label			A OBI:9991118
+mutant_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+mutant_molecule	Restriction Level		restriction_level			A has MHC restriction level
+mutant_molecule	Class Type		class_type			CLASS_TYPE
+mutant_molecule	Parent		label			C %
+mutant_molecule	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
+mutant_molecule	Mutant Of	empty	label	from(molecule.Label)		C 'is synthetic protein mutant of' some %
+mutant_molecule	Chain I Mutation	empty	trimmed_line			A has chain I mutation
+mutant_molecule	Chain II Mutation	empty	trimmed_line			A has chain II mutation
+rejected	Term		label	primary		
+rejected	Reason	empty	trimmed_line			
+serotype	Label		label	primary from(index.Label)		LABEL
+serotype	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+serotype	Class Type		class_type			CLASS_TYPE
+serotype	Parent		label	tree(Label)		C %
+serotype	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
+serotype_molecule	Label		label	primary from(serotype.Label)		LABEL
+serotype_molecule	IEDB Label	empty	label			A OBI:9991118
+serotype_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
+serotype_molecule	Restriction Level		restriction_level			A has MHC restriction level
+serotype_molecule	Class Type		class_type			CLASS_TYPE
+serotype_molecule	Parent		label	from(molecule.Label)		C %
+serotype_molecule	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
+serotype_molecule	With Serotype		label	from(serotype.Label)		C 'serotype member of' some %
