@@ -6,24 +6,17 @@ from argparse import ArgumentParser, FileType
 
 def main():
 	parser = ArgumentParser()
+	parser.add_argument("index", type=FileType("r"))
 	parser.add_argument("source", type=FileType("r"))
 	parser.add_argument("target", type=FileType("w"))
 	args = parser.parse_args()
 
 	# Get a map of label to ID for all MRO & external terms
 	label_id = {}
-	with open("index.tsv", "r") as f:
-		reader = csv.reader(f, delimiter="\t")
-		next(reader)
-		next(reader)
-		for row in reader:
-			label_id[row[1]] = row[0]
-	with open("ontology/external.tsv", "r") as f:
-		reader = csv.reader(f, delimiter="\t")
-		next(reader)
-		next(reader)
-		for row in reader:
-			label_id[row[1]] = row[0]
+	reader = csv.DictReader(args.index, delimiter="\t")
+	next(reader)
+	for row in reader:
+		label_id[row["Label"]] = row["ID"]
 
 	# Replace any labels with single quotes with their IDs
 	# Only check for cells in "C" template string columns

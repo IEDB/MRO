@@ -6,33 +6,11 @@
 
 ### Workflow
 #
-# Tasks to edit and release MRO.
+# 1. [Create database](load_mro)
+# 2. [View prototype](./src/scripts/run.py)
+# 3. [Update templates](refresh_templates)
+# 4. [Rebuild MRO](all)
 #
-# * [Upload mro.xlsx](./src/scripts/sheet.py?action=create)
-# * [Download mro.xlsx](mro.xlsx)
-# * [View prototype](./src/scripts/run.py)
-#
-# #### Build Products
-#
-# 1. [Validate Tables](validate_tables) (IDs not required for all terms)
-# 2. [Assign New IDs](assign_ids)
-# 3. [Validate Tables](validate_tables_strict) (all terms must have IDs)
-# 4. [Prepare Products](prepare)
-# 5. View the results:
-#     * [Table Diffs](build/diff.html)
-#     * [Browse Tree](./src/scripts/tree.sh)
-# 6. [Run Tests](test)
-#
-# #### Commit Changes
-#
-# 1. Run `Status` to see changes
-# 2. Run `Commit` and enter message
-# 3. Run `Push` and create a new Pull Request
-#
-# #### Before you go...
-#
-# [Clean Build Directory](clean)
-
 
 ### Configuration
 #
@@ -49,14 +27,18 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
-ROBOT := java -jar build/robot.jar --prefix "iedb: http://iedb.org/"
+ROBOT := java -jar build/robot.jar --prefix "iedb: http://iedb.org/" --prefix "REO: $(OBO)/REO_"
 LDTAB := java -jar build/ldtab.jar
 TODAY := $(shell date +%Y-%m-%d)
 
-tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
+tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence obsolete
 source_files = $(foreach o,$(tables),ontology/$(o).tsv)
 build_files = $(foreach o,$(tables),build/$(o).tsv)
-templates = $(foreach i,$(build_files),--template $(i))
+
+define \n
+
+
+endef
 
 
 ### Set Up
@@ -86,43 +68,15 @@ build/ldtab.jar: | build
 	curl -L -o $@ "https://github.com/ontodev/ldtab.clj/releases/download/v2022-03-17/ldtab.jar"
 
 
-### Table Validation
-
-# Validate the contents of the templates
-.PRECIOUS: build/validation_errors.tsv
-build/validation_errors.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
-	python3 $< index.tsv iedb/iedb.tsv ontology $@ -a
-
-.PRECIOUS: build/validation_errors_strict.tsv
-build/validation_errors_strict.tsv: src/scripts/validation/validate_templates.py index.tsv iedb/iedb.tsv $(source_files) | build
-	python3 $< index.tsv iedb/iedb.tsv ontology $@ -f
-
-apply_%: build/validation_%.tsv
-	axle clear all
-	axle apply $<
-
-.PHONY: validate_tables
-validate_tables:
-	make apply_errors
-	axle push
-
-.PHONY: validate_tables_strict
-validate_tables_strict:
-	make apply_errors_strict
-	axle push
-
-### Processing
-
-.PHONY: assign_ids
-assign_ids: src/scripts/assign-ids.py index.tsv iedb/iedb.tsv $(source_files)
-	python3 $< index.tsv iedb/iedb.tsv ontology
-	axle push
-
-
 ### Ontology Source Tables
 
+# Index containing ID, Label, and Type for all MRO terms
+build/index.tsv: $(source_files) | build
+	echo -e "ID\tLabel\tType\nID\tLABEL\tTYPE" >> $@
+	$(foreach f,$^,tail -n +3 $(f) | cut -f1,2,3 >> $@${\n})
+
 # Replace labels for any term with single quotes used in a C ROBOT template string
-build/%-fixed.tsv: src/scripts/replace_labels.py ontology/%.tsv | build
+build/%-fixed.tsv: src/scripts/replace_labels.py build/index.tsv ontology/%.tsv
 	python3 $^ $@
 
 # Some templates don't need automatic synonyms, just copy these directly
@@ -140,7 +94,7 @@ build/mutant-molecule.tsv: src/scripts/synonyms.py build/mutant-molecule-fixed.t
 	python3 $^ > $@
 
 # Represent tables in Excel
-mro.xlsx: src/scripts/tsv2xlsx.py index.tsv iedb/iedb.tsv $(source_files) iedb/iedb-manual.tsv ontology/rejected.tsv
+mro.xlsx: src/scripts/tsv2xlsx.py iedb/iedb.tsv $(source_files) iedb/iedb-manual.tsv ontology/rejected.tsv
 	python3 $< $@ $(wordlist 2,100,$^)
 
 update-tsv: update-tsv-files sort build/whitespace.tsv
@@ -148,7 +102,6 @@ update-tsv: update-tsv-files sort build/whitespace.tsv
 # Update TSV files from Excel
 .PHONY: update-tsv-files
 update-tsv-files:
-	python3 src/scripts/xlsx2tsv.py mro.xlsx index > index.tsv
 	python3 src/scripts/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
 	python3 src/scripts/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
 	$(foreach t,$(tables) rejected,python3 src/scripts/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
@@ -161,7 +114,7 @@ sort: sort-templates sort-iedb
 # Sort template files by first column
 .PHONY: sort-templates
 sort-templates:
-	python3 src/scripts/sort.py index.tsv $(source_files)
+	python3 src/scripts/sort.py $(source_files)
 
 # Sort IEDB table by IEDB ID
 .PHONY: sort-iedb
@@ -170,7 +123,7 @@ sort-iedb: src/scripts/sort_iedb.py iedb/iedb.tsv
 
 # Check for whitespace during update-tsv step
 .PRECIOUS: build/whitespace.tsv
-build/whitespace.tsv: src/scripts/validation/detect_whitespace.py index.tsv iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
+build/whitespace.tsv: src/scripts/validation/detect_whitespace.py iedb/iedb.tsv iedb/iedb-manual.tsv $(source_files)
 	python3 $^ $@
 
 
@@ -184,16 +137,19 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
+# TODO: change this to update chain.tsv
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
 update-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
 
+# TODO: change this to update chain.tsv
 # refresh-seqs will overwrite existing seqs with new seqs
 .PHONY: refresh-seqs
 refresh-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
 	python3 $^ -o
 
+# TODO: change this to update chain.tsv
 # refresh-hla-seqs will overwrite existing HLA seqs with new seqs
 .PHONY: refresh-hla-seqs
 refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta
@@ -205,20 +161,19 @@ build/hla_prot.fasta: | build
 build/AlleleList.txt: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/Allelelist.txt
 
+# TODO: update to not use index
 .PHONY: update-mhcflurry-alleles
 update-mhcflurry-alleles: src/scripts/alleles/update_alleles_mhcflurry.py ontology/chain-sequence.tsv ontology/chain.tsv ontology/molecule.tsv ontology/genetic-locus.tsv index.tsv build/mhc.fasta iedb/iedb.tsv
 	python3 $^
 
 ### OWL Files
 
-mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
+mro.owl: build/mro-import.owl build/index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) template \
 	--input $< \
-	--prefix "MRO: $(OBO)/MRO_" \
-	--prefix "REO: $(OBO)/REO_" \
-	--template index.tsv \
-	$(templates) \
 	--merge-before \
+	--template $(word 2,$^) \
+	$(foreach i,$(build_files),--template $(i)) \
 	reason \
 	--reasoner ELK \
 	--remove-redundant-subclass-axioms false \
@@ -254,12 +209,10 @@ $(LIB)/%:
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
 
 # OBI IAO:0000115 has mulitples so get the definiton from here
-# we could also just add this to index.tsv
 build/%.txt: ontology/import.txt | build
 	sed -n '/$(call UC,$(notdir $(basename $@)))/p' $< > $@
 
 # RO:0000056 isn't in RO?
-# we could also just add this to index.tsv
 build/obi.txt: ontology/import.txt | build
 	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' > $@
 	echo "RO:0000056" >> $@
@@ -287,13 +240,12 @@ IEDB_TARGETS := build/mro-iedb.owl \
                 build/ALLELE_FINDER_TREE.csv
 
 # add chain_i and chain_ii accessions to IEDB sheet
-build/iedb.tsv: src/scripts/add_chain_accessions.py index.tsv iedb/iedb.tsv ontology/molecule.tsv ontology/chain-sequence.tsv
+build/iedb.tsv: src/scripts/add_chain_accessions.py iedb/iedb.tsv ontology/molecule.tsv ontology/chain.tsv
 	python3 $^ $@
 
 # extended version for IEDB use
 build/mro-iedb.owl: mro.owl build/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
 	$(ROBOT) template \
-	--prefix "MRO: $(OBO)/MRO_" \
 	--input $< \
 	--template $(word 2,$^) \
 	--template $(word 3,$^) \
@@ -314,7 +266,7 @@ build/mhc_allele_restriction.csv: build/.mro-tdb src/queries/mhc_allele_restrict
 build/mhc_allele_restriction.tsv: src/scripts/clean.py build/mhc_allele_restriction.csv ontology/external.tsv | iedb
 	python3 $^ > $@
 
-build/molecule_export.tsv: src/scripts/export_molecule.py index.tsv ontology/external.tsv ontology/molecule.tsv
+build/molecule_export.tsv: src/scripts/export_molecule.py ontology/external.tsv ontology/molecule.tsv
 	python3 $^ $@
 
 build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/queries/names.rq | build/robot.jar iedb
@@ -376,7 +328,7 @@ build/mhc_allele_restriction_errors.tsv: src/scripts/validation/validate_mhc_all
 	python3 $^ $@
 
 .PHONY: test
-test: build/validation_errors_strict.tsv
+# test: build/validation_errors_strict.tsv  TODO: new tests without index
 test: build/report.csv
 test: verify
 test: build/mhc_allele_restriction_errors.tsv
@@ -389,7 +341,7 @@ pytest:
 
 # Table diffs
 
-DIFF_TABLES := build/diff/index.html build/diff/iedb.html $(foreach S,$(tables),build/diff/$(S).html) build/diff/iedb-manual.html
+DIFF_TABLES := build/diff/iedb.html $(foreach S,$(tables),build/diff/$(S).html) build/diff/iedb-manual.html
 
 # Workaround to make sure master branch exists
 build/fetched.txt:
@@ -404,10 +356,6 @@ build/diff/iedb.html: iedb/iedb.tsv build/fetched.txt | build/master build/diff
 	daff build/master/$(notdir $<) $< --output $@ --fragment
 
 build/diff/iedb-manual.html: iedb/iedb-manual.tsv build/fetched.txt | build/master build/diff
-	git show master:$< > build/master/$(notdir $<)
-	daff build/master/$(notdir $<) $< --output $@ --fragment
-
-build/diff/index.html: index.tsv build/fetched.txt | build/master build/diff
 	git show master:$< > build/master/$(notdir $<)
 	daff build/master/$(notdir $<) $< --output $@ --fragment
 
@@ -463,7 +411,7 @@ release: mro.owl iedb.zip build/release-notes.txt
 
 ### MRO Prototype
 
-sql_tables = index iedb iedb-manual $(tables) rejected
+sql_tables = iedb iedb-manual $(tables) rejected
 sql_inputs = $(foreach t,$(sql_tables),build/tables/$(t).tsv)
 
 # The tables for the SQL database do not include ROBOT template strings
@@ -482,9 +430,6 @@ build/tables/iedb.tsv: iedb/iedb.tsv | build/tables
 build/tables/iedb-manual.tsv: iedb/iedb-manual.tsv | build/tables
 	sed '2d' $< > $@
 
-build/tables/index.tsv: index.tsv | build/tables
-	sed '2d' $< > $@
-
 # Load all tables into SQLite database
 build/mro-tables.db: src/scripts/load.py src/table.tsv src/column.tsv src/datatype.tsv $(sql_inputs)
 	python3 src/scripts/load.py src/table.tsv $@
@@ -498,9 +443,6 @@ load_mro: build/mro-tables.db mro.owl | build/ldtab.jar
 # Replace existing templates with data from database
 .PHONY: refresh_templates
 refresh_templates: $(foreach t,$(sql_tables),refresh_$(t))
-
-refresh_index: src/scripts/table_2_template.py
-	python3 $< build/mro-tables.db . index
 
 refresh_iedb: src/scripts/table_2_template.py
 	python3 $< build/mro-tables.db iedb iedb

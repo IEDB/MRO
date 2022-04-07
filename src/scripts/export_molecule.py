@@ -2,37 +2,27 @@ import csv
 import logging
 
 from argparse import ArgumentParser, FileType
-from collections import defaultdict
 
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("index", type=FileType("r"))
     parser.add_argument("external", type=FileType("r"))
     parser.add_argument("molecule", type=FileType("r"))
     parser.add_argument("output", type=FileType("w"))
     args = parser.parse_args()
 
-    label_to_id = {}
-    reader = csv.DictReader(args.index, delimiter="\t")
+    output = []
+    reader = csv.DictReader(args.molecule, delimiter="\t")
     next(reader)
-    for row in reader:
-        label_to_id[row["Label"]] = row["ID"]
+    rows = list(reader)
+    label_to_id = {row["Label"]: row["ID"] for row in rows}
 
     reader = csv.DictReader(args.external, delimiter="\t")
     next(reader)
     for row in reader:
         label_to_id[row["Label"]] = row["ID"]
 
-    output = []
-    reader = csv.DictReader(args.molecule, delimiter="\t")
-    next(reader)
-    for row in reader:
-        term_label = row["Label"]
-        term_id = label_to_id.get(term_label)
-        if not term_id:
-            logging.error(f"Unable to find ID for '{term_label}'")
-            continue
+    for row in rows:
         parent_label = row["Parent"]
         parent_id = label_to_id.get(parent_label)
         if not parent_id:
@@ -45,8 +35,8 @@ def main():
                 logging.error(f"Unable to find ID for taxon term '{taxon_label}'")
         output.append(
             {
-                "MRO ID": term_id,
-                "Label": term_label,
+                "MRO ID": row["ID"],
+                "Label": row["Label"],
                 "IEDB Label": row["IEDB Label"],
                 "Synonyms": row["Synonyms"],
                 "Parent": parent_label,

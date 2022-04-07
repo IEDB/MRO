@@ -1,384 +1,384 @@
-Label	Synonyms	Class Type	Parent	In Taxon
-LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-Aime-128 gene		subclass	giant panda MHC class I gene	
-Anpl-UAA gene		subclass	duck MHC class I gene	
-Assam macaque MHC class I gene		subclass	MHC class I gene	Assam macaque
-Assam macaque MHC class II gene		subclass	MHC class II gene	Assam macaque
-Atbe-B gene		subclass	white-fronted spider monkey MHC class I gene	
-Atbe-E gene		subclass	white-fronted spider monkey MHC class I gene	
-Atbe-G gene		subclass	white-fronted spider monkey MHC class I gene	
-Atfu-B gene		subclass	black-headed spider monkey MHC class I gene	
-Atfu-E gene		subclass	black-headed spider monkey MHC class I gene	
-Atfu-G gene		subclass	black-headed spider monkey MHC class I gene	
-Azara's night monkey MHC class I gene		subclass	MHC class I gene	Azara's night monkey
-Azara's night monkey MHC class II gene		subclass	MHC class II gene	Azara's night monkey
-BoLA-1 gene		subclass	cattle MHC class I gene	
-BoLA-2 gene		subclass	cattle MHC class I gene	
-BoLA-3 gene		subclass	cattle MHC class I gene	
-BoLA-4 gene		subclass	cattle MHC class I gene	
-BoLA-5 gene		subclass	cattle MHC class I gene	
-BoLA-6 gene		subclass	cattle MHC class I gene	
-BoLA-CD1 gene		subclass	cattle non-classical MHC gene	
-BoLA-DQA gene		subclass	cattle MHC class II gene	
-BoLA-DQB gene		subclass	cattle MHC class II gene	
-BoLA-DRA gene		subclass	cattle MHC class II gene	
-BoLA-DRB3 gene		subclass	BoLA-DRB gene	
-BoLA-DRB6 gene		subclass	BoLA-DRB gene	
-BoLA-DRB gene		subclass	cattle MHC class II gene	
-BoLA-MR1 gene		subclass	cattle non-classical MHC gene	
-BoLA-NC1 gene		subclass	cattle non-classical MHC gene	
-BoLA-NC2 gene		subclass	cattle non-classical MHC gene	
-BoLA-NC3 gene		subclass	cattle non-classical MHC gene	
-BoLA-NC4 gene		subclass	cattle non-classical MHC gene	
-Bornean orangutan MHC class I gene		subclass	MHC class I gene	Bornean orangutan
-Bornean orangutan MHC class II gene		subclass	MHC class II gene	Bornean orangutan
-Caja-B4 gene		subclass	marmoset MHC class I gene	
-Caja-B5 gene		subclass	marmoset MHC class I gene	
-Caja-B6 gene		subclass	marmoset MHC class I gene	
-Caja-B7 gene		subclass	marmoset MHC class I gene	
-Caja-B8 gene		subclass	marmoset MHC class I gene	
-Caja-B9 gene		subclass	marmoset MHC class I gene	
-Caja-E gene		subclass	marmoset MHC class I gene	
-Caja-F gene		subclass	marmoset MHC class I gene	
-Caja-G gene		subclass	marmoset MHC class I gene	
-Caja-PS2 gene		subclass	marmoset MHC class I gene	
-Cemi-A gene		subclass	blue monkey MHC class I gene	
-Cemi-B gene		subclass	blue monkey MHC class I gene	
-Chae-A gene		subclass	grivet MHC class I gene	
-Chae-B gene		subclass	grivet MHC class I gene	
-Chae-G gene		subclass	grivet MHC class I gene	
-Ctid-UAA gene		subclass	grass carp MHC class I gene	
-DLA-64 gene		subclass	dog MHC class I gene	
-DLA-88 gene		subclass	dog MHC class I gene	
-De Brazza's monkey MHC class I gene		subclass	MHC class I gene	De Brazza's monkey
-De Brazza's monkey MHC class II gene		subclass	MHC class II gene	De Brazza's monkey
-ELA-1 gene		subclass	horse MHC class I gene	
-ELA-16 gene		subclass	horse MHC class I gene	
-ELA-N gene		subclass	horse MHC class I gene	
-Eqca-1 gene		subclass	horse MHC class I gene	
-Eqca-2 gene		subclass	horse MHC class I gene	
-Eqca-3 gene		subclass	horse MHC class I gene	
-Eqca-4 gene		subclass	horse MHC class I gene	
-Eqca-6 gene		subclass	horse MHC class I gene	
-Eqca-7 gene		subclass	horse MHC class I gene	
-Eqca-16 gene		subclass	horse MHC class I gene	
-Eqca-N gene		subclass	horse MHC class I gene	
-FLA-E gene		subclass	cat MHC class I gene	
-Gaga-BF1 gene		subclass	chicken MHC class I gene	
-Gaga-BF2 gene		subclass	chicken MHC class I gene	
-Gaga-BF-B gene		subclass	chicken non-classical MHC gene	
-Gaga-BF-YF gene		subclass	chicken non-classical MHC gene	
-Geoffroy's tamarin MHC class I gene		subclass	MHC class I gene	Geoffroy's tamarin
-Geoffroy's tamarin MHC class II gene		subclass	MHC class II gene	Geoffroy's tamarin
-Gogo-A gene		subclass	gorilla MHC class I gene	
-Gogo-B gene		subclass	gorilla MHC class I gene	
-Gogo-C gene		subclass	gorilla MHC class I gene	
-Gogo-E gene		subclass	gorilla MHC class I gene	
-Gogo-F gene		subclass	gorilla MHC class I gene	
-Gogo-G gene		subclass	gorilla MHC class I gene	
-Gogo-H gene		subclass	gorilla MHC class I gene	
-Gogo-OKO gene		subclass	gorilla MHC class I gene	
-Guatemalan black howler MHC class I gene		subclass	MHC class I gene	Guatemalan black howler
-Guatemalan black howler MHC class II gene		subclass	MHC class II gene	Guatemalan black howler
-Guinea baboon MHC class I gene		subclass	MHC class I gene	Guinea baboon
-Guinea baboon MHC class II gene		subclass	MHC class II gene	Guinea baboon
-H2-D gene		subclass	mouse MHC class I gene	
-H2-IA alpha gene		subclass	mouse MHC class II gene	
-H2-IA beta gene		subclass	mouse MHC class II gene	
-H2-IE alpha gene		subclass	mouse MHC class II gene	
-H2-IE beta gene		subclass	mouse MHC class II gene	
-H2-K gene		subclass	mouse MHC class I gene	
-H2-L gene		subclass	mouse MHC class I gene	
-H2-M gene		subclass	mouse non-classical MHC gene	
-H2-MR1 gene		subclass	mouse non-classical MHC gene	
-H2-Q1 gene		subclass	H2-Q gene	
-H2-Q2 gene		subclass	H2-Q gene	
-H2-Q9 gene		subclass	H2-Q gene	
-H2-Q gene		subclass	mouse non-classical MHC gene	
-HLA-A gene		subclass	human MHC class I gene	
-HLA-B gene		subclass	human MHC class I gene	
-HLA-BTN3A gene		subclass	human non-classical MHC gene	
-HLA-C gene		subclass	human MHC class I gene	
-HLA-CD1 gene		subclass	human non-classical MHC gene	
-HLA-DPA gene		subclass	human MHC class II gene	
-HLA-DPB gene		subclass	human MHC class II gene	
-HLA-DQA gene		subclass	human MHC class II gene	
-HLA-DQB gene		subclass	human MHC class II gene	
-HLA-DRA gene		subclass	human MHC class II gene	
-HLA-DRB1 gene		subclass	HLA-DRB gene	
-HLA-DRB3 gene		subclass	HLA-DRB gene	
-HLA-DRB4 gene		subclass	HLA-DRB gene	
-HLA-DRB5 gene		subclass	HLA-DRB gene	
-HLA-DRB gene		subclass	human MHC class II gene	
-HLA-E gene		subclass	human non-classical MHC gene	
-HLA-F gene		subclass	human non-classical MHC gene	
-HLA-G gene		subclass	human non-classical MHC gene	
-HLA-MR1 gene		subclass	human non-classical MHC gene	
-Hyla-A gene		subclass	lar gibbon MHC class I gene	
-Hyla-B gene		subclass	lar gibbon MHC class I gene	
-Japanese macaque MHC class I gene		subclass	MHC class I gene	Japanese macaque
-Japanese macaque MHC class II gene		subclass	MHC class II gene	Japanese macaque
-Lero-G gene		subclass	golden lion tamarin MHC class I gene	
-MHC class I gene		subclass	MHC gene	
-MHC class II gene		subclass	MHC gene	
-Maar-A1 gene		subclass	stump-tailed macaque MHC class I gene	
-Maar-B gene		subclass	stump-tailed macaque MHC class I gene	
-Maar-I gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A1 gene		subclass	crab-eating macaque MHC class I gene	
-Mafa-A2 gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A3 gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A4 gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A5 gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A6 gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A8 gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-A gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-AG gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-B gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-DQA gene		subclass	crab-eating macaque MHC class II gene	
-Mafa-DQB gene		subclass	crab-eating macaque MHC class II gene	
-Mafa-DRA gene		subclass	crab-eating macaque MHC class II gene	
-Mafa-DRB gene		subclass	crab-eating macaque MHC class II gene	
-Mafa-E gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-F gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-G gene		subclass	stump-tailed macaque MHC class I gene	
-Mafa-I gene		subclass	stump-tailed macaque MHC class I gene	
-Mamu-A gene		subclass	rhesus macaque MHC class I gene	
-Mamu-B gene		subclass	rhesus macaque MHC class I gene	
-Mamu-CD1 gene		subclass	rhesus macaque non-classical MHC gene	
-Mamu-DPA gene		subclass	rhesus macaque MHC class II gene	
-Mamu-DPB gene		subclass	rhesus macaque MHC class II gene	
-Mamu-DQA gene		subclass	rhesus macaque MHC class II gene	
-Mamu-DQB gene		subclass	rhesus macaque MHC class II gene	
-Mamu-DRA gene		subclass	rhesus macaque MHC class II gene	
-Mamu-DRB gene		subclass	rhesus macaque MHC class II gene	
-Mamu-E gene		subclass	rhesus macaque MHC class I gene	
-Mamu-F gene		subclass	rhesus macaque MHC class I gene	
-Mamu-G gene		subclass	rhesus macaque MHC class I gene	
-Mamu-I gene		subclass	rhesus macaque MHC class I gene	
-Mamu-MR1 gene		subclass	rhesus macaque non-classical MHC gene	
-Milne Edward's macaque MHC class I gene		subclass	MHC class I gene	Milne Edward's macaque
-Milne Edward's macaque MHC class II gene		subclass	MHC class II gene	Milne Edward's macaque
-Nancy Ma's night monkey MHC class I gene		subclass	MHC class I gene	Nancy Ma's night monkey
-Nancy Ma's night monkey MHC class II gene		subclass	MHC class II gene	Nancy Ma's night monkey
-Onmy-DAA gene		subclass	rainbow trout MHC class II gene	
-Onmy-DAB gene		subclass	rainbow trout MHC class II gene	
-Onmy-UBA gene		subclass	rainbow trout MHC class I gene	
-Ovar-N gene		subclass	domestic sheep MHC class I gene	
-Paan-A gene		subclass	olive baboon MHC class I gene	
-Paan-AG gene		subclass	olive baboon MHC class I gene	
-Paan-B gene		subclass	olive baboon MHC class I gene	
-Pacy-A gene		subclass	yellow baboon MHC class I gene	
-Pacy-B gene		subclass	yellow baboon MHC class I gene	
-Pacy-E gene		subclass	yellow baboon MHC class I gene	
-Paha-A gene		subclass	hamadryas baboon MHC class I gene	
-Paha-B gene		subclass	hamadryas baboon MHC class I gene	
-Papa-A gene		subclass	bonobo MHC class I gene	
-Papa-B gene		subclass	bonobo MHC class I gene	
-Papa-C gene		subclass	bonobo MHC class I gene	
-Papa-G gene		subclass	bonobo MHC class I gene	
-Papa-H gene		subclass	bonobo MHC class I gene	
-Patr-A gene		subclass	chimpanzee MHC class I gene	
-Patr-AL gene		subclass	chimpanzee non-classical MHC gene	
-Patr-B gene		subclass	chimpanzee MHC class I gene	
-Patr-C gene		subclass	chimpanzee MHC class I gene	
-Patr-DPA gene		subclass	chimpanzee MHC class II gene	
-Patr-DPB gene		subclass	chimpanzee MHC class II gene	
-Patr-DQA gene		subclass	chimpanzee MHC class II gene	
-Patr-DQB gene		subclass	chimpanzee MHC class II gene	
-Patr-DRA gene		subclass	chimpanzee MHC class II gene	
-Patr-DRB gene		subclass	chimpanzee MHC class II gene	
-Pipi-B gene		subclass	white-faced saki MHC class I gene	
-Pipi-E gene		subclass	white-faced saki MHC class I gene	
-Pipi-G gene		subclass	white-faced saki MHC class I gene	
-Popy-A gene		subclass	Bornean orangutan MHC class I gene	
-Popy-AP gene		subclass	Bornean orangutan MHC class I gene	
-Popy-B gene		subclass	Bornean orangutan MHC class I gene	
-Popy-C gene		subclass	Bornean orangutan MHC class I gene	
-Popy-E gene		subclass	Bornean orangutan MHC class I gene	
-Popy-H gene		subclass	Bornean orangutan MHC class I gene	
-Ptal-N gene		subclass	black flying fox MHC class I gene	
-RLA-A gene		subclass	rabbit MHC class I gene	
-RT1-A1 gene		subclass	RT1-A gene	
-RT1-A2 gene		subclass	RT1-A gene	
-RT1-A gene		subclass	rat MHC class I gene	
-RT1-B alpha gene		subclass	rat MHC class II gene	
-RT1-B beta gene		subclass	rat MHC class II gene	
-RT1-D alpha gene		subclass	rat MHC class II gene	
-RT1-D beta gene		subclass	rat MHC class II gene	
-SLA-1 gene		subclass	pig MHC class I gene	
-SLA-2 gene		subclass	pig MHC class I gene	
-SLA-3 gene		subclass	pig MHC class I gene	
-SLA-4 gene		subclass	pig MHC class I gene	
-SLA-5 gene		subclass	pig MHC class I gene	
-SLA-6 gene		subclass	pig MHC class I gene	
-SLA-7 gene		subclass	pig MHC class I gene	
-SLA-8 gene		subclass	pig MHC class I gene	
-SLA-9 gene		subclass	pig MHC class I gene	
-SLA-11 gene		subclass	pig MHC class I gene	
-SLA-12 gene		subclass	pig MHC class I gene	
-SLA-DQA gene		subclass	pig MHC class II gene	
-SLA-DQB gene		subclass	pig MHC class II gene	
-SLA-DRA gene		subclass	pig MHC class II gene	
-SLA-DRB gene		subclass	pig MHC class II gene	
-SLA-TAP1 gene		subclass	pig MHC class I gene	
-SLA-TAP2 gene		subclass	pig MHC class I gene	
-Safu-G gene		subclass	brown-mantled tamarin MHC class I gene	
-Safu-PS1 gene		subclass	brown-mantled tamarin MHC class I gene	
-Safu-PS2 gene		subclass	brown-mantled tamarin MHC class I gene	
-Sage-PS1 gene		subclass	Geoffroy's tamarin MHC class I gene	
-Sage-PS2 gene		subclass	Geoffroy's tamarin MHC class I gene	
-Samy-PS1 gene		subclass	moustached tamarin MHC class I gene	
-Samy-PS2 gene		subclass	moustached tamarin MHC class I gene	
-Saoe-E gene		subclass	cotton-top tamarin MHC class I gene	
-Saoe-F gene		subclass	cotton-top tamarin MHC class I gene	
-Saoe-G gene		subclass	cotton-top tamarin MHC class I gene	
-Saoe-N1 gene		subclass	cotton-top tamarin MHC class I gene	
-Saoe-N2 gene		subclass	cotton-top tamarin MHC class I gene	
-Saoe-N3 gene		subclass	cotton-top tamarin MHC class I gene	
-Saoe-PS1 gene		subclass	cotton-top tamarin MHC class I gene	
-Sasa-DAA gene		subclass	atlantic salmon MHC class II gene	
-Sasa-DAB gene		subclass	atlantic salmon MHC class II gene	
-Sasa-UBA gene		subclass	atlantic salmon MHC class I gene	
-Sasc-G gene		subclass	common squirrel monkey MHC class I gene	
-Spix's night monkey MHC class I gene		subclass	MHC class I gene	Spix's night monkey
-Spix's night monkey MHC class II gene		subclass	MHC class II gene	Spix's night monkey
-Sumatran orangutan MHC class I gene		subclass	MHC class I gene	Sumatran orangutan
-Sumatran orangutan MHC class II gene		subclass	MHC class II gene	Sumatran orangutan
-Trvu-UB gene		subclass	common brushtail MHC class I gene	
-Xela-UAAg gene		subclass	clawed frog MHC class I gene	
-atlantic salmon MHC class I gene		subclass	MHC class I gene	atlantic salmon
-atlantic salmon MHC class II gene		subclass	MHC class II gene	atlantic salmon
-black crested mangabey MHC class I gene		subclass	MHC class I gene	black crested mangabey
-black crested mangabey MHC class II gene		subclass	MHC class II gene	black crested mangabey
-black flying fox MHC class I gene		subclass	MHC class I gene	black flying fox
-black-headed night monkey MHC class I gene		subclass	MHC class I gene	black-headed night monkey
-black-headed night monkey MHC class II gene		subclass	MHC class II gene	black-headed night monkey
-black-headed spider monkey MHC class I gene		subclass	MHC class I gene	black-headed spider monkey
-black-headed spider monkey MHC class II gene		subclass	MHC class II gene	black-headed spider monkey
-blue monkey MHC class I gene		subclass	MHC class I gene	blue monkey
-blue monkey MHC class II gene		subclass	MHC class II gene	blue monkey
-bonobo MHC class I gene		subclass	MHC class I gene	bonobo
-bonobo MHC class II gene		subclass	MHC class II gene	bonobo
-brown-mantled tamarin MHC class I gene		subclass	MHC class I gene	brown-mantled tamarin
-brown-mantled tamarin MHC class II gene		subclass	MHC class II gene	brown-mantled tamarin
-cat MHC class I gene		subclass	MHC class I gene	cat
-cat MHC class II gene		subclass	MHC class II gene	cat
-cat non-classical MHC gene		subclass	non-classical MHC gene	cat
-cattle MHC class I gene		subclass	MHC class I gene	cattle
-cattle MHC class II gene		subclass	MHC class II gene	cattle
-cattle non-classical MHC gene		subclass	non-classical MHC gene	cattle
-chacma Baboon MHC class I gene		subclass	MHC class I gene	chacma Baboon
-chacma Baboon MHC class II gene		subclass	MHC class II gene	chacma Baboon
-chicken MHC class I gene		subclass	MHC class I gene	chicken
-chicken MHC class II gene		subclass	MHC class II gene	chicken
-chicken non-classical MHC gene		subclass	non-classical MHC gene	chicken
-chimpanzee MHC class I gene		subclass	MHC class I gene	chimpanzee
-chimpanzee MHC class II gene		subclass	MHC class II gene	chimpanzee
-chimpanzee non-classical MHC gene		subclass	non-classical MHC gene	chimpanzee
-clawed frog MHC class I gene		subclass	MHC class I gene	clawed frog
-clawed frog MHC class II gene		subclass	MHC class II gene	clawed frog
-common brushtail MHC class I gene		subclass	MHC class I gene	common brushtail
-common brushtail MHC class II gene		subclass	MHC class II gene	common brushtail
-common squirrel monkey MHC class I gene		subclass	MHC class I gene	common squirrel monkey
-common squirrel monkey MHC class II gene		subclass	MHC class II gene	common squirrel monkey
-cotton-top tamarin MHC class I gene		subclass	MHC class I gene	cotton-top tamarin
-cotton-top tamarin MHC class II gene		subclass	MHC class II gene	cotton-top tamarin
-crab-eating macaque MHC class I gene		subclass	MHC class I gene	crab-eating macaque
-crab-eating macaque MHC class II gene		subclass	MHC class II gene	crab-eating macaque
-dog MHC class I gene		subclass	MHC class I gene	dog
-dog MHC class II gene		subclass	MHC class II gene	dog
-domestic sheep MHC class I gene		subclass	MHC class I gene	domestic sheep
-domestic sheep MHC class II gene		subclass	MHC class II gene	domestic sheep
-drill MHC class I gene		subclass	MHC class I gene	drill
-drill MHC class II gene		subclass	MHC class II gene	drill
-duck MHC class I gene		subclass	MHC class I gene	duck
-eastern gorilla MHC class I gene		subclass	MHC class I gene	eastern gorilla
-eastern gorilla MHC class II gene		subclass	MHC class II gene	eastern gorilla
-gelada MHC class I gene		subclass	MHC class I gene	gelada
-gelada MHC class II gene		subclass	MHC class II gene	gelada
-giant panda MHC class I gene		subclass	MHC class I gene	giant panda
-giant panda MHC class II gene		subclass	MHC class II gene	giant panda
-golden lion tamarin MHC class I gene		subclass	MHC class I gene	golden lion tamarin
-golden lion tamarin MHC class II gene		subclass	MHC class II gene	golden lion tamarin
-golden snub-nosed monkey MHC class I gene		subclass	MHC class I gene	golden snub-nosed monkey
-golden snub-nosed monkey MHC class II gene		subclass	MHC class II gene	golden snub-nosed monkey
-gorilla MHC class I gene		subclass	MHC class I gene	gorilla
-gorilla MHC class II gene		subclass	MHC class II gene	gorilla
-grass carp Beta-2-microglobulin gene		subclass	Beta-2-microglobulin gene	grass carp
-grass carp MHC class I gene		subclass	MHC class I gene	grass carp
-grass carp MHC class II gene		subclass	MHC class II gene	grass carp
-gray-bellied night monkey MHC class I gene		subclass	MHC class I gene	gray-bellied night monkey
-gray-bellied night monkey MHC class II gene		subclass	MHC class II gene	gray-bellied night monkey
-green monkey MHC class I gene		subclass	MHC class I gene	green monkey
-green monkey MHC class II gene		subclass	MHC class II gene	green monkey
-grivet MHC class I gene		subclass	MHC class I gene	grivet
-grivet MHC class II gene		subclass	MHC class II gene	grivet
-hamadryas baboon MHC class I gene		subclass	MHC class I gene	hamadryas baboon
-hamadryas baboon MHC class II gene		subclass	MHC class II gene	hamadryas baboon
-horse MHC class I gene		subclass	MHC class I gene	horse
-horse MHC class II gene		subclass	MHC class II gene	horse
-human Beta-2-microglobulin gene		subclass	Beta-2-microglobulin gene	human
-human MHC class I gene		subclass	MHC class I gene	human
-human MHC class II gene		subclass	MHC class II gene	human
-human non-classical MHC gene		subclass	non-classical MHC gene	human
-lar gibbon MHC class I gene		subclass	MHC class I gene	lar gibbon
-lar gibbon MHC class II gene		subclass	MHC class II gene	lar gibbon
-lion-tailed macaque MHC class I gene		subclass	MHC class I gene	lion-tailed macaque
-lion-tailed macaque MHC class II gene		subclass	MHC class II gene	lion-tailed macaque
-mandrill MHC class I gene		subclass	MHC class I gene	mandrill
-mandrill MHC class II gene		subclass	MHC class II gene	mandrill
-mantled guereza MHC class I gene		subclass	MHC class I gene	mantled guereza
-mantled guereza MHC class II gene		subclass	MHC class II gene	mantled guereza
-marmoset MHC class I gene		subclass	MHC class I gene	marmoset
-mouse CD1d gene		subclass	mouse non-classical MHC gene	
-mouse MHC class I gene		subclass	MHC class I gene	mouse
-mouse MHC class II gene		subclass	MHC class II gene	mouse
-mouse non-classical MHC gene		subclass	non-classical MHC gene	mouse
-moustached tamarin MHC class I gene		subclass	MHC class I gene	moustached tamarin
-moustached tamarin MHC class II gene		subclass	MHC class II gene	moustached tamarin
-non-classical MHC gene		subclass	MHC gene	
-northern pig-tailed macaque MHC class I gene		subclass	MHC class I gene	northern pig-tailed macaque
-northern pig-tailed macaque MHC class II gene		subclass	MHC class II gene	northern pig-tailed macaque
-northern plains gray langur MHC class I gene		subclass	MHC class I gene	northern plains gray langur
-northern plains gray langur MHC class II gene		subclass	MHC class II gene	northern plains gray langur
-olive baboon MHC class I gene		subclass	MHC class I gene	olive baboon
-olive baboon MHC class II gene		subclass	MHC class II gene	olive baboon
-pig MHC class I gene		subclass	MHC class I gene	pig
-pig MHC class II gene		subclass	MHC class II gene	pig
-pygmy marmoset MHC class I gene		subclass	MHC class I gene	pygmy marmoset
-pygmy marmoset MHC class II gene		subclass	MHC class II gene	pygmy marmoset
-rabbit MHC class I gene		subclass	MHC class I gene	rabbit
-rabbit MHC class II gene		subclass	MHC class II gene	rabbit
-rainbow trout MHC class I gene		subclass	MHC class I gene	rainbow trout
-rainbow trout MHC class II gene		subclass	MHC class II gene	rainbow trout
-rat CD1 gene		subclass	rat non-classical MHC gene	rat
-rat MHC class I gene		subclass	MHC class I gene	rat
-rat MHC class II gene		subclass	MHC class II gene	rat
-rat non-classical MHC gene		subclass	non-classical MHC gene	rat
-red-bellied titi MHC class I gene		subclass	MHC class I gene	red-bellied titi
-red-bellied titi MHC class II gene		subclass	MHC class II gene	red-bellied titi
-rhesus macaque MHC class I gene		subclass	MHC class I gene	rhesus macaque
-rhesus macaque MHC class II gene		subclass	MHC class II gene	rhesus macaque
-rhesus macaque non-classical MHC gene		subclass	non-classical MHC gene	rhesus macaque
-silvery Javan gibbon MHC class I gene		subclass	MHC class I gene	silvery Javan gibbon
-silvery Javan gibbon MHC class II gene		subclass	MHC class II gene	silvery Javan gibbon
-sooty mangabey MHC class I gene		subclass	MHC class I gene	sooty mangabey
-sooty mangabey MHC class II gene		subclass	MHC class II gene	sooty mangabey
-southern pig-tailed macaque MHC class I gene		subclass	MHC class I gene	southern pig-tailed macaque
-southern pig-tailed macaque MHC class II gene		subclass	MHC class II gene	southern pig-tailed macaque
-stump-tailed macaque MHC class I gene		subclass	MHC class I gene	stump-tailed macaque
-stump-tailed macaque MHC class II gene		subclass	MHC class II gene	stump-tailed macaque
-three-striped night monkey MHC class I gene		subclass	MHC class I gene	three-striped night monkey
-three-striped night monkey MHC class II gene		subclass	MHC class II gene	three-striped night monkey
-tufted capuchin MHC class I gene		subclass	MHC class I gene	tufted capuchin
-tufted capuchin MHC class II gene		subclass	MHC class II gene	tufted capuchin
-vervet monkey MHC class I gene		subclass	MHC class I gene	vervet monkey
-vervet monkey MHC class II gene		subclass	MHC class II gene	vervet monkey
-white-faced saki MHC class I gene		subclass	MHC class I gene	white-faced saki
-white-faced saki MHC class II gene		subclass	MHC class II gene	white-faced saki
-white-fronted spider monkey MHC class I gene		subclass	MHC class I gene	white-fronted spider monkey
-white-fronted spider monkey MHC class II gene		subclass	MHC class II gene	white-fronted spider monkey
-white-lipped tamarin MHC class I gene		subclass	MHC class I gene	white-lipped tamarin
-white-lipped tamarin MHC class II gene		subclass	MHC class II gene	white-lipped tamarin
-yellow baboon MHC class I gene		subclass	MHC class I gene	yellow baboon
-yellow baboon MHC class II gene		subclass	MHC class II gene	yellow baboon
+ID	Label	Type	Synonyms	Class Type	Parent	In Taxon
+ID	LABEL	TYPE	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
+MRO:0000014	Gaga-BF-B gene	owl:Class		subclass	chicken non-classical MHC gene	
+MRO:0000015	Gaga-BF1 gene	owl:Class		subclass	chicken MHC class I gene	
+MRO:0000016	Gaga-BF2 gene	owl:Class		subclass	chicken MHC class I gene	
+MRO:0000017	Gaga-BF-YF gene	owl:Class		subclass	chicken non-classical MHC gene	
+MRO:0000018	BoLA-1 gene	owl:Class		subclass	cattle MHC class I gene	
+MRO:0000019	BoLA-2 gene	owl:Class		subclass	cattle MHC class I gene	
+MRO:0000020	BoLA-3 gene	owl:Class		subclass	cattle MHC class I gene	
+MRO:0000021	BoLA-6 gene	owl:Class		subclass	cattle MHC class I gene	
+MRO:0000022	BoLA-CD1 gene	owl:Class		subclass	cattle non-classical MHC gene	
+MRO:0000023	BoLA-DQA gene	owl:Class		subclass	cattle MHC class II gene	
+MRO:0000024	BoLA-DQB gene	owl:Class		subclass	cattle MHC class II gene	
+MRO:0000025	BoLA-DRA gene	owl:Class		subclass	cattle MHC class II gene	
+MRO:0000026	BoLA-DRB gene	owl:Class		subclass	cattle MHC class II gene	
+MRO:0000027	BoLA-DRB3 gene	owl:Class		subclass	BoLA-DRB gene	
+MRO:0000028	BoLA-DRB6 gene	owl:Class		subclass	BoLA-DRB gene	
+MRO:0000029	BoLA-MR1 gene	owl:Class		subclass	cattle non-classical MHC gene	
+MRO:0000030	Caja-E gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0000031	Caja-G gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0000032	DLA-88 gene	owl:Class		subclass	dog MHC class I gene	
+MRO:0000033	ELA-N gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0000034	Gogo-B gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0000036	H2-D gene	owl:Class		subclass	mouse MHC class I gene	
+MRO:0000037	H2-IA alpha gene	owl:Class		subclass	mouse MHC class II gene	
+MRO:0000038	H2-IA beta gene	owl:Class		subclass	mouse MHC class II gene	
+MRO:0000039	H2-IE alpha gene	owl:Class		subclass	mouse MHC class II gene	
+MRO:0000040	H2-IE beta gene	owl:Class		subclass	mouse MHC class II gene	
+MRO:0000041	H2-K gene	owl:Class		subclass	mouse MHC class I gene	
+MRO:0000042	H2-L gene	owl:Class		subclass	mouse MHC class I gene	
+MRO:0000043	H2-M gene	owl:Class		subclass	mouse non-classical MHC gene	
+MRO:0000044	H2-MR1 gene	owl:Class		subclass	mouse non-classical MHC gene	
+MRO:0000045	H2-Q gene	owl:Class		subclass	mouse non-classical MHC gene	
+MRO:0000046	HLA-A gene	owl:Class		subclass	human MHC class I gene	
+MRO:0000047	HLA-B gene	owl:Class		subclass	human MHC class I gene	
+MRO:0000048	HLA-BTN3A gene	owl:Class		subclass	human non-classical MHC gene	
+MRO:0000049	HLA-C gene	owl:Class		subclass	human MHC class I gene	
+MRO:0000050	HLA-CD1 gene	owl:Class		subclass	human non-classical MHC gene	
+MRO:0000051	HLA-DPA gene	owl:Class		subclass	human MHC class II gene	
+MRO:0000052	HLA-DPB gene	owl:Class		subclass	human MHC class II gene	
+MRO:0000053	HLA-DQA gene	owl:Class		subclass	human MHC class II gene	
+MRO:0000054	HLA-DQB gene	owl:Class		subclass	human MHC class II gene	
+MRO:0000055	HLA-DRA gene	owl:Class		subclass	human MHC class II gene	
+MRO:0000056	HLA-DRB gene	owl:Class		subclass	human MHC class II gene	
+MRO:0000057	HLA-DRB1 gene	owl:Class		subclass	HLA-DRB gene	
+MRO:0000058	HLA-DRB3 gene	owl:Class		subclass	HLA-DRB gene	
+MRO:0000059	HLA-DRB4 gene	owl:Class		subclass	HLA-DRB gene	
+MRO:0000060	HLA-DRB5 gene	owl:Class		subclass	HLA-DRB gene	
+MRO:0000061	HLA-E gene	owl:Class		subclass	human non-classical MHC gene	
+MRO:0000062	HLA-G gene	owl:Class		subclass	human non-classical MHC gene	
+MRO:0000063	HLA-MR1 gene	owl:Class		subclass	human non-classical MHC gene	
+MRO:0000064	MHC class I gene	owl:Class		subclass	MHC gene	
+MRO:0000065	MHC class II gene	owl:Class		subclass	MHC gene	
+MRO:0000066	Mamu-A gene	owl:Class		subclass	rhesus macaque MHC class I gene	
+MRO:0000067	Mamu-B gene	owl:Class		subclass	rhesus macaque MHC class I gene	
+MRO:0000068	Mamu-DPA gene	owl:Class		subclass	rhesus macaque MHC class II gene	
+MRO:0000069	Mamu-DPB gene	owl:Class		subclass	rhesus macaque MHC class II gene	
+MRO:0000070	Mamu-DRA gene	owl:Class		subclass	rhesus macaque MHC class II gene	
+MRO:0000071	Mamu-DRB gene	owl:Class		subclass	rhesus macaque MHC class II gene	
+MRO:0000072	Papa-A gene	owl:Class		subclass	bonobo MHC class I gene	
+MRO:0000073	Patr-A gene	owl:Class		subclass	chimpanzee MHC class I gene	
+MRO:0000074	Patr-AL gene	owl:Class		subclass	chimpanzee non-classical MHC gene	
+MRO:0000075	Patr-B gene	owl:Class		subclass	chimpanzee MHC class I gene	
+MRO:0000076	Patr-C gene	owl:Class		subclass	chimpanzee MHC class I gene	
+MRO:0000077	Patr-DPA gene	owl:Class		subclass	chimpanzee MHC class II gene	
+MRO:0000078	Patr-DPB gene	owl:Class		subclass	chimpanzee MHC class II gene	
+MRO:0000079	Patr-DQA gene	owl:Class		subclass	chimpanzee MHC class II gene	
+MRO:0000080	Patr-DQB gene	owl:Class		subclass	chimpanzee MHC class II gene	
+MRO:0000081	Patr-DRA gene	owl:Class		subclass	chimpanzee MHC class II gene	
+MRO:0000082	Patr-DRB gene	owl:Class		subclass	chimpanzee MHC class II gene	
+MRO:0000083	RT1-A gene	owl:Class		subclass	rat MHC class I gene	
+MRO:0000084	RT1-A1 gene	owl:Class		subclass	RT1-A gene	
+MRO:0000085	RT1-A2 gene	owl:Class		subclass	RT1-A gene	
+MRO:0000088	SLA-1 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0000089	SLA-2 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0000090	Saoe-G gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0000091	bonobo MHC class I gene	owl:Class		subclass	MHC class I gene	bonobo
+MRO:0000092	bonobo MHC class II gene	owl:Class		subclass	MHC class II gene	bonobo
+MRO:0000093	cattle MHC class I gene	owl:Class		subclass	MHC class I gene	cattle
+MRO:0000094	cattle MHC class II gene	owl:Class		subclass	MHC class II gene	cattle
+MRO:0000095	cattle non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	cattle
+MRO:0000096	chicken MHC class I gene	owl:Class		subclass	MHC class I gene	chicken
+MRO:0000097	chicken MHC class II gene	owl:Class		subclass	MHC class II gene	chicken
+MRO:0000098	chicken non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	chicken
+MRO:0000099	chimpanzee MHC class I gene	owl:Class		subclass	MHC class I gene	chimpanzee
+MRO:0000100	chimpanzee MHC class II gene	owl:Class		subclass	MHC class II gene	chimpanzee
+MRO:0000101	chimpanzee non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	chimpanzee
+MRO:0000102	cotton-top tamarin MHC class I gene	owl:Class		subclass	MHC class I gene	cotton-top tamarin
+MRO:0000103	cotton-top tamarin MHC class II gene	owl:Class		subclass	MHC class II gene	cotton-top tamarin
+MRO:0000104	dog MHC class I gene	owl:Class		subclass	MHC class I gene	dog
+MRO:0000105	dog MHC class II gene	owl:Class		subclass	MHC class II gene	dog
+MRO:0000106	gorilla MHC class I gene	owl:Class		subclass	MHC class I gene	gorilla
+MRO:0000107	gorilla MHC class II gene	owl:Class		subclass	MHC class II gene	gorilla
+MRO:0000108	horse MHC class I gene	owl:Class		subclass	MHC class I gene	horse
+MRO:0000109	horse MHC class II gene	owl:Class		subclass	MHC class II gene	horse
+MRO:0000110	human MHC class I gene	owl:Class		subclass	MHC class I gene	human
+MRO:0000111	human MHC class II gene	owl:Class		subclass	MHC class II gene	human
+MRO:0000112	human non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	human
+MRO:0000113	marmoset MHC class I gene	owl:Class		subclass	MHC class I gene	marmoset
+MRO:0000114	mouse MHC class I gene	owl:Class		subclass	MHC class I gene	mouse
+MRO:0000115	mouse MHC class II gene	owl:Class		subclass	MHC class II gene	mouse
+MRO:0000116	mouse non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	mouse
+MRO:0000117	non-classical MHC gene	owl:Class		subclass	MHC gene	
+MRO:0000118	pig MHC class I gene	owl:Class		subclass	MHC class I gene	pig
+MRO:0000119	pig MHC class II gene	owl:Class		subclass	MHC class II gene	pig
+MRO:0000120	rat MHC class I gene	owl:Class		subclass	MHC class I gene	rat
+MRO:0000121	rat MHC class II gene	owl:Class		subclass	MHC class II gene	rat
+MRO:0000122	rhesus macaque MHC class I gene	owl:Class		subclass	MHC class I gene	rhesus macaque
+MRO:0000123	rhesus macaque MHC class II gene	owl:Class		subclass	MHC class II gene	rhesus macaque
+MRO:0000124	domestic sheep MHC class I gene	owl:Class		subclass	MHC class I gene	domestic sheep
+MRO:0000125	domestic sheep MHC class II gene	owl:Class		subclass	MHC class II gene	domestic sheep
+MRO:0001751	H2-Q1 gene	owl:Class		subclass	H2-Q gene	
+MRO:0001754	H2-Q2 gene	owl:Class		subclass	H2-Q gene	
+MRO:0001756	H2-Q9 gene	owl:Class		subclass	H2-Q gene	
+MRO:0001807	RT1-B alpha gene	owl:Class		subclass	rat MHC class II gene	
+MRO:0001809	RT1-B beta gene	owl:Class		subclass	rat MHC class II gene	
+MRO:0001828	RT1-D alpha gene	owl:Class		subclass	rat MHC class II gene	
+MRO:0001830	RT1-D beta gene	owl:Class		subclass	rat MHC class II gene	
+MRO:0001878	BoLA-4 gene	owl:Class		subclass	cattle MHC class I gene	
+MRO:0001889	ELA-1 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0001891	ELA-16 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0001974	SLA-3 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0001989	rat non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	rat
+MRO:0001990	rat CD1 gene	owl:Class		subclass	rat non-classical MHC gene	rat
+MRO:0002002	crab-eating macaque MHC class II gene	owl:Class		subclass	MHC class II gene	crab-eating macaque
+MRO:0002003	Mafa-DQA gene	owl:Class		subclass	crab-eating macaque MHC class II gene	
+MRO:0002004	Mafa-DQB gene	owl:Class		subclass	crab-eating macaque MHC class II gene	
+MRO:0002005	Mafa-DRA gene	owl:Class		subclass	crab-eating macaque MHC class II gene	
+MRO:0002006	Mafa-DRB gene	owl:Class		subclass	crab-eating macaque MHC class II gene	
+MRO:0002030	duck MHC class I gene	owl:Class		subclass	MHC class I gene	duck
+MRO:0002031	Anpl-UAA gene	owl:Class		subclass	duck MHC class I gene	
+MRO:0002068	mouse CD1d gene	owl:Class		subclass	mouse non-classical MHC gene	
+MRO:0002073	cat MHC class I gene	owl:Class		subclass	MHC class I gene	cat
+MRO:0002074	cat MHC class II gene	owl:Class		subclass	MHC class II gene	cat
+MRO:0002075	cat non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	cat
+MRO:0002082	FLA-E gene	owl:Class		subclass	cat MHC class I gene	
+MRO:0002102	Mamu-E gene	owl:Class		subclass	rhesus macaque MHC class I gene	
+MRO:0002108	rhesus macaque non-classical MHC gene	owl:Class		subclass	non-classical MHC gene	rhesus macaque
+MRO:0002109	Mamu-MR1 gene	owl:Class		subclass	rhesus macaque non-classical MHC gene	
+MRO:0002121	HLA-F gene	owl:Class		subclass	human non-classical MHC gene	
+MRO:0002132	black flying fox MHC class I gene	owl:Class		subclass	MHC class I gene	black flying fox
+MRO:0002133	Ptal-N gene	owl:Class		subclass	black flying fox MHC class I gene	
+MRO:0002158	clawed frog MHC class I gene	owl:Class		subclass	MHC class I gene	clawed frog
+MRO:0002159	clawed frog MHC class II gene	owl:Class		subclass	MHC class II gene	clawed frog
+MRO:0002198	Xela-UAAg gene	owl:Class		subclass	clawed frog MHC class I gene	
+MRO:0002301	rabbit MHC class I gene	owl:Class		subclass	MHC class I gene	rabbit
+MRO:0002302	rabbit MHC class II gene	owl:Class		subclass	MHC class II gene	rabbit
+MRO:0002303	RLA-A gene	owl:Class		subclass	rabbit MHC class I gene	
+MRO:0035793	SLA-DRB gene	owl:Class		subclass	pig MHC class II gene	
+MRO:0035796	SLA-DRA gene	owl:Class		subclass	pig MHC class II gene	
+MRO:0036986	giant panda MHC class I gene	owl:Class		subclass	MHC class I gene	giant panda
+MRO:0036987	giant panda MHC class II gene	owl:Class		subclass	MHC class II gene	giant panda
+MRO:0036988	grass carp MHC class I gene	owl:Class		subclass	MHC class I gene	grass carp
+MRO:0036989	grass carp MHC class II gene	owl:Class		subclass	MHC class II gene	grass carp
+MRO:0036990	Aime-128 gene	owl:Class		subclass	giant panda MHC class I gene	
+MRO:0036991	Ctid-UAA gene	owl:Class		subclass	grass carp MHC class I gene	
+MRO:0037040	Mafa-A1 gene	owl:Class		subclass	crab-eating macaque MHC class I gene	
+MRO:0037041	crab-eating macaque MHC class I gene	owl:Class		subclass	MHC class I gene	crab-eating macaque
+MRO:0037048	grass carp Beta-2-microglobulin gene	owl:Class		subclass	Beta-2-microglobulin gene	grass carp
+MRO:0037056	Mamu-CD1 gene	owl:Class		subclass	rhesus macaque non-classical MHC gene	
+MRO:0037062	Mamu-DQA gene	owl:Class		subclass	rhesus macaque MHC class II gene	
+MRO:0037063	Mamu-DQB gene	owl:Class		subclass	rhesus macaque MHC class II gene	
+MRO:0040974	SLA-DQA gene	owl:Class		subclass	pig MHC class II gene	
+MRO:0040975	SLA-DQB gene	owl:Class		subclass	pig MHC class II gene	
+MRO:0040978	SLA-6 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0045846	BoLA-NC1 gene	owl:Class		subclass	cattle non-classical MHC gene	
+MRO:0045848	BoLA-NC2 gene	owl:Class		subclass	cattle non-classical MHC gene	
+MRO:0045850	BoLA-NC3 gene	owl:Class		subclass	cattle non-classical MHC gene	
+MRO:0045852	BoLA-NC4 gene	owl:Class		subclass	cattle non-classical MHC gene	
+MRO:0045854	BoLA-5 gene	owl:Class		subclass	cattle MHC class I gene	
+MRO:0045957	Guatemalan black howler MHC class I gene	owl:Class		subclass	MHC class I gene	Guatemalan black howler
+MRO:0045958	Guatemalan black howler MHC class II gene	owl:Class		subclass	MHC class II gene	Guatemalan black howler
+MRO:0045959	Azara's night monkey MHC class I gene	owl:Class		subclass	MHC class I gene	Azara's night monkey
+MRO:0045960	Azara's night monkey MHC class II gene	owl:Class		subclass	MHC class II gene	Azara's night monkey
+MRO:0045961	gray-bellied night monkey MHC class I gene	owl:Class		subclass	MHC class I gene	gray-bellied night monkey
+MRO:0045962	gray-bellied night monkey MHC class II gene	owl:Class		subclass	MHC class II gene	gray-bellied night monkey
+MRO:0045963	Nancy Ma's night monkey MHC class I gene	owl:Class		subclass	MHC class I gene	Nancy Ma's night monkey
+MRO:0045964	Nancy Ma's night monkey MHC class II gene	owl:Class		subclass	MHC class II gene	Nancy Ma's night monkey
+MRO:0045965	black-headed night monkey MHC class I gene	owl:Class		subclass	MHC class I gene	black-headed night monkey
+MRO:0045966	black-headed night monkey MHC class II gene	owl:Class		subclass	MHC class II gene	black-headed night monkey
+MRO:0045967	three-striped night monkey MHC class I gene	owl:Class		subclass	MHC class I gene	three-striped night monkey
+MRO:0045968	three-striped night monkey MHC class II gene	owl:Class		subclass	MHC class II gene	three-striped night monkey
+MRO:0045969	Spix's night monkey MHC class I gene	owl:Class		subclass	MHC class I gene	Spix's night monkey
+MRO:0045970	Spix's night monkey MHC class II gene	owl:Class		subclass	MHC class II gene	Spix's night monkey
+MRO:0045971	white-fronted spider monkey MHC class I gene	owl:Class		subclass	MHC class I gene	white-fronted spider monkey
+MRO:0045972	white-fronted spider monkey MHC class II gene	owl:Class		subclass	MHC class II gene	white-fronted spider monkey
+MRO:0045973	black-headed spider monkey MHC class I gene	owl:Class		subclass	MHC class I gene	black-headed spider monkey
+MRO:0045974	black-headed spider monkey MHC class II gene	owl:Class		subclass	MHC class II gene	black-headed spider monkey
+MRO:0045975	red-bellied titi MHC class I gene	owl:Class		subclass	MHC class I gene	red-bellied titi
+MRO:0045976	red-bellied titi MHC class II gene	owl:Class		subclass	MHC class II gene	red-bellied titi
+MRO:0045977	pygmy marmoset MHC class I gene	owl:Class		subclass	MHC class I gene	pygmy marmoset
+MRO:0045978	pygmy marmoset MHC class II gene	owl:Class		subclass	MHC class II gene	pygmy marmoset
+MRO:0045979	tufted capuchin MHC class I gene	owl:Class		subclass	MHC class I gene	tufted capuchin
+MRO:0045980	tufted capuchin MHC class II gene	owl:Class		subclass	MHC class II gene	tufted capuchin
+MRO:0045981	sooty mangabey MHC class I gene	owl:Class		subclass	MHC class I gene	sooty mangabey
+MRO:0045982	sooty mangabey MHC class II gene	owl:Class		subclass	MHC class II gene	sooty mangabey
+MRO:0045983	blue monkey MHC class I gene	owl:Class		subclass	MHC class I gene	blue monkey
+MRO:0045984	blue monkey MHC class II gene	owl:Class		subclass	MHC class II gene	blue monkey
+MRO:0045985	De Brazza's monkey MHC class I gene	owl:Class		subclass	MHC class I gene	De Brazza's monkey
+MRO:0045986	De Brazza's monkey MHC class II gene	owl:Class		subclass	MHC class II gene	De Brazza's monkey
+MRO:0045987	grivet MHC class I gene	owl:Class		subclass	MHC class I gene	grivet
+MRO:0045988	grivet MHC class II gene	owl:Class		subclass	MHC class II gene	grivet
+MRO:0045989	vervet monkey MHC class I gene	owl:Class		subclass	MHC class I gene	vervet monkey
+MRO:0045990	vervet monkey MHC class II gene	owl:Class		subclass	MHC class II gene	vervet monkey
+MRO:0045991	green monkey MHC class I gene	owl:Class		subclass	MHC class I gene	green monkey
+MRO:0045992	green monkey MHC class II gene	owl:Class		subclass	MHC class II gene	green monkey
+MRO:0045993	mantled guereza MHC class I gene	owl:Class		subclass	MHC class I gene	mantled guereza
+MRO:0045994	mantled guereza MHC class II gene	owl:Class		subclass	MHC class II gene	mantled guereza
+MRO:0045995	eastern gorilla MHC class I gene	owl:Class		subclass	MHC class I gene	eastern gorilla
+MRO:0045996	eastern gorilla MHC class II gene	owl:Class		subclass	MHC class II gene	eastern gorilla
+MRO:0045997	lar gibbon MHC class I gene	owl:Class		subclass	MHC class I gene	lar gibbon
+MRO:0045998	lar gibbon MHC class II gene	owl:Class		subclass	MHC class II gene	lar gibbon
+MRO:0045999	silvery Javan gibbon MHC class I gene	owl:Class		subclass	MHC class I gene	silvery Javan gibbon
+MRO:0046000	silvery Javan gibbon MHC class II gene	owl:Class		subclass	MHC class II gene	silvery Javan gibbon
+MRO:0046001	golden lion tamarin MHC class I gene	owl:Class		subclass	MHC class I gene	golden lion tamarin
+MRO:0046002	golden lion tamarin MHC class II gene	owl:Class		subclass	MHC class II gene	golden lion tamarin
+MRO:0046003	black crested mangabey MHC class I gene	owl:Class		subclass	MHC class I gene	black crested mangabey
+MRO:0046004	black crested mangabey MHC class II gene	owl:Class		subclass	MHC class II gene	black crested mangabey
+MRO:0046005	stump-tailed macaque MHC class I gene	owl:Class		subclass	MHC class I gene	stump-tailed macaque
+MRO:0046006	stump-tailed macaque MHC class II gene	owl:Class		subclass	MHC class II gene	stump-tailed macaque
+MRO:0046007	Assam macaque MHC class I gene	owl:Class		subclass	MHC class I gene	Assam macaque
+MRO:0046008	Assam macaque MHC class II gene	owl:Class		subclass	MHC class II gene	Assam macaque
+MRO:0046009	Japanese macaque MHC class I gene	owl:Class		subclass	MHC class I gene	Japanese macaque
+MRO:0046010	Japanese macaque MHC class II gene	owl:Class		subclass	MHC class II gene	Japanese macaque
+MRO:0046011	drill MHC class I gene	owl:Class		subclass	MHC class I gene	drill
+MRO:0046012	drill MHC class II gene	owl:Class		subclass	MHC class II gene	drill
+MRO:0046013	northern pig-tailed macaque MHC class I gene	owl:Class		subclass	MHC class I gene	northern pig-tailed macaque
+MRO:0046014	northern pig-tailed macaque MHC class II gene	owl:Class		subclass	MHC class II gene	northern pig-tailed macaque
+MRO:0046015	southern pig-tailed macaque MHC class I gene	owl:Class		subclass	MHC class I gene	southern pig-tailed macaque
+MRO:0046016	southern pig-tailed macaque MHC class II gene	owl:Class		subclass	MHC class II gene	southern pig-tailed macaque
+MRO:0046017	lion-tailed macaque MHC class I gene	owl:Class		subclass	MHC class I gene	lion-tailed macaque
+MRO:0046018	lion-tailed macaque MHC class II gene	owl:Class		subclass	MHC class II gene	lion-tailed macaque
+MRO:0046019	mandrill MHC class I gene	owl:Class		subclass	MHC class I gene	mandrill
+MRO:0046020	mandrill MHC class II gene	owl:Class		subclass	MHC class II gene	mandrill
+MRO:0046021	Milne Edward's macaque MHC class I gene	owl:Class		subclass	MHC class I gene	Milne Edward's macaque
+MRO:0046022	Milne Edward's macaque MHC class II gene	owl:Class		subclass	MHC class II gene	Milne Edward's macaque
+MRO:0046023	olive baboon MHC class I gene	owl:Class		subclass	MHC class I gene	olive baboon
+MRO:0046024	olive baboon MHC class II gene	owl:Class		subclass	MHC class II gene	olive baboon
+MRO:0046025	yellow baboon MHC class I gene	owl:Class		subclass	MHC class I gene	yellow baboon
+MRO:0046026	yellow baboon MHC class II gene	owl:Class		subclass	MHC class II gene	yellow baboon
+MRO:0046027	hamadryas baboon MHC class I gene	owl:Class		subclass	MHC class I gene	hamadryas baboon
+MRO:0046028	hamadryas baboon MHC class II gene	owl:Class		subclass	MHC class II gene	hamadryas baboon
+MRO:0046029	Guinea baboon MHC class I gene	owl:Class		subclass	MHC class I gene	Guinea baboon
+MRO:0046030	Guinea baboon MHC class II gene	owl:Class		subclass	MHC class II gene	Guinea baboon
+MRO:0046031	chacma Baboon MHC class I gene	owl:Class		subclass	MHC class I gene	chacma Baboon
+MRO:0046032	chacma Baboon MHC class II gene	owl:Class		subclass	MHC class II gene	chacma Baboon
+MRO:0046033	white-faced saki MHC class I gene	owl:Class		subclass	MHC class I gene	white-faced saki
+MRO:0046034	white-faced saki MHC class II gene	owl:Class		subclass	MHC class II gene	white-faced saki
+MRO:0046035	Sumatran orangutan MHC class I gene	owl:Class		subclass	MHC class I gene	Sumatran orangutan
+MRO:0046036	Sumatran orangutan MHC class II gene	owl:Class		subclass	MHC class II gene	Sumatran orangutan
+MRO:0046037	Bornean orangutan MHC class I gene	owl:Class		subclass	MHC class I gene	Bornean orangutan
+MRO:0046038	Bornean orangutan MHC class II gene	owl:Class		subclass	MHC class II gene	Bornean orangutan
+MRO:0046039	golden snub-nosed monkey MHC class I gene	owl:Class		subclass	MHC class I gene	golden snub-nosed monkey
+MRO:0046040	golden snub-nosed monkey MHC class II gene	owl:Class		subclass	MHC class II gene	golden snub-nosed monkey
+MRO:0046041	brown-mantled tamarin MHC class I gene	owl:Class		subclass	MHC class I gene	brown-mantled tamarin
+MRO:0046042	brown-mantled tamarin MHC class II gene	owl:Class		subclass	MHC class II gene	brown-mantled tamarin
+MRO:0046043	Geoffroy's tamarin MHC class I gene	owl:Class		subclass	MHC class I gene	Geoffroy's tamarin
+MRO:0046044	Geoffroy's tamarin MHC class II gene	owl:Class		subclass	MHC class II gene	Geoffroy's tamarin
+MRO:0046045	white-lipped tamarin MHC class I gene	owl:Class		subclass	MHC class I gene	white-lipped tamarin
+MRO:0046046	white-lipped tamarin MHC class II gene	owl:Class		subclass	MHC class II gene	white-lipped tamarin
+MRO:0046047	moustached tamarin MHC class I gene	owl:Class		subclass	MHC class I gene	moustached tamarin
+MRO:0046048	moustached tamarin MHC class II gene	owl:Class		subclass	MHC class II gene	moustached tamarin
+MRO:0046049	common squirrel monkey MHC class I gene	owl:Class		subclass	MHC class I gene	common squirrel monkey
+MRO:0046050	common squirrel monkey MHC class II gene	owl:Class		subclass	MHC class II gene	common squirrel monkey
+MRO:0046051	northern plains gray langur MHC class I gene	owl:Class		subclass	MHC class I gene	northern plains gray langur
+MRO:0046052	northern plains gray langur MHC class II gene	owl:Class		subclass	MHC class II gene	northern plains gray langur
+MRO:0046053	gelada MHC class I gene	owl:Class		subclass	MHC class I gene	gelada
+MRO:0046054	gelada MHC class II gene	owl:Class		subclass	MHC class II gene	gelada
+MRO:0046253	human Beta-2-microglobulin gene	owl:Class		subclass	Beta-2-microglobulin gene	human
+MRO:0046436	Sasa-UBA gene	owl:Class		subclass	atlantic salmon MHC class I gene	
+MRO:0046437	Pipi-E gene	owl:Class		subclass	white-faced saki MHC class I gene	
+MRO:0046438	Eqca-6 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0046439	Mafa-E gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046440	Mamu-I gene	owl:Class		subclass	rhesus macaque MHC class I gene	
+MRO:0046441	Popy-C gene	owl:Class		subclass	Bornean orangutan MHC class I gene	
+MRO:0046442	Atbe-B gene	owl:Class		subclass	white-fronted spider monkey MHC class I gene	
+MRO:0046443	Lero-G gene	owl:Class		subclass	golden lion tamarin MHC class I gene	
+MRO:0046444	Popy-AP gene	owl:Class		subclass	Bornean orangutan MHC class I gene	
+MRO:0046445	Samy-PS1 gene	owl:Class		subclass	moustached tamarin MHC class I gene	
+MRO:0046446	Caja-F gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046447	Onmy-DAB gene	owl:Class		subclass	rainbow trout MHC class II gene	
+MRO:0046448	Atfu-G gene	owl:Class		subclass	black-headed spider monkey MHC class I gene	
+MRO:0046449	Pacy-B gene	owl:Class		subclass	yellow baboon MHC class I gene	
+MRO:0046450	Pacy-A gene	owl:Class		subclass	yellow baboon MHC class I gene	
+MRO:0046451	Mamu-F gene	owl:Class		subclass	rhesus macaque MHC class I gene	
+MRO:0046452	Atbe-G gene	owl:Class		subclass	white-fronted spider monkey MHC class I gene	
+MRO:0046453	Atfu-B gene	owl:Class		subclass	black-headed spider monkey MHC class I gene	
+MRO:0046454	Sage-PS1 gene	owl:Class		subclass	Geoffroy's tamarin MHC class I gene	
+MRO:0046455	Maar-I gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046456	SLA-TAP2 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046457	Saoe-N1 gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0046458	Gogo-OKO gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046459	Pipi-B gene	owl:Class		subclass	white-faced saki MHC class I gene	
+MRO:0046460	Sage-PS2 gene	owl:Class		subclass	Geoffroy's tamarin MHC class I gene	
+MRO:0046461	Papa-H gene	owl:Class		subclass	bonobo MHC class I gene	
+MRO:0046462	Caja-B8 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046463	Atbe-E gene	owl:Class		subclass	white-fronted spider monkey MHC class I gene	
+MRO:0046464	Eqca-2 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0046465	Caja-B9 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046466	Ovar-N gene	owl:Class		subclass	domestic sheep MHC class I gene	
+MRO:0046467	Cemi-A gene	owl:Class		subclass	blue monkey MHC class I gene	
+MRO:0046468	Papa-B gene	owl:Class		subclass	bonobo MHC class I gene	
+MRO:0046469	Mafa-I gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046470	Paan-AG gene	owl:Class		subclass	olive baboon MHC class I gene	
+MRO:0046471	Mafa-AG gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046472	Chae-B gene	owl:Class		subclass	grivet MHC class I gene	
+MRO:0046473	Eqca-4 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0046474	Popy-A gene	owl:Class		subclass	Bornean orangutan MHC class I gene	
+MRO:0046475	Atfu-E gene	owl:Class		subclass	black-headed spider monkey MHC class I gene	
+MRO:0046476	Gogo-G gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046477	Hyla-A gene	owl:Class		subclass	lar gibbon MHC class I gene	
+MRO:0046478	Saoe-PS1 gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0046479	Eqca-7 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0046480	Saoe-N2 gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0046481	Hyla-B gene	owl:Class		subclass	lar gibbon MHC class I gene	
+MRO:0046482	Popy-B gene	owl:Class		subclass	Bornean orangutan MHC class I gene	
+MRO:0046483	Saoe-N3 gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0046484	Safu-PS2 gene	owl:Class		subclass	brown-mantled tamarin MHC class I gene	
+MRO:0046485	SLA-TAP1 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046486	Caja-B6 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046487	SLA-8 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046488	Caja-B5 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046489	Caja-PS2 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046490	Eqca-3 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0046491	Maar-A1 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046492	Sasa-DAA gene	owl:Class		subclass	atlantic salmon MHC class II gene	
+MRO:0046493	Paha-A gene	owl:Class		subclass	hamadryas baboon MHC class I gene	
+MRO:0046494	Caja-B4 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046495	Caja-B7 gene	owl:Class		subclass	marmoset MHC class I gene	
+MRO:0046496	SLA-4 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046497	Gogo-A gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046498	SLA-5 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046499	Gogo-F gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046500	Chae-A gene	owl:Class		subclass	grivet MHC class I gene	
+MRO:0046501	SLA-7 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046502	Sasc-G gene	owl:Class		subclass	common squirrel monkey MHC class I gene	
+MRO:0046503	Safu-G gene	owl:Class		subclass	brown-mantled tamarin MHC class I gene	
+MRO:0046504	Mamu-G gene	owl:Class		subclass	rhesus macaque MHC class I gene	
+MRO:0046505	Maar-B gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046506	Chae-G gene	owl:Class		subclass	grivet MHC class I gene	
+MRO:0046507	Cemi-B gene	owl:Class		subclass	blue monkey MHC class I gene	
+MRO:0046508	Papa-G gene	owl:Class		subclass	bonobo MHC class I gene	
+MRO:0046509	Samy-PS2 gene	owl:Class		subclass	moustached tamarin MHC class I gene	
+MRO:0046510	Paan-A gene	owl:Class		subclass	olive baboon MHC class I gene	
+MRO:0046511	Mafa-B gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046512	Saoe-E gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0046513	Pipi-G gene	owl:Class		subclass	white-faced saki MHC class I gene	
+MRO:0046514	SLA-12 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046515	Paha-B gene	owl:Class		subclass	hamadryas baboon MHC class I gene	
+MRO:0046516	Onmy-UBA gene	owl:Class		subclass	rainbow trout MHC class I gene	
+MRO:0046517	Popy-H gene	owl:Class		subclass	Bornean orangutan MHC class I gene	
+MRO:0046518	Sasa-DAB gene	owl:Class		subclass	atlantic salmon MHC class II gene	
+MRO:0046519	DLA-64 gene	owl:Class		subclass	dog MHC class I gene	
+MRO:0046520	Paan-B gene	owl:Class		subclass	olive baboon MHC class I gene	
+MRO:0046521	Saoe-F gene	owl:Class		subclass	cotton-top tamarin MHC class I gene	
+MRO:0046522	Gogo-C gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046523	Gogo-E gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046524	Onmy-DAA gene	owl:Class		subclass	rainbow trout MHC class II gene	
+MRO:0046525	Safu-PS1 gene	owl:Class		subclass	brown-mantled tamarin MHC class I gene	
+MRO:0046526	Pacy-E gene	owl:Class		subclass	yellow baboon MHC class I gene	
+MRO:0046527	Mafa-F gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046528	Popy-E gene	owl:Class		subclass	Bornean orangutan MHC class I gene	
+MRO:0046529	Mafa-A gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046530	Mafa-G gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0046531	Gogo-H gene	owl:Class		subclass	gorilla MHC class I gene	
+MRO:0046532	SLA-9 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046533	SLA-11 gene	owl:Class		subclass	pig MHC class I gene	
+MRO:0046534	Papa-C gene	owl:Class		subclass	bonobo MHC class I gene	
+MRO:0049249	atlantic salmon MHC class I gene	owl:Class		subclass	MHC class I gene	atlantic salmon
+MRO:0049250	atlantic salmon MHC class II gene	owl:Class		subclass	MHC class II gene	atlantic salmon
+MRO:0049251	rainbow trout MHC class I gene	owl:Class		subclass	MHC class I gene	rainbow trout
+MRO:0049252	rainbow trout MHC class II gene	owl:Class		subclass	MHC class II gene	rainbow trout
+MRO:0049265	Mafa-A8 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0049266	Mafa-A2 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0049267	Mafa-A5 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0049268	Mafa-A6 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0049269	Mafa-A3 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0049270	Mafa-A4 gene	owl:Class		subclass	stump-tailed macaque MHC class I gene	
+MRO:0051192	Eqca-1 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0051193	Eqca-16 gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0051194	Eqca-N gene	owl:Class		subclass	horse MHC class I gene	
+MRO:0051207	common brushtail MHC class I gene	owl:Class		subclass	MHC class I gene	common brushtail
+MRO:0051208	common brushtail MHC class II gene	owl:Class		subclass	MHC class II gene	common brushtail
+MRO:0051209	Trvu-UB gene	owl:Class		subclass	common brushtail MHC class I gene	

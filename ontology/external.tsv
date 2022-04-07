@@ -1,87 +1,87 @@
-ID	Label	Editor Preferred Term	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of Usage	Source Ontology	Species Code
-ID	A rdfs:label	A IAO:0000111	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112	AI IAO:0000412	
-ECO:0000000	evidence	evidence		subclass	information content entity					http://purl.obolibrary.org/obo/eco.owl	
-GO:0042611	MHC protein complex	MHC protein complex	MHC molecule	equivalent	protein-containing complex	('has part' some (protein and ('gene product of' some 'MHC gene')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO		http://purl.obolibrary.org/obo/go.owl	
-NCBITaxon:7959	grass carp	Ctenopharyngodon idella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ctid
-NCBITaxon:8022	rainbow trout	Oncorhynchus mykiss		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Onmy
-NCBITaxon:8030	atlantic salmon	Salmo salar		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sasa
-NCBITaxon:8355	clawed frog	Xenopus laevis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Xela
-NCBITaxon:8839	duck	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Anpl
-NCBITaxon:9031	chicken	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gaga
-NCBITaxon:9337	common brushtail	Trichosurus vulpecula		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Trvu
-NCBITaxon:9402	black flying fox	Pteropus alecto		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ptal
-NCBITaxon:9483	marmoset	Callithrix jacchus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Caja
-NCBITaxon:9487	brown-mantled tamarin	Leontocebus fuscicollis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Safu
-NCBITaxon:9488	moustached tamarin	Saguinus mystax		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Samy
-NCBITaxon:9490	cotton-top tamarin	Saguinus oedipus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Saoe
-NCBITaxon:9493	pygmy marmoset	Cebuella pygmaea		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Capy
-NCBITaxon:9505	three-striped night monkey	Aotus trivirgatus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aotr
-NCBITaxon:9507	white-fronted spider monkey	Ateles belzebuth		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Atbe
-NCBITaxon:9508	black-headed spider monkey	Ateles fusciceps		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Atfu
-NCBITaxon:9515	tufted capuchin	Sapajus apella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ceap
-NCBITaxon:9521	common squirrel monkey	Saimiri sciureus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sasc
-NCBITaxon:9523	red-bellied titi	Plecturocebus moloch		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Camo
-NCBITaxon:9531	sooty mangabey	Cercocebus atys		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ceat
-NCBITaxon:9534	grivet	Chlorocebus aethiops		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Chae
-NCBITaxon:9540	stump-tailed macaque	Macaca arctoides		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Maar
-NCBITaxon:9541	crab-eating macaque	Macaca fascicularis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mafa
-NCBITaxon:9542	Japanese macaque	Macaca fuscata		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mafu
-NCBITaxon:9544	rhesus macaque	Macaca mulatta		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mamu
-NCBITaxon:9545	southern pig-tailed macaque	Macaca nemestrina		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mane
-NCBITaxon:9551	Assam macaque	Macaca assamensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Maas
-NCBITaxon:9555	olive baboon	Papio anubis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Paan
-NCBITaxon:9556	yellow baboon	Papio cynocephalus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Pacy
-NCBITaxon:9557	hamadryas baboon	Papio hamadryas		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Paha
-NCBITaxon:9561	mandrill	Mandrillus sphinx		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Masp
-NCBITaxon:9565	gelada	Theropithecus gelada		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Thge
-NCBITaxon:9568	drill	Mandrillus leucophaeus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Male
-NCBITaxon:9580	lar gibbon	Hylobates lar		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Hyla
-NCBITaxon:9593	gorilla	Gorilla gorilla		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gogo
-NCBITaxon:9597	bonobo	Pan paniscus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Papa
-NCBITaxon:9598	chimpanzee	Pan troglodytes		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Patr
-NCBITaxon:9600	Bornean orangutan	Pongo pygmaeus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Popy
-NCBITaxon:9601	Sumatran orangutan	Pongo abelii		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Poab
-NCBITaxon:9606	human	Homo sapiens		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	HLA
-NCBITaxon:9615	dog	Canis lupus familiaris		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	DLA
-NCBITaxon:9646	giant panda	Ailuropoda melanoleuca		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Amie
-NCBITaxon:9685	cat	Felis catus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	FLA
-NCBITaxon:9796	horse	Equus caballus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	ELA
-NCBITaxon:9823	pig	Sus scrofa		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	SLA
-NCBITaxon:9913	cattle	Bos taurus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	BoLA
-NCBITaxon:9925	goat	Capra hircus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cahi
-NCBITaxon:9940	domestic sheep	Ovis aries		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovar
-NCBITaxon:9986	rabbit	Oryctolagus cuniculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	RLA
-NCBITaxon:10090	mouse	Mus musculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	H2
-NCBITaxon:10116	rat	Rattus norvegicus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	RT1
-NCBITaxon:30588	golden lion tamarin	Leontopithecus rosalia		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Lero
-NCBITaxon:30591	Azara's night monkey	Aotus azarai		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aoaz
-NCBITaxon:33548	mantled guereza	Colobus guereza		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cogu
-NCBITaxon:36225	blue monkey	Cercopithecus mitis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cemi
-NCBITaxon:36227	De Brazza's monkey	Cercopithecus neglectus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cene
-NCBITaxon:36229	chacma Baboon	Papio ursinus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Paur
-NCBITaxon:37174	bighorn sheep	Ovis canadensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovca
-NCBITaxon:37293	Nancy Ma's night monkey	Aotus nancymaae		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aona
-NCBITaxon:43147	gray-bellied night monkey	Aotus lemurinus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aole
-NCBITaxon:43777	white-faced saki	Pithecia pithecia		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Pipi
-NCBITaxon:43778	Geoffroy's tamarin	Saguinus geoffroyi		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sage
-NCBITaxon:54601	lion-tailed macaque	Macaca silenus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Masi
-NCBITaxon:54602	Milne Edward's macaque	Macaca thibetana		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Math
-NCBITaxon:57175	black-headed night monkey	Aotus nigriceps		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aoni
-NCBITaxon:57176	Spix's night monkey	Aotus vociferans		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aovo
-NCBITaxon:60710	vervet monkey	Chlorocebus pygerythrus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Chpy
-NCBITaxon:60711	green monkey	Chlorocebus sabaeus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Chsa
-NCBITaxon:61622	golden snub-nosed monkey	Rhinopithecus roxellana		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Rhro
-NCBITaxon:75566	black crested mangabey	Lophocebus aterrimus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Loat
-NCBITaxon:78454	white-lipped tamarin	Saguinus labiatus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sala
-NCBITaxon:81572	silvery Javan gibbon	Hylobates moloch		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Hymo
-NCBITaxon:88029	northern plains gray langur	Semnopithecus entellus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Seen
-NCBITaxon:90387	northern pig-tailed macaque	Macaca leonina		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Malo
-NCBITaxon:100937	Guinea baboon	Papio papio		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Papp
-NCBITaxon:182253	Guatemalan black howler	Alouatta pigra		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Alpi
-NCBITaxon:499232	eastern gorilla	Gorilla beringei		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gobe
-PR:000000001	protein	protein		subclass	material entity					http://purl.obolibrary.org/obo/pr.owl	
-PR:000004580	Beta-2-microglobulin	Beta-2-microglobulin		equivalent	protein	('gene product of' some 'Beta-2-microglobulin gene')	A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.			http://purl.obolibrary.org/obo/pr.owl	
-SO:0000355	haplotype_block	haplotype_block		subclass			A region of the genome which is co-inherited as the result of the lack of historic recombination within it.			http://purl.obolibrary.org/obo/so.owl	
-SO:0000704	gene	gene		subclass			A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.			http://purl.obolibrary.org/obo/so.owl	
-SO:0001024	haplotype	haplotype		subclass			A haplotype is one of a set of coexisting sequence variants of a haplotype block.			http://purl.obolibrary.org/obo/so.owl	
-owl:Thing	owl:Thing										
+ID	Label	Type	Editor Preferred Term	IEDB Label	Class Type	Parent	Logic	Definition	Definition Source	Example of Usage	Source Ontology	Species Code
+ID	A rdfs:label	TYPE	A IAO:0000111	A OBI:9991118	CLASS_TYPE	C %	C %	A IAO:0000115	A IAO:0000119	A IAO:0000112	AI IAO:0000412	
+ECO:0000000	evidence	owl:Class	evidence		subclass	information content entity					http://purl.obolibrary.org/obo/eco.owl	
+GO:0042611	MHC protein complex	owl:Class	MHC protein complex	MHC molecule	equivalent	protein-containing complex	('has part' some (protein and ('gene product of' some 'MHC gene')))	A transmembrane protein complex composed of an MHC alpha chain and, in most cases, either an MHC class II beta chain or an invariant beta2-microglobin chain, and with or without a bound peptide, lipid, or polysaccharide antigen.	GO		http://purl.obolibrary.org/obo/go.owl	
+NCBITaxon:7959	grass carp	owl:Class	Ctenopharyngodon idella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ctid
+NCBITaxon:8022	rainbow trout	owl:Class	Oncorhynchus mykiss		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Onmy
+NCBITaxon:8030	atlantic salmon	owl:Class	Salmo salar		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sasa
+NCBITaxon:8355	clawed frog	owl:Class	Xenopus laevis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Xela
+NCBITaxon:8839	duck	owl:Class	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Anpl
+NCBITaxon:9031	chicken	owl:Class	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gaga
+NCBITaxon:9337	common brushtail	owl:Class	Trichosurus vulpecula		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Trvu
+NCBITaxon:9402	black flying fox	owl:Class	Pteropus alecto		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ptal
+NCBITaxon:9483	marmoset	owl:Class	Callithrix jacchus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Caja
+NCBITaxon:9487	brown-mantled tamarin	owl:Class	Leontocebus fuscicollis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Safu
+NCBITaxon:9488	moustached tamarin	owl:Class	Saguinus mystax		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Samy
+NCBITaxon:9490	cotton-top tamarin	owl:Class	Saguinus oedipus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Saoe
+NCBITaxon:9493	pygmy marmoset	owl:Class	Cebuella pygmaea		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Capy
+NCBITaxon:9505	three-striped night monkey	owl:Class	Aotus trivirgatus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aotr
+NCBITaxon:9507	white-fronted spider monkey	owl:Class	Ateles belzebuth		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Atbe
+NCBITaxon:9508	black-headed spider monkey	owl:Class	Ateles fusciceps		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Atfu
+NCBITaxon:9515	tufted capuchin	owl:Class	Sapajus apella		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ceap
+NCBITaxon:9521	common squirrel monkey	owl:Class	Saimiri sciureus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sasc
+NCBITaxon:9523	red-bellied titi	owl:Class	Plecturocebus moloch		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Camo
+NCBITaxon:9531	sooty mangabey	owl:Class	Cercocebus atys		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ceat
+NCBITaxon:9534	grivet	owl:Class	Chlorocebus aethiops		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Chae
+NCBITaxon:9540	stump-tailed macaque	owl:Class	Macaca arctoides		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Maar
+NCBITaxon:9541	crab-eating macaque	owl:Class	Macaca fascicularis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mafa
+NCBITaxon:9542	Japanese macaque	owl:Class	Macaca fuscata		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mafu
+NCBITaxon:9544	rhesus macaque	owl:Class	Macaca mulatta		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mamu
+NCBITaxon:9545	southern pig-tailed macaque	owl:Class	Macaca nemestrina		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Mane
+NCBITaxon:9551	Assam macaque	owl:Class	Macaca assamensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Maas
+NCBITaxon:9555	olive baboon	owl:Class	Papio anubis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Paan
+NCBITaxon:9556	yellow baboon	owl:Class	Papio cynocephalus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Pacy
+NCBITaxon:9557	hamadryas baboon	owl:Class	Papio hamadryas		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Paha
+NCBITaxon:9561	mandrill	owl:Class	Mandrillus sphinx		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Masp
+NCBITaxon:9565	gelada	owl:Class	Theropithecus gelada		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Thge
+NCBITaxon:9568	drill	owl:Class	Mandrillus leucophaeus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Male
+NCBITaxon:9580	lar gibbon	owl:Class	Hylobates lar		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Hyla
+NCBITaxon:9593	gorilla	owl:Class	Gorilla gorilla		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gogo
+NCBITaxon:9597	bonobo	owl:Class	Pan paniscus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Papa
+NCBITaxon:9598	chimpanzee	owl:Class	Pan troglodytes		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Patr
+NCBITaxon:9600	Bornean orangutan	owl:Class	Pongo pygmaeus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Popy
+NCBITaxon:9601	Sumatran orangutan	owl:Class	Pongo abelii		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Poab
+NCBITaxon:9606	human	owl:Class	Homo sapiens		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	HLA
+NCBITaxon:9615	dog	owl:Class	Canis lupus familiaris		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	DLA
+NCBITaxon:9646	giant panda	owl:Class	Ailuropoda melanoleuca		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Amie
+NCBITaxon:9685	cat	owl:Class	Felis catus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	FLA
+NCBITaxon:9796	horse	owl:Class	Equus caballus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	ELA
+NCBITaxon:9823	pig	owl:Class	Sus scrofa		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	SLA
+NCBITaxon:9913	cattle	owl:Class	Bos taurus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	BoLA
+NCBITaxon:9925	goat	owl:Class	Capra hircus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cahi
+NCBITaxon:9940	domestic sheep	owl:Class	Ovis aries		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovar
+NCBITaxon:9986	rabbit	owl:Class	Oryctolagus cuniculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	RLA
+NCBITaxon:10090	mouse	owl:Class	Mus musculus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	H2
+NCBITaxon:10116	rat	owl:Class	Rattus norvegicus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	RT1
+NCBITaxon:30588	golden lion tamarin	owl:Class	Leontopithecus rosalia		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Lero
+NCBITaxon:30591	Azara's night monkey	owl:Class	Aotus azarai		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aoaz
+NCBITaxon:33548	mantled guereza	owl:Class	Colobus guereza		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cogu
+NCBITaxon:36225	blue monkey	owl:Class	Cercopithecus mitis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cemi
+NCBITaxon:36227	De Brazza's monkey	owl:Class	Cercopithecus neglectus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cene
+NCBITaxon:36229	chacma Baboon	owl:Class	Papio ursinus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Paur
+NCBITaxon:37174	bighorn sheep	owl:Class	Ovis canadensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ovca
+NCBITaxon:37293	Nancy Ma's night monkey	owl:Class	Aotus nancymaae		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aona
+NCBITaxon:43147	gray-bellied night monkey	owl:Class	Aotus lemurinus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aole
+NCBITaxon:43777	white-faced saki	owl:Class	Pithecia pithecia		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Pipi
+NCBITaxon:43778	Geoffroy's tamarin	owl:Class	Saguinus geoffroyi		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sage
+NCBITaxon:54601	lion-tailed macaque	owl:Class	Macaca silenus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Masi
+NCBITaxon:54602	Milne Edward's macaque	owl:Class	Macaca thibetana		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Math
+NCBITaxon:57175	black-headed night monkey	owl:Class	Aotus nigriceps		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aoni
+NCBITaxon:57176	Spix's night monkey	owl:Class	Aotus vociferans		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Aovo
+NCBITaxon:60710	vervet monkey	owl:Class	Chlorocebus pygerythrus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Chpy
+NCBITaxon:60711	green monkey	owl:Class	Chlorocebus sabaeus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Chsa
+NCBITaxon:61622	golden snub-nosed monkey	owl:Class	Rhinopithecus roxellana		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Rhro
+NCBITaxon:75566	black crested mangabey	owl:Class	Lophocebus aterrimus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Loat
+NCBITaxon:78454	white-lipped tamarin	owl:Class	Saguinus labiatus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Sala
+NCBITaxon:81572	silvery Javan gibbon	owl:Class	Hylobates moloch		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Hymo
+NCBITaxon:88029	northern plains gray langur	owl:Class	Semnopithecus entellus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Seen
+NCBITaxon:90387	northern pig-tailed macaque	owl:Class	Macaca leonina		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Malo
+NCBITaxon:100937	Guinea baboon	owl:Class	Papio papio		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Papp
+NCBITaxon:182253	Guatemalan black howler	owl:Class	Alouatta pigra		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Alpi
+NCBITaxon:499232	eastern gorilla	owl:Class	Gorilla beringei		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gobe
+PR:000000001	protein	owl:Class	protein		subclass	material entity					http://purl.obolibrary.org/obo/pr.owl	
+PR:000004580	Beta-2-microglobulin	owl:Class	Beta-2-microglobulin		equivalent	protein	('gene product of' some 'Beta-2-microglobulin gene')	A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.			http://purl.obolibrary.org/obo/pr.owl	
+SO:0000355	haplotype_block	owl:Class	haplotype_block		subclass			A region of the genome which is co-inherited as the result of the lack of historic recombination within it.			http://purl.obolibrary.org/obo/so.owl	
+SO:0000704	gene	owl:Class	gene		subclass			A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.			http://purl.obolibrary.org/obo/so.owl	
+SO:0001024	haplotype	owl:Class	haplotype		subclass			A haplotype is one of a set of coexisting sequence variants of a haplotype block.			http://purl.obolibrary.org/obo/so.owl	
+owl:Thing	owl:Thing	owl:Class										

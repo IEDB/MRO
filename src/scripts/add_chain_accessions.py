@@ -1,32 +1,24 @@
 import csv
+import logging
 
 from argparse import ArgumentParser, FileType
 
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("index", type=FileType("r"))
     parser.add_argument("iedb", type=FileType("r"))
     parser.add_argument("molecule", type=FileType("r"))
-    parser.add_argument("chain_sequence", type=FileType("r"))
+    parser.add_argument("chain", type=FileType("r"))
     parser.add_argument("output", type=FileType("w"))
     args = parser.parse_args()
 
-    chain_accessions = {}
-    reader = csv.DictReader(args.chain_sequence, delimiter="\t")
+    chains = {}
+    reader = csv.DictReader(args.chain, delimiter="\t")
     next(reader)
     for row in reader:
         if row["Source"] != "IMGT/HLA":
             continue
-        chain_accessions[row["Label"]] = row["Accession"]
-
-    label_to_id = {}
-    reader = csv.DictReader(args.index, delimiter="\t")
-    next(reader)
-    for row in reader:
-        if row["Label"] not in chain_accessions:
-            continue
-        label_to_id[row["Label"]] = row["ID"]
+        chains[row["Label"]] = {"ID": row["ID"], "Accession": row["Accession"]}
 
     molecules = {}
     reader = csv.DictReader(args.molecule, delimiter="\t")
@@ -36,15 +28,28 @@ def main():
         chain_i_acc = None
         chain_i_id = None
         if chain_i_label:
-            chain_i_acc = chain_accessions.get(chain_i_label)
-            chain_i_id = label_to_id.get(chain_i_label)
+            chain_i = chains.get(chain_i_label, {})
+            if chain_i:
+                chain_i_id = chain_i["ID"]
+                chain_i_acc = chain_i["Accession"]
+            else:
+                logging.error("Unknown alpha chain: " + chain_i_label)
         chain_ii_label = row["Beta Chain"]
         chain_ii_acc = None
         chain_ii_id = None
         if chain_ii_label:
-            chain_ii_acc = chain_accessions.get(chain_ii_label)
-            chain_ii_id = label_to_id.get(chain_ii_label)
-        molecules[row["Label"]] = {"chain_i_acc": chain_i_acc, "chain_i_id": chain_i_id, "chain_ii_acc": chain_ii_acc, "chain_ii_id": chain_ii_id}
+            chain_ii = chains.get(chain_i_label, {})
+            if chain_ii:
+                chain_ii_id = chain_ii["ID"]
+                chain_ii_acc = chain_ii["Accession"]
+            else:
+                logging.error("Unknown beta chain: " + chain_ii_label)
+        molecules[row["Label"]] = {
+            "chain_i_acc": chain_i_acc,
+            "chain_i_id": chain_i_id,
+            "chain_ii_acc": chain_ii_acc,
+            "chain_ii_id": chain_ii_id
+        }
 
     rows = []
     reader = csv.DictReader(args.iedb, delimiter="\t")

@@ -1,0 +1,34 @@
+ID	Label	Type	Deprecated
+ID	LABEL	TYPE	AT owl:deprecated^^xsd:boolean
+MRO:0000003	obsolete genetic entity	owl:Class	true
+MRO:0000035	obsolete H2-CD1 gene	owl:Class	true
+MRO:0000086	obsolete RT1-B gene	owl:Class	true
+MRO:0000087	obsolete RT1-D gene	owl:Class	true
+MRO:0000171	obsolete RT1-B1 haplotype	owl:Class	true
+MRO:0000190	obsolete HLA-A203 serotype	owl:Class	true
+MRO:0000193	obsolete HLA-A2403 serotype	owl:Class	true
+MRO:0000409	obsolete H2-CD1 chain	owl:Class	true
+MRO:0000468	obsolete H2-Qa1 chain	owl:Class	true
+MRO:0000469	obsolete H2-Qa2 chain	owl:Class	true
+MRO:0000470	obsolete H2-Qa9 chain	owl:Class	true
+MRO:0000673	obsolete HLA-DQB*03:02 chain	owl:Class	true
+MRO:0000850	obsolete RT1-B chain	owl:Class	true
+MRO:0000851	obsolete RT1-D chain	owl:Class	true
+MRO:0000858	obsolete Saoe-G*02 chain	owl:Class	true
+MRO:0000859	obsolete Saoe-G*04 chain	owl:Class	true
+MRO:0000860	obsolete Saoe-G*08 chain	owl:Class	true
+MRO:0000861	obsolete Saoe-G*12 chain	owl:Class	true
+MRO:0000894	obsolete human MR1 K43A mutant chain	owl:Class	true
+MRO:0001002	obsolete H2-Qa1 protein complex	owl:Class	true
+MRO:0001003	obsolete H2-Qa2 protein complex	owl:Class	true
+MRO:0001004	obsolete H2-Qa9 protein complex	owl:Class	true
+MRO:0001236	obsolete HLA-DQB*03:02 protein complex	owl:Class	true
+MRO:0001426	obsolete Saoe-G*02 protein complex	owl:Class	true
+MRO:0001427	obsolete Saoe-G*04 protein complex	owl:Class	true
+MRO:0001428	obsolete Saoe-G*08 protein complex	owl:Class	true
+MRO:0001429	obsolete Saoe-G*12 protein complex	owl:Class	true
+MRO:0001515	obsolete rat MHC protein complex with RT1-B1 haplotype	owl:Class	true
+MRO:0001531	obsolete HLA protein complex with A203 serotype	owl:Class	true
+MRO:0001534	obsolete HLA protein complex with A2403 serotype	owl:Class	true
+MRO:0045941	obsolete SLA-6*01:02 chain	owl:Class	true
+MRO:0045942	obsolete SLA-6*01:02 protein complex	owl:Class	true

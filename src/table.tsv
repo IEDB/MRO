@@ -3,8 +3,6 @@ table	src/table.tsv	All user-editable tables in this project	table
 column	src/column.tsv	Columns for all of the tables	column
 datatype	src/datatype.tsv	Datatypes for all of the columns	datatype
 prefix	src/prefix.tsv	Prefixes and source ontologies	
-index	build/tables/index.tsv		
-chain_sequence	build/tables/chain-sequence.tsv		
 chain	build/tables/chain.tsv		
 core	build/tables/core.tsv		
 evidence	build/tables/evidence.tsv		

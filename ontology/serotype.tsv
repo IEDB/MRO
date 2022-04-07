@@ -1,174 +1,174 @@
-Label	Synonyms	Class Type	Parent	In Taxon
-LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
-BoLA-A10 serotype		subclass	cattle MHC class I serotype	
-BoLA-A11 serotype		subclass	cattle MHC class I serotype	
-BoLA-A14 serotype		subclass	cattle MHC class I serotype	
-BoLA-A18 serotype		subclass	cattle MHC class I serotype	
-BoLA-A31 serotype		subclass	cattle MHC class I serotype	
-HLA-A1 serotype		subclass	HLA-A serotype	
-HLA-A2 serotype		subclass	HLA-A serotype	
-HLA-A3 serotype		subclass	HLA-A serotype	
-HLA-A11 serotype		subclass	HLA-A serotype	
-HLA-A18 serotype		subclass	HLA-A serotype	
-HLA-A23 serotype		subclass	HLA-A serotype	
-HLA-A24 serotype		subclass	HLA-A serotype	
-HLA-A25 serotype		subclass	HLA-A serotype	
-HLA-A26 serotype		subclass	HLA-A serotype	
-HLA-A28 serotype		subclass	HLA-A serotype	
-HLA-A29 serotype		subclass	HLA-A serotype	
-HLA-A30 serotype		subclass	HLA-A serotype	
-HLA-A31 serotype		subclass	HLA-A serotype	
-HLA-A32 serotype		subclass	HLA-A serotype	
-HLA-A33 serotype		subclass	HLA-A serotype	
-HLA-A34 serotype		subclass	HLA-A serotype	
-HLA-A66 serotype		subclass	HLA-A serotype	
-HLA-A68 serotype		subclass	HLA-A serotype	
-HLA-A69 serotype		subclass	HLA-A serotype	
-HLA-A74 serotype		subclass	HLA-A serotype	
-HLA-A80 serotype		subclass	HLA-A serotype	
-HLA-A serotype		subclass	human MHC class I serotype	
-HLA-B7 serotype		subclass	HLA-B serotype	
-HLA-B8 serotype		subclass	HLA-B serotype	
-HLA-B12 serotype		subclass	HLA-B serotype	
-HLA-B13 serotype		subclass	HLA-B serotype	
-HLA-B14 serotype		subclass	HLA-B serotype	
-HLA-B15 serotype		subclass	HLA-B serotype	
-HLA-B16 serotype		subclass	HLA-B serotype	
-HLA-B17 serotype		subclass	HLA-B serotype	
-HLA-B18 serotype		subclass	HLA-B serotype	
-HLA-B23 serotype		subclass	HLA-B serotype	
-HLA-B27 serotype		subclass	HLA-B serotype	
-HLA-B35 serotype		subclass	HLA-B serotype	
-HLA-B37 serotype		subclass	HLA-B serotype	
-HLA-B38 serotype		subclass	HLA-B serotype	
-HLA-B39 serotype		subclass	HLA-B serotype	
-HLA-B40 serotype		subclass	HLA-B serotype	
-HLA-B41 serotype		subclass	HLA-B serotype	
-HLA-B42 serotype		subclass	HLA-B serotype	
-HLA-B44 serotype		subclass	HLA-B serotype	
-HLA-B45 serotype		subclass	HLA-B serotype	
-HLA-B46 serotype		subclass	HLA-B serotype	
-HLA-B47 serotype		subclass	HLA-B serotype	
-HLA-B48 serotype		subclass	HLA-B serotype	
-HLA-B49 serotype		subclass	HLA-B serotype	
-HLA-B50 serotype		subclass	HLA-B serotype	
-HLA-B51 serotype		subclass	HLA-B serotype	
-HLA-B52 serotype		subclass	HLA-B serotype	
-HLA-B53 serotype		subclass	HLA-B serotype	
-HLA-B54 serotype		subclass	HLA-B serotype	
-HLA-B55 serotype		subclass	HLA-B serotype	
-HLA-B56 serotype		subclass	HLA-B serotype	
-HLA-B57 serotype		subclass	HLA-B serotype	
-HLA-B58 serotype		subclass	HLA-B serotype	
-HLA-B60 serotype		subclass	HLA-B serotype	
-HLA-B61 serotype		subclass	HLA-B serotype	
-HLA-B62 serotype		subclass	HLA-B serotype	
-HLA-B63 serotype		subclass	HLA-B serotype	
-HLA-B64 serotype		subclass	HLA-B serotype	
-HLA-B65 serotype		subclass	HLA-B serotype	
-HLA-B70 serotype		subclass	HLA-B serotype	
-HLA-B71 serotype		subclass	HLA-B serotype	
-HLA-B73 serotype		subclass	HLA-B serotype	
-HLA-B75 serotype		subclass	HLA-B serotype	
-HLA-B77 serotype		subclass	HLA-B serotype	
-HLA-B78 serotype		subclass	HLA-B serotype	
-HLA-B81 serotype		subclass	HLA-B serotype	
-HLA-B3901 serotype		subclass	HLA-B serotype	
-HLA-B5102 serotype		subclass	HLA-B serotype	
-HLA-B serotype		subclass	human MHC class I serotype	
-HLA-Bw4 serotype		subclass	HLA-B serotype	
-HLA-C serotype		subclass	human MHC class I serotype	
-HLA-Cw1 serotype		subclass	HLA-C serotype	
-HLA-Cw2 serotype		subclass	HLA-C serotype	
-HLA-Cw3 serotype		subclass	HLA-C serotype	
-HLA-Cw4 serotype		subclass	HLA-C serotype	
-HLA-Cw5 serotype		subclass	HLA-C serotype	
-HLA-Cw6 serotype		subclass	HLA-C serotype	
-HLA-Cw7 serotype		subclass	HLA-C serotype	
-HLA-Cw8 serotype		subclass	HLA-C serotype	
-HLA-Cw9 serotype		subclass	HLA-C serotype	
-HLA-Cw10 serotype		subclass	HLA-C serotype	
-HLA-Cw12 serotype		subclass	HLA-C serotype	
-HLA-Cw15 serotype		subclass	HLA-C serotype	
-HLA-Cw16 serotype		subclass	HLA-C serotype	
-HLA-Cw18 serotype		subclass	HLA-C serotype	
-HLA-DP1 serotype		subclass	HLA-DP serotype	
-HLA-DP4 serotype		subclass	HLA-DP serotype	
-HLA-DP5 serotype		subclass	HLA-DP serotype	
-HLA-DP9 serotype		subclass	HLA-DP serotype	
-HLA-DP serotype		subclass	human MHC class II serotype	
-HLA-DPw1 serotype		subclass	HLA-DP serotype	
-HLA-DPw2 serotype		subclass	HLA-DP serotype	
-HLA-DPw3 serotype		subclass	HLA-DP serotype	
-HLA-DPw4 serotype		subclass	HLA-DP serotype	
-HLA-DPw5 serotype		subclass	HLA-DP serotype	
-HLA-DPw6 serotype		subclass	HLA-DP serotype	
-HLA-DQ1 serotype		subclass	HLA-DQ serotype	
-HLA-DQ2 serotype		subclass	HLA-DQ serotype	
-HLA-DQ2.3 serotype		subclass	HLA-DQ serotype	
-HLA-DQ3 serotype		subclass	HLA-DQ serotype	
-HLA-DQ3.33 serotype		subclass	HLA-DQ serotype	
-HLA-DQ3t12 serotype		subclass	HLA-DQ serotype	
-HLA-DQ4 serotype		subclass	HLA-DQ serotype	
-HLA-DQ5 serotype		subclass	HLA-DQ serotype	
-HLA-DQ6 serotype		subclass	HLA-DQ serotype	
-HLA-DQ7 serotype		subclass	HLA-DQ serotype	
-HLA-DQ8 serotype		subclass	HLA-DQ serotype	
-HLA-DQ9 serotype		subclass	HLA-DQ serotype	
-HLA-DQ9.2 serotype		subclass	HLA-DQ serotype	
-HLA-DQ serotype		subclass	human MHC class II serotype	
-HLA-DR1 serotype		subclass	HLA-DR serotype	
-HLA-DR2 serotype		subclass	HLA-DR serotype	
-HLA-DR3 serotype		subclass	HLA-DR serotype	
-HLA-DR4 serotype		subclass	HLA-DR serotype	
-HLA-DR5 serotype		subclass	HLA-DR serotype	
-HLA-DR6 serotype		subclass	HLA-DR serotype	
-HLA-DR7 serotype		subclass	HLA-DR serotype	
-HLA-DR8 serotype		subclass	HLA-DR serotype	
-HLA-DR9 serotype		subclass	HLA-DR serotype	
-HLA-DR10 serotype		subclass	HLA-DR serotype	
-HLA-DR11 serotype		subclass	HLA-DR serotype	
-HLA-DR12 serotype		subclass	HLA-DR serotype	
-HLA-DR13 serotype		subclass	HLA-DR serotype	
-HLA-DR14 serotype		subclass	HLA-DR serotype	
-HLA-DR15 serotype		subclass	HLA-DR serotype	
-HLA-DR16 serotype		subclass	HLA-DR serotype	
-HLA-DR17 serotype		subclass	HLA-DR serotype	
-HLA-DR18 serotype		subclass	HLA-DR serotype	
-HLA-DR51 serotype		subclass	HLA-DR serotype	
-HLA-DR52 serotype		subclass	HLA-DR serotype	
-HLA-DR53 serotype		subclass	HLA-DR serotype	
-HLA-DR103 serotype		subclass	HLA-DR serotype	
-HLA-DR1404 serotype		subclass	HLA-DR serotype	
-HLA-DR serotype		subclass	human MHC class II serotype	
-HLA-F serotype		subclass	human MHC non-classical serotype	
-MHC class I serotype		subclass	MHC serotype	
-MHC class II serotype		subclass	MHC serotype	
-MHC non-classical serotype		subclass	MHC serotype	
-Mamu-DR1B serotype		subclass	rhesus macaque MHC class II serotype	
-Mamu-DR2 serotype		subclass	rhesus macaque MHC class II serotype	
-Mamu-DR3A serotype		subclass	rhesus macaque MHC class II serotype	
-Mamu-DR4 serotype		subclass	rhesus macaque MHC class II serotype	
-Mamu-DR6 serotype		subclass	rhesus macaque MHC class II serotype	
-Mamu-DR7A serotype		subclass	rhesus macaque MHC class II serotype	
-Mamu-DR8 serotype		subclass	rhesus macaque MHC class II serotype	
-Patr-DR1 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR2 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR3 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR4 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR5 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR7 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR8 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR9 serotype		subclass	chimpanzee MHC class II serotype	
-Patr-DR10 serotype		subclass	chimpanzee MHC class II serotype	
-Saoe-G*02 serotype		subclass	cotton-top tamarin MHC class I serotype	
-Saoe-G*04 serotype		subclass	cotton-top tamarin MHC class I serotype	
-Saoe-G*08 serotype		subclass	cotton-top tamarin MHC class I serotype	
-Saoe-G*12 serotype		subclass	cotton-top tamarin MHC class I serotype	
-cattle MHC class I serotype		equivalent	MHC class I serotype	cattle
-chimpanzee MHC class II serotype		equivalent	MHC class II serotype	chimpanzee
-cotton-top tamarin MHC class I serotype		equivalent	MHC class I serotype	cotton-top tamarin
-human MHC class I serotype		equivalent	MHC class I serotype	human
-human MHC class II serotype		equivalent	MHC class II serotype	human
-human MHC non-classical serotype		equivalent	MHC non-classical serotype	human
-rhesus macaque MHC class II serotype		equivalent	MHC class II serotype	rhesus macaque
+ID	Label	Type	Synonyms	Class Type	Parent	In Taxon
+ID	LABEL	TYPE	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'in taxon' some %
+MRO:0000181	BoLA-A10 serotype	owl:Class		subclass	cattle MHC class I serotype	
+MRO:0000182	BoLA-A11 serotype	owl:Class		subclass	cattle MHC class I serotype	
+MRO:0000183	BoLA-A14 serotype	owl:Class		subclass	cattle MHC class I serotype	
+MRO:0000184	BoLA-A18 serotype	owl:Class		subclass	cattle MHC class I serotype	
+MRO:0000185	BoLA-A31 serotype	owl:Class		subclass	cattle MHC class I serotype	
+MRO:0000186	HLA-A serotype	owl:Class		subclass	human MHC class I serotype	
+MRO:0000187	HLA-A1 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000188	HLA-A11 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000189	HLA-A2 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000191	HLA-A23 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000192	HLA-A24 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000194	HLA-A25 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000195	HLA-A26 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000196	HLA-A28 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000197	HLA-A29 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000198	HLA-A3 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000199	HLA-A30 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000200	HLA-A31 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000201	HLA-A32 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000202	HLA-A33 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000203	HLA-A34 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000204	HLA-A66 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000205	HLA-A68 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000206	HLA-A69 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000207	HLA-A74 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000208	HLA-A80 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0000209	HLA-B serotype	owl:Class		subclass	human MHC class I serotype	
+MRO:0000210	HLA-B12 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000211	HLA-B13 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000212	HLA-B14 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000213	HLA-B15 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000214	HLA-B16 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000215	HLA-B17 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000216	HLA-B18 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000217	HLA-B27 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000218	HLA-B35 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000219	HLA-B37 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000220	HLA-B38 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000221	HLA-B39 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000222	HLA-B3901 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000223	HLA-B40 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000224	HLA-B41 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000225	HLA-B42 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000226	HLA-B44 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000227	HLA-B45 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000228	HLA-B46 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000229	HLA-B47 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000230	HLA-B48 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000231	HLA-B49 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000232	HLA-B50 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000233	HLA-B51 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000234	HLA-B5102 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000235	HLA-B52 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000236	HLA-B53 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000237	HLA-B54 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000238	HLA-B55 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000239	HLA-B56 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000240	HLA-B57 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000241	HLA-B58 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000242	HLA-B60 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000243	HLA-B61 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000244	HLA-B62 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000245	HLA-B63 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000246	HLA-B65 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000247	HLA-B7 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000248	HLA-B70 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000249	HLA-B71 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000250	HLA-B73 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000251	HLA-B75 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000252	HLA-B77 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000253	HLA-B8 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000254	HLA-B81 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000255	HLA-Bw4 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0000256	HLA-C serotype	owl:Class		subclass	human MHC class I serotype	
+MRO:0000257	HLA-Cw1 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000258	HLA-Cw10 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000259	HLA-Cw12 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000260	HLA-Cw15 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000261	HLA-Cw16 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000262	HLA-Cw2 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000263	HLA-Cw3 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000264	HLA-Cw4 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000265	HLA-Cw5 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000266	HLA-Cw6 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000267	HLA-Cw7 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000268	HLA-Cw8 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000269	HLA-Cw9 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0000270	HLA-DP serotype	owl:Class		subclass	human MHC class II serotype	
+MRO:0000271	HLA-DP1 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000272	HLA-DP4 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000273	HLA-DP5 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000274	HLA-DP9 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000275	HLA-DPw1 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000276	HLA-DPw2 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000277	HLA-DPw3 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000278	HLA-DPw4 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000279	HLA-DPw5 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000280	HLA-DPw6 serotype	owl:Class		subclass	HLA-DP serotype	
+MRO:0000281	HLA-DQ serotype	owl:Class		subclass	human MHC class II serotype	
+MRO:0000282	HLA-DQ1 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000283	HLA-DQ2 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000284	HLA-DQ2.3 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000285	HLA-DQ3 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000286	HLA-DQ3.33 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000287	HLA-DQ3t12 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000288	HLA-DQ4 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000289	HLA-DQ5 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000290	HLA-DQ6 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000291	HLA-DQ7 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000292	HLA-DQ8 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000293	HLA-DQ9 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000294	HLA-DQ9.2 serotype	owl:Class		subclass	HLA-DQ serotype	
+MRO:0000295	HLA-DR serotype	owl:Class		subclass	human MHC class II serotype	
+MRO:0000296	HLA-DR1 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000297	HLA-DR10 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000298	HLA-DR103 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000299	HLA-DR11 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000300	HLA-DR12 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000301	HLA-DR13 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000302	HLA-DR14 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000303	HLA-DR1404 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000304	HLA-DR15 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000305	HLA-DR16 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000306	HLA-DR17 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000307	HLA-DR18 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000308	HLA-DR2 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000309	HLA-DR3 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000310	HLA-DR4 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000311	HLA-DR5 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000312	HLA-DR51 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000313	HLA-DR52 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000314	HLA-DR53 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000315	HLA-DR6 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000316	HLA-DR7 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000317	HLA-DR8 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000318	HLA-DR9 serotype	owl:Class		subclass	HLA-DR serotype	
+MRO:0000319	MHC class I serotype	owl:Class		subclass	MHC serotype	
+MRO:0000320	MHC class II serotype	owl:Class		subclass	MHC serotype	
+MRO:0000321	Mamu-DR1B serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000322	Mamu-DR2 serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000323	Mamu-DR3A serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000324	Mamu-DR4 serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000325	Mamu-DR6 serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000326	Mamu-DR7A serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000327	Mamu-DR8 serotype	owl:Class		subclass	rhesus macaque MHC class II serotype	
+MRO:0000328	Patr-DR1 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000329	Patr-DR10 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000330	Patr-DR2 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000331	Patr-DR3 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000332	Patr-DR4 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000333	Patr-DR5 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000334	Patr-DR7 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000335	Patr-DR8 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000336	Patr-DR9 serotype	owl:Class		subclass	chimpanzee MHC class II serotype	
+MRO:0000337	cattle MHC class I serotype	owl:Class		equivalent	MHC class I serotype	cattle
+MRO:0000338	chimpanzee MHC class II serotype	owl:Class		equivalent	MHC class II serotype	chimpanzee
+MRO:0000339	human MHC class I serotype	owl:Class		equivalent	MHC class I serotype	human
+MRO:0000340	human MHC class II serotype	owl:Class		equivalent	MHC class II serotype	human
+MRO:0000341	rhesus macaque MHC class II serotype	owl:Class		equivalent	MHC class II serotype	rhesus macaque
+MRO:0001746	cotton-top tamarin MHC class I serotype	owl:Class		equivalent	MHC class I serotype	cotton-top tamarin
+MRO:0001849	Saoe-G*02 serotype	owl:Class		subclass	cotton-top tamarin MHC class I serotype	
+MRO:0001850	Saoe-G*04 serotype	owl:Class		subclass	cotton-top tamarin MHC class I serotype	
+MRO:0001851	Saoe-G*08 serotype	owl:Class		subclass	cotton-top tamarin MHC class I serotype	
+MRO:0001852	Saoe-G*12 serotype	owl:Class		subclass	cotton-top tamarin MHC class I serotype	
+MRO:0001908	HLA-A18 serotype	owl:Class		subclass	HLA-A serotype	
+MRO:0001933	HLA-B64 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0001981	HLA-Cw18 serotype	owl:Class		subclass	HLA-C serotype	
+MRO:0002019	HLA-B78 serotype	owl:Class		subclass	HLA-B serotype	
+MRO:0002122	MHC non-classical serotype	owl:Class		subclass	MHC serotype	
+MRO:0002123	human MHC non-classical serotype	owl:Class		equivalent	MHC non-classical serotype	human
+MRO:0002124	HLA-F serotype	owl:Class		subclass	human MHC non-classical serotype	
+MRO:0002193	HLA-B23 serotype	owl:Class		subclass	HLA-B serotype	
