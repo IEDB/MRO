@@ -30,10 +30,10 @@ chain	Class Type		class_type			CLASS_TYPE
 chain	Parent		label	tree(Label)		C %
 chain	Gene	empty	label	from(genetic_locus.Label)		C 'gene product of' some %
 chain	Expression	empty	label	from(evidence.Label)		AI 'has expression evidence'
-chain	Resource Name		trimmed_line			A MRO:resource-name
-chain	Source		source			A MRO:source
-chain	Accession		nonspace			A MRO:accession
-chain	Sequence		sequence			A MRO:sequence
+chain	Resource Name	empty	trimmed_line			A MRO:resource-name
+chain	Source	empty	source			A MRO:source
+chain	Accession	empty	nonspace			A MRO:accession
+chain	Sequence	empty	sequence			A MRO:sequence
 core	ID		CURIE	primary		ID
 core	Label		label	unique		LABEL
 core	IEDB Label	empty	label			A OBI:9991118
@@ -87,6 +87,8 @@ haplotype_molecule	Class Type		class_type			CLASS_TYPE
 haplotype_molecule	Parent		label	from(molecule.Label)		C %
 haplotype_molecule	In Taxon		label	from(external.Label)		C 'in taxon' some %
 haplotype_molecule	With Haplotype		label	from(haplotype.Label)		C 'haplotype member of' some %
+import	ID		CURIE	primary		
+import	Label		label	unique		
 molecule	ID		CURIE	primary		ID
 molecule	Label		label	unique		LABEL
 molecule	IEDB Label	empty	label			A OBI:9991118

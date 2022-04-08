@@ -72,8 +72,8 @@ build/ldtab.jar: | build
 
 # Index containing ID, Label, and Type for all MRO terms
 build/index.tsv: $(source_files) | build
-	echo -e "ID\tLabel\tType\nID\tLABEL\tTYPE" >> $@
-	$(foreach f,$^,tail -n +3 $(f) | cut -f1,2,3 >> $@${\n})
+	echo -e "ID\tLabel\tType\tTemplate\nID\tLABEL\tTYPE\t" >> $@
+	$(foreach f,$^,tail -n +3 $(f) | cut -f1,2,3 | sed -e 's/$$/\t$(notdir $(basename $(f)))/' >> $@${\n})
 
 # Replace labels for any term with single quotes used in a C ROBOT template string
 build/%-fixed.tsv: src/scripts/replace_labels.py build/index.tsv ontology/%.tsv
@@ -137,22 +137,19 @@ build/hla.fasta: | build
 build/mhc.fasta: | build
 	curl -L -o $@ ftp://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta
 
-# TODO: change this to update chain.tsv
 # update-seqs will only write seqs to terms without seqs
 .PHONY: update-seqs
-update-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+update-seqs: src/scripts/update_seqs.py ontology/chain.tsv build/hla.fasta build/mhc.fasta
 	python3 $^
 
-# TODO: change this to update chain.tsv
 # refresh-seqs will overwrite existing seqs with new seqs
 .PHONY: refresh-seqs
-refresh-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta build/mhc.fasta
+refresh-seqs: src/scripts/update_seqs.py ontology/chain.tsv build/hla.fasta build/mhc.fasta
 	python3 $^ -o
 
-# TODO: change this to update chain.tsv
 # refresh-hla-seqs will overwrite existing HLA seqs with new seqs
 .PHONY: refresh-hla-seqs
-refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta
+refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain.tsv build/hla.fasta
 	python3 $^ -o -H
 
 build/hla_prot.fasta: | build
@@ -184,12 +181,11 @@ mro.owl: build/mro-import.owl build/index.tsv $(build_files) ontology/metadata.t
 	--annotation-file ontology/metadata.ttl \
 	--output $@
 
-build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl ontology/import.txt | build/robot.jar
+build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl | build/robot.jar
 	$(ROBOT) merge \
-	--input build/eco-import.ttl \
-	--input build/obi-import.ttl \
-	--input build/ro-import.ttl \
-	--input build/iao-import.ttl \
+	$(foreach i,$^, --input $(i)) \
+	annotate \
+	--ontology-iri "$(OBO)/mro/$@" \
 	extract \
 	--method MIREOT \
 	--upper-term "GO:0008150" \
@@ -197,8 +193,11 @@ build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import
 	--upper-term "OBI:1110128" \
 	--upper-term "ECO:0000000" \
 	--upper-term "BFO:0000040" \
-	--upper-term "PR:000000001" \
-	--lower-terms $(word 5,$^) \
+	--lower-terms build/import.txt \
+	remove \
+	--term "CHEBI:23367" \
+	--select "self descendants" \
+	--exclude-term "PR:000000001" \
 	--output $@
 
 # fetch ontology dependencies
@@ -208,15 +207,20 @@ $(LIB)/%:
 
 UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
 
-# OBI IAO:0000115 has mulitples so get the definiton from here
-build/%.txt: ontology/import.txt | build
-	sed -n '/$(call UC,$(notdir $(basename $@)))/p' $< > $@
+build/import.txt: ontology/import.tsv | build
+	tail -n +2 $< | cut -f1 > $@
 
-# RO:0000056 isn't in RO?
-build/obi.txt: ontology/import.txt | build
+# Get all the OBI & GO terms plus RO:0000056, which is not in RO
+build/obi.txt: build/import.txt
 	sed '/^ECO/d' $< | sed '/^RO/d' | sed '/^IAO/d' > $@
 	echo "RO:0000056" >> $@
 
+# For each import, get just the terms in that namespace (OBI is a special case)
+build/%.txt: build/import.txt
+	sed -n '/$(call UC,$(notdir $(basename $@)))/p' $< > $@
+
+# Create a RDFTab database for each import
+# TODO: replace with LDTab
 build/%.db: src/prefix.tsv $(LIB)/%.owl | build/rdftab
 	rm -rf $@
 	sqlite3 -cmd ".mode tabs" $@ ".import $< prefix"
@@ -224,6 +228,8 @@ build/%.db: src/prefix.tsv $(LIB)/%.owl | build/rdftab
 
 PREDICATES := IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000119 IAO:0000412 OBI:9991118 rdfs:label
 
+# Extract with import module
+# TODO: replace with gadget.extract
 build/%-import.ttl: build/%.db build/%.txt
 	python3 -m gizmos.extract -d $< -T $(word 2,$^) $(foreach P,$(PREDICATES), -p $(P)) > $@
 
@@ -411,7 +417,7 @@ release: mro.owl iedb.zip build/release-notes.txt
 
 ### MRO Prototype
 
-sql_tables = iedb iedb-manual $(tables) rejected
+sql_tables = iedb iedb-manual $(tables) import rejected
 sql_inputs = $(foreach t,$(sql_tables),build/tables/$(t).tsv)
 
 # The tables for the SQL database do not include ROBOT template strings
@@ -419,6 +425,9 @@ sql_inputs = $(foreach t,$(sql_tables),build/tables/$(t).tsv)
 copy_tables: $(sql_inputs)
 
 build/tables/rejected.tsv: ontology/rejected.tsv | build/tables
+	cp $< $@
+
+build/tables/import.tsv: ontology/import.tsv | build/tables
 	cp $< $@
 
 build/tables/%.tsv: ontology/%.tsv | build/tables

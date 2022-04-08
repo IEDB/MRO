@@ -10,6 +10,7 @@ external	build/tables/external.tsv
 genetic_locus	build/tables/genetic-locus.tsv		
 haplotype	build/tables/haplotype.tsv		
 haplotype_molecule	build/tables/haplotype-molecule.tsv		
+import	build/tables/import.tsv		
 molecule	build/tables/molecule.tsv		
 mutant_molecule	build/tables/mutant-molecule.tsv		
 rejected	build/tables/rejected.tsv		
