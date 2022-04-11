@@ -25,7 +25,6 @@ def main():
     # Get the current order of the headers
     with open(template, "r") as f:
         headers = f.readline().strip().split("\t")
-    print(headers)
 
     with sqlite3.connect(args.db) as conn:
         conn.row_factory = dict_factory
@@ -36,10 +35,12 @@ def main():
             'SELECT column, template FROM "column" WHERE "table" = ?',
             (args.name.replace("-", "_"),)
         ).fetchall()
-        robot_templates = {res["column"]: res["template"] for res in results}
+        robot_templates = {res["column"]: res["template"] for res in results if res["template"]}
 
         # Get the rows of the template, using the meta columns for invalid values
-        rows = [robot_templates]
+        rows = []
+        if robot_templates:
+            rows.append(robot_templates)
         results = cur.execute(f'SELECT * FROM "{args.name.replace("-", "_")}_view"').fetchall()
         for res in results:
             row = {}
