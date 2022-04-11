@@ -6,10 +6,13 @@
 
 ### Workflow
 #
-# 1. [Create database](load_mro)
-# 2. [View prototype](./src/scripts/run.py)
-# 3. [Update templates](refresh_templates)
-# 4. [Rebuild MRO](all)
+# 1. [View prototype](./src/scripts/run.py)
+# 2. [Update templates](refresh_templates)
+# 3. [Rebuild MRO](all)
+# 4. [Reload MRO to database](load_mro)
+#
+# Danger zone:
+# * [Refresh database](refresh_db) (WARNING: this takes a long time!)
 #
 
 ### Configuration
@@ -446,9 +449,15 @@ build/mro-tables.db: src/scripts/load.py src/table.tsv src/column.tsv src/dataty
 
 # Then add MRO using LDTab
 .PHONY: load_mro
-load_mro: build/mro-tables.db mro.owl | build/ldtab.jar
+load_mro: mro.owl | build/mro-tables.db build/ldtab.jar
 	sqlite3 $< "CREATE TABLE mro (assertion INT NOT NULL, retraction INT NOT NULL DEFAULT 0, graph TEXT NOT NULL, subject TEXT NOT NULL, predicate TEXT NOT NULL, object TEXT NOT NULL, datatype TEXT NOT NULL, annotation TEXT);"
-	$(LDTAB) import --table mro $^
+	$(LDTAB) import --table mro build/mro-tables.db $<
+
+# Delete existing database and reload (WARNING: this takes a long time!)
+.PHONY: refresh_db
+refresh_db:
+	rm -rf build/mro-tables.db
+	make load_mro
 
 # Replace existing templates with data from database
 .PHONY: refresh_templates
