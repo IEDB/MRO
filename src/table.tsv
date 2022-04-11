@@ -13,8 +13,10 @@ haplotype_molecule	build/tables/haplotype-molecule.tsv
 import	build/tables/import.tsv		
 molecule	build/tables/molecule.tsv		
 mutant_molecule	build/tables/mutant-molecule.tsv		
+obsolete	build/tables/obsolete.tsv		
 rejected	build/tables/rejected.tsv		
 serotype	build/tables/serotype.tsv		
 serotype_molecule	build/tables/serotype-molecule.tsv		
 iedb	build/tables/iedb.tsv		
 iedb_manual	build/tables/iedb-manual.tsv		
+index	build/index.tsv		

@@ -1,33 +1,33 @@
-ID	Label
-BFO:0000040	material entity
-BFO:0000051	has part
-ECO:0000001	evidence
-ECO:0000006	experimental evidence
-ECO:0000033	traceable author statement
-GO:0008150	biological process
-GO:0032991	protein-containing complex
-IAO:0000030	information content entity
-IAO:0000111	editor preferred term
-IAO:0000112	example of usage
-IAO:0000115	definition
-IAO:0000119	definition source
-IAO:0000136	is about
-IAO:0000412	imported from
-OBI:0000124	is supported by data
-OBI:0000293	has specified input
-OBI:0000295	is specified input of
-OBI:0000299	has specified output
-OBI:0000312	is specified output of
-OBI:0100026	organism
-OBI:1110001	epitope
-OBI:1110037	assay measuring binding of a T cell epitope:MHC:TCR complex
-OBI:1110057	MHC:epitope complex binding to TCR
-OBI:1110060	process is result of
-OBI:1110119	bound to
-OBI:1110128	immune epitope assay
-OBI:9991118	IEDB alternative term
-PR:000000001	protein
-RO:0000056	participates in
-RO:0000057	has participant
-RO:0002162	in taxon
-RO:0002204	gene product of
+ID	Label	Type
+BFO:0000040	material entity	owl:Class
+BFO:0000051	has part	owl:ObjectProperty
+ECO:0000001	evidence	owl:Class
+ECO:0000006	experimental evidence	owl:Class
+ECO:0000033	traceable author statement	owl:Class
+GO:0008150	biological process	owl:Class
+GO:0032991	protein-containing complex	owl:Class
+IAO:0000030	information content entity	owl:Class
+IAO:0000111	editor preferred term	owl:AnnotationProperty
+IAO:0000112	example of usage	owl:AnnotationProperty
+IAO:0000115	definition	owl:AnnotationProperty
+IAO:0000119	definition source	owl:AnnotationProperty
+IAO:0000136	is about	owl:ObjectProperty
+IAO:0000412	imported from	owl:AnnotationProperty
+OBI:0000124	is_supported_by_data	owl:AnnotationProperty
+OBI:0000293	has_specified_input	owl:ObjectProperty
+OBI:0000295	is_specified_input_of	owl:ObjectProperty
+OBI:0000299	has_specified_output	owl:ObjectProperty
+OBI:0000312	is_specified_output_of	owl:ObjectProperty
+OBI:0100026	organism	owl:Class
+OBI:1110001	epitope	owl:Class
+OBI:1110037	assay measuring binding of a T cell epitope:MHC:TCR complex	owl:Class
+OBI:1110057	MHC:epitope complex binding to TCR	owl:Class
+OBI:1110060	process is result of	owl:ObjectProperty
+OBI:1110119	bound to	owl:ObjectProperty
+OBI:1110128	immune epitope assay	owl:Class
+OBI:9991118	IEDB alternative term	owl:AnnotationProperty
+PR:000000001	protein	owl:Class
+RO:0000056	participates in	owl:ObjectProperty
+RO:0000057	has participant	owl:ObjectProperty
+RO:0002162	in taxon	owl:ObjectProperty
+RO:0002204	gene product of	owl:ObjectProperty

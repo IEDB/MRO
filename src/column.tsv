@@ -14,8 +14,8 @@ datatype	parent	empty	datatype_name	tree(datatype)	the parent datatype
 datatype	condition	empty	datatype_condition			
 prefix	prefix		prefix	primary		
 prefix	base		IRI	unique		
-prefix	ontology IRI	empty	IRI			
-prefix	version IRI	empty	IRI			
+prefix	ontology IRI	empty	IRI		The ontology IRI for the ontology that is used as a source of external and/or import terms for MRO	
+prefix	version IRI	empty	IRI		The version IRI of the ontology to use for external and/or import terms for MRO	
 iedb	Label		label	unique	The label for this term	LABEL
 iedb	IEDB ID		positive_integer	primary	A unique integer ID for this term	A MRO:has-iedb-mhc-id
 iedb	Locus		word			A MRO:has-mhc-locus
@@ -25,6 +25,7 @@ iedb_manual	Label		label	primary		LABEL
 iedb_manual	Sort Order		positive_integer			A iedb:has-sort-name
 chain	ID		CURIE	primary		ID
 chain	Label		label	unique		LABEL
+chain	Type		owl_type			TYPE
 chain	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 chain	Class Type		class_type			CLASS_TYPE
 chain	Parent		label	tree(Label)		C %
@@ -36,6 +37,7 @@ chain	Accession	empty	nonspace			A MRO:accession
 chain	Sequence	empty	sequence			A MRO:sequence
 core	ID		CURIE	primary		ID
 core	Label		label	unique		LABEL
+core	Type		owl_type			TYPE
 core	IEDB Label	empty	label			A OBI:9991118
 core	Class Type		class_type			CLASS_TYPE
 core	Parent	empty	label	from(external.Label)		C %
@@ -45,6 +47,7 @@ core	Definition Source	empty	trimmed_line			A IAO:0000119
 core	Example of Usage	empty	trimmed_text			A IAO:0000112
 evidence	ID		CURIE	primary		ID
 evidence	Label		label	unique		LABEL
+evidence	Type		owl_type			TYPE
 evidence	IEDB Label	empty	label			A OBI:9991118
 evidence	Class Type		class_type			CLASS_TYPE
 evidence	Conclusion		label	tree(Label)		C %
@@ -56,6 +59,7 @@ evidence	Example of Usage	empty	trimmed_text			A IAO:0000112
 evidence	Comment	empty	trimmed_text			A rdfs:comment
 external	ID		CURIE	primary		ID
 external	Label		label	unique		A rdfs:label
+external	Type		owl_type			TYPE
 external	Editor Preferred Term		label			A IAO:0000111
 external	IEDB Label	empty	label			A OBI:9991118
 external	Class Type		class_type			CLASS_TYPE
@@ -68,18 +72,21 @@ external	Source Ontology	empty	IRI	from(prefix."ontology IRI")		AI IAO:0000412
 external	Species Code	empty	word			
 genetic_locus	ID		CURIE	primary		ID
 genetic_locus	Label		label	unique		LABEL
+genetic_locus	Type		owl_type			TYPE
 genetic_locus	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 genetic_locus	Class Type		class_type			CLASS_TYPE
 genetic_locus	Parent		label	tree(Label)		C %
 genetic_locus	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
 haplotype	ID		CURIE	primary		ID
 haplotype	Label		label	unique		LABEL
+haplotype	Type		owl_type			TYPE
 haplotype	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 haplotype	Class Type		class_type			CLASS_TYPE
 haplotype	Parent		label	tree(Label)		C %
 haplotype	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
 haplotype_molecule	ID		CURIE	primary		ID
 haplotype_molecule	Label		label	unique		LABEL
+haplotype_molecule	Type		owl_type			TYPE
 haplotype_molecule	IEDB Label	empty	label			A OBI:9991118
 haplotype_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 haplotype_molecule	Restriction Level		restriction_level			A has MHC restriction level
@@ -87,10 +94,12 @@ haplotype_molecule	Class Type		class_type			CLASS_TYPE
 haplotype_molecule	Parent		label	from(molecule.Label)		C %
 haplotype_molecule	In Taxon		label	from(external.Label)		C 'in taxon' some %
 haplotype_molecule	With Haplotype		label	from(haplotype.Label)		C 'haplotype member of' some %
-import	ID		CURIE	primary		
-import	Label		label	unique		
+import	ID		CURIE	primary	CURIE of term to import	
+import	Label		label	unique	Label of imported term (changing this value will not update the label in MRO)	
+import	Type		owl_type		OWL entity type of imported term (changing this value will not update the term in MRO)	
 molecule	ID		CURIE	primary		ID
 molecule	Label		label	unique		LABEL
+molecule	Type		owl_type			TYPE
 molecule	IEDB Label	empty	label			A OBI:9991118
 molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 molecule	Restriction Level		restriction_level			A has MHC restriction level
@@ -103,6 +112,7 @@ molecule	With Haplotype	empty	label	from(haplotype.Label)		C 'haplotype member o
 molecule	With Serotype	empty	label	from(serotype.Label)		C 'serotype member of' some %
 mutant_molecule	ID		CURIE	primary		ID
 mutant_molecule	Label		label	unique		LABEL
+mutant_molecule	Type		owl_type			TYPE
 mutant_molecule	IEDB Label	empty	label			A OBI:9991118
 mutant_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 mutant_molecule	Restriction Level		restriction_level			A has MHC restriction level
@@ -112,16 +122,22 @@ mutant_molecule	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
 mutant_molecule	Mutant Of	empty	label	from(molecule.Label)		C 'is synthetic protein mutant of' some %
 mutant_molecule	Chain I Mutation	empty	trimmed_line			A has chain I mutation
 mutant_molecule	Chain II Mutation	empty	trimmed_line			A has chain II mutation
+obsolete	ID		CURIE	primary		ID
+obsolete	Label		label	unique		LABEL
+obsolete	Type		owl_type			TYPE
+obsolete	Deprecated		boolean			AT owl:deprecated^^xsd:boolean
 rejected	Term		label	primary		
 rejected	Reason	empty	trimmed_line			
 serotype	ID		CURIE	primary		ID
 serotype	Label		label	unique		LABEL
+serotype	Type		owl_type			TYPE
 serotype	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 serotype	Class Type		class_type			CLASS_TYPE
 serotype	Parent		label	tree(Label)		C %
 serotype	In Taxon	empty	label	from(external.Label)		C 'in taxon' some %
 serotype_molecule	ID		CURIE	primary		ID
 serotype_molecule	Label		label	unique		LABEL
+serotype_molecule	Type		owl_type			TYPE
 serotype_molecule	IEDB Label	empty	label			A OBI:9991118
 serotype_molecule	Synonyms	empty	trimmed_line			A IAO:0000118 SPLIT=|
 serotype_molecule	Restriction Level		restriction_level			A has MHC restriction level

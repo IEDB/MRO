@@ -70,10 +70,11 @@ build/ldtab.jar: | build
 
 ### Ontology Source Tables
 
-# Index containing ID, Label, and Type for all MRO terms
+# Index containing ID, Label, and Type for all MRO terms & imports
 build/index.tsv: $(source_files) | build
-	echo -e "ID\tLabel\tType\tTemplate\nID\tLABEL\tTYPE\t" >> $@
-	$(foreach f,$^,tail -n +3 $(f) | cut -f1,2,3 | sed -e 's/$$/\t$(notdir $(basename $(f)))/' >> $@${\n})
+	echo -e "ID\tLabel\tType\ttable\nID\tLABEL\tTYPE\t" >> $@
+	$(foreach f,$(source_files),tail -n +3 $(f) | cut -f1,2,3 | sed -e 's/$$/\t$(notdir $(basename $(f)))/' >> $@${\n})
+	tail -n +2 ontology/import.tsv | sed -e 's/$$/\timport/' >> $@
 
 # Replace labels for any term with single quotes used in a C ROBOT template string
 build/%-fixed.tsv: src/scripts/replace_labels.py build/index.tsv ontology/%.tsv
