@@ -1,5 +1,4 @@
 import csv
-import logging
 
 from argparse import ArgumentParser, FileType
 
@@ -32,8 +31,6 @@ def main():
             if chain_i:
                 chain_i_id = chain_i["ID"]
                 chain_i_acc = chain_i["Accession"]
-            else:
-                logging.error("Unknown alpha chain: " + chain_i_label)
         chain_ii_label = row["Beta Chain"]
         chain_ii_acc = None
         chain_ii_id = None
@@ -42,8 +39,6 @@ def main():
             if chain_ii:
                 chain_ii_id = chain_ii["ID"]
                 chain_ii_acc = chain_ii["Accession"]
-            else:
-                logging.error("Unknown beta chain: " + chain_ii_label)
         molecules[row["Label"]] = {
             "chain_i_acc": chain_i_acc,
             "chain_i_id": chain_i_id,
