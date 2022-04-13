@@ -9,9 +9,11 @@ if __name__ == '__main__':
     run(
         "build/mro-tables.db",
         "src/table.tsv",
+        default_params={"view": "tree"},
+        default_table="mro",
         cgi_path="/MRO/branches/demo-site/views/src/scripts/run.py",
         log_file="mro.log",
-      	hide_index=True,
+        hide_index=True,
         max_children=100,
         term_index="index",
         title="MRO",
