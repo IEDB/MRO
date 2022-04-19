@@ -20,11 +20,11 @@ trimmed_text	text		exclude(/^\s+|\s+$/)		text that does not begin or end with wh
 word	nonspace		exclude(/\W/)		a single word: letters, numbers, underscore			
 nonnegative_integer	nonspace		match(/\d+/)		a non-negative integer	INTEGER		number
 positive_integer	nonspace		match(/\d+/)		a positive integer	INTEGER		number
-html_type	word		in('text', 'textarea', 'search', 'radio', 'number', 'select')		an HTML form type			select
-restriction_level	trimmed_line		in('haplotype', 'serotype', 'locus', 'class', 'complete molecule', 'partial molecule')		the MRO restriction level: class, complete molecule, haplotype, locus, partial molecule, serotype			select
-boolean	word	lowercase	in('true', 'false')		a boolean: true or false		xsd:boolean	select
-owl_type	word		in('owl:AnnotationProperty', 'owl:Class', 'owl:ObjectProperty')		an OWL entity type: owl:AnnotationProperty, owl:Class, or owl:ObjectProperty			radio
-class_type	word		in('equivalent', 'subclass')		an OWL class type: equivalent or subclass			radio
-source	nonspace		in('IPD', 'GenBank', 'UniProt', 'IMGT/HLA', 'PDB')		a sequence source: IPD, GenBank, or UniProt			select
+html_type	word		in('text', 'textarea', 'search', 'radio', 'number', 'select')		an HTML form type			search
+restriction_level	trimmed_line		in('haplotype', 'serotype', 'locus', 'class', 'complete molecule', 'partial molecule')		the MRO restriction level: class, complete molecule, haplotype, locus, partial molecule, serotype			search
+boolean	word	lowercase	in('true', 'false')		a boolean: true or false		xsd:boolean	search
+owl_type	word		in('owl:AnnotationProperty', 'owl:Class', 'owl:ObjectProperty')		an OWL entity type: owl:AnnotationProperty, owl:Class, or owl:ObjectProperty			search
+class_type	word		in('equivalent', 'subclass')		an OWL class type: equivalent or subclass			search
+source	nonspace		in('IPD', 'GenBank', 'UniProt', 'IMGT/HLA', 'PDB')		a sequence source: IPD, GenBank, or UniProt			search
 sequence	word		match(/^[A|R|N|D|C|Q|E|G|H|I|L|K|M|F|P|S|T|W|Y|V|X|?]+$/)		a protein sequence using the following characters: A, R, N, D, C, Q, E, G, H, I, L, K, M, F, P, S, T, W, Y, V, X, ?			readonly
-beta_2	label		in('Beta-2-microglobulin')		Beta-2-microglobulin			select
+beta_2	label		in('Beta-2-microglobulin')		Beta-2-microglobulin			search

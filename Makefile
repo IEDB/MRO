@@ -449,7 +449,7 @@ build/mro-tables.db: src/scripts/load.py src/table.tsv src/column.tsv src/dataty
 
 # Then add MRO using LDTab
 .PHONY: load_mro
-load_mro: mro.owl src/queries/search_view.sql | build/mro-tables.db build/ldtab.jar
+load_mro: mro.owl src/queries/search_view.sql | build/ldtab.jar
 	sqlite3 build/mro-tables.db "DROP TABLE IF EXISTS mro;"
 	sqlite3 build/mro-tables.db "CREATE TABLE mro (assertion INT NOT NULL, retraction INT NOT NULL DEFAULT 0, graph TEXT NOT NULL, subject TEXT NOT NULL, predicate TEXT NOT NULL, object TEXT NOT NULL, datatype TEXT NOT NULL, annotation TEXT);"
 	$(LDTAB) import --table mro build/mro-tables.db $<
