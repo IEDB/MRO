@@ -1,5 +1,6 @@
 datatype	parent	transform	condition	structure	description	SQL type	RDF type	HTML type
 CURIE	nonspace		match(/\S+:\S+/)	concat(prefix, ":", suffix)	a Compact URI		CURIE	
+ontology_id	CURIE				an ontology ID in CURIE format			
 IRI	nonspace		exclude(/\s/)		an Internationalized Resource Identifier		IRI	
 column_name	trimmed_line		match(/\S([^\n]*\S)*/)		a column name			
 datatype_condition	line		exclude(/\n/)		a datatype condition specification			
@@ -7,13 +8,14 @@ datatype_name	word		exclude(/\W/)		a datatype name
 description	trimmed_text		match(/\S(.*\S)*/)		a brief description			textarea
 empty	text		equals('')		the empty string	NULL	null	
 label	trimmed_line		match(/\S([^\n]*\S)*/)					
+ontology_label	label				a label of an ontology term			
 line	text		exclude(/\n/)		a line of text			text
 nonspace	trimmed_line		exclude(/\s/)		text without whitespace			
 path	line		exclude(/\n/)		a path to a file			
 prefix	word		exclude(/\W/)		a prefix for a CURIE			
 suffix	word		exclude(/\W/)		a suffix for a CURIE			
 table_name	word		exclude(/\W/)		a table name			
-table_type	word	lowercase	in('table', 'column', 'datatype', 'template')		a table type			
+table_type	word	lowercase	in('table', 'column', 'datatype', 'template')		a table type			search
 text					any text	TEXT	xsd:string	textarea
 trimmed_line	line		match(/\S([^\n]*\S)*/)		a line of text that does not begin or end with whitespace			
 trimmed_text	text		exclude(/^\s+|\s+$/)		text that does not begin or end with whitespace			
@@ -24,7 +26,7 @@ html_type	word		in('text', 'textarea', 'search', 'radio', 'number', 'select')		a
 restriction_level	trimmed_line		in('haplotype', 'serotype', 'locus', 'class', 'complete molecule', 'partial molecule')		the MRO restriction level: class, complete molecule, haplotype, locus, partial molecule, serotype			search
 boolean	word	lowercase	in('true', 'false')		a boolean: true or false		xsd:boolean	search
 owl_type	word		in('owl:AnnotationProperty', 'owl:Class', 'owl:ObjectProperty')		an OWL entity type: owl:AnnotationProperty, owl:Class, or owl:ObjectProperty			search
-class_type	word		in('equivalent', 'subclass')		an OWL class type: equivalent or subclass			search
+class_type	word		in('equivalent', 'subclass')		an OWL class type: equivalent or subclass			radio
 source	nonspace		in('IPD', 'GenBank', 'UniProt', 'IMGT/HLA', 'PDB')		a sequence source: IPD, GenBank, or UniProt			search
 sequence	word		match(/^[A|R|N|D|C|Q|E|G|H|I|L|K|M|F|P|S|T|W|Y|V|X|?]+$/)		a protein sequence using the following characters: A, R, N, D, C, Q, E, G, H, I, L, K, M, F, P, S, T, W, Y, V, X, ?			readonly
 beta_2	label		in('Beta-2-microglobulin')		Beta-2-microglobulin			search

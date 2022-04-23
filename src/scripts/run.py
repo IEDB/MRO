@@ -9,6 +9,7 @@ if __name__ == '__main__':
     run(
         "build/mro-tables.db",
         "src/table.tsv",
+        base_ontology="mro",
         default_params={"view": "tree"},
         default_table="mro",
         cgi_path="/MRO/branches/demo-site/views/src/scripts/run.py",
