@@ -49,7 +49,7 @@ SHELL := bash
 
 OBO = http://purl.obolibrary.org/obo
 LIB = lib
-ROBOT := java -jar build/robot.jar
+ROBOT := java -jar build/robot.jar --prefix "REO: $(OBO)/REO_"
 TODAY := $(shell date +%Y-%m-%d)
 
 tables = external core genetic-locus haplotype serotype chain molecule haplotype-molecule serotype-molecule mutant-molecule evidence chain-sequence
@@ -226,8 +226,6 @@ update-mhcflurry-alleles: src/scripts/alleles/update_alleles_mhcflurry.py ontolo
 mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | build/robot.jar
 	$(ROBOT) template \
 	--input $< \
-	--prefix "MRO: $(OBO)/MRO_" \
-	--prefix "REO: $(OBO)/REO_" \
 	--template index.tsv \
 	$(templates) \
 	--merge-before \
@@ -239,6 +237,18 @@ mro.owl: build/mro-import.owl index.tsv $(build_files) ontology/metadata.ttl | b
 	--version-iri "$(OBO)/mro/$(TODAY)/mro.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--annotation-file ontology/metadata.ttl \
+	--output $@
+
+mro-base.owl: mro.owl index.tsv $(build_files) ontology/metadata-base.ttl | build/robot.jar
+	$(ROBOT) template \
+	--input $< \
+	--template index.tsv \
+	$(foreach i,$(filter-out build/external.tsv,$(build_files)),--template $(i)) \
+	annotate \
+	--ontology-iri "$(OBO)/mro/mro-base.owl" \
+	--version-iri "$(OBO)/mro/$(shell date +%Y-%m-%d)/mro-base.owl" \
+	--annotation owl:versionInfo "$(shell date +%Y-%m-%d)" \
+	--annotation-file ontology/metadata-base.ttl \
 	--output $@
 
 build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import.ttl build/ro-import.ttl ontology/import.txt | build/robot.jar
@@ -305,7 +315,6 @@ build/iedb.tsv: src/scripts/add_chain_accessions.py index.tsv iedb/iedb.tsv onto
 # extended version for IEDB use
 build/mro-iedb.owl: mro.owl build/iedb.tsv iedb/iedb-manual.tsv | build/robot.jar iedb
 	$(ROBOT) template \
-	--prefix "MRO: $(OBO)/MRO_" \
 	--input $< \
 	--template $(word 2,$^) \
 	--template $(word 3,$^) \
@@ -370,15 +379,9 @@ update-iedb: $(IEDB_TARGETS)
 
 VERIFY_QUERIES = $(wildcard src/queries/verify/*.rq)
 
-build/mro-base.owl: mro.owl | build/robot.jar
-	$(ROBOT) remove --input $< \
-	--base-iri $(OBO)/MRO_ \
-	--axioms external \
-	--output $@
-
 # Run a series of standard OBO checks
 .PRECIOUS: build/report.csv
-build/report.csv: build/mro-base.owl | build/robot.jar
+build/report.csv: mro-base.owl | build/robot.jar
 	$(ROBOT) report --input $< --print 10 --output $@
 
 # Run a series of MRO-specific queries as checks
@@ -447,6 +450,7 @@ prepare: build/diff.html
 .PHONY: clean
 clean:
 	rm -rf mro.owl
+	rm -rf mro-base.owl
 	rm -rf build
 	rm -f iedb.zip
 	rm -f mro.owl.gz
@@ -473,7 +477,7 @@ build/release-notes.txt: | build
 # GITHUB_TOKEN env variable must be set to a PAT with "repo" permissions
 # https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token
 .PHONY: release
-release: mro.owl iedb.zip build/release-notes.txt
+release: mro.owl mro-base.owl iedb.zip build/release-notes.txt
 	gh release create v$(TODAY) mro.owl iedb.zip \
 	-t "$(TODAY) Release" \
 	-F build/release-notes.txt
