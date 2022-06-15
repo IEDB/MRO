@@ -6820,7 +6820,7 @@ MRO:0006816	HLA-DRB1*08:52 chain	owl:Class
 MRO:0006817	HLA-A*02:617 chain	owl:Class	
 MRO:0006818	HLA-C*07:418 chain	owl:Class	
 MRO:0006819	HLA-DPB1*393:01 chain	owl:Class	
-MRO:0006820	HLA-C*03:284 chain	owl:Class	
+MRO:0006820	HLA-C*03:284N chain	owl:Class	
 MRO:0006821	HLA-B*58:91 chain	owl:Class	
 MRO:0006822	HLA-DQB1*05:205 chain	owl:Class	
 MRO:0006823	HLA-C*12:94 chain	owl:Class	
@@ -10424,7 +10424,7 @@ MRO:0010420	HLA-C*01:84 chain	owl:Class
 MRO:0010421	HLA-B*46:10 chain	owl:Class	
 MRO:0010422	HLA-C*03:267 chain	owl:Class	
 MRO:0010423	HLA-C*07:440 chain	owl:Class	
-MRO:0010424	HLA-C*04:61 chain	owl:Class	
+MRO:0010424	HLA-C*04:61N chain	owl:Class	
 MRO:0010425	HLA-A*11:63 chain	owl:Class	
 MRO:0010426	HLA-DQB1*04:77 chain	owl:Class	
 MRO:0010427	HLA-C*17:23 chain	owl:Class	
@@ -15954,7 +15954,7 @@ MRO:0015950	HLA-B*51:207 chain	owl:Class
 MRO:0015951	HLA-B*46:45 chain	owl:Class	
 MRO:0015952	HLA-C*07:68 chain	owl:Class	
 MRO:0015953	HLA-A*25:10 chain	owl:Class	
-MRO:0015954	HLA-B*35:460 chain	owl:Class	
+MRO:0015954	HLA-B*35:460Q chain	owl:Class	
 MRO:0015955	HLA-C*06:84 chain	owl:Class	
 MRO:0015956	HLA-B*35:383 chain	owl:Class	
 MRO:0015957	HLA-A*24:260 chain	owl:Class	
@@ -24836,7 +24836,7 @@ MRO:0024832	HLA-C*16:83 protein complex	owl:Class
 MRO:0024833	HLA-B*58:08 protein complex	owl:Class	
 MRO:0024834	HLA-DQB1*05:15 protein complex	owl:Class	
 MRO:0024835	HLA-DPB1*57:01 protein complex	owl:Class	
-MRO:0024836	HLA-C*03:284 protein complex	owl:Class	
+MRO:0024836	HLA-C*03:284N protein complex	owl:Class	
 MRO:0024837	HLA-C*07:137 protein complex	owl:Class	
 MRO:0024838	HLA-A*03:369 protein complex	owl:Class	
 MRO:0024839	HLA-DQB1*05:189 protein complex	owl:Class	
@@ -29350,7 +29350,7 @@ MRO:0029346	HLA-C*08:203 protein complex	owl:Class
 MRO:0029347	HLA-A*24:407 protein complex	owl:Class	
 MRO:0029348	HLA-A*03:137 protein complex	owl:Class	
 MRO:0029349	HLA-DRB1*07:113 protein complex	owl:Class	
-MRO:0029350	HLA-B*35:460 protein complex	owl:Class	
+MRO:0029350	HLA-B*35:460Q protein complex	owl:Class	
 MRO:0029351	HLA-C*17:35 protein complex	owl:Class	
 MRO:0029352	HLA-DQB1*06:177 protein complex	owl:Class	
 MRO:0029353	HLA-B*35:124 protein complex	owl:Class	
@@ -34817,7 +34817,7 @@ MRO:0034813	HLA-B*13:31 protein complex	owl:Class
 MRO:0034814	HLA-B*39:117 protein complex	owl:Class	
 MRO:0034815	HLA-DRB5*01:75 protein complex	owl:Class	
 MRO:0034816	HLA-A*32:58 protein complex	owl:Class	
-MRO:0034817	HLA-C*04:61 protein complex	owl:Class	
+MRO:0034817	HLA-C*04:61N protein complex	owl:Class	
 MRO:0034818	HLA-DPB1*539:01 protein complex	owl:Class	
 MRO:0034819	HLA-DPB1*572:01 protein complex	owl:Class	
 MRO:0034820	HLA-B*51:154 protein complex	owl:Class	
@@ -36994,44 +36994,44 @@ MRO:0036990	Aime-128 gene	owl:Class
 MRO:0036991	Ctid-UAA gene	owl:Class	
 MRO:0036992	Aime-128 chain	owl:Class	
 MRO:0036993	Ctid-UAA chain	owl:Class	
-MRO:0036994	HLA-A*01:159 chain	owl:Class	
-MRO:0036995	HLA-A*01:281 chain	owl:Class	
-MRO:0036996	HLA-A*02:437 chain	owl:Class	
-MRO:0036997	HLA-A*02:581 chain	owl:Class	
-MRO:0036998	HLA-A*02:728 chain	owl:Class	
-MRO:0036999	HLA-A*02:795 chain	owl:Class	
-MRO:0037000	HLA-A*24:329 chain	owl:Class	
-MRO:0037001	HLA-A*24:378 chain	owl:Class	
-MRO:0037002	HLA-B*18:106 chain	owl:Class	
-MRO:0037003	HLA-B*27:185 chain	owl:Class	
-MRO:0037004	HLA-B*41:56 chain	owl:Class	
-MRO:0037005	HLA-C*04:338 chain	owl:Class	
-MRO:0037006	HLA-C*07:226 chain	owl:Class	
-MRO:0037007	HLA-C*07:432 chain	owl:Class	
-MRO:0037008	HLA-C*07:713 chain	owl:Class	
-MRO:0037009	HLA-C*12:139 chain	owl:Class	
-MRO:0037010	HLA-B*07:44 chain	owl:Class	
-MRO:0037011	HLA-C*03:23 chain	owl:Class	
+MRO:0036994	HLA-A*01:159Q chain	owl:Class	
+MRO:0036995	HLA-A*01:281Q chain	owl:Class	
+MRO:0036996	HLA-A*02:437Q chain	owl:Class	
+MRO:0036997	HLA-A*02:581Q chain	owl:Class	
+MRO:0036998	HLA-A*02:728Q chain	owl:Class	
+MRO:0036999	HLA-A*02:795Q chain	owl:Class	
+MRO:0037000	HLA-A*24:329Q chain	owl:Class	
+MRO:0037001	HLA-A*24:378Q chain	owl:Class	
+MRO:0037002	HLA-B*18:106Q chain	owl:Class	
+MRO:0037003	HLA-B*27:185Q chain	owl:Class	
+MRO:0037004	HLA-B*41:56Q chain	owl:Class	
+MRO:0037005	HLA-C*04:338Q chain	owl:Class	
+MRO:0037006	HLA-C*07:226Q chain	owl:Class	
+MRO:0037007	HLA-C*07:432Q chain	owl:Class	
+MRO:0037008	HLA-C*07:713Q chain	owl:Class	
+MRO:0037009	HLA-C*12:139Q chain	owl:Class	
+MRO:0037010	HLA-B*07:44N chain	owl:Class	
+MRO:0037011	HLA-C*03:23N chain	owl:Class	
 MRO:0037012	Aime-128 protein complex	owl:Class	
 MRO:0037013	Ctid-UAA/b2m-1-II protein complex	owl:Class	
-MRO:0037014	HLA-A*01:159 protein complex	owl:Class	
-MRO:0037015	HLA-A*01:281 protein complex	owl:Class	
-MRO:0037016	HLA-A*02:437 protein complex	owl:Class	
-MRO:0037017	HLA-A*02:581 protein complex	owl:Class	
-MRO:0037018	HLA-A*02:728 protein complex	owl:Class	
-MRO:0037019	HLA-A*02:795 protein complex	owl:Class	
-MRO:0037020	HLA-A*24:329 protein complex	owl:Class	
-MRO:0037021	HLA-A*24:378 protein complex	owl:Class	
-MRO:0037022	HLA-B*18:106 protein complex	owl:Class	
-MRO:0037023	HLA-B*27:185 protein complex	owl:Class	
-MRO:0037024	HLA-B*41:56 protein complex	owl:Class	
-MRO:0037025	HLA-C*04:338 protein complex	owl:Class	
-MRO:0037026	HLA-C*07:226 protein complex	owl:Class	
-MRO:0037027	HLA-C*07:432 protein complex	owl:Class	
-MRO:0037028	HLA-C*07:713 protein complex	owl:Class	
-MRO:0037029	HLA-C*12:139 protein complex	owl:Class	
-MRO:0037030	HLA-B*07:44 protein complex	owl:Class	
-MRO:0037031	HLA-C*03:23 protein complex	owl:Class	
+MRO:0037014	HLA-A*01:159Q protein complex	owl:Class	
+MRO:0037015	HLA-A*01:281Q protein complex	owl:Class	
+MRO:0037016	HLA-A*02:437Q protein complex	owl:Class	
+MRO:0037017	HLA-A*02:581Q protein complex	owl:Class	
+MRO:0037018	HLA-A*02:728Q protein complex	owl:Class	
+MRO:0037019	HLA-A*02:795Q protein complex	owl:Class	
+MRO:0037020	HLA-A*24:329Q protein complex	owl:Class	
+MRO:0037021	HLA-A*24:378Q protein complex	owl:Class	
+MRO:0037022	HLA-B*18:106Q protein complex	owl:Class	
+MRO:0037023	HLA-B*27:185Q protein complex	owl:Class	
+MRO:0037024	HLA-B*41:56Q protein complex	owl:Class	
+MRO:0037025	HLA-C*04:338Q protein complex	owl:Class	
+MRO:0037026	HLA-C*07:226Q protein complex	owl:Class	
+MRO:0037027	HLA-C*07:432Q protein complex	owl:Class	
+MRO:0037028	HLA-C*07:713Q protein complex	owl:Class	
+MRO:0037029	HLA-C*12:139Q protein complex	owl:Class	
+MRO:0037030	HLA-B*07:44N protein complex	owl:Class	
+MRO:0037031	HLA-C*03:23N protein complex	owl:Class	
 MRO:0037032	giant panda MHC class I chain	owl:Class	
 MRO:0037033	giant panda MHC class II chain	owl:Class	
 MRO:0037034	grass carp MHC class I chain	owl:Class	
@@ -40980,7 +40980,7 @@ MRO:0040976	SLA-DQA chain	owl:Class
 MRO:0040977	SLA-DQB chain	owl:Class	
 MRO:0040978	SLA-6 gene	owl:Class	
 MRO:0040979	SLA-6 chain	owl:Class	
-MRO:0040980	HLA-DQA1*01:07 chain	owl:Class	
+MRO:0040980	HLA-DQA1*01:07Q chain	owl:Class	
 MRO:0040981	HLA-DPA1*01:03/DPB1*02:02 protein complex	owl:Class	
 MRO:0040982	HLA-DPA1*01:03/DPB1*10:01 protein complex	owl:Class	
 MRO:0040983	HLA-DPA1*01:03/DPB1*100:01 protein complex	owl:Class	
@@ -43599,110 +43599,110 @@ MRO:0043595	HLA-DQA1*01:06/DQB1*06:41 protein complex	owl:Class
 MRO:0043596	HLA-DQA1*01:06/DQB1*06:42 protein complex	owl:Class	
 MRO:0043597	HLA-DQA1*01:06/DQB1*06:43 protein complex	owl:Class	
 MRO:0043598	HLA-DQA1*01:06/DQB1*06:44 protein complex	owl:Class	
-MRO:0043599	HLA-DQA1*01:07/DQB1*02:01 protein complex	owl:Class	
-MRO:0043600	HLA-DQA1*01:07/DQB1*02:02 protein complex	owl:Class	
-MRO:0043601	HLA-DQA1*01:07/DQB1*02:03 protein complex	owl:Class	
-MRO:0043602	HLA-DQA1*01:07/DQB1*02:04 protein complex	owl:Class	
-MRO:0043603	HLA-DQA1*01:07/DQB1*02:05 protein complex	owl:Class	
-MRO:0043604	HLA-DQA1*01:07/DQB1*02:06 protein complex	owl:Class	
-MRO:0043605	HLA-DQA1*01:07/DQB1*03:01 protein complex	owl:Class	
-MRO:0043606	HLA-DQA1*01:07/DQB1*03:02 protein complex	owl:Class	
-MRO:0043607	HLA-DQA1*01:07/DQB1*03:03 protein complex	owl:Class	
-MRO:0043608	HLA-DQA1*01:07/DQB1*03:04 protein complex	owl:Class	
-MRO:0043609	HLA-DQA1*01:07/DQB1*03:05 protein complex	owl:Class	
-MRO:0043610	HLA-DQA1*01:07/DQB1*03:06 protein complex	owl:Class	
-MRO:0043611	HLA-DQA1*01:07/DQB1*03:07 protein complex	owl:Class	
-MRO:0043612	HLA-DQA1*01:07/DQB1*03:08 protein complex	owl:Class	
-MRO:0043613	HLA-DQA1*01:07/DQB1*03:09 protein complex	owl:Class	
-MRO:0043614	HLA-DQA1*01:07/DQB1*03:10 protein complex	owl:Class	
-MRO:0043615	HLA-DQA1*01:07/DQB1*03:11 protein complex	owl:Class	
-MRO:0043616	HLA-DQA1*01:07/DQB1*03:12 protein complex	owl:Class	
-MRO:0043617	HLA-DQA1*01:07/DQB1*03:13 protein complex	owl:Class	
-MRO:0043618	HLA-DQA1*01:07/DQB1*03:14 protein complex	owl:Class	
-MRO:0043619	HLA-DQA1*01:07/DQB1*03:15 protein complex	owl:Class	
-MRO:0043620	HLA-DQA1*01:07/DQB1*03:16 protein complex	owl:Class	
-MRO:0043621	HLA-DQA1*01:07/DQB1*03:17 protein complex	owl:Class	
-MRO:0043622	HLA-DQA1*01:07/DQB1*03:18 protein complex	owl:Class	
-MRO:0043623	HLA-DQA1*01:07/DQB1*03:19 protein complex	owl:Class	
-MRO:0043624	HLA-DQA1*01:07/DQB1*03:20 protein complex	owl:Class	
-MRO:0043625	HLA-DQA1*01:07/DQB1*03:21 protein complex	owl:Class	
-MRO:0043626	HLA-DQA1*01:07/DQB1*03:22 protein complex	owl:Class	
-MRO:0043627	HLA-DQA1*01:07/DQB1*03:23 protein complex	owl:Class	
-MRO:0043628	HLA-DQA1*01:07/DQB1*03:24 protein complex	owl:Class	
-MRO:0043629	HLA-DQA1*01:07/DQB1*03:25 protein complex	owl:Class	
-MRO:0043630	HLA-DQA1*01:07/DQB1*03:26 protein complex	owl:Class	
-MRO:0043631	HLA-DQA1*01:07/DQB1*03:27 protein complex	owl:Class	
-MRO:0043632	HLA-DQA1*01:07/DQB1*03:28 protein complex	owl:Class	
-MRO:0043633	HLA-DQA1*01:07/DQB1*03:29 protein complex	owl:Class	
-MRO:0043634	HLA-DQA1*01:07/DQB1*03:30 protein complex	owl:Class	
-MRO:0043635	HLA-DQA1*01:07/DQB1*03:31 protein complex	owl:Class	
-MRO:0043636	HLA-DQA1*01:07/DQB1*03:32 protein complex	owl:Class	
-MRO:0043637	HLA-DQA1*01:07/DQB1*03:33 protein complex	owl:Class	
-MRO:0043638	HLA-DQA1*01:07/DQB1*03:34 protein complex	owl:Class	
-MRO:0043639	HLA-DQA1*01:07/DQB1*03:35 protein complex	owl:Class	
-MRO:0043640	HLA-DQA1*01:07/DQB1*03:36 protein complex	owl:Class	
-MRO:0043641	HLA-DQA1*01:07/DQB1*03:37 protein complex	owl:Class	
-MRO:0043642	HLA-DQA1*01:07/DQB1*03:38 protein complex	owl:Class	
-MRO:0043643	HLA-DQA1*01:07/DQB1*04:01 protein complex	owl:Class	
-MRO:0043644	HLA-DQA1*01:07/DQB1*04:02 protein complex	owl:Class	
-MRO:0043645	HLA-DQA1*01:07/DQB1*04:03 protein complex	owl:Class	
-MRO:0043646	HLA-DQA1*01:07/DQB1*04:04 protein complex	owl:Class	
-MRO:0043647	HLA-DQA1*01:07/DQB1*04:05 protein complex	owl:Class	
-MRO:0043648	HLA-DQA1*01:07/DQB1*04:06 protein complex	owl:Class	
-MRO:0043649	HLA-DQA1*01:07/DQB1*04:07 protein complex	owl:Class	
-MRO:0043650	HLA-DQA1*01:07/DQB1*04:08 protein complex	owl:Class	
-MRO:0043651	HLA-DQA1*01:07/DQB1*05:01 protein complex	owl:Class	
-MRO:0043652	HLA-DQA1*01:07/DQB1*05:02 protein complex	owl:Class	
-MRO:0043653	HLA-DQA1*01:07/DQB1*05:03 protein complex	owl:Class	
-MRO:0043654	HLA-DQA1*01:07/DQB1*05:05 protein complex	owl:Class	
-MRO:0043655	HLA-DQA1*01:07/DQB1*05:06 protein complex	owl:Class	
-MRO:0043656	HLA-DQA1*01:07/DQB1*05:07 protein complex	owl:Class	
-MRO:0043657	HLA-DQA1*01:07/DQB1*05:08 protein complex	owl:Class	
-MRO:0043658	HLA-DQA1*01:07/DQB1*05:09 protein complex	owl:Class	
-MRO:0043659	HLA-DQA1*01:07/DQB1*05:10 protein complex	owl:Class	
-MRO:0043660	HLA-DQA1*01:07/DQB1*05:11 protein complex	owl:Class	
-MRO:0043661	HLA-DQA1*01:07/DQB1*05:12 protein complex	owl:Class	
-MRO:0043662	HLA-DQA1*01:07/DQB1*05:13 protein complex	owl:Class	
-MRO:0043663	HLA-DQA1*01:07/DQB1*05:14 protein complex	owl:Class	
-MRO:0043664	HLA-DQA1*01:07/DQB1*06:01 protein complex	owl:Class	
-MRO:0043665	HLA-DQA1*01:07/DQB1*06:02 protein complex	owl:Class	
-MRO:0043666	HLA-DQA1*01:07/DQB1*06:03 protein complex	owl:Class	
-MRO:0043667	HLA-DQA1*01:07/DQB1*06:04 protein complex	owl:Class	
-MRO:0043668	HLA-DQA1*01:07/DQB1*06:07 protein complex	owl:Class	
-MRO:0043669	HLA-DQA1*01:07/DQB1*06:08 protein complex	owl:Class	
-MRO:0043670	HLA-DQA1*01:07/DQB1*06:09 protein complex	owl:Class	
-MRO:0043671	HLA-DQA1*01:07/DQB1*06:10 protein complex	owl:Class	
-MRO:0043672	HLA-DQA1*01:07/DQB1*06:11 protein complex	owl:Class	
-MRO:0043673	HLA-DQA1*01:07/DQB1*06:12 protein complex	owl:Class	
-MRO:0043674	HLA-DQA1*01:07/DQB1*06:14 protein complex	owl:Class	
-MRO:0043675	HLA-DQA1*01:07/DQB1*06:15 protein complex	owl:Class	
-MRO:0043676	HLA-DQA1*01:07/DQB1*06:16 protein complex	owl:Class	
-MRO:0043677	HLA-DQA1*01:07/DQB1*06:17 protein complex	owl:Class	
-MRO:0043678	HLA-DQA1*01:07/DQB1*06:18 protein complex	owl:Class	
-MRO:0043679	HLA-DQA1*01:07/DQB1*06:19 protein complex	owl:Class	
-MRO:0043680	HLA-DQA1*01:07/DQB1*06:21 protein complex	owl:Class	
-MRO:0043681	HLA-DQA1*01:07/DQB1*06:22 protein complex	owl:Class	
-MRO:0043682	HLA-DQA1*01:07/DQB1*06:23 protein complex	owl:Class	
-MRO:0043683	HLA-DQA1*01:07/DQB1*06:24 protein complex	owl:Class	
-MRO:0043684	HLA-DQA1*01:07/DQB1*06:25 protein complex	owl:Class	
-MRO:0043685	HLA-DQA1*01:07/DQB1*06:27 protein complex	owl:Class	
-MRO:0043686	HLA-DQA1*01:07/DQB1*06:28 protein complex	owl:Class	
-MRO:0043687	HLA-DQA1*01:07/DQB1*06:29 protein complex	owl:Class	
-MRO:0043688	HLA-DQA1*01:07/DQB1*06:30 protein complex	owl:Class	
-MRO:0043689	HLA-DQA1*01:07/DQB1*06:31 protein complex	owl:Class	
-MRO:0043690	HLA-DQA1*01:07/DQB1*06:32 protein complex	owl:Class	
-MRO:0043691	HLA-DQA1*01:07/DQB1*06:33 protein complex	owl:Class	
-MRO:0043692	HLA-DQA1*01:07/DQB1*06:34 protein complex	owl:Class	
-MRO:0043693	HLA-DQA1*01:07/DQB1*06:35 protein complex	owl:Class	
-MRO:0043694	HLA-DQA1*01:07/DQB1*06:36 protein complex	owl:Class	
-MRO:0043695	HLA-DQA1*01:07/DQB1*06:37 protein complex	owl:Class	
-MRO:0043696	HLA-DQA1*01:07/DQB1*06:38 protein complex	owl:Class	
-MRO:0043697	HLA-DQA1*01:07/DQB1*06:39 protein complex	owl:Class	
-MRO:0043698	HLA-DQA1*01:07/DQB1*06:40 protein complex	owl:Class	
-MRO:0043699	HLA-DQA1*01:07/DQB1*06:41 protein complex	owl:Class	
-MRO:0043700	HLA-DQA1*01:07/DQB1*06:42 protein complex	owl:Class	
-MRO:0043701	HLA-DQA1*01:07/DQB1*06:43 protein complex	owl:Class	
-MRO:0043702	HLA-DQA1*01:07/DQB1*06:44 protein complex	owl:Class	
+MRO:0043599	HLA-DQA1*01:07Q/DQB1*02:01 protein complex	owl:Class	
+MRO:0043600	HLA-DQA1*01:07Q/DQB1*02:02 protein complex	owl:Class	
+MRO:0043601	HLA-DQA1*01:07Q/DQB1*02:03 protein complex	owl:Class	
+MRO:0043602	HLA-DQA1*01:07Q/DQB1*02:04 protein complex	owl:Class	
+MRO:0043603	HLA-DQA1*01:07Q/DQB1*02:05 protein complex	owl:Class	
+MRO:0043604	HLA-DQA1*01:07Q/DQB1*02:06 protein complex	owl:Class	
+MRO:0043605	HLA-DQA1*01:07Q/DQB1*03:01 protein complex	owl:Class	
+MRO:0043606	HLA-DQA1*01:07Q/DQB1*03:02 protein complex	owl:Class	
+MRO:0043607	HLA-DQA1*01:07Q/DQB1*03:03 protein complex	owl:Class	
+MRO:0043608	HLA-DQA1*01:07Q/DQB1*03:04 protein complex	owl:Class	
+MRO:0043609	HLA-DQA1*01:07Q/DQB1*03:05 protein complex	owl:Class	
+MRO:0043610	HLA-DQA1*01:07Q/DQB1*03:06 protein complex	owl:Class	
+MRO:0043611	HLA-DQA1*01:07Q/DQB1*03:07 protein complex	owl:Class	
+MRO:0043612	HLA-DQA1*01:07Q/DQB1*03:08 protein complex	owl:Class	
+MRO:0043613	HLA-DQA1*01:07Q/DQB1*03:09 protein complex	owl:Class	
+MRO:0043614	HLA-DQA1*01:07Q/DQB1*03:10 protein complex	owl:Class	
+MRO:0043615	HLA-DQA1*01:07Q/DQB1*03:11 protein complex	owl:Class	
+MRO:0043616	HLA-DQA1*01:07Q/DQB1*03:12 protein complex	owl:Class	
+MRO:0043617	HLA-DQA1*01:07Q/DQB1*03:13 protein complex	owl:Class	
+MRO:0043618	HLA-DQA1*01:07Q/DQB1*03:14 protein complex	owl:Class	
+MRO:0043619	HLA-DQA1*01:07Q/DQB1*03:15 protein complex	owl:Class	
+MRO:0043620	HLA-DQA1*01:07Q/DQB1*03:16 protein complex	owl:Class	
+MRO:0043621	HLA-DQA1*01:07Q/DQB1*03:17 protein complex	owl:Class	
+MRO:0043622	HLA-DQA1*01:07Q/DQB1*03:18 protein complex	owl:Class	
+MRO:0043623	HLA-DQA1*01:07Q/DQB1*03:19 protein complex	owl:Class	
+MRO:0043624	HLA-DQA1*01:07Q/DQB1*03:20 protein complex	owl:Class	
+MRO:0043625	HLA-DQA1*01:07Q/DQB1*03:21 protein complex	owl:Class	
+MRO:0043626	HLA-DQA1*01:07Q/DQB1*03:22 protein complex	owl:Class	
+MRO:0043627	HLA-DQA1*01:07Q/DQB1*03:23 protein complex	owl:Class	
+MRO:0043628	HLA-DQA1*01:07Q/DQB1*03:24 protein complex	owl:Class	
+MRO:0043629	HLA-DQA1*01:07Q/DQB1*03:25 protein complex	owl:Class	
+MRO:0043630	HLA-DQA1*01:07Q/DQB1*03:26 protein complex	owl:Class	
+MRO:0043631	HLA-DQA1*01:07Q/DQB1*03:27 protein complex	owl:Class	
+MRO:0043632	HLA-DQA1*01:07Q/DQB1*03:28 protein complex	owl:Class	
+MRO:0043633	HLA-DQA1*01:07Q/DQB1*03:29 protein complex	owl:Class	
+MRO:0043634	HLA-DQA1*01:07Q/DQB1*03:30 protein complex	owl:Class	
+MRO:0043635	HLA-DQA1*01:07Q/DQB1*03:31 protein complex	owl:Class	
+MRO:0043636	HLA-DQA1*01:07Q/DQB1*03:32 protein complex	owl:Class	
+MRO:0043637	HLA-DQA1*01:07Q/DQB1*03:33 protein complex	owl:Class	
+MRO:0043638	HLA-DQA1*01:07Q/DQB1*03:34 protein complex	owl:Class	
+MRO:0043639	HLA-DQA1*01:07Q/DQB1*03:35 protein complex	owl:Class	
+MRO:0043640	HLA-DQA1*01:07Q/DQB1*03:36 protein complex	owl:Class	
+MRO:0043641	HLA-DQA1*01:07Q/DQB1*03:37 protein complex	owl:Class	
+MRO:0043642	HLA-DQA1*01:07Q/DQB1*03:38 protein complex	owl:Class	
+MRO:0043643	HLA-DQA1*01:07Q/DQB1*04:01 protein complex	owl:Class	
+MRO:0043644	HLA-DQA1*01:07Q/DQB1*04:02 protein complex	owl:Class	
+MRO:0043645	HLA-DQA1*01:07Q/DQB1*04:03 protein complex	owl:Class	
+MRO:0043646	HLA-DQA1*01:07Q/DQB1*04:04 protein complex	owl:Class	
+MRO:0043647	HLA-DQA1*01:07Q/DQB1*04:05 protein complex	owl:Class	
+MRO:0043648	HLA-DQA1*01:07Q/DQB1*04:06 protein complex	owl:Class	
+MRO:0043649	HLA-DQA1*01:07Q/DQB1*04:07 protein complex	owl:Class	
+MRO:0043650	HLA-DQA1*01:07Q/DQB1*04:08 protein complex	owl:Class	
+MRO:0043651	HLA-DQA1*01:07Q/DQB1*05:01 protein complex	owl:Class	
+MRO:0043652	HLA-DQA1*01:07Q/DQB1*05:02 protein complex	owl:Class	
+MRO:0043653	HLA-DQA1*01:07Q/DQB1*05:03 protein complex	owl:Class	
+MRO:0043654	HLA-DQA1*01:07Q/DQB1*05:05 protein complex	owl:Class	
+MRO:0043655	HLA-DQA1*01:07Q/DQB1*05:06 protein complex	owl:Class	
+MRO:0043656	HLA-DQA1*01:07Q/DQB1*05:07 protein complex	owl:Class	
+MRO:0043657	HLA-DQA1*01:07Q/DQB1*05:08 protein complex	owl:Class	
+MRO:0043658	HLA-DQA1*01:07Q/DQB1*05:09 protein complex	owl:Class	
+MRO:0043659	HLA-DQA1*01:07Q/DQB1*05:10 protein complex	owl:Class	
+MRO:0043660	HLA-DQA1*01:07Q/DQB1*05:11 protein complex	owl:Class	
+MRO:0043661	HLA-DQA1*01:07Q/DQB1*05:12 protein complex	owl:Class	
+MRO:0043662	HLA-DQA1*01:07Q/DQB1*05:13 protein complex	owl:Class	
+MRO:0043663	HLA-DQA1*01:07Q/DQB1*05:14 protein complex	owl:Class	
+MRO:0043664	HLA-DQA1*01:07Q/DQB1*06:01 protein complex	owl:Class	
+MRO:0043665	HLA-DQA1*01:07Q/DQB1*06:02 protein complex	owl:Class	
+MRO:0043666	HLA-DQA1*01:07Q/DQB1*06:03 protein complex	owl:Class	
+MRO:0043667	HLA-DQA1*01:07Q/DQB1*06:04 protein complex	owl:Class	
+MRO:0043668	HLA-DQA1*01:07Q/DQB1*06:07 protein complex	owl:Class	
+MRO:0043669	HLA-DQA1*01:07Q/DQB1*06:08 protein complex	owl:Class	
+MRO:0043670	HLA-DQA1*01:07Q/DQB1*06:09 protein complex	owl:Class	
+MRO:0043671	HLA-DQA1*01:07Q/DQB1*06:10 protein complex	owl:Class	
+MRO:0043672	HLA-DQA1*01:07Q/DQB1*06:11 protein complex	owl:Class	
+MRO:0043673	HLA-DQA1*01:07Q/DQB1*06:12 protein complex	owl:Class	
+MRO:0043674	HLA-DQA1*01:07Q/DQB1*06:14 protein complex	owl:Class	
+MRO:0043675	HLA-DQA1*01:07Q/DQB1*06:15 protein complex	owl:Class	
+MRO:0043676	HLA-DQA1*01:07Q/DQB1*06:16 protein complex	owl:Class	
+MRO:0043677	HLA-DQA1*01:07Q/DQB1*06:17 protein complex	owl:Class	
+MRO:0043678	HLA-DQA1*01:07Q/DQB1*06:18 protein complex	owl:Class	
+MRO:0043679	HLA-DQA1*01:07Q/DQB1*06:19 protein complex	owl:Class	
+MRO:0043680	HLA-DQA1*01:07Q/DQB1*06:21 protein complex	owl:Class	
+MRO:0043681	HLA-DQA1*01:07Q/DQB1*06:22 protein complex	owl:Class	
+MRO:0043682	HLA-DQA1*01:07Q/DQB1*06:23 protein complex	owl:Class	
+MRO:0043683	HLA-DQA1*01:07Q/DQB1*06:24 protein complex	owl:Class	
+MRO:0043684	HLA-DQA1*01:07Q/DQB1*06:25 protein complex	owl:Class	
+MRO:0043685	HLA-DQA1*01:07Q/DQB1*06:27 protein complex	owl:Class	
+MRO:0043686	HLA-DQA1*01:07Q/DQB1*06:28 protein complex	owl:Class	
+MRO:0043687	HLA-DQA1*01:07Q/DQB1*06:29 protein complex	owl:Class	
+MRO:0043688	HLA-DQA1*01:07Q/DQB1*06:30 protein complex	owl:Class	
+MRO:0043689	HLA-DQA1*01:07Q/DQB1*06:31 protein complex	owl:Class	
+MRO:0043690	HLA-DQA1*01:07Q/DQB1*06:32 protein complex	owl:Class	
+MRO:0043691	HLA-DQA1*01:07Q/DQB1*06:33 protein complex	owl:Class	
+MRO:0043692	HLA-DQA1*01:07Q/DQB1*06:34 protein complex	owl:Class	
+MRO:0043693	HLA-DQA1*01:07Q/DQB1*06:35 protein complex	owl:Class	
+MRO:0043694	HLA-DQA1*01:07Q/DQB1*06:36 protein complex	owl:Class	
+MRO:0043695	HLA-DQA1*01:07Q/DQB1*06:37 protein complex	owl:Class	
+MRO:0043696	HLA-DQA1*01:07Q/DQB1*06:38 protein complex	owl:Class	
+MRO:0043697	HLA-DQA1*01:07Q/DQB1*06:39 protein complex	owl:Class	
+MRO:0043698	HLA-DQA1*01:07Q/DQB1*06:40 protein complex	owl:Class	
+MRO:0043699	HLA-DQA1*01:07Q/DQB1*06:41 protein complex	owl:Class	
+MRO:0043700	HLA-DQA1*01:07Q/DQB1*06:42 protein complex	owl:Class	
+MRO:0043701	HLA-DQA1*01:07Q/DQB1*06:43 protein complex	owl:Class	
+MRO:0043702	HLA-DQA1*01:07Q/DQB1*06:44 protein complex	owl:Class	
 MRO:0043703	HLA-DQA1*01:08/DQB1*02:01 protein complex	owl:Class	
 MRO:0043704	HLA-DQA1*01:08/DQB1*02:02 protein complex	owl:Class	
 MRO:0043705	HLA-DQA1*01:08/DQB1*02:03 protein complex	owl:Class	
@@ -51212,3 +51212,66 @@ MRO:0051210	common brushtail MHC class I protein complex	owl:Class
 MRO:0051211	common brushtail MHC class II protein complex	owl:Class	
 MRO:0051212	Trvu-UB*01:01 protein complex	owl:Class	
 MRO:0051213	HLA-DRA*01:01/DRB1*04:02 protein complex	owl:Class	
+MRO:0051214	evidence of MHC chain expression low	owl:Class	
+MRO:0051215	HLA-A*01:11N chain	owl:Class	
+MRO:0051216	HLA-A*01:15N chain	owl:Class	
+MRO:0051217	HLA-A*01:18N chain	owl:Class	
+MRO:0051218	HLA-A*01:22N chain	owl:Class	
+MRO:0051219	HLA-A*02:15N chain	owl:Class	
+MRO:0051220	HLA-A*02:43N chain	owl:Class	
+MRO:0051221	HLA-A*02:83N chain	owl:Class	
+MRO:0051222	HLA-A*03:03N chain	owl:Class	
+MRO:0051223	HLA-A*03:21N chain	owl:Class	
+MRO:0051224	HLA-A*11:21N chain	owl:Class	
+MRO:0051225	HLA-A*23:07N chain	owl:Class	
+MRO:0051226	HLA-A*24:09N chain	owl:Class	
+MRO:0051227	HLA-A*24:11N chain	owl:Class	
+MRO:0051228	HLA-A*24:40N chain	owl:Class	
+MRO:0051229	HLA-A*26:11N chain	owl:Class	
+MRO:0051230	HLA-A*31:14N chain	owl:Class	
+MRO:0051231	HLA-A*32:11Q chain	owl:Class	
+MRO:0051232	HLA-B*07:49N chain	owl:Class	
+MRO:0051233	HLA-B*08:08N chain	owl:Class	
+MRO:0051234	HLA-B*08:19N chain	owl:Class	
+MRO:0051235	HLA-B*18:23N chain	owl:Class	
+MRO:0051236	HLA-B*35:40N chain	owl:Class	
+MRO:0051237	HLA-B*35:65Q chain	owl:Class	
+MRO:0051238	HLA-B*39:38Q chain	owl:Class	
+MRO:0051239	HLA-B*51:11N chain	owl:Class	
+MRO:0051240	HLA-B*54:05N chain	owl:Class	
+MRO:0051241	HLA-C*03:22Q chain	owl:Class	
+MRO:0051242	HLA-C*04:09N chain	owl:Class	
+MRO:0051243	HLA-C*07:32N chain	owl:Class	
+MRO:0051244	HLA-C*14:07N chain	owl:Class	
+MRO:0051245	Anpl-UAA*76 chain	owl:Class	
+MRO:0051246	HLA-A*01:11N protein complex	owl:Class	
+MRO:0051247	HLA-A*01:15N protein complex	owl:Class	
+MRO:0051248	HLA-A*01:18N protein complex	owl:Class	
+MRO:0051249	HLA-A*01:22N protein complex	owl:Class	
+MRO:0051250	HLA-A*02:15N protein complex	owl:Class	
+MRO:0051251	HLA-A*02:43N protein complex	owl:Class	
+MRO:0051252	HLA-A*02:83N protein complex	owl:Class	
+MRO:0051253	HLA-A*03:03N protein complex	owl:Class	
+MRO:0051254	HLA-A*03:21N protein complex	owl:Class	
+MRO:0051255	HLA-A*11:21N protein complex	owl:Class	
+MRO:0051256	HLA-A*23:07N protein complex	owl:Class	
+MRO:0051257	HLA-A*24:09N protein complex	owl:Class	
+MRO:0051258	HLA-A*24:11N protein complex	owl:Class	
+MRO:0051259	HLA-A*24:40N protein complex	owl:Class	
+MRO:0051260	HLA-A*26:11N protein complex	owl:Class	
+MRO:0051261	HLA-A*31:14N protein complex	owl:Class	
+MRO:0051262	HLA-A*32:11Q protein complex	owl:Class	
+MRO:0051263	HLA-B*07:49N protein complex	owl:Class	
+MRO:0051264	HLA-B*08:08N protein complex	owl:Class	
+MRO:0051265	HLA-B*08:19N protein complex	owl:Class	
+MRO:0051266	HLA-B*18:23N protein complex	owl:Class	
+MRO:0051267	HLA-B*35:40N protein complex	owl:Class	
+MRO:0051268	HLA-B*35:65Q protein complex	owl:Class	
+MRO:0051269	HLA-B*39:38Q protein complex	owl:Class	
+MRO:0051270	HLA-B*51:11N protein complex	owl:Class	
+MRO:0051271	HLA-B*54:05N protein complex	owl:Class	
+MRO:0051272	HLA-C*03:22Q protein complex	owl:Class	
+MRO:0051273	HLA-C*04:09N protein complex	owl:Class	
+MRO:0051274	HLA-C*07:32N protein complex	owl:Class	
+MRO:0051275	HLA-C*14:07N protein complex	owl:Class	
+MRO:0051276	Anpl-UAA*76 protein complex	owl:Class	
