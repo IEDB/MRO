@@ -6885,7 +6885,7 @@ HLA-B*35:455 protein complex	6977	B
 HLA-B*35:457 protein complex	6978	B		
 HLA-B*35:458 protein complex	6979	B		
 HLA-B*35:46 protein complex	6980	B		
-HLA-B*35:460 protein complex	6981	B		
+HLA-B*35:460Q protein complex	6981	B		
 HLA-B*35:462 protein complex	6982	B		
 HLA-B*35:463 protein complex	6983	B		
 HLA-B*35:464 protein complex	6984	B		
@@ -9928,7 +9928,7 @@ HLA-C*03:280 protein complex	10020	C
 HLA-C*03:281 protein complex	10021	C		
 HLA-C*03:282 protein complex	10022	C		
 HLA-C*03:283 protein complex	10023	C		
-HLA-C*03:284 protein complex	10024	C		
+HLA-C*03:284N protein complex	10024	C		
 HLA-C*03:285 protein complex	10025	C		
 HLA-C*03:286 protein complex	10026	C		
 HLA-C*03:287 protein complex	10027	C		
@@ -10559,7 +10559,7 @@ HLA-C*04:56 protein complex	10651	C
 HLA-C*04:57 protein complex	10652	C		
 HLA-C*04:58 protein complex	10653	C		
 HLA-C*04:60 protein complex	10654	C		
-HLA-C*04:61 protein complex	10655	C		
+HLA-C*04:61N protein complex	10655	C		
 HLA-C*04:62 protein complex	10656	C		
 HLA-C*04:63 protein complex	10657	C		
 HLA-C*04:64 protein complex	10658	C		
@@ -22671,3 +22671,4 @@ HLA-DPA1*01:03/DPB1*15:01 protein complex	22763	DP	300693
 HLA-DQA1*01:01/DQB1*06:03 protein complex	22764	DQ	300714	300740
 HLA-DPA1*02:01/DPB1*11:01 protein complex	22765	DP	300694	
 HLA-DPA1*02:02/DPB1*19:01 protein complex	22766	DP	300695	
+Anpl-UAA*76 protein complex	22767	UAA		

@@ -3,6 +3,7 @@ LABEL	A IAO:0000118 SPLIT=|	CLASS_TYPE	C %	C 'gene product of' some %	AI 'has ex
 Aime-128 chain		equivalent	protein	Aime-128 gene	
 Anpl-UAA chain		equivalent	protein	Anpl-UAA gene	
 Anpl-UAA*01 chain		subclass	Anpl-UAA chain		
+Anpl-UAA*76 chain		subclass	Anpl-UAA chain		
 Anpl-UAA*SD chain		subclass	Anpl-UAA chain		
 Assam macaque MHC class I chain		equivalent	protein	Assam macaque MHC class I gene	
 Assam macaque MHC class II chain		equivalent	protein	Assam macaque MHC class II gene	
@@ -1150,13 +1151,17 @@ HLA-A*01:07 chain		subclass	HLA-A chain
 HLA-A*01:08 chain		subclass	HLA-A chain		
 HLA-A*01:09 chain		subclass	HLA-A chain		
 HLA-A*01:10 chain		subclass	HLA-A chain		
+HLA-A*01:11N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*01:12 chain		subclass	HLA-A chain		
 HLA-A*01:13 chain		subclass	HLA-A chain		
 HLA-A*01:14 chain		subclass	HLA-A chain		
+HLA-A*01:15N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*01:17 chain		subclass	HLA-A chain		
+HLA-A*01:18N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*01:19 chain		subclass	HLA-A chain		
 HLA-A*01:20 chain		subclass	HLA-A chain		
 HLA-A*01:21 chain		subclass	HLA-A chain		
+HLA-A*01:22N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*01:23 chain		subclass	HLA-A chain		
 HLA-A*01:24 chain		subclass	HLA-A chain		
 HLA-A*01:25 chain		subclass	HLA-A chain		
@@ -1284,7 +1289,7 @@ HLA-A*01:155 chain		subclass	HLA-A chain
 HLA-A*01:156 chain		subclass	HLA-A chain		
 HLA-A*01:157 chain		subclass	HLA-A chain		
 HLA-A*01:158 chain		subclass	HLA-A chain		
-HLA-A*01:159 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*01:159Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*01:161 chain		subclass	HLA-A chain		
 HLA-A*01:163 chain		subclass	HLA-A chain		
 HLA-A*01:164 chain		subclass	HLA-A chain		
@@ -1393,7 +1398,7 @@ HLA-A*01:277 chain		subclass	HLA-A chain
 HLA-A*01:278 chain		subclass	HLA-A chain		
 HLA-A*01:279 chain		subclass	HLA-A chain		
 HLA-A*01:280 chain		subclass	HLA-A chain		
-HLA-A*01:281 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*01:281Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*01:282 chain		subclass	HLA-A chain		
 HLA-A*01:283 chain		subclass	HLA-A chain		
 HLA-A*01:284 chain		subclass	HLA-A chain		
@@ -1464,6 +1469,7 @@ HLA-A*02:11 chain		subclass	HLA-A chain
 HLA-A*02:12 chain		subclass	HLA-A chain		
 HLA-A*02:13 chain		subclass	HLA-A chain		
 HLA-A*02:14 chain		subclass	HLA-A chain		
+HLA-A*02:15N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*02:16 chain		subclass	HLA-A chain		
 HLA-A*02:17 chain		subclass	HLA-A chain		
 HLA-A*02:18 chain		subclass	HLA-A chain		
@@ -1489,6 +1495,7 @@ HLA-A*02:39 chain		subclass	HLA-A chain
 HLA-A*02:40 chain		subclass	HLA-A chain		
 HLA-A*02:41 chain		subclass	HLA-A chain		
 HLA-A*02:42 chain		subclass	HLA-A chain		
+HLA-A*02:43N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*02:44 chain		subclass	HLA-A chain		
 HLA-A*02:45 chain		subclass	HLA-A chain		
 HLA-A*02:46 chain		subclass	HLA-A chain		
@@ -1526,6 +1533,7 @@ HLA-A*02:78 chain		subclass	HLA-A chain
 HLA-A*02:79 chain		subclass	HLA-A chain		
 HLA-A*02:80 chain		subclass	HLA-A chain		
 HLA-A*02:81 chain		subclass	HLA-A chain		
+HLA-A*02:83N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*02:84 chain		subclass	HLA-A chain		
 HLA-A*02:85 chain		subclass	HLA-A chain		
 HLA-A*02:86 chain		subclass	HLA-A chain		
@@ -1857,7 +1865,7 @@ HLA-A*02:433 chain		subclass	HLA-A chain
 HLA-A*02:434 chain		subclass	HLA-A chain		
 HLA-A*02:435 chain		subclass	HLA-A chain		
 HLA-A*02:436 chain		subclass	HLA-A chain		
-HLA-A*02:437 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*02:437Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*02:438 chain		subclass	HLA-A chain		
 HLA-A*02:441 chain		subclass	HLA-A chain		
 HLA-A*02:442 chain		subclass	HLA-A chain		
@@ -1990,7 +1998,7 @@ HLA-A*02:577 chain		subclass	HLA-A chain
 HLA-A*02:578 chain		subclass	HLA-A chain		
 HLA-A*02:579 chain		subclass	HLA-A chain		
 HLA-A*02:580 chain		subclass	HLA-A chain		
-HLA-A*02:581 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*02:581Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*02:582 chain		subclass	HLA-A chain		
 HLA-A*02:583 chain		subclass	HLA-A chain		
 HLA-A*02:584 chain		subclass	HLA-A chain		
@@ -2126,7 +2134,7 @@ HLA-A*02:724 chain		subclass	HLA-A chain
 HLA-A*02:725 chain		subclass	HLA-A chain		
 HLA-A*02:726 chain		subclass	HLA-A chain		
 HLA-A*02:727 chain		subclass	HLA-A chain		
-HLA-A*02:728 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*02:728Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*02:729 chain		subclass	HLA-A chain		
 HLA-A*02:730 chain		subclass	HLA-A chain		
 HLA-A*02:731 chain		subclass	HLA-A chain		
@@ -2184,7 +2192,7 @@ HLA-A*02:786 chain		subclass	HLA-A chain
 HLA-A*02:787 chain		subclass	HLA-A chain		
 HLA-A*02:790 chain		subclass	HLA-A chain		
 HLA-A*02:794 chain		subclass	HLA-A chain		
-HLA-A*02:795 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*02:795Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*02:798 chain		subclass	HLA-A chain		
 HLA-A*02:799 chain		subclass	HLA-A chain		
 HLA-A*02:800 chain		subclass	HLA-A chain		
@@ -2311,6 +2319,7 @@ HLA-A*02:938 chain		subclass	HLA-A chain
 HLA-A*02:939 chain		subclass	HLA-A chain		
 HLA-A*03:01 chain		subclass	HLA-A chain		
 HLA-A*03:02 chain		subclass	HLA-A chain		
+HLA-A*03:03N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*03:04 chain		subclass	HLA-A chain		
 HLA-A*03:05 chain		subclass	HLA-A chain		
 HLA-A*03:06 chain		subclass	HLA-A chain		
@@ -2327,6 +2336,7 @@ HLA-A*03:17 chain		subclass	HLA-A chain
 HLA-A*03:18 chain		subclass	HLA-A chain		
 HLA-A*03:19 chain		subclass	HLA-A chain		
 HLA-A*03:20 chain		subclass	HLA-A chain		
+HLA-A*03:21N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*03:22 chain		subclass	HLA-A chain		
 HLA-A*03:23 chain		subclass	HLA-A chain		
 HLA-A*03:24 chain		subclass	HLA-A chain		
@@ -2685,6 +2695,7 @@ HLA-A*11:17 chain		subclass	HLA-A chain
 HLA-A*11:18 chain		subclass	HLA-A chain		
 HLA-A*11:19 chain		subclass	HLA-A chain		
 HLA-A*11:20 chain		subclass	HLA-A chain		
+HLA-A*11:21N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*11:22 chain		subclass	HLA-A chain		
 HLA-A*11:23 chain		subclass	HLA-A chain		
 HLA-A*11:24 chain		subclass	HLA-A chain		
@@ -3017,6 +3028,7 @@ HLA-A*23:03 chain		subclass	HLA-A chain
 HLA-A*23:04 chain		subclass	HLA-A chain		
 HLA-A*23:05 chain		subclass	HLA-A chain		
 HLA-A*23:06 chain		subclass	HLA-A chain		
+HLA-A*23:07N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*23:09 chain		subclass	HLA-A chain		
 HLA-A*23:10 chain		subclass	HLA-A chain		
 HLA-A*23:12 chain		subclass	HLA-A chain		
@@ -3114,7 +3126,9 @@ HLA-A*24:05 chain		subclass	HLA-A chain
 HLA-A*24:06 chain		subclass	HLA-A chain		
 HLA-A*24:07 chain		subclass	HLA-A chain		
 HLA-A*24:08 chain		subclass	HLA-A chain		
+HLA-A*24:09N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*24:10 chain		subclass	HLA-A chain		
+HLA-A*24:11N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*24:13 chain		subclass	HLA-A chain		
 HLA-A*24:14 chain		subclass	HLA-A chain		
 HLA-A*24:15 chain		subclass	HLA-A chain		
@@ -3140,6 +3154,7 @@ HLA-A*24:35 chain		subclass	HLA-A chain
 HLA-A*24:37 chain		subclass	HLA-A chain		
 HLA-A*24:38 chain		subclass	HLA-A chain		
 HLA-A*24:39 chain		subclass	HLA-A chain		
+HLA-A*24:40N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*24:41 chain		subclass	HLA-A chain		
 HLA-A*24:42 chain		subclass	HLA-A chain		
 HLA-A*24:43 chain		subclass	HLA-A chain		
@@ -3405,7 +3420,7 @@ HLA-A*24:325 chain		subclass	HLA-A chain
 HLA-A*24:326 chain		subclass	HLA-A chain		
 HLA-A*24:327 chain		subclass	HLA-A chain		
 HLA-A*24:328 chain		subclass	HLA-A chain		
-HLA-A*24:329 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*24:329Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*24:330 chain		subclass	HLA-A chain		
 HLA-A*24:331 chain		subclass	HLA-A chain		
 HLA-A*24:332 chain		subclass	HLA-A chain		
@@ -3451,7 +3466,7 @@ HLA-A*24:374 chain		subclass	HLA-A chain
 HLA-A*24:375 chain		subclass	HLA-A chain		
 HLA-A*24:376 chain		subclass	HLA-A chain		
 HLA-A*24:377 chain		subclass	HLA-A chain		
-HLA-A*24:378 chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
+HLA-A*24:378Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*24:379 chain		subclass	HLA-A chain		
 HLA-A*24:380 chain		subclass	HLA-A chain		
 HLA-A*24:381 chain		subclass	HLA-A chain		
@@ -3634,6 +3649,7 @@ HLA-A*26:07 chain		subclass	HLA-A chain
 HLA-A*26:08 chain		subclass	HLA-A chain		
 HLA-A*26:09 chain		subclass	HLA-A chain		
 HLA-A*26:10 chain		subclass	HLA-A chain		
+HLA-A*26:11N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*26:12 chain		subclass	HLA-A chain		
 HLA-A*26:13 chain		subclass	HLA-A chain		
 HLA-A*26:14 chain		subclass	HLA-A chain		
@@ -3969,7 +3985,7 @@ HLA-A*30:10 chain		subclass	HLA-A chain
 HLA-A*30:11 chain		subclass	HLA-A chain		
 HLA-A*30:12 chain		subclass	HLA-A chain		
 HLA-A*30:13 chain		subclass	HLA-A chain		
-HLA-A*30:14L chain		subclass	HLA-A chain		
+HLA-A*30:14L chain		subclass	HLA-A chain		evidence of MHC chain expression low
 HLA-A*30:15 chain		subclass	HLA-A chain		
 HLA-A*30:16 chain		subclass	HLA-A chain		
 HLA-A*30:17 chain		subclass	HLA-A chain		
@@ -4130,6 +4146,7 @@ HLA-A*31:10 chain		subclass	HLA-A chain
 HLA-A*31:11 chain		subclass	HLA-A chain		
 HLA-A*31:12 chain		subclass	HLA-A chain		
 HLA-A*31:13 chain		subclass	HLA-A chain		
+HLA-A*31:14N chain		subclass	HLA-A chain		evidence of MHC chain expression not observed
 HLA-A*31:15 chain		subclass	HLA-A chain		
 HLA-A*31:16 chain		subclass	HLA-A chain		
 HLA-A*31:17 chain		subclass	HLA-A chain		
@@ -4302,6 +4319,7 @@ HLA-A*32:07 chain		subclass	HLA-A chain
 HLA-A*32:08 chain		subclass	HLA-A chain		
 HLA-A*32:09 chain		subclass	HLA-A chain		
 HLA-A*32:10 chain		subclass	HLA-A chain		
+HLA-A*32:11Q chain		subclass	HLA-A chain		evidence of MHC chain expression questionable
 HLA-A*32:12 chain		subclass	HLA-A chain		
 HLA-A*32:13 chain		subclass	HLA-A chain		
 HLA-A*32:14 chain		subclass	HLA-A chain		
@@ -5005,11 +5023,12 @@ HLA-B*07:40 chain		subclass	HLA-B chain
 HLA-B*07:41 chain		subclass	HLA-B chain		
 HLA-B*07:42 chain		subclass	HLA-B chain		
 HLA-B*07:43 chain		subclass	HLA-B chain		
-HLA-B*07:44 chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
+HLA-B*07:44N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*07:45 chain		subclass	HLA-B chain		
 HLA-B*07:46 chain		subclass	HLA-B chain		
 HLA-B*07:47 chain		subclass	HLA-B chain		
 HLA-B*07:48 chain		subclass	HLA-B chain		
+HLA-B*07:49N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*07:50 chain		subclass	HLA-B chain		
 HLA-B*07:51 chain		subclass	HLA-B chain		
 HLA-B*07:52 chain		subclass	HLA-B chain		
@@ -5351,6 +5370,7 @@ HLA-B*08:03 chain		subclass	HLA-B chain
 HLA-B*08:04 chain		subclass	HLA-B chain		
 HLA-B*08:05 chain		subclass	HLA-B chain		
 HLA-B*08:07 chain		subclass	HLA-B chain		
+HLA-B*08:08N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*08:09 chain		subclass	HLA-B chain		
 HLA-B*08:10 chain		subclass	HLA-B chain		
 HLA-B*08:11 chain		subclass	HLA-B chain		
@@ -5361,6 +5381,7 @@ HLA-B*08:15 chain		subclass	HLA-B chain
 HLA-B*08:16 chain		subclass	HLA-B chain		
 HLA-B*08:17 chain		subclass	HLA-B chain		
 HLA-B*08:18 chain		subclass	HLA-B chain		
+HLA-B*08:19N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*08:20 chain		subclass	HLA-B chain		
 HLA-B*08:21 chain		subclass	HLA-B chain		
 HLA-B*08:22 chain		subclass	HLA-B chain		
@@ -6355,6 +6376,7 @@ HLA-B*18:19 chain		subclass	HLA-B chain
 HLA-B*18:20 chain		subclass	HLA-B chain		
 HLA-B*18:21 chain		subclass	HLA-B chain		
 HLA-B*18:22 chain		subclass	HLA-B chain		
+HLA-B*18:23N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*18:24 chain		subclass	HLA-B chain		
 HLA-B*18:25 chain		subclass	HLA-B chain		
 HLA-B*18:26 chain		subclass	HLA-B chain		
@@ -6435,7 +6457,7 @@ HLA-B*18:102 chain		subclass	HLA-B chain
 HLA-B*18:103 chain		subclass	HLA-B chain		
 HLA-B*18:104 chain		subclass	HLA-B chain		
 HLA-B*18:105 chain		subclass	HLA-B chain		
-HLA-B*18:106 chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
+HLA-B*18:106Q chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*18:107 chain		subclass	HLA-B chain		
 HLA-B*18:108 chain		subclass	HLA-B chain		
 HLA-B*18:109 chain		subclass	HLA-B chain		
@@ -6699,7 +6721,7 @@ HLA-B*27:181 chain		subclass	HLA-B chain
 HLA-B*27:182 chain		subclass	HLA-B chain		
 HLA-B*27:183 chain		subclass	HLA-B chain		
 HLA-B*27:184 chain		subclass	HLA-B chain		
-HLA-B*27:185 chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
+HLA-B*27:185Q chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*27:186 chain		subclass	HLA-B chain		
 HLA-B*27:187 chain		subclass	HLA-B chain		
 HLA-B*27:188 chain		subclass	HLA-B chain		
@@ -6782,6 +6804,7 @@ HLA-B*35:36 chain		subclass	HLA-B chain
 HLA-B*35:37 chain		subclass	HLA-B chain		
 HLA-B*35:38 chain		subclass	HLA-B chain		
 HLA-B*35:39 chain		subclass	HLA-B chain		
+HLA-B*35:40N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*35:41 chain		subclass	HLA-B chain		
 HLA-B*35:42 chain		subclass	HLA-B chain		
 HLA-B*35:43 chain		subclass	HLA-B chain		
@@ -6805,6 +6828,7 @@ HLA-B*35:61 chain		subclass	HLA-B chain
 HLA-B*35:62 chain		subclass	HLA-B chain		
 HLA-B*35:63 chain		subclass	HLA-B chain		
 HLA-B*35:64 chain		subclass	HLA-B chain		
+HLA-B*35:65Q chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*35:66 chain		subclass	HLA-B chain		
 HLA-B*35:67 chain		subclass	HLA-B chain		
 HLA-B*35:68 chain		subclass	HLA-B chain		
@@ -7182,7 +7206,7 @@ HLA-B*35:454 chain		subclass	HLA-B chain
 HLA-B*35:455 chain		subclass	HLA-B chain		
 HLA-B*35:457 chain		subclass	HLA-B chain		
 HLA-B*35:458 chain		subclass	HLA-B chain		
-HLA-B*35:460 chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
+HLA-B*35:460Q chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*35:462 chain		subclass	HLA-B chain		
 HLA-B*35:463 chain		subclass	HLA-B chain		
 HLA-B*35:464 chain		subclass	HLA-B chain		
@@ -7425,6 +7449,7 @@ HLA-B*39:34 chain		subclass	HLA-B chain
 HLA-B*39:35 chain		subclass	HLA-B chain		
 HLA-B*39:36 chain		subclass	HLA-B chain		
 HLA-B*39:37 chain		subclass	HLA-B chain		
+HLA-B*39:38Q chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*39:39 chain		subclass	HLA-B chain		
 HLA-B*39:40 chain		subclass	HLA-B chain		
 HLA-B*39:41 chain		subclass	HLA-B chain		
@@ -8036,7 +8061,7 @@ HLA-B*41:52 chain		subclass	HLA-B chain
 HLA-B*41:53 chain		subclass	HLA-B chain		
 HLA-B*41:54 chain		subclass	HLA-B chain		
 HLA-B*41:55 chain		subclass	HLA-B chain		
-HLA-B*41:56 chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
+HLA-B*41:56Q chain		subclass	HLA-B chain		evidence of MHC chain expression questionable
 HLA-B*41:57 chain		subclass	HLA-B chain		
 HLA-B*41:58 chain		subclass	HLA-B chain		
 HLA-B*41:59 chain		subclass	HLA-B chain		
@@ -8738,6 +8763,7 @@ HLA-B*51:07 chain		subclass	HLA-B chain
 HLA-B*51:08 chain		subclass	HLA-B chain		
 HLA-B*51:09 chain		subclass	HLA-B chain		
 HLA-B*51:10 chain		subclass	HLA-B chain		
+HLA-B*51:11N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*51:12 chain		subclass	HLA-B chain		
 HLA-B*51:13 chain		subclass	HLA-B chain		
 HLA-B*51:14 chain		subclass	HLA-B chain		
@@ -9188,6 +9214,7 @@ HLA-B*54:01 chain		subclass	HLA-B chain
 HLA-B*54:02 chain		subclass	HLA-B chain		
 HLA-B*54:03 chain		subclass	HLA-B chain		
 HLA-B*54:04 chain		subclass	HLA-B chain		
+HLA-B*54:05N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*54:06 chain		subclass	HLA-B chain		
 HLA-B*54:07 chain		subclass	HLA-B chain		
 HLA-B*54:09 chain		subclass	HLA-B chain		
@@ -10066,7 +10093,8 @@ HLA-C*03:17 chain		subclass	HLA-C chain
 HLA-C*03:18 chain		subclass	HLA-C chain		
 HLA-C*03:19 chain		subclass	HLA-C chain		
 HLA-C*03:21 chain		subclass	HLA-C chain		
-HLA-C*03:23 chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
+HLA-C*03:22Q chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
+HLA-C*03:23N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*03:24 chain		subclass	HLA-C chain		
 HLA-C*03:25 chain		subclass	HLA-C chain		
 HLA-C*03:26 chain		subclass	HLA-C chain		
@@ -10316,7 +10344,7 @@ HLA-C*03:280 chain		subclass	HLA-C chain
 HLA-C*03:281 chain		subclass	HLA-C chain		
 HLA-C*03:282 chain		subclass	HLA-C chain		
 HLA-C*03:283 chain		subclass	HLA-C chain		
-HLA-C*03:284 chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
+HLA-C*03:284N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*03:285 chain		subclass	HLA-C chain		
 HLA-C*03:286 chain		subclass	HLA-C chain		
 HLA-C*03:287 chain		subclass	HLA-C chain		
@@ -10542,6 +10570,7 @@ HLA-C*04:05 chain		subclass	HLA-C chain
 HLA-C*04:06 chain		subclass	HLA-C chain		
 HLA-C*04:07 chain		subclass	HLA-C chain		
 HLA-C*04:08 chain		subclass	HLA-C chain		
+HLA-C*04:09N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*04:10 chain		subclass	HLA-C chain		
 HLA-C*04:11 chain		subclass	HLA-C chain		
 HLA-C*04:12 chain		subclass	HLA-C chain		
@@ -10590,7 +10619,7 @@ HLA-C*04:56 chain		subclass	HLA-C chain
 HLA-C*04:57 chain		subclass	HLA-C chain		
 HLA-C*04:58 chain		subclass	HLA-C chain		
 HLA-C*04:60 chain		subclass	HLA-C chain		
-HLA-C*04:61 chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
+HLA-C*04:61N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*04:62 chain		subclass	HLA-C chain		
 HLA-C*04:63 chain		subclass	HLA-C chain		
 HLA-C*04:64 chain		subclass	HLA-C chain		
@@ -10844,7 +10873,7 @@ HLA-C*04:334 chain		subclass	HLA-C chain
 HLA-C*04:335 chain		subclass	HLA-C chain		
 HLA-C*04:336 chain		subclass	HLA-C chain		
 HLA-C*04:337 chain		subclass	HLA-C chain		
-HLA-C*04:338 chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
+HLA-C*04:338Q chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
 HLA-C*04:339 chain		subclass	HLA-C chain		
 HLA-C*04:340 chain		subclass	HLA-C chain		
 HLA-C*04:341 chain		subclass	HLA-C chain		
@@ -11453,6 +11482,7 @@ HLA-C*07:28 chain		subclass	HLA-C chain
 HLA-C*07:29 chain		subclass	HLA-C chain		
 HLA-C*07:30 chain		subclass	HLA-C chain		
 HLA-C*07:31 chain		subclass	HLA-C chain		
+HLA-C*07:32N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*07:35 chain		subclass	HLA-C chain		
 HLA-C*07:36 chain		subclass	HLA-C chain		
 HLA-C*07:37 chain		subclass	HLA-C chain		
@@ -11634,7 +11664,7 @@ HLA-C*07:222 chain		subclass	HLA-C chain
 HLA-C*07:223 chain		subclass	HLA-C chain		
 HLA-C*07:224 chain		subclass	HLA-C chain		
 HLA-C*07:225 chain		subclass	HLA-C chain		
-HLA-C*07:226 chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
+HLA-C*07:226Q chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
 HLA-C*07:228 chain		subclass	HLA-C chain		
 HLA-C*07:229 chain		subclass	HLA-C chain		
 HLA-C*07:230 chain		subclass	HLA-C chain		
@@ -11832,7 +11862,7 @@ HLA-C*07:428 chain		subclass	HLA-C chain
 HLA-C*07:429 chain		subclass	HLA-C chain		
 HLA-C*07:430 chain		subclass	HLA-C chain		
 HLA-C*07:431 chain		subclass	HLA-C chain		
-HLA-C*07:432 chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
+HLA-C*07:432Q chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
 HLA-C*07:433 chain		subclass	HLA-C chain		
 HLA-C*07:434 chain		subclass	HLA-C chain		
 HLA-C*07:435 chain		subclass	HLA-C chain		
@@ -12091,7 +12121,7 @@ HLA-C*07:709 chain		subclass	HLA-C chain
 HLA-C*07:710 chain		subclass	HLA-C chain		
 HLA-C*07:711 chain		subclass	HLA-C chain		
 HLA-C*07:712 chain		subclass	HLA-C chain		
-HLA-C*07:713 chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
+HLA-C*07:713Q chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
 HLA-C*07:714 chain		subclass	HLA-C chain		
 HLA-C*07:715 chain		subclass	HLA-C chain		
 HLA-C*07:716 chain		subclass	HLA-C chain		
@@ -12555,7 +12585,7 @@ HLA-C*12:135 chain		subclass	HLA-C chain
 HLA-C*12:136 chain		subclass	HLA-C chain		
 HLA-C*12:137 chain		subclass	HLA-C chain		
 HLA-C*12:138 chain		subclass	HLA-C chain		
-HLA-C*12:139 chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
+HLA-C*12:139Q chain		subclass	HLA-C chain		evidence of MHC chain expression questionable
 HLA-C*12:140 chain		subclass	HLA-C chain		
 HLA-C*12:141 chain		subclass	HLA-C chain		
 HLA-C*12:142 chain		subclass	HLA-C chain		
@@ -12736,6 +12766,7 @@ HLA-C*14:03 chain		subclass	HLA-C chain
 HLA-C*14:04 chain		subclass	HLA-C chain		
 HLA-C*14:05 chain		subclass	HLA-C chain		
 HLA-C*14:06 chain		subclass	HLA-C chain		
+HLA-C*14:07N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
 HLA-C*14:08 chain		subclass	HLA-C chain		
 HLA-C*14:09 chain		subclass	HLA-C chain		
 HLA-C*14:10 chain		subclass	HLA-C chain		
@@ -14384,7 +14415,7 @@ HLA-DQA1*01:03 chain		subclass	HLA-DQA chain
 HLA-DQA1*01:04 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:05 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:06 chain		subclass	HLA-DQA chain		
-HLA-DQA1*01:07 chain		subclass	HLA-DQA chain		evidence of MHC chain expression questionable
+HLA-DQA1*01:07Q chain		subclass	HLA-DQA chain		evidence of MHC chain expression questionable
 HLA-DQA1*01:08 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:09 chain		subclass	HLA-DQA chain		
 HLA-DQA1*01:10 chain		subclass	HLA-DQA chain		
