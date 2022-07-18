@@ -211,6 +211,11 @@ refresh-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.f
 refresh-hla-seqs: src/scripts/update_seqs.py ontology/chain-sequence.tsv build/hla.fasta
 	python3 $^ -o -H
 
+# Diff chain sequences against `master` as a table.
+build/chain-sequence-diff.tsv: ontology/chain-sequence.tsv
+	head -n1 $< > $@
+	git diff --unified=0 master | grep "^[+-]HLA-" >> $@
+
 build/hla_prot.fasta: | build
 	curl -o $@ -L https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/hla_prot.fasta
 
