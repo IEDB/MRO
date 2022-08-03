@@ -78,6 +78,7 @@ NCBITaxon:88029	northern plains gray langur	Semnopithecus entellus		subclass	org
 NCBITaxon:90387	northern pig-tailed macaque	Macaca leonina		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Malo
 NCBITaxon:100937	Guinea baboon	Papio papio		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Papp
 NCBITaxon:182253	Guatemalan black howler	Alouatta pigra		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Alpi
+NCBITaxon:246437	Chinese tree shrew	Tupaia chinensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Tube
 NCBITaxon:499232	eastern gorilla	Gorilla beringei		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gobe
 PR:000000001	protein	protein		subclass	material entity					http://purl.obolibrary.org/obo/pr.owl	
 PR:000004580	Beta-2-microglobulin	Beta-2-microglobulin		equivalent	protein	('gene product of' some 'Beta-2-microglobulin gene')	A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof.			http://purl.obolibrary.org/obo/pr.owl	
