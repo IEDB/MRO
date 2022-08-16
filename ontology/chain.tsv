@@ -896,6 +896,8 @@ Chae-B*27:01 chain		subclass	Chae-B chain
 Chae-G chain		equivalent	protein	Chae-G gene	
 Chae-G*02:01 chain		subclass	Chae-G chain		
 Chae-G*02:02 chain		subclass	Chae-G chain		
+Chinese tree shrew MHC class I chain		equivalent	protein	Chinese tree shrew MHC class I gene	
+Chinese tree shrew MHC class II chain		equivalent	protein	Chinese tree shrew MHC class II gene	
 Ctid-UAA chain		equivalent	protein	Ctid-UAA gene	
 DLA-64 chain		equivalent	protein	DLA-64 gene	
 DLA-64*001:01:01 chain		subclass	DLA-64 chain		
