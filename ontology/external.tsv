@@ -8,6 +8,7 @@ NCBITaxon:8030	atlantic salmon	Salmo salar		subclass	organism					http://purl.ob
 NCBITaxon:8355	clawed frog	Xenopus laevis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Xela
 NCBITaxon:8839	duck	Anas platyrhynchos		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Anpl
 NCBITaxon:9031	chicken	Gallus gallus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gaga
+NCBITaxon:9305	Tasmanian devil	Sarcophilus harrisii		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Saha
 NCBITaxon:9337	common brushtail	Trichosurus vulpecula		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Trvu
 NCBITaxon:9402	black flying fox	Pteropus alecto		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Ptal
 NCBITaxon:9483	marmoset	Callithrix jacchus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Caja
