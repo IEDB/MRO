@@ -1,6 +1,6 @@
 git+https://github.com/ontodev/axle.git
 cerberus
-Flask==1.0.2
+Flask==2.3.2
 ontodev-gizmos==0.2.0
 markdown
 openpyxl
