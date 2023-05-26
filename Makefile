@@ -160,10 +160,10 @@ update-tsv: update-tsv-files sort build/whitespace.tsv
 # Update TSV files from Excel
 .PHONY: update-tsv-files
 update-tsv-files:
-	python3 src/scripts/xlsx2tsv.py mro.xlsx index > index.tsv
-	python3 src/scripts/xlsx2tsv.py mro.xlsx iedb > iedb/iedb.tsv
-	python3 src/scripts/xlsx2tsv.py mro.xlsx iedb-manual > iedb/iedb-manual.tsv
-	$(foreach t,$(tables) rejected,python3 src/scripts/xlsx2tsv.py mro.xlsx $(t) > ontology/$(t).tsv;)
+	xlsx2csv -d tab -n index mro.xlsx > index.tsv
+	xlsx2csv -d tab -n iedb mro.xlsx > iedb/iedb.tsv
+	xlsx2csv -d tab -n iedb-manual mro.xlsx > iedb/iedb-manual.tsv
+	$(foreach t,$(tables) rejected,xlsx2csv -d tab -n $(t) mro.xlsx > ontology/$(t).tsv;)
 	python3 src/scripts/sort.py $(source_files)
 
 # Sort TSVs

@@ -6,3 +6,4 @@ markdown
 openpyxl
 psycopg2-binary
 urlp
+xlsx2csv

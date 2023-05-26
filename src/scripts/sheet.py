@@ -2,12 +2,7 @@
 
 import cgi
 import os
-import sys
 
-from axle.add import add
-from axle.init import init
-from axle.fetch import fetch
-from axle.merge import merge
 from openpyxl import load_workbook
 from urllib.parse import parse_qsl
 
@@ -151,34 +146,8 @@ def main():
     elif action == "upload":
         # Save XLSX to mro.xlsx
         os.chdir("../..")
-        wb = load_workbook(fields["upload_mro"].file)
-        wb.save("mro.xlsx")
-
-        # Create new AXLE project and update the existing TSVs
-        if not os.path.exists(".axle"):
-            init("mro", filepath="mro.xlsx")
-            # Add the sheets in the correct order
-            add("index.tsv")
-            add("iedb/iedb.tsv")
-            for sheet in [
-                "ontology/genetic-locus",
-                "ontology/haplotype",
-                "ontology/serotype",
-                "ontology/chain",
-                "ontology/chain-sequence",
-                "ontology/molecule",
-                "ontology/haplotype-molecule",
-                "ontology/serotype-molecule",
-                "ontology/mutant-molecule",
-                "ontology/core",
-                "ontology/external",
-                "iedb/iedb-manual",
-                "ontology/evidence",
-                "ontology/rejected",
-            ]:
-                add(sheet + ".tsv")
-        fetch()
-        merge()
+        open("mro.xlsx", "wb").write(fields["upload_mro"].file.read())
+        os.system("make update-tsv")
 
 
 if __name__ == "__main__":
