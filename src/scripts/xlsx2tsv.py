@@ -13,7 +13,7 @@ parser.add_argument('sheet',
     help='Sheet name to read')
 args = parser.parse_args()
 
-wb = load_workbook(args.input)
+wb = load_workbook(args.input, read_only=True)
 ws = wb[args.sheet]
 
 for row in ws:
