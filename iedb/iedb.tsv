@@ -820,7 +820,7 @@ H2-Qa-1b protein complex	911	Q1	352115
 HLA-DPA1*01:03/DPB1*02:12 protein complex	912	DP		
 HLA-DPB1*85:01 protein complex	913	DP		357876
 HLA-DRB1*14:06 protein complex	914	DR		365102
-Mafa-DQB1*18:01 protein complex	915	DQB1		370972
+Mafa-DQB1*18:01 protein complex	915	DQ		370972
 Mafa-DRB*w5:01 protein complex	916	DR		
 HLA protein complex with B78 serotype	917	B		
 SLA-1*07:02 protein complex	918	1	379461	
@@ -878,8 +878,8 @@ Mamu-A protein complex	969
 Mamu-B protein complex	970			
 SLA-1 protein complex	971			
 Anpl-UAA protein complex	972			
-Mafa-DQB protein complex	973			
-Mafa-DRB protein complex	974			
+Mafa-DQB protein complex	973	DQ		
+Mafa-DRB protein complex	974	DR		
 Papa-A protein complex	975			
 HLA-DQA1*01:03 protein complex	976	DQ	300716	
 HLA-DPA1*03:01 protein complex	977	DP	300696	
@@ -22679,3 +22679,5 @@ Tasmanian devil MHC class I protein complex	22771
 Tasmanian devil MHC class II protein complex	22772			
 HLA-DQA1*03:02/DQB1*02:01 protein complex	22773	DQ		
 HLA-DQA1*03:02/DQB1*02:02 protein complex	22774	DQ		
+Mafa-DPA1*07:02/DPB1*19:03 protein complex	22775	DP		
+Mafa-DRA*02:01/DRB*w5:01 protein complex	22776	DR		

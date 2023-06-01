@@ -19577,10 +19577,15 @@ Mafa-B*203:01 chain		subclass	Mafa-B chain
 Mafa-B*203:02 chain		subclass	Mafa-B chain		
 Mafa-B*205:01:01:01 chain		subclass	Mafa-B chain		
 Mafa-B*206:01 chain		subclass	Mafa-B chain		
+Mafa-DPA1*07:02 chain		subclass	Mafa-DPA chain		
+Mafa-DPA chain		equivalent	protein	Mafa-DPA gene	
+Mafa-DPB1*19:03 chain		subclass	Mafa-DPB chain		
+Mafa-DPB chain		equivalent	protein	Mafa-DPB gene	
 Mafa-DQA chain		equivalent	protein	Mafa-DQA gene	
 Mafa-DQB1*18:01 chain		subclass	Mafa-DQB chain		
 Mafa-DQB chain		equivalent	protein	Mafa-DQB gene	
 Mafa-DRA chain		equivalent	protein	Mafa-DRA gene	
+Mafa-DRA*02:01 chain		subclass	Mafa-DRA chain		
 Mafa-DRB chain		equivalent	protein	Mafa-DRB gene	
 Mafa-DRB*w5:01 chain		subclass	Mafa-DRB chain		
 Mafa-E chain		equivalent	protein	Mafa-E gene	

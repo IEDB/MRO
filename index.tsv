@@ -51287,3 +51287,12 @@ MRO:0051285	Tasmanian devil MHC class I gene	owl:Class
 MRO:0051286	Tasmanian devil MHC class II gene	owl:Class	
 MRO:0051287	Tasmanian devil MHC class I protein complex	owl:Class	
 MRO:0051288	Tasmanian devil MHC class II protein complex	owl:Class	
+MRO:0051289	Mafa-DPA1*07:02 chain	owl:Class	
+MRO:0051290	Mafa-DPA chain	owl:Class	
+MRO:0051291	Mafa-DPB1*19:03 chain	owl:Class	
+MRO:0051292	Mafa-DPB chain	owl:Class	
+MRO:0051293	Mafa-DRA*02:01 chain	owl:Class	
+MRO:0051294	Mafa-DPA gene	owl:Class	
+MRO:0051295	Mafa-DPB gene	owl:Class	
+MRO:0051296	Mafa-DPA1*07:02/DPB1*19:03 protein complex	owl:Class	
+MRO:0051297	Mafa-DRA*02:01/DRB*w5:01 protein complex	owl:Class	
