@@ -22681,3 +22681,6 @@ HLA-DQA1*03:02/DQB1*02:01 protein complex	22773	DQ
 HLA-DQA1*03:02/DQB1*02:02 protein complex	22774	DQ		
 Mafa-DPA1*07:02/DPB1*19:03 protein complex	22775	DP		
 Mafa-DRA*02:01/DRB*w5:01 protein complex	22776	DR		
+HLA-A protein complex	22777	A		
+HLA-B protein complex	22778	B		
+HLA-C protein complex	22779	C		
