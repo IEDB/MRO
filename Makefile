@@ -318,7 +318,7 @@ build/mro-iedb.owl: mro.owl build/iedb.tsv iedb/iedb-manual.tsv | build/robot.ja
 	--output $@
 
 build/mro-tdb: build/mro-iedb.owl
-	rm -f $@
+	rm -rf $@
 	$(ROBOT) query --input $< \
 	--create-tdb true \
 	--tdb-directory $@
