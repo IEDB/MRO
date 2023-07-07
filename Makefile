@@ -317,12 +317,13 @@ build/mro-iedb.owl: mro.owl build/iedb.tsv iedb/iedb-manual.tsv | build/robot.ja
 	--merge-before \
 	--output $@
 
-build/.mro-tdb: build/mro-iedb.owl
+build/mro-tdb: build/mro-iedb.owl
+	rm -f $@
 	$(ROBOT) query --input $< \
 	--create-tdb true \
 	--tdb-directory $@
 
-build/mhc_allele_restriction.csv: build/.mro-tdb src/queries/mhc_allele_restriction.rq | build/robot.jar
+build/mhc_allele_restriction.csv: build/mro-tdb src/queries/mhc_allele_restriction.rq | build/robot.jar
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
@@ -334,7 +335,7 @@ build/mhc_allele_restriction.tsv: src/scripts/clean.py build/mhc_allele_restrict
 build/molecule_export.tsv: src/scripts/export_molecule.py index.tsv ontology/external.tsv ontology/molecule.tsv
 	python3 $^ $@
 
-build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/queries/names.rq | build/robot.jar iedb
+build/ALLELE_FINDER_NAMES.csv: build/mro-tdb src/queries/names.rq | build/robot.jar iedb
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
@@ -343,7 +344,7 @@ build/ALLELE_FINDER_NAMES.csv: build/.mro-tdb src/queries/names.rq | build/robot
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/queries/search.rq | build/robot.jar iedb
+build/ALLELE_FINDER_SEARCH.csv: build/mro-tdb src/queries/search.rq | build/robot.jar iedb
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
@@ -352,7 +353,7 @@ build/ALLELE_FINDER_SEARCH.csv: build/.mro-tdb src/queries/search.rq | build/rob
 	tail -n+2 $@.tmp | dos2unix > $@
 	rm $@.tmp
 
-build/parents.csv: build/.mro-tdb src/queries/parents.rq | build/robot.jar
+build/parents.csv: build/mro-tdb src/queries/parents.rq | build/robot.jar
 	$(ROBOT) query \
 	--tdb-directory $< \
 	--keep-tdb-mappings true \
