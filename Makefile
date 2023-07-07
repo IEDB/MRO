@@ -445,10 +445,11 @@ build/diff.html: src/scripts/diff.py src/scripts/diff.html $(DIFF_TABLES)
 .PHONY: prepare
 prepare: sort
 prepare: clean
-prepare: build/mro.db
+# prepare: build/mro.db
 prepare: update-seqs
+prepare: test
 prepare: update-iedb
-prepare: build/diff.html
+# prepare: build/diff.html
 
 .PHONY: clean
 clean:
@@ -458,7 +459,7 @@ clean:
 	rm -f mro.owl.gz
 
 .PHONY: all
-all: clean test
+all: clean prepare
 
 
 ### Release
@@ -467,19 +468,17 @@ all: clean test
 iedb.zip: $(IEDB_TARGETS)
 	zip -rj $@ $^
 
-# Provide all commits since last tag (excluding merges)
-.PHONY: build/release-notes.txt
-build/release-notes.txt: | build
-	rm -f $@
-	echo "New in this release:" >> $@
-	git log $$(git describe --tags --abbrev=0)..HEAD --no-merges --oneline \
-	| sed "s/^/* /" >> $@
-
 # Release using GitHub CLI
 # GITHUB_TOKEN env variable must be set to a PAT with "repo" permissions
 # https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token
 .PHONY: release
-release: mro.owl iedb.zip build/release-notes.txt
-	gh release create v$(TODAY) mro.owl iedb.zip \
-	-t "$(TODAY) Release" \
-	-F build/release-notes.txt
+release: mro.owl iedb.zip
+	# Make sure we're not ahead or behind origin/master
+	git branch --show-current | grep master
+	git fetch
+	! git status -uno | grep -E "(ahead|behind)"
+	# Make the release
+	gh release create v$(TODAY) \
+	--title "$(TODAY) Release" \
+	--generate-notes \
+	mro.owl iedb.zip
