@@ -51296,3 +51296,9 @@ MRO:0051294	Mafa-DPA gene	owl:Class
 MRO:0051295	Mafa-DPB gene	owl:Class	
 MRO:0051296	Mafa-DPA1*07:02/DPB1*19:03 protein complex	owl:Class	
 MRO:0051297	Mafa-DRA*02:01/DRB*w5:01 protein complex	owl:Class	
+MRO:0051298	Anpl-UAA*77 chain	owl:Class	
+MRO:0051299	Anpl-UAA*77 protein complex	owl:Class	
+MRO:0051300	Anpl-UAA*78 chain	owl:Class	
+MRO:0051301	Anpl-UAA*78 protein complex	owl:Class	
+MRO:0051302	mutant duck MHC class I protein complex	owl:Class	
+MRO:0051303	Anpl-UAA*78 I62N mutant protein complex	owl:Class	
