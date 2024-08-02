@@ -472,7 +472,7 @@ iedb.zip: $(IEDB_TARGETS)
 # GITHUB_TOKEN env variable must be set to a PAT with "repo" permissions
 # https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token
 .PHONY: release
-release: mro.owl iedb.zip
+release: mro.owl mro.xlsx iedb.zip
 	# Make sure we're not ahead or behind origin/master
 	git branch --show-current | grep master
 	git fetch
@@ -481,4 +481,4 @@ release: mro.owl iedb.zip
 	gh release create v$(TODAY) \
 	--title "$(TODAY) Release" \
 	--generate-notes \
-	mro.owl iedb.zip
+	$^
