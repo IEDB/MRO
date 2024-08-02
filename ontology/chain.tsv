@@ -21097,6 +21097,9 @@ Mamu-I*01:51:01:01 chain		subclass	Mamu-I chain
 Mamu-I*01:52:01:01 chain		subclass	Mamu-I chain		
 Mamu-I*03:01 chain		subclass	Mamu-I chain		
 Mamu-MR1 chain		equivalent	protein	Mamu-MR1 gene	
+Mane-A1*003:01 chain		subclass	Mane-A chain		
+Mane-A1*003:02 chain		subclass	Mane-A chain		
+Mane-A chain		equivalent	protein	Mane-A gene	
 Milne Edward's macaque MHC class I chain		equivalent	protein	Milne Edward's macaque MHC class I gene	
 Milne Edward's macaque MHC class II chain		equivalent	protein	Milne Edward's macaque MHC class II gene	
 Nancy Ma's night monkey MHC class I chain		equivalent	protein	Nancy Ma's night monkey MHC class I gene	

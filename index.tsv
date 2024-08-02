@@ -51302,3 +51302,9 @@ MRO:0051300	Anpl-UAA*78 chain	owl:Class
 MRO:0051301	Anpl-UAA*78 protein complex	owl:Class	
 MRO:0051302	mutant duck MHC class I protein complex	owl:Class	
 MRO:0051303	Anpl-UAA*78 I62N mutant protein complex	owl:Class	
+MRO:0051304	Mane-A gene	owl:Class	
+MRO:0051305	Mane-A chain	owl:Class	
+MRO:0051306	Mane-A1*003:01 chain	owl:Class	
+MRO:0051307	Mane-A1*003:02 chain	owl:Class	
+MRO:0051308	Mane-A1*003:01 protein complex	owl:Class	
+MRO:0051309	Mane-A1*003:02 protein complex	owl:Class	
