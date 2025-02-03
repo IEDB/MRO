@@ -63,6 +63,7 @@ BoLA-1*061:01 chain		subclass	BoLA-1 chain
 BoLA-1*067:01 chain		subclass	BoLA-1 chain		
 BoLA-1*074:01 chain		subclass	BoLA-1 chain		
 BoLA-1*097:01 chain		subclass	BoLA-1 chain		
+BoLA-1*100:01 chain		subclass	BoLA-1 chain		
 BoLA-2 chain		equivalent	protein	BoLA-2 gene	
 BoLA-2*005:01 chain		subclass	BoLA-2 chain		
 BoLA-2*006:01 chain		subclass	BoLA-2 chain		

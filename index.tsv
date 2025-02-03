@@ -51308,3 +51308,5 @@ MRO:0051306	Mane-A1*003:01 chain	owl:Class
 MRO:0051307	Mane-A1*003:02 chain	owl:Class	
 MRO:0051308	Mane-A1*003:01 protein complex	owl:Class	
 MRO:0051309	Mane-A1*003:02 protein complex	owl:Class	
+MRO:0051310	BoLA-1*100:01 chain	owl:Class	
+MRO:0051311	BoLA-1*100:01 protein complex	owl:Class	
