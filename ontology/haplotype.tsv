@@ -8,6 +8,7 @@ A6 haplotype		subclass	horse haplotype
 A7 haplotype		subclass	horse haplotype	
 A8 haplotype		subclass	horse haplotype	
 A9 haplotype		subclass	horse haplotype	
+B1 haplotype		subclass	duck haplotype	
 B2 haplotype		subclass	chicken haplotype	
 B4 haplotype		subclass	chicken haplotype	
 B12 haplotype		subclass	chicken haplotype	
@@ -53,6 +54,7 @@ W11 haplotype		subclass	horse haplotype
 YF1 haplotype		subclass	chicken haplotype	
 cattle haplotype		equivalent	MHC haplotype	cattle
 chicken haplotype		equivalent	MHC haplotype	chicken
+duck haplotype		equivalent	MHC haplotype	duck
 horse haplotype		equivalent	MHC haplotype	horse
 mouse haplotype		equivalent	MHC haplotype	mouse
 pig haplotype		equivalent	MHC haplotype	pig

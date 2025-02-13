@@ -24,6 +24,8 @@ chicken MHC protein complex with BF19 haplotype	BF19		haplotype	equivalent	MHC p
 chicken MHC protein complex with BF21 haplotype	BF21		haplotype	equivalent	MHC protein complex	chicken	BF21 haplotype
 chicken MHC protein complex with YF1 haplotype	YF1		haplotype	equivalent	MHC protein complex	chicken	YF1 haplotype
 chicken MHC protein complex with haplotype	chicken		haplotype	equivalent	MHC protein complex	chicken	MHC haplotype
+duck MHC class I protein complex with B1 haplotype	B1 class I		haplotype	equivalent	MHC class I protein complex	duck	B1 haplotype
+duck MHC protein complex with haplotype	duck		haplotype	equivalent	MHC protein complex	duck	MHC haplotype
 horse MHC class I protein complex with A1 haplotype	ELA-A1 class I	A1	haplotype	equivalent	MHC class I protein complex	horse	A1 haplotype
 horse MHC class I protein complex with A3 haplotype	ELA-A3 class I	A3	haplotype	equivalent	MHC class I protein complex	horse	A3 haplotype
 horse MHC class I protein complex with A4 haplotype	ELA-A4 class I	A4	haplotype	equivalent	MHC class I protein complex	horse	A4 haplotype
