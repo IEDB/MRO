@@ -455,6 +455,7 @@ prepare: update-iedb
 clean:
 	rm -rf mro.owl
 	rm -rf build
+	rm -rf lib
 	rm -f iedb.zip
 	rm -f mro.owl.gz
 
