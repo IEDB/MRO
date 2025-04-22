@@ -1012,7 +1012,10 @@ Eqca-N*005:01 chain		subclass	Eqca-N chain
 Eqca-N*006:01 chain		subclass	Eqca-N chain		
 Eqca-N*00602 chain		subclass	Eqca-N chain		
 FLA-E chain		equivalent	protein	FLA-E gene	
+FLA-E*00301 chain		subclass	FLA-E chain		
 FLA-E*01801 chain		subclass	FLA-E chain		
+FLA-K chain		equivalent	protein	FLA-K gene	
+FLA-K*00701 chain		subclass	FLA-K chain		
 Gaga-BF1 chain		equivalent	protein	Gaga-BF1 gene	
 Gaga-BF1*002:01 chain		subclass	Gaga-BF1 chain		
 Gaga-BF2 chain		equivalent	protein	Gaga-BF2 gene	

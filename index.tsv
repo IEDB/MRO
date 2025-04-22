@@ -51317,3 +51317,10 @@ MRO:0051315	duck haplotype	owl:Class
 MRO:0051316	B1 haplotype	owl:Class	
 MRO:0051317	duck MHC protein complex with haplotype	owl:Class	
 MRO:0051318	duck MHC class I protein complex with B1 haplotype	owl:Class	
+MRO:0051319	FLA-E*00301 chain	owl:Class	
+MRO:0051320	FLA-E*00301 protein complex	owl:Class	
+MRO:0051321	FLA-K gene	owl:Class	
+MRO:0051322	FLA-K chain	owl:Class	
+MRO:0051323	FLA-K*00701 chain	owl:Class	
+MRO:0051324	FLA-K protein complex	owl:Class	
+MRO:0051325	FLA-K*00701 protein complex	owl:Class	
