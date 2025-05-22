@@ -51240,7 +51240,7 @@ MRO:0051238	HLA-B*39:38Q chain	owl:Class
 MRO:0051239	HLA-B*51:11N chain	owl:Class	
 MRO:0051240	HLA-B*54:05N chain	owl:Class	
 MRO:0051241	HLA-C*03:22Q chain	owl:Class	
-MRO:0051242	HLA-C*04:09N chain	owl:Class	
+MRO:0051242	HLA-C*04:09 chain	owl:Class	
 MRO:0051243	HLA-C*07:32N chain	owl:Class	
 MRO:0051244	HLA-C*14:07N chain	owl:Class	
 MRO:0051245	Anpl-UAA*76 chain	owl:Class	
@@ -51271,7 +51271,7 @@ MRO:0051269	HLA-B*39:38Q protein complex	owl:Class
 MRO:0051270	HLA-B*51:11N protein complex	owl:Class	
 MRO:0051271	HLA-B*54:05N protein complex	owl:Class	
 MRO:0051272	HLA-C*03:22Q protein complex	owl:Class	
-MRO:0051273	HLA-C*04:09N protein complex	owl:Class	
+MRO:0051273	HLA-C*04:09 protein complex	owl:Class	
 MRO:0051274	HLA-C*07:32N protein complex	owl:Class	
 MRO:0051275	HLA-C*14:07N protein complex	owl:Class	
 MRO:0051276	Anpl-UAA*76 protein complex	owl:Class	
@@ -51324,3 +51324,4 @@ MRO:0051322	FLA-K chain	owl:Class
 MRO:0051323	FLA-K*00701 chain	owl:Class	
 MRO:0051324	FLA-K protein complex	owl:Class	
 MRO:0051325	FLA-K*00701 protein complex	owl:Class	
+MRO:0051326	HLA-C*04:09 P366A mutant protein complex	owl:Class	

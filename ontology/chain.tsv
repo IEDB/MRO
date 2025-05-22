@@ -10578,7 +10578,7 @@ HLA-C*04:05 chain		subclass	HLA-C chain
 HLA-C*04:06 chain		subclass	HLA-C chain		
 HLA-C*04:07 chain		subclass	HLA-C chain		
 HLA-C*04:08 chain		subclass	HLA-C chain		
-HLA-C*04:09N chain		subclass	HLA-C chain		evidence of MHC chain expression not observed
+HLA-C*04:09 chain		subclass	HLA-C chain		
 HLA-C*04:10 chain		subclass	HLA-C chain		
 HLA-C*04:11 chain		subclass	HLA-C chain		
 HLA-C*04:12 chain		subclass	HLA-C chain		
