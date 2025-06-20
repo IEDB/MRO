@@ -1,6 +1,28 @@
 {
     "species": [
         {
+            "mhc_code": "HLA",
+            "taxon": "human",
+            "class_I": [
+                "A",
+                "B",
+                "C"
+            ],
+            "pairing": {
+                "DQA": "DQB",
+                "DRA": "DRB",
+                "DPA": "DPB"
+            },
+            "pairing_rev": {
+                "DQB": "DQA",
+                "DRB1": "DRA",
+                "DRB3": "DRA",
+                "DRB4": "DRA",
+                "DRB5": "DRA",
+                "DPA": "DPB"
+            }
+        },
+        {
             "mhc_code": "Onmy",
             "taxon": "rainbow trout",
             "class_I": [
