@@ -51325,3 +51325,5 @@ MRO:0051323	FLA-K*00701 chain	owl:Class
 MRO:0051324	FLA-K protein complex	owl:Class	
 MRO:0051325	FLA-K*00701 protein complex	owl:Class	
 MRO:0051326	HLA-C*04:09 P366A mutant protein complex	owl:Class	
+MRO:0051327	Gaga-BF2*015:02 chain	owl:Class	
+MRO:0051328	Gaga-BF2*015:02 protein complex	owl:Class	
