@@ -10,6 +10,7 @@ graphviz-images/
 junk/
 lib/
 mro-import.owl
+mro-protein-complexes.tsv
 mro.xlsx
 mro.owl
 iedb.zip

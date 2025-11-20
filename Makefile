@@ -469,11 +469,21 @@ all: clean prepare
 iedb.zip: $(IEDB_TARGETS)
 	zip -rj $@ $^
 
+# Export a table of all terms under 'MHC protein complex'
+mro-protein-complexes.tsv: iedb/mro-iedb.owl | build/robot.jar
+	$(ROBOT) extract \
+	--input $< \
+	--method MIREOT \
+	--branch-from-term GO:0042611 \
+	export \
+	--header "id|label|IEDB alternative term|alternative term" \
+	--export $@
+
 # Release using GitHub CLI
 # GITHUB_TOKEN env variable must be set to a PAT with "repo" permissions
 # https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token
 .PHONY: release
-release: mro.owl mro.xlsx iedb.zip
+release: mro.owl mro.xlsx mro-protein-complexes.tsv iedb.zip
 	# Make sure we're not ahead or behind origin/master
 	git branch --show-current | grep master
 	git fetch
