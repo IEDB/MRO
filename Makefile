@@ -261,6 +261,11 @@ build/mro-import.owl: build/eco-import.ttl build/iao-import.ttl build/obi-import
 	--upper-term "BFO:0000040" \
 	--upper-term "PR:000000001" \
 	--lower-terms $(word 5,$^) \
+	remove \
+	--term "COB:0000080" \
+	--term "GO:0005575" \
+	--term "UBERON:0000465" \
+	--term "UBERON:0001062" \
 	--output $@
 
 # fetch ontology dependencies

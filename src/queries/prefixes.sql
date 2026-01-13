@@ -15,10 +15,12 @@ INSERT OR IGNORE INTO prefix VALUES
 ('obo',  'http://purl.obolibrary.org/obo/'),
 
 ('BFO', 'http://purl.obolibrary.org/obo/BFO_'),
+('COB', 'http://purl.obolibrary.org/obo/COB_'),
 ('ECO', 'http://purl.obolibrary.org/obo/ECO_'),
 ('GO', 'http://purl.obolibrary.org/obo/GO_'),
 ('IAO', 'http://purl.obolibrary.org/obo/IAO_'),
 ('OBI', 'http://purl.obolibrary.org/obo/OBI_'),
 ('MRO', 'http://purl.obolibrary.org/obo/MRO_'),
 ('PR', 'http://purl.obolibrary.org/obo/PR_'),
-('RO', 'http://purl.obolibrary.org/obo/RO_');
+('RO', 'http://purl.obolibrary.org/obo/RO_'),
+('UBERON', 'http://purl.obolibrary.org/obo/UBERON_');
