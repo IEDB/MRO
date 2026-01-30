@@ -1100,7 +1100,7 @@ def main():
                     errors.append(
                         {
                             "table": "index",
-                            "cell": idx_to_a1(row_num, row.keys().index("Label") + 1),
+                            "cell": idx_to_a1(row_num, list(row.keys()).index("Label") + 1),
                             "level": "error",
                             "rule ID": "duplicate_label",
                             "rule": "duplicate label",
