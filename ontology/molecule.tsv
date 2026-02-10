@@ -745,6 +745,8 @@ BoLA-NC4*002:02 protein complex	BoLA-NC4*002:02		complete molecule	equivalent	no
 BoLA-NC4*003:01 protein complex	BoLA-NC4*003:01		complete molecule	equivalent	non-classical MHC protein complex	cattle	BoLA-NC4*003:01 chain	Beta-2-microglobulin		
 Bornean orangutan MHC class I protein complex	Bornean orangutan		class	equivalent	MHC class I protein complex	Bornean orangutan				
 Bornean orangutan MHC class II protein complex	Bornean orangutan		class	equivalent	MHC class II protein complex	Bornean orangutan				
+Cagi-DDA protein complex	Cagi-DDA		locus	equivalent	MHC class II protein complex	silver crucian carp	Cagi-DDA chain			
+Cagi-DFA protein complex	Cagi-DFA		locus	equivalent	MHC class II protein complex	silver crucian carp	Cagi-DFA chain			
 Caja-E protein complex	Caja-E		locus	equivalent	MHC class I protein complex	marmoset	Caja-E chain	Beta-2-microglobulin		
 Caja-E*03:01:01 protein complex	Caja-E*03:01:01		complete molecule	equivalent	MHC class I protein complex	marmoset	Caja-E*03:01:01 chain	Beta-2-microglobulin		
 Caja-E*03:02 protein complex	Caja-E*03:02		complete molecule	equivalent	MHC class I protein complex	marmoset	Caja-E*03:02 chain	Beta-2-microglobulin		
@@ -27585,6 +27587,8 @@ rhesus macaque MHC class I protein complex	rhesus macaque		class	equivalent	MHC 
 rhesus macaque MHC class II protein complex	rhesus macaque		class	equivalent	MHC class II protein complex	rhesus macaque				
 rhesus macaque MR1 protein complex	rhesus macaque MR1		complete molecule	equivalent	non-classical MHC protein complex	rhesus macaque	rhesus macaque MR1 chain	Beta-2-microglobulin		
 rhesus macaque non-classical MHC protein complex	rhesus macaque		class	equivalent	non-classical MHC protein complex	rhesus macaque				
+silver crucian carp MHC class I protein complex	silver crucian carp		class	equivalent	MHC class I protein complex	silver crucian carp				
+silver crucian carp MHC class II protein complex	silver crucian carp		class	equivalent	MHC class II protein complex	silver crucian carp				
 silvery Javan gibbon MHC class I protein complex	silvery Javan gibbon		class	equivalent	MHC class I protein complex	silvery Javan gibbon				
 silvery Javan gibbon MHC class II protein complex	silvery Javan gibbon		class	equivalent	MHC class II protein complex	silvery Javan gibbon				
 sooty mangabey MHC class I protein complex	sooty mangabey		class	equivalent	MHC class I protein complex	sooty mangabey				

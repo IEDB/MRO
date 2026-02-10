@@ -744,6 +744,8 @@ BoLA-NC4*002:02 chain		subclass	BoLA-NC4 chain
 BoLA-NC4*003:01 chain		subclass	BoLA-NC4 chain		
 Bornean orangutan MHC class I chain		equivalent	protein	Bornean orangutan MHC class I gene	
 Bornean orangutan MHC class II chain		equivalent	protein	Bornean orangutan MHC class II gene	
+Cagi-DDA chain		equivalent	protein	Cagi-DDA gene	
+Cagi-DFA chain		equivalent	protein	Cagi-DFA gene	
 Caja-E chain		equivalent	protein	Caja-E gene	
 Caja-E*03:01:01 chain		subclass	Caja-E chain		
 Caja-E*03:02 chain		subclass	Caja-E chain		
@@ -22657,6 +22659,8 @@ rhesus macaque MHC class I chain		equivalent	protein	rhesus macaque MHC class I 
 rhesus macaque MHC class II chain		equivalent	protein	rhesus macaque MHC class II gene	
 rhesus macaque MR1 chain		subclass	Mamu-MR1 chain		
 rhesus macaque non-classical MHC chain		equivalent	protein	rhesus macaque non-classical MHC gene	
+silver crucian carp MHC class I chain		equivalent	protein	silver crucian carp MHC class I gene	
+silver crucian carp MHC class II chain		equivalent	protein	silver crucian carp MHC class II gene	
 silvery Javan gibbon MHC class I chain		equivalent	protein	silvery Javan gibbon MHC class I gene	
 silvery Javan gibbon MHC class II chain		equivalent	protein	silvery Javan gibbon MHC class II gene	
 sooty mangabey MHC class I chain		equivalent	protein	sooty mangabey MHC class I gene	

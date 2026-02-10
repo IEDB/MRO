@@ -51327,3 +51327,15 @@ MRO:0051325	FLA-K*00701 protein complex	owl:Class
 MRO:0051326	HLA-C*04:09 P366A mutant protein complex	owl:Class	
 MRO:0051327	Gaga-BF2*015:02 chain	owl:Class	
 MRO:0051328	Gaga-BF2*015:02 protein complex	owl:Class	
+MRO:0051329	silver crucian carp MHC class I gene	owl:Class	
+MRO:0051330	silver crucian carp MHC class II gene	owl:Class	
+MRO:0051331	Cagi-DFA gene	owl:Class	
+MRO:0051332	Cagi-DDA gene	owl:Class	
+MRO:0051333	silver crucian carp MHC class I chain	owl:Class	
+MRO:0051334	silver crucian carp MHC class II chain	owl:Class	
+MRO:0051335	Cagi-DFA chain	owl:Class	
+MRO:0051336	Cagi-DDA chain	owl:Class	
+MRO:0051337	silver crucian carp MHC class I protein complex	owl:Class	
+MRO:0051338	silver crucian carp MHC class II protein complex	owl:Class	
+MRO:0051339	Cagi-DFA protein complex	owl:Class	
+MRO:0051340	Cagi-DDA protein complex	owl:Class	

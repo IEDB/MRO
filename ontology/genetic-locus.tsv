@@ -32,6 +32,8 @@ BoLA-NC3 gene		subclass	cattle non-classical MHC gene
 BoLA-NC4 gene		subclass	cattle non-classical MHC gene	
 Bornean orangutan MHC class I gene		subclass	MHC class I gene	Bornean orangutan
 Bornean orangutan MHC class II gene		subclass	MHC class II gene	Bornean orangutan
+Cagi-DDA gene		subclass	silver crucian carp MHC class II gene	
+Cagi-DFA gene		subclass	silver crucian carp MHC class II gene	
 Caja-B4 gene		subclass	marmoset MHC class I gene	
 Caja-B5 gene		subclass	marmoset MHC class I gene	
 Caja-B6 gene		subclass	marmoset MHC class I gene	
@@ -369,6 +371,8 @@ red-bellied titi MHC class II gene		subclass	MHC class II gene	red-bellied titi
 rhesus macaque MHC class I gene		subclass	MHC class I gene	rhesus macaque
 rhesus macaque MHC class II gene		subclass	MHC class II gene	rhesus macaque
 rhesus macaque non-classical MHC gene		subclass	non-classical MHC gene	rhesus macaque
+silver crucian carp MHC class I gene		subclass	MHC class I gene	silver crucian carp
+silver crucian carp MHC class II gene		subclass	MHC class II gene	silver crucian carp
 silvery Javan gibbon MHC class I gene		subclass	MHC class I gene	silvery Javan gibbon
 silvery Javan gibbon MHC class II gene		subclass	MHC class II gene	silvery Javan gibbon
 sooty mangabey MHC class I gene		subclass	MHC class I gene	sooty mangabey

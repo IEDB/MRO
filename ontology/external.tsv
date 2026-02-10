@@ -78,6 +78,7 @@ NCBITaxon:81572	silvery Javan gibbon	Hylobates moloch		subclass	organism					htt
 NCBITaxon:88029	northern plains gray langur	Semnopithecus entellus		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Seen
 NCBITaxon:90387	northern pig-tailed macaque	Macaca leonina		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Malo
 NCBITaxon:100937	Guinea baboon	Papio papio		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Papp
+NCBITaxon:101364	silver crucian carp	Carassius gibelio		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Cagi
 NCBITaxon:182253	Guatemalan black howler	Alouatta pigra		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Alpi
 NCBITaxon:246437	Chinese tree shrew	Tupaia chinensis		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Tube
 NCBITaxon:499232	eastern gorilla	Gorilla beringei		subclass	organism					http://purl.obolibrary.org/obo/ncbitaxon.owl	Gobe
