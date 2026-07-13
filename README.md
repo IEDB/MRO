@@ -1,10 +1,6 @@
 # MHC Restriction Ontology (MRO)
 
-[![Build Status](https://travis-ci.com/IEDB/MRO.svg?branch=master)](https://travis-ci.com/IEDB/MRO)
-
-[**Download the latest release of MRO.**](http://purl.obolibrary.org/obo/mro.owl)
-
-[Download the development version of MRO.](mro.owl?raw=true)
+[**Download the latest release of MRO.**](https://github.com/IEDB/MRO/releases/latest/download/mro.owl)
 
 We recommend [Protégé 5 beta](http://protege.stanford.edu/products.php#desktop-protege) for viewing MRO in OWL format.
 
