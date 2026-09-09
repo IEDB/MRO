@@ -5380,6 +5380,7 @@ HLA-B*08:02 chain		subclass	HLA-B chain
 HLA-B*08:03 chain		subclass	HLA-B chain		
 HLA-B*08:04 chain		subclass	HLA-B chain		
 HLA-B*08:05 chain		subclass	HLA-B chain		
+HLA-B*08:06 chain		subclass	HLA-B chain		
 HLA-B*08:07 chain		subclass	HLA-B chain		
 HLA-B*08:08N chain		subclass	HLA-B chain		evidence of MHC chain expression not observed
 HLA-B*08:09 chain		subclass	HLA-B chain		
@@ -10956,6 +10957,7 @@ HLA-C*04:421 chain		subclass	HLA-C chain
 HLA-C*04:422 chain		subclass	HLA-C chain		
 HLA-C*04:423 chain		subclass	HLA-C chain		
 HLA-C*04:424 chain		subclass	HLA-C chain		
+HLA-C*04:449 chain		subclass	HLA-C chain		
 HLA-C*05:01 chain		subclass	HLA-C chain		
 HLA-C*05:03 chain		subclass	HLA-C chain		
 HLA-C*05:04 chain		subclass	HLA-C chain		
@@ -14525,6 +14527,7 @@ HLA-DQA1*05:24 chain		subclass	HLA-DQA chain
 HLA-DQA1*05:25 chain		subclass	HLA-DQA chain		
 HLA-DQA1*06:01 chain		subclass	HLA-DQA chain		
 HLA-DQA1*06:02 chain		subclass	HLA-DQA chain		
+HLA-DQA1*06:03 chain		subclass	HLA-DQA chain		
 HLA-DQA chain		equivalent	protein	HLA-DQA gene	
 HLA-DQB1*02:01 chain		subclass	HLA-DQB chain		
 HLA-DQB1*02:02 chain		subclass	HLA-DQB chain		
@@ -14687,6 +14690,7 @@ HLA-DQB1*02:170 chain		subclass	HLA-DQB chain
 HLA-DQB1*02:172 chain		subclass	HLA-DQB chain		
 HLA-DQB1*02:173 chain		subclass	HLA-DQB chain		
 HLA-DQB1*02:174 chain		subclass	HLA-DQB chain		
+HLA-DQB1*02:180 chain		subclass	HLA-DQB chain		
 HLA-DQB1*03:01 chain		subclass	HLA-DQB chain		
 HLA-DQB1*03:02 chain		subclass	HLA-DQB chain		
 HLA-DQB1*03:03 chain		subclass	HLA-DQB chain		
