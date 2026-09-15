@@ -4128,7 +4128,7 @@ HLA-A*31:04 protein complex	HLA-A*31:04		complete molecule	equivalent	MHC class 
 HLA-A*31:05 protein complex	HLA-A*31:05		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:05 chain	Beta-2-microglobulin		
 HLA-A*31:06 protein complex	HLA-A*31:06		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:06 chain	Beta-2-microglobulin		
 HLA-A*31:07 protein complex	HLA-A*31:07		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:07 chain	Beta-2-microglobulin		
-HLA-A*31:08 protein complex	HLA-A*31:08		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:08 chain	Beta-2-microglobulin		
+HLA-A*31:08 protein complex	HLA-A*31:08	HLA-A*24:16	complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:08 chain	Beta-2-microglobulin		
 HLA-A*31:09 protein complex	HLA-A*31:09		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:09 chain	Beta-2-microglobulin		
 HLA-A*31:10 protein complex	HLA-A*31:10		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:10 chain	Beta-2-microglobulin		
 HLA-A*31:11 protein complex	HLA-A*31:11		complete molecule	equivalent	MHC class I protein complex	human	HLA-A*31:11 chain	Beta-2-microglobulin		
@@ -5357,7 +5357,6 @@ HLA-B*08:02 protein complex	HLA-B*08:02		complete molecule	equivalent	MHC class 
 HLA-B*08:03 protein complex	HLA-B*08:03		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:03 chain	Beta-2-microglobulin		HLA-B8 serotype
 HLA-B*08:04 protein complex	HLA-B*08:04		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:04 chain	Beta-2-microglobulin		
 HLA-B*08:05 protein complex	HLA-B*08:05		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:05 chain	Beta-2-microglobulin		
-HLA-B*08:06 protein complex	HLA-B*08:06		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:06 chain	Beta-2-microglobulin		
 HLA-B*08:07 protein complex	HLA-B*08:07		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:07 chain	Beta-2-microglobulin		
 HLA-B*08:08N protein complex	HLA-B*08:08N		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-B*08:08N chain	Beta-2-microglobulin		
 HLA-B*08:09 protein complex	HLA-B*08:09		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:09 chain	Beta-2-microglobulin		
@@ -5371,7 +5370,7 @@ HLA-B*08:16 protein complex	HLA-B*08:16		complete molecule	equivalent	MHC class 
 HLA-B*08:17 protein complex	HLA-B*08:17		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:17 chain	Beta-2-microglobulin		
 HLA-B*08:18 protein complex	HLA-B*08:18		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:18 chain	Beta-2-microglobulin		
 HLA-B*08:19N protein complex	HLA-B*08:19N		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-B*08:19N chain	Beta-2-microglobulin		
-HLA-B*08:20 protein complex	HLA-B*08:20		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:20 chain	Beta-2-microglobulin		
+HLA-B*08:20 protein complex	HLA-B*08:20	HLA-B*08:06	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:20 chain	Beta-2-microglobulin		
 HLA-B*08:21 protein complex	HLA-B*08:21		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:21 chain	Beta-2-microglobulin		
 HLA-B*08:22 protein complex	HLA-B*08:22		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:22 chain	Beta-2-microglobulin		
 HLA-B*08:23 protein complex	HLA-B*08:23		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*08:23 chain	Beta-2-microglobulin		
@@ -6796,7 +6795,7 @@ HLA-B*35:39 protein complex	HLA-B*35:39		complete molecule	equivalent	MHC class 
 HLA-B*35:40N protein complex	HLA-B*35:40N		complete molecule	equivalent	non-classical MHC protein complex	human	HLA-B*35:40N chain	Beta-2-microglobulin		
 HLA-B*35:41 protein complex	HLA-B*35:41		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:41 chain	Beta-2-microglobulin		
 HLA-B*35:42 protein complex	HLA-B*35:42		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:42 chain	Beta-2-microglobulin		
-HLA-B*35:43 protein complex	HLA-B*35:43		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:43 chain	Beta-2-microglobulin		
+HLA-B*35:43 protein complex	HLA-B*35:43	HLA-B*15:22	complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:43 chain	Beta-2-microglobulin		
 HLA-B*35:44 protein complex	HLA-B*35:44		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:44 chain	Beta-2-microglobulin		
 HLA-B*35:45 protein complex	HLA-B*35:45		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:45 chain	Beta-2-microglobulin		
 HLA-B*35:46 protein complex	HLA-B*35:46		complete molecule	equivalent	MHC class I protein complex	human	HLA-B*35:46 chain	Beta-2-microglobulin		
