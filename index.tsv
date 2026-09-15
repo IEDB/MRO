@@ -51342,8 +51342,8 @@ MRO:0051340	Cagi-DDA protein complex	owl:Class
 MRO:0051341	HLA-DQA1*06:01 protein complex	owl:Class	
 MRO:0051342	HLA-C*04:449 protein complex	owl:Class	
 MRO:0051343	HLA-C*04:449 chain	owl:Class	
-MRO:0051344	HLA-B*08:06 chain	owl:Class	true
-MRO:0051345	HLA-B*08:06 protein complex	owl:Class	true
+MRO:0051344	obsolete HLA-B*08:06 chain	owl:Class	true
+MRO:0051345	obsolete HLA-B*08:06 protein complex	owl:Class	true
 MRO:0051346	HLA-DQA1*06:03 chain	owl:Class	
 MRO:0051347	HLA-DQA1*06:03 protein complex	owl:Class	
 MRO:0051348	HLA-DPB1*08:01 protein complex	owl:Class	
