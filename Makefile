@@ -66,7 +66,7 @@ build build/validate build/master build/diff:
 # We use the official development version of ROBOT for most things.
 
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.9.10/robot.jar
 
 # Download rdftab based on operating system
 
