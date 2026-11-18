@@ -4,6 +4,5 @@ Flask==2.3.2
 ontodev-gizmos==0.2.0
 markdown
 openpyxl
-psycopg2-binary
 urlp
 xlsx2csv
